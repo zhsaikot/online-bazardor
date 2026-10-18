@@ -292,7 +292,7 @@ export default function BagSlideOver({
                       href={
                         bestSingleStore.store.id === 'chaldal' ? 'https://chaldal.com' :
                         bestSingleStore.store.id === 'shwapno' ? 'https://www.shwapno.com' :
-                        bestSingleStore.store.id === 'pandamart' ? 'https://www.foodpanda.com.bd' : 'https://www.meenaclick.com'
+                        bestSingleStore.store.id === 'pandamart' ? 'https://www.foodpanda.com.bd/groceries' : 'https://meenabazaronline.com'
                       }
                       target="_blank"
                       rel="noopener noreferrer"
@@ -327,7 +327,7 @@ export default function BagSlideOver({
                           href={
                             s.store.id === 'chaldal' ? 'https://chaldal.com' :
                             s.store.id === 'shwapno' ? 'https://www.shwapno.com' :
-                            s.store.id === 'pandamart' ? 'https://www.foodpanda.com.bd' : 'https://www.meenaclick.com'
+                            s.store.id === 'pandamart' ? 'https://www.foodpanda.com.bd/groceries' : 'https://meenabazaronline.com'
                           }
                           target="_blank"
                           rel="noopener noreferrer"

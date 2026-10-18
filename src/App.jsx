@@ -500,6 +500,7 @@ function AppContent() {
                           onAdd={handleAddToBasket}
                           onRemove={handleRemoveFromBasket}
                           onOpenDetails={(p) => setDetailProduct(p)}
+                          selectedStores={selectedStores}
                         />
                       );
                     })}

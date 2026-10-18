@@ -475,14 +475,14 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
         price: pandamartPrice,
         inStock: true,
         discountText: mrp > pandamartPrice ? `৳${mrp - pandamartPrice} ছাড়` : 'MRP',
-        url: `https://www.foodpanda.com.bd/darkstore/search?q=${encodeURIComponent(nameEn)}`,
+        url: `https://www.foodpanda.com.bd/restaurants?search=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       },
       meenaclick: {
         price: meenaclickPrice,
         inStock: true,
         discountText: mrp > meenaclickPrice ? `৳${mrp - meenaclickPrice} ছাড়` : 'লাইভ রেট',
-        url: `https://www.meenaclick.com/search?query=${encodeURIComponent(nameEn)}`,
+        url: `https://meenabazaronline.com/search?keyword=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       }
     }
@@ -586,14 +586,14 @@ export async function syncAllProducts() {
           price: pandamartPrice,
           inStock: true,
           discountText: mrp > pandamartPrice ? `৳${mrp - pandamartPrice} ছাড়` : 'MRP',
-          url: `https://www.foodpanda.com.bd/darkstore/search?q=${encodeURIComponent(item.query)}`,
+          url: `https://www.foodpanda.com.bd/restaurants?search=${encodeURIComponent(item.query)}`,
           isVerifiedLive: true
         },
         meenaclick: {
           price: meenaclickPrice,
           inStock: true,
           discountText: mrp > meenaclickPrice ? `৳${mrp - meenaclickPrice} ছাড়` : 'লাইভ রেট',
-          url: `https://www.meenaclick.com/search?query=${encodeURIComponent(item.query)}`,
+          url: `https://meenabazaronline.com/search?keyword=${encodeURIComponent(item.query)}`,
           isVerifiedLive: true
         }
       }

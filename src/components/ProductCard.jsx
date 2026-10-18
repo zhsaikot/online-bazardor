@@ -8,25 +8,34 @@ export default function ProductCard({
   quantityInBasket = 0, 
   onAdd, 
   onRemove, 
-  onOpenDetails 
+  onOpenDetails,
+  selectedStores = ['chaldal', 'shwapno', 'pandamart', 'meenaclick']
 }) {
   const { lang, t } = useLanguage();
+
+  // Filter stores according to selectedStores
+  const activeEntries = Object.entries(product.prices).filter(([storeKey]) => 
+    selectedStores.includes(storeKey)
+  );
+  const availableEntries = activeEntries.length > 0 ? activeEntries : Object.entries(product.prices);
 
   // Find minimum price among stores in stock
   let minPrice = Infinity;
   let lowestStoreKey = null;
 
-  Object.entries(product.prices).forEach(([storeKey, data]) => {
+  availableEntries.forEach(([storeKey, data]) => {
     if (data.inStock && data.price < minPrice) {
       minPrice = data.price;
       lowestStoreKey = storeKey;
     }
   });
 
-  const inStockEntries = Object.entries(product.prices).filter(([_, d]) => d.inStock);
+  const inStockEntries = availableEntries.filter(([_, d]) => d.inStock);
   const allSamePrice = inStockEntries.length > 0 && inStockEntries.every(([_, d]) => d.price === minPrice);
   const hasRealLowest = !allSamePrice;
-  const lowestStore = (hasRealLowest && lowestStoreKey) ? STORES[lowestStoreKey] : null;
+  const lowestStore = (hasRealLowest && lowestStoreKey) 
+    ? STORES[lowestStoreKey] 
+    : (lowestStoreKey ? STORES[lowestStoreKey] : null);
   const savingsVsMrp = product.mrp ? Math.max(0, product.mrp - minPrice) : 0;
 
   return (
@@ -114,6 +123,7 @@ export default function ProductCard({
           {Object.entries(product.prices).map(([storeKey, data]) => {
             const store = STORES[storeKey];
             const isLowest = hasRealLowest && storeKey === lowestStoreKey;
+            const isSelected = selectedStores.includes(storeKey);
             return (
               <a 
                 key={storeKey} 
@@ -124,8 +134,10 @@ export default function ProductCard({
                 title={lang === 'bn' ? `${store.name}-এ সরাসরি দেখুন` : `Open original item in ${store.name}`}
                 className={`flex items-center justify-between text-[10px] sm:text-[11px] py-1 px-1.5 rounded-lg transition group/store ${
                   isLowest 
-                    ? 'bg-emerald-100/70 font-bold text-emerald-900 hover:bg-emerald-200/80' 
-                    : 'text-slate-600 hover:bg-white hover:text-slate-900 shadow-2xs hover:shadow-xs'
+                    ? 'bg-emerald-100/80 font-bold text-emerald-900 hover:bg-emerald-200/90 ring-1 ring-emerald-300' 
+                    : isSelected
+                    ? 'text-slate-700 hover:bg-white hover:text-slate-900 shadow-2xs hover:shadow-xs'
+                    : 'text-slate-400 opacity-60 hover:opacity-100'
                 }`}
               >
                 <div className="flex items-center gap-1.5 min-w-0">

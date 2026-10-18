@@ -55,8 +55,8 @@ export const STORES = {
   },
   "meenaclick": {
     "id": "meenaclick",
-    "name": "Meena Click",
-    "nameBn": "মীনা ক্লিক",
+    "name": "Meena Bazar",
+    "nameBn": "মীনা বাজার",
     "color": "#059669",
     "bgColor": "bg-emerald-600",
     "textColor": "text-emerald-600",
@@ -67,7 +67,7 @@ export const STORES = {
     "deliveryTime": "২-৩ ঘণ্টা",
     "deliveryTimeEn": "2-3 hrs",
     "rating": 4.3,
-    "logoText": "MeenaClick",
+    "logoText": "MeenaBazar",
     "accentHex": "#059669"
   }
 };
@@ -139,7 +139,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/rupchanda-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182966&q=best&v=1",
     "mrp": 975,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:07.647Z",
+    "lastSyncedAt": "2026-10-18T05:57:07.772Z",
     "prices": {
       "chaldal": {
         "price": 975,
@@ -159,14 +159,14 @@ export const PRODUCTS = [
         "price": 975,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=rupchanda%205%20ltr",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=rupchanda%205%20ltr",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 975,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=rupchanda%205%20ltr",
+        "url": "https://meenabazaronline.com/search?keyword=rupchanda%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -180,7 +180,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/teer-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136107&q=best&v=1",
     "mrp": 975,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:07.782Z",
+    "lastSyncedAt": "2026-10-18T05:57:07.924Z",
     "prices": {
       "chaldal": {
         "price": 975,
@@ -200,14 +200,14 @@ export const PRODUCTS = [
         "price": 975,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20fortified%20soyabean%20oil%205%20ltr",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=teer%20fortified%20soyabean%20oil%205%20ltr",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 975,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=teer%20fortified%20soyabean%20oil%205%20ltr",
+        "url": "https://meenabazaronline.com/search?keyword=teer%20fortified%20soyabean%20oil%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -221,7 +221,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/fuchs-titan-super-gear-oil-sae-140-4-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D41785&q=best&v=1",
     "mrp": 1150,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:07.937Z",
+    "lastSyncedAt": "2026-10-18T05:57:08.094Z",
     "prices": {
       "chaldal": {
         "price": 1150,
@@ -241,14 +241,14 @@ export const PRODUCTS = [
         "price": 1150,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=fresh%20fortified%20soyabean%20oil%201%20ltr",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=fresh%20fortified%20soyabean%20oil%201%20ltr",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 1150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=fresh%20fortified%20soyabean%20oil%201%20ltr",
+        "url": "https://meenabazaronline.com/search?keyword=fresh%20fortified%20soyabean%20oil%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -262,7 +262,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-pure-mustard-oil-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132550&q=best&v=1",
     "mrp": 200,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:08.040Z",
+    "lastSyncedAt": "2026-10-18T05:57:08.238Z",
     "prices": {
       "chaldal": {
         "price": 200,
@@ -282,14 +282,14 @@ export const PRODUCTS = [
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20pure%20mustard%20oil%20500%20ml",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=radhuni%20pure%20mustard%20oil%20500%20ml",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=radhuni%20pure%20mustard%20oil%20500%20ml",
+        "url": "https://meenabazaronline.com/search?keyword=radhuni%20pure%20mustard%20oil%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -303,7 +303,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/aarong-dairy-pure-ghee-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D26926&q=low&v=1",
     "mrp": 390,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:08.175Z",
+    "lastSyncedAt": "2026-10-18T05:57:08.380Z",
     "prices": {
       "chaldal": {
         "price": 390,
@@ -323,14 +323,14 @@ export const PRODUCTS = [
         "price": 390,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=aarong%20dairy%20pure%20ghee%20200%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=aarong%20dairy%20pure%20ghee%20200%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 390,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=aarong%20dairy%20pure%20ghee%20200%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=aarong%20dairy%20pure%20ghee%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -344,7 +344,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
     "mrp": 439,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:08.344Z",
+    "lastSyncedAt": "2026-10-18T05:57:08.528Z",
     "prices": {
       "chaldal": {
         "price": 439,
@@ -364,14 +364,14 @@ export const PRODUCTS = [
         "price": 439,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=miniket%20rice%20premium%20boiled%205%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=miniket%20rice%20premium%20boiled%205%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 439,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=miniket%20rice%20premium%20boiled%205%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=miniket%20rice%20premium%20boiled%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -385,7 +385,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/nazirshail-rice-premium-half-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48083&q=best&v=1",
     "mrp": 479,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:08.493Z",
+    "lastSyncedAt": "2026-10-18T05:57:08.680Z",
     "prices": {
       "chaldal": {
         "price": 449,
@@ -405,14 +405,14 @@ export const PRODUCTS = [
         "price": 479,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 479,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -426,7 +426,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/chashi-aromatic-chinigura-rice-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126657&q=best&v=1",
     "mrp": 190,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:08.627Z",
+    "lastSyncedAt": "2026-10-18T05:57:08.815Z",
     "prices": {
       "chaldal": {
         "price": 190,
@@ -446,14 +446,14 @@ export const PRODUCTS = [
         "price": 190,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=chashi%20aromatic%20chinigura%20rice%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=chashi%20aromatic%20chinigura%20rice%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 190,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=chashi%20aromatic%20chinigura%20rice%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=chashi%20aromatic%20chinigura%20rice%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -467,7 +467,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/moshur-dal-deshi-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182384&q=best&v=1",
     "mrp": 179,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:08.763Z",
+    "lastSyncedAt": "2026-10-18T05:57:08.954Z",
     "prices": {
       "chaldal": {
         "price": 159,
@@ -487,14 +487,14 @@ export const PRODUCTS = [
         "price": 179,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=moshur%20dal%20deshi%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=moshur%20dal%20deshi%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 179,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=moshur%20dal%20deshi%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=moshur%20dal%20deshi%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -508,7 +508,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/chola-boot-chick-peas-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126716&q=best&v=1",
     "mrp": 109,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:08.905Z",
+    "lastSyncedAt": "2026-10-18T05:57:09.087Z",
     "prices": {
       "chaldal": {
         "price": 109,
@@ -528,14 +528,14 @@ export const PRODUCTS = [
         "price": 109,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=chola%20boot%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=chola%20boot%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 109,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=chola%20boot%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=chola%20boot%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -549,7 +549,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/teer-flour-atta-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101280&q=best&v=1",
     "mrp": 130,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.038Z",
+    "lastSyncedAt": "2026-10-18T05:57:09.209Z",
     "prices": {
       "chaldal": {
         "price": 130,
@@ -569,14 +569,14 @@ export const PRODUCTS = [
         "price": 130,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20flour%20atta%202%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=teer%20flour%20atta%202%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 130,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=teer%20flour%20atta%202%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=teer%20flour%20atta%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -590,7 +590,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/teer-white-flour-maida-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101278&q=best&v=1",
     "mrp": 140,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.109Z",
+    "lastSyncedAt": "2026-10-18T05:57:09.280Z",
     "prices": {
       "chaldal": {
         "price": 140,
@@ -610,14 +610,14 @@ export const PRODUCTS = [
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20maida",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=teer%20maida",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=teer%20maida",
+        "url": "https://meenabazaronline.com/search?keyword=teer%20maida",
         "isVerifiedLive": true
       }
     }
@@ -631,7 +631,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/fresh-suji-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D97221&q=best&v=1",
     "mrp": 48,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.229Z",
+    "lastSyncedAt": "2026-10-18T05:57:09.405Z",
     "prices": {
       "chaldal": {
         "price": 48,
@@ -651,14 +651,14 @@ export const PRODUCTS = [
         "price": 48,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=fresh%20suji%20500%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=fresh%20suji%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 48,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=fresh%20suji%20500%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=fresh%20suji%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -672,7 +672,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/deshi-peyaj-local-onion-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D52358&q=low&v=1",
     "mrp": 50,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.388Z",
+    "lastSyncedAt": "2026-10-18T05:57:09.552Z",
     "prices": {
       "chaldal": {
         "price": 39,
@@ -692,14 +692,14 @@ export const PRODUCTS = [
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=deshi%20peyaj%20local%20onion%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=deshi%20peyaj%20local%20onion%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=deshi%20peyaj%20local%20onion%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=deshi%20peyaj%20local%20onion%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -713,7 +713,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/potato-regular-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164304&q=best&v=1",
     "mrp": 29,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.527Z",
+    "lastSyncedAt": "2026-10-18T05:57:09.677Z",
     "prices": {
       "chaldal": {
         "price": 29,
@@ -733,14 +733,14 @@ export const PRODUCTS = [
         "price": 29,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=potato%20regular%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=potato%20regular%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 29,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=potato%20regular%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=potato%20regular%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -754,7 +754,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1",
     "mrp": 109,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.610Z",
+    "lastSyncedAt": "2026-10-18T05:57:09.762Z",
     "prices": {
       "chaldal": {
         "price": 79,
@@ -774,14 +774,14 @@ export const PRODUCTS = [
         "price": 109,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=garlic%20china%20roshun",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=garlic%20china%20roshun",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 109,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=garlic%20china%20roshun",
+        "url": "https://meenabazaronline.com/search?keyword=garlic%20china%20roshun",
         "isVerifiedLive": true
       }
     }
@@ -795,7 +795,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/deshi-ada-local-ginger-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163274&q=best&v=1",
     "mrp": 109,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.754Z",
+    "lastSyncedAt": "2026-10-18T05:57:09.892Z",
     "prices": {
       "chaldal": {
         "price": 85,
@@ -815,14 +815,14 @@ export const PRODUCTS = [
         "price": 109,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=deshi%20ada%20local%20ginger%20500%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=deshi%20ada%20local%20ginger%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 109,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=deshi%20ada%20local%20ginger%20500%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=deshi%20ada%20local%20ginger%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -836,7 +836,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28576&q=low&v=1",
     "mrp": 89,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.882Z",
+    "lastSyncedAt": "2026-10-18T05:57:10.043Z",
     "prices": {
       "chaldal": {
         "price": 89,
@@ -856,14 +856,14 @@ export const PRODUCTS = [
         "price": 89,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=kacha%20morich%20green%20chilli%20250%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=kacha%20morich%20green%20chilli%20250%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 89,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=kacha%20morich%20green%20chilli%20250%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=kacha%20morich%20green%20chilli%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -877,7 +877,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
     "mrp": 99,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:09.990Z",
+    "lastSyncedAt": "2026-10-18T05:57:10.161Z",
     "prices": {
       "chaldal": {
         "price": 99,
@@ -897,14 +897,14 @@ export const PRODUCTS = [
         "price": 99,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=red%20tomato%20500%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=red%20tomato%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 99,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=red%20tomato%20500%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=red%20tomato%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -918,7 +918,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/lomba-lebu-long-lemon-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64362&q=low&v=1",
     "mrp": 39,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:10.095Z",
+    "lastSyncedAt": "2026-10-18T05:57:10.275Z",
     "prices": {
       "chaldal": {
         "price": 29,
@@ -938,14 +938,14 @@ export const PRODUCTS = [
         "price": 39,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=lomba%20lebu%204%20pcs",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=lomba%20lebu%204%20pcs",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 39,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=lomba%20lebu%204%20pcs",
+        "url": "https://meenabazaronline.com/search?keyword=lomba%20lebu%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -959,7 +959,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
     "mrp": 135,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:10.211Z",
+    "lastSyncedAt": "2026-10-18T05:57:10.399Z",
     "prices": {
       "chaldal": {
         "price": 135,
@@ -979,14 +979,14 @@ export const PRODUCTS = [
         "price": 135,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=chicken%20eggs%20layer%2012%20pcs",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=chicken%20eggs%20layer%2012%20pcs",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 135,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=chicken%20eggs%20layer%2012%20pcs",
+        "url": "https://meenabazaronline.com/search?keyword=chicken%20eggs%20layer%2012%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -1000,7 +1000,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/bengal-meat-whole-chicken-curry-cut-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74653&q=best&v=1",
     "mrp": 465,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:10.370Z",
+    "lastSyncedAt": "2026-10-18T05:57:10.558Z",
     "prices": {
       "chaldal": {
         "price": 465,
@@ -1020,14 +1020,14 @@ export const PRODUCTS = [
         "price": 465,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=bengal%20meat%20whole%20chicken%20curry%20cut%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=bengal%20meat%20whole%20chicken%20curry%20cut%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 465,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=bengal%20meat%20whole%20chicken%20curry%20cut%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=bengal%20meat%20whole%20chicken%20curry%20cut%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -1041,7 +1041,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/live-cock-chicken-processed-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165313&q=best&v=1&m=400",
     "mrp": 355,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:10.514Z",
+    "lastSyncedAt": "2026-10-18T05:57:10.689Z",
     "prices": {
       "chaldal": {
         "price": 319,
@@ -1061,14 +1061,14 @@ export const PRODUCTS = [
         "price": 355,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=live%20cock%20chicken%20processed%20500%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=live%20cock%20chicken%20processed%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 355,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=live%20cock%20chicken%20processed%20500%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=live%20cock%20chicken%20processed%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1082,7 +1082,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/beef-bone-in-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73985&q=low&v=1",
     "mrp": 799,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:10.702Z",
+    "lastSyncedAt": "2026-10-18T05:57:10.867Z",
     "prices": {
       "chaldal": {
         "price": 799,
@@ -1102,14 +1102,14 @@ export const PRODUCTS = [
         "price": 799,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=beef%20bone%20in%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=beef%20bone%20in%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 799,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=beef%20bone%20in%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=beef%20bone%20in%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -1123,7 +1123,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/beef-boneless-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73564&q=low&v=1",
     "mrp": 619,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:10.809Z",
+    "lastSyncedAt": "2026-10-18T05:57:10.994Z",
     "prices": {
       "chaldal": {
         "price": 619,
@@ -1143,14 +1143,14 @@ export const PRODUCTS = [
         "price": 619,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=beef%20boneless%20500%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=beef%20boneless%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 619,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=beef%20boneless%20500%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=beef%20boneless%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1164,7 +1164,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/whole-hilsha-fish-asto-ilish-50-gm-12-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164153&q=best&v=1",
     "mrp": 3399,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:10.928Z",
+    "lastSyncedAt": "2026-10-18T05:57:11.100Z",
     "prices": {
       "chaldal": {
         "price": 3399,
@@ -1184,14 +1184,14 @@ export const PRODUCTS = [
         "price": 3399,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=whole%20hilsha%20fish%201.2%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=whole%20hilsha%20fish%201.2%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 3399,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=whole%20hilsha%20fish%201.2%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=whole%20hilsha%20fish%201.2%20kg",
         "isVerifiedLive": true
       }
     }
@@ -1205,7 +1205,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/gura-chingri-shrimp-15-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103458&q=best&v=1",
     "mrp": 249,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:11.060Z",
+    "lastSyncedAt": "2026-10-18T05:57:11.220Z",
     "prices": {
       "chaldal": {
         "price": 249,
@@ -1225,14 +1225,14 @@ export const PRODUCTS = [
         "price": 249,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=gura%20chingri%20shrimp%20250%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=gura%20chingri%20shrimp%20250%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 249,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=gura%20chingri%20shrimp%20250%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=gura%20chingri%20shrimp%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1246,7 +1246,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/teer-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101003&q=best&v=1",
     "mrp": 110,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:11.195Z",
+    "lastSyncedAt": "2026-10-18T05:57:11.359Z",
     "prices": {
       "chaldal": {
         "price": 110,
@@ -1266,14 +1266,14 @@ export const PRODUCTS = [
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20sugar%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=teer%20sugar%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=teer%20sugar%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=teer%20sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -1287,7 +1287,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/aci-pure-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D47100&q=best&v=1",
     "mrp": 42,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:11.348Z",
+    "lastSyncedAt": "2026-10-18T05:57:11.484Z",
     "prices": {
       "chaldal": {
         "price": 42,
@@ -1307,14 +1307,14 @@ export const PRODUCTS = [
         "price": 42,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=aci%20pure%20salt%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=aci%20pure%20salt%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 42,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=aci%20pure%20salt%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=aci%20pure%20salt%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -1328,7 +1328,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-turmeric-holud-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132554&q=best&v=1",
     "mrp": 75,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:11.469Z",
+    "lastSyncedAt": "2026-10-18T05:57:11.630Z",
     "prices": {
       "chaldal": {
         "price": 75,
@@ -1348,14 +1348,14 @@ export const PRODUCTS = [
         "price": 75,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20turmeric%20powder%20100%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=radhuni%20turmeric%20powder%20100%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 75,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=radhuni%20turmeric%20powder%20100%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=radhuni%20turmeric%20powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1369,7 +1369,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-chilli-morich-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132510&q=best&v=1",
     "mrp": 140,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:11.595Z",
+    "lastSyncedAt": "2026-10-18T05:57:11.767Z",
     "prices": {
       "chaldal": {
         "price": 140,
@@ -1389,14 +1389,14 @@ export const PRODUCTS = [
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20chilli%20morich%20powder%20200%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=radhuni%20chilli%20morich%20powder%20200%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=radhuni%20chilli%20morich%20powder%20200%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=radhuni%20chilli%20morich%20powder%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1410,7 +1410,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132521&q=best&v=1",
     "mrp": 160,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:11.725Z",
+    "lastSyncedAt": "2026-10-18T05:57:11.900Z",
     "prices": {
       "chaldal": {
         "price": 160,
@@ -1430,14 +1430,14 @@ export const PRODUCTS = [
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20cumin%20jira%20powder%20100%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=radhuni%20cumin%20jira%20powder%20100%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=radhuni%20cumin%20jira%20powder%20100%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=radhuni%20cumin%20jira%20powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1451,7 +1451,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-biryani-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109980&q=best&v=1",
     "mrp": 60,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:11.848Z",
+    "lastSyncedAt": "2026-10-18T05:57:12.022Z",
     "prices": {
       "chaldal": {
         "price": 60,
@@ -1471,14 +1471,14 @@ export const PRODUCTS = [
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20biryani%20masala%2040%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=radhuni%20biryani%20masala%2040%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=radhuni%20biryani%20masala%2040%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=radhuni%20biryani%20masala%2040%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1492,7 +1492,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/milk-vita-pasteurized-standardized-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177270&q=low&v=1",
     "mrp": 100,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:11.989Z",
+    "lastSyncedAt": "2026-10-18T05:57:12.174Z",
     "prices": {
       "chaldal": {
         "price": 100,
@@ -1512,14 +1512,14 @@ export const PRODUCTS = [
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=milk%20vita%20pasteurized%20standardized%20milk%201%20ltr",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=milk%20vita%20pasteurized%20standardized%20milk%201%20ltr",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=milk%20vita%20pasteurized%20standardized%20milk%201%20ltr",
+        "url": "https://meenabazaronline.com/search?keyword=milk%20vita%20pasteurized%20standardized%20milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -1533,7 +1533,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/aarong-dairy-pasteurized-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D119561&q=best&v=1",
     "mrp": 105,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:12.154Z",
+    "lastSyncedAt": "2026-10-18T05:57:12.342Z",
     "prices": {
       "chaldal": {
         "price": 105,
@@ -1553,14 +1553,14 @@ export const PRODUCTS = [
         "price": 105,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=aarong%20dairy%20pasteurized%20liquid%20milk%201%20ltr",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=aarong%20dairy%20pasteurized%20liquid%20milk%201%20ltr",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 105,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=aarong%20dairy%20pasteurized%20liquid%20milk%201%20ltr",
+        "url": "https://meenabazaronline.com/search?keyword=aarong%20dairy%20pasteurized%20liquid%20milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -1574,7 +1574,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/dano-daily-pushti-milk-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180158&q=best&v=1",
     "mrp": 400,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:12.297Z",
+    "lastSyncedAt": "2026-10-18T05:57:12.443Z",
     "prices": {
       "chaldal": {
         "price": 400,
@@ -1594,14 +1594,14 @@ export const PRODUCTS = [
         "price": 400,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=dano%20daily%20pushti%20milk%20powder%20500%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=dano%20daily%20pushti%20milk%20powder%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 400,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=dano%20daily%20pushti%20milk%20powder%20500%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=dano%20daily%20pushti%20milk%20powder%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1615,7 +1615,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-bop-tea-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107244&q=best&v=1",
     "mrp": 240,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:12.413Z",
+    "lastSyncedAt": "2026-10-18T05:57:12.551Z",
     "prices": {
       "chaldal": {
         "price": 240,
@@ -1635,14 +1635,14 @@ export const PRODUCTS = [
         "price": 240,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=ispahani%20mirzapore%20tea%20500%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=ispahani%20mirzapore%20tea%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 240,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=ispahani%20mirzapore%20tea%20500%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=ispahani%20mirzapore%20tea%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1656,7 +1656,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-tin-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D94917&q=best&v=1",
     "mrp": 225,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:12.571Z",
+    "lastSyncedAt": "2026-10-18T05:57:12.713Z",
     "prices": {
       "chaldal": {
         "price": 225,
@@ -1676,14 +1676,14 @@ export const PRODUCTS = [
         "price": 225,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=nestle%20nescafe%20classic%20instant%20coffee%20tin%20100%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=nestle%20nescafe%20classic%20instant%20coffee%20tin%20100%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 225,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=nestle%20nescafe%20classic%20instant%20coffee%20tin%20100%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=nestle%20nescafe%20classic%20instant%20coffee%20tin%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1697,7 +1697,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/coca-cola-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164611&q=best&v=1",
     "mrp": 85,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:12.664Z",
+    "lastSyncedAt": "2026-10-18T05:57:12.810Z",
     "prices": {
       "chaldal": {
         "price": 79,
@@ -1717,14 +1717,14 @@ export const PRODUCTS = [
         "price": 85,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=coca-cola%20beverage",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=coca-cola%20beverage",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 85,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=coca-cola%20beverage",
+        "url": "https://meenabazaronline.com/search?keyword=coca-cola%20beverage",
         "isVerifiedLive": true
       }
     }
@@ -1738,7 +1738,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/mountain-dew-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163559&q=best&v=1&m=400",
     "mrp": 50,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:12.758Z",
+    "lastSyncedAt": "2026-10-18T05:57:12.911Z",
     "prices": {
       "chaldal": {
         "price": 50,
@@ -1758,14 +1758,14 @@ export const PRODUCTS = [
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=mountain%20dew%20500%20ml",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=mountain%20dew%20500%20ml",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=mountain%20dew%20500%20ml",
+        "url": "https://meenabazaronline.com/search?keyword=mountain%20dew%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -1779,7 +1779,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-masala-instant-noodles-8-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D153591&q=best&v=1",
     "mrp": 180,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:12.890Z",
+    "lastSyncedAt": "2026-10-18T05:57:13.052Z",
     "prices": {
       "chaldal": {
         "price": 180,
@@ -1799,14 +1799,14 @@ export const PRODUCTS = [
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=nestle%20maggi%202-minute%20masala%20instant%20noodles%208%20pack",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=nestle%20maggi%202-minute%20masala%20instant%20noodles%208%20pack",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=nestle%20maggi%202-minute%20masala%20instant%20noodles%208%20pack",
+        "url": "https://meenabazaronline.com/search?keyword=nestle%20maggi%202-minute%20masala%20instant%20noodles%208%20pack",
         "isVerifiedLive": true
       }
     }
@@ -1820,7 +1820,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/olympic-lexus-vegetable-crackers-biscuits-216-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D115564&q=best&v=1",
     "mrp": 100,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:13.034Z",
+    "lastSyncedAt": "2026-10-18T05:57:13.188Z",
     "prices": {
       "chaldal": {
         "price": 100,
@@ -1840,14 +1840,14 @@ export const PRODUCTS = [
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=olympic%20lexus%20vegetable%20crackers%20biscuits%20216%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=olympic%20lexus%20vegetable%20crackers%20biscuits%20216%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=olympic%20lexus%20vegetable%20crackers%20biscuits%20216%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=olympic%20lexus%20vegetable%20crackers%20biscuits%20216%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1861,7 +1861,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/pran-special-toast-biscuit-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132330&q=best&v=1",
     "mrp": 60,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:13.176Z",
+    "lastSyncedAt": "2026-10-18T05:57:13.322Z",
     "prices": {
       "chaldal": {
         "price": 60,
@@ -1881,14 +1881,14 @@ export const PRODUCTS = [
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=pran%20special%20toast%20biscuit%20250%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=pran%20special%20toast%20biscuit%20250%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=pran%20special%20toast%20biscuit%20250%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=pran%20special%20toast%20biscuit%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1902,7 +1902,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/bombay-sweets-chanachur-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D178781&q=best&v=1",
     "mrp": 50,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:13.289Z",
+    "lastSyncedAt": "2026-10-18T05:57:13.434Z",
     "prices": {
       "chaldal": {
         "price": 50,
@@ -1922,14 +1922,14 @@ export const PRODUCTS = [
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=bombay%20sweets%20chanachur%20150%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=bombay%20sweets%20chanachur%20150%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=bombay%20sweets%20chanachur%20150%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=bombay%20sweets%20chanachur%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1943,7 +1943,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/dettol-bathing-soap-bar-cool-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127639&q=best&v=1",
     "mrp": 65,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:13.400Z",
+    "lastSyncedAt": "2026-10-18T05:57:13.510Z",
     "prices": {
       "chaldal": {
         "price": 65,
@@ -1963,14 +1963,14 @@ export const PRODUCTS = [
         "price": 65,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=dettol%20soap%20bathing%20bar",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=dettol%20soap%20bathing%20bar",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 65,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=dettol%20soap%20bathing%20bar",
+        "url": "https://meenabazaronline.com/search?keyword=dettol%20soap%20bathing%20bar",
         "isVerifiedLive": true
       }
     }
@@ -1984,7 +1984,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/parachute-skinpure-lotion-deep-moisture-free-petroleum-jelly-100-ml-200-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D121438&q=best&v=1",
     "mrp": 370,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:13.531Z",
+    "lastSyncedAt": "2026-10-18T05:57:13.621Z",
     "prices": {
       "chaldal": {
         "price": 370,
@@ -2004,14 +2004,14 @@ export const PRODUCTS = [
         "price": 370,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=dove%20shampoo%20oxygen%20moisture%20330%20ml",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=dove%20shampoo%20oxygen%20moisture%20330%20ml",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 370,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=dove%20shampoo%20oxygen%20moisture%20330%20ml",
+        "url": "https://meenabazaronline.com/search?keyword=dove%20shampoo%20oxygen%20moisture%20330%20ml",
         "isVerifiedLive": true
       }
     }
@@ -2025,7 +2025,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/closeup-toothpaste-menthol-fresh-145-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D166873&q=best&v=1",
     "mrp": 155,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:13.671Z",
+    "lastSyncedAt": "2026-10-18T05:57:13.758Z",
     "prices": {
       "chaldal": {
         "price": 155,
@@ -2045,14 +2045,14 @@ export const PRODUCTS = [
         "price": 155,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=closeup%20toothpaste%20menthol%20fresh%20145%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=closeup%20toothpaste%20menthol%20fresh%20145%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 155,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=closeup%20toothpaste%20menthol%20fresh%20145%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=closeup%20toothpaste%20menthol%20fresh%20145%20gm",
         "isVerifiedLive": true
       }
     }
@@ -2066,7 +2066,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/colgate-max-fresh-blue-gel-toothpaste-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127083&q=best&v=1",
     "mrp": 200,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:13.839Z",
+    "lastSyncedAt": "2026-10-18T05:57:13.916Z",
     "prices": {
       "chaldal": {
         "price": 200,
@@ -2086,14 +2086,14 @@ export const PRODUCTS = [
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=colgate%20max%20fresh%20blue%20gel%20toothpaste%20150%20gm",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=colgate%20max%20fresh%20blue%20gel%20toothpaste%20150%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=colgate%20max%20fresh%20blue%20gel%20toothpaste%20150%20gm",
+        "url": "https://meenabazaronline.com/search?keyword=colgate%20max%20fresh%20blue%20gel%20toothpaste%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -2107,7 +2107,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/rin-advanced-detergent-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135407&q=best&v=1",
     "mrp": 195,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:13.999Z",
+    "lastSyncedAt": "2026-10-18T05:57:14.062Z",
     "prices": {
       "chaldal": {
         "price": 195,
@@ -2127,14 +2127,14 @@ export const PRODUCTS = [
         "price": 195,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=rin%20advanced%20detergent%20powder%201%20kg",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=rin%20advanced%20detergent%20powder%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 195,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=rin%20advanced%20detergent%20powder%201%20kg",
+        "url": "https://meenabazaronline.com/search?keyword=rin%20advanced%20detergent%20powder%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -2148,7 +2148,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-original-750-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169613&q=best&v=1",
     "mrp": 180,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:14.123Z",
+    "lastSyncedAt": "2026-10-18T05:57:14.204Z",
     "prices": {
       "chaldal": {
         "price": 180,
@@ -2168,14 +2168,14 @@ export const PRODUCTS = [
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=harpic%20liquid%20toilet%20cleaner%20original%20750%20ml",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=harpic%20liquid%20toilet%20cleaner%20original%20750%20ml",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=harpic%20liquid%20toilet%20cleaner%20original%20750%20ml",
+        "url": "https://meenabazaronline.com/search?keyword=harpic%20liquid%20toilet%20cleaner%20original%20750%20ml",
         "isVerifiedLive": true
       }
     }
@@ -2189,7 +2189,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-liquid-free-container-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109537&q=best&v=1",
     "mrp": 110,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:14.260Z",
+    "lastSyncedAt": "2026-10-18T05:57:14.328Z",
     "prices": {
       "chaldal": {
         "price": 110,
@@ -2209,14 +2209,14 @@ export const PRODUCTS = [
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=vim%20dishwashing%20liquid%20500%20ml",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=vim%20dishwashing%20liquid%20500%20ml",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=vim%20dishwashing%20liquid%20500%20ml",
+        "url": "https://meenabazaronline.com/search?keyword=vim%20dishwashing%20liquid%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -2230,7 +2230,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/aci-savlon-liquid-antiseptic-1000-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D181725&q=best&v=1",
     "mrp": 280,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:40:14.382Z",
+    "lastSyncedAt": "2026-10-18T05:57:14.424Z",
     "prices": {
       "chaldal": {
         "price": 280,
@@ -2250,14 +2250,14 @@ export const PRODUCTS = [
         "price": 280,
         "inStock": true,
         "discountText": "MRP",
-        "url": "https://www.foodpanda.com.bd/darkstore/search?q=aci%20savlon%20liquid%20antiseptic%201000%20ml",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=aci%20savlon%20liquid%20antiseptic%201000%20ml",
         "isVerifiedLive": true
       },
       "meenaclick": {
         "price": 280,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "url": "https://www.meenaclick.com/search?query=aci%20savlon%20liquid%20antiseptic%201000%20ml",
+        "url": "https://meenabazaronline.com/search?keyword=aci%20savlon%20liquid%20antiseptic%201000%20ml",
         "isVerifiedLive": true
       }
     }
