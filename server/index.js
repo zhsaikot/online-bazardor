@@ -5,6 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { syncAllProducts, searchLiveProducts } from './scraper.js';
 import { identifyProductFromImage } from './vision.js';
+import { PRODUCTS as BASE_CATALOG } from '../src/data/mockCatalog.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -18,8 +19,11 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
-// In-memory cache
-let cachedProducts = [];
+// Initialize in-memory cache with all 439+ products from BASE_CATALOG
+const initialProductMap = new Map();
+BASE_CATALOG.forEach(p => initialProductMap.set(p.id, { ...p }));
+
+let cachedProducts = Array.from(initialProductMap.values());
 let lastSyncTime = null;
 let isSyncing = false;
 
@@ -32,27 +36,49 @@ try {
   console.warn('[Server] Could not create DATA_DIR:', e.message);
 }
 
-// Load cached data from disk on startup
+// Load cached data from disk on startup and overlay onto base catalog
 if (fs.existsSync(CACHE_FILE)) {
   try {
     const raw = fs.readFileSync(CACHE_FILE, 'utf-8');
     const parsed = JSON.parse(raw);
-    cachedProducts = parsed.products || [];
+    const diskProducts = parsed.products || [];
+    
+    diskProducts.forEach(dp => {
+      if (initialProductMap.has(dp.id)) {
+        initialProductMap.set(dp.id, { ...initialProductMap.get(dp.id), ...dp });
+      } else {
+        initialProductMap.set(dp.id, dp);
+      }
+    });
+
+    cachedProducts = Array.from(initialProductMap.values());
     lastSyncTime = parsed.lastSyncTime || null;
-    console.log(`[Server] Loaded ${cachedProducts.length} cached products from disk (Last synced: ${lastSyncTime})`);
+    console.log(`[Server] Loaded ${cachedProducts.length} total products (${diskProducts.length} from disk cache)`);
   } catch (err) {
     console.error('[Server] Failed to read disk cache:', err.message);
   }
 }
 
-// Function to perform and persist sync
+// Function to perform and persist sync (merges live updates into full catalog)
 async function runSync() {
   if (isSyncing) return cachedProducts;
   isSyncing = true;
   try {
     const updated = await syncAllProducts();
     if (updated && updated.length > 0) {
-      cachedProducts = updated;
+      const productMap = new Map();
+      cachedProducts.forEach(p => productMap.set(p.id, p));
+
+      // Merge updated live prices into catalog without deleting existing products
+      for (const item of updated) {
+        if (productMap.has(item.id)) {
+          productMap.set(item.id, { ...productMap.get(item.id), ...item });
+        } else {
+          productMap.set(item.id, item);
+        }
+      }
+
+      cachedProducts = Array.from(productMap.values());
       lastSyncTime = new Date().toISOString();
       try {
         fs.writeFileSync(CACHE_FILE, JSON.stringify({

@@ -79,7 +79,7 @@ function AppContent() {
     }
   }, [basket]);
 
-  // Fetch real-time live prices from backend scraper on mount
+  // Fetch real-time live prices from backend scraper on mount (merges with base catalog)
   useEffect(() => {
     async function loadLivePrices() {
       try {
@@ -87,7 +87,19 @@ function AppContent() {
         if (res.ok) {
           const data = await res.json();
           if (data.products && data.products.length > 0) {
-            setProductList(data.products);
+            setProductList(prev => {
+              const baseCatalog = prev && prev.length > 0 ? prev : PRODUCTS;
+              const productMap = new Map();
+              baseCatalog.forEach(p => productMap.set(p.id, p));
+              data.products.forEach(liveItem => {
+                if (productMap.has(liveItem.id)) {
+                  productMap.set(liveItem.id, { ...productMap.get(liveItem.id), ...liveItem });
+                } else {
+                  productMap.set(liveItem.id, liveItem);
+                }
+              });
+              return Array.from(productMap.values());
+            });
             setIsLiveSynced(true);
             setLastSyncedAt(data.lastSyncedAt);
             setBasket(prev => prev.map(bItem => {
@@ -111,7 +123,19 @@ function AppContent() {
       if (res.ok) {
         const data = await res.json();
         if (data.products && data.products.length > 0) {
-          setProductList(data.products);
+          setProductList(prev => {
+            const baseCatalog = prev && prev.length > 0 ? prev : PRODUCTS;
+            const productMap = new Map();
+            baseCatalog.forEach(p => productMap.set(p.id, p));
+            data.products.forEach(liveItem => {
+              if (productMap.has(liveItem.id)) {
+                productMap.set(liveItem.id, { ...productMap.get(liveItem.id), ...liveItem });
+              } else {
+                productMap.set(liveItem.id, liveItem);
+              }
+            });
+            return Array.from(productMap.values());
+          });
           setIsLiveSynced(true);
           setLastSyncedAt(data.lastSyncedAt);
           setBasket(prev => prev.map(bItem => {
