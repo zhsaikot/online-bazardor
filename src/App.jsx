@@ -371,14 +371,6 @@ function AppContent() {
                       </button>
                     </>
                   ) : null}
-                  <button
-                    type="button"
-                    onClick={() => setIsVisualSearchOpen(true)}
-                    className="p-1.5 rounded-xl bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 border border-zinc-200 dark:border-zinc-700 transition flex items-center gap-1 cursor-pointer shadow-2xs active:scale-95"
-                    title={t.visualSearch}
-                  >
-                    <Camera className="w-3.5 h-3.5 text-zinc-600 dark:text-zinc-400" />
-                  </button>
                 </div>
               </div>
 
