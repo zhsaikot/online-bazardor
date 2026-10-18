@@ -2,12 +2,25 @@ import React, { createContext, useContext, useState, useEffect, useRef } from 'r
 import { 
   auth, 
   googleProvider, 
+  db,
   RecaptchaVerifier, 
   signInWithPhoneNumber, 
   signInWithPopup, 
   signOut, 
-  onAuthStateChanged 
+  onAuthStateChanged,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  sendPasswordResetEmail,
+  updateProfile
 } from '../firebase';
+import {
+  doc,
+  setDoc,
+  deleteDoc,
+  collection,
+  onSnapshot,
+  serverTimestamp
+} from 'firebase/firestore';
 
 const AuthContext = createContext();
 
@@ -52,9 +65,17 @@ export function AuthProvider({ children }) {
     }
   }, []);
 
-  // Sync user state with Firebase onAuthStateChanged
+  // Sync user state with Firebase onAuthStateChanged and Firestore real-time sync
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+    let unsubscribeBags = null;
+
+    const unsubscribeAuth = onAuthStateChanged(auth, async (firebaseUser) => {
+      // Unsubscribe any previous listener
+      if (unsubscribeBags) {
+        unsubscribeBags();
+        unsubscribeBags = null;
+      }
+
       if (firebaseUser) {
         let savedBags = [];
         try {
@@ -65,8 +86,9 @@ export function AuthProvider({ children }) {
         }
 
         const displayName = firebaseUser.displayName || 
-          (firebaseUser.phoneNumber ? `গ্রাহক (${firebaseUser.phoneNumber.slice(-4)})` : 'সম্মানিত ক্রেতা');
-        const defaultAvatar = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(displayName)}&backgroundColor=059669`;
+          (firebaseUser.email ? firebaseUser.email.split('@')[0] : 
+          (firebaseUser.phoneNumber ? `গ্রাহক (${firebaseUser.phoneNumber.slice(-4)})` : 'সম্মানিত ক্রেতা'));
+        const defaultAvatar = firebaseUser.photoURL || `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(displayName)}&backgroundColor=059669`;
 
         const appUser = {
           id: firebaseUser.uid,
@@ -75,7 +97,7 @@ export function AuthProvider({ children }) {
           nameEn: firebaseUser.displayName || 'Customer',
           phone: firebaseUser.phoneNumber || null,
           email: firebaseUser.email || null,
-          avatar: firebaseUser.photoURL || defaultAvatar,
+          avatar: defaultAvatar,
           savedBags: savedBags
         };
 
@@ -83,6 +105,58 @@ export function AuthProvider({ children }) {
         try {
           localStorage.setItem('bazardor_user', JSON.stringify(appUser));
         } catch (e) {}
+
+        // 1. Sync User profile to Firestore (merge: true)
+        try {
+          const userDocRef = doc(db, 'users', firebaseUser.uid);
+          setDoc(userDocRef, {
+            uid: firebaseUser.uid,
+            name: displayName,
+            email: firebaseUser.email || null,
+            phone: firebaseUser.phoneNumber || null,
+            avatar: defaultAvatar,
+            updatedAt: serverTimestamp()
+          }, { merge: true }).catch(err => {
+            console.warn('Firestore user profile sync warning (rules may need review):', err.message);
+          });
+        } catch (e) {
+          console.warn('Firestore setDoc exception:', e);
+        }
+
+        // 2. Realtime listener for savedBags in Firestore
+        try {
+          const bagsColRef = collection(db, 'users', firebaseUser.uid, 'savedBags');
+          unsubscribeBags = onSnapshot(bagsColRef, (snapshot) => {
+            const remoteBags = [];
+            snapshot.forEach(docSnap => {
+              const data = docSnap.data();
+              remoteBags.push({
+                id: docSnap.id,
+                ...data
+              });
+            });
+
+            if (remoteBags.length > 0) {
+              setUser(prev => {
+                if (!prev || prev.uid !== firebaseUser.uid) return prev;
+                const updated = {
+                  ...prev,
+                  savedBags: remoteBags
+                };
+                try {
+                  localStorage.setItem(`bazardor_bags_${firebaseUser.uid}`, JSON.stringify(remoteBags));
+                  localStorage.setItem('bazardor_user', JSON.stringify(updated));
+                } catch (err) {}
+                return updated;
+              });
+            }
+          }, (err) => {
+            console.warn('Firestore savedBags listener warning:', err.message);
+          });
+        } catch (e) {
+          console.warn('Firestore onSnapshot exception:', e);
+        }
+
       } else {
         setUser(null);
         try {
@@ -91,7 +165,10 @@ export function AuthProvider({ children }) {
       }
     });
 
-    return () => unsubscribe();
+    return () => {
+      unsubscribeAuth();
+      if (unsubscribeBags) unsubscribeBags();
+    };
   }, []);
 
   const openAuthModal = () => {
@@ -106,7 +183,7 @@ export function AuthProvider({ children }) {
 
   const clearAuthError = () => setAuthError(null);
 
-  // Setup reCAPTCHA verifier instance
+  // Setup reCAPTCHA verifier instance for phone OTP
   const initRecaptcha = (containerId = 'recaptcha-container') => {
     try {
       if (recaptchaVerifierRef.current) {
@@ -124,7 +201,7 @@ export function AuthProvider({ children }) {
       const verifier = new RecaptchaVerifier(auth, containerId, {
         size: 'invisible',
         callback: () => {
-          // reCAPTCHA solved callback
+          // reCAPTCHA solved
         },
         'expired-callback': () => {
           setAuthError('reCAPTCHA কোডের মেয়াদ শেষ। আবার চেষ্টা করুন।');
@@ -138,12 +215,128 @@ export function AuthProvider({ children }) {
     }
   };
 
-  // 1. Google Sign-In with popup
+  // 1. Email/Password - Sign Up
+  const signupWithEmail = async (email, password, displayName) => {
+    setLoading(true);
+    setAuthError(null);
+    try {
+      const userCredential = await createUserWithEmailAndPassword(auth, email.trim(), password);
+      const fbUser = userCredential.user;
+      const cleanName = displayName?.trim() || email.split('@')[0];
+      const defaultAvatar = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(cleanName)}&backgroundColor=059669`;
+
+      // Update Firebase Auth profile
+      await updateProfile(fbUser, {
+        displayName: cleanName,
+        photoURL: defaultAvatar
+      });
+
+      // Sync to Firestore
+      try {
+        const userDocRef = doc(db, 'users', fbUser.uid);
+        await setDoc(userDocRef, {
+          uid: fbUser.uid,
+          name: cleanName,
+          email: fbUser.email,
+          avatar: defaultAvatar,
+          createdAt: serverTimestamp(),
+          updatedAt: serverTimestamp()
+        }, { merge: true });
+      } catch (fsErr) {
+        console.warn('Firestore user doc sync warning:', fsErr);
+      }
+
+      setIsAuthModalOpen(false);
+      return fbUser;
+    } catch (err) {
+      console.error('Email sign up error:', err);
+      if (err.code === 'auth/email-already-in-use') {
+        setAuthError('এই ইমেইল দিয়ে ইতোমধ্যে একটি অ্যাকাউন্ট রয়েছে। দয়া করে লগইন করুন।');
+      } else if (err.code === 'auth/invalid-email') {
+        setAuthError('ইমেইল অ্যাড্রেসটি সঠিক নয়।');
+      } else if (err.code === 'auth/weak-password') {
+        setAuthError('পাসওয়ার্ড অত্যন্ত দুর্বল। অন্তত ৬ বা ততোধিক অক্ষরের পাসওয়ার্ড দিন।');
+      } else {
+        setAuthError(err.message || 'সাইন আপ করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।');
+      }
+      throw err;
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // 2. Email/Password - Sign In
+  const loginWithEmail = async (email, password) => {
+    setLoading(true);
+    setAuthError(null);
+    try {
+      const userCredential = await signInWithEmailAndPassword(auth, email.trim(), password);
+      setIsAuthModalOpen(false);
+      return userCredential.user;
+    } catch (err) {
+      console.error('Email sign in error:', err);
+      if (
+        err.code === 'auth/user-not-found' || 
+        err.code === 'auth/wrong-password' || 
+        err.code === 'auth/invalid-credential'
+      ) {
+        setAuthError('ইমেইল বা পাসওয়ার্ড ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।');
+      } else if (err.code === 'auth/invalid-email') {
+        setAuthError('ইমেইল অ্যাড্রেসটি সঠিক নয়।');
+      } else if (err.code === 'auth/too-many-requests') {
+        setAuthError('অনেকবার ভুল চেষ্টা করা হয়েছে। অ্যাকাউন্ট সুরক্ষার জন্য কিছুক্ষণ পর চেষ্টা করুন।');
+      } else {
+        setAuthError(err.message || 'লগইন করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।');
+      }
+      throw err;
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // 3. Email/Password - Send Password Reset Email
+  const resetPassword = async (email) => {
+    setLoading(true);
+    setAuthError(null);
+    try {
+      await sendPasswordResetEmail(auth, email.trim());
+      return true;
+    } catch (err) {
+      console.error('Password reset error:', err);
+      if (err.code === 'auth/user-not-found') {
+        setAuthError('এই ইমেইল দিয়ে কোনো অ্যাকাউন্ট পাওয়া যায়নি।');
+      } else if (err.code === 'auth/invalid-email') {
+        setAuthError('ইমেইল অ্যাড্রেসটি সঠিক নয়।');
+      } else {
+        setAuthError(err.message || 'পাসওয়ার্ড রিসেট ইমেইল পাঠানো সম্ভব হয়নি।');
+      }
+      throw err;
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // 4. Google Sign-In with popup
   const loginWithGoogle = async () => {
     setLoading(true);
     setAuthError(null);
     try {
       const result = await signInWithPopup(auth, googleProvider);
+      
+      // Sync Google User to Firestore
+      try {
+        const userDocRef = doc(db, 'users', result.user.uid);
+        await setDoc(userDocRef, {
+          uid: result.user.uid,
+          name: result.user.displayName || 'Google User',
+          email: result.user.email,
+          avatar: result.user.photoURL,
+          updatedAt: serverTimestamp()
+        }, { merge: true });
+      } catch (fsErr) {
+        console.warn('Firestore Google user doc sync warning:', fsErr);
+      }
+
       setIsAuthModalOpen(false);
       return result.user;
     } catch (err) {
@@ -163,7 +356,7 @@ export function AuthProvider({ children }) {
     }
   };
 
-  // 2. Phone OTP - Step 1: Send OTP
+  // 5. Phone OTP - Step 1: Send OTP
   const sendPhoneOtp = async (phoneNumber, containerId = 'recaptcha-container') => {
     setLoading(true);
     setAuthError(null);
@@ -186,7 +379,6 @@ export function AuthProvider({ children }) {
       return confirmation;
     } catch (err) {
       console.error('Send OTP error:', err);
-      // Clean up on failure to allow retry
       if (recaptchaVerifierRef.current) {
         try {
           recaptchaVerifierRef.current.clear();
@@ -199,7 +391,7 @@ export function AuthProvider({ children }) {
       } else if (err.code === 'auth/too-many-requests') {
         setAuthError('অনেকবার চেষ্টা করা হয়েছে। অনুগ্রহ করে কিছুক্ষণ অপেক্ষা করুন।');
       } else if (err.code === 'auth/quota-exceeded') {
-        setAuthError('আজকের SMS কোটা শেষ হয়েছে। অনুগ্রহ করে গুগল দিয়ে লগইন করুন।');
+        setAuthError('আজকের SMS কোটা শেষ হয়েছে। অনুগ্রহ করে ইমেইল বা গুগল দিয়ে লগইন করুন।');
       } else {
         setAuthError(err.message || 'ওটিপি পাঠাতে সমস্যা হয়েছে। আবার চেষ্টা করুন।');
       }
@@ -209,7 +401,7 @@ export function AuthProvider({ children }) {
     }
   };
 
-  // 2. Phone OTP - Step 2: Verify OTP
+  // 5. Phone OTP - Step 2: Verify OTP
   const verifyPhoneOtp = async (otpCode) => {
     if (!confirmationResult) {
       throw new Error('ওটিপি সেশনের তথ্য পাওয়া যায়নি। অনুগ্রহ করে আবার ওটিপি কোড পাঠান।');
@@ -236,7 +428,7 @@ export function AuthProvider({ children }) {
     }
   };
 
-  // 3. Logout
+  // 6. Logout
   const logout = async () => {
     setLoading(true);
     try {
@@ -253,11 +445,10 @@ export function AuthProvider({ children }) {
   };
 
   const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
-
   const openProfileModal = () => setIsProfileModalOpen(true);
   const closeProfileModal = () => setIsProfileModalOpen(false);
 
-  // 4. Update Profile
+  // 7. Update Profile in Auth and Firestore
   const updateUserProfile = ({ name, avatar }) => {
     setUser(prev => {
       if (!prev) return null;
@@ -271,9 +462,25 @@ export function AuthProvider({ children }) {
       } catch (e) {}
       return updated;
     });
+
+    if (auth.currentUser) {
+      updateProfile(auth.currentUser, {
+        displayName: name !== undefined ? name : auth.currentUser.displayName,
+        photoURL: avatar !== undefined ? avatar : auth.currentUser.photoURL
+      }).catch(e => console.warn('Auth updateProfile error:', e));
+
+      try {
+        const userDocRef = doc(db, 'users', auth.currentUser.uid);
+        setDoc(userDocRef, {
+          ...(name !== undefined && { name }),
+          ...(avatar !== undefined && { avatar }),
+          updatedAt: serverTimestamp()
+        }, { merge: true }).catch(e => console.warn('Firestore userDoc update error:', e));
+      } catch (e) {}
+    }
   };
 
-  // 5. Delete Saved Bag
+  // 8. Delete Saved Bag from local state, localStorage, and Firestore
   const deleteSavedBag = (bagId) => {
     setUser(prev => {
       if (!prev) return null;
@@ -290,9 +497,16 @@ export function AuthProvider({ children }) {
       } catch (e) {}
       return updated;
     });
+
+    if (auth.currentUser) {
+      try {
+        const bagDocRef = doc(db, 'users', auth.currentUser.uid, 'savedBags', bagId);
+        deleteDoc(bagDocRef).catch(e => console.warn('Firestore delete bag error:', e));
+      } catch (e) {}
+    }
   };
 
-  // 6. Save Bag for Authenticated User
+  // 9. Save Bag for Authenticated User (Firestore sync + localStorage fallback)
   const saveCurrentBag = (bagName, items) => {
     if (!user) {
       openAuthModal();
@@ -313,6 +527,8 @@ export function AuthProvider({ children }) {
         product: i.product
       }))
     };
+
+    // Update local state immediately
     setUser(prev => {
       const updatedBags = [newBag, ...(prev.savedBags || [])];
       try {
@@ -327,6 +543,23 @@ export function AuthProvider({ children }) {
       } catch (e) {}
       return updatedUser;
     });
+
+    // Write to Cloud Firestore subcollection
+    if (auth.currentUser) {
+      try {
+        const bagDocRef = doc(db, 'users', auth.currentUser.uid, 'savedBags', newBag.id);
+        setDoc(bagDocRef, {
+          ...newBag,
+          createdAt: serverTimestamp(),
+          updatedAt: serverTimestamp()
+        }).catch(err => {
+          console.warn('Firestore save bag sync warning:', err.message);
+        });
+      } catch (e) {
+        console.warn('Firestore setDoc exception:', e);
+      }
+    }
+
     return true;
   };
 
@@ -345,6 +578,9 @@ export function AuthProvider({ children }) {
       updateUserProfile,
       deleteSavedBag,
       initRecaptcha,
+      signupWithEmail,
+      loginWithEmail,
+      resetPassword,
       loginWithGoogle,
       sendPhoneOtp,
       verifyPhoneOtp,
