@@ -450,15 +450,32 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
   const pandaDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.25)) : 0;
   const pandamartPrice = Math.max(price, mrp - pandaDiff);
 
-  const chaldalUrl = slug 
-    ? `https://chaldal.com/${slug}` 
-    : `https://chaldal.com/search/${encodeURIComponent(nameEn)}`;
+  // Auto-detect canonical category matching the 8 official store tabs
+  const text = (nameEn + ' ' + nameBn).toLowerCase();
+  let detectedCategory = fallbackCategory !== 'all' ? fallbackCategory : 'vegetables';
+  if (/egg|chicken|murgi|dim|meat|beef|mutton|goru|khasi|duck|hash|quail|fish|mach|chingri|prawn|shutki|hilsa|ilish|ruhi|rui|kolija|liver|keema|thigh|broiler|layer/i.test(text) && !/noodles|soup|biscuit/i.test(text)) {
+    detectedCategory = 'egg-poultry';
+  } else if (/oil|tel|ghee|mustard oil|soyabean/i.test(text)) {
+    detectedCategory = 'oil';
+  } else if (/rice|chal|daal|dal|lentil|atta|flour|maida|suji/i.test(text)) {
+    detectedCategory = 'rice-pulses';
+  } else if (/onion|potato|tomato|ginger|garlic|alu|peyaj|morich kacha|vegetable|fruit|apple|banana|orange/i.test(text)) {
+    detectedCategory = 'vegetables';
+  } else if (/spice|masala|mosla|turmeric|holud|chilli powder|coriander|dhonia|cumin|jira|garam masala|salt|lobon|sugar|chini|radhuni|pran spices/i.test(text)) {
+    detectedCategory = 'spices';
+  } else if (/milk|dudh|dano|marks|aarong milk|milk vita|tea|cha|coffee|nescafe|juice|coke|beverage|drink|yoghurt|doi|butter|cheese/i.test(text)) {
+    detectedCategory = 'dairy-beverage';
+  } else if (/snack|biscuit|cookie|noodles|chanachur|chips|chocolate|cake|toast|bun|bread|wafer|crisp/i.test(text)) {
+    detectedCategory = 'snacks-bakery';
+  } else if (/soap|shampoo|detergent|cleaner|harpic|wheel|vim|savlon|dettol|tissue/i.test(text)) {
+    detectedCategory = 'hygiene';
+  }
 
   return {
     id: 'chaldal-' + (hit.id || slug || Math.random().toString(36).substring(2, 9)),
     nameBn: nameBn,
     nameEn: nameEn,
-    category: fallbackCategory,
+    category: detectedCategory,
     unit: unit,
     image: img,
     mrp: mrp,

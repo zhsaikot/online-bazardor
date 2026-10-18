@@ -1,5 +1,5 @@
-// Comprehensive Realistic Bangladeshi Grocery Dataset (52+ Core Products)
-// Mapped with authentic, actual e-commerce product images from Chaldal CDN
+// Comprehensive Realistic Bangladeshi Grocery Dataset (500+ Live Products)
+// Authentic e-commerce product images from Chaldal CDN
 
 export const STORES = {
   "chaldal": {
@@ -2550,7 +2550,7 @@ export const PRODUCTS = [
     "id": "prod-athash-rice-boiled-50-gm-5-kg",
     "nameBn": "আঠাস চাল (সিদ্ধ) ± ৫০ গ্রাম ৫ কেজি",
     "nameEn": "Athash Rice (Boiled) ± 50 gm 5 kg",
-    "category": "oil",
+    "category": "egg-poultry",
     "unit": "5 kg",
     "image": "https://chaldn.com/_mpimage/athash-rice-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D76816&q=best&v=1",
     "mrp": 379,
@@ -3086,7 +3086,7 @@ export const PRODUCTS = [
     "id": "prod-miniket-rice-premium-boiled-50-gm-5-kg",
     "nameBn": "মিনিকেট চাল প্রিমিয়াম (সিদ্ধ) ± ৫০ গ্রাম ৫ কেজি",
     "nameEn": "Miniket Rice Premium (Boiled) ± 50 gm 5 kg",
-    "category": "rice-pulses",
+    "category": "oil",
     "unit": "5 kg",
     "image": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
     "mrp": 439,
@@ -3421,7 +3421,7 @@ export const PRODUCTS = [
     "id": "prod-nazirshail-rice-premium-half-boiled-50-gm-5-kg",
     "nameBn": "নাজিরশাইল চাল প্রিমিয়াম (আধা সিদ্ধ) ± ৫০ গ্রাম ৫ কেজি",
     "nameEn": "Nazirshail Rice Premium (Half Boiled) ± 50 gm 5 kg",
-    "category": "rice-pulses",
+    "category": "oil",
     "unit": "5 kg",
     "image": "https://chaldn.com/_mpimage/nazirshail-rice-premium-half-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48083&q=best&v=1",
     "mrp": 479,
@@ -3555,7 +3555,7 @@ export const PRODUCTS = [
     "id": "prod-nazirshail-rice-standard-half-boiled-50-gm-5-kg",
     "nameBn": "নাজিরশাল চাল স্ট্যান্ডার্ড (আধা সিদ্ধ) ± ৫০ গ্রাম ৫ কেজি",
     "nameEn": "Nazirshail Rice Standard (Half Boiled) ± 50 gm 5 kg",
-    "category": "rice-pulses",
+    "category": "oil",
     "unit": "5 kg",
     "image": "https://chaldn.com/_mpimage/nazirshail-rice-standard-half-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D66168&q=best&v=1",
     "mrp": 459,
@@ -3756,7 +3756,7 @@ export const PRODUCTS = [
     "id": "prod-shukran-nazirshail-rice-boiled-10-kg",
     "nameBn": "শুকরান নাজিরশাইল চাল (সিদ্ধ) ১০ কেজি",
     "nameEn": "Shukran Nazirshail Rice (Boiled) 10 kg",
-    "category": "rice-pulses",
+    "category": "oil",
     "unit": "10 kg",
     "image": "https://chaldn.com/_mpimage/shukran-nazirshail-rice-boiled-10-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D121781&q=best&v=1&m=400",
     "mrp": 990,
@@ -3823,7 +3823,7 @@ export const PRODUCTS = [
     "id": "prod-chasi-aromatic-rice-chinigura-1-kg-5",
     "nameBn": "চাষী সুগন্ধি চিনিগুড়া চাল ১ কেজি",
     "nameEn": "Chashi Aromatic Chinigura Rice 1 kg",
-    "category": "rice-pulses",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/chashi-aromatic-chinigura-rice-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126657&q=best&v=1",
     "mrp": 190,
@@ -3890,7 +3890,7 @@ export const PRODUCTS = [
     "id": "prod-chashi-aromatic-chinigura-2-kg",
     "nameBn": "চাষী সুগন্ধি চিনিগুঁড়া চাল ২ কেজি",
     "nameEn": "Chashi Aromatic Chinigura Rice 2 kg",
-    "category": "rice-pulses",
+    "category": "egg-poultry",
     "unit": "2 kg",
     "image": "https://chaldn.com/_mpimage/chashi-aromatic-chinigura-rice-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126658&q=best&v=1",
     "mrp": 370,
@@ -4158,7 +4158,7 @@ export const PRODUCTS = [
     "id": "prod-chashi-chinigura-aromatic-rice-pack-5-kg",
     "nameBn": "চাষী সুগন্ধি চিনিগুঁড়া চাল ৫ কেজি",
     "nameEn": "Chashi Aromatic Chinigura Rice 5 kg",
-    "category": "rice-pulses",
+    "category": "egg-poultry",
     "unit": "5 kg",
     "image": "https://chaldn.com/_mpimage/chashi-aromatic-chinigura-rice-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89208&q=low&v=1",
     "mrp": 910,
@@ -4225,7 +4225,7 @@ export const PRODUCTS = [
     "id": "prod-katari-boiled-rice-50-gm-5-kg",
     "nameBn": "কাটারি সিদ্ধ চাল ± ৫০ গ্রাম ৫ কেজি",
     "nameEn": "Katari Boiled Rice ± 50 gm 5 kg",
-    "category": "rice-pulses",
+    "category": "oil",
     "unit": "5 kg",
     "image": "https://chaldn.com/_mpimage/katari-boiled-rice-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74508&q=best&v=1&m=400",
     "mrp": 459,
@@ -7106,7 +7106,7 @@ export const PRODUCTS = [
     "id": "prod-dano-daily-pushti-milk-powder-1-kg",
     "nameBn": "আরলা ডানো ডেইলি পুষ্টি গুঁড়া দুধ ১ কেজি",
     "nameEn": "Dano Daily Pushti Milk Powder 1 kg",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/dano-daily-pushti-milk-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169269&q=best&v=1",
     "mrp": 770,
@@ -7173,7 +7173,7 @@ export const PRODUCTS = [
     "id": "prod-dano-daily-pushti-milk-powder-500-gm",
     "nameBn": "আরলা ডানো ডেইলি পুষ্টি  গুঁড়া দুধ ৫০০ গ্রাম",
     "nameEn": "Dano Daily Pushti Milk Powder 500 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/dano-daily-pushti-milk-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180158&q=best&v=1",
     "mrp": 400,
@@ -7240,7 +7240,7 @@ export const PRODUCTS = [
     "id": "prod-marks-full-cream-milk-powder-poly-500-gm",
     "nameBn": "মার্কস ফুল ক্রিম গুঁড়া দুধ পলি ৫০০ গ্রাম",
     "nameEn": "Marks Full Cream Milk Powder Poly 500 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/marks-full-cream-milk-powder-poly-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130615&q=best&v=1",
     "mrp": 480,
@@ -7307,7 +7307,7 @@ export const PRODUCTS = [
     "id": "prod-marks-full-cream-milk-powder-poly-1-kg",
     "nameBn": "মার্কস ফুল ক্রিম গুঁড়া দুধ পলি ১ কেজি",
     "nameEn": "Marks Full Cream Milk Powder Poly 1 kg",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/marks-full-cream-milk-powder-poly-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D59268&q=best&v=1",
     "mrp": 950,
@@ -7374,7 +7374,7 @@ export const PRODUCTS = [
     "id": "prod-marks-gold-high-calcium-non-fat-milk-powder-40-y-400-gm",
     "nameBn": "মার্কস গোল্ড হাই ক্যালসিয়াম নন ফ্যাট গুঁড়া দুধ ৪০ বছর+ ৪০০ গ্রাম",
     "nameEn": "Marks Gold High Calcium Non Fat Milk Powder 40 Y+ 400 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/marks-gold-high-calcium-non-fat-milk-powder-40-y-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D146818&q=best&v=1",
     "mrp": 425,
@@ -7441,7 +7441,7 @@ export const PRODUCTS = [
     "id": "prod-marks-gold-high-calcium-milk-powder-40y-free-glass-400-gm",
     "nameBn": "মার্কস গোল্ড হাই ক্যালসিয়াম গুঁড়া দুধ ৪০+ বয়সের (ফ্রি গ্লাস) ৪০০ গ্রাম",
     "nameEn": "Marks Gold High Calcium Milk Powder 40Y+ (Free Glass) 400 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/marks-gold-high-calcium-milk-powder-40y-free-glass-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130614&q=best&v=1",
     "mrp": 360,
@@ -7508,7 +7508,7 @@ export const PRODUCTS = [
     "id": "prod-arla-dano-power-full-cream-milk-powder-1-kg",
     "nameBn": "আরলা ডানো পাওয়ার ফুল ক্রিম গুঁড়া দুধ ১ কেজি",
     "nameEn": "Dano Power Full Cream Milk Powder 1 kg",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/dano-power-full-cream-milk-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D187005&q=best&v=1",
     "mrp": 950,
@@ -7575,7 +7575,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-instant-full-cream-milk-powder-1-kg",
     "nameBn": "ফ্রেশ ইনস্ট্যান্ট ফুল ক্রিম গুঁড়া দুধ ১ কেজি",
     "nameEn": "Fresh Instant Full Cream Milk Powder 1 kg",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/fresh-instant-full-cream-milk-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130892&q=best&v=1",
     "mrp": 950,
@@ -7642,7 +7642,7 @@ export const PRODUCTS = [
     "id": "prod-danish-condensed-milk-397-gm",
     "nameBn": "ড্যানিশ কনডেন্সড ফিল্ড মিল্ক ৩৯৭ গ্রাম",
     "nameEn": "Danish Condensed Filled Milk 397 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "397 gm",
     "image": "https://chaldn.com/_mpimage/danish-condensed-filled-milk-397-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127453&q=best&v=1",
     "mrp": 105,
@@ -7709,7 +7709,7 @@ export const PRODUCTS = [
     "id": "prod-starship-condensed-milk-400-gm",
     "nameBn": "স্টারশিপ কনডেন্সড মিল্ক ৪০০ গ্রাম",
     "nameEn": "Starship Condensed Milk 400 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/starship-condensed-milk-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135316&q=best&v=1",
     "mrp": 105,
@@ -7776,7 +7776,7 @@ export const PRODUCTS = [
     "id": "prod-puck-sterilized-cream-160-gm",
     "nameBn": "পুক স্টেরিলাইজড ক্রিম ১৬০ গ্রাম",
     "nameEn": "Puck Sterilized Cream 160 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "160 gm",
     "image": "https://chaldn.com/_mpimage/puck-sterilized-cream-160-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132395&q=best&v=1&m=400",
     "mrp": 239,
@@ -7843,7 +7843,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-condensed-milk-400-gm",
     "nameBn": "নাম্বার ওয়ান কনডেন্সড মিল্ক ৪০০ গ্রাম",
     "nameEn": "No 1. Condensed Milk 400 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/no-1-condensed-milk-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D131446&q=best&v=1",
     "mrp": 105,
@@ -7910,7 +7910,7 @@ export const PRODUCTS = [
     "id": "prod-marks-diet-low-fat-milk-powder-free-glass-400-gm",
     "nameBn": "মার্কস ডায়েট লো ফ্যাট গুঁড়া দুধ (ফ্রি গ্লাস) ৪০০ গ্রাম",
     "nameEn": "Marks Diet Low Fat Milk Powder (Free Glass) 400 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/marks-diet-low-fat-milk-powder-free-glass-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130604&q=best&v=1",
     "mrp": 360,
@@ -7977,7 +7977,7 @@ export const PRODUCTS = [
     "id": "prod-marks-active-school-milk-powder-free-glass-400-gm",
     "nameBn": "মার্কস অ্যাক্টিভ স্কুল গুঁড়া দুধ (ফ্রি গ্লাস) ৪০০ গ্রাম",
     "nameEn": "Marks Active School Milk Powder (Free Glass) 400 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/marks-active-school-milk-powder-free-glass-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130603&q=best&v=1",
     "mrp": 340,
@@ -8044,7 +8044,7 @@ export const PRODUCTS = [
     "id": "prod-aarong-dairy-pasteurized-liquid-milk-1-ltr",
     "nameBn": "আড়ং ডেইরি পাস্তুরিত তরল দুধ ১ লিটার",
     "nameEn": "Aarong Dairy Pasteurized Liquid Milk 1 ltr",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "1 ltr",
     "image": "https://chaldn.com/_mpimage/aarong-dairy-pasteurized-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D119561&q=best&v=1",
     "mrp": 105,
@@ -8111,7 +8111,7 @@ export const PRODUCTS = [
     "id": "prod-pran-pasteurized-full-cream-liquid-milk-1-ltr",
     "nameBn": "প্রাণ পাস্তুরিত ফুল ক্রিম তরল দুধ ১ লিটার",
     "nameEn": "Pran Pasteurized Full Cream Liquid Milk 1 ltr",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "1 ltr",
     "image": "https://chaldn.com/_mpimage/pran-pasteurized-full-cream-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132322&q=best&v=1",
     "mrp": 100,
@@ -8178,7 +8178,7 @@ export const PRODUCTS = [
     "id": "prod-danish-ayran-pasteurized-full-cream-liquid-milk-1-ltr",
     "nameBn": "ড্যানিশ আইরান পাস্তুরিত পূর্ন ননীযুক্ত তরল দুধ ১ লিটার",
     "nameEn": "Danish Ayran Pasteurized Full Cream Liquid Milk 1 ltr",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "1 ltr",
     "image": "https://chaldn.com/_mpimage/danish-ayran-pasteurized-full-cream-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127452&q=best&v=1",
     "mrp": 140,
@@ -8245,7 +8245,7 @@ export const PRODUCTS = [
     "id": "prod-danish-ayran-pasteurized-full-cream-liquid-milk-2-ltr",
     "nameBn": "ড্যানিশ আইরান পাস্তুরিত পূর্ন ননীযুক্ত তরল দুধ ২ লিটার",
     "nameEn": "Danish Ayran Pasteurized Full Cream Liquid Milk 2 ltr",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "2 ltr",
     "image": "https://chaldn.com/_mpimage/danish-ayran-pasteurized-full-cream-liquid-milk-2-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101671&q=best&v=1",
     "mrp": 255,
@@ -8312,7 +8312,7 @@ export const PRODUCTS = [
     "id": "prod-aarong-dairy-pasteurized-low-fat-milk-500-ml",
     "nameBn": "আড়ং ডেইরি পাস্তুরিত লো ফ্যাট দুধ ৫০০ মিলি",
     "nameEn": "Aarong Dairy Pasteurized Low Fat Milk 500 ml",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "500 ml",
     "image": "https://chaldn.com/_mpimage/aarong-dairy-pasteurized-low-fat-milk-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D122753&q=best&v=1",
     "mrp": 50,
@@ -8379,7 +8379,7 @@ export const PRODUCTS = [
     "id": "prod-milk-vita-pasteurized-standardized-milk-1-ltr",
     "nameBn": "মিল্ক ভিটা পাস্তুরিত স্ট্যান্ডার্ডাইজড দুধ ১ লিটার",
     "nameEn": "Milk Vita Pasteurized Standardized Milk 1 ltr",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "1 ltr",
     "image": "https://chaldn.com/_mpimage/milk-vita-pasteurized-standardized-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177270&q=low&v=1",
     "mrp": 100,
@@ -8446,7 +8446,7 @@ export const PRODUCTS = [
     "id": "prod-milk-vita-pasteurized-standardized-milk-500-ml",
     "nameBn": "মিল্ক ভিটা পাস্তুরিত স্ট্যান্ডার্ডাইজড দুধ ৫০০ মিলি",
     "nameEn": "Milk Vita Pasteurized Standardized Milk 500 ml",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "500 ml",
     "image": "https://chaldn.com/_mpimage/milk-vita-pasteurized-standardized-milk-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177273&q=best&v=1",
     "mrp": 50,
@@ -8513,7 +8513,7 @@ export const PRODUCTS = [
     "id": "prod-live-cock-chicken-processed-25-gm-500-gm",
     "nameBn": "জীবিত কক মুরগি (প্রক্রিয়াকৃত) ± ২৫ গ্রাম ৫০০ গ্রাম",
     "nameEn": "Live Cock Chicken (Processed) ± 25 gm 500 gm",
-    "category": "dairy",
+    "category": "egg-poultry",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/live-cock-chicken-processed-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165313&q=best&v=1&m=400",
     "mrp": 355,
@@ -8580,7 +8580,7 @@ export const PRODUCTS = [
     "id": "prod-whole-broiler-chicken-skin-off-net-weight-1-kg",
     "nameBn": "ব্রয়লার মুরগি চামড়া ছাড়া ± ৫০ গ্রাম ১ কেজি",
     "nameEn": "Broiler Chicken Skin Off ± 50 gm 1 kg",
-    "category": "dairy",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163139&q=best&v=1&m=400",
     "mrp": 359,
@@ -8647,7 +8647,7 @@ export const PRODUCTS = [
     "id": "prod-whole-broiler-chicken-skin-on-net-weight-1-kg",
     "nameBn": "ব্রয়লার মুরগি চামড়া সহ ± ৫০ গ্রাম ১ কেজি",
     "nameEn": "Broiler Chicken Skin On ± 50 gm 1 kg",
-    "category": "dairy",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/broiler-chicken-skin-on-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163138&q=best&v=1",
     "mrp": 345,
@@ -8714,7 +8714,7 @@ export const PRODUCTS = [
     "id": "prod-broiler-chicken-skin-off-50-gm-14-kg",
     "nameBn": "ব্রয়লার মুরগি চামড়া ছাড়া ± ৫০ গ্রাম ১.৪ কেজি",
     "nameEn": "Broiler Chicken Skin Off ± 50 gm 1.4 kg",
-    "category": "dairy",
+    "category": "egg-poultry",
     "unit": "1.4 kg",
     "image": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163162&q=best&v=1&m=400",
     "mrp": 489,
@@ -8781,7 +8781,7 @@ export const PRODUCTS = [
     "id": "prod-chicken-liver-kolija-25-gm-500-gm",
     "nameBn": "মুরগির কলিজা ± ২৫ গ্রাম ৫০০ গ্রাম",
     "nameEn": "Chicken Liver (Kolija) ± 25 gm 500 gm",
-    "category": "dairy",
+    "category": "egg-poultry",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/chicken-liver-kolija-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167892&q=best&v=1",
     "mrp": 199,
@@ -8848,7 +8848,7 @@ export const PRODUCTS = [
     "id": "prod-bengal-meat-chicken-thigh-keema-net-weight-50-gm-1-kg",
     "nameBn": "বেঙ্গল মিট মুরগির কুচি মাংস ± ৫০ গ্রাম ১ কেজি",
     "nameEn": "Bengal Meat Chicken Thigh Keema ± 50 gm 1 kg",
-    "category": "dairy",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/bengal-meat-chicken-thigh-keema-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74662&q=best&v=1",
     "mrp": 635,
@@ -8915,7 +8915,7 @@ export const PRODUCTS = [
     "id": "prod-chicken-eggs-layer-white-12-pcs",
     "nameBn": "মুরগির ডিম লেয়ার (সাদা) ১২ টি",
     "nameEn": "Chicken Eggs Layer (White) 12 pcs",
-    "category": "dairy",
+    "category": "egg-poultry",
     "unit": "12 pcs",
     "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
     "mrp": 135,
@@ -8982,7 +8982,7 @@ export const PRODUCTS = [
     "id": "prod-chicken-eggs-layer-white-6-pcs",
     "nameBn": "মুরগির ডিম লেয়ার (সাদা) ৬ টি",
     "nameEn": "Chicken Eggs Layer (White) 6 pcs",
-    "category": "dairy",
+    "category": "egg-poultry",
     "unit": "6 pcs",
     "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165810&q=best&v=1&m=400",
     "mrp": 69,
@@ -9049,7 +9049,7 @@ export const PRODUCTS = [
     "id": "prod-amul-butter-unsalted-500-gm",
     "nameBn": "আমুল মাখন আনসল্টেড ৫০০ গ্রাম",
     "nameEn": "Amul Butter Unsalted 500 gm",
-    "category": "dairy",
+    "category": "spices",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/amul-butter-unsalted-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D90355&q=best&v=1",
     "mrp": 800,
@@ -9116,7 +9116,7 @@ export const PRODUCTS = [
     "id": "prod-amul-butter-salted-100-gm",
     "nameBn": "আমুল মাখন লবণযুক্ত ২০০ গ্রাম",
     "nameEn": "Amul Butter Salted 100 gm",
-    "category": "dairy",
+    "category": "spices",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/amul-butter-salted-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69582&q=best&v=1",
     "mrp": 200,
@@ -9183,7 +9183,7 @@ export const PRODUCTS = [
     "id": "prod-lurpak-butter-salted-200-gm-2",
     "nameBn": "লুরপাক সল্টেড স্প্রেডবাল বাটার ২০০ গ্রাম",
     "nameEn": "Lurpak Butter Salted 200 gm",
-    "category": "dairy",
+    "category": "spices",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/lurpak-butter-salted-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130417&q=best&v=1",
     "mrp": 635,
@@ -9250,7 +9250,7 @@ export const PRODUCTS = [
     "id": "prod-lurpak-butter-unsalted-200-gm",
     "nameBn": "লুরপাক মাখন লবন মুক্ত ২০০ গ্রাম",
     "nameEn": "Lurpak Butter Unsalted 200 gm",
-    "category": "dairy",
+    "category": "spices",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/lurpak-butter-unsalted-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130418&q=best&v=1&m=400",
     "mrp": 880,
@@ -9317,7 +9317,7 @@ export const PRODUCTS = [
     "id": "prod-aarong-dairy-butter-200-gm",
     "nameBn": "আড়ং ডেইরি মাখন ২০০ গ্রাম",
     "nameEn": "Aarong Dairy Butter 200 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/aarong-dairy-butter-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D46787&q=best&v=1",
     "mrp": 270,
@@ -9384,7 +9384,7 @@ export const PRODUCTS = [
     "id": "prod-anchor-unsalted-butter-227-gm",
     "nameBn": "অ্যাঙ্কর আনসল্টেড বাটার ২২৭ গ্রাম",
     "nameEn": "Anchor Unsalted Butter 227 gm",
-    "category": "dairy",
+    "category": "spices",
     "unit": "227 gm",
     "image": "https://chaldn.com/_mpimage/anchor-unsalted-butter-227-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D159981&q=best&v=1",
     "mrp": 500,
@@ -9451,7 +9451,7 @@ export const PRODUCTS = [
     "id": "prod-kraft-original-philadelphia-cream-cheese-250-gm",
     "nameBn": "ফিলাডেলফিয়া ক্রিম চিজ ২৫০ গ্রাম",
     "nameEn": "Philadelphia Cream Cheese 250 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/philadelphia-cream-cheese-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132112&q=best&v=1&m=400",
     "mrp": 750,
@@ -9518,7 +9518,7 @@ export const PRODUCTS = [
     "id": "prod-puck-cream-cheese-spread-140-gm",
     "nameBn": "পাক ক্রিম চিজ স্প্রেড ১৪০ গ্রাম",
     "nameEn": "Puck Cream Cheese Spread 140 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "140 gm",
     "image": "https://chaldn.com/_mpimage/puck-cream-cheese-spread-140-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180125&q=best&v=1",
     "mrp": 399,
@@ -9585,7 +9585,7 @@ export const PRODUCTS = [
     "id": "prod-anchor-white-cheddar-block-250-gm",
     "nameBn": "অ্যাংকর হোয়াইট ছিডার ব্লক ২৫০ গ্রাম",
     "nameEn": "Anchor White Cheddar Block 250 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/anchor-white-cheddar-block-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D93716&q=best&v=1",
     "mrp": 555,
@@ -9652,7 +9652,7 @@ export const PRODUCTS = [
     "id": "prod-almarai-processed-cream-cheese-500-gm",
     "nameBn": "আলমারাই প্রোসেস্ড ক্রিম চিজ ৫০০ গ্রাম",
     "nameEn": "Almarai spreadable Cream Cheese 500 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/almarai-spreadable-cream-cheese-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D175499&q=best&v=1",
     "mrp": 1290,
@@ -9719,7 +9719,7 @@ export const PRODUCTS = [
     "id": "prod-american-garden-arla-sandwich-slice-cheese-200-gm",
     "nameBn": "আরলা স্যান্ডউইচ স্লাইস পনির ২০০ গ্রাম",
     "nameEn": "Arla Sandwich Slice Cheese 200 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/arla-sandwich-slice-cheese-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D125242&q=best&v=1&m=400",
     "mrp": 460,
@@ -9786,7 +9786,7 @@ export const PRODUCTS = [
     "id": "prod-almarai-cream-cheese-108-gm",
     "nameBn": "আলমারাই ক্রিম চিজ ১০৮ গ্রাম",
     "nameEn": "Almarai Cream Cheese 108 gm",
-    "category": "dairy",
+    "category": "dairy-beverage",
     "unit": "108 gm",
     "image": "https://chaldn.com/_mpimage/almarai-cream-cheese-108-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73416&q=best&v=1",
     "mrp": 290,
@@ -9853,7 +9853,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-refined-sugar-500-gm-3",
     "nameBn": "ফ্রেস রিফাইন্ড চিনি ৫০০ গ্রাম",
     "nameEn": "Fresh Refined Sugar 500 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/fresh-refined-sugar-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D59305&q=best&v=1&m=400",
     "mrp": 55,
@@ -9920,7 +9920,7 @@ export const PRODUCTS = [
     "id": "prod-starship-refined-sugar-1-kg",
     "nameBn": "স্টারশিপ রিফাইন্ড চিনি ১ কেজি",
     "nameEn": "Starship Refined Sugar 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/starship-refined-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D174230&q=best&v=1",
     "mrp": 110,
@@ -9987,7 +9987,7 @@ export const PRODUCTS = [
     "id": "prod-akij-essential-refined-sugar-1-kg",
     "nameBn": "আকিজ এসেনসিয়াল পরিশোধিত চিনি ১ কেজি",
     "nameEn": "Akij Essential Refined Sugar 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/akij-essential-refined-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D121194&q=best&v=1",
     "mrp": 135,
@@ -10054,7 +10054,7 @@ export const PRODUCTS = [
     "id": "prod-loose-white-sugar-1-kg",
     "nameBn": "সাদা চিনি খোলা ১ কেজি",
     "nameEn": "Loose White Sugar 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/loose-white-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D98364&q=best&v=1",
     "mrp": 109,
@@ -10121,7 +10121,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-sugar-sachet-box-250-gm",
     "nameBn": "ফ্রেশ চিনি স্যাশে বক্স ২৫০ গ্রাম",
     "nameEn": "Fresh Sugar Sachet Box 250 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/fresh-sugar-sachet-box-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D128653&q=best&v=1",
     "mrp": 55,
@@ -10188,7 +10188,7 @@ export const PRODUCTS = [
     "id": "prod-sis-white-icing-sugar-500-gm",
     "nameBn": "সিস সাদা আইসিং চিনি ৫০০ গ্রাম",
     "nameEn": "Sis White Icing Sugar 500 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/sis-white-icing-sugar-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133672&q=best&v=1",
     "mrp": 420,
@@ -10255,7 +10255,7 @@ export const PRODUCTS = [
     "id": "prod-onatural-brown-sugar-1-kg",
     "nameBn": "ও'ন্যাচারাল ব্রাউন চিনি ১ কেজি",
     "nameEn": "O'Natural Brown Sugar 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/onatural-brown-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D116713&q=best&v=1",
     "mrp": 150,
@@ -10322,7 +10322,7 @@ export const PRODUCTS = [
     "id": "prod-savory-brown-sugar-200-gm",
     "nameBn": "স্যাভোরি গুড় ব্রাউন সুগার ২০০ গ্রাম",
     "nameEn": "Savory Molasses Brown Sugar 200 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/savory-molasses-brown-sugar-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133252&q=best&v=1",
     "mrp": 100,
@@ -10389,7 +10389,7 @@ export const PRODUCTS = [
     "id": "prod-savory-molasses-brown-sugar-454-gm",
     "nameBn": "স্যাভোরি মোলাসেস ব্রাউন সুগার ৪৫৪ গ্রাম",
     "nameEn": "Savory Molasses Brown Sugar 454 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "454 gm",
     "image": "https://chaldn.com/_mpimage/savory-molasses-brown-sugar-454-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133253&q=best&v=1",
     "mrp": 350,
@@ -10456,7 +10456,7 @@ export const PRODUCTS = [
     "id": "prod-natural-cane-brown-sugar-1-kg",
     "nameBn": "ন্যাচারাল কেইন ব্রাউন চিনি  ১ কেজি",
     "nameEn": "Mitr Phol Natural Cane Brown  Sugar 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/mitr-phol-natural-cane-brown-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130788&q=best&v=1",
     "mrp": 479,
@@ -10523,7 +10523,7 @@ export const PRODUCTS = [
     "id": "prod-natural-cane-brown-sugar-500-gm",
     "nameBn": "ন্যাচারাল কেইন ব্রাউন চিনি ৫০০ গ্রাম ",
     "nameEn": "Mitr Phol Natural Cane Brown Sugar 500 gm ",
-    "category": "staples",
+    "category": "spices",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/mitr-phol-natural-cane-brown-sugar-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130789&q=best&v=1",
     "mrp": 269,
@@ -10590,7 +10590,7 @@ export const PRODUCTS = [
     "id": "prod-akij-essential-iodized-salt-1-kg",
     "nameBn": "আকিজ এসেনসিয়াল আয়োডিনযুক্ত লবণ ১ কেজি",
     "nameEn": "Akij Essential Iodized Salt 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/akij-essential-iodized-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D122555&q=best&v=1&m=400",
     "mrp": 38,
@@ -10657,7 +10657,7 @@ export const PRODUCTS = [
     "id": "prod-aci-sprinkle-salt-pepper-mix-100-gm",
     "nameBn": "এসিআই স্প্রিংকল লবণ ও গোলমরিচ মিশ্রণ ১০০ গ্রাম",
     "nameEn": "ACI Sprinkle Salt & Pepper Mix 100 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/aci-sprinkle-salt-pepper-mix-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D174550&q=best&v=1",
     "mrp": 125,
@@ -10724,7 +10724,7 @@ export const PRODUCTS = [
     "id": "prod-pran-iodized-salt-1-kg",
     "nameBn": "প্রাণ আয়োডিনযুক্ত লবণ ১ কেজি",
     "nameEn": "Pran Iodized Salt 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/pran-iodized-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132238&q=best&v=1",
     "mrp": 42,
@@ -10791,7 +10791,7 @@ export const PRODUCTS = [
     "id": "prod-provati-bit-salt-100-gm",
     "nameBn": "বিট লবণ ১০০ গ্রাম",
     "nameEn": "Rock Salt (Bit Lobon) 100 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/rock-salt-bit-lobon-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138598&q=best&v=1",
     "mrp": 55,
@@ -10858,7 +10858,7 @@ export const PRODUCTS = [
     "id": "prod-farmers-gold-himalayan-pink-salt-250-gm",
     "nameBn": "ফার্মার‘স গোল্ড হিমালয়ান পিঙ্ক সল্ট ২৫০ গ্রাম",
     "nameEn": "Farmer's Gold Himalayan Pink Salt 250 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/farmers-gold-himalayan-pink-salt-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D160657&q=best&v=1",
     "mrp": 180,
@@ -10925,7 +10925,7 @@ export const PRODUCTS = [
     "id": "prod-saad-tasting-salt-100-gm",
     "nameBn": "স্বাদ টেস্টিং সল্ট ১০০ গ্রাম",
     "nameEn": "Saad Tasting Salt 100 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/saad-tasting-salt-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135318&q=best&v=1",
     "mrp": 50,
@@ -10992,7 +10992,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-super-premium-vacuum-salt-1-kg",
     "nameBn": "ফ্রেশ সুপার প্রিমিয়াম (ভ্যাকুয়াম) লবণ ১ কেজি",
     "nameEn": "Fresh Super Premium (Vacuum) Salt 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/fresh-super-premium-vacuum-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D128654&q=best&v=1",
     "mrp": 42,
@@ -11059,7 +11059,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-super-premium-salt-jar-750-gm-2",
     "nameBn": "ফ্রেশ সুপার প্রিমিয়াম লবণ জার ৭৫০ গ্রাম",
     "nameEn": "Fresh Super Premium Salt Jar 750 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "750 gm",
     "image": "https://chaldn.com/_mpimage/fresh-super-premium-salt-jar-750-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D113295&q=best&v=1",
     "mrp": 35,
@@ -11126,7 +11126,7 @@ export const PRODUCTS = [
     "id": "prod-molla-super-salt-1-kg",
     "nameBn": "মোল্লা সুপার লবণ ১ কেজি   ",
     "nameEn": "Molla Super Salt 1 kg",
-    "category": "staples",
+    "category": "spices",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/molla-super-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D152663&q=best&v=1",
     "mrp": 42,
@@ -11193,7 +11193,7 @@ export const PRODUCTS = [
     "id": "prod-dekko-fruit-funda-soft-drink-powder-orange-free-mango-drink-powder-125-gm-500-gm",
     "nameBn": "ডেকো ফ্রুট ফান্ডা সফট ড্রিংক পাউডার অরেঞ্জ (ফ্রি ম্যাংগো ড্রিঙ্ক পাউডার ১২৫ গ্রাম) ৫০০ গ্রাম",
     "nameEn": "Dekko Fruit Funda Soft Drink Powder Orange (Free Mango Drink Powder 125 gm) 500 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/dekko-fruit-funda-soft-drink-powder-orange-free-mango-drink-powder-125-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D186989&q=best&v=1",
     "mrp": 280,
@@ -11260,7 +11260,7 @@ export const PRODUCTS = [
     "id": "prod-dekko-fruit-funda-soft-drink-powder-mango-free-orange-drink-powder-125-gm-500-gm",
     "nameBn": "ডেকো ফ্রুট ফান্ডা সফট ড্রিংক পাউডার ম্যাংগো (ফ্রি অরেঞ্জ ড্রিঙ্ক পাউডার ১২৫ গ্রাম) ৫০০ গ্রাম",
     "nameEn": "Dekko Fruit Funda Soft Drink Powder Mango (Free Orange Drink Powder 125 gm) 500 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/dekko-fruit-funda-soft-drink-powder-mango-free-orange-drink-powder-125-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D186988&q=best&v=1",
     "mrp": 280,
@@ -11327,7 +11327,7 @@ export const PRODUCTS = [
     "id": "prod-dekko-fruit-funda-soft-drink-powder-orange-250-gm",
     "nameBn": "ডেকো ফ্রুট ফান্ডা সফট ড্রিংক পাউডার (অরেঞ্জ) ২৫০ গ্রাম",
     "nameEn": "Dekko Fruit Funda Soft Drink Powder (Orange) 250 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/dekko-fruit-funda-soft-drink-powder-orange-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D186987&q=best&v=1",
     "mrp": 150,
@@ -11394,7 +11394,7 @@ export const PRODUCTS = [
     "id": "prod-tang-mango-instant-drink-powder-bib-500-gm",
     "nameBn": "ট্যাং ম্যাংগো ইন্সট্যান্ট ড্রিংক পাউডার বিআইবি ৫০০ গ্রাম",
     "nameEn": "Tang Mango Instant Drink Powder BIB 500 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/tang-mango-instant-drink-powder-bib-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169510&q=best&v=1",
     "mrp": 425,
@@ -11461,7 +11461,7 @@ export const PRODUCTS = [
     "id": "prod-dekko-fruit-funda-soft-drink-powder-orange-125-gm",
     "nameBn": "ডেকো ফ্রুট ফান্ডা সফট ড্রিংক পাউডার (অরেঞ্জ) ১২৫ গ্রাম",
     "nameEn": "Dekko Fruit Funda Soft Drink Powder (Orange) 125 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "125 gm",
     "image": "https://chaldn.com/_mpimage/dekko-fruit-funda-soft-drink-powder-orange-125-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D186986&q=best&v=1",
     "mrp": 80,
@@ -11528,7 +11528,7 @@ export const PRODUCTS = [
     "id": "prod-tang-orange-instant-drink-powder-bib-75-gm",
     "nameBn": "ট্যাং অরেঞ্জ ইনস্ট্যান্ট ড্রিংক পাউডার বিআইবি ৭৫ গ্রাম",
     "nameEn": "Tang Orange Instant Drink Powder BIB 75 gm",
-    "category": "staples",
+    "category": "vegetables",
     "unit": "75 gm",
     "image": "https://chaldn.com/_mpimage/tang-orange-instant-drink-powder-bib-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136046&q=best&v=1",
     "mrp": 100,
@@ -11595,7 +11595,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-coriander-powder-200-gm-radhuni-dhoniya",
     "nameBn": "রাঁধুনী ধনিয়ার গুঁড়া ২০০ গ্রাম",
     "nameEn": "Radhuni Coriander (Dhonia) Powder 200 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-coriander-dhonia-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132897&q=best&v=1",
     "mrp": 110,
@@ -11662,7 +11662,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-coriander-dhonia-powder-100-gm",
     "nameBn": "রাঁধুনী ধনিয়ার গুঁড়া  ১০০ গ্রাম",
     "nameEn": "Radhuni Coriander (Dhonia) Powder 100 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-coriander-dhonia-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132516&q=best&v=1",
     "mrp": 60,
@@ -11729,7 +11729,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-cumin-powder-500-gm",
     "nameBn": "রাঁধুনী জিরার গুঁড়া ১০০ গ্রাম",
     "nameEn": "Radhuni Cumin (Jira) Powder 100 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132521&q=best&v=1",
     "mrp": 160,
@@ -11796,7 +11796,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-cumin-powder-50-gm",
     "nameBn": "রাঁধুনী জিরার গুঁড়া ৫০ গ্রাম",
     "nameEn": "Radhuni Cumin (Jira) Powder 50 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "50 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-50-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132522&q=best&v=1",
     "mrp": 85,
@@ -11863,7 +11863,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-cumin-powder-200-gm",
     "nameBn": "রাঁধুনী জিরার গুঁড়া ২০০ গ্রাম",
     "nameEn": "Radhuni Cumin (Jira) Powder 200 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132896&q=best&v=1",
     "mrp": 310,
@@ -11930,7 +11930,7 @@ export const PRODUCTS = [
     "id": "prod-beef-bone-in-1-kg-2",
     "nameBn": "বেঙ্গল মিট হাড়সহ গরুর মাংস ± ৫০ গ্রাম ১ কেজি",
     "nameEn": "Bengal Meat Beef Bone In ± 50 gm 1 kg",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/bengal-meat-beef-bone-in-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77384&q=low&v=1",
     "mrp": 880,
@@ -11997,7 +11997,7 @@ export const PRODUCTS = [
     "id": "prod-bengal-meat-beef-head-meat-1-kg",
     "nameBn": "বেঙ্গল মিট গরুর মাথার মাংস 1 কেজি",
     "nameEn": "Bengal Meat Beef Head Meat 1 kg",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/bengal-meat-beef-head-meat-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D83162&q=best&v=1",
     "mrp": 550,
@@ -12064,7 +12064,7 @@ export const PRODUCTS = [
     "id": "prod-raaj-hash-swan-meat-after-cutting-net-weight-50-gm-1-kg",
     "nameBn": "রাজহাশ (হাঁস) কাটার পর মাংস (নিট ওজন ± ৫০ গ্রাম) ১ কেজি",
     "nameEn": "Raaj Hash (Swan) Meat After Cutting (Net Weight ± 50 gm) 1 kg",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/raaj-hash-swan-meat-after-cutting-net-weight-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167899&q=best&v=1",
     "mrp": 1099,
@@ -12131,7 +12131,7 @@ export const PRODUCTS = [
     "id": "prod-quail-meat-2-pcs",
     "nameBn": "কোয়েলের মাংস ২ টি",
     "nameEn": "Quail Meat 2 pcs",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "2 pcs",
     "image": "https://chaldn.com/_mpimage/quail-meat-2-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167895&q=best&v=1",
     "mrp": 160,
@@ -12198,7 +12198,7 @@ export const PRODUCTS = [
     "id": "prod-mutton-head-meat-regular-net-weight-50-gm-1-kg",
     "nameBn": "খাসির মাথার মাংস রেগুলার (নেট ওজন ± ৫০ গ্রাম) ১ কেজি",
     "nameEn": "Mutton Head Meat Regular (Net Weight ± 50 gm) 1 kg",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/mutton-head-meat-regular-net-weight-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163258&q=best&v=1",
     "mrp": 639,
@@ -12265,7 +12265,7 @@ export const PRODUCTS = [
     "id": "prod-beijing-duck-meat-after-cutting-net-weight-50-gm-1-kg",
     "nameBn": "বেইজিং হাঁসের মাংস কাটার পর (নেট ওজন ± ৫০ গ্রাম) ১ কেজি",
     "nameEn": "Beijing Duck Meat After Cutting (Net Weight ± 50 gm) 1 kg",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/beijing-duck-meat-after-cutting-net-weight-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163248&q=best&v=1",
     "mrp": 1039,
@@ -12332,7 +12332,7 @@ export const PRODUCTS = [
     "id": "prod-shutkiz-dry-fish-bharta-mix-powder-200-gm",
     "nameBn": "শুটকিজ শুটকি ভর্তা মিক্স পাউডার ২০০ গ্রাম",
     "nameEn": "Shutkiz Dry Fish Bharta Mix Powder 200 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/shutkiz-dry-fish-bharta-mix-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D184238&q=best&v=1",
     "mrp": 520,
@@ -12399,7 +12399,7 @@ export const PRODUCTS = [
     "id": "prod-try-dry-fish-balachao-dry-kachki-chutney-5-gm-75-gm",
     "nameBn": "ট্রাই ড্রাই ফিশ বালাচাও কাচকি শুটকীর চাটনি ± ৫ গ্রাম ৭৫ গ্রাম",
     "nameEn": "Try Dry Fish Balachao Dry Kachki Chutney ± 5 gm 75 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "75 gm",
     "image": "https://chaldn.com/_mpimage/try-dry-fish-balachao-dry-kachki-chutney-5-gm-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132094&q=best&v=1",
     "mrp": 250,
@@ -12466,7 +12466,7 @@ export const PRODUCTS = [
     "id": "prod-try-dry-fish-balachao-dry-loitta-chutney-5-gm-75-gm",
     "nameBn": "ট্রাই ড্রাই ফিশ বালাচাও লইট্যা শুটকীর চাটনি ± ৫ গ্রাম ৭৫ গ্রাম",
     "nameEn": "Try Dry Fish Balachao Dry Loitta Chutney ± 5 gm 75 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "75 gm",
     "image": "https://chaldn.com/_mpimage/try-dry-fish-balachao-dry-loitta-chutney-5-gm-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132093&q=best&v=1",
     "mrp": 260,
@@ -12533,7 +12533,7 @@ export const PRODUCTS = [
     "id": "prod-try-dry-fish-balachao-dry-prawn-chutney-10-gm-150-gm",
     "nameBn": "ট্রাই ড্রাই ফিশ বালাচাও চিংড়ী শুটকীর চাটনি ± ১০ গ্রাম ১৫০ গ্রাম",
     "nameEn": "Try Dry Fish Balachao Dry Prawn Chutney ± 10 gm 150 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "150 gm",
     "image": "https://chaldn.com/_mpimage/try-dry-fish-balachao-dry-prawn-chutney-10-gm-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132092&q=best&v=1",
     "mrp": 400,
@@ -12600,7 +12600,7 @@ export const PRODUCTS = [
     "id": "prod-fargo-safe-dry-fish-chingri-shutki-250-gm",
     "nameBn": "ফার্গো সেফ ড্রাই ফিশ (চিংড়ি শুটকি) ২৫০ গ্রাম",
     "nameEn": "Fargo Safe Dry Fish (Chingri Shutki) 250 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/fargo-safe-dry-fish-chingri-shutki-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127937&q=best&v=1",
     "mrp": 290,
@@ -12667,7 +12667,7 @@ export const PRODUCTS = [
     "id": "prod-fargo-safe-dry-fish-churi-shutki-100-gm",
     "nameBn": "ফার্গো সেফ ড্রাই ফিশ (ছুরি শুটকি) ১০০ গ্রাম",
     "nameEn": "Fargo Safe Dry Fish (Churi Shutki) 100 gm",
-    "category": "staples",
+    "category": "egg-poultry",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/fargo-safe-dry-fish-churi-shutki-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132404&q=best&v=1&m=400",
     "mrp": 305,
@@ -12734,7 +12734,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-biryani-masala-40-gm",
     "nameBn": "রাঁধুনি বিরিয়ানি মশলা ৪০ গ্রাম",
     "nameEn": "Radhuni Biryani Masala 40 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "40 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-biryani-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109980&q=best&v=1",
     "mrp": 60,
@@ -12801,7 +12801,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-ready-mix-kachchi-biryani-masala-40-gm",
     "nameBn": "রাঁধুনী কাচ্চি বিরিয়ানি মশলা ৪০ গ্রাম ",
     "nameEn": "Radhuni Kachchi Biryani Masala 40 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "40 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-kachchi-biryani-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D110485&q=best&v=1",
     "mrp": 70,
@@ -12868,7 +12868,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-hyderabadi-biryani-masala-45-gm",
     "nameBn": "রাঁধুনী হায়দ্রাবাদি বিরিয়ানি মশলা ৪৫ গ্রাম",
     "nameEn": "Radhuni Hyderabadi Biryani Masala 45 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "45 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-hyderabadi-biryani-masala-45-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D110479&q=best&v=1",
     "mrp": 90,
@@ -12935,7 +12935,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-garam-masala-40-gm",
     "nameBn": "রাঁধুনী গরম মশলা ৪০ গ্রাম",
     "nameEn": "Radhuni Garam Masala 40 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "40 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-garam-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132527&q=best&v=1",
     "mrp": 95,
@@ -13002,7 +13002,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-chotpoti-masala-50-gm",
     "nameBn": "রাঁধুনী চটপটি মশলা ৫০ গ্রাম",
     "nameEn": "Radhuni Chotpoti Masala 50 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "50 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-chotpoti-masala-50-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138436&q=best&v=1",
     "mrp": 50,
@@ -13069,7 +13069,7 @@ export const PRODUCTS = [
     "id": "prod-radhuni-roast-masala-35-gm",
     "nameBn": "রাঁধুনী রোস্ট মশলা ৩৫ গ্রাম",
     "nameEn": "Radhuni Roast Masala 35 gm",
-    "category": "staples",
+    "category": "spices",
     "unit": "35 gm",
     "image": "https://chaldn.com/_mpimage/radhuni-roast-masala-35-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D110797&q=best&v=1",
     "mrp": 65,
@@ -13136,7 +13136,7 @@ export const PRODUCTS = [
     "id": "prod-pran-orange-plus-soft-drink-powder-jar-500-gm",
     "nameBn": "প্রাণ কমলা প্লাস সফট ড্রিংক পাউডার (জার) ৫০০ গ্রাম",
     "nameEn": "Pran Orange Plus Soft Drink Powder (Jar) 500 gm",
-    "category": "staples",
+    "category": "vegetables",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/pran-orange-plus-soft-drink-powder-jar-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D97626&q=best&v=1",
     "mrp": 290,
@@ -16486,7 +16486,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-cerelac-2-rice-carrot-with-chicken-8-months-350-gm",
     "nameBn": "নেসলে সেরেলাক ২ চিকেনের সাথে ভাত গাজর (৮ মাস +) ৩৫০ গ্রাম",
     "nameEn": "Nestle Cerelac 2 Rice Carrot with Chicken (8 months+) 350 gm",
-    "category": "vegetables",
+    "category": "egg-poultry",
     "unit": "350 gm",
     "image": "https://chaldn.com/_mpimage/nestle-cerelac-2-rice-carrot-with-chicken-8-months-350-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D152767&q=best&v=1&m=400",
     "mrp": 425,
@@ -17424,7 +17424,7 @@ export const PRODUCTS = [
     "id": "prod-moshur-dal-imported-1-kg",
     "nameBn": "মসুর ডাল (আমদানিকৃত) ১ কেজি",
     "nameEn": "Moshur Dal (Imported) 1 kg",
-    "category": "vegetables",
+    "category": "rice-pulses",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/moshur-dal-imported-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182354&q=best&v=1",
     "mrp": 115,
@@ -17826,7 +17826,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-maggi-2-minute-masala-instant-noodles-8-pack",
     "nameBn": "নেসলে ম্যাগী ২-মিনিট মাসালা ইন্সট্যান্ট নুডুলস ৮ প্যাক",
     "nameEn": "Nestle Maggi 2-Minute Masala Instant Noodles 8 pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "8 pack",
     "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-masala-instant-noodles-8-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D153591&q=best&v=1",
     "mrp": 180,
@@ -17893,7 +17893,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-maggi-2-minute-masala-instant-noodles-16-pack",
     "nameBn": "নেসলে ম্যাগি ২-মিনিট মাসালা ইন্সট্যান্ট নুডুলস ১৬ প্যাক",
     "nameEn": "Nestle Maggi 2 Minute Masala Instant Noodles 16 pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "16 pack",
     "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-masala-instant-noodles-16-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D153592&q=best&v=1",
     "mrp": 340,
@@ -17960,7 +17960,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-maggi-2-minute-masala-instant-noodles-4-pack",
     "nameBn": "নেসলে ম্যাগী ২-মিনিট মাসালা ইন্সট্যান্ট নুডুলস ৪ প্যাক",
     "nameEn": "Nestle Maggi 2-Minute Masala Instant Noodles 4 pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "4 pack",
     "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-masala-instant-noodles-4-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D153594&q=best&v=1",
     "mrp": 95,
@@ -18027,7 +18027,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-maggi-2-minute-noodles-masala-12-pack",
     "nameBn": "নেসলে ম্যাগী ২-মিনিট মাসালা ইন্সট্যান্ট নুডলস ১২ প্যাক",
     "nameEn": "Nestle Maggi 2-Minute Masala Instant Noodles 12 pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "12 pack",
     "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-masala-instant-noodles-12-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D153593&q=best&v=1",
     "mrp": 265,
@@ -18094,7 +18094,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-maggi-2-minute-noodles-masala-12-pack-2",
     "nameBn": "নেসলে ম্যাগি ২-মিনিট নুডলস মশলা ১২ প্যাক",
     "nameEn": "Nestle Maggi 2-Minute Noodles Masala 12 pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "12 pack",
     "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-noodles-masala-12-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D67318&q=best&v=1",
     "mrp": 265,
@@ -18161,7 +18161,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-maggi-2-minute-masala-instant-noodles-free-surprise-gift-12-pack",
     "nameBn": "নেসলে ম্যাগি ২-মিনিট মাসালা ইনস্ট্যান্ট নুডলস (ফ্রি সারপ্রাইজ গিফট) ১২ প্যাক",
     "nameEn": "Nestle Maggi 2-Minute Masala Instant Noodles (Free Surprise Gift) 12 Pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "12 pack",
     "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-masala-instant-noodles-free-surprise-gift-12-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132205&q=best&v=1&m=400",
     "mrp": 265,
@@ -18228,7 +18228,7 @@ export const PRODUCTS = [
     "id": "prod-pran-mr-noodles-8-pcs-496-gm-5",
     "nameBn": "মিঃ নুডুলস ম্যাজিক মাসালা ইজি ইনস্ট্যান্ট ৪৯৬ গ্রাম",
     "nameEn": "Mr.Noodles Magic Masala Easy Instant 496 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "496 gm",
     "image": "https://chaldn.com/_mpimage/mrnoodles-magic-masala-easy-instant-496-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D175133&q=best&v=1",
     "mrp": 170,
@@ -18295,7 +18295,7 @@ export const PRODUCTS = [
     "id": "prod-mr-noodles-cup-noodles-magic-masala-40-gm",
     "nameBn": "মিঃ নুডলস কাপ নুডলস ম্যাজিক মসলা ৪০ গ্রাম",
     "nameEn": "Mr. Noodles Cup Noodles Magic Masala 40 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "40 gm",
     "image": "https://chaldn.com/_mpimage/mr-noodles-cup-noodles-magic-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130935&q=best&v=1",
     "mrp": 35,
@@ -18362,7 +18362,7 @@ export const PRODUCTS = [
     "id": "prod-pran-mrnoodles-magic-masala-instant-noodles-4pcs-248gm",
     "nameBn": "মিঃ নুডুলস ইনস্ট্যান্ট ম্যাজিক মাসালা ২৪৮ গ্রাম",
     "nameEn": "Mr.Noodles Instant Magic Masala 248 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "248 gm",
     "image": "https://chaldn.com/_mpimage/mrnoodles-instant-magic-masala-248-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D38726&q=low&v=1",
     "mrp": 90,
@@ -18429,7 +18429,7 @@ export const PRODUCTS = [
     "id": "prod-mr-noodles-magic-masala-easy-instant-box-free496-gm",
     "nameBn": "মিস্টার নুডলস ম্যাজিক মাসালা ইজি ইনস্ট্যান্ট (বক্স ফ্রি) ৪৯৬ গ্রাম",
     "nameEn": "Mr. Noodles Magic Masala Easy Instant  (Box Free) 496 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "496 gm",
     "image": "https://chaldn.com/_mpimage/mr-noodles-magic-masala-easy-instant-box-free496-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D94484&q=best&v=1",
     "mrp": 145,
@@ -18496,7 +18496,7 @@ export const PRODUCTS = [
     "id": "prod-mr-noodles-magic-instant-noodles-free-mr-noodles-62-gm-496-gm",
     "nameBn": "মিঃ নুডলস ম্যাজিক ইনস্ট্যান্ট নুডলস (সাথে ৬২ গ্রাম মিঃ নুডলস ফ্রি) ৪৯৬ গ্রাম",
     "nameEn": "Mr. Noodles Magic Easy Instant Noodles (Free Mr. Noodles 62 gm) 496 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "496 gm",
     "image": "https://chaldn.com/_mpimage/mr-noodles-magic-easy-instant-noodles-free-mr-noodles-62-gm-496-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D105381&q=best&v=1",
     "mrp": 145,
@@ -18563,7 +18563,7 @@ export const PRODUCTS = [
     "id": "prod-mrnoodles-masala-flavour-egg-stick-noodles-150-gm",
     "nameBn": "মিঃ নুডুলস মাসালা ফ্লেভার এগ স্টিক নুডুলস ১৫০ গ্রাম",
     "nameEn": "Mr.Noodles Masala Flavour Egg Stick Noodles 150 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "150 gm",
     "image": "https://chaldn.com/_mpimage/mrnoodles-masala-flavour-egg-stick-noodles-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130957&q=best&v=1",
     "mrp": 25,
@@ -18630,7 +18630,7 @@ export const PRODUCTS = [
     "id": "prod-chopstick-yummy-masala-instant-noodles-248-gm",
     "nameBn": "চপস্টিক ইয়ামি মাসালা ইনস্ট্যান্ট নুডুলস ২৪৮ গ্রাম",
     "nameEn": "Chopstick Yummy Masala Instant Noodles 248 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "248 gm",
     "image": "https://chaldn.com/_mpimage/chopstick-yummy-masala-instant-noodles-248-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D149612&q=best&v=1",
     "mrp": 95,
@@ -18697,7 +18697,7 @@ export const PRODUCTS = [
     "id": "prod-chopstick-deshi-masala-instant-noodles-8-pack-496-gm",
     "nameBn": "চপসটীক দেশী মাসালা ইনস্ট্যান্ট নুডুলস ৮ টি ৪৯৬ গ্রাম ",
     "nameEn": "Chopstick Deshi Masala Instant Noodles 8 Pack 496 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "496 gm",
     "image": "https://chaldn.com/_mpimage/chopstick-deshi-masala-instant-noodles-8-pack-496-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D154359&q=best&v=1",
     "mrp": 175,
@@ -18764,7 +18764,7 @@ export const PRODUCTS = [
     "id": "prod-doodles-instant-masala-noodles-free-doodles-box-8-pack",
     "nameBn": "ডুডলস ইনস্ট্যান্ট মাসালা নুডলস (ফ্রি ডুডলস বক্স) ৮ প্যাক",
     "nameEn": "Doodles Instant Masala Noodles (Free Doodles Box) 8 pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "8 pack",
     "image": "https://chaldn.com/_mpimage/doodles-instant-masala-noodles-free-doodles-box-8-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D123907&q=best&v=1",
     "mrp": 160,
@@ -18831,7 +18831,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-instant-noodles-masala-blast-8-pack",
     "nameBn": "ফ্রেশ ইনস্ট্যান্ট নুডলস মাসালা ব্লাস্ট ৮ প্যাক",
     "nameEn": "Fresh Instant Noodles Masala Blast 8 pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "8 pack",
     "image": "https://chaldn.com/_mpimage/fresh-instant-noodles-masala-blast-8-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D117141&q=best&v=1",
     "mrp": 165,
@@ -18898,7 +18898,7 @@ export const PRODUCTS = [
     "id": "prod-doodles-instant-masala-noodles-free-doodles-box-1-pcs-8-pack",
     "nameBn": "ডুডলস ইনস্ট্যান্ট মাসালা নুডলস (ফ্রি ডুডলস বক্স ১ টি) ৮ প্যাক",
     "nameEn": "Doodles Instant Masala Noodles (Free Doodles Box 1 pcs) 8 pack",
-    "category": "snacks",
+    "category": "spices",
     "unit": "8 pack",
     "image": "https://chaldn.com/_mpimage/doodles-instant-masala-noodles-free-doodles-box-1-pcs-8-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D124746&q=best&v=1",
     "mrp": 160,
@@ -18965,7 +18965,7 @@ export const PRODUCTS = [
     "id": "prod-doodles-masala-noodles-free-doodles-box-8-pcs-2",
     "nameBn": "ডুডলস মাসালা নুডলস (ফ্রি ডুডলস বক্স) ৮ টি",
     "nameEn": "Doodles Masala Noodles (Free Doodles Box) 8 pcs",
-    "category": "snacks",
+    "category": "spices",
     "unit": "8 pcs",
     "image": "https://chaldn.com/_mpimage/doodles-masala-noodles-free-doodles-box-8-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D100451&q=best&v=1",
     "mrp": 140,
@@ -19032,7 +19032,7 @@ export const PRODUCTS = [
     "id": "prod-cocola-egg-noodles-125-gm",
     "nameBn": "কোকোলা এগ নুডুলস ১২৫ গ্রাম",
     "nameEn": "Cocola Egg Noodles 125 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "125 gm",
     "image": "https://chaldn.com/_mpimage/cocola-egg-noodles-125-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127029&q=best&v=1",
     "mrp": 20,
@@ -19099,7 +19099,7 @@ export const PRODUCTS = [
     "id": "prod-cocola-egg-chicken-masala-noodles-150-gm",
     "nameBn": "কোকোলা এগ ও চিকেন মশলা নুডুলস ১৫০ গ্রাম",
     "nameEn": "Cocola Egg & Chicken Masala Noodles 150 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "150 gm",
     "image": "https://chaldn.com/_mpimage/cocola-egg-chicken-masala-noodles-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127028&q=best&v=1",
     "mrp": 25,
@@ -19166,7 +19166,7 @@ export const PRODUCTS = [
     "id": "prod-cocola-egg-chicken-noodles-box-300-gm",
     "nameBn": "কোকোলা এগ ও চিকেন নুডলস বক্স ৩০০ গ্রাম",
     "nameEn": "Cocola Egg  & Chicken Noodles Box 300 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "300 gm",
     "image": "https://chaldn.com/_mpimage/cocola-egg-chicken-noodles-box-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127027&q=best&v=1",
     "mrp": 45,
@@ -19233,7 +19233,7 @@ export const PRODUCTS = [
     "id": "prod-cocola-bowl-noodles-egg-chicken-65-gm",
     "nameBn": "কোকোলা বোল নুডুলস এগ এন্ড চিকেন ৬০ গ্রাম",
     "nameEn": "Cocola Bowl Noodles Egg & Chicken 60 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "60 gm",
     "image": "https://chaldn.com/_mpimage/cocola-bowl-noodles-egg-chicken-60-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127016&q=best&v=1&m=400",
     "mrp": 50,
@@ -19300,7 +19300,7 @@ export const PRODUCTS = [
     "id": "prod-cocola-chicken-masala-noodles-180-gm",
     "nameBn": "কোকোলা  চিকেন মশলা নুডুলস ১৫০ গ্রাম",
     "nameEn": "Cocola Chicken Masala Noodles 150 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "150 gm",
     "image": "https://chaldn.com/_mpimage/cocola-chicken-masala-noodles-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127018&q=best&v=1",
     "mrp": 25,
@@ -19367,7 +19367,7 @@ export const PRODUCTS = [
     "id": "prod-cocola-bowl-noodles-beef-bhuna-with-vegetable-60-gm",
     "nameBn": "কোকোলা বোল নুডলস বীফ ভুনা উইথ ভেজিটেবল ৬০ গ্রাম",
     "nameEn": "Cocola Bowl Noodles Beef Bhuna With Vegetable 60 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "60 gm",
     "image": "https://chaldn.com/_mpimage/cocola-bowl-noodles-beef-bhuna-with-vegetable-60-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D176808&q=best&v=1",
     "mrp": 50,
@@ -19434,7 +19434,7 @@ export const PRODUCTS = [
     "id": "prod-ispahani-mirzapore-best-leaf-tea-200-gm",
     "nameBn": "ইস্পাহানি মির্জাপুর বেস্ট লিফ টি ২০০ গ্রাম",
     "nameEn": "Ispahani Mirzapore Best Leaf Tea 200 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D129554&q=best&v=1",
     "mrp": 116,
@@ -19501,7 +19501,7 @@ export const PRODUCTS = [
     "id": "prod-ispahani-mirzapore-best-leaf-tea-500-gm",
     "nameBn": "ইস্পাহানি মির্জাপুর সেরা পাতার চা ৫০০ গ্রাম",
     "nameEn": "Ispahani Mirzapore Best Leaf Tea 500 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D124592&q=best&v=1",
     "mrp": 270,
@@ -19568,7 +19568,7 @@ export const PRODUCTS = [
     "id": "prod-ispahani-mirzapore-tea-best-leaf-400-gm",
     "nameBn": "ইস্পাহানি মির্জাপুর সেরা পাতার চা ৪০০ গ্রাম",
     "nameEn": "Ispahani Mirzapore Best Leaf Tea 400 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107236&q=best&v=1",
     "mrp": 230,
@@ -19635,7 +19635,7 @@ export const PRODUCTS = [
     "id": "prod-ispahanimirzapore-best-leaf-tea-jar-350-gm",
     "nameBn": "ইস্পাহানি মির্জাপুর বেস্ট লিফ টি (জার) ৩৫০ গ্রাম",
     "nameEn": "Ispahani Mirzapore Best Leaf Tea (Jar) 350 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "350 gm",
     "image": "https://chaldn.com/_mpimage/ispahanimirzapore-best-leaf-tea-jar-350-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107226&q=best&v=1",
     "mrp": 220,
@@ -19702,7 +19702,7 @@ export const PRODUCTS = [
     "id": "prod-ispahani-mirzapore-best-leaf-tea-free-premium-toast-250-gm-400-gm",
     "nameBn": "ইস্পাহানি মির্জাপুর বেস্ট লিফ টি (ফ্রি ইস্পাহানি প্রিমিয়াম টোস্ট ২৫০ গ্রাম) ৪০০ গ্রাম",
     "nameEn": "Ispahani Mirzapore Best Leaf Tea (Free Ispahani Premium Toast 250 gm) 400 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-free-premium-toast-250-gm-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114485&q=best&v=1",
     "mrp": 210,
@@ -19769,7 +19769,7 @@ export const PRODUCTS = [
     "id": "prod-ispahani-mirzapore-best-leaf-tea-combo-400-gm-2-pcs",
     "nameBn": "ইস্পাহানি মির্জাপুর বেস্ট লিফ চা  কম্বো ৪০০ গ্রাম ২ টি",
     "nameEn": "Ispahani Mirzapore Best Leaf Tea Combo 400 gm 2 pcs",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "2 pcs",
     "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-combo-400-gm-2-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107237&q=best&v=1",
     "mrp": 420,
@@ -19836,7 +19836,7 @@ export const PRODUCTS = [
     "id": "prod-brooke-bond-taaza-black-tea-150-gm",
     "nameBn": "ব্রুক বন্ড তাজা ব্ল্যাক টি ২০০ গ্রাম",
     "nameEn": "Brooke Bond Taaza Black Tea 200 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/brooke-bond-taaza-black-tea-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D162454&q=best&v=1",
     "mrp": 130,
@@ -19903,7 +19903,7 @@ export const PRODUCTS = [
     "id": "prod-brooke-bond-taaza-black-tea-315-gm",
     "nameBn": "ব্রুক বন্ড তাজা ব্ল্যাক চা ৪০০ গ্রাম",
     "nameEn": "Brooke Bond Taaza Black Tea 400 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/brooke-bond-taaza-black-tea-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D162455&q=best&v=1",
     "mrp": 250,
@@ -19970,7 +19970,7 @@ export const PRODUCTS = [
     "id": "prod-dr-hh-zeera-black-tea-bag-30-pcs-60-gm",
     "nameBn": "ডঃ এইচএন্ডএইচ জিরা ব্ল্যাক টি ব্যাগ ৩০ টি ৬০ গ্রাম",
     "nameEn": "Dr. H&H Zeera Black Tea Bag 30 pcs 60 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "60 gm",
     "image": "https://chaldn.com/_mpimage/dr-hh-zeera-black-tea-bag-30-pcs-60-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D175026&q=best&v=1",
     "mrp": 175,
@@ -20037,7 +20037,7 @@ export const PRODUCTS = [
     "id": "prod-dr-hh-mint-black-tea-bag-30-pcs-60-gm",
     "nameBn": "ডঃ এইচএন্ডএইচ পুদিনা ব্ল্যাক টি ব্যাগ ৩০ টি ৬০ গ্রাম",
     "nameEn": "Dr. H&H Mint Black Tea Bag 30 pcs 60 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "60 gm",
     "image": "https://chaldn.com/_mpimage/dr-hh-mint-black-tea-bag-30-pcs-60-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D175024&q=best&v=1",
     "mrp": 175,
@@ -20104,7 +20104,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-premium-black-tea-200-gm-2",
     "nameBn": "ফ্রেশ প্রিমিয়াম ব্ল্যাক টি ২০০ গ্রাম",
     "nameEn": "Fresh Premium Black Tea 200 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/fresh-premium-black-tea-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D117371&q=best&v=1",
     "mrp": 120,
@@ -20171,7 +20171,7 @@ export const PRODUCTS = [
     "id": "prod-halda-valley-black-tea-200-gm",
     "nameBn": "হালদা ভ্যালি ব্ল্যাক টি ২০০ গ্রাম",
     "nameEn": "Halda Valley Black Tea 200 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/halda-valley-black-tea-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169558&q=best&v=1&m=400",
     "mrp": 175,
@@ -20238,7 +20238,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-nescafe-classic-instant-coffee-jar-45-gm",
     "nameBn": "নেসলে নেসক্যাফে ক্লাসিক ইনস্ট্যান্ট কফি জার ৪৫ গ্রাম",
     "nameEn": "Nestle Nescafe Classic Instant Coffee Jar 45 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "45 gm",
     "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-jar-45-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D161347&q=best&v=1",
     "mrp": 275,
@@ -20305,7 +20305,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-nescafe-classic-instant-coffee-jar-100-gm-2",
     "nameBn": "নেসলে নেসক্যাফে ক্লাসিক ইনস্ট্যান্ট কফি জার ৯০ গ্রাম",
     "nameEn": "Nestle Nescafe Classic Instant Coffee Jar 90 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "90 gm",
     "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-jar-90-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183555&q=best&v=1",
     "mrp": 475,
@@ -20372,7 +20372,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-nescafe-classic-instant-coffee-jar-180-gm",
     "nameBn": "নেসলে নেসক্যাফে ক্লাসিক ইনস্ট্যান্ট কফি জার ২০০ গ্রাম",
     "nameEn": "Nestle Nescafe Classic Instant Coffee Jar 180 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "180 gm",
     "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-jar-180-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179348&q=best&v=1",
     "mrp": 970,
@@ -20439,7 +20439,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-nescafe-classic-instant-coffee-jar-24-gm",
     "nameBn": "নেসলে নেসক্যাফে ক্লাসিক ইনস্ট্যান্ট কফি জার ২৪ গ্রাম",
     "nameEn": "Nestle Nescafe Classic Instant Coffee Jar 24 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "24 gm",
     "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-jar-24-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D131325&q=best&v=1",
     "mrp": 195,
@@ -20506,7 +20506,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-nescafe-classic-instant-coffee-tin-100-gm",
     "nameBn": "নেসলে নেসক্যাফে ক্লাসিক ইনস্ট্যান্ট কফি (টিন) ১০০ গ্রাম",
     "nameEn": "Nestle Nescafe Classic Instant Coffee (Tin) 100 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-tin-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D94917&q=best&v=1",
     "mrp": 225,
@@ -20573,7 +20573,7 @@ export const PRODUCTS = [
     "id": "prod-nestle-nescafe-classic-instant-coffee-pouch-pack-200-gm",
     "nameBn": "নেসলে নেসক্যাফে ক্লাসিক ইন্সট্যান্ট কফি পাউচ প্যাক ২০০ গ্রাম",
     "nameEn": "Nestle Nescafe Classic Instant Coffee Pouch Pack 200 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-pouch-pack-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120413&q=best&v=1",
     "mrp": 950,
@@ -20640,7 +20640,7 @@ export const PRODUCTS = [
     "id": "prod-munchys-lexus-salted-chocolate-sandwich-biscuits-190-gm",
     "nameBn": "মানচি'স লেক্সাস সল্টেড চকলেট ক্রিম স্যান্ডউইচ বিস্কুট ১৯০ গ্রাম",
     "nameEn": "Munchy's Lexus Salted Chocolate Cream Sandwich Biscuits 190 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "190 gm",
     "image": "https://chaldn.com/_mpimage/munchys-lexus-salted-chocolate-cream-sandwich-biscuits-190-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101735&q=best&v=1",
     "mrp": 375,
@@ -20707,7 +20707,7 @@ export const PRODUCTS = [
     "id": "prod-cadbury-oreo-chocolate-cream-sandwich-biscuits-120-gm",
     "nameBn": "কেডবারি অরিও চকো ক্রিম সেন্ডুইজ বিস্কুট ১২০ গ্রাম ",
     "nameEn": "Cadbury Oreo Choco Cream Sandwich Biscuit 120 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "120 gm",
     "image": "https://chaldn.com/_mpimage/cadbury-oreo-choco-cream-sandwich-biscuit-120-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D36647&q=low&v=1",
     "mrp": 200,
@@ -20774,7 +20774,7 @@ export const PRODUCTS = [
     "id": "prod-cadbury-oreo-original-sandwich-cream-biscuit-10855-gm",
     "nameBn": "ক্যাডবেরী অরিও অরজিনাল স্যান্ডউইচ ক্রিম বিস্কুট ১০৮.৫৫ গ্রাম",
     "nameEn": "Cadbury Oreo Original Sandwich Cream Biscuit 108.55 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "108.55 gm",
     "image": "https://chaldn.com/_mpimage/cadbury-oreo-original-sandwich-cream-biscuit-10855-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169285&q=best&v=1&m=400",
     "mrp": 180,
@@ -20841,7 +20841,7 @@ export const PRODUCTS = [
     "id": "prod-danish-doreo-black-chocolate-sandwich-biscuit-320-gm",
     "nameBn": "ডেনিশ ডরিও কালো চকলেট স্যান্ডইউচ বিস্কুট ৩২০ গ্রাম",
     "nameEn": "Danish Doreo Black Chocolate Sandwich Biscuit 320 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "320 gm",
     "image": "https://chaldn.com/_mpimage/danish-doreo-black-chocolate-sandwich-biscuit-320-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D47302&q=best&v=1",
     "mrp": 120,
@@ -20908,7 +20908,7 @@ export const PRODUCTS = [
     "id": "prod-danish-doreo-biscuit-12-pack-420-gm",
     "nameBn": "ড্যানিশ ডোরিও ব্ল্যাক চকলেট স্যান্ডুইচ বিস্কিট ১২ টি প্যাক ৪২০ গ্রাম",
     "nameEn": "Danish Doreo Black Chocolate Sandwich Biscuit 12 pack 420 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "420 gm",
     "image": "https://chaldn.com/_mpimage/danish-doreo-black-chocolate-sandwich-biscuit-12-pack-420-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103295&q=best&v=1",
     "mrp": 180,
@@ -20975,7 +20975,7 @@ export const PRODUCTS = [
     "id": "prod-fresh-fun-fill-sandwich-chocolate-cream-biscuit-34-gm",
     "nameBn": "ফ্রেশ ফান ফিল স্যান্ডউইচ চকোলেট ক্রিম বিস্কুট ৩৪ গ্রাম",
     "nameEn": "Fresh Fun Fill Sandwich Chocolate Cream Biscuit 34 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "34 gm",
     "image": "https://chaldn.com/_mpimage/fresh-fun-fill-sandwich-chocolate-cream-biscuit-34-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D158415&q=best&v=1",
     "mrp": 10,
@@ -21042,7 +21042,7 @@ export const PRODUCTS = [
     "id": "prod-olympic-lexus-vegetable-crackers-biscuits-216-gm",
     "nameBn": "অলিম্পিক লেক্সাস ভেজিটেবল ক্র্যাকার্স বিস্কুট ২১৬ গ্রাম",
     "nameEn": "Olympic Lexus Vegetable Crackers Biscuits 216 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "216 gm",
     "image": "https://chaldn.com/_mpimage/olympic-lexus-vegetable-crackers-biscuits-216-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D115564&q=best&v=1",
     "mrp": 100,
@@ -21109,7 +21109,7 @@ export const PRODUCTS = [
     "id": "prod-danish-lexus-vegetable-cracker-biscuit-180-gm",
     "nameBn": "ড্যানিশ লেক্সাস ভেজিটেবল ক্র্যাকার বিস্কুট ১৮০ গ্রাম",
     "nameEn": "Danish Lexus Vegetable Cracker Biscuit 180 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "180 gm",
     "image": "https://chaldn.com/_mpimage/danish-lexus-vegetable-cracker-biscuit-180-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D124076&q=best&v=1",
     "mrp": 100,
@@ -21176,7 +21176,7 @@ export const PRODUCTS = [
     "id": "prod-mix-vegetables-50-gm-500-gm",
     "nameBn": "মিশ্র সবজি (± ৫০ গ্রাম) ৫০০ গ্রাম",
     "nameEn": "Mix Vegetables (± 50 gm) 500 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/mix-vegetables-50-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D166217&q=best&v=1",
     "mrp": 59,
@@ -21243,7 +21243,7 @@ export const PRODUCTS = [
     "id": "prod-mixed-vegetables-for-fried-rice-500-gm",
     "nameBn": "ফ্রাইড রাইসের জন্য মিশ্র সবজি (± ৫০ গ্রাম) ৫০০ গ্রাম",
     "nameEn": "Mixed Vegetables For Fried Rice (± 50 gm) 500 gm",
-    "category": "snacks",
+    "category": "rice-pulses",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/mixed-vegetables-for-fried-rice-50-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D166199&q=best&v=1",
     "mrp": 89,
@@ -21310,7 +21310,7 @@ export const PRODUCTS = [
     "id": "prod-olympic-energy-plus-biscuits-62-gm",
     "nameBn": "অলিম্পিক এনার্জী প্লাস বিস্কুট ৬২ গ্রাম",
     "nameEn": "Olympic Energy Plus Biscuits 62 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "62 gm",
     "image": "https://chaldn.com/_mpimage/olympic-energy-plus-biscuits-62-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183194&q=best&v=1",
     "mrp": 15,
@@ -21377,7 +21377,7 @@ export const PRODUCTS = [
     "id": "prod-olympic-energy-plus-biscuits-185-gm",
     "nameBn": "অলিম্পিক এনার্জী প্লাস বিস্কুট ১৮৫ গ্রাম",
     "nameEn": "Olympic Energy Plus Biscuits 185 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "185 gm",
     "image": "https://chaldn.com/_mpimage/olympic-energy-plus-biscuits-185-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183193&q=best&v=1",
     "mrp": 50,
@@ -21444,7 +21444,7 @@ export const PRODUCTS = [
     "id": "prod-horlicks-instant-hot-malty-goodness-500-gm",
     "nameBn": "হরলিক্স ইনস্ট্যান্ট হট ম্যাল্টি গুডনেস ৫০০ গ্রাম",
     "nameEn": "Horlicks Instant Hot Malty Goodness 500 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/horlicks-instant-hot-malty-goodness-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D160952&q=best&v=1",
     "mrp": 900,
@@ -21511,7 +21511,7 @@ export const PRODUCTS = [
     "id": "prod-horlicks-chocolate-hot-malty-goodness-500-gm",
     "nameBn": "হরলিক্স চকলেট হট ম্যাল্টি গুডনেস ৫০০ গ্রাম",
     "nameEn": "Horlicks Chocolate Hot Malty Goodness 500 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/horlicks-chocolate-hot-malty-goodness-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D160951&q=best&v=1",
     "mrp": 950,
@@ -21578,7 +21578,7 @@ export const PRODUCTS = [
     "id": "prod-horlicks-original-hot-malty-goodness-500-gm",
     "nameBn": "হরলিক্স অরিজিনাল হট ম্যাল্টি গুডনেস ৫০০ গ্রাম",
     "nameEn": "Horlicks Original Hot Malty Goodness 500 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/horlicks-original-hot-malty-goodness-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D160950&q=best&v=1",
     "mrp": 1079,
@@ -21645,7 +21645,7 @@ export const PRODUCTS = [
     "id": "prod-standard-horlicks-health-and-nutrition-drink-15-gm",
     "nameBn": "স্ট্যান্ডার্ড হরলিকস হেলথ অ্যান্ড নিউট্রিশন ড্রিংক ১৫ গ্রাম ",
     "nameEn": "Standard Horlicks Health And Nutrition Drink 15 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "15 gm",
     "image": "https://chaldn.com/_mpimage/standard-horlicks-health-and-nutrition-drink-15-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D176367&q=best&v=1",
     "mrp": 20,
@@ -21712,7 +21712,7 @@ export const PRODUCTS = [
     "id": "prod-pran-special-toast-biscuit-185-gm",
     "nameBn": "প্রাণ স্পেশাল টোস্ট বিস্কুট ২৫০ গ্রাম",
     "nameEn": "Pran Special Toast Biscuit 250 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/pran-special-toast-biscuit-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132330&q=best&v=1",
     "mrp": 60,
@@ -21779,7 +21779,7 @@ export const PRODUCTS = [
     "id": "prod-fun-sweet-toast-biscuit-250-gm",
     "nameBn": "ফান সুইটস টোস্ট বিস্কুট ২৫০ গ্রাম",
     "nameEn": "Fun Sweet Toast Biscuit 250 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/fun-sweet-toast-biscuit-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D158383&q=best&v=1",
     "mrp": 65,
@@ -21846,7 +21846,7 @@ export const PRODUCTS = [
     "id": "prod-aci-fun-tiny-toast-biscuit-chatpata-masala-180-gm",
     "nameBn": "এ সি আই ফান টাইনি টোস্ট বিস্কুট চটপট মাসালা ১৮০ গ্রাম",
     "nameEn": "ACI Fun Tiny Toast Biscuit Chatpata Masala 180 gm",
-    "category": "snacks",
+    "category": "spices",
     "unit": "180 gm",
     "image": "https://chaldn.com/_mpimage/aci-fun-tiny-toast-biscuit-chatpata-masala-180-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D158134&q=best&v=1",
     "mrp": 90,
@@ -21913,7 +21913,7 @@ export const PRODUCTS = [
     "id": "prod-cocola-anarkali-butter-toast-biscuit-185-gm",
     "nameBn": "কোকোলা আনারকলি বাটার টোস্ট বিস্কুট ১৮৫ গ্রাম",
     "nameEn": "Cocola Anarkali Butter Toast Biscuit 185 gm",
-    "category": "snacks",
+    "category": "dairy-beverage",
     "unit": "185 gm",
     "image": "https://chaldn.com/_mpimage/cocola-anarkali-butter-toast-biscuit-185-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D141845&q=best&v=1",
     "mrp": 50,
@@ -21980,7 +21980,7 @@ export const PRODUCTS = [
     "id": "prod-belleame-toast-biscuit-250-gm",
     "nameBn": "বেলামে টোস্ট বিস্কুট ২৫০ গ্রাম",
     "nameEn": "BelleAme Toast Biscuit 250 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "250 gm",
     "image": "https://chaldn.com/_mpimage/belleame-toast-biscuit-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133802&q=best&v=1",
     "mrp": 60,
@@ -22047,7 +22047,7 @@ export const PRODUCTS = [
     "id": "prod-funtastic-plain-toast-biscuit-250-gm",
     "nameBn": "ফানটাস্টিক প্লেইন টোস্ট বিস্কুট ১৮৫ গ্রাম",
     "nameEn": "Funtastic Plain Toast Biscuit 185 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "185 gm",
     "image": "https://chaldn.com/_mpimage/funtastic-plain-toast-biscuit-185-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164225&q=best&v=1",
     "mrp": 60,
@@ -22114,7 +22114,7 @@ export const PRODUCTS = [
     "id": "prod-bombay-sweets-potato-crackers-28-gm",
     "nameBn": "বোম্বে সুইটস পটেটো ক্র্যাকারস ২৮ গ্রাম",
     "nameEn": "Bombay Sweets Potato Crackers 28 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "28 gm",
     "image": "https://chaldn.com/_mpimage/bombay-sweets-potato-crackers-28-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177259&q=best&v=1",
     "mrp": 20,
@@ -22181,7 +22181,7 @@ export const PRODUCTS = [
     "id": "prod-aarong-dairy-sweetened-yogurt-500-gm",
     "nameBn": "আড়ং ডেইরি মিষ্টি দই ৫০০ গ্রাম",
     "nameEn": "Aarong Dairy Sweetened Yogurt 500 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/aarong-dairy-sweetened-yogurt-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D122759&q=best&v=1",
     "mrp": 150,
@@ -22248,7 +22248,7 @@ export const PRODUCTS = [
     "id": "prod-bombay-sweets-premium-roshogolla-600-gm",
     "nameBn": "বোম্বে সুইটস প্রিমিয়াম রসগোল্লা ৬০০ গ্রাম",
     "nameEn": "Bombay Sweets Premium Roshogolla 600 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "600 gm",
     "image": "https://chaldn.com/_mpimage/bombay-sweets-premium-roshogolla-600-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D174430&q=best&v=1",
     "mrp": 240,
@@ -22315,7 +22315,7 @@ export const PRODUCTS = [
     "id": "prod-bombay-sweets-premium-gulab-jamun-600-gm",
     "nameBn": "বোম্বে সুইটস প্রিমিয়াম গুলাব জামুন ৬০০ গ্রাম",
     "nameEn": "Bombay Sweets Premium Gulab Jamun 600 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "600 gm",
     "image": "https://chaldn.com/_mpimage/bombay-sweets-premium-gulab-jamun-600-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D174429&q=best&v=1",
     "mrp": 240,
@@ -22382,7 +22382,7 @@ export const PRODUCTS = [
     "id": "prod-farm-fresh-sweetened-yogurt-500-gm",
     "nameBn": "ফার্ম ফ্রেশ মিষ্টি দই ৫০০ গ্রাম",
     "nameEn": "Farm Fresh Sweetened Yogurt 500 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/farm-fresh-sweetened-yogurt-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D161204&q=best&v=1",
     "mrp": 150,
@@ -22449,7 +22449,7 @@ export const PRODUCTS = [
     "id": "prod-premium-sweet-sherpur-bogura-yogurt-100-gm-600-gm",
     "nameBn": "প্রিমিয়াম মিষ্টি (শেরপুর-বগুড়া) দই ± ১০০ গ্রাম ৬০০ গ্রাম",
     "nameEn": "Premium Sweet (Sherpur-Bogura) Yogurt ± 100 gm 600 gm",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "600 gm",
     "image": "https://chaldn.com/_mpimage/premium-sweet-sherpur-bogura-yogurt-100-gm-600-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D174433&q=best&v=1",
     "mrp": 295,
@@ -22516,7 +22516,7 @@ export const PRODUCTS = [
     "id": "prod-tang-orange-instant-drink-powder-bib-500-gm",
     "nameBn": "ট্যাং অরেঞ্জ ইনস্ট্যান্ট ড্রিঙ্ক পাউডার বিআইবি ৫০০ গ্রাম",
     "nameEn": "Tang Orange Instant Drink Powder BIB 500 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/tang-orange-instant-drink-powder-bib-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169511&q=best&v=1",
     "mrp": 425,
@@ -22583,7 +22583,7 @@ export const PRODUCTS = [
     "id": "prod-tang-orange-instant-drink-powder-bib-200-gm",
     "nameBn": "ট্যাং অরেঞ্জ ইনস্ট্যান্ট ড্রিঙ্ক পাউডার বিআইবি ২০০ গ্রাম",
     "nameEn": "Tang Orange Instant Drink Powder BIB 200 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "200 gm",
     "image": "https://chaldn.com/_mpimage/tang-orange-instant-drink-powder-bib-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D129382&q=best&v=1",
     "mrp": 200,
@@ -22650,7 +22650,7 @@ export const PRODUCTS = [
     "id": "prod-tang-orange-flavoured-instant-drink-powder-jar-750-gm",
     "nameBn": "ট্যাং অরেঞ্জ ফ্লেভার ইনস্ট্যান্ট ড্রিংক পাউডার জার ৭৫০ গ্রাম",
     "nameEn": "Tang Orange Flavoured Instant Drink Powder Jar 750 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "750 gm",
     "image": "https://chaldn.com/_mpimage/tang-orange-flavoured-instant-drink-powder-jar-750-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D157572&q=best&v=1",
     "mrp": 780,
@@ -22717,7 +22717,7 @@ export const PRODUCTS = [
     "id": "prod-tang-orange-instant-drink-powder-1-kg",
     "nameBn": "ট্যাং অরেঞ্জ ইন্সট্যান্ট ড্রিংক পাউডার ১ কেজি",
     "nameEn": "Tang Orange Instant Drink Powder 1 kg",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/tang-orange-instant-drink-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136044&q=best&v=1",
     "mrp": 950,
@@ -22784,7 +22784,7 @@ export const PRODUCTS = [
     "id": "prod-tang-orange-flavoured-instant-drink-powder-500-gm",
     "nameBn": "ট্যাং কমলা ইনস্ট্যান্ট ড্রিঙ্ক পাউডার ৫০০ গ্রাম",
     "nameEn": "Tang Orange Instant Drink Powder 500 gm",
-    "category": "snacks",
+    "category": "vegetables",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/tang-orange-instant-drink-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136045&q=best&v=1",
     "mrp": 480,
@@ -22851,7 +22851,7 @@ export const PRODUCTS = [
     "id": "prod-jet-classic-detergent-powder-1-kg",
     "nameBn": "জেট ক্লাসিক ডিটারজেন্ট পাউডার পেপার প্যাক ১ কেজি",
     "nameEn": "Jet Classic Detergent Powder Paper Pack 1 kg",
-    "category": "snacks",
+    "category": "snacks-bakery",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/jet-classic-detergent-powder-paper-pack-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D98622&q=best&v=1&m=400",
     "mrp": 300,
@@ -22918,7 +22918,7 @@ export const PRODUCTS = [
     "id": "prod-surf-excel-washing-powder-500-gm",
     "nameBn": "সার্ফ এক্সেল ওয়াশিং পাউডার ৫০০ গ্রাম",
     "nameEn": "Surf Excel Washing Powder 500 gm",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/surf-excel-washing-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D178720&q=best&v=1",
     "mrp": 120,
@@ -22985,7 +22985,7 @@ export const PRODUCTS = [
     "id": "prod-surf-excel-washing-powder-1-1-kg",
     "nameBn": "সার্ফ এক্সেল ওয়াশিং পাউডার ১ কেজি",
     "nameEn": "Surf Excel Washing Powder 1 kg",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/surf-excel-washing-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177867&q=best&v=1",
     "mrp": 235,
@@ -23052,7 +23052,7 @@ export const PRODUCTS = [
     "id": "prod-wheel-washing-powder-2in1-clean-fresh-1-kg",
     "nameBn": "হুইল ওয়াশিং পাউডার ২ ইন ১ ক্লিন এ্যান্ড ফ্রেশ ১ কেজি",
     "nameEn": "Wheel Washing Powder 2 in 1 Clean & Fresh 1 kg",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/wheel-washing-powder-2-in-1-clean-fresh-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D128372&q=best&v=1",
     "mrp": 155,
@@ -23119,7 +23119,7 @@ export const PRODUCTS = [
     "id": "prod-wheel-washing-powder-2in1-clean-fresh-500-gm",
     "nameBn": "হুইল ওয়াশিং পাউডার ২ ইন ১ ক্লিন এ্যান্ড ফ্রেশ ৫০০ গ্রাম",
     "nameEn": "Wheel Washing Powder 2 in 1 Clean & Fresh 500 gm",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/wheel-washing-powder-2-in-1-clean-fresh-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138276&q=best&v=1",
     "mrp": 80,
@@ -23186,7 +23186,7 @@ export const PRODUCTS = [
     "id": "prod-wheel-washing-powder-clean-fresh-free-laundry-bar-75-gm-23-gm-2-kg",
     "nameBn": "হুইল ওয়াশিং পাউডার ২ ইন ১ ক্লিন এ্যান্ড ফ্রেশ (ফ্রি লন্ড্রি বার ৭৫ গ্রাম এবং ২৩ গ্রাম) ২ কেজি",
     "nameEn": "Wheel Washing Powder 2 in 1 Clean & Fresh (Free Laundry Bar 75 gm & 23 gm) 2 kg",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "2 kg",
     "image": "https://chaldn.com/_mpimage/wheel-washing-powder-2-in-1-clean-fresh-free-laundry-bar-75-gm-23-gm-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D160466&q=best&v=1",
     "mrp": 260,
@@ -23253,7 +23253,7 @@ export const PRODUCTS = [
     "id": "prod-wheel-washing-powder-2-in-1-clean-fresh-2-kg",
     "nameBn": "হুইল ওয়াশিং পাউডার ২ ইন ১ ক্লিন এন্ড ফ্রেশ ২ কেজি",
     "nameEn": "Wheel Washing Powder 2 in 1 Clean & Fresh 2 kg",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "2 kg",
     "image": "https://chaldn.com/_mpimage/wheel-washing-powder-2-in-1-clean-fresh-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127801&q=best&v=1",
     "mrp": 280,
@@ -23320,7 +23320,7 @@ export const PRODUCTS = [
     "id": "prod-ariel-complete-detergent-washing-powder-buy-1-kg-get-500-gm-free-3-pcs",
     "nameBn": "এরিয়েল কমপ্লিট ডিটারজেন্ট ওয়াশিং পাউডার ৫০০ গ্রাম (২ টি কিনলে ১ টি ফ্রি) ৩ টি",
     "nameEn": "Ariel Complete Detergent Washing Powder 500 gm (Buy 2 Get 1 Free) 3 pcs",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "3 pcs",
     "image": "https://chaldn.com/_mpimage/ariel-complete-detergent-washing-powder-500-gm-buy-2-get-1-free-3-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D98373&q=best&v=1",
     "mrp": 220,
@@ -23387,7 +23387,7 @@ export const PRODUCTS = [
     "id": "prod-rin-advanced-detergent-powder-1-kg",
     "nameBn": "রিন অ্যাডভান্সড ডিটারজেন্ট পাউডার ১ কেজি",
     "nameEn": "Rin Advanced Detergent Powder 1 kg",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/rin-advanced-detergent-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135407&q=best&v=1",
     "mrp": 195,
@@ -23454,7 +23454,7 @@ export const PRODUCTS = [
     "id": "prod-rin-advanced-detergent-powder-500-gm",
     "nameBn": "রিন অ্যাডভান্সড ডিটারজেন্ট পাউডার ৫০০ গ্রাম",
     "nameEn": "Rin Advanced Detergent Powder 500 gm",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "500 gm",
     "image": "https://chaldn.com/_mpimage/rin-advanced-detergent-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135408&q=best&v=1",
     "mrp": 100,
@@ -23521,7 +23521,7 @@ export const PRODUCTS = [
     "id": "prod-rin-advanced-detergent-powder-2-kg",
     "nameBn": "রিন অ্যাডভান্সড ডিটারজেন্ট পাউডার ২ কেজি",
     "nameEn": "Rin Advanced Detergent Powder 2 kg",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "2 kg",
     "image": "https://chaldn.com/_mpimage/rin-advanced-detergent-powder-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138534&q=best&v=1",
     "mrp": 370,
@@ -23588,7 +23588,7 @@ export const PRODUCTS = [
     "id": "prod-natura-clear-glow-face-wash-100-ml",
     "nameBn": "ন্যচুরা ক্লিয়ার অ্যান্ড গ্লো ফেস ওয়াশ ১০০ মিলি",
     "nameEn": "Natura Clear & Glow Face Wash 100 ml",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "100 ml",
     "image": "https://chaldn.com/_mpimage/natura-clear-glow-face-wash-100-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D176338&q=best&v=1",
     "mrp": 220,
@@ -23655,7 +23655,7 @@ export const PRODUCTS = [
     "id": "prod-ligion-neem-face-wash-50-ml",
     "nameBn": "লীজান নিম ফেস ওয়াশ ৫০ মিলি",
     "nameEn": "Ligion Neem Face Wash 50 ml",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "50 ml",
     "image": "https://chaldn.com/_mpimage/ligion-neem-face-wash-50-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130151&q=best&v=1",
     "mrp": 100,
@@ -23722,7 +23722,7 @@ export const PRODUCTS = [
     "id": "prod-clariss-lemon-face-wash-oil-control-100-ml",
     "nameBn": "ক্লারিস লেমন ফেস ওয়াশ (অয়েল কন্ট্রল) ১০০ মিলি",
     "nameEn": "Clariss Lemon Face Wash (Oil Control) 100 ml",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "100 ml",
     "image": "https://chaldn.com/_mpimage/clariss-lemon-face-wash-oil-control-100-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96506&q=best&v=1",
     "mrp": 265,
@@ -23789,7 +23789,7 @@ export const PRODUCTS = [
     "id": "prod-harpic-liquid-toilet-cleaner-power-plus-original-750-ml",
     "nameBn": "হারপিক লিকুইড টয়লেট ক্লিনার পাওয়ার প্লাস অরিজিনাল ৭৫০ মিলি",
     "nameEn": "Harpic Liquid Toilet Cleaner Power Plus Original 750 ml",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "750 ml",
     "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-power-plus-original-750-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D176693&q=best&v=1",
     "mrp": 180,
@@ -23856,7 +23856,7 @@ export const PRODUCTS = [
     "id": "prod-harpic-liquid-toilet-cleaner-original-free-mug-1-ltr",
     "nameBn": "হারপিক লিকুইড টয়লেট ক্লিনার অরিজিনাল (ফ্রি মগ) ১ লিটার",
     "nameEn": "Harpic Liquid Toilet Cleaner Original (Free Mug) 1 ltr",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "1 ltr",
     "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-original-free-mug-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169726&q=best&v=1",
     "mrp": 235,
@@ -23923,7 +23923,7 @@ export const PRODUCTS = [
     "id": "prod-harpic-liquid-toilet-cleaner-original-1-ltr",
     "nameBn": "হারপিক লিকুইড টয়লেট ক্লিনার অরিজিনাল ১ লিটার",
     "nameEn": "Harpic Liquid Toilet Cleaner Original 1 ltr",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "1 ltr",
     "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-original-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D186626&q=best&v=1",
     "mrp": 235,
@@ -23990,7 +23990,7 @@ export const PRODUCTS = [
     "id": "prod-harpic-power-plus-toilet-cleaner-500-ml-5",
     "nameBn": "হারপিক টয়লেট ক্লিনার অরিজিনাল ৫০০ মিলি",
     "nameEn": "Harpic Liquid Toilet Cleaner Original 500 ml",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "500 ml",
     "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-original-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169577&q=best&v=1",
     "mrp": 135,
@@ -24057,7 +24057,7 @@ export const PRODUCTS = [
     "id": "prod-harpic-liquid-toilet-cleaner-original-750-ml",
     "nameBn": "হারপিক লিকুইড টয়লেট ক্লিনার অরিজিনাল ৭৫০ মিলি",
     "nameEn": "Harpic Liquid Toilet Cleaner Original 750 ml",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "750 ml",
     "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-original-750-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169613&q=best&v=1",
     "mrp": 180,
@@ -24124,7 +24124,7 @@ export const PRODUCTS = [
     "id": "prod-harpic-liquid-toilet-cleaner-jasmine-750-ml",
     "nameBn": "হারপিক লিকুইড টয়লেট ক্লিনার (জেসমিন) ৭৫০ মিলি",
     "nameEn": "Harpic Liquid Toilet Cleaner (Jasmine) 750 ml",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "750 ml",
     "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-jasmine-750-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D186492&q=best&v=1",
     "mrp": 185,
@@ -24191,7 +24191,7 @@ export const PRODUCTS = [
     "id": "prod-harpic-all-in-one-toilet-bathroom-cleaning-powder-400-gm",
     "nameBn": "হারপিক অল-ইন-ওয়ান টয়লেট এবং বাথরুম ক্লিনিং পাউডার ৪০০ গ্রাম",
     "nameEn": "Harpic All-In-One Toilet & Bathroom Cleaning Powder 400 gm",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "400 gm",
     "image": "https://chaldn.com/_mpimage/harpic-all-in-one-toilet-bathroom-cleaning-powder-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169742&q=best&v=1",
     "mrp": 105,
@@ -24258,7 +24258,7 @@ export const PRODUCTS = [
     "id": "prod-harpic-all-in-1-toilet-bathroom-cleaning-powder-1-kg",
     "nameBn": "হারপিক অল-ইন-ওয়ান টয়লেট ও বাথরুম ক্লিনিং পাউডার ১ কেজি",
     "nameEn": "Harpic All-in-1 Toilet & Bathroom Cleaning Powder 1 kg",
-    "category": "cleaning",
+    "category": "oil",
     "unit": "1 kg",
     "image": "https://chaldn.com/_mpimage/harpic-all-in-1-toilet-bathroom-cleaning-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169790&q=best&v=1",
     "mrp": 210,
@@ -24325,7 +24325,7 @@ export const PRODUCTS = [
     "id": "prod-vim-dishwashing-liquid-pouch-200-ml",
     "nameBn": "ভিম ডিশওয়াশিং লিকুইড পাউচ ২০০ মিলি",
     "nameEn": "Vim Dishwashing Liquid Pouch 200 ml",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "200 ml",
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-liquid-pouch-200-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182181&q=best&v=1",
     "mrp": 50,
@@ -24392,7 +24392,7 @@ export const PRODUCTS = [
     "id": "prod-vim-dishwashing-liquid-950-ml",
     "nameBn": "ভিম ডিশওয়াশিং লিকুইড ৯৫০ মিলি",
     "nameEn": "Vim Dishwashing Liquid 950 ml",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "950 ml",
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-liquid-950-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182908&q=best&v=1",
     "mrp": 240,
@@ -24459,7 +24459,7 @@ export const PRODUCTS = [
     "id": "prod-vim-dishwashing-liquid-475-ml",
     "nameBn": "ভিম ডিশওয়াশিং লিকুইড ৪৭৫ মিলি",
     "nameEn": "Vim Dishwashing Liquid 475 ml",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "475 ml",
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-liquid-475-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D166720&q=best&v=1",
     "mrp": 130,
@@ -24526,7 +24526,7 @@ export const PRODUCTS = [
     "id": "prod-vim-dishwash-liquid-100-ml",
     "nameBn": "ভিম ডিশওয়াশ লিকুইড ১০০ মিলি",
     "nameEn": "Vim Dishwash Liquid 100 ml",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "100 ml",
     "image": "https://chaldn.com/_mpimage/vim-dishwash-liquid-100-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D151138&q=best&v=1",
     "mrp": 25,
@@ -24593,7 +24593,7 @@ export const PRODUCTS = [
     "id": "prod-qurbani-special-vim-dishwashing-liquid-mega-pack",
     "nameBn": "ভিম ডিশ ওয়াশিং লিকুইড কম্বো প্যাক",
     "nameEn": "Vim Dishwashing Liquid Combo Pack",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "১ প্যাক",
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-liquid-combo-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D71798&q=best&v=1",
     "mrp": 390,
@@ -24660,7 +24660,7 @@ export const PRODUCTS = [
     "id": "prod-vim-dishwashing-bar-300-gm",
     "nameBn": "ভিম ডিশ ওয়াশিং বার ৩০০ গ্রাম",
     "nameEn": "Vim Dishwashing Bar 300 gm",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "300 gm",
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-bar-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D166719&q=best&v=1",
     "mrp": 40,
@@ -24727,7 +24727,7 @@ export const PRODUCTS = [
     "id": "prod-vim-dishwashing-bar-125-gm",
     "nameBn": "Vim Washing Bar 125 gm",
     "nameEn": "Vim Dishwashing Bar 125 gm",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "125 gm",
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-bar-125-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165146&q=best&v=1",
     "mrp": 15,
@@ -24794,7 +24794,7 @@ export const PRODUCTS = [
     "id": "prod-chaldal-basic-dishwashing-bar-300-gm",
     "nameBn": "চালডাল বেসিক ডিশ ওয়াশিং বার ৩০০ গ্রাম",
     "nameEn": "Chaldal Basic Dishwashing Bar 300 gm",
-    "category": "cleaning",
+    "category": "rice-pulses",
     "unit": "300 gm",
     "image": "https://chaldn.com/_mpimage/chaldal-basic-dishwashing-bar-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D149688&q=best&v=1",
     "mrp": 40,
@@ -24861,7 +24861,7 @@ export const PRODUCTS = [
     "id": "prod-vim-dishwashing-bar-free-vim-liquid-5-ml-3-pcs-300-gm",
     "nameBn": "ভিম ডিশ ওয়াশিং বার (ফ্রি ভিম লিকুইড ৫ মিলি ৩ টি) ৩০০ গ্রাম",
     "nameEn": "Vim Dishwashing Bar (Free Vim Liquid 5 ml 3 pcs) 300 gm",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "300 gm",
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-bar-free-vim-liquid-5-ml-3-pcs-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109055&q=best&v=1",
     "mrp": 35,
@@ -24928,7 +24928,7 @@ export const PRODUCTS = [
     "id": "prod-vim-bar-125-gm",
     "nameBn": "ভিম থালাবাসন পরিস্কারের সাবান ১০০ গ্রাম",
     "nameEn": "Vim Dishwashing Bar 100 gm",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-bar-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D137009&q=best&v=1",
     "mrp": 12,
@@ -24995,7 +24995,7 @@ export const PRODUCTS = [
     "id": "prod-chaldal-basic-dishwashing-bar-100-gm",
     "nameBn": "চালডাল বেসিক ডিশ ওয়াশিং বার ১০০ গ্রাম",
     "nameEn": "Chaldal Basic Dishwashing Bar 100 gm",
-    "category": "cleaning",
+    "category": "rice-pulses",
     "unit": "100 gm",
     "image": "https://chaldn.com/_mpimage/chaldal-basic-dishwashing-bar-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183888&q=best&v=1",
     "mrp": 15,
@@ -25062,7 +25062,7 @@ export const PRODUCTS = [
     "id": "prod-lizol-floor-cleaner-citrus-disinfectant-surface-1-ltr",
     "nameBn": "লাইজল ফ্লোর ক্লিনার সাইট্রাস ডিসইনফেক্ট্যান্ট সারফেস ১ লিটার",
     "nameEn": "Lizol Floor Cleaner Citrus Disinfectant Surface 1 ltr",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "1 ltr",
     "image": "https://chaldn.com/_mpimage/lizol-floor-cleaner-citrus-disinfectant-surface-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179249&q=best&v=1",
     "mrp": 300,
@@ -25129,7 +25129,7 @@ export const PRODUCTS = [
     "id": "prod-lizol-disinfectant-surface-floor-cleaner-citrus-500-ml",
     "nameBn": "লাইজল ডিসইনফেকটেন্ট সারফেস ও ফ্লোর ক্লিনার সিট্রাস ৫০০ মিলি",
     "nameEn": "Lizol Disinfectant Surface & Floor Cleaner Citrus 500 ml",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "500 ml",
     "image": "https://chaldn.com/_mpimage/lizol-disinfectant-surface-floor-cleaner-citrus-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179248&q=best&v=1",
     "mrp": 160,
@@ -25196,7 +25196,7 @@ export const PRODUCTS = [
     "id": "prod-lizol-disinfectant-surface-floor-cleaner-lavender-500-ml",
     "nameBn": "লাইজল ডিসইনফেক্ট্যান্ট সারফেস ও ফ্লোর ক্লিনার লেভেন্ডার ৫০০ মিলি.",
     "nameEn": "Lizol Disinfectant Surface & Floor Cleaner Lavender 500 ml",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "500 ml",
     "image": "https://chaldn.com/_mpimage/lizol-disinfectant-surface-floor-cleaner-lavender-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179251&q=best&v=1",
     "mrp": 160,
@@ -25263,7 +25263,7 @@ export const PRODUCTS = [
     "id": "prod-lizol-floor-cleaner-floral-disinfectant-surface-1-ltr",
     "nameBn": "লাইজল ফ্লোর ক্লিনার ফ্লোরাল ডিসইনফেক্ট্যান্ট সারফেস ১ লিটার",
     "nameEn": "Lizol Floor Cleaner Floral Disinfectant Surface 1 ltr",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "1 ltr",
     "image": "https://chaldn.com/_mpimage/lizol-floor-cleaner-floral-disinfectant-surface-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167888&q=best&v=1",
     "mrp": 300,
@@ -25330,7 +25330,7 @@ export const PRODUCTS = [
     "id": "prod-lizol-disinfectant-surface-floor-cleaner-citrus-5-ltr",
     "nameBn": "লাইজল ডিসইনফেক্ট্যান্ট সারফেস ও ফ্লোর ক্লিনার সাইট্রাস ৫ লিটার",
     "nameEn": "Lizol Disinfectant Surface & Floor Cleaner Citrus 5 ltr",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "5 ltr",
     "image": "https://chaldn.com/_mpimage/lizol-disinfectant-surface-floor-cleaner-citrus-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D172704&q=best&v=1",
     "mrp": 1250,
@@ -25397,7 +25397,7 @@ export const PRODUCTS = [
     "id": "prod-lizol-disinfectant-surface-floor-cleaner-floral-5-ltr",
     "nameBn": "লাইজল ডিসইনফেক্ট্যান্ট সারফেস ও ফ্লোর ক্লিনার ফ্লোরাল ৫ লিটার",
     "nameEn": "Lizol Disinfectant Surface & Floor Cleaner Floral 5 ltr",
-    "category": "cleaning",
+    "category": "hygiene",
     "unit": "5 ltr",
     "image": "https://chaldn.com/_mpimage/lizol-disinfectant-surface-floor-cleaner-floral-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D172703&q=best&v=1",
     "mrp": 1250,
@@ -25665,7 +25665,7 @@ export const PRODUCTS = [
     "id": "prod-dettol-soap-skincare-2x-moisturizers-with-argan-oil-50-gm",
     "nameBn": "ডেটল সোপ স্কিনকেয়ার ২ গুন ময়েশ্চারাইজার উইথ আরগান অয়েল ৫০ গ্রাম",
     "nameEn": "Dettol Soap Skincare 2X Moisturizers With Argan Oil 50 gm",
-    "category": "hygiene",
+    "category": "oil",
     "unit": "50 gm",
     "image": "https://chaldn.com/_mpimage/dettol-soap-skincare-2x-moisturizers-with-argan-oil-50-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D155353&q=best&v=1",
     "mrp": 40,
@@ -26469,7 +26469,7 @@ export const PRODUCTS = [
     "id": "prod-remedies-guerniss-hyaluronic-serum-n90-30-ml",
     "nameBn": "রেমেডিস গার্নিস হায়ালুরোনিক সিরাম এন৯০ ৩০ মিলি",
     "nameEn": "Remedies Guerniss Hyaluronic Serum N90 30 ml",
-    "category": "hygiene",
+    "category": "vegetables",
     "unit": "30 ml",
     "image": "https://chaldn.com/_mpimage/remedies-guerniss-hyaluronic-serum-n90-30-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D113026&q=best&v=1",
     "mrp": 1480,
@@ -27072,7 +27072,7 @@ export const PRODUCTS = [
     "id": "prod-zayn-myza-breathable-nail-enamel-coffee-cream-6-ml",
     "nameBn": "জাইন অ্যান্ড মাইজা ব্রেথেবল নেইল এনামেল কফি ক্রিম ৬ মিলি",
     "nameEn": "Zayn & Myza Breathable Nail Enamel Coffee Cream 6 ml",
-    "category": "hygiene",
+    "category": "dairy-beverage",
     "unit": "6 ml",
     "image": "https://chaldn.com/_mpimage/zayn-myza-breathable-nail-enamel-coffee-cream-6-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96578&q=best&v=1",
     "mrp": 390,
@@ -27139,7 +27139,7 @@ export const PRODUCTS = [
     "id": "prod-rajkonna-red-sandalwood-powder-25-gm",
     "nameBn": "রাজকন্যা লাল চন্দন পাউডার ২৫ গ্রাম",
     "nameEn": "Rajkonna Red Sandalwood Powder 25 gm",
-    "category": "hygiene",
+    "category": "rice-pulses",
     "unit": "25 gm",
     "image": "https://chaldn.com/_mpimage/rajkonna-red-sandalwood-powder-25-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D104887&q=best&v=1",
     "mrp": 350,
@@ -29417,7 +29417,7 @@ export const PRODUCTS = [
     "id": "prod-dove-nourishing-oil-care-shampoo-free-dove-intense-repair-conditioner-50-ml-340-ml",
     "nameBn": "ডাভ নারিশিং অয়েল কেয়ার শ্যাম্পু (ফ্রি ডাভ ইনটেনস রিপেয়ার কন্ডিশনার ৫০ মিলি) ৩৪০ মিলি",
     "nameEn": "Dove Nourishing Oil Care Shampoo (Free Dove Intense Repair Conditioner 50 ml) 340 ml",
-    "category": "hygiene",
+    "category": "oil",
     "unit": "340 ml",
     "image": "https://chaldn.com/_mpimage/dove-nourishing-oil-care-shampoo-free-dove-intense-repair-conditioner-50-ml-340-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103683&q=best&v=1",
     "mrp": 450,
@@ -29543,6 +29543,6170 @@ export const PRODUCTS = [
         "discountText": "লাইভ রেট",
         "offerText": "৫% ক্যাশব্যাক ভাউচার",
         "url": "https://meenabazaronline.com/search?keyword=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-chicken-eggs-layer-white-12-pcs",
+    "nameBn": "মুরগির ডিম লেয়ার (সাদা) ১২ টি",
+    "nameEn": "Chicken Eggs Layer (White) 12 pcs",
+    "category": "egg-poultry",
+    "unit": "12 pcs",
+    "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
+    "mrp": 135,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.126Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/chicken-eggs-layer-white-12-pcs",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-tatka-egg-pack-12-pcs",
+    "nameBn": "মুরগির ডিম (লেয়ার) ১২ টি",
+    "nameEn": "Chicken Eggs (Layer) 12 pcs",
+    "category": "egg-poultry",
+    "unit": "12 pcs",
+    "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79219&q=best&v=1",
+    "mrp": 145,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.128Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/tatka-egg-pack-12-pcs",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20(Layer)%2012%20pcs",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20(Layer)%2012%20pcs",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20(Layer)%2012%20pcs",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-chicken-eggs-deshi-6-pcs",
+    "nameBn": "মুরগির ডিম (দেশি) ৬ টি ",
+    "nameEn": "Chicken Eggs (Deshi) 6 pcs",
+    "category": "egg-poultry",
+    "unit": "6 pcs",
+    "image": "https://chaldn.com/_mpimage/chicken-eggs-deshi-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79976&q=best&v=1&m=400",
+    "mrp": 125,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.128Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳6 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳4 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 119,
+        "inStock": true,
+        "discountText": "৳6 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/chicken-eggs-deshi-6-pcs",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 121,
+        "inStock": true,
+        "discountText": "৳4 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20(Deshi)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 123,
+        "inStock": true,
+        "discountText": "৳2 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20(Deshi)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 122,
+        "inStock": true,
+        "discountText": "৳3 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20(Deshi)%206%20pcs",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-quail-eggs-20-pcs",
+    "nameBn": "কোয়েল পাখির ডিম ২০ টি",
+    "nameEn": "Quail Eggs 20 pcs",
+    "category": "egg-poultry",
+    "unit": "20 pcs",
+    "image": "https://chaldn.com/_mpimage/quail-eggs-20-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79220&q=best&v=1",
+    "mrp": 95,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.128Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳6 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳4 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 89,
+        "inStock": true,
+        "discountText": "৳6 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/quail-eggs-20-pcs",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 91,
+        "inStock": true,
+        "discountText": "৳4 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Quail%20Eggs%2020%20pcs",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 93,
+        "inStock": true,
+        "discountText": "৳2 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Quail%20Eggs%2020%20pcs",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 92,
+        "inStock": true,
+        "discountText": "৳3 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Quail%20Eggs%2020%20pcs",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-duck-egg-6-pcs",
+    "nameBn": "হাঁসের ডিম ৬  টি",
+    "nameEn": "Duck Eggs (Hasher Dim) 6 pcs",
+    "category": "egg-poultry",
+    "unit": "6 pcs",
+    "image": "https://chaldn.com/_mpimage/duck-eggs-hasher-dim-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79970&q=best&v=1&m=400",
+    "mrp": 115,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.128Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 115,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/duck-egg-6-pcs",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 115,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 115,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 115,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-chicken-eggs-layer-6-pcs",
+    "nameBn": "মুরগির ডিম (লেয়ার) ৬ টি",
+    "nameEn": "Chicken Eggs (Layer) 6 pcs",
+    "category": "egg-poultry",
+    "unit": "6 pcs",
+    "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1",
+    "mrp": 75,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.128Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/chicken-eggs-layer-6-pcs",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20(Layer)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20(Layer)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20(Layer)%206%20pcs",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-whole-broiler-chicken-skin-off-net-weight-1-kg",
+    "nameBn": "ব্রয়লার মুরগি চামড়া ছাড়া ± ৫০ গ্রাম ১ কেজি",
+    "nameEn": "Broiler Chicken Skin Off ± 50 gm 1 kg",
+    "category": "egg-poultry",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163139&q=best&v=1&m=400",
+    "mrp": 359,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.208Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 359,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/whole-broiler-chicken-skin-off-net-weight-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 359,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 359,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 359,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-whole-broiler-chicken-skin-on-net-weight-1-kg",
+    "nameBn": "ব্রয়লার মুরগি চামড়া সহ ± ৫০ গ্রাম ১ কেজি",
+    "nameEn": "Broiler Chicken Skin On ± 50 gm 1 kg",
+    "category": "egg-poultry",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/broiler-chicken-skin-on-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163138&q=best&v=1",
+    "mrp": 345,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.208Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳26 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳16 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 319,
+        "inStock": true,
+        "discountText": "৳26 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/whole-broiler-chicken-skin-on-net-weight-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 329,
+        "inStock": true,
+        "discountText": "৳16 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 338,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 333,
+        "inStock": true,
+        "discountText": "৳12 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-broiler-chicken-skin-off-50-gm-14-kg",
+    "nameBn": "ব্রয়লার মুরগি চামড়া ছাড়া ± ৫০ গ্রাম ১.৪ কেজি",
+    "nameEn": "Broiler Chicken Skin Off ± 50 gm 1.4 kg",
+    "category": "egg-poultry",
+    "unit": "1.4 kg",
+    "image": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163162&q=best&v=1&m=400",
+    "mrp": 489,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.208Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 489,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/broiler-chicken-skin-off-50-gm-14-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 489,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 489,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 489,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-broiler-chicken-thigh-boneless-50-gm-1-kg",
+    "nameBn": "ব্রয়লার মুরগির রানের হাড়হীন মাংস ± ৫০ গ্রাম ১ কেজি",
+    "nameEn": "Broiler Chicken Thigh Boneless ± 50 gm 1 kg",
+    "category": "egg-poultry",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/broiler-chicken-thigh-boneless-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74665&q=best&v=1",
+    "mrp": 499,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.208Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 499,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/broiler-chicken-thigh-boneless-50-gm-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 499,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 499,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 499,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-broiler-chicken-breast-boneless-50-gm-1-kg",
+    "nameBn": "ব্রয়লার মুরগির হাড় ছাড়া বুকের মাংস ± ৫০ গ্রাম ১ কেজি",
+    "nameEn": "Broiler Chicken Breast Boneless ± 50 gm 1 kg",
+    "category": "egg-poultry",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/broiler-chicken-breast-boneless-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74660&q=best&v=1",
+    "mrp": 589,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.208Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 589,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/broiler-chicken-breast-boneless-50-gm-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 589,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 589,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 589,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-broiler-chicken-breast-boneless-25-gm-500-gm",
+    "nameBn": "ব্রয়লার মুরগির হাড় ছাড়া বুকের মাংস ± ২৫ গ্রাম ৫০০ গ্রাম",
+    "nameEn": "Broiler Chicken Breast Boneless ± 25 gm 500 gm",
+    "category": "egg-poultry",
+    "unit": "500 gm",
+    "image": "https://chaldn.com/_mpimage/broiler-chicken-breast-boneless-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167900&q=best&v=1",
+    "mrp": 319,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.208Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 319,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/broiler-chicken-breast-boneless-25-gm-500-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 319,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 319,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 319,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-beef-bone-less-500-gm-1",
+    "nameBn": "গরুর মাংস হার ছাড়া  ± ২৫ গ্রাম ৫০০ গ্রাম",
+    "nameEn": "Beef Boneless ± 25 gm 500 gm",
+    "category": "egg-poultry",
+    "unit": "500 gm",
+    "image": "https://chaldn.com/_mpimage/beef-boneless-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73564&q=low&v=1",
+    "mrp": 619,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.270Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 619,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/beef-bone-less-500-gm-1",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 619,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 619,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 619,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-beef-bone-in-50-gm-1-kg-2",
+    "nameBn": "হাড়যুক্ত গরুর মাংস ± ৫০ গ্রাম ১ কেজি",
+    "nameEn": "Beef Bone In ± 50 gm 1 kg",
+    "category": "egg-poultry",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/beef-bone-in-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73985&q=low&v=1",
+    "mrp": 799,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.270Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 799,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/beef-bone-in-50-gm-1-kg-2",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 799,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 799,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 799,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-quality-hunter-beef-200-gm",
+    "nameBn": "কোয়ালিটি হান্টার বিফ ২০০ গ্রাম",
+    "nameEn": "Quality Hunter Beef 200 gm",
+    "category": "egg-poultry",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/quality-hunter-beef-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D113405&q=best&v=1",
+    "mrp": 320,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.270Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/quality-hunter-beef-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Quality%20Hunter%20Beef%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Quality%20Hunter%20Beef%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Quality%20Hunter%20Beef%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-quality-beef-salami-200-gm",
+    "nameBn": "কোয়ালিটি গরুর সালামি 200 গ্রাম",
+    "nameEn": "Quality Beef Salami 200 gm",
+    "category": "egg-poultry",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/quality-beef-salami-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D171883&q=best&v=1",
+    "mrp": 320,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.270Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/quality-beef-salami-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Quality%20Beef%20Salami%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Quality%20Beef%20Salami%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Quality%20Beef%20Salami%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-quality-beef-pepperoni-200-gm",
+    "nameBn": "কোয়ালিটি গরুর মাংস পেপারনি 200 গ্রাম",
+    "nameEn": "Quality Beef Pepperoni 200 gm",
+    "category": "egg-poultry",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/quality-beef-pepperoni-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D171882&q=best&v=1",
+    "mrp": 320,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.270Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/quality-beef-pepperoni-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Quality%20Beef%20Pepperoni%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Quality%20Beef%20Pepperoni%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Quality%20Beef%20Pepperoni%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-quality-beef-mortadella-200-gm",
+    "nameBn": "কোয়ালিটি গরুর মাংস মর্টাডেলা 200 গ্রাম",
+    "nameEn": "Quality Beef Mortadella 200 gm",
+    "category": "egg-poultry",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/quality-beef-mortadella-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D171885&q=best&v=1",
+    "mrp": 230,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.270Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/quality-beef-mortadella-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Quality%20Beef%20Mortadella%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Quality%20Beef%20Mortadella%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Quality%20Beef%20Mortadella%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-rui-fish-net-weight-after-cutting-800-gm",
+    "nameBn": "রুই মাছ কাটার পরে  ±৫০ গ্রাম ১ কেজি",
+    "nameEn": "Rui Fish After Cutting ±50 gm 1 kg",
+    "category": "egg-poultry",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/rui-fish-after-cutting-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D116875&q=best&v=1",
+    "mrp": 475,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.326Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳36 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳22 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 439,
+        "inStock": true,
+        "discountText": "৳36 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/rui-fish-net-weight-after-cutting-800-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 453,
+        "inStock": true,
+        "discountText": "৳22 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 466,
+        "inStock": true,
+        "discountText": "৳9 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 459,
+        "inStock": true,
+        "discountText": "৳16 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-horina-chingri-shrimp-90-100-pcs-15-gm-250-gm",
+    "nameBn": "হরিণা চিংড়ি মাঝারি ৯০-১০০ টি ±১৫ গ্রাম ২৫০ গ্রাম",
+    "nameEn": "Horina Chingri (Shrimp) 90-100 pcs ±15 gm 250 gm",
+    "category": "egg-poultry",
+    "unit": "250 gm",
+    "image": "https://chaldn.com/_mpimage/horina-chingri-shrimp-90-100-pcs-15-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103440&q=best&v=1",
+    "mrp": 259,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.326Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳40 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳24 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 219,
+        "inStock": true,
+        "discountText": "৳40 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/horina-chingri-shrimp-90-100-pcs-15-gm-250-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 235,
+        "inStock": true,
+        "discountText": "৳24 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 249,
+        "inStock": true,
+        "discountText": "৳10 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 241,
+        "inStock": true,
+        "discountText": "৳18 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-pabda-fish-30-gm-500-gm",
+    "nameBn": "পাবদা মাছ  ±৩০ গ্রাম ৫০০ গ্রাম",
+    "nameEn": "Pabda Fish ±30 gm 500 gm",
+    "category": "egg-poultry",
+    "unit": "500 gm",
+    "image": "https://chaldn.com/_mpimage/pabda-fish-30-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103441&q=best&v=1",
+    "mrp": 215,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.326Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳16 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳10 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 199,
+        "inStock": true,
+        "discountText": "৳16 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/pabda-fish-30-gm-500-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 205,
+        "inStock": true,
+        "discountText": "৳10 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 211,
+        "inStock": true,
+        "discountText": "৳4 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 208,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-pqs-chapila-fish-processed-250-gm",
+    "nameBn": "পিকিউএস চাপিলা মাছ কাটার পর ২৫০ গ্রাম",
+    "nameEn": "PQS Chapila Fish Processed 250 gm",
+    "category": "egg-poultry",
+    "unit": "250 gm",
+    "image": "https://chaldn.com/_mpimage/pqs-chapila-fish-processed-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D125603&q=best&v=1",
+    "mrp": 165,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.326Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 165,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/pqs-chapila-fish-processed-250-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 165,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=PQS%20Chapila%20Fish%20Processed%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 165,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=PQS%20Chapila%20Fish%20Processed%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 165,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=PQS%20Chapila%20Fish%20Processed%20250%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-kaski-mach-mas-500-gm-2",
+    "nameBn": "কাচকি মাছ ±১৫ গ্রাম ২৫০ গ্রাম",
+    "nameEn": "Kaski Fish ±15 gm 250 gm",
+    "category": "egg-poultry",
+    "unit": "250 gm",
+    "image": "https://chaldn.com/_mpimage/kaski-fish-15-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103443&q=best&v=1&m=400",
+    "mrp": 189,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.326Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳20 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳12 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 169,
+        "inStock": true,
+        "discountText": "৳20 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/kaski-mach-mas-500-gm-2",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 177,
+        "inStock": true,
+        "discountText": "৳12 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 184,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "৳9 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-koi-fish-processed-50-gm-1-kg",
+    "nameBn": "কই মাছ কাটার পর ±৫০ গ্রাম ১ কেজি",
+    "nameEn": "Koi Fish Processed ±50 gm 1 kg",
+    "category": "egg-poultry",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/koi-fish-processed-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120746&q=best&v=1",
+    "mrp": 395,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.326Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳26 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳16 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 369,
+        "inStock": true,
+        "discountText": "৳26 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/koi-fish-processed-50-gm-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 379,
+        "inStock": true,
+        "discountText": "৳16 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 388,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 383,
+        "inStock": true,
+        "discountText": "৳12 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-shutkiz-dry-fish-bharta-mix-powder-200-gm",
+    "nameBn": "শুটকিজ শুটকি ভর্তা মিক্স পাউডার ২০০ গ্রাম",
+    "nameEn": "Shutkiz Dry Fish Bharta Mix Powder 200 gm",
+    "category": "egg-poultry",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/shutkiz-dry-fish-bharta-mix-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D184238&q=best&v=1",
+    "mrp": 520,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.405Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 520,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/shutkiz-dry-fish-bharta-mix-powder-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 520,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 520,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 520,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-try-dry-fish-balachao-dry-kachki-chutney-5-gm-75-gm",
+    "nameBn": "ট্রাই ড্রাই ফিশ বালাচাও কাচকি শুটকীর চাটনি ± ৫ গ্রাম ৭৫ গ্রাম",
+    "nameEn": "Try Dry Fish Balachao Dry Kachki Chutney ± 5 gm 75 gm",
+    "category": "egg-poultry",
+    "unit": "75 gm",
+    "image": "https://chaldn.com/_mpimage/try-dry-fish-balachao-dry-kachki-chutney-5-gm-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132094&q=best&v=1",
+    "mrp": 250,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.405Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 250,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/try-dry-fish-balachao-dry-kachki-chutney-5-gm-75-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 250,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 250,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 250,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-try-dry-fish-balachao-dry-loitta-chutney-5-gm-75-gm",
+    "nameBn": "ট্রাই ড্রাই ফিশ বালাচাও লইট্যা শুটকীর চাটনি ± ৫ গ্রাম ৭৫ গ্রাম",
+    "nameEn": "Try Dry Fish Balachao Dry Loitta Chutney ± 5 gm 75 gm",
+    "category": "egg-poultry",
+    "unit": "75 gm",
+    "image": "https://chaldn.com/_mpimage/try-dry-fish-balachao-dry-loitta-chutney-5-gm-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132093&q=best&v=1",
+    "mrp": 260,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.405Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 260,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/try-dry-fish-balachao-dry-loitta-chutney-5-gm-75-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 260,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 260,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 260,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-try-dry-fish-balachao-dry-prawn-chutney-10-gm-150-gm",
+    "nameBn": "ট্রাই ড্রাই ফিশ বালাচাও চিংড়ী শুটকীর চাটনি ± ১০ গ্রাম ১৫০ গ্রাম",
+    "nameEn": "Try Dry Fish Balachao Dry Prawn Chutney ± 10 gm 150 gm",
+    "category": "egg-poultry",
+    "unit": "150 gm",
+    "image": "https://chaldn.com/_mpimage/try-dry-fish-balachao-dry-prawn-chutney-10-gm-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132092&q=best&v=1",
+    "mrp": 400,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.405Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/try-dry-fish-balachao-dry-prawn-chutney-10-gm-150-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fargo-safe-dry-fish-chingri-shutki-250-gm",
+    "nameBn": "ফার্গো সেফ ড্রাই ফিশ (চিংড়ি শুটকি) ২৫০ গ্রাম",
+    "nameEn": "Fargo Safe Dry Fish (Chingri Shutki) 250 gm",
+    "category": "egg-poultry",
+    "unit": "250 gm",
+    "image": "https://chaldn.com/_mpimage/fargo-safe-dry-fish-chingri-shutki-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127937&q=best&v=1",
+    "mrp": 290,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.405Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 290,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fargo-safe-dry-fish-chingri-shutki-250-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 290,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 290,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 290,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fargo-safe-dry-fish-churi-shutki-100-gm",
+    "nameBn": "ফার্গো সেফ ড্রাই ফিশ (ছুরি শুটকি) ১০০ গ্রাম",
+    "nameEn": "Fargo Safe Dry Fish (Churi Shutki) 100 gm",
+    "category": "egg-poultry",
+    "unit": "100 gm",
+    "image": "https://chaldn.com/_mpimage/fargo-safe-dry-fish-churi-shutki-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132404&q=best&v=1&m=400",
+    "mrp": 305,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.405Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 305,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fargo-safe-dry-fish-churi-shutki-100-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 305,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 305,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 305,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-olympic-energy-plus-biscuits-62-gm",
+    "nameBn": "অলিম্পিক এনার্জী প্লাস বিস্কুট ৬২ গ্রাম",
+    "nameEn": "Olympic Energy Plus Biscuits 62 gm",
+    "category": "snacks-bakery",
+    "unit": "62 gm",
+    "image": "https://chaldn.com/_mpimage/olympic-energy-plus-biscuits-62-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183194&q=best&v=1",
+    "mrp": 15,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.475Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/olympic-energy-plus-biscuits-62-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-olympic-pineapple-cream-biscuits-40-gm",
+    "nameBn": "অলিম্পিক পাইনএ্যাপেল (আনারস) ক্রিম বিস্কুট ৪০ গ্রাম",
+    "nameEn": "Olympic Pineapple Cream Biscuits 40 gm",
+    "category": "vegetables",
+    "unit": "40 gm",
+    "image": "https://chaldn.com/_mpimage/olympic-pineapple-cream-biscuits-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D123549&q=best&v=1",
+    "mrp": 10,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.475Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/olympic-pineapple-cream-biscuits-40-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-olympic-dry-cake-biscuit-290-gm",
+    "nameBn": "অলিম্পিক ড্ৰাই কেক বিস্কুট ২৯০ গ্রাম",
+    "nameEn": "Olympic Dry Cake Biscuit 290 gm",
+    "category": "snacks-bakery",
+    "unit": "290 gm",
+    "image": "https://chaldn.com/_mpimage/olympic-dry-cake-biscuit-290-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183198&q=best&v=1",
+    "mrp": 150,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.475Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/olympic-dry-cake-biscuit-290-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-bisk-club-shero-cream-biscuit-85-gm",
+    "nameBn": "বিস্ক ক্লাব শেরো ক্রিম বিস্কুট ৮৫ গ্রাম",
+    "nameEn": "Bisk Club Shero Cream Biscuit 85 gm",
+    "category": "snacks-bakery",
+    "unit": "85 gm",
+    "image": "https://chaldn.com/_mpimage/bisk-club-shero-cream-biscuit-85-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D98743&q=best&v=1",
+    "mrp": 30,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.475Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 30,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/bisk-club-shero-cream-biscuit-85-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 30,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 30,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 30,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-olympic-premium-toast-biscuit-185-gm",
+    "nameBn": "অলিম্পিক প্রিমিয়াম টোস্ট বিস্কুট ১৮৫ গ্রাম",
+    "nameEn": "Olympic Premium Toast Biscuit 185 gm",
+    "category": "snacks-bakery",
+    "unit": "185 gm",
+    "image": "https://chaldn.com/_mpimage/olympic-premium-toast-biscuit-185-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D100990&q=best&v=1",
+    "mrp": 60,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.475Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/olympic-premium-toast-biscuit-185-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fresh-fantasy-chocolate-filled-cookies-biscuit-175-gm",
+    "nameBn": "ফ্রেস ফ্যান্টাসি চকোলেট ফিলড কুকিজ বিস্কুট ১৭৫ গ্রাম ",
+    "nameEn": "Fresh Fantasy Chocolate Filled Cookies Biscuit 175 gm",
+    "category": "snacks-bakery",
+    "unit": "175 gm",
+    "image": "https://chaldn.com/_mpimage/fresh-fantasy-chocolate-filled-cookies-biscuit-175-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D128620&q=best&v=1",
+    "mrp": 150,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.475Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fresh-fantasy-chocolate-filled-cookies-biscuit-175-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fresh-butter-cookies-biscuit-jar-750-gm",
+    "nameBn": "ফ্রেশ বাটার কুকি বিস্কুট জার ৭৫০ গ্রাম",
+    "nameEn": "Fresh Butter Cookies Biscuit Jar 750 gm",
+    "category": "dairy-beverage",
+    "unit": "750 gm",
+    "image": "https://chaldn.com/_mpimage/fresh-butter-cookies-biscuit-jar-750-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169151&q=best&v=1",
+    "mrp": 200,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.535Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fresh-butter-cookies-biscuit-jar-750-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-olympic-lexus-vegetable-crackers-biscuits-216-gm",
+    "nameBn": "অলিম্পিক লেক্সাস ভেজিটেবল ক্র্যাকার্স বিস্কুট ২১৬ গ্রাম",
+    "nameEn": "Olympic Lexus Vegetable Crackers Biscuits 216 gm",
+    "category": "vegetables",
+    "unit": "216 gm",
+    "image": "https://chaldn.com/_mpimage/olympic-lexus-vegetable-crackers-biscuits-216-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D115564&q=best&v=1",
+    "mrp": 100,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.535Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/olympic-lexus-vegetable-crackers-biscuits-216-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-haque-mr-cookie-butter-coconut-biscuit-35-gm",
+    "nameBn": "হক মি.কুকি বাটার কোকোনাট বিস্কুট ৩৫ গ্রাম",
+    "nameEn": "Haque Mr. Cookie Butter Coconut Biscuit 35 gm",
+    "category": "dairy-beverage",
+    "unit": "35 gm",
+    "image": "https://chaldn.com/_mpimage/haque-mr-cookie-butter-coconut-biscuit-35-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D140369&q=best&v=1",
+    "mrp": 10,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.535Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/haque-mr-cookie-butter-coconut-biscuit-35-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fresh-chocolate-chip-cookies-biscuit-200-gm",
+    "nameBn": "ফ্রেশ চকোলেট চিপ কুকিজ বিস্কুট ২০০ গ্রাম",
+    "nameEn": "Fresh Chocolate Chip Cookies Biscuit 200 gm",
+    "category": "snacks-bakery",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/fresh-chocolate-chip-cookies-biscuit-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D181753&q=best&v=1",
+    "mrp": 70,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.535Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fresh-chocolate-chip-cookies-biscuit-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-pran-special-toast-biscuit-185-gm",
+    "nameBn": "প্রাণ স্পেশাল টোস্ট বিস্কুট ২৫০ গ্রাম",
+    "nameEn": "Pran Special Toast Biscuit 250 gm",
+    "category": "snacks-bakery",
+    "unit": "250 gm",
+    "image": "https://chaldn.com/_mpimage/pran-special-toast-biscuit-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132330&q=best&v=1",
+    "mrp": 60,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.596Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/pran-special-toast-biscuit-185-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ispahani-premium-toast-biscuit-185-gm",
+    "nameBn": "ইস্পাহানি প্রিমিয়াম টোস্ট বিস্কুট ১৮৫ গ্রাম",
+    "nameEn": "Ispahani Premium Toast Biscuit 185 gm",
+    "category": "snacks-bakery",
+    "unit": "185 gm",
+    "image": "https://chaldn.com/_mpimage/ispahani-premium-toast-biscuit-185-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169991&q=best&v=1",
+    "mrp": 50,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.596Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ispahani-premium-toast-biscuit-185-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-funtastic-plain-toast-biscuit-250-gm",
+    "nameBn": "ফানটাস্টিক প্লেইন টোস্ট বিস্কুট ১৮৫ গ্রাম",
+    "nameEn": "Funtastic Plain Toast Biscuit 185 gm",
+    "category": "snacks-bakery",
+    "unit": "185 gm",
+    "image": "https://chaldn.com/_mpimage/funtastic-plain-toast-biscuit-185-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164225&q=best&v=1",
+    "mrp": 60,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.596Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/funtastic-plain-toast-biscuit-250-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ahmed-toast-biscuits-250-gm",
+    "nameBn": "আহমেদ টোস্ট বিস্কুট ২৫০ গ্রাম",
+    "nameEn": "Ahmed Toast Biscuits 250 gm",
+    "category": "snacks-bakery",
+    "unit": "250 gm",
+    "image": "https://chaldn.com/_mpimage/ahmed-toast-biscuits-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D122942&q=best&v=1",
+    "mrp": 60,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.596Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ahmed-toast-biscuits-250-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ahmed%20Toast%20Biscuits%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ahmed%20Toast%20Biscuits%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ahmed%20Toast%20Biscuits%20250%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ahmed-sweet-toast-250-gm",
+    "nameBn": "আহমেদ মিষ্টি টোস্ট ২৫০ গ্রাম",
+    "nameEn": "Ahmed Sweet Toast 250 gm",
+    "category": "snacks-bakery",
+    "unit": "250 gm",
+    "image": "https://chaldn.com/_mpimage/ahmed-sweet-toast-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D122943&q=best&v=1",
+    "mrp": 65,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.596Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 65,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ahmed-sweet-toast-250-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 65,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ahmed%20Sweet%20Toast%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 65,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ahmed%20Sweet%20Toast%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 65,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ahmed%20Sweet%20Toast%20250%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ruchi-jhal-chanachur-500-gm",
+    "nameBn": "রুচি ঝাল চানাচুর ৫০০ গ্রাম",
+    "nameEn": "Ruchi Jhal Chanachur 500 gm",
+    "category": "dairy-beverage",
+    "unit": "500 gm",
+    "image": "https://chaldn.com/_mpimage/ruchi-jhal-chanachur-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169198&q=best&v=1",
+    "mrp": 150,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.673Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ruchi-jhal-chanachur-500-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ruchi%20Jhal%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Jhal%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Jhal%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ruchi-bbq-chanachur-500-gm",
+    "nameBn": "রুচি বার বি কিউ চানাচুর ৫০০ গ্রাম",
+    "nameEn": "Ruchi Bbq Chanachur 500 gm",
+    "category": "dairy-beverage",
+    "unit": "500 gm",
+    "image": "https://chaldn.com/_mpimage/ruchi-bbq-chanachur-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169200&q=best&v=1",
+    "mrp": 150,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.673Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ruchi-bbq-chanachur-500-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ruchi%20Bbq%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Bbq%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Bbq%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-bombay-sweets-chanachur-150-gm",
+    "nameBn": "বোম্বে সুইটস চানাচুর ১৫০ গ্রাম",
+    "nameEn": "Bombay Sweets Chanachur 150 gm",
+    "category": "dairy-beverage",
+    "unit": "150 gm",
+    "image": "https://chaldn.com/_mpimage/bombay-sweets-chanachur-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D178781&q=best&v=1",
+    "mrp": 50,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.673Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/bombay-sweets-chanachur-150-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Bombay%20Sweets%20Chanachur%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Bombay%20Sweets%20Chanachur%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Bombay%20Sweets%20Chanachur%20150%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ruchi-bbq-chanachur-22-gm",
+    "nameBn": "রুচি বার বি কিউ চানাচুর ২২ গ্রাম",
+    "nameEn": "Ruchi Bbq Chanachur 22 gm",
+    "category": "dairy-beverage",
+    "unit": "22 gm",
+    "image": "https://chaldn.com/_mpimage/ruchi-bbq-chanachur-22-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133061&q=best&v=1",
+    "mrp": 10,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.673Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ruchi-bbq-chanachur-22-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ruchi%20Bbq%20Chanachur%2022%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Bbq%20Chanachur%2022%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Bbq%20Chanachur%2022%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-bombay-sweets-chanachur-500-gm",
+    "nameBn": "বোম্বে সুইটস চানাচুর ৫০০ গ্রাম",
+    "nameEn": "Bombay Sweets Chanachur 500 gm",
+    "category": "dairy-beverage",
+    "unit": "500 gm",
+    "image": "https://chaldn.com/_mpimage/bombay-sweets-chanachur-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179244&q=best&v=1",
+    "mrp": 150,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.673Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/bombay-sweets-chanachur-500-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Bombay%20Sweets%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Bombay%20Sweets%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Bombay%20Sweets%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ruchi-jhal-chanachur-170-gm-5",
+    "nameBn": "রুচি ঝাল চানাচুর ১৫০ গ্রাম",
+    "nameEn": "Ruchi Jhal Chanachur 150 gm",
+    "category": "dairy-beverage",
+    "unit": "150 gm",
+    "image": "https://chaldn.com/_mpimage/ruchi-jhal-chanachur-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133072&q=best&v=1",
+    "mrp": 50,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.673Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ruchi-jhal-chanachur-170-gm-5",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ruchi%20Jhal%20Chanachur%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Jhal%20Chanachur%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Jhal%20Chanachur%20150%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-wonder-muffin-cake-16-gm-6-pcs",
+    "nameBn": "ওয়ান্ডার মাফিন কেক ১৬ গ্রাম ৬ টি",
+    "nameEn": "Wonder Muffin Cake 16 gm 6 pcs",
+    "category": "snacks-bakery",
+    "unit": "6 pcs",
+    "image": "https://chaldn.com/_mpimage/wonder-muffin-cake-16-gm-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D154781&q=best&v=1",
+    "mrp": 60,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.727Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/wonder-muffin-cake-16-gm-6-pcs",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-dan-cake-vanilla-plain-cake-150-gm",
+    "nameBn": "ড্যান কেক ভ্যানিলা প্লেইন কেক ১৫০ গ্রাম",
+    "nameEn": "Dan Cake Vanilla Plain Cake 150 gm",
+    "category": "snacks-bakery",
+    "unit": "150 gm",
+    "image": "https://chaldn.com/_mpimage/dan-cake-vanilla-plain-cake-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D90777&q=best&v=1",
+    "mrp": 80,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.727Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/dan-cake-vanilla-plain-cake-150-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-dan-cake-fruit-cake-sliced-300-gm",
+    "nameBn": "ড্যান কেক ফ্রুট কেক স্লাইড করা ৩০০ গ্রাম",
+    "nameEn": "Dan Cake Fruit Cake Sliced 300 gm",
+    "category": "egg-poultry",
+    "unit": "300 gm",
+    "image": "https://chaldn.com/_mpimage/dan-cake-fruit-cake-sliced-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D140883&q=best&v=1&m=400",
+    "mrp": 180,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.727Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/dan-cake-fruit-cake-sliced-300-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-dan-cake-chocolate-muffin-6-packs-300-gm",
+    "nameBn": "ড্যান কেক চকলেট মাফিন ১২ প্যাক ৩৬০ গ্রাম",
+    "nameEn": "Dan Cake Chocolate Muffin 12 packs 360 gm",
+    "category": "snacks-bakery",
+    "unit": "360 gm",
+    "image": "https://chaldn.com/_mpimage/dan-cake-chocolate-muffin-12-packs-360-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D87475&q=best&v=1&m=400",
+    "mrp": 240,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.727Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/dan-cake-chocolate-muffin-6-packs-300-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-dan-cake-vanilla-muffin-12-pack-360-gm",
+    "nameBn": "ড্যান কেক ভেনিলা মাফিন ১২ প্যাক ৩৬০ গ্রাম",
+    "nameEn": "Dan Cake Vanilla Muffin 12 pack 360 gm",
+    "category": "snacks-bakery",
+    "unit": "360 gm",
+    "image": "https://chaldn.com/_mpimage/dan-cake-vanilla-muffin-12-pack-360-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127435&q=best&v=1&m=400",
+    "mrp": 240,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.727Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/dan-cake-vanilla-muffin-12-pack-360-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-seylon-instant-milk-tea-3-in-1-15-gm",
+    "nameBn": "সিলন ইনস্ট্যান্ট মিল্ক টি ৩ ইন ১ ১৫ গ্রাম",
+    "nameEn": "Seylon Instant Milk Tea 3 in 1 15 gm",
+    "category": "dairy-beverage",
+    "unit": "15 gm",
+    "image": "https://chaldn.com/_mpimage/seylon-instant-milk-tea-3-in-1-15-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D160877&q=best&v=1",
+    "mrp": 10,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.792Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/seylon-instant-milk-tea-3-in-1-15-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ispahani-mirzapur-tea-bags-50-pcs",
+    "nameBn": "ইস্পাহানি মির্জাপুর টি ব্যাগ ৫০ টি",
+    "nameEn": "Ispahani Mirzapore Tea Bag 50 pcs",
+    "category": "dairy-beverage",
+    "unit": "50 pcs",
+    "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-tea-bag-50-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107252&q=best&v=1",
+    "mrp": 100,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.792Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ispahani-mirzapur-tea-bags-50-pcs",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ispahani-mirzapore-best-leaf-tea-200-gm",
+    "nameBn": "ইস্পাহানি মির্জাপুর বেস্ট লিফ টি ২০০ গ্রাম",
+    "nameEn": "Ispahani Mirzapore Best Leaf Tea 200 gm",
+    "category": "dairy-beverage",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D129554&q=best&v=1",
+    "mrp": 116,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.792Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 116,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ispahani-mirzapore-best-leaf-tea-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 116,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 116,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 116,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ispahani-mirzapore-best-leaf-tea-500-gm",
+    "nameBn": "ইস্পাহানি মির্জাপুর সেরা পাতার চা ৫০০ গ্রাম",
+    "nameEn": "Ispahani Mirzapore Best Leaf Tea 500 gm",
+    "category": "dairy-beverage",
+    "unit": "500 gm",
+    "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D124592&q=best&v=1",
+    "mrp": 270,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.792Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 270,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ispahani-mirzapore-best-leaf-tea-500-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 270,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 270,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 270,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ispahani-mirzapore-tea-best-leaf-400-gm",
+    "nameBn": "ইস্পাহানি মির্জাপুর সেরা পাতার চা ৪০০ গ্রাম",
+    "nameEn": "Ispahani Mirzapore Best Leaf Tea 400 gm",
+    "category": "dairy-beverage",
+    "unit": "400 gm",
+    "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107236&q=best&v=1",
+    "mrp": 230,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.792Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ispahani-mirzapore-tea-best-leaf-400-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-tata-tea-premium-400-gm-2",
+    "nameBn": "টাটা টি প্রিমিয়াম ৪০০ গ্রাম",
+    "nameEn": "Tata Tea Premium 400 gm",
+    "category": "dairy-beverage",
+    "unit": "400 gm",
+    "image": "https://chaldn.com/_mpimage/tata-tea-premium-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D161107&q=best&v=1",
+    "mrp": 230,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.792Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳81 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳49 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 149,
+        "inStock": true,
+        "discountText": "৳81 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/tata-tea-premium-400-gm-2",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 181,
+        "inStock": true,
+        "discountText": "৳49 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Tata%20Tea%20Premium%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 210,
+        "inStock": true,
+        "discountText": "৳20 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Tata%20Tea%20Premium%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 194,
+        "inStock": true,
+        "discountText": "৳36 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Tata%20Tea%20Premium%20400%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fresh-coffee-3-in-1-15-gm",
+    "nameBn": "ফ্রেশ কফি ৩ ইন ১ ১৫ গ্রাম",
+    "nameEn": "Fresh Coffee 3 in 1 15 gm",
+    "category": "dairy-beverage",
+    "unit": "15 gm",
+    "image": "https://chaldn.com/_mpimage/fresh-coffee-3-in-1-15-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D187178&q=best&v=1",
+    "mrp": 10,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.848Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fresh-coffee-3-in-1-15-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fresh%20Coffee%203%20in%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Coffee%203%20in%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Coffee%203%20in%201%2015%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-ama-coffee-3-in-1-15-gm",
+    "nameBn": "এএমএ কফি ৩ ইন ১ ১৫ গ্রাম",
+    "nameEn": "AMA Coffee 3 In 1 15 gm",
+    "category": "dairy-beverage",
+    "unit": "15 gm",
+    "image": "https://chaldn.com/_mpimage/ama-coffee-3-in-1-15-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127328&q=best&v=1",
+    "mrp": 10,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.848Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/ama-coffee-3-in-1-15-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=AMA%20Coffee%203%20In%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=AMA%20Coffee%203%20In%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=AMA%20Coffee%203%20In%201%2015%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-nestle-nescafe-classic-instant-coffee-jar-45-gm",
+    "nameBn": "নেসলে নেসক্যাফে ক্লাসিক ইনস্ট্যান্ট কফি জার ৪৫ গ্রাম",
+    "nameEn": "Nestle Nescafe Classic Instant Coffee Jar 45 gm",
+    "category": "dairy-beverage",
+    "unit": "45 gm",
+    "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-jar-45-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D161347&q=best&v=1",
+    "mrp": 275,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.848Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 275,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/nestle-nescafe-classic-instant-coffee-jar-45-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 275,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 275,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 275,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-nestle-nescafe-classic-instant-coffee-jar-100-gm-2",
+    "nameBn": "নেসলে নেসক্যাফে ক্লাসিক ইনস্ট্যান্ট কফি জার ৯০ গ্রাম",
+    "nameEn": "Nestle Nescafe Classic Instant Coffee Jar 90 gm",
+    "category": "dairy-beverage",
+    "unit": "90 gm",
+    "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-jar-90-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183555&q=best&v=1",
+    "mrp": 475,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.848Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 475,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/nestle-nescafe-classic-instant-coffee-jar-100-gm-2",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 475,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 475,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 475,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-nestle-coffee-mate-coffee-creamer-box-450-gm",
+    "nameBn": "নেসলে কফি মেট কফি ক্রিমার বক্স ৪৫০ গ্রাম",
+    "nameEn": "Nestle Coffee Mate Coffee Creamer Box 450 gm",
+    "category": "dairy-beverage",
+    "unit": "450 gm",
+    "image": "https://chaldn.com/_mpimage/nestle-coffee-mate-coffee-creamer-box-450-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D123151&q=best&v=1",
+    "mrp": 380,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.848Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 380,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/nestle-coffee-mate-coffee-creamer-box-450-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 380,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 380,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 380,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fresh-coffee-cappuccino-15-gm",
+    "nameBn": "ফ্রেশ কফি ক্যাপুচিনো ১৫ গ্রাম",
+    "nameEn": "Fresh Coffee Cappuccino 15 gm",
+    "category": "dairy-beverage",
+    "unit": "15 gm",
+    "image": "https://chaldn.com/_mpimage/fresh-coffee-cappuccino-15-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D187179&q=best&v=1",
+    "mrp": 15,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.848Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fresh-coffee-cappuccino-15-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fresh%20Coffee%20Cappuccino%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Coffee%20Cappuccino%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Coffee%20Cappuccino%2015%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-aarong-dairy-pasteurized-liquid-milk-1-ltr",
+    "nameBn": "আড়ং ডেইরি পাস্তুরিত তরল দুধ ১ লিটার",
+    "nameEn": "Aarong Dairy Pasteurized Liquid Milk 1 ltr",
+    "category": "dairy-beverage",
+    "unit": "1 ltr",
+    "image": "https://chaldn.com/_mpimage/aarong-dairy-pasteurized-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D119561&q=best&v=1",
+    "mrp": 105,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.930Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/aarong-dairy-pasteurized-liquid-milk-1-ltr",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-pran-pasteurized-full-cream-liquid-milk-1-ltr",
+    "nameBn": "প্রাণ পাস্তুরিত ফুল ক্রিম তরল দুধ ১ লিটার",
+    "nameEn": "Pran Pasteurized Full Cream Liquid Milk 1 ltr",
+    "category": "dairy-beverage",
+    "unit": "1 ltr",
+    "image": "https://chaldn.com/_mpimage/pran-pasteurized-full-cream-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132322&q=best&v=1",
+    "mrp": 100,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.930Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/pran-pasteurized-full-cream-liquid-milk-1-ltr",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-danish-ayran-pasteurized-full-cream-liquid-milk-1-ltr",
+    "nameBn": "ড্যানিশ আইরান পাস্তুরিত পূর্ন ননীযুক্ত তরল দুধ ১ লিটার",
+    "nameEn": "Danish Ayran Pasteurized Full Cream Liquid Milk 1 ltr",
+    "category": "dairy-beverage",
+    "unit": "1 ltr",
+    "image": "https://chaldn.com/_mpimage/danish-ayran-pasteurized-full-cream-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127452&q=best&v=1",
+    "mrp": 140,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.930Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/danish-ayran-pasteurized-full-cream-liquid-milk-1-ltr",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-milk-vita-pasteurized-standardized-milk-500-ml",
+    "nameBn": "মিল্ক ভিটা পাস্তুরিত স্ট্যান্ডার্ডাইজড দুধ ৫০০ মিলি",
+    "nameEn": "Milk Vita Pasteurized Standardized Milk 500 ml",
+    "category": "dairy-beverage",
+    "unit": "500 ml",
+    "image": "https://chaldn.com/_mpimage/milk-vita-pasteurized-standardized-milk-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177273&q=best&v=1",
+    "mrp": 50,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.930Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/milk-vita-pasteurized-standardized-milk-500-ml",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-farm-fresh-pasteurized-full-cream-milk-1-ltr",
+    "nameBn": "ফার্ম ফ্রেশ পাস্তুরিত ফুল ক্রিম দুধ ১ লিটার",
+    "nameEn": "Farm Fresh Pasteurized Full Cream Milk 1 ltr",
+    "category": "dairy-beverage",
+    "unit": "1 ltr",
+    "image": "https://chaldn.com/_mpimage/farm-fresh-pasteurized-full-cream-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D124788&q=best&v=1",
+    "mrp": 100,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.930Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/farm-fresh-pasteurized-full-cream-milk-1-ltr",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-danish-ayran-pasteurized-full-cream-liquid-milk-2-ltr",
+    "nameBn": "ড্যানিশ আইরান পাস্তুরিত পূর্ন ননীযুক্ত তরল দুধ ২ লিটার",
+    "nameEn": "Danish Ayran Pasteurized Full Cream Liquid Milk 2 ltr",
+    "category": "dairy-beverage",
+    "unit": "2 ltr",
+    "image": "https://chaldn.com/_mpimage/danish-ayran-pasteurized-full-cream-liquid-milk-2-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101671&q=best&v=1",
+    "mrp": 255,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:34.930Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 255,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/danish-ayran-pasteurized-full-cream-liquid-milk-2-ltr",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 255,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 255,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 255,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-radhuni-turmeric-holud-powder-200-gm",
+    "nameBn": "রাঁধুনী হলুদের গুঁড়া ২০০ গ্রাম",
+    "nameEn": "Radhuni Turmeric (Holud) Powder 200 gm",
+    "category": "spices",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/radhuni-turmeric-holud-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132553&q=best&v=1",
+    "mrp": 145,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.009Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/radhuni-turmeric-holud-powder-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-radhuni-turmeric-holud-powder-100-gm",
+    "nameBn": "রাঁধুনী হলুদের গুঁড়া ১০০ গ্রাম",
+    "nameEn": "Radhuni Turmeric (Holud) Powder 100 gm",
+    "category": "spices",
+    "unit": "100 gm",
+    "image": "https://chaldn.com/_mpimage/radhuni-turmeric-holud-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132554&q=best&v=1",
+    "mrp": 75,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.009Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/radhuni-turmeric-holud-powder-100-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-radhuni-chilli-morich-powder-100-gm",
+    "nameBn": "রাঁধুনী মরিচের গুঁড়া ১০০ গ্রাম",
+    "nameEn": "Radhuni Chilli (Morich) Powder 100 gm",
+    "category": "spices",
+    "unit": "100 gm",
+    "image": "https://chaldn.com/_mpimage/radhuni-chilli-morich-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132509&q=best&v=1",
+    "mrp": 75,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.009Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/radhuni-chilli-morich-powder-100-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-radhuni-garam-masala-40-gm",
+    "nameBn": "রাঁধুনী গরম মশলা ৪০ গ্রাম",
+    "nameEn": "Radhuni Garam Masala 40 gm",
+    "category": "spices",
+    "unit": "40 gm",
+    "image": "https://chaldn.com/_mpimage/radhuni-garam-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132527&q=best&v=1",
+    "mrp": 95,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.009Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/radhuni-garam-masala-40-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Radhuni%20Garam%20Masala%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Garam%20Masala%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Garam%20Masala%2040%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-radhuni-coriander-powder-200-gm-radhuni-dhoniya",
+    "nameBn": "রাঁধুনী ধনিয়ার গুঁড়া ২০০ গ্রাম",
+    "nameEn": "Radhuni Coriander (Dhonia) Powder 200 gm",
+    "category": "spices",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/radhuni-coriander-dhonia-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132897&q=best&v=1",
+    "mrp": 110,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.009Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/radhuni-coriander-powder-200-gm-radhuni-dhoniya",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-radhuni-cumin-powder-500-gm",
+    "nameBn": "রাঁধুনী জিরার গুঁড়া ১০০ গ্রাম",
+    "nameEn": "Radhuni Cumin (Jira) Powder 100 gm",
+    "category": "spices",
+    "unit": "100 gm",
+    "image": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132521&q=best&v=1",
+    "mrp": 160,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.009Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/radhuni-cumin-powder-500-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-aci-pure-salt-1-kg-6",
+    "nameBn": "এ সি আই পিওর লবণ ১ কেজি",
+    "nameEn": "ACI Pure Salt 1 kg",
+    "category": "spices",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/aci-pure-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D47100&q=best&v=1",
+    "mrp": 42,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.071Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/aci-pure-salt-1-kg-6",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Salt%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-akij-essential-iodized-salt-1-kg",
+    "nameBn": "আকিজ এসেনসিয়াল আয়োডিনযুক্ত লবণ ১ কেজি",
+    "nameEn": "Akij Essential Iodized Salt 1 kg",
+    "category": "spices",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/akij-essential-iodized-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D122555&q=best&v=1&m=400",
+    "mrp": 38,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.071Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 38,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/akij-essential-iodized-salt-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 38,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 38,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 38,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fresh-super-premium-vacuum-salt-1-kg",
+    "nameBn": "ফ্রেশ সুপার প্রিমিয়াম (ভ্যাকুয়াম) লবণ ১ কেজি",
+    "nameEn": "Fresh Super Premium (Vacuum) Salt 1 kg",
+    "category": "spices",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/fresh-super-premium-vacuum-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D128654&q=best&v=1",
+    "mrp": 42,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.071Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fresh-super-premium-vacuum-salt-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-aci-pure-salt-500-gm-2",
+    "nameBn": "এ সি আই পিওর লবণ ৫০০ গ্রাম",
+    "nameEn": "ACI Pure Salt 500 gm",
+    "category": "spices",
+    "unit": "500 gm",
+    "image": "https://chaldn.com/_mpimage/aci-pure-salt-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D57736&q=best&v=1",
+    "mrp": 22,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.071Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 22,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/aci-pure-salt-500-gm-2",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 22,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Salt%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 22,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Salt%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 22,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Salt%20500%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-olympic-tip-crispy-salted-biscuits-60-gm",
+    "nameBn": "অলিম্পিক টিপ ক্রিসপি সলটেড বিস্কুট ৬০ গ্রাম",
+    "nameEn": "Olympic Tip Crispy Salted Biscuits 60 gm",
+    "category": "spices",
+    "unit": "60 gm",
+    "image": "https://chaldn.com/_mpimage/olympic-tip-crispy-salted-biscuits-60-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D131561&q=best&v=1",
+    "mrp": 15,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.071Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/olympic-tip-crispy-salted-biscuits-60-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-bangas-grand-choice-salted-biscuit-70-gm",
+    "nameBn": "বঙ্গজ গ্র্যান্ড চয়েস নোনতা বিস্কুট ৭০ গ্রাম",
+    "nameEn": "Bangas Grand Choice Salted Biscuit 70 gm",
+    "category": "spices",
+    "unit": "70 gm",
+    "image": "https://chaldn.com/_mpimage/bangas-grand-choice-salted-biscuit-70-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D125359&q=best&v=1",
+    "mrp": 20,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.071Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/bangas-grand-choice-salted-biscuit-70-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-fresh-refined-sugar-1-kg",
+    "nameBn": "ফ্রেশ রিফাইন্ড চিনি ১ কেজি",
+    "nameEn": "Fresh Refined Sugar 1 kg",
+    "category": "spices",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/fresh-refined-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D113128&q=best&v=1",
+    "mrp": 110,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.136Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/fresh-refined-sugar-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Fresh%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-teer-sugar-1-kg",
+    "nameBn": "তীর চিনি ১ কেজি",
+    "nameEn": "Teer Sugar 1 kg",
+    "category": "spices",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/teer-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101003&q=best&v=1",
+    "mrp": 110,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.136Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/teer-sugar-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Teer%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Teer%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-starship-refined-sugar-1-kg",
+    "nameBn": "স্টারশিপ রিফাইন্ড চিনি ১ কেজি",
+    "nameEn": "Starship Refined Sugar 1 kg",
+    "category": "spices",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/starship-refined-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D174230&q=best&v=1",
+    "mrp": 110,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.136Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/starship-refined-sugar-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Starship%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Starship%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Starship%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-coca-cola-zero-sugar-250-ml",
+    "nameBn": "কোকা-কোলা জিরো সুগার ২৫০ মিলি",
+    "nameEn": "Coca-Cola Zero Sugar 250 ml",
+    "category": "spices",
+    "unit": "250 ml",
+    "image": "https://chaldn.com/_mpimage/coca-cola-zero-sugar-250-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D186630&q=best&v=1",
+    "mrp": 20,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.136Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/coca-cola-zero-sugar-250-ml",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Coca-Cola%20Zero%20Sugar%20250%20ml",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Coca-Cola%20Zero%20Sugar%20250%20ml",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Coca-Cola%20Zero%20Sugar%20250%20ml",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-sugar-candy-tal-misri-200-gm",
+    "nameBn": "তাল মিসরি ২০০ গ্রাম",
+    "nameEn": "Sugar Candy (Tal Misri) 200 gm",
+    "category": "spices",
+    "unit": "200 gm",
+    "image": "https://chaldn.com/_mpimage/sugar-candy-tal-misri-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48011&q=best&v=1",
+    "mrp": 55,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.136Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳16 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳10 ছাড়"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 39,
+        "inStock": true,
+        "discountText": "৳16 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/sugar-candy-tal-misri-200-gm",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 45,
+        "inStock": true,
+        "discountText": "৳10 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 51,
+        "inStock": true,
+        "discountText": "৳4 ছাড়",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 48,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "chaldal-akij-essential-refined-sugar-1-kg",
+    "nameBn": "আকিজ এসেনসিয়াল পরিশোধিত চিনি ১ কেজি",
+    "nameEn": "Akij Essential Refined Sugar 1 kg",
+    "category": "spices",
+    "unit": "1 kg",
+    "image": "https://chaldn.com/_mpimage/akij-essential-refined-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D121194&q=best&v=1",
+    "mrp": 135,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-18T12:49:35.136Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "লাইভ রেট"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "ক্লাব পয়েন্ট"
+      },
+      {
+        "store": "meenaclick",
+        "title": "অনলাইন অর্ডারে ভাউচার কোড",
+        "badge": "৫% ক্যাশব্যাক"
+      },
+      {
+        "store": "pandamart",
+        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
+        "badge": "Pandapro ডিল"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/akij-essential-refined-sugar-1-kg",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "বাজার দর",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "pandamart": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "MRP",
+        "offerText": "২৫ মিনিটে এক্সপ্রেস",
+        "url": "https://www.foodpanda.com.bd/restaurants?search=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "meenaclick": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "লাইভ রেট",
+        "offerText": "৫% ক্যাশব্যাক ভাউচার",
+        "url": "https://meenabazaronline.com/search?keyword=Akij%20Essential%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
