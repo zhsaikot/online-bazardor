@@ -1,5 +1,4 @@
-import React from 'react';
-import { ShoppingBag, MapPin, User, Globe, Search, LogOut, X, Camera, Sun, Moon } from 'lucide-react';
+import { ShoppingBag, MapPin, User, Globe, Search, LogOut, X, Camera, Sun, Moon, Settings } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
@@ -17,7 +16,7 @@ export default function Header({
   onOpenVisualSearch
 }) {
   const { lang, toggleLanguage, t } = useLanguage();
-  const { user, openAuthModal, logout } = useAuth();
+  const { user, openAuthModal, openProfileModal, logout } = useAuth();
   const { isDark, toggleTheme } = useTheme();
 
   const locations = [
@@ -142,11 +141,29 @@ export default function Header({
           {/* Auth Profile / Login Button */}
           {user ? (
             <div className="flex items-center gap-1.5 pl-1 border-l border-zinc-200 dark:border-zinc-800 shrink-0">
-              <img 
-                src={user.avatar} 
-                alt={user.name} 
-                className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover border border-emerald-500 ring-2 ring-emerald-100/80 dark:ring-emerald-950/80" 
-              />
+              <button
+                onClick={openProfileModal}
+                className="flex items-center gap-1.5 p-0.5 rounded-full hover:ring-2 hover:ring-emerald-500/30 transition group cursor-pointer"
+                title={lang === 'bn' ? 'প্রোফাইল ও সেটিংস' : 'Profile & Settings'}
+              >
+                <img 
+                  src={user.avatar} 
+                  alt={user.name} 
+                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover border border-emerald-500 ring-2 ring-emerald-100/80 dark:ring-emerald-950/80 group-hover:scale-105 transition-transform" 
+                />
+              </button>
+              <button
+                onClick={openProfileModal}
+                className="hidden lg:flex flex-col text-left cursor-pointer"
+                title={lang === 'bn' ? 'প্রোফাইল ও সেটিংস' : 'Profile & Settings'}
+              >
+                <span className="text-[11px] font-bold text-zinc-900 dark:text-zinc-100 leading-tight truncate max-w-[85px]">
+                  {user.name.split(' ')[0]}
+                </span>
+                <span className="text-[9px] text-emerald-600 dark:text-emerald-400 font-semibold leading-none">
+                  {lang === 'bn' ? 'সেটিংস' : 'Settings'}
+                </span>
+              </button>
               <button
                 onClick={logout}
                 className="hidden sm:flex text-zinc-400 dark:text-zinc-500 hover:text-rose-600 dark:hover:text-rose-400 p-1 rounded-lg transition"
@@ -156,14 +173,23 @@ export default function Header({
               </button>
             </div>
           ) : (
-            <button
-              onClick={openAuthModal}
-              className="flex items-center gap-1 bg-zinc-900 dark:bg-zinc-100 hover:bg-zinc-800 dark:hover:bg-white active:scale-95 text-white dark:text-zinc-950 font-bold text-xs p-1.5 sm:py-1.5 sm:px-3 rounded-full transition shadow-premium-sm shrink-0 cursor-pointer"
-              title={t.login}
-            >
-              <User className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">{t.login}</span>
-            </button>
+            <div className="flex items-center gap-1 pl-1 border-l border-zinc-200 dark:border-zinc-800 shrink-0">
+              <button
+                onClick={openAuthModal}
+                className="flex items-center gap-1 bg-zinc-900 dark:bg-zinc-100 hover:bg-zinc-800 dark:hover:bg-white active:scale-95 text-white dark:text-zinc-950 font-bold text-xs p-1.5 sm:py-1.5 sm:px-3 rounded-full transition shadow-premium-sm shrink-0 cursor-pointer"
+                title={t.login}
+              >
+                <User className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">{t.login}</span>
+              </button>
+              <button
+                onClick={openProfileModal}
+                className="p-1.5 rounded-full text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition cursor-pointer"
+                title={lang === 'bn' ? 'অ্যাপ সেটিংস' : 'App Settings'}
+              >
+                <Settings className="w-4 h-4" />
+              </button>
+            </div>
           )}
 
           {/* Bag Button */}

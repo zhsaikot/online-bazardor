@@ -252,7 +252,47 @@ export function AuthProvider({ children }) {
     }
   };
 
-  // 4. Save Bag for Authenticated User
+  const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
+
+  const openProfileModal = () => setIsProfileModalOpen(true);
+  const closeProfileModal = () => setIsProfileModalOpen(false);
+
+  // 4. Update Profile
+  const updateUserProfile = ({ name, avatar }) => {
+    setUser(prev => {
+      if (!prev) return null;
+      const updated = {
+        ...prev,
+        name: name !== undefined ? name : prev.name,
+        avatar: avatar !== undefined ? avatar : prev.avatar
+      };
+      try {
+        localStorage.setItem('bazardor_user', JSON.stringify(updated));
+      } catch (e) {}
+      return updated;
+    });
+  };
+
+  // 5. Delete Saved Bag
+  const deleteSavedBag = (bagId) => {
+    setUser(prev => {
+      if (!prev) return null;
+      const updatedBags = (prev.savedBags || []).filter(b => b.id !== bagId);
+      try {
+        localStorage.setItem(`bazardor_bags_${prev.id}`, JSON.stringify(updatedBags));
+      } catch (e) {}
+      const updated = {
+        ...prev,
+        savedBags: updatedBags
+      };
+      try {
+        localStorage.setItem('bazardor_user', JSON.stringify(updated));
+      } catch (e) {}
+      return updated;
+    });
+  };
+
+  // 6. Save Bag for Authenticated User
   const saveCurrentBag = (bagName, items) => {
     if (!user) {
       openAuthModal();
@@ -261,12 +301,16 @@ export function AuthProvider({ children }) {
     const newBag = {
       id: 'bag_' + Date.now(),
       name: bagName || 'আমার বাজার',
-      date: new Date().toLocaleDateString('bn-BD'),
+      date: new Date().toLocaleDateString('bn-BD', { day: 'numeric', month: 'long', year: 'numeric' }),
       itemsCount: items.length,
       items: items.map(i => ({
-        name: i.product.nameBn,
+        id: i.product?.id,
+        name: i.product?.nameBn || i.product?.nameEn,
+        nameEn: i.product?.nameEn,
         qty: i.quantity,
-        unit: i.product.unit
+        unit: i.product?.unit,
+        image: i.product?.image,
+        product: i.product
       }))
     };
     setUser(prev => {
@@ -295,6 +339,11 @@ export function AuthProvider({ children }) {
       isAuthModalOpen,
       openAuthModal,
       closeAuthModal,
+      isProfileModalOpen,
+      openProfileModal,
+      closeProfileModal,
+      updateUserProfile,
+      deleteSavedBag,
       initRecaptcha,
       loginWithGoogle,
       sendPhoneOtp,

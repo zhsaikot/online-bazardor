@@ -9,6 +9,7 @@ import VisualSearchModal from './components/VisualSearchModal';
 import DealsTab from './components/DealsTab';
 import DailyMarketTab from './components/DailyMarketTab';
 import AuthModal from './components/AuthModal';
+import ProfileSettingsModal from './components/ProfileSettingsModal';
 import Footer from './components/Footer';
 import { PRODUCTS, CATEGORIES, STORES } from './data/mockCatalog';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
@@ -51,7 +52,13 @@ function AppContent() {
   const [activeTab, setActiveTab] = useState('catalog');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [selectedLocation, setSelectedLocation] = useState('ঢাকা - ধানমন্ডি');
+  const [selectedLocation, setSelectedLocation] = useState(() => {
+    try {
+      const saved = localStorage.getItem('bazardor_default_location');
+      if (saved) return saved;
+    } catch {}
+    return 'ঢাকা - ধানমন্ডি';
+  });
   const [selectedStores, setSelectedStores] = useState(Object.keys(STORES));
   const [discountOnly, setDiscountOnly] = useState(false);
   const [detailProduct, setDetailProduct] = useState(null);
@@ -201,6 +208,17 @@ function AppContent() {
 
   const handleClearBasket = () => {
     setBasket([]);
+  };
+
+  // Restore a saved bag from Profile & Settings
+  const handleRestoreBag = (savedBag) => {
+    if (!savedBag || !savedBag.items) return;
+    const restored = savedBag.items.map(it => {
+      const prod = productList.find(p => p.id === it.id) || it.product || PRODUCTS[0];
+      return { product: prod, quantity: it.qty || 1 };
+    });
+    setBasket(restored);
+    setIsBagOpen(true);
   };
 
   const toggleStoreFilter = (storeId) => {
@@ -600,6 +618,12 @@ function AppContent() {
 
       {/* Global Modals */}
       <AuthModal />
+      <ProfileSettingsModal 
+        selectedLocation={selectedLocation}
+        setSelectedLocation={setSelectedLocation}
+        onRestoreBag={handleRestoreBag}
+        onOpenBag={() => setIsBagOpen(true)}
+      />
 
       {detailProduct && (
         <ProductDetailModal 
