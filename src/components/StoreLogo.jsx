@@ -24,7 +24,7 @@ export default function StoreLogo({
   };
 
   const containerSize = sizeClasses[size] || sizeClasses.md;
-  const logoUrl = storeObj.logo || `/stores/${storeObj.id}.png`;
+  const logoUrl = storeObj.logo || `/stores/${storeObj.id}.png?v=2`;
 
   if (hasError) {
     if (fallbackToDot) {

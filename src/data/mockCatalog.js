@@ -18,7 +18,7 @@ export const STORES = {
     "rating": 4.6,
     "logoText": "Chaldal",
     "accentHex": "#f97316",
-    "logo": "/stores/chaldal.png"
+    "logo": "/stores/chaldal.png?v=2"
   },
   "shwapno": {
     "id": "shwapno",
@@ -36,7 +36,7 @@ export const STORES = {
     "rating": 4.5,
     "logoText": "Shwapno",
     "accentHex": "#e11d48",
-    "logo": "/stores/shwapno.png"
+    "logo": "/stores/shwapno.png?v=2"
   },
   "pandamart": {
     "id": "pandamart",
@@ -54,7 +54,7 @@ export const STORES = {
     "rating": 4.4,
     "logoText": "pandamart",
     "accentHex": "#db2777",
-    "logo": "/stores/pandamart.png"
+    "logo": "/stores/pandamart.png?v=2"
   },
   "meenaclick": {
     "id": "meenaclick",
@@ -72,7 +72,7 @@ export const STORES = {
     "rating": 4.3,
     "logoText": "MeenaBazar",
     "accentHex": "#059669",
-    "logo": "/stores/meenaclick.png"
+    "logo": "/stores/meenaclick.png?v=2"
   }
 };
 
