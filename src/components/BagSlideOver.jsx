@@ -82,11 +82,11 @@ export default function BagSlideOver({
       />
 
       {/* Slide-over Drawer Panel */}
-      <div className="fixed inset-y-0 right-0 max-w-full flex pl-10">
-        <div className="w-screen max-w-md bg-white shadow-2xl flex flex-col justify-between border-l border-slate-200">
+      <div className="fixed inset-y-0 right-0 max-w-full flex pl-0 sm:pl-10 pointer-events-none">
+        <div className="w-screen max-w-full sm:max-w-md bg-white shadow-2xl flex flex-col justify-between border-l border-slate-200 pointer-events-auto overflow-x-hidden">
           
           {/* Header */}
-          <div className="px-5 py-4 bg-white/95 backdrop-blur-md border-b border-slate-100 flex items-center justify-between">
+          <div className="px-4 sm:px-5 py-3.5 sm:py-4 bg-white/95 backdrop-blur-md border-b border-slate-100 flex items-center justify-between">
             <div className="flex items-center gap-2.5">
               <div className="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold">
                 <ShoppingBag className="w-5 h-5" />
@@ -121,7 +121,7 @@ export default function BagSlideOver({
           </div>
 
           {/* Scrollable Content Body */}
-          <div className="flex-1 overflow-y-auto p-5 space-y-4">
+          <div className="flex-1 overflow-y-auto p-3.5 sm:p-5 space-y-3.5 sm:space-y-4">
             {basket.length === 0 ? (
               <div className="py-16 text-center space-y-3">
                 <div className="w-16 h-16 rounded-3xl bg-slate-100 text-slate-400 flex items-center justify-center mx-auto">
@@ -392,7 +392,7 @@ export default function BagSlideOver({
 
           {/* Bottom Fixed Action Buttons */}
           {basket.length > 0 && (
-            <div className="p-4 bg-slate-50 border-t border-slate-200 space-y-2">
+            <div className="p-3.5 sm:p-4 bg-slate-50 border-t border-slate-200 space-y-2 safe-bottom">
               <div className="grid grid-cols-2 gap-2">
                 <button
                   onClick={handleShareWhatsApp}
