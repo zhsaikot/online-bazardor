@@ -359,31 +359,6 @@ function AppContent() {
                 </div>
               </div>
 
-              {/* Visual Search Discovery Pill for Mobile */}
-              <button
-                type="button"
-                onClick={() => setIsVisualSearchOpen(true)}
-                className="w-full flex items-center justify-between px-3 py-2 rounded-2xl bg-linear-to-r from-emerald-600 to-teal-600 text-white shadow-xs hover:opacity-95 transition cursor-pointer"
-              >
-                <div className="flex items-center gap-2">
-                  <div className="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center">
-                    <Camera className="w-3.5 h-3.5 text-white" />
-                  </div>
-                  <div className="text-left">
-                    <p className="text-xs font-black tracking-tight leading-tight">
-                      {lang === 'bn' ? 'ছবি তুলে পণ্যের দাম খুঁজুন' : 'Visual Search & Compare'}
-                    </p>
-                    <p className="text-[10px] text-emerald-100 font-medium leading-tight">
-                      {lang === 'bn' ? 'প্যাকেটের ছবি তুলুন বা গ্যালারি থেকে দিন' : 'Snap photo or select from gallery'}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-1 bg-white/20 text-white text-[10px] font-bold px-2 py-1 rounded-xl">
-                  <span>{lang === 'bn' ? 'স্ক্যান করুন' : 'Scan'}</span>
-                  <ArrowRight className="w-3 h-3" />
-                </div>
-              </button>
-
               {/* Categories Pills */}
               <div className="flex gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar py-0.5">
                 {CATEGORIES.map(cat => {
