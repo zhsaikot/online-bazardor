@@ -242,7 +242,7 @@ function AppContent() {
   }, [productList, searchQuery, selectedCategory, selectedStores, discountOnly]);
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col text-slate-900 selection:bg-emerald-500 selection:text-white">
+    <div className="min-h-screen bg-slate-50 flex flex-col text-slate-900 selection:bg-emerald-500 selection:text-white overflow-x-hidden w-full max-w-full">
       {/* Top Header */}
       <Header 
         selectedLocation={selectedLocation}
@@ -256,7 +256,7 @@ function AppContent() {
       />
 
       {/* Main Container */}
-      <div className="flex-1 max-w-7xl w-full mx-auto px-2.5 sm:px-4 lg:px-8 py-3 sm:py-6">
+      <div className="flex-1 max-w-7xl w-full mx-auto px-2.5 sm:px-4 lg:px-8 py-3 sm:py-6 min-w-0">
         {/* Navigation Tabs for Desktop */}
         <div className="hidden lg:flex items-center justify-between pb-4 border-b border-slate-200/80 mb-6">
           <div className="flex items-center gap-2">
