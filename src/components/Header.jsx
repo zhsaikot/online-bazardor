@@ -1,4 +1,4 @@
-import { ShoppingBag, MapPin, User, Globe, Search, LogOut, X, Camera, Sun, Moon, Settings } from 'lucide-react';
+import { ShoppingBag, MapPin, User, Globe, Search, LogOut, X, Sun, Moon, Settings } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
@@ -85,15 +85,6 @@ export default function Header({
                 </button>
               </>
             ) : null}
-            <button
-              type="button"
-              onClick={onOpenVisualSearch}
-              className="p-1.5 rounded-xl bg-white dark:bg-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 hover:text-emerald-700 dark:hover:text-emerald-400 border border-zinc-200 dark:border-zinc-700 transition flex items-center gap-1 cursor-pointer shadow-premium-sm active:scale-95 group/cam"
-              title={t.visualSearch}
-            >
-              <Camera className="w-3.5 h-3.5 text-zinc-500 dark:text-zinc-400 group-hover/cam:text-emerald-600 dark:group-hover/cam:text-emerald-400 transition" />
-              <span className="hidden lg:inline text-[10px] font-bold">{t.visualSearch}</span>
-            </button>
           </div>
         </div>
 

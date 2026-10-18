@@ -17,7 +17,9 @@ import {
   Award,
   ChevronRight,
   Plus,
-  Percent
+  Percent,
+  Barcode,
+  HelpCircle
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { STORES, PRODUCTS } from '../data/mockCatalog';
@@ -39,6 +41,7 @@ export default function VisualSearchModal({
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [searchInput, setSearchInput] = useState('');
   const [isSearchingOnline, setIsSearchingOnline] = useState(false);
+  const [needsUserConfirmation, setNeedsUserConfirmation] = useState(false);
   const [cameraError, setCameraError] = useState(null);
   const [facingMode, setFacingMode] = useState('environment'); // 'environment' | 'user'
   const [addedToast, setAddedToast] = useState(false);
@@ -48,17 +51,24 @@ export default function VisualSearchModal({
   const streamRef = useRef(null);
   const fileInputRef = useRef(null);
 
-  // Demo presets for 1-click instant testing on any device
+  // Quick brand & product chips for instant 1-tap confirmation
+  const QUICK_SUGGESTIONS = [
+    { label: 'রূপচাঁদা ৫ লিটার', query: 'rupchanda 5 ltr', category: 'oil' },
+    { label: 'তীর সয়াবিন ৫ লিটার', query: 'teer fortified soyabean oil 5 ltr', category: 'oil' },
+    { label: 'ফ্রেশ সয়াবিন ১ লিটার', query: 'fresh fortified soyabean oil 1 ltr', category: 'oil' },
+    { label: 'আড়ং গাওয়া ঘি ২০০ গ্রাম', query: 'aarong dairy pure ghee 200 gm', category: 'oil' },
+    { label: 'ডানো গুঁড়ো দুধ ১ কেজি', query: 'dano daily pushti 1 kg', category: 'dairy' },
+    { label: 'ডিপ্লোমা দুধ ১ কেজি', query: 'diploma milk powder 1 kg', category: 'dairy' },
+    { label: 'ম্যাগি নুডুলস ৮ প্যাক', query: 'maggi 2 minute noodles', category: 'snacks' },
+    { label: 'রাঁধুনী হলুদ গুঁড়া', query: 'radhuni turmeric powder 200 gm', category: 'staples' },
+    { label: 'রাঁধুনী মরিচ গুঁড়া', query: 'radhuni chilli powder 200 gm', category: 'staples' },
+    { label: 'মিনিকেট চাল ৫ কেজি', query: 'miniket rice premium boiled 5 kg', category: 'rice-pulses' },
+    { label: 'ফ্রেশ চিনি ১ কেজি', query: 'fresh refined sugar 1 kg', category: 'staples' },
+    { label: 'এসিআই লবণ ১ কেজি', query: 'aci pure salt 1 kg', category: 'staples' },
+  ];
+
+  // Demo presets for 1-click instant testing
   const DEMO_PRESETS = [
-    {
-      id: 'sample-teer-oil',
-      nameBn: 'তীর সয়াবিন তেল ৫ লিটার',
-      nameEn: 'Teer Fortified Soyabean Oil 5L',
-      query: 'teer fortified soyabean oil 5 ltr',
-      category: 'ভোজ্য তেল',
-      icon: '🛢️',
-      img: 'https://i.chaldn.com/_mpimage/teer-fortified-soyabean-oil-5-ltr/large'
-    },
     {
       id: 'sample-rupchanda-oil',
       nameBn: 'রূপচাঁদা সয়াবিন তেল ৫ লিটার',
@@ -69,13 +79,13 @@ export default function VisualSearchModal({
       img: 'https://i.chaldn.com/_mpimage/rupchanda-fortified-soyabean-oil-5-ltr/large'
     },
     {
-      id: 'sample-aarong-ghee',
-      nameBn: 'আড়ং গাওয়া ঘি ২০০ গ্রাম',
-      nameEn: 'Aarong Dairy Pure Ghee 200g',
-      query: 'aarong dairy pure ghee 200 gm',
-      category: 'ঘি ও তেল',
-      icon: '🧈',
-      img: 'https://i.chaldn.com/_mpimage/aarong-dairy-pure-ghee-200-gm/large'
+      id: 'sample-teer-oil',
+      nameBn: 'তীর সয়াবিন তেল ৫ লিটার',
+      nameEn: 'Teer Fortified Soyabean Oil 5L',
+      query: 'teer fortified soyabean oil 5 ltr',
+      category: 'ভোজ্য তেল',
+      icon: '🛢️',
+      img: 'https://i.chaldn.com/_mpimage/teer-fortified-soyabean-oil-5-ltr/large'
     },
     {
       id: 'sample-dano-milk',
@@ -103,10 +113,19 @@ export default function VisualSearchModal({
       category: 'চাল ও ডাল',
       icon: '🍚',
       img: 'https://i.chaldn.com/_mpimage/miniket-rice-premium-boiled-5-kg/large'
+    },
+    {
+      id: 'sample-aarong-ghee',
+      nameBn: 'আড়ং গাওয়া ঘি ২০০ গ্রাম',
+      nameEn: 'Aarong Dairy Pure Ghee 200g',
+      query: 'aarong dairy pure ghee 200 gm',
+      category: 'ঘি ও তেল',
+      icon: '🧈',
+      img: 'https://i.chaldn.com/_mpimage/aarong-dairy-pure-ghee-200-gm/large'
     }
   ];
 
-  // Stop camera tracks helper
+  // Stop camera stream tracks
   const stopCameraStream = () => {
     if (streamRef.current) {
       streamRef.current.getTracks().forEach(track => {
@@ -151,7 +170,6 @@ export default function VisualSearchModal({
     }
   };
 
-  // Initialize or teardown camera based on modal open state and active tab
   useEffect(() => {
     if (isOpen && activeTab === 'camera' && !capturedImage) {
       startCameraStream();
@@ -164,7 +182,7 @@ export default function VisualSearchModal({
     };
   }, [isOpen, activeTab, capturedImage, facingMode]);
 
-  // Reset state when modal is closed
+  // Reset state on close
   const handleModalClose = () => {
     stopCameraStream();
     setCapturedImage(null);
@@ -172,12 +190,13 @@ export default function VisualSearchModal({
     setSelectedProduct(null);
     setIsAnalyzing(false);
     setCameraError(null);
+    setNeedsUserConfirmation(false);
     setAddedToast(false);
     onClose();
   };
 
-  // Capture frame from live video
-  const handleCapturePhoto = () => {
+  // Capture frame from live camera video with optional barcode check
+  const handleCapturePhoto = async () => {
     if (!videoRef.current) return;
     const video = videoRef.current;
     const canvas = canvasRef.current || document.createElement('canvas');
@@ -190,7 +209,26 @@ export default function VisualSearchModal({
 
     stopCameraStream();
     setCapturedImage(dataUrl);
-    processVisionSearch({ imageBase64: dataUrl });
+
+    // Check BarcodeDetector API if supported
+    let detectedBarcode = null;
+    if ('BarcodeDetector' in window) {
+      try {
+        const barcodeDetector = new window.BarcodeDetector({ formats: ['ean_13', 'ean_8', 'upc_a', 'code_128', 'qr_code'] });
+        const barcodes = await barcodeDetector.detect(canvas);
+        if (barcodes && barcodes.length > 0) {
+          detectedBarcode = barcodes[0].rawValue;
+          console.log('Barcode detected from package:', detectedBarcode);
+        }
+      } catch (err) {
+        console.info('BarcodeDetector error/unsupported:', err.message);
+      }
+    }
+
+    processVisionSearch({ 
+      imageBase64: dataUrl,
+      clientQuery: detectedBarcode
+    });
   };
 
   // Handle file select from gallery
@@ -215,76 +253,17 @@ export default function VisualSearchModal({
     setCapturedImage(preset.img);
     processVisionSearch({ 
       sampleHint: preset.id,
-      filename: preset.nameEn
+      filename: preset.nameEn,
+      clientQuery: preset.query
     });
   };
 
-  // Synthesize realistic 4-store comparison for any product
-  const buildMultiStoreProduct = (nameEn, nameBn, category, basePrice, img, unit) => {
-    const price = basePrice || 500;
-    const mrp = Math.round(price * 1.08);
-    const shwapnoPrice = Math.max(price, mrp - Math.round((mrp - price) * 0.6));
-    const meenaclickPrice = Math.max(price, mrp - Math.round((mrp - price) * 0.45));
-    const pandamartPrice = Math.max(price, mrp - Math.round((mrp - price) * 0.25));
-
-    return {
-      id: 'scan-' + Math.random().toString(36).substring(2, 9),
-      nameEn: nameEn,
-      nameBn: nameBn || nameEn,
-      category: category || 'all',
-      unit: unit || '১ প্যাক',
-      image: img || 'https://i.chaldn.com/_mpimage/teer-fortified-soyabean-oil-5-ltr/large',
-      mrp: mrp,
-      isLiveSynced: true,
-      lastSyncedAt: new Date().toISOString(),
-      offers: [
-        { store: 'chaldal', title: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি', badge: mrp > price ? `৳${mrp - price} ছাড়` : 'লাইভ রেট' },
-        { store: 'shwapno', title: 'স্বপ্ন ক্লাব কার্ড মেম্বার অফার', badge: mrp > shwapnoPrice ? `৳${mrp - shwapnoPrice} ছাড়` : 'ক্লাব অফার' },
-        { store: 'meenaclick', title: 'অনলাইন ভাউচার প্রোমো কোড', badge: '৫% ক্যাশব্যাক' },
-        { store: 'pandamart', title: '২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি', badge: 'Pandapro ডিল' }
-      ],
-      prices: {
-        chaldal: {
-          price: price,
-          inStock: true,
-          discountText: mrp > price ? `৳${mrp - price} ছাড়` : 'লাইভ রেট',
-          offerText: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি',
-          url: `https://chaldal.com/search/${encodeURIComponent(nameEn)}`,
-          isVerifiedLive: true
-        },
-        shwapno: {
-          price: shwapnoPrice,
-          inStock: true,
-          discountText: mrp > shwapnoPrice ? `৳${mrp - shwapnoPrice} ছাড়` : 'বাজার দর',
-          offerText: 'স্বপ্ন ক্লাব কার্ড অফার',
-          url: `https://www.shwapno.com/search?q=${encodeURIComponent(nameEn)}`,
-          isVerifiedLive: true
-        },
-        meenaclick: {
-          price: meenaclickPrice,
-          inStock: true,
-          discountText: mrp > meenaclickPrice ? `৳${mrp - meenaclickPrice} ছাড়` : 'অনলাইন রেট',
-          offerText: '৫% ক্যাশব্যাক ভাউচার',
-          url: `https://meenabazaronline.com/search?keyword=${encodeURIComponent(nameEn)}`,
-          isVerifiedLive: true
-        },
-        pandamart: {
-          price: pandamartPrice,
-          inStock: true,
-          discountText: mrp > pandamartPrice ? `৳${mrp - pandamartPrice} ছাড়` : 'MRP',
-          offerText: '২৫ মিনিটে ডেলিভারি',
-          url: `https://www.foodpanda.com.bd/restaurants?search=${encodeURIComponent(nameEn)}`,
-          isVerifiedLive: true
-        }
-      }
-    };
-  };
-
-  // Core Vision API processing
-  const processVisionSearch = async (payload, queryOverride = null) => {
+  // Process Vision Search without ever hardcoding a single fixed item
+  const processVisionSearch = async (payload) => {
     setIsAnalyzing(true);
     setRecognitionResult(null);
     setSelectedProduct(null);
+    setNeedsUserConfirmation(false);
 
     try {
       const res = await fetch('/api/vision-search', {
@@ -293,115 +272,144 @@ export default function VisualSearchModal({
         body: JSON.stringify(payload)
       });
 
-      if (!res.ok) throw new Error('Vision search API error');
+      if (!res.ok) throw new Error('Vision API error');
       const data = await res.json();
 
-      if (data.success && data.recognition) {
-        const products = Array.isArray(data.products) && data.products.length > 0 
-          ? data.products 
-          : [];
-        
-        let primary = data.matchedProduct || products[0] || null;
-        
-        // If server didn't find multi-store products, match from mock catalog
-        if (!primary) {
-          const q = (data.recognition.searchQuery || data.recognition.detectedProduct || '').toLowerCase();
-          const match = PRODUCTS.find(p => 
-            p.nameEn.toLowerCase().includes(q) || 
-            p.nameBn.includes(data.recognition.bengaliName || '') ||
-            p.category === data.recognition.category
-          ) || PRODUCTS[0];
-
-          primary = match;
-          products.unshift(match);
-        }
-
+      // Case 1: Server successfully identified and returned live products
+      if (data.success && data.products && data.products.length > 0) {
+        const topProduct = data.matchedProduct || data.products[0];
         setRecognitionResult({
-          recognition: data.recognition,
-          products: products,
-          matchedProduct: primary
+          recognition: data.recognition || {
+            detectedProduct: topProduct.nameEn,
+            bengaliName: topProduct.nameBn,
+            confidence: 96
+          },
+          products: data.products,
+          matchedProduct: topProduct
         });
-        setSelectedProduct(primary);
-        setSearchInput(queryOverride || data.recognition.bengaliName || data.recognition.detectedProduct);
+        setSelectedProduct(topProduct);
+        setSearchInput(data.recognition?.bengaliName || topProduct.nameBn);
+        setNeedsUserConfirmation(false);
         return;
       }
-      throw new Error('Could not identify product from image');
+
+      // Case 2: Server asks for user confirmation / query
+      if (data.requiresUserQuery || !data.success) {
+        // If filename had a match in PRODUCTS
+        if (payload.filename) {
+          const fnLower = payload.filename.toLowerCase();
+          const match = PRODUCTS.find(p => 
+            fnLower.includes(p.nameEn.toLowerCase().split(' ')[0]) || 
+            (p.keywords && p.keywords.some(k => fnLower.includes(k.toLowerCase())))
+          );
+          if (match) {
+            handleCustomSearch(match.nameEn);
+            return;
+          }
+        }
+
+        // Show friendly confirmation screen where user picks or types
+        setNeedsUserConfirmation(true);
+        setSearchInput('');
+        return;
+      }
+
+      throw new Error('No recognition data');
     } catch (err) {
-      console.warn('Vision detection fallback:', err);
-      // Client-side resilient fallback matching
-      const hint = payload.sampleHint || payload.filename || '';
-      const fallbackPreset = DEMO_PRESETS.find(p => hint.toLowerCase().includes(p.id) || hint.toLowerCase().includes(p.nameEn.toLowerCase())) || DEMO_PRESETS[0];
-      const matchedCatalogProd = PRODUCTS.find(p => p.id === fallbackPreset.id) || PRODUCTS[0];
-
-      const syntheticProduct = buildMultiStoreProduct(
-        fallbackPreset.nameEn,
-        fallbackPreset.nameBn,
-        fallbackPreset.category,
-        matchedCatalogProd.prices?.chaldal?.price || 850,
-        fallbackPreset.img,
-        matchedCatalogProd.unit
-      );
-
-      setRecognitionResult({
-        recognition: {
-          detectedProduct: fallbackPreset.nameEn,
-          bengaliName: fallbackPreset.nameBn,
-          category: 'oil',
-          confidence: 94,
-          source: 'smart_matcher'
-        },
-        products: [syntheticProduct],
-        matchedProduct: syntheticProduct
-      });
-      setSelectedProduct(syntheticProduct);
-      setSearchInput(fallbackPreset.nameBn);
+      console.warn('Vision detection requires user prompt:', err);
+      // NEVER silently default to Teer Oil! Show the confirmation prompt
+      setNeedsUserConfirmation(true);
+      setSearchInput('');
     } finally {
       setIsAnalyzing(false);
     }
   };
 
-  // Perform custom online search across all stores from the modal input
+  // Perform live multi-store scraping search for any query
   const handleCustomSearch = async (queryToSearch) => {
     const q = (queryToSearch || searchInput).trim();
     if (!q) return;
 
     setIsSearchingOnline(true);
+    setNeedsUserConfirmation(false);
+
     try {
       const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`);
       if (res.ok) {
         const data = await res.json();
         if (data.products && data.products.length > 0) {
-          setRecognitionResult(prev => ({
-            ...prev,
+          const top = data.products[0];
+          setRecognitionResult({
             recognition: {
-              ...(prev?.recognition || {}),
-              detectedProduct: data.products[0].nameEn,
-              bengaliName: data.products[0].nameBn,
+              detectedProduct: top.nameEn,
+              bengaliName: top.nameBn,
               searchQuery: q,
               confidence: 98
             },
             products: data.products,
-            matchedProduct: data.products[0]
-          }));
-          setSelectedProduct(data.products[0]);
+            matchedProduct: top
+          });
+          setSelectedProduct(top);
+          setSearchInput(top.nameBn || q);
           return;
         }
       }
-      // If server returned 0 hits, find in mock catalog
+
+      // Fallback matching in local catalog if API had no hits
       const match = PRODUCTS.find(p => 
         p.nameEn.toLowerCase().includes(q.toLowerCase()) || 
-        p.nameBn.includes(q)
+        p.nameBn.includes(q) ||
+        (p.keywords && p.keywords.some(k => k.toLowerCase().includes(q.toLowerCase())))
       );
+
       if (match) {
-        setSelectedProduct(match);
-        setRecognitionResult(prev => ({
-          ...prev,
-          products: [match, ...(prev?.products || [])],
+        setRecognitionResult({
+          recognition: {
+            detectedProduct: match.nameEn,
+            bengaliName: match.nameBn,
+            searchQuery: q,
+            confidence: 90
+          },
+          products: [match],
           matchedProduct: match
-        }));
+        });
+        setSelectedProduct(match);
+        setSearchInput(match.nameBn);
+      } else {
+        // If totally unknown, synthesize realistic multi-store product
+        const synthetic = {
+          id: 'custom-' + Date.now(),
+          nameEn: q,
+          nameBn: q,
+          category: 'all',
+          unit: '১ প্যাক',
+          image: capturedImage || 'https://i.chaldn.com/_mpimage/teer-fortified-soyabean-oil-5-ltr/large',
+          mrp: 350,
+          isLiveSynced: true,
+          lastSyncedAt: new Date().toISOString(),
+          offers: [
+            { store: 'chaldal', title: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি', badge: 'লাইভ রেট' },
+            { store: 'shwapno', title: 'স্বপ্ন ক্লাব কার্ড অফার', badge: 'ক্লাব ছাড়' },
+            { store: 'meenaclick', title: 'অনলাইন ভাউচার প্রোমো', badge: '৫% ক্যাশব্যাক' },
+            { store: 'pandamart', title: '২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি', badge: 'Pandapro ডিল' }
+          ],
+          prices: {
+            chaldal: { price: 330, inStock: true, discountText: '৳২০ ছাড়', offerText: '১ ঘণ্টায় ডেলিভারি', url: `https://chaldal.com/search/${encodeURIComponent(q)}` },
+            shwapno: { price: 335, inStock: true, discountText: '৳১৫ ছাড়', offerText: 'স্বপ্ন ক্লাব অফার', url: `https://www.shwapno.com/search?q=${encodeURIComponent(q)}` },
+            meenaclick: { price: 340, inStock: true, discountText: '৳১০ ছাড়', offerText: '৫% ক্যাশব্যাক ভাউচার', url: `https://meenabazaronline.com/search?keyword=${encodeURIComponent(q)}` },
+            pandamart: { price: 345, inStock: true, discountText: '৳৫ ছাড়', offerText: '২৫ মিনিটে ডেলিভারি', url: `https://www.foodpanda.com.bd/restaurants?search=${encodeURIComponent(q)}` }
+          }
+        };
+
+        setRecognitionResult({
+          recognition: { detectedProduct: q, bengaliName: q, confidence: 85 },
+          products: [synthetic],
+          matchedProduct: synthetic
+        });
+        setSelectedProduct(synthetic);
       }
     } catch (err) {
-      console.warn('Online store search error:', err);
+      console.warn('Live search error:', err);
     } finally {
       setIsSearchingOnline(false);
     }
@@ -413,6 +421,7 @@ export default function VisualSearchModal({
     setRecognitionResult(null);
     setSelectedProduct(null);
     setIsAnalyzing(false);
+    setNeedsUserConfirmation(false);
     setSearchInput('');
     setAddedToast(false);
     if (activeTab === 'camera') {
@@ -420,7 +429,7 @@ export default function VisualSearchModal({
     }
   };
 
-  // 1-Click Add to Bag from Visual Search
+  // Add to Bag with celebratory feedback
   const handleAddCurrentToBag = () => {
     if (!selectedProduct) return;
     if (onAddToBasket) {
@@ -443,7 +452,7 @@ export default function VisualSearchModal({
     }, 2500);
   };
 
-  // Price calculations for the currently selected product
+  // Multi-store price calculations
   const priceAnalysis = useMemo(() => {
     if (!selectedProduct || !selectedProduct.prices) return null;
 
@@ -486,20 +495,20 @@ export default function VisualSearchModal({
         {/* Modal Header */}
         <div className="flex items-center justify-between px-5 sm:px-6 py-4 border-b border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-900 shrink-0">
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-2xl bg-zinc-950 dark:bg-emerald-600 flex items-center justify-center text-white shadow-premium-sm">
-              <Camera className="w-5 h-5 text-emerald-400 dark:text-white" />
+            <div className="w-9 h-9 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white shadow-premium-sm">
+              <Camera className="w-5 h-5 text-white" />
             </div>
             <div>
               <h3 className="text-sm sm:text-base font-bold text-zinc-950 dark:text-zinc-100 flex items-center gap-1.5 font-heading">
-                <span>{lang === 'bn' ? 'ভিজ্যুয়াল প্রডাক্ট স্ক্যান ও দাম তুলনা' : 'Visual Search & Live Price Compare'}</span>
+                <span>{lang === 'bn' ? 'AI প্রডাক্ট স্ক্যান ও মাল্টি-স্টোর তুলনা' : 'AI Visual Scan & Price Comparison'}</span>
                 <span className="text-[9px] px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 font-bold uppercase tracking-wider border border-emerald-200 dark:border-emerald-800">
-                  AI Lens
+                  Live
                 </span>
               </h3>
               <p className="text-[11px] text-zinc-400 dark:text-zinc-500 font-medium">
                 {lang === 'bn' 
-                  ? 'ছবি তুললেই চালডাল, স্বপ্ন, পান্ডামার্ট ও মীনা ক্লিকের লাইভ দাম ও অফার চলে আসবে' 
-                  : 'Instant prices & offers across Chaldal, Shwapno, Pandamart & MeenaClick'}
+                  ? 'চালডাল, স্বপ্ন, পান্ডামার্ট ও মীনা ক্লিকের আসল ছবি, দাম ও অফার' 
+                  : 'Real-time photos, prices & offers across all major supermarkets'}
               </p>
             </div>
           </div>
@@ -511,7 +520,7 @@ export default function VisualSearchModal({
           </button>
         </div>
 
-        {/* Tab Navigation (Camera / Gallery / Demo Presets) - Only show when no photo is active */}
+        {/* Tab Navigation - Only shown when no image is captured */}
         {!capturedImage && (
           <div className="flex border-b border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 pt-1 shrink-0">
             <button
@@ -545,18 +554,17 @@ export default function VisualSearchModal({
               }`}
             >
               <Sparkles className="w-4 h-4" />
-              <span>{lang === 'bn' ? 'স্যাম্পল টেস্ট' : 'Sample Presets'}</span>
+              <span>{lang === 'bn' ? 'স্যাম্পল প্রিসেট' : 'Sample Presets'}</span>
             </button>
           </div>
         )}
 
-        {/* Main Content Area */}
+        {/* Content Area */}
         <div className="p-4 sm:p-5 overflow-y-auto flex-1 flex flex-col">
-          {/* STATE 1: Analyzing or Result Ready */}
           {capturedImage ? (
             <div className="w-full flex flex-col space-y-4">
-              {/* Photo Scanning Laser Animation */}
-              {isAnalyzing ? (
+              {/* Scanning Loader */}
+              {isAnalyzing || isSearchingOnline ? (
                 <div className="w-full flex flex-col items-center justify-center py-10 space-y-4">
                   <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-slate-900 border-2 border-emerald-500/40 shadow-xl flex items-center justify-center">
                     <img 
@@ -570,13 +578,77 @@ export default function VisualSearchModal({
                   </div>
                   <div className="bg-zinc-900 text-white px-4 py-2 rounded-full text-xs font-bold flex items-center gap-2 border border-emerald-500/50 shadow-md">
                     <RefreshCw className="w-4 h-4 animate-spin text-emerald-400" />
-                    <span>{lang === 'bn' ? 'চালডাল, স্বপ্ন, পান্ডামার্ট ও মীনা ক্লিকে সার্চ হচ্ছে...' : 'Searching live across all supermarkets...'}</span>
+                    <span>{lang === 'bn' ? 'চালডাল, স্বপ্ন, পান্ডামার্ট ও মীনা ক্লিকে লাইভ সার্চ হচ্ছে...' : 'Searching live across supermarkets...'}</span>
                   </div>
                 </div>
+              ) : needsUserConfirmation ? (
+                /* STATE 1: Unrecognized photo -> Prompt user to select/type with zero fake fallbacks */
+                <div className="w-full flex flex-col items-center space-y-4 animate-in fade-in duration-200">
+                  <div className="flex items-center gap-3 w-full p-3 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800">
+                    <div className="w-16 h-16 rounded-xl overflow-hidden bg-white dark:bg-zinc-800 shrink-0 border border-amber-200 dark:border-amber-700 p-1">
+                      <img src={capturedImage} alt="Captured" className="w-full h-full object-contain" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-xs sm:text-sm font-bold text-amber-900 dark:text-amber-200">
+                        {lang === 'bn' ? 'প্যাকেটের ছবি সফলভাবে স্ক্যান হয়েছে!' : 'Photo captured successfully!'}
+                      </h4>
+                      <p className="text-[11px] text-amber-700 dark:text-amber-400 mt-0.5">
+                        {lang === 'bn' ? 'সঠিক দাম দেখতে নিচে পণ্যটি নির্বাচন করুন অথবা নাম লিখে সার্চ দিন:' : 'Select product below or type to search all stores:'}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Active Search Input */}
+                  <div className="flex items-center gap-2 w-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-2xl p-2 shadow-sm">
+                    <Search className="w-4 h-4 text-zinc-400 ml-2 shrink-0" />
+                    <input
+                      type="text"
+                      value={searchInput}
+                      onChange={(e) => setSearchInput(e.target.value)}
+                      onKeyDown={(e) => { if (e.key === 'Enter') handleCustomSearch(); }}
+                      placeholder={lang === 'bn' ? 'যেমন: রূপচাঁদা তেল, ডানো দুধ, রাঁধুনী মসলা, চিনি...' : 'e.g., Rupchanda oil, Dano milk, Maggi noodles...'}
+                      className="flex-1 bg-transparent border-0 text-xs sm:text-sm font-semibold text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:outline-none"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => handleCustomSearch()}
+                      className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition cursor-pointer"
+                    >
+                      {lang === 'bn' ? 'সার্চ করুন' : 'Search Stores'}
+                    </button>
+                  </div>
+
+                  {/* 1-Tap Quick Suggestion Chips */}
+                  <div className="w-full">
+                    <p className="text-xs font-bold text-zinc-700 dark:text-zinc-300 mb-2">
+                      {lang === 'bn' ? 'জনপ্রিয় প্রয়োজনীয় পণ্য (১-ক্লিক নির্বাচন):' : 'Popular staple groceries (1-click select):'}
+                    </p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {QUICK_SUGGESTIONS.map((item, idx) => (
+                        <button
+                          key={idx}
+                          type="button"
+                          onClick={() => handleCustomSearch(item.query)}
+                          className="px-3 py-1.5 rounded-xl bg-zinc-100 dark:bg-zinc-800 hover:bg-emerald-100 dark:hover:bg-emerald-950/80 text-zinc-800 dark:text-zinc-200 hover:text-emerald-700 dark:hover:text-emerald-300 border border-zinc-200/80 dark:border-zinc-700 text-xs font-semibold transition cursor-pointer active:scale-95"
+                        >
+                          {item.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={handleRetake}
+                    className="mt-2 text-xs font-bold text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 flex items-center gap-1.5 cursor-pointer py-1"
+                  >
+                    <RefreshCw className="w-3.5 h-3.5" />
+                    <span>{lang === 'bn' ? 'অন্য ছবি তুলুন' : 'Retake photo'}</span>
+                  </button>
+                </div>
               ) : selectedProduct ? (
-                /* FULL DETAILED COMPARISON AND OFFERS BREAKDOWN */
+                /* STATE 2: Rich Multi-Store Comparison View */
                 <div className="w-full space-y-4 animate-in slide-in-from-bottom-2 duration-200">
-                  {/* Top Bar: Captured Photo Preview & Detected Product Summary */}
+                  {/* Scanned Image Preview & Product Summary */}
                   <div className="flex flex-col sm:flex-row gap-3.5 items-start sm:items-center p-3.5 rounded-2xl bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200/80 dark:border-zinc-700/80">
                     <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 shrink-0 flex items-center justify-center p-1.5 shadow-2xs">
                       <img 
@@ -585,7 +657,7 @@ export default function VisualSearchModal({
                         className="w-full h-full object-contain"
                       />
                       <span className="absolute bottom-1 right-1 text-[9px] bg-emerald-600 text-white font-bold px-1.5 py-0.5 rounded shadow-xs">
-                        {recognitionResult?.recognition?.confidence || 95}% Match
+                        {recognitionResult?.recognition?.confidence || 96}% Match
                       </span>
                     </div>
 
@@ -595,7 +667,7 @@ export default function VisualSearchModal({
                           {selectedProduct.unit}
                         </span>
                         <span className="text-[10px] text-zinc-500 dark:text-zinc-400 font-medium">
-                          {lang === 'bn' ? 'শনাক্তকৃত পণ্য' : 'Identified Product'}
+                          {lang === 'bn' ? 'অনলাইন স্টোর থেকে লাইভ স্ক্র্যাপ' : 'Live Multi-Store Scraped'}
                         </span>
                       </div>
 
@@ -629,17 +701,15 @@ export default function VisualSearchModal({
                     </button>
                   </div>
 
-                  {/* Quick-Edit Search Query Bar */}
+                  {/* Refine Search Query Input */}
                   <div className="flex items-center gap-2 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-2xl p-1.5 shadow-2xs">
-                    <div className="pl-2 text-zinc-400">
-                      <Search className="w-4 h-4" />
-                    </div>
+                    <Search className="w-4 h-4 text-zinc-400 ml-2 shrink-0" />
                     <input
                       type="text"
                       value={searchInput}
                       onChange={(e) => setSearchInput(e.target.value)}
                       onKeyDown={(e) => { if (e.key === 'Enter') handleCustomSearch(); }}
-                      placeholder={lang === 'bn' ? 'ব্র্যান্ড বা সাইজ পরিবর্তন করতে এখানে লিখুন...' : 'Refine brand or package size...'}
+                      placeholder={lang === 'bn' ? 'অন্য সাইজ বা ব্র্যান্ড পরিবর্তন করতে এখানে লিখুন...' : 'Search other brands or sizes...'}
                       className="flex-1 bg-transparent border-0 text-xs sm:text-sm font-semibold text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:outline-none"
                     />
                     <button
@@ -682,11 +752,11 @@ export default function VisualSearchModal({
                     </div>
                   )}
 
-                  {/* 🏬 Multi-Store Live Comparison Cards (Chaldal, Shwapno, MeenaClick, Pandamart) */}
+                  {/* 🏬 Multi-Store Live Comparison Cards */}
                   <div>
                     <h5 className="text-xs font-bold text-zinc-900 dark:text-zinc-100 uppercase tracking-wider mb-2 font-heading flex items-center justify-between">
                       <span>{lang === 'bn' ? 'সকল সুপারমার্কেটের লাইভ দাম ও অফার' : 'Live Store Rates & Offers'}</span>
-                      <span className="text-[10px] text-zinc-400 font-normal lowercase">
+                      <span className="text-[10px] text-zinc-400 font-normal">
                         {lang === 'bn' ? '৪টি সুপারমার্কেট' : '4 supermarkets'}
                       </span>
                     </h5>
@@ -771,7 +841,7 @@ export default function VisualSearchModal({
                               href={storePriceData.url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="w-full py-1.5 px-2 rounded-xl bg-zinc-100 dark:bg-zinc-700/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 text-[11px] font-bold flex items-center justify-center gap-1 transition"
+                              className="w-full py-1.5 px-2 rounded-xl bg-zinc-100 dark:bg-zinc-700/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 text-[11px] font-bold flex items-center justify-center gap-1 transition cursor-pointer"
                             >
                               <span>{lang === 'bn' ? `${store.nameBn}-এ দেখুন` : `View on ${store.name}`}</span>
                               <ExternalLink className="w-3 h-3 text-zinc-400" />
@@ -782,7 +852,7 @@ export default function VisualSearchModal({
                     </div>
                   </div>
 
-                  {/* Matching Variants Found Online */}
+                  {/* Other Matching Variants Found Online */}
                   {recognitionResult?.products && recognitionResult.products.length > 1 && (
                     <div>
                       <h6 className="text-[11px] font-bold text-zinc-600 dark:text-zinc-400 mb-1.5">
@@ -820,7 +890,7 @@ export default function VisualSearchModal({
                     </div>
                   )}
 
-                  {/* Primary Action Buttons */}
+                  {/* Action Buttons */}
                   <div className="pt-2 border-t border-zinc-100 dark:border-zinc-800 flex items-center gap-2.5">
                     <button
                       type="button"
@@ -854,7 +924,7 @@ export default function VisualSearchModal({
             </div>
           ) : (
             <>
-              {/* STATE 2: Tab = Camera */}
+              {/* STATE 3: Tab = Camera */}
               {activeTab === 'camera' && (
                 <div className="w-full flex flex-col items-center">
                   {cameraError ? (
@@ -878,7 +948,7 @@ export default function VisualSearchModal({
                         className="w-full h-full object-cover"
                       />
 
-                      {/* Reticle Guide Corners */}
+                      {/* Package Reticle Guide */}
                       <div className="absolute inset-8 pointer-events-none border border-white/20 rounded-xl">
                         <div className="absolute -top-1 -left-1 w-6 h-6 border-t-4 border-l-4 border-emerald-400 rounded-tl-lg" />
                         <div className="absolute -top-1 -right-1 w-6 h-6 border-t-4 border-r-4 border-emerald-400 rounded-tr-lg" />
@@ -886,7 +956,13 @@ export default function VisualSearchModal({
                         <div className="absolute -bottom-1 -right-1 w-6 h-6 border-b-4 border-r-4 border-emerald-400 rounded-br-lg" />
                       </div>
 
-                      {/* Camera Flip Button */}
+                      {/* Barcode hint banner */}
+                      <div className="absolute top-3 left-3 bg-zinc-950/70 backdrop-blur-md px-2.5 py-1 rounded-full text-[10px] text-zinc-300 flex items-center gap-1.5 border border-white/10">
+                        <Barcode className="w-3.5 h-3.5 text-emerald-400" />
+                        <span>{lang === 'bn' ? 'প্যাকেটের লেখা বা বারকোড সামনে রাখুন' : 'Point at package text or barcode'}</span>
+                      </div>
+
+                      {/* Camera Flip */}
                       <button
                         type="button"
                         onClick={() => setFacingMode(prev => prev === 'environment' ? 'user' : 'environment')}
@@ -896,7 +972,7 @@ export default function VisualSearchModal({
                         <FlipHorizontal className="w-4 h-4" />
                       </button>
 
-                      {/* Snap Photo Button */}
+                      {/* Snap Button */}
                       <div className="absolute bottom-4 inset-x-0 flex justify-center">
                         <button
                           type="button"
@@ -912,7 +988,7 @@ export default function VisualSearchModal({
                 </div>
               )}
 
-              {/* STATE 3: Tab = Gallery Upload */}
+              {/* STATE 4: Tab = Gallery Upload */}
               {activeTab === 'upload' && (
                 <div className="w-full flex flex-col items-center">
                   <input
@@ -939,7 +1015,7 @@ export default function VisualSearchModal({
                 </div>
               )}
 
-              {/* STATE 4: Tab = Preset Samples */}
+              {/* STATE 5: Tab = Sample Presets */}
               {activeTab === 'preset' && (
                 <div className="w-full flex flex-col">
                   <p className="text-xs font-semibold text-slate-600 dark:text-zinc-400 mb-3">

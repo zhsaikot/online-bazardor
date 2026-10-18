@@ -356,10 +356,55 @@ const GROCERY_KNOWLEDGE_BASE = [
 ];
 
 /**
- * Identify a grocery product from base64 image data or query hint
+ * Identify a grocery product from base64 image data, OCR text or query hint
  */
-export async function identifyProductFromImage({ imageBase64, filename, sampleHint }) {
-  // 1. If a known sample preset is supplied, resolve immediately with high confidence
+export async function identifyProductFromImage({ imageBase64, filename, sampleHint, ocrText, clientQuery }) {
+  // 0. If direct client query or user refined text is supplied, use it immediately
+  if (clientQuery && clientQuery.trim()) {
+    const qTrim = clientQuery.trim();
+    const matched = GROCERY_KNOWLEDGE_BASE.find(k => 
+      k.keywords.some(kw => qTrim.toLowerCase().includes(kw))
+    );
+    return {
+      success: true,
+      detectedProduct: matched?.productName || qTrim,
+      bengaliName: matched?.bengaliName || qTrim,
+      category: matched?.category || 'all',
+      searchQuery: qTrim,
+      confidence: 99,
+      source: 'user_query'
+    };
+  }
+
+  // 1. If OCR extracted text from the packaging is supplied, match keywords
+  if (ocrText && ocrText.trim()) {
+    const lowerOcr = ocrText.toLowerCase();
+    for (const item of GROCERY_KNOWLEDGE_BASE) {
+      if (item.keywords.some(kw => lowerOcr.includes(kw.toLowerCase()))) {
+        return {
+          success: true,
+          detectedProduct: item.productName,
+          bengaliName: item.bengaliName,
+          category: item.category,
+          searchQuery: item.defaultQuery,
+          confidence: 95,
+          source: 'package_ocr'
+        };
+      }
+    }
+    // Return extracted OCR text as direct search query for online stores
+    return {
+      success: true,
+      detectedProduct: ocrText.trim(),
+      bengaliName: ocrText.trim(),
+      category: 'all',
+      searchQuery: ocrText.trim(),
+      confidence: 85,
+      source: 'package_ocr_raw'
+    };
+  }
+
+  // 2. If a known sample preset is supplied, resolve immediately
   if (sampleHint) {
     const matched = GROCERY_KNOWLEDGE_BASE.find(k => k.sampleId === sampleHint);
     if (matched) {
@@ -375,11 +420,11 @@ export async function identifyProductFromImage({ imageBase64, filename, sampleHi
     }
   }
 
-  // 2. Check filename or metadata hint if provided
+  // 3. Check filename or metadata hint if provided
   if (filename) {
     const lowerName = filename.toLowerCase();
     for (const item of GROCERY_KNOWLEDGE_BASE) {
-      if (item.keywords.some(kw => lowerName.includes(kw))) {
+      if (item.keywords.some(kw => lowerName.includes(kw.toLowerCase()))) {
         return {
           success: true,
           detectedProduct: item.productName,
@@ -393,7 +438,7 @@ export async function identifyProductFromImage({ imageBase64, filename, sampleHi
     }
   }
 
-  // 3. Try Gemini Vision API if GEMINI_API_KEY or GOOGLE_API_KEY is available in environment
+  // 4. Try Gemini Vision API if GEMINI_API_KEY or GOOGLE_API_KEY is available in environment
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
   if (apiKey && imageBase64) {
     try {
@@ -451,24 +496,17 @@ Return ONLY a valid JSON object in this exact format, with no markdown code bloc
             };
           }
         }
-      } else {
-        console.warn('[Vision Engine] Gemini Vision API responded with status:', geminiRes.status);
       }
     } catch (err) {
-      console.warn('[Vision Engine] Gemini Vision failed, falling back to local heuristic matcher:', err.message);
+      console.warn('[Vision Engine] Gemini Vision failed:', err.message);
     }
   }
 
-  // 4. Default Fallback: Smart heuristic detection using query catalog
-  // Match image characteristics or default to popular item
-  const fallback = GROCERY_KNOWLEDGE_BASE[0]; // Teer Soyabean Oil as standard staple
+  // 5. NO HARDCODED TEER OIL! Return explicit signal that user selection / prompt is needed
   return {
-    success: true,
-    detectedProduct: fallback.productName,
-    bengaliName: fallback.bengaliName,
-    category: fallback.category,
-    searchQuery: fallback.defaultQuery,
-    confidence: 88,
-    source: 'heuristic_matcher'
+    success: false,
+    requiresUserQuery: true,
+    message: 'পণ্যের গায়ে লেখা নাম বা ব্র্যান্ড নির্বাচন করুন',
+    source: 'unrecognized'
   };
 }

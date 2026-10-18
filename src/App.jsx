@@ -10,13 +10,14 @@ import DealsTab from './components/DealsTab';
 import DailyMarketTab from './components/DailyMarketTab';
 import AuthModal from './components/AuthModal';
 import ProfileSettingsModal from './components/ProfileSettingsModal';
+import FloatingVisualSearchButton from './components/FloatingVisualSearchButton';
 import Footer from './components/Footer';
 import { PRODUCTS, CATEGORIES, STORES } from './data/mockCatalog';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { AuthProvider } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
 import StoreLogo from './components/StoreLogo';
-import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles, Camera } from 'lucide-react';
+import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles } from 'lucide-react';
 
 function AppContent() {
   const { lang, t } = useLanguage();
@@ -276,7 +277,6 @@ function AppContent() {
         setSearchQuery={setSearchQuery}
         onSearchOnline={handleSearchOnline}
         isSearchingOnline={isSearchingOnline}
-        onOpenVisualSearch={() => setIsVisualSearchOpen(true)}
       />
 
       {/* Main Container */}
@@ -657,6 +657,9 @@ function AppContent() {
           handleSearchOnline(query);
         }}
       />
+
+      {/* Floating Bottom-Corner Visual Search Button (Highlight AI Lens) */}
+      <FloatingVisualSearchButton onOpen={() => setIsVisualSearchOpen(true)} />
 
       {/* Mobile Bottom Navigation (Hidden on Desktop) */}
       <BottomNav 

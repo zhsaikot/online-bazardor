@@ -167,21 +167,30 @@ app.get('/api/search', async (req, res) => {
 
 // Visual Search & Product Recognition Endpoint
 app.post('/api/vision-search', async (req, res) => {
-  const { imageBase64, filename, sampleHint } = req.body || {};
-  if (!imageBase64 && !filename && !sampleHint) {
+  const { imageBase64, filename, sampleHint, ocrText, clientQuery } = req.body || {};
+  if (!imageBase64 && !filename && !sampleHint && !ocrText && !clientQuery) {
     return res.status(400).json({ 
       success: false, 
-      error: 'Image data, filename or sample hint is required' 
+      error: 'Image data, OCR text, query or sample hint is required' 
     });
   }
 
   try {
     console.log('[Server] Processing Visual Search request...');
-    const recognition = await identifyProductFromImage({ imageBase64, filename, sampleHint });
+    const recognition = await identifyProductFromImage({ imageBase64, filename, sampleHint, ocrText, clientQuery });
     
-    // Search live supermarkets for matching products
     const searchQuery = recognition.searchQuery || recognition.detectedProduct;
-    let liveResults = await searchLiveProducts(searchQuery, 6);
+    if (!recognition.success || !searchQuery) {
+      return res.json({
+        success: false,
+        requiresUserQuery: true,
+        message: 'স্বয়ংক্রিয়ভাবে নিশ্চিত হওয়া যায়নি। অনুগ্রহ করে নিচে ব্র্যান্ড নির্বাচন করুন বা লিখে খুঁজুন।',
+        recognition
+      });
+    }
+
+    // Search live supermarkets for matching products
+    let liveResults = await searchLiveProducts(searchQuery, 8);
 
     // If no live results came back from Chaldal, search existing cached catalog
     if (!liveResults || liveResults.length === 0) {
