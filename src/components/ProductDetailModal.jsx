@@ -18,6 +18,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
     }
   });
 
+  const lowestStore = lowestStoreKey ? STORES[lowestStoreKey] : null;
   const inStockEntries = Object.entries(product.prices).filter(([_, d]) => d.inStock);
   const allSamePrice = inStockEntries.length > 0 && inStockEntries.every(([_, d]) => d.price === minPrice);
   const hasRealLowest = !allSamePrice;
@@ -82,6 +83,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
             <div className="space-y-2.5">
               {Object.entries(product.prices).map(([storeKey, data]) => {
                 const store = STORES[storeKey];
+                if (!store) return null;
                 const isLowest = hasRealLowest && storeKey === lowestStoreKey;
 
                 return (
