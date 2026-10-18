@@ -8,7 +8,8 @@ import { identifyProductFromImage } from './vision.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DATA_DIR = path.join(__dirname, 'data');
+const isVercel = Boolean(process.env.VERCEL);
+const DATA_DIR = isVercel ? '/tmp/bazardor_data' : path.join(__dirname, 'data');
 const CACHE_FILE = path.join(DATA_DIR, 'live_products.json');
 
 const app = express();
@@ -23,8 +24,12 @@ let lastSyncTime = null;
 let isSyncing = false;
 
 // Ensure data directory exists
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+} catch (e) {
+  console.warn('[Server] Could not create DATA_DIR:', e.message);
 }
 
 // Load cached data from disk on startup
@@ -49,12 +54,16 @@ async function runSync() {
     if (updated && updated.length > 0) {
       cachedProducts = updated;
       lastSyncTime = new Date().toISOString();
-      fs.writeFileSync(CACHE_FILE, JSON.stringify({
-        lastSyncTime,
-        count: cachedProducts.length,
-        products: cachedProducts
-      }, null, 2));
-      console.log(`[Server] Cached ${cachedProducts.length} live products to disk.`);
+      try {
+        fs.writeFileSync(CACHE_FILE, JSON.stringify({
+          lastSyncTime,
+          count: cachedProducts.length,
+          products: cachedProducts
+        }, null, 2));
+        console.log(`[Server] Cached ${cachedProducts.length} live products to disk.`);
+      } catch (writeErr) {
+        console.warn('[Server] Could not write cache to disk:', writeErr.message);
+      }
     }
   } catch (err) {
     console.error('[Server] Sync error:', err.message);
@@ -64,16 +73,18 @@ async function runSync() {
   return cachedProducts;
 }
 
-// Initial background sync if empty or older than 1 hour
-if (cachedProducts.length === 0) {
+// Initial background sync if empty (in local node environment)
+if (cachedProducts.length === 0 && !isVercel) {
   runSync();
 }
 
-// Automatic recurring sync every 30 minutes
-setInterval(() => {
-  console.log('[Server] Running scheduled 30-min price synchronization...');
-  runSync();
-}, 30 * 60 * 1000);
+// Automatic recurring sync every 30 minutes in local environment
+if (!isVercel) {
+  setInterval(() => {
+    console.log('[Server] Running scheduled 30-min price synchronization...');
+    runSync();
+  }, 30 * 60 * 1000);
+}
 
 // API Endpoints
 app.get('/api/status', (req, res) => {
@@ -130,12 +141,16 @@ app.get('/api/search', async (req, res) => {
     }
 
     if (addedCount > 0) {
-      fs.writeFileSync(CACHE_FILE, JSON.stringify({
-        lastSyncTime,
-        count: cachedProducts.length,
-        products: cachedProducts
-      }, null, 2));
-      console.log(`[Server] Cached ${addedCount} new search items. Total catalog: ${cachedProducts.length}`);
+      try {
+        fs.writeFileSync(CACHE_FILE, JSON.stringify({
+          lastSyncTime,
+          count: cachedProducts.length,
+          products: cachedProducts
+        }, null, 2));
+        console.log(`[Server] Cached ${addedCount} new search items. Total catalog: ${cachedProducts.length}`);
+      } catch (writeErr) {
+        console.warn('[Server] Could not write search cache to disk:', writeErr.message);
+      }
     }
 
     res.json({
@@ -189,11 +204,15 @@ app.post('/api/vision-search', async (req, res) => {
     }
 
     if (addedCount > 0) {
-      fs.writeFileSync(CACHE_FILE, JSON.stringify({
-        lastSyncTime,
-        count: cachedProducts.length,
-        products: cachedProducts
-      }, null, 2));
+      try {
+        fs.writeFileSync(CACHE_FILE, JSON.stringify({
+          lastSyncTime,
+          count: cachedProducts.length,
+          products: cachedProducts
+        }, null, 2));
+      } catch (writeErr) {
+        console.warn('[Server] Could not write vision cache to disk:', writeErr.message);
+      }
     }
 
     res.json({
@@ -209,6 +228,10 @@ app.post('/api/vision-search', async (req, res) => {
   }
 });
 
-app.listen(PORT, '127.0.0.1', () => {
-  console.log(`🚀 [BazarDor Scraper Server] Listening on http://127.0.0.1:${PORT}`);
-});
+if (!isVercel) {
+  app.listen(PORT, '127.0.0.1', () => {
+    console.log(`🚀 [BazarDor Scraper Server] Listening on http://127.0.0.1:${PORT}`);
+  });
+}
+
+export default app;
