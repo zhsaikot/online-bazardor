@@ -94,6 +94,13 @@ service cloud.firestore {
         allow update: if isOwner(userId) && isValidBag(request.resource.data);
         allow delete: if isOwner(userId);
       }
+
+      // User's Active Shopping Bag subcollection (real-time items sync)
+      match /activeBag/{docId} {
+        allow read: if isOwner(userId);
+        allow create, update: if isOwner(userId);
+        allow delete: if isOwner(userId);
+      }
     }
 
     // Default deny all other paths

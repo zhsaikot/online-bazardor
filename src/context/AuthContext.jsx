@@ -16,6 +16,7 @@ import {
 import {
   doc,
   setDoc,
+  getDoc,
   deleteDoc,
   collection,
   onSnapshot,
@@ -563,6 +564,63 @@ export function AuthProvider({ children }) {
     return true;
   };
 
+  // 10. Sync Active Bag items to Firestore in real-time
+  const syncActiveBag = async (items) => {
+    if (!auth.currentUser) return;
+    try {
+      const activeBagRef = doc(db, 'users', auth.currentUser.uid, 'activeBag', 'current');
+      if (!items || items.length === 0) {
+        await deleteDoc(activeBagRef).catch(() => {});
+      } else {
+        const sanitizedItems = items.map(item => ({
+          quantity: item.quantity,
+          product: {
+            id: item.product?.id,
+            nameBn: item.product?.nameBn,
+            nameEn: item.product?.nameEn,
+            unit: item.product?.unit || '',
+            image: item.product?.image || '',
+            mrp: item.product?.mrp || 0,
+            prices: item.product?.prices || {}
+          }
+        }));
+        await setDoc(activeBagRef, {
+          itemsCount: items.length,
+          items: sanitizedItems,
+          updatedAt: serverTimestamp()
+        }, { merge: true }).catch(err => console.warn('Firestore activeBag sync error:', err.message));
+      }
+    } catch (e) {
+      console.warn('syncActiveBag exception:', e);
+    }
+  };
+
+  // 11. Delete Active Bag from Firestore when cleared or all items removed
+  const deleteActiveBag = async () => {
+    if (!auth.currentUser) return;
+    try {
+      const activeBagRef = doc(db, 'users', auth.currentUser.uid, 'activeBag', 'current');
+      await deleteDoc(activeBagRef).catch(() => {});
+    } catch (e) {
+      console.warn('deleteActiveBag error:', e);
+    }
+  };
+
+  // 12. Load Active Bag from Firestore on user login
+  const loadActiveBag = async () => {
+    if (!auth.currentUser) return null;
+    try {
+      const activeBagRef = doc(db, 'users', auth.currentUser.uid, 'activeBag', 'current');
+      const snap = await getDoc(activeBagRef);
+      if (snap.exists() && snap.data()?.items) {
+        return snap.data().items;
+      }
+    } catch (e) {
+      console.warn('loadActiveBag error:', e);
+    }
+    return null;
+  };
+
   return (
     <AuthContext.Provider value={{
       user,
@@ -585,7 +643,10 @@ export function AuthProvider({ children }) {
       sendPhoneOtp,
       verifyPhoneOtp,
       logout,
-      saveCurrentBag
+      saveCurrentBag,
+      syncActiveBag,
+      deleteActiveBag,
+      loadActiveBag
     }}>
       {children}
     </AuthContext.Provider>

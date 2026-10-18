@@ -14,13 +14,14 @@ import FloatingVisualSearchButton from './components/FloatingVisualSearchButton'
 import Footer from './components/Footer';
 import { PRODUCTS, CATEGORIES, STORES } from './data/mockCatalog';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
-import { AuthProvider } from './context/AuthContext';
+import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
 import StoreLogo from './components/StoreLogo';
 import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles } from 'lucide-react';
 
 function AppContent() {
   const { lang, t } = useLanguage();
+  const { user, syncActiveBag, deleteActiveBag, loadActiveBag } = useAuth();
 
   // Dynamic live synced product list with static catalog as instant fallback
   const [productList, setProductList] = useState(PRODUCTS);
@@ -70,14 +71,41 @@ function AppContent() {
   // Visual Product Search modal state (camera & gallery upload)
   const [isVisualSearchOpen, setIsVisualSearchOpen] = useState(false);
 
-  // Sync basket to localStorage
+  // Restore user's active bag from Firestore on login
+  useEffect(() => {
+    let isMounted = true;
+    if (user?.uid) {
+      loadActiveBag().then(remoteItems => {
+        if (!isMounted) return;
+        if (remoteItems && Array.isArray(remoteItems) && remoteItems.length > 0) {
+          const refreshed = remoteItems.map(item => {
+            const fresh = productList.find(p => p.id === item.product?.id);
+            return fresh ? { ...item, product: fresh } : item;
+          });
+          setBasket(refreshed);
+        }
+      });
+    }
+    return () => { isMounted = false; };
+  }, [user?.uid]);
+
+  // Sync basket to localStorage and Firestore in real-time
   useEffect(() => {
     try {
       localStorage.setItem('bazardor_basket', JSON.stringify(basket));
     } catch (e) {
       console.error('LocalStorage write failed:', e);
     }
-  }, [basket]);
+
+    // Automatically sync or delete in Firestore for authenticated user
+    if (user?.uid) {
+      if (!basket || basket.length === 0) {
+        deleteActiveBag();
+      } else {
+        syncActiveBag(basket);
+      }
+    }
+  }, [basket, user?.uid]);
 
   // Fetch real-time live prices from backend scraper on mount (merges with base catalog)
   useEffect(() => {
@@ -233,6 +261,9 @@ function AppContent() {
 
   const handleClearBasket = () => {
     setBasket([]);
+    if (user?.uid) {
+      deleteActiveBag();
+    }
   };
 
   // Restore a saved bag from Profile & Settings

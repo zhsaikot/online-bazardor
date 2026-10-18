@@ -104,12 +104,12 @@ if (cachedProducts.length === 0 && !isVercel) {
   runSync();
 }
 
-// Automatic recurring sync every 30 minutes in local environment
+// Automatic recurring sync every 2 hours in local environment
 if (!isVercel) {
   setInterval(() => {
-    console.log('[Server] Running scheduled 30-min price synchronization...');
+    console.log('[Server] Running scheduled 2-hour price synchronization...');
     runSync();
-  }, 30 * 60 * 1000);
+  }, 2 * 60 * 60 * 1000); // exactly 2 hours
 }
 
 // API Endpoints
