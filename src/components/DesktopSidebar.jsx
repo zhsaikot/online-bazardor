@@ -7,6 +7,7 @@ import { CATEGORIES, STORES, PRODUCTS } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function DesktopSidebar({ 
+  productList = PRODUCTS,
   selectedCategory, 
   setSelectedCategory,
   selectedStores,
@@ -28,8 +29,8 @@ export default function DesktopSidebar({
           {CATEGORIES.map(cat => {
             const isSelected = selectedCategory === cat.id;
             const count = cat.id === 'all' 
-              ? PRODUCTS.length 
-              : PRODUCTS.filter(p => p.category === cat.id).length;
+              ? productList.length 
+              : productList.filter(p => p.category === cat.id).length;
 
             return (
               <button

@@ -3,7 +3,7 @@ import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { syncAllProducts } from './scraper.js';
+import { syncAllProducts, searchLiveProducts } from './scraper.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -109,6 +109,44 @@ app.post('/api/sync', async (req, res) => {
     lastSyncedAt: lastSyncTime,
     products
   });
+});
+
+app.get('/api/search', async (req, res) => {
+  const query = req.query.q;
+  if (!query || !query.trim()) {
+    return res.json({ success: true, count: 0, products: [] });
+  }
+
+  try {
+    const results = await searchLiveProducts(query.trim(), 8);
+    let addedCount = 0;
+    for (const item of results) {
+      const exists = cachedProducts.find(p => p.id === item.id || p.nameEn === item.nameEn);
+      if (!exists) {
+        cachedProducts.push(item);
+        addedCount++;
+      }
+    }
+
+    if (addedCount > 0) {
+      fs.writeFileSync(CACHE_FILE, JSON.stringify({
+        lastSyncTime,
+        count: cachedProducts.length,
+        products: cachedProducts
+      }, null, 2));
+      console.log(`[Server] Cached ${addedCount} new search items. Total catalog: ${cachedProducts.length}`);
+    }
+
+    res.json({
+      success: true,
+      query: query.trim(),
+      count: results.length,
+      products: results
+    });
+  } catch (err) {
+    console.error('[Server] Search error:', err.message);
+    res.status(500).json({ success: false, error: err.message });
+  }
 });
 
 app.listen(PORT, '127.0.0.1', () => {

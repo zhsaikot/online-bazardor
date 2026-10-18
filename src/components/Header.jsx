@@ -1,5 +1,4 @@
-import React from 'react';
-import { ShoppingBag, MapPin, Sparkles, User, Globe, Search, LogOut } from 'lucide-react';
+import { ShoppingBag, MapPin, Sparkles, User, Globe, Search, LogOut, X } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 
@@ -9,7 +8,9 @@ export default function Header({
   basketCount, 
   onOpenBag,
   searchQuery,
-  setSearchQuery 
+  setSearchQuery,
+  onSearchOnline,
+  isSearchingOnline
 }) {
   const { lang, toggleLanguage, t } = useLanguage();
   const { user, openAuthModal, logout } = useAuth();
@@ -47,15 +48,40 @@ export default function Header({
         </div>
 
         {/* Desktop Global Search Bar */}
-        <div className="hidden md:flex flex-1 max-w-lg relative">
+        <div className="hidden md:flex flex-1 max-w-lg relative items-center">
           <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && searchQuery.trim() && onSearchOnline) {
+                onSearchOnline(searchQuery.trim());
+              }
+            }}
             placeholder={t.searchPlaceholder}
-            className="w-full bg-slate-50 hover:bg-slate-100/80 focus:bg-white border border-slate-200 focus:border-emerald-600 rounded-2xl py-2.5 pl-10 pr-4 text-xs font-medium text-slate-900 placeholder:text-slate-400 outline-none transition shadow-2xs"
+            className="w-full bg-slate-50 hover:bg-slate-100/80 focus:bg-white border border-slate-200 focus:border-emerald-600 rounded-2xl py-2.5 pl-10 pr-24 text-xs font-medium text-slate-900 placeholder:text-slate-400 outline-none transition shadow-2xs"
           />
+          {searchQuery && (
+            <div className="absolute right-2 flex items-center gap-1">
+              <button
+                type="button"
+                onClick={() => onSearchOnline && onSearchOnline(searchQuery.trim())}
+                disabled={isSearchingOnline}
+                className="px-2 py-1 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-[10px] font-bold shadow-2xs transition disabled:opacity-50 cursor-pointer"
+                title={t.searchOnline}
+              >
+                {isSearchingOnline ? '...' : (lang === 'bn' ? 'অনলাইন' : 'Live')}
+              </button>
+              <button 
+                type="button"
+                onClick={() => setSearchQuery('')}
+                className="p-1 text-slate-400 hover:text-slate-600"
+              >
+                <X className="w-3.5 h-3.5" />
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Right Controls */}

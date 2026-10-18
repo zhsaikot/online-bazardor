@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import { PRODUCTS, CATEGORIES, STORES } from './data/mockCatalog';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { AuthProvider } from './context/AuthContext';
-import { Search, ShoppingBag, ArrowRight, X, RefreshCw } from 'lucide-react';
+import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles } from 'lucide-react';
 
 function AppContent() {
   const { lang, t } = useLanguage();
@@ -113,6 +113,56 @@ function AppContent() {
     }
   };
 
+  // Online Live Search across Chaldal & other supermarkets
+  const [isSearchingOnline, setIsSearchingOnline] = useState(false);
+  const [searchNotification, setSearchNotification] = useState(null);
+
+  const handleSearchOnline = async (queryToSearch) => {
+    const q = (queryToSearch || searchQuery).trim();
+    if (!q) return;
+    setIsSearchingOnline(true);
+    setSearchNotification(null);
+    try {
+      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.products && data.products.length > 0) {
+          let newlyAdded = 0;
+          setProductList(prev => {
+            const nextList = [...prev];
+            data.products.forEach(newItem => {
+              if (!nextList.some(p => p.id === newItem.id || p.nameEn.toLowerCase() === newItem.nameEn.toLowerCase())) {
+                nextList.push(newItem);
+                newlyAdded++;
+              }
+            });
+            return nextList;
+          });
+          // Ensure category is 'all' so results are visible
+          setSelectedCategory('all');
+          setSearchNotification(
+            lang === 'bn' 
+              ? `"${q}" এর জন্য ${data.products.length} টি পণ্য পাওয়া গেছে (${newlyAdded} টি ক্যাটালগে নতুন যোগ হয়েছে)`
+              : `Found ${data.products.length} products online for "${q}" (${newlyAdded} newly added to catalog)`
+          );
+        } else {
+          setSearchNotification(
+            lang === 'bn' 
+              ? `"${q}" এর জন্য অনলাইন শপে কোনো পণ্য মেলেনি`
+              : `No online products found for "${q}"`
+          );
+        }
+      }
+    } catch (err) {
+      console.warn('Online search error:', err);
+      setSearchNotification(
+        lang === 'bn' ? 'অনলাইন সার্ভারে সংযোগ করা সম্ভব হয়নি' : 'Failed to reach online search server'
+      );
+    } finally {
+      setIsSearchingOnline(false);
+    }
+  };
+
   // Basket Handlers
   const handleAddToBasket = (product) => {
     setBasket(prev => {
@@ -200,6 +250,8 @@ function AppContent() {
         onOpenBag={() => setIsBagOpen(true)}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
+        onSearchOnline={handleSearchOnline}
+        isSearchingOnline={isSearchingOnline}
       />
 
       {/* Main Container */}
@@ -262,16 +314,32 @@ function AppContent() {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' && searchQuery.trim()) {
+                      handleSearchOnline(searchQuery.trim());
+                    }
+                  }}
                   placeholder={t.searchPlaceholder}
-                  className="w-full bg-white border border-slate-200 focus:border-emerald-600 rounded-2xl py-2.5 sm:py-3 pl-10 pr-10 text-xs font-medium text-slate-900 placeholder:text-slate-400 shadow-xs outline-none transition"
+                  className="w-full bg-white border border-slate-200 focus:border-emerald-600 rounded-2xl py-2.5 sm:py-3 pl-10 pr-24 text-xs font-medium text-slate-900 placeholder:text-slate-400 shadow-xs outline-none transition"
                 />
                 {searchQuery && (
-                  <button 
-                    onClick={() => setSearchQuery('')}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-slate-400"
-                  >
-                    <X className="w-3.5 h-3.5" />
-                  </button>
+                  <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
+                    <button
+                      type="button"
+                      onClick={() => handleSearchOnline(searchQuery.trim())}
+                      disabled={isSearchingOnline}
+                      className="px-2 py-1 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-[10px] font-bold shadow-2xs transition disabled:opacity-50 cursor-pointer"
+                      title={t.searchOnline}
+                    >
+                      {isSearchingOnline ? '...' : (lang === 'bn' ? 'অনলাইন' : 'Live')}
+                    </button>
+                    <button 
+                      onClick={() => setSearchQuery('')}
+                      className="p-1 text-slate-400 hover:text-slate-600"
+                    >
+                      <X className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
                 )}
               </div>
 
@@ -301,6 +369,7 @@ function AppContent() {
               {/* Desktop Left Filter Sidebar */}
               <div className="hidden lg:block">
                 <DesktopSidebar 
+                  productList={productList}
                   selectedCategory={selectedCategory}
                   setSelectedCategory={setSelectedCategory}
                   selectedStores={selectedStores}
@@ -341,33 +410,83 @@ function AppContent() {
                   </button>
                 </div>
 
-                {/* Search Bar Query Badge & Count */}
-                <div className="flex items-center justify-between text-xs text-slate-500 font-medium px-1">
-                  <span>
-                    {filteredProducts.length} {lang === 'bn' ? 'টি পণ্য' : 'products found'}
-                  </span>
-                  {searchQuery && (
-                    <button 
-                      onClick={() => setSearchQuery('')}
-                      className="text-emerald-700 font-bold hover:underline"
-                    >
-                      {lang === 'bn' ? 'ফিল্টার মুছুন' : 'Clear search'}
+                {/* Search Notification Banner */}
+                {searchNotification && (
+                  <div className="bg-emerald-100/90 border border-emerald-300 text-emerald-950 text-xs px-3.5 py-2.5 rounded-2xl flex items-center justify-between font-semibold shadow-2xs">
+                    <div className="flex items-center gap-2">
+                      <Sparkles className="w-4 h-4 text-emerald-600 shrink-0" />
+                      <span>{searchNotification}</span>
+                    </div>
+                    <button onClick={() => setSearchNotification(null)} className="text-emerald-800 hover:text-black font-bold p-1 cursor-pointer">
+                      <X className="w-3.5 h-3.5" />
                     </button>
+                  </div>
+                )}
+
+                {/* Search Bar Query Badge & Count */}
+                <div className="flex items-center justify-between text-xs text-slate-500 font-medium px-1 flex-wrap gap-2">
+                  <div className="flex items-center gap-2">
+                    <span className="font-semibold text-slate-700">
+                      {filteredProducts.length} {lang === 'bn' ? 'টি পণ্য প্রদর্শিত' : 'products showing'}
+                    </span>
+                    {searchQuery && (
+                      <span className="bg-slate-200 text-slate-700 text-[11px] px-2 py-0.5 rounded-md font-bold">
+                        "{searchQuery}"
+                      </span>
+                    )}
+                  </div>
+                  {searchQuery && (
+                    <div className="flex items-center gap-2">
+                      <button
+                        onClick={() => handleSearchOnline(searchQuery)}
+                        disabled={isSearchingOnline}
+                        className="flex items-center gap-1.5 text-[11px] font-bold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 px-2.5 py-1 rounded-xl transition disabled:opacity-50 cursor-pointer shadow-2xs"
+                      >
+                        <Search className={`w-3 h-3 ${isSearchingOnline ? 'animate-spin' : ''}`} />
+                        <span>{isSearchingOnline ? (lang === 'bn' ? 'অনলাইনে খোঁজা হচ্ছে...' : 'Searching online...') : (lang === 'bn' ? 'অনলাইন শপ থেকে আরও খুঁজুন' : 'Search more online')}</span>
+                      </button>
+                      <button 
+                        onClick={() => setSearchQuery('')}
+                        className="text-slate-500 hover:text-slate-800 text-[11px] underline cursor-pointer"
+                      >
+                        {lang === 'bn' ? 'মুছুন' : 'Clear'}
+                      </button>
+                    </div>
                   )}
                 </div>
 
                 {/* Product Grid: 2 COLUMNS ON MOBILE & 4 COLUMNS ON DESKTOP! */}
                 {filteredProducts.length === 0 ? (
-                  <div className="bg-white rounded-3xl p-10 text-center border border-slate-200 shadow-xs my-6">
-                    <p className="text-slate-500 text-sm font-medium">
-                      "{searchQuery}" দিয়ে কোনো পণ্য পাওয়া যায়নি।
+                  <div className="bg-white rounded-3xl p-8 sm:p-12 text-center border border-slate-200 shadow-xs my-4">
+                    <div className="w-14 h-14 mx-auto mb-3 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                      <Search className="w-7 h-7" />
+                    </div>
+                    <p className="text-slate-800 text-base font-bold mb-1">
+                      {searchQuery ? `"${searchQuery}" লোকাল তালিকায় নেই` : (lang === 'bn' ? 'কোনো পণ্য পাওয়া যায়নি' : 'No products found')}
                     </p>
-                    <button 
-                      onClick={() => { setSearchQuery(''); setSelectedCategory('all'); setDiscountOnly(false); }}
-                      className="mt-3 text-xs font-bold text-emerald-700 underline"
-                    >
-                      {lang === 'bn' ? 'সব পণ্য পুনরায় দেখুন' : 'Reset Filters'}
-                    </button>
+                    <p className="text-slate-500 text-xs max-w-md mx-auto mb-5 leading-relaxed">
+                      {lang === 'bn' 
+                        ? 'চালডাল ও অন্যান্য অনলাইন সুপারশপের লাইভ ক্যাটালগে হাজার হাজার পণ্য রয়েছে। সরাসরি অনলাইন থেকে সার্চ করে এখনই যোগ করুন!' 
+                        : 'Search thousands of products live from Chaldal and top online supermarkets!'}
+                    </p>
+                    {searchQuery ? (
+                      <button 
+                        onClick={() => handleSearchOnline(searchQuery)}
+                        disabled={isSearchingOnline}
+                        className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm py-2.5 px-5 rounded-2xl shadow-xs transition active:scale-95 disabled:opacity-50 cursor-pointer"
+                      >
+                        <Search className={`w-4 h-4 ${isSearchingOnline ? 'animate-spin' : ''}`} />
+                        <span>{isSearchingOnline ? (lang === 'bn' ? 'অনলাইনে খোঁজা হচ্ছে...' : 'Searching online...') : (lang === 'bn' ? 'অনলাইন থেকে লাইভ আনুন' : 'Search Live on Chaldal')}</span>
+                      </button>
+                    ) : null}
+                    <div className="mt-4">
+                      <button 
+                        onClick={() => { setSearchQuery(''); setSelectedCategory('all'); setDiscountOnly(false); }}
+                        className="text-xs font-semibold text-slate-500 hover:text-slate-800 underline cursor-pointer"
+                      >
+                        {lang === 'bn' ? 'সব পণ্য পুনরায় দেখুন' : 'Reset Filters'}
+                      </button>
+                    </div>
                   </div>
                 ) : (
                   <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-2.5 sm:gap-4">

@@ -53,7 +53,13 @@ export const translations = {
     directStoreTooltip: "সরাসরি এই স্টোর থেকে কিনুন",
     openOriginalStore: "অরিজিনাল স্টোর পেজ ওপেন করুন",
     footerText: "বাংলাদেশের সকল শীর্ষ অনলাইন সুপারশপ ও পাইকারি বাজারের নির্ভরযোগ্য পণ্য দর তুলনা প্ল্যাটফর্ম।",
-    tcbDisclaimer: "টিসিবি ও কৃষি বিপণন অধিদপ্তরের দৈনিক তালিকার সাথে সামঞ্জস্য রেখে তৈরি।"
+    tcbDisclaimer: "টিসিবি ও কৃষি বিপণন অধিদপ্তরের দৈনিক তালিকার সাথে সামঞ্জস্য রেখে তৈরি।",
+    searchOnline: "অনলাইন শপে খুঁজুন",
+    searchMoreOnline: "অনলাইন শপ থেকে আরও খুঁজুন",
+    searchingOnline: "অনলাইনে খোঁজা হচ্ছে...",
+    searchNoResults: "লোকাল তালিকায় পাওয়া যায়নি",
+    searchOnlinePrompt: "চালডালের লাইভ ক্যাটালগ থেকে নতুন পণ্য নিয়ে আসুন",
+    searchLiveChaldal: "অনলাইনে চালডাল থেকে লাইভ খুঁজুন"
   },
   en: {
     brandName: "Bazar",
@@ -109,6 +115,12 @@ export const translations = {
     directStoreTooltip: "Buy directly from this store",
     openOriginalStore: "Open original store page",
     footerText: "Bangladesh's leading price intelligence platform comparing online supershops & wholesale kitchen markets.",
-    tcbDisclaimer: "Indexed in accordance with TCB & Department of Agricultural Marketing daily benchmarks."
+    tcbDisclaimer: "Indexed in accordance with TCB & Department of Agricultural Marketing daily benchmarks.",
+    searchOnline: "Search Online Stores",
+    searchMoreOnline: "Search more online",
+    searchingOnline: "Searching online...",
+    searchNoResults: "Not found locally",
+    searchOnlinePrompt: "Search live catalogue from Chaldal and top online stores",
+    searchLiveChaldal: "Search Live on Chaldal"
   }
 };
