@@ -245,37 +245,38 @@ export default function BagSlideOver({
 
                 {/* Best Single Store Card */}
                 {bestSingleStore && (
-                  <div className="bg-gradient-to-br from-emerald-600 to-teal-700 rounded-3xl p-5 text-white shadow-lg shadow-emerald-700/10">
-                    <div className="flex items-center justify-between text-xs mb-2">
-                      <span className="font-black uppercase tracking-wider bg-white/20 px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                        <Sparkles className="w-3 h-3" />
+                  <div className="bg-zinc-950 rounded-3xl p-5 text-white border border-zinc-800/80 shadow-premium-card relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none" />
+                    <div className="flex items-center justify-between text-xs mb-3">
+                      <span className="font-extrabold uppercase tracking-widest text-[9px] bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2.5 py-0.5 rounded-full flex items-center gap-1 font-heading">
+                        <Sparkles className="w-3 h-3 text-emerald-400" />
                         <span>{t.bestSingleStore}</span>
                       </span>
-                      <span className="text-emerald-100 font-medium">
+                      <span className="text-zinc-400 font-medium text-[11px]">
                         {bestSingleStore.store.deliveryTime}
                       </span>
                     </div>
 
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="flex items-center gap-2.5">
-                        <StoreLogo store={bestSingleStore.store} size="lg" className="rounded-xl shadow-md border-0" />
+                    <div className="flex items-center justify-between mb-3.5">
+                      <div className="flex items-center gap-3">
+                        <StoreLogo store={bestSingleStore.store} size="lg" className="rounded-2xl shadow-md border border-white/10" />
                         <div>
-                          <h4 className="font-black text-xl leading-tight">
+                          <h4 className="font-bold text-lg leading-tight font-heading">
                             {lang === 'bn' ? bestSingleStore.store.nameBn : bestSingleStore.store.name}
                           </h4>
-                          <span className="text-[11px] text-emerald-100 font-medium">
+                          <span className="text-[11px] text-zinc-400 font-medium">
                             {bestSingleStore.store.deliveryTime}
                           </span>
                         </div>
                       </div>
                       <div className="text-right">
-                        <span className="text-2xl font-black">৳{bestSingleStore.netTotal}</span>
+                        <span className="text-2xl font-black font-heading text-emerald-400 tracking-tight">৳{bestSingleStore.netTotal}</span>
                       </div>
                     </div>
 
-                    <div className="text-xs text-emerald-100/90 space-y-1.5 pt-2 border-t border-white/20 mb-4">
-                      <div className="flex justify-between">
-                        <span>পণ্যের মোট মূল্য:</span>
+                    <div className="text-xs text-zinc-300 space-y-1.5 pt-3 border-t border-zinc-800/80 mb-4">
+                      <div className="flex justify-between text-[11px]">
+                        <span className="text-zinc-400">পণ্যের মোট মূল্য:</span>
                         <span className="font-semibold text-white">৳{bestSingleStore.subtotal}</span>
                       </div>
                       <div className="flex justify-between">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plus, Minus, Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
+import { Plus, Minus, ChevronRight, ExternalLink } from 'lucide-react';
 import { STORES } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
 import StoreLogo from './StoreLogo';
@@ -40,167 +40,140 @@ export default function ProductCard({
   const savingsVsMrp = product.mrp ? Math.max(0, product.mrp - minPrice) : 0;
 
   return (
-    <div className="bg-white rounded-2xl sm:rounded-3xl p-2.5 sm:p-3.5 border border-slate-200/90 shadow-xs hover:shadow-md hover:border-slate-300 transition flex flex-col justify-between">
+    <div className="group bg-white rounded-3xl p-3 sm:p-4 border border-zinc-200/70 shadow-premium-card hover:shadow-premium-hover hover:border-zinc-300/90 transition-all duration-300 flex flex-col justify-between relative">
       <div>
         {/* Product Image & Badges */}
         <div 
           onClick={() => onOpenDetails(product)}
-          className="relative mb-2 sm:mb-2.5 rounded-xl sm:rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 aspect-4/3 cursor-pointer group flex items-center justify-center p-1.5 sm:p-2"
+          className="relative mb-3 rounded-2xl overflow-hidden bg-gradient-to-b from-zinc-50/90 via-zinc-50/40 to-zinc-100/50 border border-zinc-100/80 aspect-[4/3] cursor-pointer flex items-center justify-center p-2.5 transition-all duration-300 group-hover:bg-zinc-50/60"
         >
           <img 
             src={product.image} 
             alt={product.nameEn}
-            className="w-full h-full object-contain group-hover:scale-105 transition duration-300"
+            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 ease-out"
             loading="lazy"
           />
           {hasRealLowest && savingsVsMrp > 0 && (
-            <span className="absolute top-1.5 left-1.5 sm:top-2 sm:left-2 bg-rose-600 text-white text-[9px] sm:text-[10px] font-bold px-1.5 sm:px-2 py-0.5 rounded-full shadow-xs">
+            <span className="absolute top-2 left-2 bg-rose-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-xs tracking-tight">
               ৳{savingsVsMrp} {t.savingsVsMrp}
             </span>
           )}
-          <span className="absolute bottom-1.5 right-1.5 sm:bottom-2 sm:right-2 bg-slate-900/80 backdrop-blur-xs text-white text-[9px] sm:text-[10px] font-semibold px-1.5 py-0.5 rounded-md">
+          <span className="absolute bottom-2 right-2 bg-zinc-950/70 backdrop-blur-md text-white text-[10px] font-medium px-2 py-0.5 rounded-md border border-white/10">
             {product.unit}
           </span>
         </div>
 
-        {/* Product Title (2 lines clamp with fixed height for alignment) */}
+        {/* Product Title */}
         <h4 
           onClick={() => onOpenDetails(product)}
-          className="font-bold text-slate-900 text-xs sm:text-sm leading-snug line-clamp-2 min-h-[32px] sm:min-h-[38px] cursor-pointer hover:text-emerald-700 transition"
+          className="font-heading font-bold text-zinc-900 text-xs sm:text-sm leading-snug line-clamp-2 min-h-[36px] sm:min-h-[40px] cursor-pointer group-hover:text-emerald-700 transition-colors"
           title={lang === 'bn' ? product.nameBn : product.nameEn}
         >
           {lang === 'bn' ? product.nameBn : product.nameEn}
         </h4>
 
-        {/* Lowest Price Banner with direct store link */}
-        <div className="bg-emerald-50/90 border border-emerald-200/80 rounded-xl p-2 my-2">
-          <div className="flex items-baseline justify-between gap-1">
-            <span className="text-[10px] sm:text-[11px] font-bold text-emerald-800 shrink-0">
-              {hasRealLowest ? `${t.lowestPrice}:` : (lang === 'bn' ? 'বর্তমান দর:' : 'Market Price:')}
+        {/* Best Price & Market Intelligence Box */}
+        <div className="my-2.5 py-2 px-2.5 rounded-2xl bg-zinc-50/90 border border-zinc-200/60 transition-colors group-hover:border-zinc-200">
+          <div className="flex items-baseline justify-between">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">
+              {hasRealLowest ? t.lowestPrice : (lang === 'bn' ? 'বর্তমান দর' : 'Price')}
             </span>
-            <div className="text-right flex items-baseline gap-1">
-              <span className="text-base sm:text-lg font-black text-emerald-700">
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-base sm:text-lg font-black text-zinc-950 tracking-tight font-heading">
                 ৳{minPrice}
               </span>
               {hasRealLowest && product.mrp && product.mrp > minPrice && (
-                <span className="text-[10px] sm:text-xs text-slate-400 line-through font-medium">
+                <span className="text-[11px] text-zinc-400 line-through font-normal">
                   ৳{product.mrp}
                 </span>
               )}
             </div>
           </div>
-          {hasRealLowest && lowestStore ? (
-            <div className="flex items-center justify-between text-[10px] sm:text-[11px] text-emerald-900 mt-1 pt-1 border-t border-emerald-200/50">
-              <span className="text-slate-500 font-medium">{t.bestStore}:</span>
+
+          {/* Best Store Tag with Direct Link */}
+          <div className="flex items-center justify-between text-[11px] mt-1.5 pt-1.5 border-t border-zinc-200/50">
+            <span className="text-zinc-500 text-[10px] font-medium">{t.bestStore}:</span>
+            {hasRealLowest && lowestStore ? (
               <a
                 href={product.prices[lowestStoreKey]?.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
                 title={lang === 'bn' ? `${lowestStore.name}-এ সরাসরি দেখুন` : `Open in ${lowestStore.name}`}
-                className="font-bold px-1.5 py-0.5 rounded bg-white text-emerald-800 hover:text-emerald-950 hover:bg-emerald-100/80 shadow-2xs truncate max-w-[130px] flex items-center gap-1 group/lowest transition"
+                className="inline-flex items-center gap-1 font-bold text-emerald-800 hover:text-emerald-950 transition truncate max-w-[130px] group/link"
               >
                 <StoreLogo store={lowestStore} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs shrink-0" />
                 <span className="truncate">{lowestStore.name}</span>
-                <ExternalLink className="w-2.5 h-2.5 text-emerald-600 shrink-0 group-hover/lowest:translate-x-0.5 transition" />
+                <ExternalLink className="w-2.5 h-2.5 text-zinc-400 group-hover/link:text-emerald-700 shrink-0" />
               </a>
-            </div>
-          ) : (
-            <div className="flex items-center justify-between text-[10px] sm:text-[11px] text-slate-600 mt-1 pt-1 border-t border-emerald-200/50">
-              <span className="text-slate-400 font-medium">{lang === 'bn' ? 'স্ট্যাটাস:' : 'Status:'}</span>
-              <span className="font-semibold text-emerald-800">{lang === 'bn' ? 'সব স্টোরে নির্ধারিত দর' : 'Standard store rate'}</span>
-            </div>
-          )}
+            ) : (
+              <span className="font-semibold text-emerald-800 text-[10px]">
+                {lang === 'bn' ? 'সব স্টোরে নির্ধারিত' : 'Standard Rate'}
+              </span>
+            )}
+          </div>
         </div>
 
-        {/* Live Store Rates List with Clickable Direct Original Links */}
-        <div className="bg-slate-50 rounded-xl p-2 border border-slate-100 my-2 space-y-1">
-          <div className="flex items-center justify-between text-[9px] sm:text-[10px] text-slate-400 font-medium px-1 pb-0.5">
-            <span>{lang === 'bn' ? 'স্টোর ও লাইভ দর' : 'Store & Live Rate'}</span>
-            <span className="flex items-center gap-0.5 text-emerald-700 font-semibold">
-              <ExternalLink className="w-2.5 h-2.5" />
-              {lang === 'bn' ? 'লিঙ্ক' : 'Direct'}
+        {/* Multi-Store Comparison Quick Strip */}
+        <div 
+          onClick={() => onOpenDetails(product)}
+          className="flex items-center justify-between px-2.5 py-1.5 rounded-xl bg-white border border-zinc-200/80 hover:border-emerald-300 hover:bg-emerald-50/20 transition cursor-pointer my-1 group/strip shadow-premium-sm"
+          title={lang === 'bn' ? 'সবগুলো স্টোরের লাইভ দর তুলনা দেখুন' : 'Compare all store live rates'}
+        >
+          <div className="flex items-center gap-1 min-w-0">
+            <div className="flex -space-x-1 shrink-0">
+              {Object.values(STORES).map((st) => (
+                <StoreLogo 
+                  key={st.id} 
+                  store={st} 
+                  size="xs" 
+                  showBorder={true} 
+                  className="w-4 h-4 rounded-full border-white shadow-2xs shrink-0 ring-1 ring-zinc-200" 
+                />
+              ))}
+            </div>
+            <span className="text-[10px] font-bold text-zinc-600 truncate ml-1.5 group-hover/strip:text-emerald-800">
+              {lang === 'bn' ? '৪ স্টোরের লাইভ রেট' : 'Compare 4 stores'}
             </span>
           </div>
-          {Object.entries(product.prices).map(([storeKey, data]) => {
-            const store = STORES[storeKey];
-            const isLowest = hasRealLowest && storeKey === lowestStoreKey;
-            const isSelected = selectedStores.includes(storeKey);
-            return (
-              <a 
-                key={storeKey} 
-                href={data.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-                title={lang === 'bn' ? `${store.name}-এ সরাসরি দেখুন` : `Open original item in ${store.name}`}
-                className={`flex items-center justify-between text-[10px] sm:text-[11px] py-1 px-1.5 rounded-lg transition group/store ${
-                  isLowest 
-                    ? 'bg-emerald-100/80 font-bold text-emerald-900 hover:bg-emerald-200/90 ring-1 ring-emerald-300' 
-                    : isSelected
-                    ? 'text-slate-700 hover:bg-white hover:text-slate-900 shadow-2xs hover:shadow-xs'
-                    : 'text-slate-400 opacity-60 hover:opacity-100'
-                }`}
-              >
-                <div className="flex items-center gap-1.5 min-w-0">
-                  <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs shrink-0" />
-                  <span className="truncate group-hover/store:underline">{store.name}</span>
-                </div>
-                <div className="flex items-center gap-1 shrink-0 ml-1">
-                  <span className={isLowest ? 'font-black text-emerald-800' : 'font-semibold text-slate-800'}>
-                    {data.inStock ? `৳${data.price}` : t.outOfStock}
-                  </span>
-                  {data.inStock && (
-                    <ExternalLink className="w-2.5 h-2.5 text-slate-400 group-hover/store:text-emerald-700 opacity-60 group-hover/store:opacity-100 shrink-0 transition" />
-                  )}
-                </div>
-              </a>
-            );
-          })}
+          <div className="flex items-center gap-0.5 text-emerald-600 text-[10px] font-bold shrink-0">
+            <span>{t.viewCompare}</span>
+            <ChevronRight className="w-3 h-3 text-emerald-600 group-hover/strip:translate-x-0.5 transition" />
+          </div>
         </div>
       </div>
 
-      {/* Action Area */}
-      <div className="pt-2 border-t border-slate-100 space-y-1.5">
-        {/* Full-width Add to Bag Button / Stepper */}
+      {/* Action Button Area */}
+      <div className="pt-2.5 mt-1 border-t border-zinc-100">
         {quantityInBasket === 0 ? (
           <button
             onClick={() => onAdd(product)}
-            className="w-full h-8 sm:h-9 bg-emerald-600 hover:bg-emerald-700 active:scale-98 text-white font-bold text-xs rounded-xl transition flex items-center justify-center gap-1 shadow-xs"
+            className="w-full h-9 bg-zinc-900 hover:bg-emerald-700 active:scale-[0.98] text-white font-bold text-xs rounded-xl transition-all duration-200 flex items-center justify-center gap-1.5 shadow-sm cursor-pointer"
           >
             <Plus className="w-3.5 h-3.5 stroke-[2.5]" />
             <span>{t.addToBag}</span>
           </button>
         ) : (
-          <div className="w-full h-8 sm:h-9 flex items-center justify-between bg-emerald-50 border border-emerald-300 rounded-xl px-1 shadow-2xs">
+          <div className="w-full h-9 flex items-center justify-between bg-emerald-50 border border-emerald-300/80 rounded-xl px-1.5 shadow-2xs">
             <button
               onClick={() => onRemove(product)}
-              className="w-7 h-7 rounded-lg bg-white text-emerald-800 hover:bg-emerald-100 flex items-center justify-center font-bold text-xs transition shadow-2xs active:scale-90"
-              aria-label="Remove one"
+              className="w-7 h-7 rounded-lg bg-white text-emerald-900 hover:bg-emerald-100 flex items-center justify-center font-bold text-xs transition shadow-2xs active:scale-90 cursor-pointer"
+              aria-label="Remove"
             >
               <Minus className="w-3 h-3" />
             </button>
-            <span className="text-xs font-black text-emerald-900">
+            <span className="text-xs font-bold text-emerald-950 font-heading">
               {quantityInBasket} {t.inBag}
             </span>
             <button
               onClick={() => onAdd(product)}
-              className="w-7 h-7 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 flex items-center justify-center font-bold text-xs transition shadow-2xs active:scale-90"
-              aria-label="Add one more"
+              className="w-7 h-7 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 flex items-center justify-center font-bold text-xs transition shadow-2xs active:scale-90 cursor-pointer"
+              aria-label="Add"
             >
               <Plus className="w-3 h-3" />
             </button>
           </div>
         )}
-
-        {/* Subtle Compare Link */}
-        <button
-          onClick={() => onOpenDetails(product)}
-          className="w-full text-center text-[10px] sm:text-[11px] font-semibold text-slate-500 hover:text-emerald-700 py-0.5 flex items-center justify-center gap-0.5 transition"
-        >
-          <span>{t.viewCompare}</span>
-          <ChevronRight className="w-3 h-3 text-slate-400" />
-        </button>
       </div>
     </div>
   );

@@ -262,32 +262,32 @@ export default function VisualSearchModal({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/80 backdrop-blur-sm animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-zinc-950/70 backdrop-blur-md animate-in fade-in duration-200">
       <div 
-        className="relative w-full max-w-lg bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col border border-slate-100 max-h-[92vh]"
+        className="relative w-full max-w-lg bg-white rounded-3xl shadow-premium-floating overflow-hidden flex flex-col border border-zinc-200/80 max-h-[92vh]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Header */}
-        <div className="flex items-center justify-between px-5 py-4 border-b border-slate-100 bg-slate-50/70">
+        <div className="flex items-center justify-between px-5 sm:px-6 py-4 border-b border-zinc-100 bg-white">
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-2xl bg-emerald-600 flex items-center justify-center text-white shadow-xs">
-              <Camera className="w-5 h-5" />
+            <div className="w-9 h-9 rounded-2xl bg-zinc-950 flex items-center justify-center text-white shadow-premium-sm">
+              <Camera className="w-5 h-5 text-emerald-400" />
             </div>
             <div>
-              <h3 className="text-sm sm:text-base font-black text-slate-900 flex items-center gap-1.5">
+              <h3 className="text-sm sm:text-base font-bold text-zinc-950 flex items-center gap-1.5 font-heading">
                 <span>{t.visualSearchTitle}</span>
-                <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold uppercase tracking-wider">
-                  AI
+                <span className="text-[9px] px-2 py-0.5 rounded-full bg-zinc-100 text-zinc-700 font-bold uppercase tracking-wider border border-zinc-200">
+                  AI Lens
                 </span>
               </h3>
-              <p className="text-[11px] text-slate-500 font-medium">
+              <p className="text-[11px] text-zinc-400 font-medium">
                 {t.visualSearchSubtitle}
               </p>
             </div>
           </div>
           <button
             onClick={handleModalClose}
-            className="w-8 h-8 rounded-full bg-slate-200/60 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition"
+            className="w-8 h-8 rounded-full bg-zinc-100 hover:bg-zinc-200 text-zinc-600 flex items-center justify-center transition cursor-pointer"
           >
             <X className="w-4 h-4" />
           </button>
@@ -295,13 +295,13 @@ export default function VisualSearchModal({
 
         {/* Tab Navigation (Camera / Gallery / Demo Presets) */}
         {!capturedImage && (
-          <div className="flex border-b border-slate-100 bg-white px-4 pt-2">
+          <div className="flex border-b border-zinc-100 bg-white px-4 pt-1">
             <button
               onClick={() => { setActiveTab('camera'); }}
-              className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition ${
+              className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition cursor-pointer ${
                 activeTab === 'camera'
-                  ? 'border-emerald-600 text-emerald-700'
-                  : 'border-transparent text-slate-500 hover:text-slate-800'
+                  ? 'border-zinc-950 text-zinc-950'
+                  : 'border-transparent text-zinc-400 hover:text-zinc-700'
               }`}
             >
               <Camera className="w-4 h-4" />
@@ -309,10 +309,10 @@ export default function VisualSearchModal({
             </button>
             <button
               onClick={() => { setActiveTab('upload'); }}
-              className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition ${
+              className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition cursor-pointer ${
                 activeTab === 'upload'
-                  ? 'border-emerald-600 text-emerald-700'
-                  : 'border-transparent text-slate-500 hover:text-slate-800'
+                  ? 'border-zinc-950 text-zinc-950'
+                  : 'border-transparent text-zinc-400 hover:text-zinc-700'
               }`}
             >
               <Upload className="w-4 h-4" />
@@ -320,10 +320,10 @@ export default function VisualSearchModal({
             </button>
             <button
               onClick={() => { setActiveTab('preset'); }}
-              className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition ${
+              className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition cursor-pointer ${
                 activeTab === 'preset'
-                  ? 'border-emerald-600 text-emerald-700'
-                  : 'border-transparent text-slate-500 hover:text-slate-800'
+                  ? 'border-zinc-950 text-zinc-950'
+                  : 'border-transparent text-zinc-400 hover:text-zinc-700'
               }`}
             >
               <Sparkles className="w-4 h-4" />

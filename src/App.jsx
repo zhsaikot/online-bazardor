@@ -246,7 +246,7 @@ function AppContent() {
   }, [productList, searchQuery, selectedCategory, selectedStores, discountOnly]);
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col text-slate-900 selection:bg-emerald-500 selection:text-white overflow-x-hidden w-full max-w-full">
+    <div className="min-h-screen bg-[#fafbfc] flex flex-col text-zinc-900 selection:bg-emerald-600 selection:text-white overflow-x-hidden w-full max-w-full">
       {/* Top Header */}
       <Header 
         selectedLocation={selectedLocation}
@@ -261,9 +261,9 @@ function AppContent() {
       />
 
       {/* Main Container */}
-      <div className="flex-1 max-w-7xl w-full mx-auto px-2.5 sm:px-4 lg:px-8 py-3 sm:py-6 min-w-0">
+      <div className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-3.5 sm:py-6 min-w-0">
         {/* Navigation Tabs for Desktop */}
-        <div className="hidden lg:flex items-center justify-between pb-4 border-b border-slate-200/80 mb-6">
+        <div className="hidden lg:flex items-center justify-between pb-4 border-b border-zinc-200/60 mb-6">
           <div className="flex items-center gap-2">
             {[
               { id: 'catalog', label: t.catalogTab },
@@ -273,10 +273,10 @@ function AppContent() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-4 py-2 rounded-2xl text-xs font-bold transition ${
+                className={`px-4 py-2 rounded-full text-xs font-bold transition-all duration-150 cursor-pointer ${
                   activeTab === tab.id
-                    ? 'bg-slate-900 text-white shadow-xs'
-                    : 'text-slate-600 hover:bg-slate-200/60'
+                    ? 'bg-zinc-950 text-white shadow-premium-sm'
+                    : 'text-zinc-600 hover:text-zinc-950 hover:bg-zinc-200/60'
                 }`}
               >
                 {tab.label}
@@ -284,14 +284,18 @@ function AppContent() {
             ))}
           </div>
 
-          <div className="flex items-center gap-2 text-xs font-semibold text-slate-500">
-            <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-            <span>{t.liveConnectedStores}</span>
+          <div className="flex items-center gap-2 text-xs font-semibold text-zinc-500 bg-white/80 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-zinc-200/70 shadow-premium-sm">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <span className="text-[11px] font-medium">{t.liveConnectedStores}</span>
             <div className="flex items-center gap-1.5 ml-1">
               {Object.values(STORES).map(s => (
-                <span key={s.id} className="text-slate-800 font-bold bg-white px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs">
-                  {s.name}
-                </span>
+                <div key={s.id} className="flex items-center gap-1 bg-zinc-50 px-2 py-0.5 rounded-md border border-zinc-200/70 shadow-2xs">
+                  <StoreLogo store={s} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs" />
+                  <span className="text-zinc-800 font-bold text-[10px]">{s.name}</span>
+                </div>
               ))}
             </div>
           </div>
@@ -314,8 +318,8 @@ function AppContent() {
             {/* Mobile Search & Category Carousel (Hidden on Desktop) */}
             <div className="lg:hidden space-y-2.5">
               {/* Search Bar */}
-              <div className="relative">
-                <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+              <div className="relative group">
+                <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none group-focus-within:text-emerald-600 transition-colors" />
                 <input 
                   type="text"
                   value={searchQuery}
@@ -326,7 +330,7 @@ function AppContent() {
                     }
                   }}
                   placeholder={t.searchPlaceholder}
-                  className="w-full bg-white border border-slate-200 focus:border-emerald-600 rounded-2xl py-2.5 sm:py-3 pl-10 pr-28 text-xs font-medium text-slate-900 placeholder:text-slate-400 shadow-xs outline-none transition"
+                  className="w-full bg-white border border-zinc-200/90 focus:border-zinc-300 focus:ring-4 focus:ring-emerald-500/10 rounded-2xl py-2.5 sm:py-3 pl-10 pr-28 text-xs font-medium text-zinc-900 placeholder:text-zinc-400 shadow-premium-sm outline-none transition-all duration-200"
                 />
                 <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
                   {searchQuery ? (
@@ -335,14 +339,14 @@ function AppContent() {
                         type="button"
                         onClick={() => handleSearchOnline(searchQuery.trim())}
                         disabled={isSearchingOnline}
-                        className="px-2 py-1 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-[10px] font-bold shadow-2xs transition disabled:opacity-50 cursor-pointer"
+                        className="px-2.5 py-1 bg-zinc-900 hover:bg-emerald-700 text-white rounded-xl text-[10px] font-bold shadow-2xs transition disabled:opacity-50 cursor-pointer active:scale-95"
                         title={t.searchOnline}
                       >
                         {isSearchingOnline ? '...' : (lang === 'bn' ? 'অনলাইন' : 'Live')}
                       </button>
                       <button 
                         onClick={() => setSearchQuery('')}
-                        className="p-1 text-slate-400 hover:text-slate-600"
+                        className="p-1 text-zinc-400 hover:text-zinc-700 transition"
                       >
                         <X className="w-3.5 h-3.5" />
                       </button>
@@ -351,10 +355,10 @@ function AppContent() {
                   <button
                     type="button"
                     onClick={() => setIsVisualSearchOpen(true)}
-                    className="p-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200/80 transition flex items-center gap-1 cursor-pointer shadow-2xs"
+                    className="p-1.5 rounded-xl bg-zinc-100 hover:bg-zinc-200 text-zinc-700 border border-zinc-200 transition flex items-center gap-1 cursor-pointer shadow-2xs active:scale-95"
                     title={t.visualSearch}
                   >
-                    <Camera className="w-3.5 h-3.5 text-emerald-600" />
+                    <Camera className="w-3.5 h-3.5 text-zinc-600" />
                   </button>
                 </div>
               </div>
@@ -367,10 +371,10 @@ function AppContent() {
                     <button
                       key={cat.id}
                       onClick={() => setSelectedCategory(cat.id)}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition shadow-2xs ${
+                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all duration-150 cursor-pointer ${
                         isSelected 
-                          ? 'bg-emerald-600 text-white shadow-xs' 
-                          : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
+                          ? 'bg-zinc-950 text-white shadow-premium-sm' 
+                          : 'bg-white text-zinc-600 border border-zinc-200/80 hover:bg-zinc-50 hover:text-zinc-950'
                       }`}
                     >
                       <span>{lang === 'bn' ? cat.nameBn : cat.nameEn}</span>
@@ -381,7 +385,7 @@ function AppContent() {
 
               {/* Mobile Store Filter Row with Official Store Logos */}
               <div className="flex gap-1.5 overflow-x-auto no-scrollbar py-0.5 items-center">
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider shrink-0 mr-0.5">
+                <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider shrink-0 mr-0.5">
                   {lang === 'bn' ? 'স্টোর:' : 'Stores:'}
                 </span>
                 {Object.values(STORES).map(store => {
@@ -390,10 +394,10 @@ function AppContent() {
                     <button
                       key={store.id}
                       onClick={() => toggleStoreFilter(store.id)}
-                      className={`flex items-center gap-1.5 px-2.5 py-1 rounded-xl text-xs font-bold whitespace-nowrap transition border ${
+                      className={`flex items-center gap-1.5 px-2.5 py-1 rounded-xl text-xs font-bold whitespace-nowrap transition border cursor-pointer ${
                         isChecked
-                          ? 'bg-white text-slate-900 border-emerald-500/80 shadow-2xs ring-1 ring-emerald-500/30'
-                          : 'bg-slate-100 text-slate-400 border-slate-200 opacity-60'
+                          ? 'bg-zinc-950 text-white border-zinc-950 shadow-premium-sm'
+                          : 'bg-white text-zinc-500 border-zinc-200/80 hover:bg-zinc-50'
                       }`}
                     >
                       <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs" />
@@ -419,27 +423,27 @@ function AppContent() {
                 />
               </div>
 
-              {/* Center Product Feed (Now has full width with minimum 4 items on desktop!) */}
+              {/* Center Product Feed */}
               <div className="flex-1 min-w-0 w-full space-y-3.5">
                 {/* Live Price Sync Status Bar */}
-                <div className="bg-emerald-50/90 border border-emerald-200/90 rounded-2xl p-2.5 sm:p-3 flex items-center justify-between text-xs gap-2 shadow-2xs">
+                <div className="bg-white/90 backdrop-blur-md border border-zinc-200/80 rounded-2xl p-2.5 sm:p-3 flex items-center justify-between text-xs gap-2 shadow-premium-sm">
                   <div className="flex items-center gap-2.5 min-w-0">
-                    <span className="relative flex h-2.5 w-2.5 shrink-0">
+                    <span className="relative flex h-2 w-2 shrink-0">
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                      <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                      <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                     </span>
                     <div className="flex items-center gap-2 min-w-0">
-                      <span className="font-bold text-emerald-950 truncate text-[11px] sm:text-xs">
+                      <span className="font-bold text-zinc-900 truncate text-[11px] sm:text-xs">
                         {lang === 'bn' ? 'সুপারশপ লাইভ প্রাইস ইঞ্জিন' : 'Live Supermarket Price Engine'}
                       </span>
                       {/* Connected Store Logos */}
                       <div className="hidden sm:flex items-center gap-1 shrink-0">
                         {Object.values(STORES).map(s => (
-                          <StoreLogo key={s.id} store={s} size="xs" showBorder={true} className="w-4 h-4 rounded-xs border-slate-200" />
+                          <StoreLogo key={s.id} store={s} size="xs" showBorder={true} className="w-4 h-4 rounded-xs border-zinc-200" />
                         ))}
                       </div>
                       {lastSyncedAt && (
-                        <span className="hidden md:inline text-[10px] text-emerald-700 font-medium shrink-0">
+                        <span className="hidden md:inline text-[10px] text-zinc-400 font-medium shrink-0">
                           • {lang === 'bn' ? 'সর্বশেষ সিঙ্ক:' : 'Synced:'} {new Date(lastSyncedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                         </span>
                       )}
@@ -448,10 +452,10 @@ function AppContent() {
                   <button
                     onClick={handleManualSync}
                     disabled={isSyncing}
-                    className="shrink-0 bg-white hover:bg-emerald-100 text-emerald-800 font-bold text-[10px] sm:text-[11px] py-1 px-2.5 rounded-xl border border-emerald-300 shadow-2xs flex items-center gap-1 transition active:scale-95 disabled:opacity-50 cursor-pointer"
+                    className="shrink-0 bg-zinc-100 hover:bg-zinc-200 text-zinc-800 font-bold text-[10px] sm:text-[11px] py-1 px-2.5 rounded-xl border border-zinc-200/80 shadow-2xs flex items-center gap-1.5 transition active:scale-95 disabled:opacity-50 cursor-pointer"
                     title={lang === 'bn' ? 'সরাসরি স্টোর থেকে নতুন প্রাইস টানুন' : 'Fetch fresh prices from stores'}
                   >
-                    <RefreshCw className={`w-3 h-3 ${isSyncing ? 'animate-spin text-emerald-600' : ''}`} />
+                    <RefreshCw className={`w-3 h-3 text-zinc-600 ${isSyncing ? 'animate-spin text-emerald-600' : ''}`} />
                     <span>{isSyncing ? (lang === 'bn' ? 'সিঙ্ক হচ্ছে...' : 'Syncing...') : (lang === 'bn' ? 'লাইভ রিফ্রেশ' : 'Live Refresh')}</span>
                   </button>
                 </div>

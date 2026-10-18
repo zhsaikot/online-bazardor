@@ -24,50 +24,55 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
   const hasRealLowest = !allSamePrice;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-950/60 backdrop-blur-xs animate-fade-in">
+    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-zinc-950/70 backdrop-blur-md animate-fade-in">
       <div 
-        className="w-full max-w-lg bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl max-h-[90vh] overflow-y-auto overflow-x-hidden safe-bottom border border-slate-100"
+        className="w-full max-w-lg bg-white rounded-t-3xl sm:rounded-3xl shadow-premium-floating max-h-[90vh] overflow-y-auto overflow-x-hidden safe-bottom border border-zinc-200/80"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header with Close */}
-        <div className="sticky top-0 bg-white/95 backdrop-blur-md px-5 py-4 border-b border-slate-100 flex items-center justify-between z-10">
+        <div className="sticky top-0 bg-white/90 backdrop-blur-xl px-5 sm:px-6 py-4 border-b border-zinc-100 flex items-center justify-between z-10">
           <div className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider">
-              {lang === 'bn' ? 'দরের বিস্তারিত তুলনা' : 'Detailed Price Comparison'}
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <span className="text-xs font-bold text-zinc-900 uppercase tracking-wider font-heading">
+              {lang === 'bn' ? 'দরের বিস্তারিত তুলনা' : 'Detailed Price Intelligence'}
             </span>
           </div>
           <button 
             onClick={onClose}
-            className="p-1.5 rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 transition"
+            className="p-1.5 rounded-full bg-zinc-100 text-zinc-500 hover:bg-zinc-200 transition cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {/* Content */}
-        <div className="p-5 space-y-5">
+        <div className="p-5 sm:p-6 space-y-5">
           {/* Main Info */}
-          <div className="flex gap-4 items-center">
-            <img 
-              src={product.image} 
-              alt={product.nameEn}
-              className="w-24 h-24 rounded-2xl object-cover border border-slate-200 shadow-xs" 
-            />
-            <div>
-              <span className="inline-block text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md mb-1">
+          <div className="flex gap-4 items-center p-3 rounded-2xl bg-zinc-50/80 border border-zinc-100">
+            <div className="w-24 h-24 rounded-2xl overflow-hidden bg-white border border-zinc-200/70 shadow-2xs flex items-center justify-center p-2 shrink-0">
+              <img 
+                src={product.image} 
+                alt={product.nameEn}
+                className="w-full h-full object-contain" 
+              />
+            </div>
+            <div className="min-w-0 flex-1">
+              <span className="inline-block text-[10px] font-bold text-emerald-800 bg-emerald-50 border border-emerald-200/70 px-2 py-0.5 rounded-md mb-1 uppercase tracking-wider">
                 {product.unit}
               </span>
-              <h3 className="text-base font-bold text-slate-900 leading-snug">
+              <h3 className="text-sm sm:text-base font-bold text-zinc-950 leading-snug line-clamp-2 font-heading">
                 {lang === 'bn' ? product.nameBn : product.nameEn}
               </h3>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-zinc-400 truncate mt-0.5">
                 {lang === 'bn' ? product.nameEn : product.nameBn}
               </p>
               {hasRealLowest && product.mrp && product.mrp > minPrice && (
-                <div className="mt-1 flex items-baseline gap-2">
-                  <span className="text-xs text-slate-400 line-through">MRP: ৳{product.mrp}</span>
-                  <span className="text-xs font-bold text-rose-600">
+                <div className="mt-1.5 flex items-baseline gap-2">
+                  <span className="text-xs text-zinc-400 line-through">MRP: ৳{product.mrp}</span>
+                  <span className="text-xs font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded">
                     ৳{product.mrp - minPrice} {t.savingsVsMrp}
                   </span>
                 </div>
@@ -77,8 +82,8 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
 
           {/* Store Breakdown List */}
           <div>
-            <h4 className="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2.5">
-              {lang === 'bn' ? 'সবগুলো স্টোরের বর্তমান অফার ও দাম' : 'Current Rates Across All Stores'}
+            <h4 className="text-xs font-bold text-zinc-900 uppercase tracking-wider mb-2.5 font-heading">
+              {lang === 'bn' ? 'সবগুলো স্টোরের বর্তমান লাইভ দর' : 'Live Rates Across All Stores'}
             </h4>
             <div className="space-y-2.5">
               {Object.entries(product.prices).map(([storeKey, data]) => {
@@ -91,37 +96,42 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                     key={storeKey}
                     className={`p-3.5 rounded-2xl border transition-all ${
                       isLowest 
-                        ? 'border-emerald-500 bg-emerald-50/50 shadow-xs' 
-                        : 'border-slate-200 bg-white hover:border-slate-300'
+                        ? 'border-emerald-500/80 bg-emerald-50/40 shadow-premium-sm ring-1 ring-emerald-500/20' 
+                        : 'border-zinc-200/80 bg-white hover:border-zinc-300'
                     }`}
                   >
                     <div className="flex items-center justify-between mb-2">
                       <div className="flex items-center gap-2">
-                        <StoreLogo store={store} size="md" className="rounded-lg shadow-2xs border border-slate-100" />
-                        <span className="font-bold text-sm text-slate-900">
-                          {lang === 'bn' ? `${store.name} (${store.nameBn})` : store.name}
-                        </span>
+                        <StoreLogo store={store} size="md" className="rounded-lg shadow-2xs border border-zinc-100" />
+                        <div>
+                          <span className="font-bold text-sm text-zinc-900 block leading-tight">
+                            {lang === 'bn' ? store.nameBn : store.name}
+                          </span>
+                          <span className="text-[10px] text-zinc-400 font-medium">
+                            {store.name}
+                          </span>
+                        </div>
                         {isLowest && (
-                          <span className="text-[10px] font-black bg-emerald-600 text-white px-2 py-0.5 rounded-full">
+                          <span className="text-[9px] font-black bg-emerald-600 text-white px-2 py-0.5 rounded-full ml-1 uppercase tracking-wider">
                             ★ {t.lowestPrice}
                           </span>
                         )}
                       </div>
                       <div className="text-right">
-                        <span className={`text-base font-black ${isLowest ? 'text-emerald-700' : 'text-slate-900'}`}>
+                        <span className={`text-base font-black font-heading ${isLowest ? 'text-emerald-700' : 'text-zinc-950'}`}>
                           {data.inStock ? `৳${data.price}` : t.outOfStock}
                         </span>
                       </div>
                     </div>
 
-                    <div className="flex flex-wrap items-center justify-between text-xs text-slate-600 pt-2 border-t border-slate-100 gap-2">
+                    <div className="flex flex-wrap items-center justify-between text-xs text-zinc-600 pt-2 border-t border-zinc-100 gap-2">
                       <div className="flex items-center gap-3">
-                        <span className="flex items-center gap-1 text-[11px]">
-                          <Clock className="w-3.5 h-3.5 text-slate-400" />
+                        <span className="flex items-center gap-1 text-[11px] text-zinc-500">
+                          <Clock className="w-3.5 h-3.5 text-zinc-400" />
                           {lang === 'bn' ? store.deliveryTime : store.deliveryTimeEn}
                         </span>
-                        <span className="flex items-center gap-1 text-[11px]">
-                          <Truck className="w-3.5 h-3.5 text-slate-400" />
+                        <span className="flex items-center gap-1 text-[11px] text-zinc-500">
+                          <Truck className="w-3.5 h-3.5 text-zinc-400" />
                           {t.deliveryFee}: ৳{store.baseDeliveryFee}
                         </span>
                       </div>
@@ -132,8 +142,8 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                         rel="noopener noreferrer"
                         className={`text-xs font-bold flex items-center gap-1.5 px-3 py-1.5 rounded-xl border transition shadow-2xs active:scale-95 ${
                           isLowest 
-                            ? 'bg-emerald-600 hover:bg-emerald-700 text-white border-emerald-600 shadow-emerald-600/20' 
-                            : 'bg-white hover:bg-slate-100 text-slate-700 border-slate-200 hover:border-slate-300'
+                            ? 'bg-emerald-600 hover:bg-emerald-700 text-white border-emerald-600' 
+                            : 'bg-white hover:bg-zinc-50 text-zinc-700 border-zinc-200 hover:border-zinc-300'
                         }`}
                       >
                         <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs" />
@@ -158,7 +168,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                 href={product.prices[lowestStoreKey]?.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full bg-slate-900 hover:bg-black text-white font-bold py-3 px-4 rounded-2xl transition flex items-center justify-center gap-2 text-xs shadow-xs"
+                className="w-full bg-zinc-950 hover:bg-black text-white font-bold py-3 px-4 rounded-2xl transition flex items-center justify-center gap-2 text-xs shadow-premium-sm"
               >
                 <StoreLogo store={lowestStore} size="xs" showBorder={false} className="w-4 h-4 rounded-xs shrink-0" />
                 <span>
@@ -175,9 +185,9 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                 onAdd(product);
                 onClose();
               }}
-              className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-2xl transition shadow-md shadow-emerald-600/20 active:scale-98 flex items-center justify-center gap-2 text-xs sm:text-sm"
+              className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-2xl transition shadow-premium-sm active:scale-98 flex items-center justify-center gap-2 text-xs sm:text-sm cursor-pointer"
             >
-              <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5" />
+              <CheckCircle2 className="w-4.5 h-4.5" />
               <span>
                 {quantityInBasket > 0 
                   ? (lang === 'bn' ? `ব্যাগে আরও যোগ করুন (${quantityInBasket}টি আছে)` : `Add More to Bag (${quantityInBasket} in Bag)`) 
