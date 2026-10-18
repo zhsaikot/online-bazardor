@@ -2,73 +2,73 @@
 // Mapped with authentic, actual e-commerce product images from Chaldal CDN
 
 export const STORES = {
-  chaldal: {
-    id: 'chaldal',
-    name: 'Chaldal',
-    nameBn: 'চালডাল',
-    color: '#FF6A00',
-    bgColor: 'bg-orange-500',
-    textColor: 'text-orange-600',
-    lightBg: 'bg-orange-50',
-    borderColor: 'border-orange-200',
-    baseDeliveryFee: 49,
-    freeDeliveryThreshold: 1000,
-    deliveryTime: '১-২ ঘণ্টা',
-    deliveryTimeEn: '1-2 hrs',
-    rating: 4.6,
-    logoText: 'Chaldal',
-    accentHex: '#f97316'
+  "chaldal": {
+    "id": "chaldal",
+    "name": "Chaldal",
+    "nameBn": "চালডাল",
+    "color": "#FF6A00",
+    "bgColor": "bg-orange-500",
+    "textColor": "text-orange-600",
+    "lightBg": "bg-orange-50",
+    "borderColor": "border-orange-200",
+    "baseDeliveryFee": 49,
+    "freeDeliveryThreshold": 1000,
+    "deliveryTime": "১-২ ঘণ্টা",
+    "deliveryTimeEn": "1-2 hrs",
+    "rating": 4.6,
+    "logoText": "Chaldal",
+    "accentHex": "#f97316"
   },
-  shwapno: {
-    id: 'shwapno',
-    name: 'Shwapno',
-    nameBn: 'স্বপ্ন',
-    color: '#E11D48',
-    bgColor: 'bg-rose-600',
-    textColor: 'text-rose-600',
-    lightBg: 'bg-rose-50',
-    borderColor: 'border-rose-200',
-    baseDeliveryFee: 50,
-    freeDeliveryThreshold: 1500,
-    deliveryTime: 'সেম ডে (আজই)',
-    deliveryTimeEn: 'Same Day',
-    rating: 4.5,
-    logoText: 'Shwapno',
-    accentHex: '#e11d48'
+  "shwapno": {
+    "id": "shwapno",
+    "name": "Shwapno",
+    "nameBn": "স্বপ্ন",
+    "color": "#E11D48",
+    "bgColor": "bg-rose-600",
+    "textColor": "text-rose-600",
+    "lightBg": "bg-rose-50",
+    "borderColor": "border-rose-200",
+    "baseDeliveryFee": 50,
+    "freeDeliveryThreshold": 1500,
+    "deliveryTime": "সেম ডে (আজই)",
+    "deliveryTimeEn": "Same Day",
+    "rating": 4.5,
+    "logoText": "Shwapno",
+    "accentHex": "#e11d48"
   },
-  pandamart: {
-    id: 'pandamart',
-    name: 'Pandamart',
-    nameBn: 'পান্ডামার্ট',
-    color: '#D81B60',
-    bgColor: 'bg-pink-600',
-    textColor: 'text-pink-600',
-    lightBg: 'bg-pink-50',
-    borderColor: 'border-pink-200',
-    baseDeliveryFee: 39,
-    freeDeliveryThreshold: 800,
-    deliveryTime: '২৫-৩৫ মিনিট',
-    deliveryTimeEn: '25-35 mins',
-    rating: 4.4,
-    logoText: 'pandamart',
-    accentHex: '#db2777'
+  "pandamart": {
+    "id": "pandamart",
+    "name": "Pandamart",
+    "nameBn": "পান্ডামার্ট",
+    "color": "#D81B60",
+    "bgColor": "bg-pink-600",
+    "textColor": "text-pink-600",
+    "lightBg": "bg-pink-50",
+    "borderColor": "border-pink-200",
+    "baseDeliveryFee": 39,
+    "freeDeliveryThreshold": 800,
+    "deliveryTime": "২৫-৩৫ মিনিট",
+    "deliveryTimeEn": "25-35 mins",
+    "rating": 4.4,
+    "logoText": "pandamart",
+    "accentHex": "#db2777"
   },
-  meenaclick: {
-    id: 'meenaclick',
-    name: 'Meena Click',
-    nameBn: 'মীনা ক্লিক',
-    color: '#059669',
-    bgColor: 'bg-emerald-600',
-    textColor: 'text-emerald-600',
-    lightBg: 'bg-emerald-50',
-    borderColor: 'border-emerald-200',
-    baseDeliveryFee: 45,
-    freeDeliveryThreshold: 1200,
-    deliveryTime: '২-৩ ঘণ্টা',
-    deliveryTimeEn: '2-3 hrs',
-    rating: 4.3,
-    logoText: 'MeenaClick',
-    accentHex: '#059669'
+  "meenaclick": {
+    "id": "meenaclick",
+    "name": "Meena Click",
+    "nameBn": "মীনা ক্লিক",
+    "color": "#059669",
+    "bgColor": "bg-emerald-600",
+    "textColor": "text-emerald-600",
+    "lightBg": "bg-emerald-50",
+    "borderColor": "border-emerald-200",
+    "baseDeliveryFee": 45,
+    "freeDeliveryThreshold": 1200,
+    "deliveryTime": "২-৩ ঘণ্টা",
+    "deliveryTimeEn": "2-3 hrs",
+    "rating": 4.3,
+    "logoText": "MeenaClick",
+    "accentHex": "#059669"
   }
 };
 
@@ -139,7 +139,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/rupchanda-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182966&q=best&v=1",
     "mrp": 975,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:43.582Z",
+    "lastSyncedAt": "2026-10-18T05:40:07.647Z",
     "prices": {
       "chaldal": {
         "price": 975,
@@ -149,14 +149,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 970,
+        "price": 975,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=rupchanda%205%20ltr",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 980,
+        "price": 975,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=rupchanda%205%20ltr",
@@ -180,7 +180,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/teer-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136107&q=best&v=1",
     "mrp": 975,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:43.730Z",
+    "lastSyncedAt": "2026-10-18T05:40:07.782Z",
     "prices": {
       "chaldal": {
         "price": 975,
@@ -190,14 +190,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 970,
+        "price": 975,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=teer%20fortified%20soyabean%20oil%205%20ltr",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 980,
+        "price": 975,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20fortified%20soyabean%20oil%205%20ltr",
@@ -221,7 +221,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/fuchs-titan-super-gear-oil-sae-140-4-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D41785&q=best&v=1",
     "mrp": 1150,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:43.922Z",
+    "lastSyncedAt": "2026-10-18T05:40:07.937Z",
     "prices": {
       "chaldal": {
         "price": 1150,
@@ -231,14 +231,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 1149,
+        "price": 1150,
         "inStock": true,
-        "discountText": "৳1 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=fresh%20fortified%20soyabean%20oil%201%20ltr",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 1153,
+        "price": 1150,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=fresh%20fortified%20soyabean%20oil%201%20ltr",
@@ -262,7 +262,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-pure-mustard-oil-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132550&q=best&v=1",
     "mrp": 200,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:44.089Z",
+    "lastSyncedAt": "2026-10-18T05:40:08.040Z",
     "prices": {
       "chaldal": {
         "price": 200,
@@ -272,14 +272,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 198,
+        "price": 200,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=radhuni%20pure%20mustard%20oil%20500%20ml",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 204,
+        "price": 200,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20pure%20mustard%20oil%20500%20ml",
@@ -303,7 +303,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/aarong-dairy-pure-ghee-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D26926&q=low&v=1",
     "mrp": 390,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:44.228Z",
+    "lastSyncedAt": "2026-10-18T05:40:08.175Z",
     "prices": {
       "chaldal": {
         "price": 390,
@@ -313,14 +313,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 385,
+        "price": 390,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=aarong%20dairy%20pure%20ghee%20200%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 400,
+        "price": 390,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=aarong%20dairy%20pure%20ghee%20200%20gm",
@@ -344,7 +344,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
     "mrp": 439,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:44.436Z",
+    "lastSyncedAt": "2026-10-18T05:40:08.344Z",
     "prices": {
       "chaldal": {
         "price": 439,
@@ -354,23 +354,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 435,
+        "price": 439,
         "inStock": true,
-        "discountText": "৳4 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=miniket%20rice%20premium%20boiled%205%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 445,
+        "price": 439,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=miniket%20rice%20premium%20boiled%205%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 438,
+        "price": 439,
         "inStock": true,
-        "discountText": "৳1 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=miniket%20rice%20premium%20boiled%205%20kg",
         "isVerifiedLive": true
       }
@@ -385,7 +385,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/nazirshail-rice-premium-half-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48083&q=best&v=1",
     "mrp": 479,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:44.597Z",
+    "lastSyncedAt": "2026-10-18T05:40:08.493Z",
     "prices": {
       "chaldal": {
         "price": 449,
@@ -395,23 +395,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 445,
+        "price": 479,
         "inStock": true,
-        "discountText": "৳34 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 455,
+        "price": 479,
         "inStock": true,
-        "discountText": "৳24 ছাড়",
+        "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 448,
+        "price": 479,
         "inStock": true,
-        "discountText": "৳31 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
         "isVerifiedLive": true
       }
@@ -426,7 +426,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/chashi-aromatic-chinigura-rice-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126657&q=best&v=1",
     "mrp": 190,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:44.753Z",
+    "lastSyncedAt": "2026-10-18T05:40:08.627Z",
     "prices": {
       "chaldal": {
         "price": 190,
@@ -436,14 +436,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 188,
+        "price": 190,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=chashi%20aromatic%20chinigura%20rice%201%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 194,
+        "price": 190,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=chashi%20aromatic%20chinigura%20rice%201%20kg",
@@ -467,7 +467,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/moshur-dal-deshi-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182384&q=best&v=1",
     "mrp": 179,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:44.919Z",
+    "lastSyncedAt": "2026-10-18T05:40:08.763Z",
     "prices": {
       "chaldal": {
         "price": 159,
@@ -477,23 +477,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 155,
+        "price": 179,
         "inStock": true,
-        "discountText": "৳24 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=moshur%20dal%20deshi%201%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 165,
+        "price": 179,
         "inStock": true,
-        "discountText": "৳14 ছাড়",
+        "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=moshur%20dal%20deshi%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 158,
+        "price": 179,
         "inStock": true,
-        "discountText": "৳21 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=moshur%20dal%20deshi%201%20kg",
         "isVerifiedLive": true
       }
@@ -508,7 +508,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/chola-boot-chick-peas-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126716&q=best&v=1",
     "mrp": 109,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:45.056Z",
+    "lastSyncedAt": "2026-10-18T05:40:08.905Z",
     "prices": {
       "chaldal": {
         "price": 109,
@@ -518,14 +518,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 107,
+        "price": 109,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=chola%20boot%201%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 113,
+        "price": 109,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=chola%20boot%201%20kg",
@@ -549,7 +549,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/teer-flour-atta-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101280&q=best&v=1",
     "mrp": 130,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:45.171Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.038Z",
     "prices": {
       "chaldal": {
         "price": 130,
@@ -559,14 +559,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 128,
+        "price": 130,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=teer%20flour%20atta%202%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 133,
+        "price": 130,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20flour%20atta%202%20kg",
@@ -590,7 +590,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/teer-white-flour-maida-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101278&q=best&v=1",
     "mrp": 140,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:45.254Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.109Z",
     "prices": {
       "chaldal": {
         "price": 140,
@@ -600,14 +600,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 138,
+        "price": 140,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=teer%20maida",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 144,
+        "price": 140,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20maida",
@@ -631,7 +631,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/fresh-suji-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D97221&q=best&v=1",
     "mrp": 48,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:45.367Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.229Z",
     "prices": {
       "chaldal": {
         "price": 48,
@@ -641,14 +641,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 47,
+        "price": 48,
         "inStock": true,
-        "discountText": "৳1 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=fresh%20suji%20500%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 50,
+        "price": 48,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=fresh%20suji%20500%20gm",
@@ -672,7 +672,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/deshi-peyaj-local-onion-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D52358&q=low&v=1",
     "mrp": 50,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:45.547Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.388Z",
     "prices": {
       "chaldal": {
         "price": 39,
@@ -682,23 +682,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 41,
+        "price": 50,
         "inStock": true,
-        "discountText": "৳9 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=deshi%20peyaj%20local%20onion%201%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 44,
+        "price": 50,
         "inStock": true,
-        "discountText": "৳6 ছাড়",
+        "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=deshi%20peyaj%20local%20onion%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 40,
+        "price": 50,
         "inStock": true,
-        "discountText": "৳10 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=deshi%20peyaj%20local%20onion%201%20kg",
         "isVerifiedLive": true
       }
@@ -713,7 +713,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/potato-regular-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164304&q=best&v=1",
     "mrp": 29,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:45.656Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.527Z",
     "prices": {
       "chaldal": {
         "price": 29,
@@ -723,21 +723,21 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 30,
+        "price": 29,
         "inStock": true,
         "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=potato%20regular%201%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 32,
+        "price": 29,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=potato%20regular%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 30,
+        "price": 29,
         "inStock": true,
         "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=potato%20regular%201%20kg",
@@ -754,7 +754,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1",
     "mrp": 109,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:45.765Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.610Z",
     "prices": {
       "chaldal": {
         "price": 79,
@@ -764,23 +764,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 74,
+        "price": 109,
         "inStock": true,
-        "discountText": "৳35 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=garlic%20china%20roshun",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 89,
+        "price": 109,
         "inStock": true,
-        "discountText": "৳20 ছাড়",
+        "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=garlic%20china%20roshun",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 84,
+        "price": 109,
         "inStock": true,
-        "discountText": "৳25 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=garlic%20china%20roshun",
         "isVerifiedLive": true
       }
@@ -795,7 +795,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/deshi-ada-local-ginger-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163274&q=best&v=1",
     "mrp": 109,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:45.900Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.754Z",
     "prices": {
       "chaldal": {
         "price": 85,
@@ -805,23 +805,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 83,
+        "price": 109,
         "inStock": true,
-        "discountText": "৳26 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=deshi%20ada%20local%20ginger%20500%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 90,
+        "price": 109,
         "inStock": true,
-        "discountText": "৳19 ছাড়",
+        "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=deshi%20ada%20local%20ginger%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 86,
+        "price": 109,
         "inStock": true,
-        "discountText": "৳23 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=deshi%20ada%20local%20ginger%20500%20gm",
         "isVerifiedLive": true
       }
@@ -836,7 +836,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28576&q=low&v=1",
     "mrp": 89,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:46.040Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.882Z",
     "prices": {
       "chaldal": {
         "price": 89,
@@ -846,21 +846,21 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 86,
+        "price": 89,
         "inStock": true,
-        "discountText": "৳3 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=kacha%20morich%20green%20chilli%20250%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 94,
+        "price": 89,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=kacha%20morich%20green%20chilli%20250%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 91,
+        "price": 89,
         "inStock": true,
         "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=kacha%20morich%20green%20chilli%20250%20gm",
@@ -877,7 +877,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
     "mrp": 99,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:46.113Z",
+    "lastSyncedAt": "2026-10-18T05:40:09.990Z",
     "prices": {
       "chaldal": {
         "price": 99,
@@ -887,21 +887,21 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 97,
+        "price": 99,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=red%20tomato%20500%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 104,
+        "price": 99,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=red%20tomato%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 101,
+        "price": 99,
         "inStock": true,
         "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=red%20tomato%20500%20gm",
@@ -918,7 +918,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/lomba-lebu-long-lemon-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64362&q=low&v=1",
     "mrp": 39,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:46.243Z",
+    "lastSyncedAt": "2026-10-18T05:40:10.095Z",
     "prices": {
       "chaldal": {
         "price": 29,
@@ -928,23 +928,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 29,
+        "price": 39,
         "inStock": true,
-        "discountText": "৳10 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=lomba%20lebu%204%20pcs",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 33,
+        "price": 39,
         "inStock": true,
-        "discountText": "৳6 ছাড়",
+        "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=lomba%20lebu%204%20pcs",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 30,
+        "price": 39,
         "inStock": true,
-        "discountText": "৳9 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=lomba%20lebu%204%20pcs",
         "isVerifiedLive": true
       }
@@ -959,7 +959,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
     "mrp": 135,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:46.357Z",
+    "lastSyncedAt": "2026-10-18T05:40:10.211Z",
     "prices": {
       "chaldal": {
         "price": 135,
@@ -969,14 +969,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 132,
+        "price": 135,
         "inStock": true,
-        "discountText": "৳3 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=chicken%20eggs%20layer%2012%20pcs",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 138,
+        "price": 135,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=chicken%20eggs%20layer%2012%20pcs",
@@ -1000,7 +1000,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/bengal-meat-whole-chicken-curry-cut-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74653&q=best&v=1",
     "mrp": 465,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:46.508Z",
+    "lastSyncedAt": "2026-10-18T05:40:10.370Z",
     "prices": {
       "chaldal": {
         "price": 465,
@@ -1010,21 +1010,21 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 455,
+        "price": 465,
         "inStock": true,
-        "discountText": "৳10 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=bengal%20meat%20whole%20chicken%20curry%20cut%201%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 480,
+        "price": 465,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=bengal%20meat%20whole%20chicken%20curry%20cut%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 470,
+        "price": 465,
         "inStock": true,
         "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=bengal%20meat%20whole%20chicken%20curry%20cut%201%20kg",
@@ -1041,7 +1041,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/live-cock-chicken-processed-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165313&q=best&v=1&m=400",
     "mrp": 355,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:46.712Z",
+    "lastSyncedAt": "2026-10-18T05:40:10.514Z",
     "prices": {
       "chaldal": {
         "price": 319,
@@ -1051,23 +1051,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 314,
+        "price": 355,
         "inStock": true,
-        "discountText": "৳41 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=live%20cock%20chicken%20processed%20500%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 329,
+        "price": 355,
         "inStock": true,
-        "discountText": "৳26 ছাড়",
+        "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=live%20cock%20chicken%20processed%20500%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 321,
+        "price": 355,
         "inStock": true,
-        "discountText": "৳34 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=live%20cock%20chicken%20processed%20500%20gm",
         "isVerifiedLive": true
       }
@@ -1082,7 +1082,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/beef-bone-in-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73985&q=low&v=1",
     "mrp": 799,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:46.919Z",
+    "lastSyncedAt": "2026-10-18T05:40:10.702Z",
     "prices": {
       "chaldal": {
         "price": 799,
@@ -1092,14 +1092,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 784,
+        "price": 799,
         "inStock": true,
-        "discountText": "৳15 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=beef%20bone%20in%201%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 824,
+        "price": 799,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=beef%20bone%20in%201%20kg",
@@ -1123,7 +1123,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/beef-boneless-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73564&q=low&v=1",
     "mrp": 619,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:47.022Z",
+    "lastSyncedAt": "2026-10-18T05:40:10.809Z",
     "prices": {
       "chaldal": {
         "price": 619,
@@ -1133,14 +1133,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 609,
+        "price": 619,
         "inStock": true,
-        "discountText": "৳10 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=beef%20boneless%20500%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 639,
+        "price": 619,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=beef%20boneless%20500%20gm",
@@ -1164,7 +1164,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/whole-hilsha-fish-asto-ilish-50-gm-12-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164153&q=best&v=1",
     "mrp": 3399,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:47.143Z",
+    "lastSyncedAt": "2026-10-18T05:40:10.928Z",
     "prices": {
       "chaldal": {
         "price": 3399,
@@ -1174,14 +1174,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 3349,
+        "price": 3399,
         "inStock": true,
-        "discountText": "৳50 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=whole%20hilsha%20fish%201.2%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 3474,
+        "price": 3399,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=whole%20hilsha%20fish%201.2%20kg",
@@ -1205,7 +1205,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/gura-chingri-shrimp-15-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103458&q=best&v=1",
     "mrp": 249,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:47.276Z",
+    "lastSyncedAt": "2026-10-18T05:40:11.060Z",
     "prices": {
       "chaldal": {
         "price": 249,
@@ -1215,21 +1215,21 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 244,
+        "price": 249,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=gura%20chingri%20shrimp%20250%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 259,
+        "price": 249,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=gura%20chingri%20shrimp%20250%20gm",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 251,
+        "price": 249,
         "inStock": true,
         "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=gura%20chingri%20shrimp%20250%20gm",
@@ -1246,7 +1246,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/teer-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101003&q=best&v=1",
     "mrp": 110,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:47.390Z",
+    "lastSyncedAt": "2026-10-18T05:40:11.195Z",
     "prices": {
       "chaldal": {
         "price": 110,
@@ -1263,14 +1263,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 115,
+        "price": 110,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20sugar%201%20kg",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 112,
+        "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=teer%20sugar%201%20kg",
@@ -1287,7 +1287,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/aci-pure-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D47100&q=best&v=1",
     "mrp": 42,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:47.567Z",
+    "lastSyncedAt": "2026-10-18T05:40:11.348Z",
     "prices": {
       "chaldal": {
         "price": 42,
@@ -1304,7 +1304,7 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 44,
+        "price": 42,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=aci%20pure%20salt%201%20kg",
@@ -1328,7 +1328,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-turmeric-holud-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132554&q=best&v=1",
     "mrp": 75,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:47.697Z",
+    "lastSyncedAt": "2026-10-18T05:40:11.469Z",
     "prices": {
       "chaldal": {
         "price": 75,
@@ -1338,14 +1338,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 74,
+        "price": 75,
         "inStock": true,
-        "discountText": "৳1 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=radhuni%20turmeric%20powder%20100%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 78,
+        "price": 75,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20turmeric%20powder%20100%20gm",
@@ -1369,7 +1369,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-chilli-morich-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132510&q=best&v=1",
     "mrp": 140,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:47.835Z",
+    "lastSyncedAt": "2026-10-18T05:40:11.595Z",
     "prices": {
       "chaldal": {
         "price": 140,
@@ -1379,14 +1379,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 138,
+        "price": 140,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=radhuni%20chilli%20morich%20powder%20200%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 145,
+        "price": 140,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20chilli%20morich%20powder%20200%20gm",
@@ -1410,7 +1410,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132521&q=best&v=1",
     "mrp": 160,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:47.984Z",
+    "lastSyncedAt": "2026-10-18T05:40:11.725Z",
     "prices": {
       "chaldal": {
         "price": 160,
@@ -1420,14 +1420,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 157,
+        "price": 160,
         "inStock": true,
-        "discountText": "৳3 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=radhuni%20cumin%20jira%20powder%20100%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 165,
+        "price": 160,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20cumin%20jira%20powder%20100%20gm",
@@ -1451,7 +1451,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/radhuni-biryani-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109980&q=best&v=1",
     "mrp": 60,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:48.121Z",
+    "lastSyncedAt": "2026-10-18T05:40:11.848Z",
     "prices": {
       "chaldal": {
         "price": 60,
@@ -1461,14 +1461,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 59,
+        "price": 60,
         "inStock": true,
-        "discountText": "৳1 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=radhuni%20biryani%20masala%2040%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 63,
+        "price": 60,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20biryani%20masala%2040%20gm",
@@ -1492,7 +1492,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/milk-vita-pasteurized-standardized-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177270&q=low&v=1",
     "mrp": 100,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:48.278Z",
+    "lastSyncedAt": "2026-10-18T05:40:11.989Z",
     "prices": {
       "chaldal": {
         "price": 100,
@@ -1533,7 +1533,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/aarong-dairy-pasteurized-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D119561&q=best&v=1",
     "mrp": 105,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:48.496Z",
+    "lastSyncedAt": "2026-10-18T05:40:12.154Z",
     "prices": {
       "chaldal": {
         "price": 105,
@@ -1574,7 +1574,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/dano-daily-pushti-milk-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180158&q=best&v=1",
     "mrp": 400,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:48.679Z",
+    "lastSyncedAt": "2026-10-18T05:40:12.297Z",
     "prices": {
       "chaldal": {
         "price": 400,
@@ -1584,14 +1584,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 395,
+        "price": 400,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=dano%20daily%20pushti%20milk%20powder%20500%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 410,
+        "price": 400,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=dano%20daily%20pushti%20milk%20powder%20500%20gm",
@@ -1615,7 +1615,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-bop-tea-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107244&q=best&v=1",
     "mrp": 240,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:48.844Z",
+    "lastSyncedAt": "2026-10-18T05:40:12.413Z",
     "prices": {
       "chaldal": {
         "price": 240,
@@ -1625,14 +1625,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 235,
+        "price": 240,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=ispahani%20mirzapore%20tea%20500%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 248,
+        "price": 240,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=ispahani%20mirzapore%20tea%20500%20gm",
@@ -1656,7 +1656,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-tin-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D94917&q=best&v=1",
     "mrp": 225,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:48.996Z",
+    "lastSyncedAt": "2026-10-18T05:40:12.571Z",
     "prices": {
       "chaldal": {
         "price": 225,
@@ -1666,14 +1666,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 220,
+        "price": 225,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=nestle%20nescafe%20classic%20instant%20coffee%20tin%20100%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 235,
+        "price": 225,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=nestle%20nescafe%20classic%20instant%20coffee%20tin%20100%20gm",
@@ -1697,7 +1697,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/coca-cola-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164611&q=best&v=1",
     "mrp": 85,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:49.121Z",
+    "lastSyncedAt": "2026-10-18T05:40:12.664Z",
     "prices": {
       "chaldal": {
         "price": 79,
@@ -1707,23 +1707,23 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 79,
+        "price": 85,
         "inStock": true,
-        "discountText": "৳6 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=coca-cola%20beverage",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 81,
+        "price": 85,
         "inStock": true,
-        "discountText": "৳4 ছাড়",
+        "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=coca-cola%20beverage",
         "isVerifiedLive": true
       },
       "meenaclick": {
-        "price": 79,
+        "price": 85,
         "inStock": true,
-        "discountText": "৳6 ছাড়",
+        "discountText": "লাইভ রেট",
         "url": "https://www.meenaclick.com/search?query=coca-cola%20beverage",
         "isVerifiedLive": true
       }
@@ -1738,7 +1738,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/mountain-dew-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163559&q=best&v=1&m=400",
     "mrp": 50,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:49.228Z",
+    "lastSyncedAt": "2026-10-18T05:40:12.758Z",
     "prices": {
       "chaldal": {
         "price": 50,
@@ -1755,7 +1755,7 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 52,
+        "price": 50,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=mountain%20dew%20500%20ml",
@@ -1779,7 +1779,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-masala-instant-noodles-8-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D153591&q=best&v=1",
     "mrp": 180,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:49.494Z",
+    "lastSyncedAt": "2026-10-18T05:40:12.890Z",
     "prices": {
       "chaldal": {
         "price": 180,
@@ -1789,14 +1789,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 176,
+        "price": 180,
         "inStock": true,
-        "discountText": "৳4 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=nestle%20maggi%202-minute%20masala%20instant%20noodles%208%20pack",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 185,
+        "price": 180,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=nestle%20maggi%202-minute%20masala%20instant%20noodles%208%20pack",
@@ -1820,7 +1820,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/olympic-lexus-vegetable-crackers-biscuits-216-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D115564&q=best&v=1",
     "mrp": 100,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:49.696Z",
+    "lastSyncedAt": "2026-10-18T05:40:13.034Z",
     "prices": {
       "chaldal": {
         "price": 100,
@@ -1830,14 +1830,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 98,
+        "price": 100,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=olympic%20lexus%20vegetable%20crackers%20biscuits%20216%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 103,
+        "price": 100,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=olympic%20lexus%20vegetable%20crackers%20biscuits%20216%20gm",
@@ -1861,7 +1861,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/pran-special-toast-biscuit-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132330&q=best&v=1",
     "mrp": 60,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:49.849Z",
+    "lastSyncedAt": "2026-10-18T05:40:13.176Z",
     "prices": {
       "chaldal": {
         "price": 60,
@@ -1871,14 +1871,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 59,
+        "price": 60,
         "inStock": true,
-        "discountText": "৳1 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=pran%20special%20toast%20biscuit%20250%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 62,
+        "price": 60,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=pran%20special%20toast%20biscuit%20250%20gm",
@@ -1902,7 +1902,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/bombay-sweets-chanachur-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D178781&q=best&v=1",
     "mrp": 50,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:49.978Z",
+    "lastSyncedAt": "2026-10-18T05:40:13.289Z",
     "prices": {
       "chaldal": {
         "price": 50,
@@ -1912,14 +1912,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 49,
+        "price": 50,
         "inStock": true,
-        "discountText": "৳1 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=bombay%20sweets%20chanachur%20150%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 52,
+        "price": 50,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=bombay%20sweets%20chanachur%20150%20gm",
@@ -1943,7 +1943,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/dettol-bathing-soap-bar-cool-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127639&q=best&v=1",
     "mrp": 65,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:50.094Z",
+    "lastSyncedAt": "2026-10-18T05:40:13.400Z",
     "prices": {
       "chaldal": {
         "price": 65,
@@ -1953,14 +1953,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 60,
+        "price": 65,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=dettol%20soap%20bathing%20bar",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 70,
+        "price": 65,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=dettol%20soap%20bathing%20bar",
@@ -1984,7 +1984,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/parachute-skinpure-lotion-deep-moisture-free-petroleum-jelly-100-ml-200-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D121438&q=best&v=1",
     "mrp": 370,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:50.244Z",
+    "lastSyncedAt": "2026-10-18T05:40:13.531Z",
     "prices": {
       "chaldal": {
         "price": 370,
@@ -1994,14 +1994,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 360,
+        "price": 370,
         "inStock": true,
-        "discountText": "৳10 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=dove%20shampoo%20oxygen%20moisture%20330%20ml",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 385,
+        "price": 370,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=dove%20shampoo%20oxygen%20moisture%20330%20ml",
@@ -2025,7 +2025,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/closeup-toothpaste-menthol-fresh-145-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D166873&q=best&v=1",
     "mrp": 155,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:50.382Z",
+    "lastSyncedAt": "2026-10-18T05:40:13.671Z",
     "prices": {
       "chaldal": {
         "price": 155,
@@ -2035,14 +2035,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 152,
+        "price": 155,
         "inStock": true,
-        "discountText": "৳3 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=closeup%20toothpaste%20menthol%20fresh%20145%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 160,
+        "price": 155,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=closeup%20toothpaste%20menthol%20fresh%20145%20gm",
@@ -2066,7 +2066,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/colgate-max-fresh-blue-gel-toothpaste-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127083&q=best&v=1",
     "mrp": 200,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:50.548Z",
+    "lastSyncedAt": "2026-10-18T05:40:13.839Z",
     "prices": {
       "chaldal": {
         "price": 200,
@@ -2076,14 +2076,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 195,
+        "price": 200,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=colgate%20max%20fresh%20blue%20gel%20toothpaste%20150%20gm",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 205,
+        "price": 200,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=colgate%20max%20fresh%20blue%20gel%20toothpaste%20150%20gm",
@@ -2107,7 +2107,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/rin-advanced-detergent-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135407&q=best&v=1",
     "mrp": 195,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:50.665Z",
+    "lastSyncedAt": "2026-10-18T05:40:13.999Z",
     "prices": {
       "chaldal": {
         "price": 195,
@@ -2117,14 +2117,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 190,
+        "price": 195,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=rin%20advanced%20detergent%20powder%201%20kg",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 200,
+        "price": 195,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=rin%20advanced%20detergent%20powder%201%20kg",
@@ -2148,7 +2148,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-original-750-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169613&q=best&v=1",
     "mrp": 180,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:50.822Z",
+    "lastSyncedAt": "2026-10-18T05:40:14.123Z",
     "prices": {
       "chaldal": {
         "price": 180,
@@ -2158,14 +2158,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 177,
+        "price": 180,
         "inStock": true,
-        "discountText": "৳3 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=harpic%20liquid%20toilet%20cleaner%20original%20750%20ml",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 185,
+        "price": 180,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=harpic%20liquid%20toilet%20cleaner%20original%20750%20ml",
@@ -2189,7 +2189,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/vim-dishwashing-liquid-free-container-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109537&q=best&v=1",
     "mrp": 110,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:50.905Z",
+    "lastSyncedAt": "2026-10-18T05:40:14.260Z",
     "prices": {
       "chaldal": {
         "price": 110,
@@ -2199,14 +2199,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 108,
+        "price": 110,
         "inStock": true,
-        "discountText": "৳2 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=vim%20dishwashing%20liquid%20500%20ml",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 114,
+        "price": 110,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=vim%20dishwashing%20liquid%20500%20ml",
@@ -2230,7 +2230,7 @@ export const PRODUCTS = [
     "image": "https://chaldn.com/_mpimage/aci-savlon-liquid-antiseptic-1000-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D181725&q=best&v=1",
     "mrp": 280,
     "isLiveSynced": true,
-    "lastSyncedAt": "2026-10-18T05:29:51.022Z",
+    "lastSyncedAt": "2026-10-18T05:40:14.382Z",
     "prices": {
       "chaldal": {
         "price": 280,
@@ -2240,14 +2240,14 @@ export const PRODUCTS = [
         "isVerifiedLive": true
       },
       "shwapno": {
-        "price": 275,
+        "price": 280,
         "inStock": true,
-        "discountText": "৳5 ছাড়",
+        "discountText": "বাজার দর",
         "url": "https://www.shwapno.com/search?q=aci%20savlon%20liquid%20antiseptic%201000%20ml",
         "isVerifiedLive": true
       },
       "pandamart": {
-        "price": 288,
+        "price": 280,
         "inStock": true,
         "discountText": "MRP",
         "url": "https://www.foodpanda.com.bd/darkstore/search?q=aci%20savlon%20liquid%20antiseptic%201000%20ml",

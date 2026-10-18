@@ -23,7 +23,10 @@ export default function ProductCard({
     }
   });
 
-  const lowestStore = lowestStoreKey ? STORES[lowestStoreKey] : null;
+  const inStockEntries = Object.entries(product.prices).filter(([_, d]) => d.inStock);
+  const allSamePrice = inStockEntries.length > 0 && inStockEntries.every(([_, d]) => d.price === minPrice);
+  const hasRealLowest = !allSamePrice;
+  const lowestStore = (hasRealLowest && lowestStoreKey) ? STORES[lowestStoreKey] : null;
   const savingsVsMrp = product.mrp ? Math.max(0, product.mrp - minPrice) : 0;
 
   return (
@@ -40,7 +43,7 @@ export default function ProductCard({
             className="w-full h-full object-contain group-hover:scale-105 transition duration-300"
             loading="lazy"
           />
-          {savingsVsMrp > 0 && (
+          {hasRealLowest && savingsVsMrp > 0 && (
             <span className="absolute top-1.5 left-1.5 sm:top-2 sm:left-2 bg-rose-600 text-white text-[9px] sm:text-[10px] font-bold px-1.5 sm:px-2 py-0.5 rounded-full shadow-xs">
               ৳{savingsVsMrp} {t.savingsVsMrp}
             </span>
@@ -63,20 +66,20 @@ export default function ProductCard({
         <div className="bg-emerald-50/90 border border-emerald-200/80 rounded-xl p-2 my-2">
           <div className="flex items-baseline justify-between gap-1">
             <span className="text-[10px] sm:text-[11px] font-bold text-emerald-800 shrink-0">
-              {t.lowestPrice}:
+              {hasRealLowest ? `${t.lowestPrice}:` : (lang === 'bn' ? 'বর্তমান দর:' : 'Market Price:')}
             </span>
             <div className="text-right flex items-baseline gap-1">
               <span className="text-base sm:text-lg font-black text-emerald-700">
                 ৳{minPrice}
               </span>
-              {product.mrp && product.mrp > minPrice && (
+              {hasRealLowest && product.mrp && product.mrp > minPrice && (
                 <span className="text-[10px] sm:text-xs text-slate-400 line-through font-medium">
                   ৳{product.mrp}
                 </span>
               )}
             </div>
           </div>
-          {lowestStore && (
+          {hasRealLowest && lowestStore ? (
             <div className="flex items-center justify-between text-[10px] sm:text-[11px] text-emerald-900 mt-1 pt-1 border-t border-emerald-200/50">
               <span className="text-slate-500 font-medium">{t.bestStore}:</span>
               <a
@@ -90,6 +93,11 @@ export default function ProductCard({
                 <span className="truncate">{lowestStore.name}</span>
                 <ExternalLink className="w-2.5 h-2.5 text-emerald-600 shrink-0 group-hover/lowest:translate-x-0.5 transition" />
               </a>
+            </div>
+          ) : (
+            <div className="flex items-center justify-between text-[10px] sm:text-[11px] text-slate-600 mt-1 pt-1 border-t border-emerald-200/50">
+              <span className="text-slate-400 font-medium">{lang === 'bn' ? 'স্ট্যাটাস:' : 'Status:'}</span>
+              <span className="font-semibold text-emerald-800">{lang === 'bn' ? 'সব স্টোরে নির্ধারিত দর' : 'Standard store rate'}</span>
             </div>
           )}
         </div>
@@ -105,7 +113,7 @@ export default function ProductCard({
           </div>
           {Object.entries(product.prices).map(([storeKey, data]) => {
             const store = STORES[storeKey];
-            const isLowest = storeKey === lowestStoreKey;
+            const isLowest = hasRealLowest && storeKey === lowestStoreKey;
             return (
               <a 
                 key={storeKey} 

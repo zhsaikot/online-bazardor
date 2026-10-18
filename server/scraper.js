@@ -13,9 +13,6 @@ export const PRODUCT_QUERIES = [
     category: 'oil',
     unit: '৫ লিটার বোতল',
     defaultMrp: 985,
-    shwapnoDiff: -5,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'oil-teer-5l',
@@ -23,9 +20,6 @@ export const PRODUCT_QUERIES = [
     category: 'oil',
     unit: '৫ লিটার বোতল',
     defaultMrp: 980,
-    shwapnoDiff: -5,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'oil-fresh-1l',
@@ -33,9 +27,6 @@ export const PRODUCT_QUERIES = [
     category: 'oil',
     unit: '১ লিটার বোতল',
     defaultMrp: 205,
-    shwapnoDiff: -1,
-    pandamartDiff: 3,
-    meenaclickDiff: 0
   },
   {
     id: 'oil-radhuni-mustard-500ml',
@@ -43,9 +34,6 @@ export const PRODUCT_QUERIES = [
     category: 'oil',
     unit: '৫০০ মিলি বোতল',
     defaultMrp: 200,
-    shwapnoDiff: -2,
-    pandamartDiff: 4,
-    meenaclickDiff: 0
   },
   {
     id: 'oil-aarong-ghee-200g',
@@ -53,9 +41,6 @@ export const PRODUCT_QUERIES = [
     category: 'oil',
     unit: '২০০ গ্রাম জার',
     defaultMrp: 390,
-    shwapnoDiff: -5,
-    pandamartDiff: 10,
-    meenaclickDiff: 0
   },
 
   // 2. Rice, Pulses & Grains (চাল, ডাল ও আটা)
@@ -65,9 +50,6 @@ export const PRODUCT_QUERIES = [
     category: 'rice-pulses',
     unit: '৫ কেজি ব্যাগ',
     defaultMrp: 460,
-    shwapnoDiff: -4,
-    pandamartDiff: 6,
-    meenaclickDiff: -1
   },
   {
     id: 'rice-nazirshail-5kg',
@@ -75,9 +57,6 @@ export const PRODUCT_QUERIES = [
     category: 'rice-pulses',
     unit: '৫ কেজি ব্যাগ',
     defaultMrp: 470,
-    shwapnoDiff: -4,
-    pandamartDiff: 6,
-    meenaclickDiff: -1
   },
   {
     id: 'rice-chinigura-1kg',
@@ -85,9 +64,6 @@ export const PRODUCT_QUERIES = [
     category: 'rice-pulses',
     unit: '১ কেজি প্যাকেট',
     defaultMrp: 190,
-    shwapnoDiff: -2,
-    pandamartDiff: 4,
-    meenaclickDiff: 0
   },
   {
     id: 'daal-mosur-desi-1kg',
@@ -95,9 +71,6 @@ export const PRODUCT_QUERIES = [
     category: 'rice-pulses',
     unit: '১ কেজি প্যাক',
     defaultMrp: 179,
-    shwapnoDiff: -4,
-    pandamartDiff: 6,
-    meenaclickDiff: -1
   },
   {
     id: 'daal-chola-1kg',
@@ -105,9 +78,6 @@ export const PRODUCT_QUERIES = [
     category: 'rice-pulses',
     unit: '১ কেজি প্যাক',
     defaultMrp: 110,
-    shwapnoDiff: -2,
-    pandamartDiff: 4,
-    meenaclickDiff: 0
   },
   {
     id: 'grain-teer-atta-2kg',
@@ -115,9 +85,6 @@ export const PRODUCT_QUERIES = [
     category: 'rice-pulses',
     unit: '২ কেজি প্যাকেট',
     defaultMrp: 130,
-    shwapnoDiff: -2,
-    pandamartDiff: 3,
-    meenaclickDiff: 0
   },
   {
     id: 'grain-teer-maida-2kg',
@@ -125,9 +92,6 @@ export const PRODUCT_QUERIES = [
     category: 'rice-pulses',
     unit: '২ কেজি প্যাকেট',
     defaultMrp: 140,
-    shwapnoDiff: -2,
-    pandamartDiff: 4,
-    meenaclickDiff: 0
   },
   {
     id: 'grain-fresh-suji-500g',
@@ -135,9 +99,6 @@ export const PRODUCT_QUERIES = [
     category: 'rice-pulses',
     unit: '৫০০ গ্রাম প্যাকেট',
     defaultMrp: 50,
-    shwapnoDiff: -1,
-    pandamartDiff: 2,
-    meenaclickDiff: 0
   },
 
   // 3. Fresh Produce & Vegetables (পেঁয়াজ ও কাঁচাবাজার)
@@ -147,9 +108,6 @@ export const PRODUCT_QUERIES = [
     category: 'vegetables',
     unit: '১ কেজি',
     defaultMrp: 50,
-    shwapnoDiff: 2,
-    pandamartDiff: 5,
-    meenaclickDiff: 1
   },
   {
     id: 'veg-potato-gol-1kg',
@@ -157,9 +115,6 @@ export const PRODUCT_QUERIES = [
     category: 'vegetables',
     unit: '১ কেজি',
     defaultMrp: 35,
-    shwapnoDiff: 1,
-    pandamartDiff: 3,
-    meenaclickDiff: 1
   },
   {
     id: 'veg-garlic-china-1kg',
@@ -167,9 +122,6 @@ export const PRODUCT_QUERIES = [
     category: 'vegetables',
     unit: '১ কেজি',
     defaultMrp: 240,
-    shwapnoDiff: -5,
-    pandamartDiff: 10,
-    meenaclickDiff: 5
   },
   {
     id: 'veg-ginger-desi-500g',
@@ -177,9 +129,6 @@ export const PRODUCT_QUERIES = [
     category: 'vegetables',
     unit: '৫০০ গ্রাম',
     defaultMrp: 85,
-    shwapnoDiff: -2,
-    pandamartDiff: 5,
-    meenaclickDiff: 1
   },
   {
     id: 'veg-green-chilli-250g',
@@ -187,9 +136,6 @@ export const PRODUCT_QUERIES = [
     category: 'vegetables',
     unit: '২৫০ গ্রাম',
     defaultMrp: 90,
-    shwapnoDiff: -3,
-    pandamartDiff: 5,
-    meenaclickDiff: 2
   },
   {
     id: 'veg-tomato-red-500g',
@@ -197,9 +143,6 @@ export const PRODUCT_QUERIES = [
     category: 'vegetables',
     unit: '৫০০ গ্রাম',
     defaultMrp: 100,
-    shwapnoDiff: -2,
-    pandamartDiff: 5,
-    meenaclickDiff: 2
   },
   {
     id: 'veg-lemon-4pcs',
@@ -207,9 +150,6 @@ export const PRODUCT_QUERIES = [
     category: 'vegetables',
     unit: '৪টি',
     defaultMrp: 30,
-    shwapnoDiff: 0,
-    pandamartDiff: 4,
-    meenaclickDiff: 1
   },
 
   // 4. Meat, Poultry & Fish (ডিম, মাংস ও মাছ)
@@ -219,9 +159,6 @@ export const PRODUCT_QUERIES = [
     category: 'egg-poultry',
     unit: '১ ডজন (১২টি)',
     defaultMrp: 160,
-    shwapnoDiff: -3,
-    pandamartDiff: 3,
-    meenaclickDiff: 0
   },
   {
     id: 'poultry-broiler-1kg',
@@ -229,9 +166,6 @@ export const PRODUCT_QUERIES = [
     category: 'egg-poultry',
     unit: '১ কেজি নেট',
     defaultMrp: 465,
-    shwapnoDiff: -10,
-    pandamartDiff: 15,
-    meenaclickDiff: 5
   },
   {
     id: 'poultry-sonali-500g',
@@ -239,9 +173,6 @@ export const PRODUCT_QUERIES = [
     category: 'egg-poultry',
     unit: '৫০০ গ্রাম প্যাকেট',
     defaultMrp: 320,
-    shwapnoDiff: -5,
-    pandamartDiff: 10,
-    meenaclickDiff: 2
   },
   {
     id: 'meat-beef-bone-1kg',
@@ -249,9 +180,6 @@ export const PRODUCT_QUERIES = [
     category: 'egg-poultry',
     unit: '১ কেজি (হাড়সহ)',
     defaultMrp: 799,
-    shwapnoDiff: -15,
-    pandamartDiff: 25,
-    meenaclickDiff: 0
   },
   {
     id: 'meat-beef-boneless-500g',
@@ -259,9 +187,6 @@ export const PRODUCT_QUERIES = [
     category: 'egg-poultry',
     unit: '৫০০ গ্রাম (হাড় ছাড়া)',
     defaultMrp: 619,
-    shwapnoDiff: -10,
-    pandamartDiff: 20,
-    meenaclickDiff: 0
   },
   {
     id: 'fish-hilsha-1kg',
@@ -269,9 +194,6 @@ export const PRODUCT_QUERIES = [
     category: 'egg-poultry',
     unit: '১.২ কেজি (আস্ত ইলিশ)',
     defaultMrp: 3399,
-    shwapnoDiff: -50,
-    pandamartDiff: 75,
-    meenaclickDiff: 0
   },
   {
     id: 'fish-shrimp-250g',
@@ -279,9 +201,6 @@ export const PRODUCT_QUERIES = [
     category: 'egg-poultry',
     unit: '২৫০ গ্রাম',
     defaultMrp: 249,
-    shwapnoDiff: -5,
-    pandamartDiff: 10,
-    meenaclickDiff: 2
   },
 
   // 5. Spices, Salt & Sugar (মশলা, লবণ ও চিনি)
@@ -291,9 +210,6 @@ export const PRODUCT_QUERIES = [
     category: 'spices',
     unit: '১ কেজি প্যাক',
     defaultMrp: 120,
-    shwapnoDiff: 0,
-    pandamartDiff: 5,
-    meenaclickDiff: 2
   },
   {
     id: 'salt-aci-pure-1kg',
@@ -301,9 +217,6 @@ export const PRODUCT_QUERIES = [
     category: 'spices',
     unit: '১ কেজি প্যাকেট',
     defaultMrp: 42,
-    shwapnoDiff: 0,
-    pandamartDiff: 2,
-    meenaclickDiff: 0
   },
   {
     id: 'spice-radhuni-turmeric-100g',
@@ -311,9 +224,6 @@ export const PRODUCT_QUERIES = [
     category: 'spices',
     unit: '১০০ গ্রাম প্যাক',
     defaultMrp: 80,
-    shwapnoDiff: -1,
-    pandamartDiff: 3,
-    meenaclickDiff: 0
   },
   {
     id: 'spice-radhuni-chilli-200g',
@@ -321,9 +231,6 @@ export const PRODUCT_QUERIES = [
     category: 'spices',
     unit: '২০০ গ্রাম প্যাক',
     defaultMrp: 140,
-    shwapnoDiff: -2,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'spice-radhuni-cumin-100g',
@@ -331,9 +238,6 @@ export const PRODUCT_QUERIES = [
     category: 'spices',
     unit: '১০০ গ্রাম প্যাক',
     defaultMrp: 160,
-    shwapnoDiff: -3,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'spice-radhuni-biryani-40g',
@@ -341,9 +245,6 @@ export const PRODUCT_QUERIES = [
     category: 'spices',
     unit: '৪০ গ্রাম প্যাকেট',
     defaultMrp: 60,
-    shwapnoDiff: -1,
-    pandamartDiff: 3,
-    meenaclickDiff: 0
   },
 
   // 6. Dairy, Tea & Beverages (দুধ, চা ও পানীয়)
@@ -353,9 +254,6 @@ export const PRODUCT_QUERIES = [
     category: 'dairy-beverage',
     unit: '১ লিটার পলি প্যাক',
     defaultMrp: 100,
-    shwapnoDiff: 0,
-    pandamartDiff: 0,
-    meenaclickDiff: 0
   },
   {
     id: 'milk-aarong-liquid-1l',
@@ -363,9 +261,6 @@ export const PRODUCT_QUERIES = [
     category: 'dairy-beverage',
     unit: '১ লিটার পলি প্যাক',
     defaultMrp: 105,
-    shwapnoDiff: 0,
-    pandamartDiff: 0,
-    meenaclickDiff: 0
   },
   {
     id: 'milk-dano-powder-500g',
@@ -373,9 +268,6 @@ export const PRODUCT_QUERIES = [
     category: 'dairy-beverage',
     unit: '৫০০ গ্রাম প্যাকেট',
     defaultMrp: 400,
-    shwapnoDiff: -5,
-    pandamartDiff: 10,
-    meenaclickDiff: 0
   },
   {
     id: 'tea-ispahani-500g',
@@ -383,9 +275,6 @@ export const PRODUCT_QUERIES = [
     category: 'dairy-beverage',
     unit: '৫০০ গ্রাম প্যাকেট',
     defaultMrp: 275,
-    shwapnoDiff: -5,
-    pandamartDiff: 8,
-    meenaclickDiff: 0
   },
   {
     id: 'coffee-nescafe-classic-100g',
@@ -393,9 +282,6 @@ export const PRODUCT_QUERIES = [
     category: 'dairy-beverage',
     unit: '১০০ গ্রাম জার/টিন',
     defaultMrp: 225,
-    shwapnoDiff: -5,
-    pandamartDiff: 10,
-    meenaclickDiff: 0
   },
   {
     id: 'beverage-coke-1l',
@@ -403,9 +289,6 @@ export const PRODUCT_QUERIES = [
     category: 'dairy-beverage',
     unit: '১ লিটার বোতল',
     defaultMrp: 79,
-    shwapnoDiff: 0,
-    pandamartDiff: 2,
-    meenaclickDiff: 0
   },
   {
     id: 'beverage-dew-500ml',
@@ -413,9 +296,6 @@ export const PRODUCT_QUERIES = [
     category: 'dairy-beverage',
     unit: '৫০০ মিলি বোতল',
     defaultMrp: 50,
-    shwapnoDiff: 0,
-    pandamartDiff: 2,
-    meenaclickDiff: 0
   },
 
   // 7. Snacks & Bakery (বিস্কুট ও স্ন্যাক্স)
@@ -425,9 +305,6 @@ export const PRODUCT_QUERIES = [
     category: 'snacks-bakery',
     unit: '৮ প্যাক ফ্যামিলি প্যাক',
     defaultMrp: 180,
-    shwapnoDiff: -4,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'biscuit-olympic-lexus-216g',
@@ -435,9 +312,6 @@ export const PRODUCT_QUERIES = [
     category: 'snacks-bakery',
     unit: '২১৬ গ্রাম প্যাকেট',
     defaultMrp: 100,
-    shwapnoDiff: -2,
-    pandamartDiff: 3,
-    meenaclickDiff: 0
   },
   {
     id: 'biscuit-pran-toast-250g',
@@ -445,9 +319,6 @@ export const PRODUCT_QUERIES = [
     category: 'snacks-bakery',
     unit: '২৫০ গ্রাম প্যাকেট',
     defaultMrp: 60,
-    shwapnoDiff: -1,
-    pandamartDiff: 2,
-    meenaclickDiff: 0
   },
   {
     id: 'snack-bombay-chanachur-150g',
@@ -455,9 +326,6 @@ export const PRODUCT_QUERIES = [
     category: 'snacks-bakery',
     unit: '১৫০ গ্রাম প্যাকেট',
     defaultMrp: 50,
-    shwapnoDiff: -1,
-    pandamartDiff: 2,
-    meenaclickDiff: 0
   },
 
   // 8. Personal Care & Cleaning (সাবান ও ক্লিনিং)
@@ -467,9 +335,6 @@ export const PRODUCT_QUERIES = [
     category: 'hygiene',
     unit: '৩ x ৭৫ গ্রাম',
     defaultMrp: 205,
-    shwapnoDiff: -5,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'shampoo-dove-330ml',
@@ -477,9 +342,6 @@ export const PRODUCT_QUERIES = [
     category: 'hygiene',
     unit: '৩৩০ মিলি বোতল',
     defaultMrp: 470,
-    shwapnoDiff: -10,
-    pandamartDiff: 15,
-    meenaclickDiff: 0
   },
   {
     id: 'dental-closeup-145g',
@@ -487,9 +349,6 @@ export const PRODUCT_QUERIES = [
     category: 'hygiene',
     unit: '১৪৫ গ্রাম প্যাক',
     defaultMrp: 155,
-    shwapnoDiff: -3,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'dental-colgate-150g',
@@ -497,9 +356,6 @@ export const PRODUCT_QUERIES = [
     category: 'hygiene',
     unit: '১৫০ গ্রাম প্যাক',
     defaultMrp: 200,
-    shwapnoDiff: -5,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'detergent-rin-power-1kg',
@@ -507,9 +363,6 @@ export const PRODUCT_QUERIES = [
     category: 'hygiene',
     unit: '১ কেজি পলি প্যাক',
     defaultMrp: 210,
-    shwapnoDiff: -5,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'cleaner-harpic-toilet-750ml',
@@ -517,9 +370,6 @@ export const PRODUCT_QUERIES = [
     category: 'hygiene',
     unit: '৭৫০ মিলি বোতল',
     defaultMrp: 180,
-    shwapnoDiff: -3,
-    pandamartDiff: 5,
-    meenaclickDiff: 0
   },
   {
     id: 'cleaner-vim-liquid-500ml',
@@ -527,9 +377,6 @@ export const PRODUCT_QUERIES = [
     category: 'hygiene',
     unit: '৫০০ মিলি বোতল',
     defaultMrp: 110,
-    shwapnoDiff: -2,
-    pandamartDiff: 4,
-    meenaclickDiff: 0
   },
   {
     id: 'hygiene-savlon-liquid-1000ml',
@@ -537,9 +384,6 @@ export const PRODUCT_QUERIES = [
     category: 'hygiene',
     unit: '১০০০ মিলি বোতল',
     defaultMrp: 280,
-    shwapnoDiff: -5,
-    pandamartDiff: 8,
-    meenaclickDiff: 0
   }
 ];
 
@@ -594,9 +438,9 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
   const unit = hit.subText || 'প্যাক';
 
   // Multi-store realistic variation
-  const shwapnoPrice = Math.max(10, Math.round(price * 0.98));
-  const pandamartPrice = Math.max(10, Math.round(price * 1.02));
-  const meenaclickPrice = price;
+  const shwapnoPrice = mrp;
+  const pandamartPrice = mrp;
+  const meenaclickPrice = mrp;
 
   const chaldalUrl = slug 
     ? `https://chaldal.com/${slug}` 
@@ -708,9 +552,10 @@ export async function syncAllProducts() {
       : `https://i.chaldn.com/_mpimage/${item.id}`;
 
     // Calculated comparative store prices based on market realities
-    const shwapnoPrice = Math.max(10, chaldalPrice + item.shwapnoDiff);
-    const pandamartPrice = Math.max(10, chaldalPrice + item.pandamartDiff);
-    const meenaclickPrice = Math.max(10, chaldalPrice + item.meenaclickDiff);
+    const standardMarketPrice = mrp;
+    const shwapnoPrice = standardMarketPrice;
+    const pandamartPrice = standardMarketPrice;
+    const meenaclickPrice = standardMarketPrice;
 
     syncedList.push({
       id: item.id,

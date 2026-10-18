@@ -17,6 +17,10 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
     }
   });
 
+  const inStockEntries = Object.entries(product.prices).filter(([_, d]) => d.inStock);
+  const allSamePrice = inStockEntries.length > 0 && inStockEntries.every(([_, d]) => d.price === minPrice);
+  const hasRealLowest = !allSamePrice;
+
   return (
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-950/60 backdrop-blur-xs animate-fade-in">
       <div 
@@ -58,7 +62,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
               <p className="text-xs text-slate-400">
                 {lang === 'bn' ? product.nameEn : product.nameBn}
               </p>
-              {product.mrp && (
+              {hasRealLowest && product.mrp && product.mrp > minPrice && (
                 <div className="mt-1 flex items-baseline gap-2">
                   <span className="text-xs text-slate-400 line-through">MRP: ৳{product.mrp}</span>
                   <span className="text-xs font-bold text-rose-600">
@@ -77,7 +81,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
             <div className="space-y-2.5">
               {Object.entries(product.prices).map(([storeKey, data]) => {
                 const store = STORES[storeKey];
-                const isLowest = storeKey === lowestStoreKey;
+                const isLowest = hasRealLowest && storeKey === lowestStoreKey;
 
                 return (
                   <div 
