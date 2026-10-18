@@ -1,6 +1,7 @@
 import React from 'react';
-import { Sparkles, ShieldCheck, Heart, ExternalLink } from 'lucide-react';
+import { ShieldCheck, Heart, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import BazarDorLogo from './BazarDorLogo';
 
 export default function Footer() {
   const { lang, t } = useLanguage();
@@ -12,10 +13,8 @@ export default function Footer() {
           {/* Brand info */}
           <div className="space-y-3 md:col-span-2">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold">
-                <Sparkles className="w-4 h-4" />
-              </div>
-              <span className="text-lg font-black text-slate-900 tracking-tight">
+              <BazarDorLogo size="sm" />
+              <span className="text-lg font-heading font-black text-slate-900 tracking-tight">
                 {t.brandName}<span className="text-emerald-600">{t.brandAccent}</span>
               </span>
             </div>
@@ -54,10 +53,19 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-400">
+        <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-500">
           <p>© {new Date().getFullYear()} বাজারদর (BazarDor). সর্বস্বত্ব সংরক্ষিত।</p>
-          <div className="flex items-center gap-1">
-            <span>বাংলাদেশি ক্রেতাদের জন্য সাশ্রয়ী কেনাকাটার প্ল্যাটফর্ম</span>
+          <div className="flex items-center gap-1.5 font-medium">
+            <span>Created by</span>
+            <a 
+              href="https://mdziaulhasan.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-bold text-emerald-600 hover:text-emerald-700 hover:underline transition inline-flex items-center gap-1"
+            >
+              MD. Ziaul Hasan
+              <ExternalLink className="w-3 h-3 text-emerald-500" />
+            </a>
           </div>
         </div>
       </div>

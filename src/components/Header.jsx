@@ -1,6 +1,7 @@
-import { ShoppingBag, MapPin, Sparkles, User, Globe, Search, LogOut, X, Camera } from 'lucide-react';
+import { ShoppingBag, MapPin, User, Globe, Search, LogOut, X, Camera } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
+import BazarDorLogo from './BazarDorLogo';
 
 export default function Header({ 
   selectedLocation, 
@@ -30,9 +31,7 @@ export default function Header({
       <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-4">
         {/* Brand */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl sm:rounded-2xl bg-emerald-600 flex items-center justify-center text-white shadow-xs">
-            <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" />
-          </div>
+          <BazarDorLogo size="md" />
           <div>
             <div className="flex items-center gap-1">
               <span className="text-base sm:text-xl font-heading font-black text-slate-900 tracking-tight leading-none">
