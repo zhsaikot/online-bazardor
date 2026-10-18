@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+  --font-serif: "Playfair Display", "Noto Serif Bengali", Georgia, serif;
+  --font-heading: "Playfair Display", "Noto Serif Bengali", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Hind Siliguri", "Noto Sans Bengali", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Hind Siliguri", "Noto Sans Bengali", sans-serif;
+}
+
 @layer base {
   :root {
-    --app-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+    --font-heading: "Playfair Display", "Noto Serif Bengali", Georgia, serif;
+    --font-body: "Plus Jakarta Sans", "Hind Siliguri", "Noto Sans Bengali", sans-serif;
   }
 
   html, body {
@@ -11,7 +19,7 @@
   }
 
   body {
-    font-family: var(--app-font);
+    font-family: var(--font-body);
     background-color: #f8fafc;
     color: #0f172a;
     -webkit-tap-highlight-color: transparent;
@@ -19,10 +27,28 @@
     -webkit-user-select: none;
   }
 
+  /* Luxury and Creative Heading font */
+  h1, h2, h3, h4, h5, h6, .font-heading, .font-serif {
+    font-family: var(--font-heading);
+    letter-spacing: -0.01em;
+  }
+
+  input, textarea, select, button {
+    font-family: inherit;
+  }
+
   input, textarea, [contenteditable="true"] {
     user-select: text;
     -webkit-user-select: text;
   }
+}
+
+.font-heading {
+  font-family: var(--font-heading) !important;
+}
+
+.font-body {
+  font-family: var(--font-body) !important;
 }
 
 /* Custom scrollbar for mobile drawers / carousels */

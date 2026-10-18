@@ -35,7 +35,7 @@ export default function Header({
           </div>
           <div>
             <div className="flex items-center gap-1">
-              <span className="text-base sm:text-xl font-black text-slate-900 tracking-tight leading-none">
+              <span className="text-base sm:text-xl font-heading font-black text-slate-900 tracking-tight leading-none">
                 {t.brandName}<span className="text-emerald-600">{t.brandAccent}</span>
               </span>
               <span className="hidden sm:inline-block text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200">
