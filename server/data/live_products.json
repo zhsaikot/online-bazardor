@@ -1,0 +1,703 @@
+{
+  "lastSyncTime": "2026-10-15T10:47:01.537Z",
+  "count": 17,
+  "products": [
+    {
+      "id": "oil-rupchanda-5l",
+      "nameBn": "রূপচাঁদা ফর্টিফাইড সয়াবিন তেল ৫ লিটার",
+      "nameEn": "Rupchanda Fortified Soyabean Oil 5 ltr",
+      "category": "oil",
+      "unit": "৫ লিটার বোতল",
+      "image": "https://chaldn.com/_mpimage/rupchanda-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182966&q=best&v=1",
+      "mrp": 975,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:46:59.431Z",
+      "prices": {
+        "chaldal": {
+          "price": 975,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/rupchanda-soyabean-oil-5-ltr-5",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 970,
+          "inStock": true,
+          "discountText": "৳5 ছাড়",
+          "url": "https://www.shwapno.com/search?q=rupchanda%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 980,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=rupchanda%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 975,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=rupchanda%205%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "oil-teer-5l",
+      "nameBn": "তীর ফর্টিফায়েড সয়াবিন তেল ৫ লিটার",
+      "nameEn": "Teer Fortified Soyabean Oil 5 ltr",
+      "category": "oil",
+      "unit": "৫ লিটার বোতল",
+      "image": "https://chaldn.com/_mpimage/teer-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136107&q=best&v=1",
+      "mrp": 975,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:46:59.570Z",
+      "prices": {
+        "chaldal": {
+          "price": 975,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/teer-soyabean-oil-5-ltr-5",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 970,
+          "inStock": true,
+          "discountText": "৳5 ছাড়",
+          "url": "https://www.shwapno.com/search?q=teer%20fortified%20soyabean%20oil%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 980,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20fortified%20soyabean%20oil%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 975,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=teer%20fortified%20soyabean%20oil%205%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "oil-fresh-1l",
+      "nameBn": "ফিউচস টাইটান সুপার গিয়ার অয়েল এসএই ১৪০ ৪ লিটার",
+      "nameEn": "Fuchs Titan Super Gear Oil SAE 140 4 ltr",
+      "category": "oil",
+      "unit": "১ লিটার বোতল",
+      "image": "https://chaldn.com/_mpimage/fuchs-titan-super-gear-oil-sae-140-4-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D41785&q=best&v=1",
+      "mrp": 1150,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:46:59.738Z",
+      "prices": {
+        "chaldal": {
+          "price": 1150,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/fuchs-titan-super-gear-oil-sae-140-4-ltr",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 1149,
+          "inStock": true,
+          "discountText": "৳1 ছাড়",
+          "url": "https://www.shwapno.com/search?q=fresh%20fortified%20soyabean%20oil%201%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 1153,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=fresh%20fortified%20soyabean%20oil%201%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 1150,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=fresh%20fortified%20soyabean%20oil%201%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "rice-miniket-5kg",
+      "nameBn": "মিনিকেট চাল প্রিমিয়াম (সিদ্ধ) ± ৫০ গ্রাম ৫ কেজি",
+      "nameEn": "Miniket Rice Premium (Boiled) ± 50 gm 5 kg",
+      "category": "rice-pulses",
+      "unit": "৫ কেজি ব্যাগ",
+      "image": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
+      "mrp": 439,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:46:59.876Z",
+      "prices": {
+        "chaldal": {
+          "price": 439,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/miniket-rice-premium-boiled-50-gm-5-kg",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 435,
+          "inStock": true,
+          "discountText": "৳4 ছাড়",
+          "url": "https://www.shwapno.com/search?q=miniket%20rice%20premium%20boiled%205%20kg",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 445,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=miniket%20rice%20premium%20boiled%205%20kg",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 438,
+          "inStock": true,
+          "discountText": "৳1 ছাড়",
+          "url": "https://www.meenaclick.com/search?query=miniket%20rice%20premium%20boiled%205%20kg",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "rice-nazirshail-5kg",
+      "nameBn": "নাজিরশাইল চাল প্রিমিয়াম (আধা সিদ্ধ) ± ৫০ গ্রাম ৫ কেজি",
+      "nameEn": "Nazirshail Rice Premium (Half Boiled) ± 50 gm 5 kg",
+      "category": "rice-pulses",
+      "unit": "৫ কেজি ব্যাগ",
+      "image": "https://chaldn.com/_mpimage/nazirshail-rice-premium-half-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48083&q=best&v=1",
+      "mrp": 479,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.021Z",
+      "prices": {
+        "chaldal": {
+          "price": 449,
+          "inStock": true,
+          "discountText": "৳30 ছাড়",
+          "url": "https://chaldal.com/nazirshail-rice-premium-half-boiled-50-gm-5-kg",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 445,
+          "inStock": true,
+          "discountText": "৳34 ছাড়",
+          "url": "https://www.shwapno.com/search?q=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 455,
+          "inStock": true,
+          "discountText": "৳24 ছাড়",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 448,
+          "inStock": true,
+          "discountText": "৳31 ছাড়",
+          "url": "https://www.meenaclick.com/search?query=nazirshail%20rice%20premium%20half%20boiled%205%20kg",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "daal-mosur-desi-1kg",
+      "nameBn": "মশুর ডাল (দেশি) ১ কেজি",
+      "nameEn": "Moshur Dal (Deshi) 1 kg",
+      "category": "rice-pulses",
+      "unit": "১ কেজি প্যাক",
+      "image": "https://chaldn.com/_mpimage/moshur-dal-deshi-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182384&q=best&v=1",
+      "mrp": 179,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.163Z",
+      "prices": {
+        "chaldal": {
+          "price": 159,
+          "inStock": true,
+          "discountText": "৳20 ছাড়",
+          "url": "https://chaldal.com/moshur-dal-deshi-500-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 155,
+          "inStock": true,
+          "discountText": "৳24 ছাড়",
+          "url": "https://www.shwapno.com/search?q=moshur%20dal%20deshi%201%20kg",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 165,
+          "inStock": true,
+          "discountText": "৳14 ছাড়",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=moshur%20dal%20deshi%201%20kg",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 158,
+          "inStock": true,
+          "discountText": "৳21 ছাড়",
+          "url": "https://www.meenaclick.com/search?query=moshur%20dal%20deshi%201%20kg",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "veg-onion-desi-1kg",
+      "nameBn": "দেশী পেঁয়াজ ± ৫০ গ্রাম ১ কেজি",
+      "nameEn": "Deshi Peyaj (Local Onion) ± 50 gm 1 kg",
+      "category": "vegetables",
+      "unit": "১ কেজি",
+      "image": "https://chaldn.com/_mpimage/deshi-peyaj-local-onion-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D52358&q=low&v=1",
+      "mrp": 50,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.322Z",
+      "prices": {
+        "chaldal": {
+          "price": 39,
+          "inStock": true,
+          "discountText": "৳11 ছাড়",
+          "url": "https://chaldal.com/onion-local-1-kg-2",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 42,
+          "inStock": true,
+          "discountText": "৳8 ছাড়",
+          "url": "https://www.shwapno.com/search?q=deshi%20peyaj%20local%20onion%201%20kg",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 45,
+          "inStock": true,
+          "discountText": "৳5 ছাড়",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=deshi%20peyaj%20local%20onion%201%20kg",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 40,
+          "inStock": true,
+          "discountText": "৳10 ছাড়",
+          "url": "https://www.meenaclick.com/search?query=deshi%20peyaj%20local%20onion%201%20kg",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "veg-potato-gol-1kg",
+      "nameBn": "আলু রেগুলার (±৫০ গ্রাম) ১ কেজি",
+      "nameEn": "Potato Regular (± 50 gm) 1 kg",
+      "category": "vegetables",
+      "unit": "১ কেজি",
+      "image": "https://chaldn.com/_mpimage/potato-regular-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164304&q=best&v=1",
+      "mrp": 29,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.433Z",
+      "prices": {
+        "chaldal": {
+          "price": 29,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/potato-alu-1-kg-2",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 30,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=potato%20regular%201%20kg",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 32,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=potato%20regular%201%20kg",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 30,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=potato%20regular%201%20kg",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "veg-garlic-china-1kg",
+      "nameBn": "রসুন (আমদানিকৃত) ±২৫ গ্রাম ৫০০ গ্রাম",
+      "nameEn": "Roshun (Garlic Imported) ± 25 gm 500 gm",
+      "category": "vegetables",
+      "unit": "১ কেজি",
+      "image": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1",
+      "mrp": 109,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.493Z",
+      "prices": {
+        "chaldal": {
+          "price": 79,
+          "inStock": true,
+          "discountText": "৳30 ছাড়",
+          "url": "https://chaldal.com/garlic-roshun-premium-500-gm-2",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 74,
+          "inStock": true,
+          "discountText": "৳35 ছাড়",
+          "url": "https://www.shwapno.com/search?q=garlic%20china%20roshun",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 89,
+          "inStock": true,
+          "discountText": "৳20 ছাড়",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=garlic%20china%20roshun",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 84,
+          "inStock": true,
+          "discountText": "৳25 ছাড়",
+          "url": "https://www.meenaclick.com/search?query=garlic%20china%20roshun",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "egg-red-12pcs",
+      "nameBn": "মুরগির ডিম লেয়ার (সাদা) ১২ টি",
+      "nameEn": "Chicken Eggs Layer (White) 12 pcs",
+      "category": "egg-poultry",
+      "unit": "১ ডজন (১২টি)",
+      "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
+      "mrp": 135,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.626Z",
+      "prices": {
+        "chaldal": {
+          "price": 135,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/chicken-eggs-layer-white-12-pcs",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 132,
+          "inStock": true,
+          "discountText": "৳3 ছাড়",
+          "url": "https://www.shwapno.com/search?q=chicken%20eggs%20layer%2012%20pcs",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 138,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=chicken%20eggs%20layer%2012%20pcs",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 135,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=chicken%20eggs%20layer%2012%20pcs",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "poultry-broiler-1kg",
+      "nameBn": "ব্রয়লার মুরগি চামড়া ছাড়া ± ৫০ গ্রাম ১ কেজি",
+      "nameEn": "Broiler Chicken Skin Off ± 50 gm 1 kg",
+      "category": "egg-poultry",
+      "unit": "১ কেজি নেট",
+      "image": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163139&q=best&v=1&m=400",
+      "mrp": 359,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.735Z",
+      "prices": {
+        "chaldal": {
+          "price": 359,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/whole-broiler-chicken-skin-off-net-weight-1-kg",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 354,
+          "inStock": true,
+          "discountText": "৳5 ছাড়",
+          "url": "https://www.shwapno.com/search?q=broiler%20chicken%20skin%20off%201%20kg",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 369,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=broiler%20chicken%20skin%20off%201%20kg",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 362,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=broiler%20chicken%20skin%20off%201%20kg",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "sugar-teer-1kg",
+      "nameBn": "তীর চিনি ১ কেজি",
+      "nameEn": "Teer Sugar 1 kg",
+      "category": "spices",
+      "unit": "১ কেজি প্যাক",
+      "image": "https://chaldn.com/_mpimage/teer-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101003&q=best&v=1",
+      "mrp": 110,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.854Z",
+      "prices": {
+        "chaldal": {
+          "price": 110,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/teer-sugar-1-kg",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 110,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=teer%20sugar%201%20kg",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 115,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=teer%20sugar%201%20kg",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 112,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=teer%20sugar%201%20kg",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "spice-radhuni-turmeric-200g",
+      "nameBn": "রাঁধুনী হলুদের গুঁড়া ১০০ গ্রাম",
+      "nameEn": "Radhuni Turmeric (Holud) Powder 100 gm",
+      "category": "spices",
+      "unit": "১০০ গ্রাম প্যাক",
+      "image": "https://chaldn.com/_mpimage/radhuni-turmeric-holud-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132554&q=best&v=1",
+      "mrp": 75,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:00.987Z",
+      "prices": {
+        "chaldal": {
+          "price": 75,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/radhuni-turmeric-holud-powder-100-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 74,
+          "inStock": true,
+          "discountText": "৳1 ছাড়",
+          "url": "https://www.shwapno.com/search?q=radhuni%20turmeric%20powder%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 78,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=radhuni%20turmeric%20powder%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 75,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=radhuni%20turmeric%20powder%20100%20gm",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "tea-ispahani-500g",
+      "nameBn": "ইস্পাহানি মির্জাপুর বিওপি চা ৫০০ গ্রাম",
+      "nameEn": "Ispahani Mirzapore BOP Tea 500 gm",
+      "category": "dairy-beverage",
+      "unit": "৫০০ গ্রাম প্যাকেট",
+      "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-bop-tea-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107244&q=best&v=1",
+      "mrp": 240,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:01.107Z",
+      "prices": {
+        "chaldal": {
+          "price": 240,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/ispahani-mirzapore-bop-tea-500-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 235,
+          "inStock": true,
+          "discountText": "৳5 ছাড়",
+          "url": "https://www.shwapno.com/search?q=ispahani%20mirzapore%20tea%20500%20gm",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 248,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=ispahani%20mirzapore%20tea%20500%20gm",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 240,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=ispahani%20mirzapore%20tea%20500%20gm",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "milk-vita-liquid-1l",
+      "nameBn": "মিল্ক ভিটা পাস্তুরিত স্ট্যান্ডার্ডাইজড দুধ ১ লিটার",
+      "nameEn": "Milk Vita Pasteurized Standardized Milk 1 ltr",
+      "category": "dairy-beverage",
+      "unit": "১ লিটার পলি প্যাক",
+      "image": "https://chaldn.com/_mpimage/milk-vita-pasteurized-standardized-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177270&q=low&v=1",
+      "mrp": 100,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:01.262Z",
+      "prices": {
+        "chaldal": {
+          "price": 100,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/milk-vita-pasteurized-standardized-milk-1-ltr",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 100,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=milk%20vita%20pasteurized%20standardized%20milk%201%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 100,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=milk%20vita%20pasteurized%20standardized%20milk%201%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 100,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=milk%20vita%20pasteurized%20standardized%20milk%201%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "soap-dettol-original-3in1",
+      "nameBn": "ডেটল বাথিং সোপ বার কুল ৭৫ গ্রাম",
+      "nameEn": "Dettol Bathing Soap Bar Cool 75 gm",
+      "category": "hygiene",
+      "unit": "৩ x ৭৫ গ্রাম",
+      "image": "https://chaldn.com/_mpimage/dettol-bathing-soap-bar-cool-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127639&q=best&v=1",
+      "mrp": 65,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:01.387Z",
+      "prices": {
+        "chaldal": {
+          "price": 65,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/dettol-bathing-soap-bar-cool-75-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 60,
+          "inStock": true,
+          "discountText": "৳5 ছাড়",
+          "url": "https://www.shwapno.com/search?q=dettol%20soap%20bathing%20bar",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 70,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=dettol%20soap%20bathing%20bar",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 65,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=dettol%20soap%20bathing%20bar",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "detergent-rin-power-1kg",
+      "nameBn": "রিন অ্যাডভান্সড ডিটারজেন্ট পাউডার ১ কেজি",
+      "nameEn": "Rin Advanced Detergent Powder 1 kg",
+      "category": "hygiene",
+      "unit": "১ কেজি পলি প্যাক",
+      "image": "https://chaldn.com/_mpimage/rin-advanced-detergent-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135407&q=best&v=1",
+      "mrp": 195,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-15T10:47:01.537Z",
+      "prices": {
+        "chaldal": {
+          "price": 195,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/rin-advanced-detergent-powder-1-kg",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 190,
+          "inStock": true,
+          "discountText": "৳5 ছাড়",
+          "url": "https://www.shwapno.com/search?q=rin%20advanced%20detergent%20powder%201%20kg",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 200,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/darkstore/search?q=rin%20advanced%20detergent%20powder%201%20kg",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 195,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.meenaclick.com/search?query=rin%20advanced%20detergent%20powder%201%20kg",
+          "isVerifiedLive": true
+        }
+      }
+    }
+  ]
+}
