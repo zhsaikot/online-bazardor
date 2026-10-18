@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-heading: "Poppins", "Hind Siliguri", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-sans: "Inter", "Hind Siliguri", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -27,6 +29,12 @@
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     -webkit-user-select: none;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  html.dark body {
+    background-color: #090d16;
+    color: #f8fafc;
   }
 
   /* Powerful and Modern Heading font (Poppins Bold / Semi-bold) */
@@ -68,6 +76,19 @@
 
 .shadow-premium-floating {
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08), 0 20px 45px -15px rgba(0, 0, 0, 0.06);
+}
+
+/* Dark mode custom luxury shadow overrides */
+html.dark .shadow-premium-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4), 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+html.dark .shadow-premium-card {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5), 0 2px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+html.dark .shadow-premium-hover {
+  box-shadow: 0 10px 30px -4px rgba(0, 0, 0, 0.6), 0 4px 12px -2px rgba(0, 0, 0, 0.4);
 }
 
 /* Custom scrollbar for mobile drawers / carousels */

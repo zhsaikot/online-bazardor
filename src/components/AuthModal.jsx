@@ -148,32 +148,32 @@ export default function AuthModal() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/65 backdrop-blur-sm animate-fade-in">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/75 backdrop-blur-sm animate-fade-in">
       <div 
-        className="w-full max-w-md bg-white rounded-3xl shadow-2xl border border-zinc-100 overflow-hidden relative"
+        className="w-full max-w-md bg-white dark:bg-zinc-900 rounded-3xl shadow-2xl border border-zinc-100 dark:border-zinc-800 overflow-hidden relative"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Invisible reCAPTCHA container required by Firebase */}
         <div id="recaptcha-container" className="flex justify-center my-1"></div>
 
         {/* Top Header */}
-        <div className="p-6 pb-4 border-b border-zinc-100 flex items-center justify-between">
+        <div className="p-6 pb-4 border-b border-zinc-100 dark:border-zinc-800 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-2xl bg-emerald-600 flex items-center justify-center text-white shadow-sm shadow-emerald-500/20">
               <Sparkles className="w-4 h-4" />
             </div>
             <div>
-              <h3 className="font-heading font-bold text-base text-zinc-950 leading-tight">
+              <h3 className="font-heading font-bold text-base text-zinc-950 dark:text-zinc-100 leading-tight">
                 {lang === 'bn' ? 'বাজারদর অ্যাকাউন্ট' : 'BazarDor Account'}
               </h3>
-              <p className="text-xs text-zinc-500 mt-0.5">
+              <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-0.5">
                 {lang === 'bn' ? 'ফর্দ সেভ ও সেরা দামের রিয়েল-টাইম হিসাবের জন্য' : 'Save bags and track best deals'}
               </p>
             </div>
           </div>
           <button 
             onClick={closeAuthModal}
-            className="p-2 rounded-full text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition"
+            className="p-2 rounded-full text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition"
             aria-label="Close"
           >
             <X className="w-5 h-5" />
@@ -184,12 +184,12 @@ export default function AuthModal() {
         <div className="p-6 space-y-4">
           {/* Error Message Banner */}
           {authError && (
-            <div className="p-3.5 bg-rose-50 border border-rose-200 rounded-2xl flex items-start gap-2.5 text-xs text-rose-800 animate-fade-in">
-              <AlertCircle className="w-4 h-4 text-rose-600 shrink-0 mt-0.5" />
+            <div className="p-3.5 bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 rounded-2xl flex items-start gap-2.5 text-xs text-rose-800 dark:text-rose-300 animate-fade-in">
+              <AlertCircle className="w-4 h-4 text-rose-600 dark:text-rose-400 shrink-0 mt-0.5" />
               <div className="flex-1 font-medium">{authError}</div>
               <button 
                 onClick={clearAuthError}
-                className="text-rose-400 hover:text-rose-700 text-xs font-bold"
+                className="text-rose-400 hover:text-rose-700 dark:hover:text-rose-200 text-xs font-bold"
               >
                 ✕
               </button>
@@ -199,11 +199,11 @@ export default function AuthModal() {
           {step === 'phone' ? (
             <form onSubmit={handlePhoneSubmit} className="space-y-4">
               <div>
-                <label className="block text-xs font-bold text-zinc-700 uppercase tracking-wider mb-2">
+                <label className="block text-xs font-bold text-zinc-700 dark:text-zinc-300 uppercase tracking-wider mb-2">
                   {lang === 'bn' ? 'মোবাইল নম্বর' : 'Mobile Number'}
                 </label>
-                <div className="flex items-center rounded-2xl border border-zinc-200 focus-within:border-emerald-600 focus-within:ring-2 focus-within:ring-emerald-100 transition overflow-hidden bg-white">
-                  <span className="bg-zinc-50 px-3.5 py-3 text-xs font-bold text-zinc-700 border-r border-zinc-200 flex items-center gap-1.5 select-none">
+                <div className="flex items-center rounded-2xl border border-zinc-200 dark:border-zinc-700 focus-within:border-emerald-600 focus-within:ring-2 focus-within:ring-emerald-100 dark:focus-within:ring-emerald-950 transition overflow-hidden bg-white dark:bg-zinc-800">
+                  <span className="bg-zinc-50 dark:bg-zinc-800/80 px-3.5 py-3 text-xs font-bold text-zinc-700 dark:text-zinc-300 border-r border-zinc-200 dark:border-zinc-700 flex items-center gap-1.5 select-none">
                     🇧🇩 +880
                   </span>
                   <input 
@@ -213,10 +213,10 @@ export default function AuthModal() {
                     value={phoneNumber}
                     onChange={(e) => setPhoneNumber(e.target.value.replace(/\D/g, ''))}
                     maxLength={11}
-                    className="flex-1 px-3 py-3 text-sm font-semibold text-zinc-900 outline-none placeholder:text-zinc-400"
+                    className="flex-1 px-3 py-3 text-sm font-semibold text-zinc-900 dark:text-zinc-100 outline-none placeholder:text-zinc-400 dark:placeholder:text-zinc-500 bg-transparent"
                   />
                 </div>
-                <p className="text-[11px] text-zinc-500 mt-1.5 flex items-center gap-1">
+                <p className="text-[11px] text-zinc-500 dark:text-zinc-400 mt-1.5 flex items-center gap-1">
                   <span>📱</span>
                   {lang === 'bn' 
                     ? 'আপনার ফোনে Firebase থেকে ৬-সংখ্যার এসএমএস কোড যাবে' 
@@ -245,10 +245,10 @@ export default function AuthModal() {
           ) : (
             <form onSubmit={handleOtpSubmit} className="space-y-4">
               <div className="text-center">
-                <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mx-auto mb-2">
+                <div className="w-12 h-12 rounded-2xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto mb-2">
                   <Lock className="w-6 h-6" />
                 </div>
-                <p className="text-xs font-medium text-zinc-600">
+                <p className="text-xs font-medium text-zinc-600 dark:text-zinc-300">
                   {lang === 'bn' 
                     ? `+880 ${phoneNumber} নম্বরে পাঠানো ৬-সংখ্যার কোডটি লিখুন:` 
                     : `Enter 6-digit code sent to +880 ${phoneNumber}:`}
@@ -266,13 +266,13 @@ export default function AuthModal() {
                       value={digit}
                       onChange={(e) => handleOtpChange(idx, e.target.value)}
                       onKeyDown={(e) => handleOtpKeyDown(idx, e)}
-                      className="w-11 h-13 text-center text-xl font-heading font-extrabold text-zinc-950 bg-zinc-50 border border-zinc-200 focus:border-emerald-600 focus:bg-white rounded-xl outline-none transition shadow-2xs"
+                      className="w-11 h-13 text-center text-xl font-heading font-extrabold text-zinc-950 dark:text-zinc-100 bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 focus:border-emerald-600 focus:bg-white dark:focus:bg-zinc-800 rounded-xl outline-none transition shadow-2xs"
                     />
                   ))}
                 </div>
 
                 {/* Resend OTP timer */}
-                <div className="text-xs text-zinc-500 mb-2">
+                <div className="text-xs text-zinc-500 dark:text-zinc-400 mb-2">
                   {resendTimer > 0 ? (
                     <span>{lang === 'bn' ? `আবার কোড পাঠানো যাবে: ${resendTimer} সেকেন্ড` : `Resend code in ${resendTimer}s`}</span>
                   ) : (
@@ -280,7 +280,7 @@ export default function AuthModal() {
                       type="button"
                       onClick={handleResendOtp}
                       disabled={loading}
-                      className="text-emerald-700 hover:text-emerald-800 font-bold flex items-center justify-center gap-1 mx-auto cursor-pointer"
+                      className="text-emerald-700 dark:text-emerald-400 hover:text-emerald-800 font-bold flex items-center justify-center gap-1 mx-auto cursor-pointer"
                     >
                       <RefreshCw className="w-3 h-3" />
                       <span>{lang === 'bn' ? 'আবার ওটিপি পাঠান' : 'Resend Code'}</span>
@@ -310,7 +310,7 @@ export default function AuthModal() {
                   clearAuthError();
                   setStep('phone');
                 }}
-                className="w-full text-center text-xs font-semibold text-zinc-500 hover:text-zinc-800 transition py-1"
+                className="w-full text-center text-xs font-semibold text-zinc-500 dark:text-zinc-400 hover:text-zinc-800 dark:hover:text-zinc-200 transition py-1 cursor-pointer"
               >
                 ← {lang === 'bn' ? 'মোবাইল নম্বর পরিবর্তন করুন' : 'Change Mobile Number'}
               </button>
@@ -320,10 +320,10 @@ export default function AuthModal() {
           {/* Social Login Separator */}
           <div className="relative my-4">
             <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t border-zinc-200"></div>
+              <div className="w-full border-t border-zinc-200 dark:border-zinc-800"></div>
             </div>
             <div className="relative flex justify-center text-xs uppercase">
-              <span className="bg-white px-3 text-zinc-400 font-semibold tracking-wider">
+              <span className="bg-white dark:bg-zinc-900 px-3 text-zinc-400 dark:text-zinc-500 font-semibold tracking-wider">
                 {lang === 'bn' ? 'অথবা' : 'OR'}
               </span>
             </div>
@@ -333,7 +333,7 @@ export default function AuthModal() {
           <button
             onClick={loginWithGoogle}
             disabled={loading}
-            className="w-full bg-white hover:bg-zinc-50 border border-zinc-200 active:scale-98 text-zinc-800 font-bold py-3 px-4 rounded-2xl transition flex items-center justify-center gap-3 shadow-2xs cursor-pointer disabled:opacity-50"
+            className="w-full bg-white dark:bg-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-700/80 border border-zinc-200 dark:border-zinc-700 active:scale-98 text-zinc-800 dark:text-zinc-100 font-bold py-3 px-4 rounded-2xl transition flex items-center justify-center gap-3 shadow-2xs cursor-pointer disabled:opacity-50"
           >
             <svg className="w-4 h-4" viewBox="0 0 24 24">
               <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
@@ -347,8 +347,8 @@ export default function AuthModal() {
           </button>
 
           {/* Firebase Protection Note */}
-          <div className="flex items-center justify-center gap-1.5 text-[11px] text-zinc-400 pt-1">
-            <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+          <div className="flex items-center justify-center gap-1.5 text-[11px] text-zinc-400 dark:text-zinc-500 pt-1">
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
             <span>
               {lang === 'bn' ? 'Firebase এন্ড-টু-এন্ড সুরক্ষিত সাইন ইন' : 'End-to-End Secure by Google Firebase'}
             </span>

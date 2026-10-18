@@ -264,30 +264,30 @@ export default function VisualSearchModal({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-zinc-950/70 backdrop-blur-md animate-in fade-in duration-200">
       <div 
-        className="relative w-full max-w-lg bg-white rounded-3xl shadow-premium-floating overflow-hidden flex flex-col border border-zinc-200/80 max-h-[92vh]"
+        className="relative w-full max-w-lg bg-white dark:bg-zinc-900 rounded-3xl shadow-premium-floating overflow-hidden flex flex-col border border-zinc-200/80 dark:border-zinc-800 max-h-[92vh]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Header */}
-        <div className="flex items-center justify-between px-5 sm:px-6 py-4 border-b border-zinc-100 bg-white">
+        <div className="flex items-center justify-between px-5 sm:px-6 py-4 border-b border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-900">
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-2xl bg-zinc-950 flex items-center justify-center text-white shadow-premium-sm">
-              <Camera className="w-5 h-5 text-emerald-400" />
+            <div className="w-9 h-9 rounded-2xl bg-zinc-950 dark:bg-emerald-600 flex items-center justify-center text-white shadow-premium-sm">
+              <Camera className="w-5 h-5 text-emerald-400 dark:text-white" />
             </div>
             <div>
-              <h3 className="text-sm sm:text-base font-bold text-zinc-950 flex items-center gap-1.5 font-heading">
+              <h3 className="text-sm sm:text-base font-bold text-zinc-950 dark:text-zinc-100 flex items-center gap-1.5 font-heading">
                 <span>{t.visualSearchTitle}</span>
-                <span className="text-[9px] px-2 py-0.5 rounded-full bg-zinc-100 text-zinc-700 font-bold uppercase tracking-wider border border-zinc-200">
+                <span className="text-[9px] px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-bold uppercase tracking-wider border border-zinc-200 dark:border-zinc-700">
                   AI Lens
                 </span>
               </h3>
-              <p className="text-[11px] text-zinc-400 font-medium">
+              <p className="text-[11px] text-zinc-400 dark:text-zinc-500 font-medium">
                 {t.visualSearchSubtitle}
               </p>
             </div>
           </div>
           <button
             onClick={handleModalClose}
-            className="w-8 h-8 rounded-full bg-zinc-100 hover:bg-zinc-200 text-zinc-600 flex items-center justify-center transition cursor-pointer"
+            className="w-8 h-8 rounded-full bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-600 dark:text-zinc-300 flex items-center justify-center transition cursor-pointer"
           >
             <X className="w-4 h-4" />
           </button>
@@ -295,13 +295,13 @@ export default function VisualSearchModal({
 
         {/* Tab Navigation (Camera / Gallery / Demo Presets) */}
         {!capturedImage && (
-          <div className="flex border-b border-zinc-100 bg-white px-4 pt-1">
+          <div className="flex border-b border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 pt-1">
             <button
               onClick={() => { setActiveTab('camera'); }}
               className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition cursor-pointer ${
                 activeTab === 'camera'
-                  ? 'border-zinc-950 text-zinc-950'
-                  : 'border-transparent text-zinc-400 hover:text-zinc-700'
+                  ? 'border-zinc-950 dark:border-emerald-500 text-zinc-950 dark:text-emerald-400'
+                  : 'border-transparent text-zinc-400 dark:text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300'
               }`}
             >
               <Camera className="w-4 h-4" />
@@ -311,8 +311,8 @@ export default function VisualSearchModal({
               onClick={() => { setActiveTab('upload'); }}
               className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition cursor-pointer ${
                 activeTab === 'upload'
-                  ? 'border-zinc-950 text-zinc-950'
-                  : 'border-transparent text-zinc-400 hover:text-zinc-700'
+                  ? 'border-zinc-950 dark:border-emerald-500 text-zinc-950 dark:text-emerald-400'
+                  : 'border-transparent text-zinc-400 dark:text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300'
               }`}
             >
               <Upload className="w-4 h-4" />
@@ -322,8 +322,8 @@ export default function VisualSearchModal({
               onClick={() => { setActiveTab('preset'); }}
               className={`flex-1 flex items-center justify-center gap-2 py-2.5 text-xs font-bold border-b-2 transition cursor-pointer ${
                 activeTab === 'preset'
-                  ? 'border-zinc-950 text-zinc-950'
-                  : 'border-transparent text-zinc-400 hover:text-zinc-700'
+                  ? 'border-zinc-950 dark:border-emerald-500 text-zinc-950 dark:text-emerald-400'
+                  : 'border-transparent text-zinc-400 dark:text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300'
               }`}
             >
               <Sparkles className="w-4 h-4" />
@@ -338,7 +338,7 @@ export default function VisualSearchModal({
           {capturedImage ? (
             <div className="w-full flex flex-col items-center space-y-4">
               {/* Photo Preview Container with Scanning Effect */}
-              <div className="relative w-full max-w-xs aspect-square rounded-2xl overflow-hidden bg-slate-900 border border-slate-200 shadow-inner flex items-center justify-center">
+              <div className="relative w-full max-w-xs aspect-square rounded-2xl overflow-hidden bg-slate-900 border border-slate-200 dark:border-zinc-700 shadow-inner flex items-center justify-center">
                 <img 
                   src={capturedImage} 
                   alt="Captured grocery package" 
@@ -359,10 +359,10 @@ export default function VisualSearchModal({
 
               {/* Recognition Result Card */}
               {recognitionResult && !isAnalyzing && (
-                <div className="w-full bg-emerald-50/80 border border-emerald-200 rounded-2xl p-4 animate-in slide-in-from-bottom-2 duration-200">
+                <div className="w-full bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 rounded-2xl p-4 animate-in slide-in-from-bottom-2 duration-200">
                   <div className="flex items-start justify-between gap-2 mb-2">
-                    <div className="flex items-center gap-1.5 text-emerald-800">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <div className="flex items-center gap-1.5 text-emerald-800 dark:text-emerald-400">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
                       <span className="text-xs font-bold uppercase tracking-wider">
                         {t.detectedProduct}
                       </span>
@@ -372,20 +372,20 @@ export default function VisualSearchModal({
                     </span>
                   </div>
 
-                  <h4 className="text-base font-black text-slate-900 leading-snug">
+                  <h4 className="text-base font-black text-slate-900 dark:text-zinc-100 leading-snug">
                     {lang === 'bn' 
                       ? (recognitionResult.recognition.bengaliName || recognitionResult.recognition.detectedProduct)
                       : recognitionResult.recognition.detectedProduct}
                   </h4>
-                  <p className="text-xs text-slate-500 mt-0.5">
+                  <p className="text-xs text-slate-500 dark:text-zinc-400 mt-0.5">
                     {recognitionResult.recognition.detectedProduct}
                   </p>
 
                   {/* Actions */}
-                  <div className="flex items-center gap-2 mt-4 pt-3 border-t border-emerald-200/60">
+                  <div className="flex items-center gap-2 mt-4 pt-3 border-t border-emerald-200/60 dark:border-emerald-800/60">
                     <button
                       onClick={handleRetake}
-                      className="px-3 py-2 rounded-xl bg-white text-slate-700 hover:bg-slate-100 border border-slate-200 text-xs font-bold transition flex items-center gap-1.5"
+                      className="px-3 py-2 rounded-xl bg-white dark:bg-zinc-800 text-slate-700 dark:text-zinc-200 hover:bg-slate-100 dark:hover:bg-zinc-700 border border-slate-200 dark:border-zinc-700 text-xs font-bold transition flex items-center gap-1.5 cursor-pointer"
                     >
                       <RefreshCw className="w-3.5 h-3.5" />
                       <span>{t.resnapPhoto}</span>
@@ -408,9 +408,9 @@ export default function VisualSearchModal({
               {activeTab === 'camera' && (
                 <div className="w-full flex flex-col items-center">
                   {cameraError ? (
-                    <div className="w-full bg-amber-50 border border-amber-200 rounded-2xl p-4 text-center my-4">
-                      <AlertCircle className="w-8 h-8 text-amber-600 mx-auto mb-2" />
-                      <p className="text-xs font-semibold text-amber-800">{cameraError}</p>
+                    <div className="w-full bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-2xl p-4 text-center my-4">
+                      <AlertCircle className="w-8 h-8 text-amber-600 dark:text-amber-400 mx-auto mb-2" />
+                      <p className="text-xs font-semibold text-amber-800 dark:text-amber-300">{cameraError}</p>
                       <button
                         onClick={() => setActiveTab('upload')}
                         className="mt-3 px-4 py-2 bg-amber-600 text-white rounded-xl text-xs font-bold hover:bg-amber-700 transition"
@@ -451,7 +451,7 @@ export default function VisualSearchModal({
                         <button
                           type="button"
                           onClick={handleCapturePhoto}
-                          className="flex items-center gap-2 px-6 py-2.5 rounded-full bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold text-xs shadow-lg transition"
+                          className="flex items-center gap-2 px-6 py-2.5 rounded-full bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold text-xs shadow-lg transition cursor-pointer"
                         >
                           <Camera className="w-4 h-4" />
                           <span>{t.snapPhoto}</span>
@@ -474,15 +474,15 @@ export default function VisualSearchModal({
                   />
                   <div
                     onClick={() => fileInputRef.current?.click()}
-                    className="w-full max-w-sm aspect-4/3 rounded-2xl border-2 border-dashed border-slate-300 hover:border-emerald-500 bg-slate-50 hover:bg-emerald-50/40 transition p-6 flex flex-col items-center justify-center cursor-pointer text-center group"
+                    className="w-full max-w-sm aspect-4/3 rounded-2xl border-2 border-dashed border-slate-300 dark:border-zinc-700 hover:border-emerald-500 dark:hover:border-emerald-500 bg-slate-50 dark:bg-zinc-800/40 hover:bg-emerald-50/40 dark:hover:bg-zinc-800 transition p-6 flex flex-col items-center justify-center cursor-pointer text-center group"
                   >
-                    <div className="w-14 h-14 rounded-2xl bg-white border border-slate-200 group-hover:border-emerald-300 flex items-center justify-center text-emerald-600 shadow-xs mb-3 group-hover:scale-105 transition">
+                    <div className="w-14 h-14 rounded-2xl bg-white dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 group-hover:border-emerald-300 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shadow-xs mb-3 group-hover:scale-105 transition">
                       <Upload className="w-6 h-6" />
                     </div>
-                    <p className="text-xs sm:text-sm font-black text-slate-800 group-hover:text-emerald-800">
+                    <p className="text-xs sm:text-sm font-black text-slate-800 dark:text-zinc-200 group-hover:text-emerald-800 dark:group-hover:text-emerald-400">
                       {t.dragDropPhoto}
                     </p>
-                    <p className="text-[11px] text-slate-400 mt-1 font-medium">
+                    <p className="text-[11px] text-slate-400 dark:text-zinc-500 mt-1 font-medium">
                       JPG, PNG, WEBP (সর্বোচ্চ 10MB)
                     </p>
                   </div>
@@ -492,7 +492,7 @@ export default function VisualSearchModal({
               {/* STATE 4: Tab = Preset Samples */}
               {activeTab === 'preset' && (
                 <div className="w-full flex flex-col">
-                  <p className="text-xs font-semibold text-slate-600 mb-3">
+                  <p className="text-xs font-semibold text-slate-600 dark:text-zinc-400 mb-3">
                     {t.trySamplePresets}
                   </p>
                   <div className="grid grid-cols-2 gap-2 w-full">
@@ -501,9 +501,9 @@ export default function VisualSearchModal({
                         key={preset.id}
                         type="button"
                         onClick={() => handleSelectPreset(preset)}
-                        className="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-emerald-50 hover:border-emerald-300 text-left transition group cursor-pointer"
+                        className="flex items-center gap-2.5 p-2.5 rounded-xl border border-slate-200 dark:border-zinc-700 bg-slate-50/70 dark:bg-zinc-800/60 hover:bg-emerald-50 dark:hover:bg-zinc-800 hover:border-emerald-300 dark:hover:border-emerald-500 text-left transition group cursor-pointer"
                       >
-                        <div className="w-10 h-10 rounded-lg bg-white border border-slate-100 flex items-center justify-center text-xl shrink-0 overflow-hidden shadow-2xs">
+                        <div className="w-10 h-10 rounded-lg bg-white dark:bg-zinc-800 border border-slate-100 dark:border-zinc-700 flex items-center justify-center text-xl shrink-0 overflow-hidden shadow-2xs">
                           <img 
                             src={preset.img} 
                             alt={preset.nameEn}
@@ -512,14 +512,14 @@ export default function VisualSearchModal({
                           />
                         </div>
                         <div className="min-w-0 flex-1">
-                          <p className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 truncate leading-tight">
+                          <p className="text-xs font-bold text-slate-900 dark:text-zinc-100 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 truncate leading-tight">
                             {lang === 'bn' ? preset.nameBn : preset.nameEn}
                           </p>
-                          <span className="text-[10px] text-slate-400 font-medium truncate block">
+                          <span className="text-[10px] text-slate-400 dark:text-zinc-500 font-medium truncate block">
                             {preset.category}
                           </span>
                         </div>
-                        <Zap className="w-3.5 h-3.5 text-slate-300 group-hover:text-emerald-500 shrink-0" />
+                        <Zap className="w-3.5 h-3.5 text-slate-300 dark:text-zinc-600 group-hover:text-emerald-500 shrink-0" />
                       </button>
                     ))}
                   </div>
@@ -530,15 +530,15 @@ export default function VisualSearchModal({
 
           {/* Quick Demo Footer Chips when in camera/upload tab */}
           {!capturedImage && activeTab !== 'preset' && (
-            <div className="w-full mt-4 pt-3 border-t border-slate-100">
+            <div className="w-full mt-4 pt-3 border-t border-slate-100 dark:border-zinc-800">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-[11px] font-bold text-slate-500">
+                <span className="text-[11px] font-bold text-slate-500 dark:text-zinc-400">
                   {t.trySamplePresets}
                 </span>
                 <button
                   type="button"
                   onClick={() => setActiveTab('preset')}
-                  className="text-[11px] font-bold text-emerald-600 hover:text-emerald-700"
+                  className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 hover:text-emerald-700"
                 >
                   {lang === 'bn' ? 'সবগুলো দেখুন' : 'View All'}
                 </button>
@@ -549,7 +549,7 @@ export default function VisualSearchModal({
                     key={item.id}
                     type="button"
                     onClick={() => handleSelectPreset(item)}
-                    className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-emerald-100/70 border border-slate-200/80 text-slate-700 text-[11px] font-semibold whitespace-nowrap transition cursor-pointer"
+                    className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-100 dark:bg-zinc-800 hover:bg-emerald-100/70 dark:hover:bg-zinc-700 border border-slate-200/80 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 text-[11px] font-semibold whitespace-nowrap transition cursor-pointer"
                   >
                     <span>{item.icon}</span>
                     <span>{lang === 'bn' ? item.nameBn : item.nameEn}</span>

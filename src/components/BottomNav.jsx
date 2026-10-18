@@ -31,7 +31,7 @@ export default function BottomNav({ activeTab, setActiveTab, basketCount }) {
   ];
 
   return (
-    <nav className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-lg border-t border-slate-200/90 shadow-lg safe-bottom">
+    <nav className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-zinc-950/95 backdrop-blur-lg border-t border-slate-200/90 dark:border-zinc-800/90 shadow-lg safe-bottom transition-colors">
       <div className="max-w-md mx-auto grid grid-cols-4 px-2 py-1.5">
         {tabs.map((tab) => {
           const Icon = tab.icon;
@@ -42,8 +42,8 @@ export default function BottomNav({ activeTab, setActiveTab, basketCount }) {
               onClick={() => setActiveTab(tab.id)}
               className={`flex flex-col items-center justify-center py-1 px-2 rounded-xl transition-all duration-150 relative ${
                 isActive 
-                  ? 'text-emerald-600 font-bold' 
-                  : 'text-slate-500 hover:text-slate-800'
+                  ? 'text-emerald-600 dark:text-emerald-400 font-bold' 
+                  : 'text-slate-500 dark:text-zinc-400 hover:text-slate-800 dark:hover:text-zinc-200'
               }`}
             >
               <div className="relative">
@@ -54,10 +54,10 @@ export default function BottomNav({ activeTab, setActiveTab, basketCount }) {
                   </span>
                 )}
                 {tab.hasDot && !tab.badge && (
-                  <span className="absolute -top-0.5 -right-1 w-2 h-2 rounded-full bg-rose-500 ring-2 ring-white"></span>
+                  <span className="absolute -top-0.5 -right-1 w-2 h-2 rounded-full bg-rose-500 ring-2 ring-white dark:ring-zinc-950"></span>
                 )}
               </div>
-              <span className={`text-[10px] mt-1 tracking-tight leading-none ${isActive ? 'text-emerald-700 font-bold' : 'text-slate-500'}`}>
+              <span className={`text-[10px] mt-1 tracking-tight leading-none ${isActive ? 'text-emerald-700 dark:text-emerald-400 font-bold' : 'text-slate-500 dark:text-zinc-400'}`}>
                 {tab.label}
               </span>
             </button>
