@@ -59,7 +59,21 @@ export const translations = {
     searchingOnline: "অনলাইনে খোঁজা হচ্ছে...",
     searchNoResults: "লোকাল তালিকায় পাওয়া যায়নি",
     searchOnlinePrompt: "চালডালের লাইভ ক্যাটালগ থেকে নতুন পণ্য নিয়ে আসুন",
-    searchLiveChaldal: "অনলাইনে চালডাল থেকে লাইভ খুঁজুন"
+    searchLiveChaldal: "অনলাইনে চালডাল থেকে লাইভ খুঁজুন",
+    visualSearch: "ছবি দিয়ে খুঁজুন",
+    visualSearchTitle: "ছবি দিয়ে পণ্য অনুসন্ধান ও দর তুলনা",
+    visualSearchSubtitle: "প্যাকেজের ছবি তুলুন বা গ্যালারি থেকে সিলেক্ট করুন",
+    takePhoto: "ক্যামেরা স্ক্যানার",
+    uploadImage: "ছবি আপলোড",
+    snapPhoto: "ছবি তুলুন",
+    resnapPhoto: "পুনরায় তুলুন",
+    analyzingImage: "পণ্য বিশ্লেষণ ও ব্র্যান্ড শনাক্ত করা হচ্ছে...",
+    detectedProduct: "শনাক্তকৃত পণ্য",
+    confidenceMatch: "সঠিকতার মাত্রা",
+    searchDetected: "লাইভ দাম তুলনা দেখুন",
+    trySamplePresets: "অথবা ডেমো স্যাম্পল টেস্ট করুন:",
+    cameraPermissionError: "ক্যামেরা এক্সেস পাওয়া যায়নি। অনুগ্রহ করে পারমিশন দিন অথবা ছবি আপলোড করুন।",
+    dragDropPhoto: "ছবি টেনে এনে ছাড়ুন বা ক্লিক করে গ্যালারি থেকে বেছে নিন"
   },
   en: {
     brandName: "Bazar",
@@ -121,6 +135,20 @@ export const translations = {
     searchingOnline: "Searching online...",
     searchNoResults: "Not found locally",
     searchOnlinePrompt: "Search live catalogue from Chaldal and top online stores",
-    searchLiveChaldal: "Search Live on Chaldal"
+    searchLiveChaldal: "Search Live on Chaldal",
+    visualSearch: "Visual Search",
+    visualSearchTitle: "Visual Search & Price Compare",
+    visualSearchSubtitle: "Snap a photo of the product package or select from gallery",
+    takePhoto: "Camera Scanner",
+    uploadImage: "Upload Image",
+    snapPhoto: "Take Photo",
+    resnapPhoto: "Retake",
+    analyzingImage: "Scanning package & identifying brand...",
+    detectedProduct: "Identified Product",
+    confidenceMatch: "Match Confidence",
+    searchDetected: "Compare Live Prices",
+    trySamplePresets: "Or test with quick sample presets:",
+    cameraPermissionError: "Camera access unavailable. Please grant permission or upload an image.",
+    dragDropPhoto: "Drag & drop an image or click to browse gallery"
   }
 };

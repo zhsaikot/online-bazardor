@@ -5,6 +5,7 @@ import DesktopSidebar from './components/DesktopSidebar';
 import BagSlideOver from './components/BagSlideOver';
 import ProductCard from './components/ProductCard';
 import ProductDetailModal from './components/ProductDetailModal';
+import VisualSearchModal from './components/VisualSearchModal';
 import DealsTab from './components/DealsTab';
 import DailyMarketTab from './components/DailyMarketTab';
 import AuthModal from './components/AuthModal';
@@ -13,7 +14,7 @@ import { PRODUCTS, CATEGORIES, STORES } from './data/mockCatalog';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { AuthProvider } from './context/AuthContext';
 import StoreLogo from './components/StoreLogo';
-import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles } from 'lucide-react';
+import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles, Camera } from 'lucide-react';
 
 function AppContent() {
   const { lang, t } = useLanguage();
@@ -56,6 +57,9 @@ function AppContent() {
   
   // Slide-over Bag Drawer state (opened on header click / mobile floating button)
   const [isBagOpen, setIsBagOpen] = useState(false);
+
+  // Visual Product Search modal state (camera & gallery upload)
+  const [isVisualSearchOpen, setIsVisualSearchOpen] = useState(false);
 
   // Sync basket to localStorage
   useEffect(() => {
@@ -253,6 +257,7 @@ function AppContent() {
         setSearchQuery={setSearchQuery}
         onSearchOnline={handleSearchOnline}
         isSearchingOnline={isSearchingOnline}
+        onOpenVisualSearch={() => setIsVisualSearchOpen(true)}
       />
 
       {/* Main Container */}
@@ -321,28 +326,63 @@ function AppContent() {
                     }
                   }}
                   placeholder={t.searchPlaceholder}
-                  className="w-full bg-white border border-slate-200 focus:border-emerald-600 rounded-2xl py-2.5 sm:py-3 pl-10 pr-24 text-xs font-medium text-slate-900 placeholder:text-slate-400 shadow-xs outline-none transition"
+                  className="w-full bg-white border border-slate-200 focus:border-emerald-600 rounded-2xl py-2.5 sm:py-3 pl-10 pr-28 text-xs font-medium text-slate-900 placeholder:text-slate-400 shadow-xs outline-none transition"
                 />
-                {searchQuery && (
-                  <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
-                    <button
-                      type="button"
-                      onClick={() => handleSearchOnline(searchQuery.trim())}
-                      disabled={isSearchingOnline}
-                      className="px-2 py-1 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-[10px] font-bold shadow-2xs transition disabled:opacity-50 cursor-pointer"
-                      title={t.searchOnline}
-                    >
-                      {isSearchingOnline ? '...' : (lang === 'bn' ? 'অনলাইন' : 'Live')}
-                    </button>
-                    <button 
-                      onClick={() => setSearchQuery('')}
-                      className="p-1 text-slate-400 hover:text-slate-600"
-                    >
-                      <X className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
-                )}
+                <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
+                  {searchQuery ? (
+                    <>
+                      <button
+                        type="button"
+                        onClick={() => handleSearchOnline(searchQuery.trim())}
+                        disabled={isSearchingOnline}
+                        className="px-2 py-1 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-[10px] font-bold shadow-2xs transition disabled:opacity-50 cursor-pointer"
+                        title={t.searchOnline}
+                      >
+                        {isSearchingOnline ? '...' : (lang === 'bn' ? 'অনলাইন' : 'Live')}
+                      </button>
+                      <button 
+                        onClick={() => setSearchQuery('')}
+                        className="p-1 text-slate-400 hover:text-slate-600"
+                      >
+                        <X className="w-3.5 h-3.5" />
+                      </button>
+                    </>
+                  ) : null}
+                  <button
+                    type="button"
+                    onClick={() => setIsVisualSearchOpen(true)}
+                    className="p-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200/80 transition flex items-center gap-1 cursor-pointer shadow-2xs"
+                    title={t.visualSearch}
+                  >
+                    <Camera className="w-3.5 h-3.5 text-emerald-600" />
+                  </button>
+                </div>
               </div>
+
+              {/* Visual Search Discovery Pill for Mobile */}
+              <button
+                type="button"
+                onClick={() => setIsVisualSearchOpen(true)}
+                className="w-full flex items-center justify-between px-3 py-2 rounded-2xl bg-linear-to-r from-emerald-600 to-teal-600 text-white shadow-xs hover:opacity-95 transition cursor-pointer"
+              >
+                <div className="flex items-center gap-2">
+                  <div className="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center">
+                    <Camera className="w-3.5 h-3.5 text-white" />
+                  </div>
+                  <div className="text-left">
+                    <p className="text-xs font-black tracking-tight leading-tight">
+                      {lang === 'bn' ? 'ছবি তুলে পণ্যের দাম খুঁজুন' : 'Visual Search & Compare'}
+                    </p>
+                    <p className="text-[10px] text-emerald-100 font-medium leading-tight">
+                      {lang === 'bn' ? 'প্যাকেটের ছবি তুলুন বা গ্যালারি থেকে দিন' : 'Snap photo or select from gallery'}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-1 bg-white/20 text-white text-[10px] font-bold px-2 py-1 rounded-xl">
+                  <span>{lang === 'bn' ? 'স্ক্যান করুন' : 'Scan'}</span>
+                  <ArrowRight className="w-3 h-3" />
+                </div>
+              </button>
 
               {/* Categories Pills */}
               <div className="flex gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar py-0.5">
@@ -589,6 +629,29 @@ function AppContent() {
           quantityInBasket={basket.find(i => i.product.id === detailProduct.id)?.quantity || 0}
         />
       )}
+
+      {/* Visual Product Search Modal */}
+      <VisualSearchModal 
+        isOpen={isVisualSearchOpen}
+        onClose={() => setIsVisualSearchOpen(false)}
+        onProductFound={(product) => {
+          setProductList(prev => {
+            if (!prev.some(p => p.id === product.id)) {
+              return [product, ...prev];
+            }
+            return prev;
+          });
+          setDetailProduct(product);
+          setActiveTab('catalog');
+          setSelectedCategory('all');
+        }}
+        onPerformSearch={(query) => {
+          setSearchQuery(query);
+          setActiveTab('catalog');
+          setSelectedCategory('all');
+          handleSearchOnline(query);
+        }}
+      />
 
       {/* Mobile Bottom Navigation (Hidden on Desktop) */}
       <BottomNav 

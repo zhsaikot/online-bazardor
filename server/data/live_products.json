@@ -1,6 +1,6 @@
 {
   "lastSyncTime": "2026-10-18T06:27:42.658Z",
-  "count": 52,
+  "count": 62,
   "products": [
     {
       "id": "oil-rupchanda-5l",
@@ -2130,6 +2130,416 @@
           "inStock": true,
           "discountText": "লাইভ রেট",
           "url": "https://meenabazaronline.com/search?keyword=aci%20savlon%20liquid%20antiseptic%201000%20ml",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-teer-fortified-canola-oil-5-ltr",
+      "nameBn": "তীর ফোর্টিফাইড ক্যানোলা তেল ৫ লিটার",
+      "nameEn": "Teer Fortified Canola Oil 5 ltr",
+      "category": "all",
+      "unit": "5 ltr",
+      "image": "https://chaldn.com/_mpimage/teer-fortified-canola-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D98187&q=best&v=1&m=400",
+      "mrp": 1060,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:32.426Z",
+      "prices": {
+        "chaldal": {
+          "price": 1060,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/teer-fortified-canola-oil-5-ltr",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 1060,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=Teer%20Fortified%20Canola%20Oil%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 1060,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Fortified%20Canola%20Oil%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 1060,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=Teer%20Fortified%20Canola%20Oil%205%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-omera-ultra-v-20w-50-5-ltr",
+      "nameBn": "ওমেরা আল্ট্রা ভি ২০ডাব্লিউ-৫০ ৫ লিটার",
+      "nameEn": "Omera Ultra V 20W-50 5 ltr",
+      "category": "all",
+      "unit": "5 ltr",
+      "image": "https://chaldn.com/_mpimage/omera-ultra-v-20w-50-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D115745&q=best&v=1&m=400",
+      "mrp": 1500,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:32.427Z",
+      "prices": {
+        "chaldal": {
+          "price": 1500,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/omera-ultra-v-20w-50-5-ltr",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 1500,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=Omera%20Ultra%20V%2020W-50%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 1500,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=Omera%20Ultra%20V%2020W-50%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 1500,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=Omera%20Ultra%20V%2020W-50%205%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-super-v-multi-grade-engine-oil-20w-50-5-ltr",
+      "nameBn": "সুপার ভি মাল্টি গ্রেড ইঞ্জিন ওয়েল ২০ডব্লিউ-৫০ ৫ লিটার",
+      "nameEn": "Super V Multi Grade Engine Oil 20W-50 5 ltr",
+      "category": "all",
+      "unit": "5 ltr",
+      "image": "https://chaldn.com/_mpimage/super-v-multi-grade-engine-oil-20w-50-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64462&q=best&v=1",
+      "mrp": 2500,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:32.427Z",
+      "prices": {
+        "chaldal": {
+          "price": 2500,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/super-v-multi-grade-engine-oil-20w-50-5-ltr",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 2500,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 2500,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 2500,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-super-v-multi-grade-engine-oil-20w-50-1-ltr",
+      "nameBn": "সুপার ভি মাল্টি গ্রেড ইঞ্জিন ওয়েল ২০ডব্লিউ-৫০ ১ লিটার",
+      "nameEn": "Super V Multi Grade Engine Oil 20W-50 1 ltr",
+      "category": "all",
+      "unit": "1 ltr",
+      "image": "https://chaldn.com/_mpimage/super-v-multi-grade-engine-oil-20w-50-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D137234&q=best&v=1",
+      "mrp": 689,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:32.427Z",
+      "prices": {
+        "chaldal": {
+          "price": 689,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/super-v-multi-grade-engine-oil-20w-50-1-ltr",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 689,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 689,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 689,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-mobil-1-5w-30-4-ltr",
+      "nameBn": "মবিল ১৫ডাব্লিউ-৩০ ৪ লিটার",
+      "nameEn": "Mobil 1 5W-30 4 ltr",
+      "category": "all",
+      "unit": "4 ltr",
+      "image": "https://chaldn.com/_mpimage/mobil-1-5w-30-4-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130792&q=best&v=1",
+      "mrp": 6880,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:32.427Z",
+      "prices": {
+        "chaldal": {
+          "price": 6880,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/mobil-1-5w-30-4-ltr",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 6880,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=Mobil%201%205W-30%204%20ltr",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 6880,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=Mobil%201%205W-30%204%20ltr",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 6880,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=Mobil%201%205W-30%204%20ltr",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-aarong-dairy-pure-ghee-450-gm",
+      "nameBn": "আড়ং ডেইরি খাঁটি ঘি ৪৫০ গ্রাম",
+      "nameEn": "Aarong Dairy Pure Ghee 450 gm",
+      "category": "all",
+      "unit": "450 gm",
+      "image": "https://chaldn.com/_mpimage/aarong-dairy-pure-ghee-450-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179716&q=best&v=1",
+      "mrp": 825,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:36.649Z",
+      "prices": {
+        "chaldal": {
+          "price": 825,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/aarong-dairy-pure-ghee-450-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 825,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 825,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 825,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-aci-pure-premium-ghee-200-gm",
+      "nameBn": "এ সি আই পিওর প্রিমিয়াম ঘি ২০০ গ্রাম",
+      "nameEn": "ACI Pure Premium Ghee 200 gm",
+      "category": "all",
+      "unit": "200 gm",
+      "image": "https://chaldn.com/_mpimage/aci-pure-premium-ghee-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179260&q=best&v=1",
+      "mrp": 375,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:36.649Z",
+      "prices": {
+        "chaldal": {
+          "price": 375,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/aci-pure-premium-ghee-200-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 375,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Premium%20Ghee%20200%20gm",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 375,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Premium%20Ghee%20200%20gm",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 375,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Premium%20Ghee%20200%20gm",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-ghee-vita-400-gm",
+      "nameBn": "ঘি ভিটা ৪০০ গ্রাম",
+      "nameEn": "Ghee Vita 400 gm",
+      "category": "all",
+      "unit": "400 gm",
+      "image": "https://chaldn.com/_mpimage/ghee-vita-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D149090&q=best&v=1",
+      "mrp": 650,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:36.649Z",
+      "prices": {
+        "chaldal": {
+          "price": 650,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/ghee-vita-400-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 650,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=Ghee%20Vita%20400%20gm",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 650,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=Ghee%20Vita%20400%20gm",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 650,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=Ghee%20Vita%20400%20gm",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-aci-pure-ghee-100-gm",
+      "nameBn": "এ সি আই খাঁটি ঘি ১০০ গ্রাম",
+      "nameEn": "ACI Pure Ghee 100 gm",
+      "category": "all",
+      "unit": "100 gm",
+      "image": "https://chaldn.com/_mpimage/aci-pure-ghee-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D148232&q=best&v=1",
+      "mrp": 205,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:36.649Z",
+      "prices": {
+        "chaldal": {
+          "price": 205,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/aci-pure-ghee-100-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 205,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Ghee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 205,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Ghee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 205,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Ghee%20100%20gm",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "chaldal-ghee-vita-250-gm",
+      "nameBn": "ঘি ভিটা ২৫০ গ্রাম",
+      "nameEn": "Ghee Vita 250 gm",
+      "category": "all",
+      "unit": "250 gm",
+      "image": "https://chaldn.com/_mpimage/ghee-vita-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136914&q=best&v=1",
+      "mrp": 400,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-18T06:50:36.649Z",
+      "prices": {
+        "chaldal": {
+          "price": 400,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://chaldal.com/ghee-vita-250-gm",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 400,
+          "inStock": true,
+          "discountText": "বাজার দর",
+          "url": "https://www.shwapno.com/search?q=Ghee%20Vita%20250%20gm",
+          "isVerifiedLive": true
+        },
+        "pandamart": {
+          "price": 400,
+          "inStock": true,
+          "discountText": "MRP",
+          "url": "https://www.foodpanda.com.bd/restaurants?search=Ghee%20Vita%20250%20gm",
+          "isVerifiedLive": true
+        },
+        "meenaclick": {
+          "price": 400,
+          "inStock": true,
+          "discountText": "লাইভ রেট",
+          "url": "https://meenabazaronline.com/search?keyword=Ghee%20Vita%20250%20gm",
           "isVerifiedLive": true
         }
       }

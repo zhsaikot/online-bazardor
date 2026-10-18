@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { syncAllProducts, searchLiveProducts } from './scraper.js';
+import { identifyProductFromImage } from './vision.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -14,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '10mb' }));
 
 // In-memory cache
 let cachedProducts = [];
@@ -145,6 +146,65 @@ app.get('/api/search', async (req, res) => {
     });
   } catch (err) {
     console.error('[Server] Search error:', err.message);
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// Visual Search & Product Recognition Endpoint
+app.post('/api/vision-search', async (req, res) => {
+  const { imageBase64, filename, sampleHint } = req.body || {};
+  if (!imageBase64 && !filename && !sampleHint) {
+    return res.status(400).json({ 
+      success: false, 
+      error: 'Image data, filename or sample hint is required' 
+    });
+  }
+
+  try {
+    console.log('[Server] Processing Visual Search request...');
+    const recognition = await identifyProductFromImage({ imageBase64, filename, sampleHint });
+    
+    // Search live supermarkets for matching products
+    const searchQuery = recognition.searchQuery || recognition.detectedProduct;
+    let liveResults = await searchLiveProducts(searchQuery, 6);
+
+    // If no live results came back from Chaldal, search existing cached catalog
+    if (!liveResults || liveResults.length === 0) {
+      const qLower = searchQuery.toLowerCase();
+      liveResults = cachedProducts.filter(p => 
+        p.nameEn.toLowerCase().includes(qLower) || 
+        p.nameBn.includes(recognition.bengaliName || '') ||
+        (recognition.category && p.category === recognition.category)
+      ).slice(0, 6);
+    }
+
+    // Cache any new items discovered
+    let addedCount = 0;
+    for (const item of liveResults) {
+      const exists = cachedProducts.find(p => p.id === item.id || p.nameEn === item.nameEn);
+      if (!exists) {
+        cachedProducts.push(item);
+        addedCount++;
+      }
+    }
+
+    if (addedCount > 0) {
+      fs.writeFileSync(CACHE_FILE, JSON.stringify({
+        lastSyncTime,
+        count: cachedProducts.length,
+        products: cachedProducts
+      }, null, 2));
+    }
+
+    res.json({
+      success: true,
+      recognition,
+      count: liveResults.length,
+      products: liveResults,
+      matchedProduct: liveResults[0] || null
+    });
+  } catch (err) {
+    console.error('[Server] Visual search error:', err.message);
     res.status(500).json({ success: false, error: err.message });
   }
 });
