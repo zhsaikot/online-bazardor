@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import { PRODUCTS, CATEGORIES, STORES } from './data/mockCatalog';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { AuthProvider } from './context/AuthContext';
+import StoreLogo from './components/StoreLogo';
 import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles } from 'lucide-react';
 
 function AppContent() {
@@ -362,6 +363,30 @@ function AppContent() {
                   );
                 })}
               </div>
+
+              {/* Mobile Store Filter Row with Official Store Logos */}
+              <div className="flex gap-1.5 overflow-x-auto no-scrollbar py-0.5 items-center">
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider shrink-0 mr-0.5">
+                  {lang === 'bn' ? 'স্টোর:' : 'Stores:'}
+                </span>
+                {Object.values(STORES).map(store => {
+                  const isChecked = selectedStores.includes(store.id);
+                  return (
+                    <button
+                      key={store.id}
+                      onClick={() => toggleStoreFilter(store.id)}
+                      className={`flex items-center gap-1.5 px-2.5 py-1 rounded-xl text-xs font-bold whitespace-nowrap transition border ${
+                        isChecked
+                          ? 'bg-white text-slate-900 border-emerald-500/80 shadow-2xs ring-1 ring-emerald-500/30'
+                          : 'bg-slate-100 text-slate-400 border-slate-200 opacity-60'
+                      }`}
+                    >
+                      <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs" />
+                      <span>{lang === 'bn' ? store.nameBn : store.name}</span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
 
             {/* Main Responsive Grid: Filter Sidebar + Spacious Wide Products Area */}
@@ -383,15 +408,21 @@ function AppContent() {
               <div className="flex-1 min-w-0 w-full space-y-3.5">
                 {/* Live Price Sync Status Bar */}
                 <div className="bg-emerald-50/90 border border-emerald-200/90 rounded-2xl p-2.5 sm:p-3 flex items-center justify-between text-xs gap-2 shadow-2xs">
-                  <div className="flex items-center gap-2 min-w-0">
+                  <div className="flex items-center gap-2.5 min-w-0">
                     <span className="relative flex h-2.5 w-2.5 shrink-0">
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                       <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                     </span>
-                    <div className="flex items-center gap-1.5 min-w-0">
+                    <div className="flex items-center gap-2 min-w-0">
                       <span className="font-bold text-emerald-950 truncate text-[11px] sm:text-xs">
-                        {lang === 'bn' ? 'চালডাল ও সুপারশপ লাইভ প্রাইস ইঞ্জিন' : 'Live Supermarket Price Engine'}
+                        {lang === 'bn' ? 'সুপারশপ লাইভ প্রাইস ইঞ্জিন' : 'Live Supermarket Price Engine'}
                       </span>
+                      {/* Connected Store Logos */}
+                      <div className="hidden sm:flex items-center gap-1 shrink-0">
+                        {Object.values(STORES).map(s => (
+                          <StoreLogo key={s.id} store={s} size="xs" showBorder={true} className="w-4 h-4 rounded-xs border-slate-200" />
+                        ))}
+                      </div>
                       {lastSyncedAt && (
                         <span className="hidden md:inline text-[10px] text-emerald-700 font-medium shrink-0">
                           • {lang === 'bn' ? 'সর্বশেষ সিঙ্ক:' : 'Synced:'} {new Date(lastSyncedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}

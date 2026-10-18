@@ -5,6 +5,7 @@ import {
 } from 'lucide-react';
 import { CATEGORIES, STORES, PRODUCTS } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
+import StoreLogo from './StoreLogo';
 
 export default function DesktopSidebar({ 
   productList = PRODUCTS,
@@ -68,9 +69,9 @@ export default function DesktopSidebar({
                 onClick={() => toggleStoreFilter(store.id)}
                 className="w-full flex items-center justify-between p-2 rounded-xl hover:bg-slate-50 transition text-left"
               >
-                <div className="flex items-center gap-2.5">
+                <div className="flex items-center gap-2.5 min-w-0">
                   <div 
-                    className={`w-5 h-5 rounded-lg border flex items-center justify-center transition ${
+                    className={`w-5 h-5 rounded-lg border flex items-center justify-center shrink-0 transition ${
                       isChecked 
                         ? 'bg-emerald-600 border-emerald-600 text-white' 
                         : 'border-slate-300 bg-white'
@@ -78,16 +79,17 @@ export default function DesktopSidebar({
                   >
                     {isChecked && <Check className="w-3.5 h-3.5 stroke-[3]" />}
                   </div>
-                  <div>
-                    <span className="text-xs font-bold text-slate-800 block">
+                  <StoreLogo store={store} size="md" className="rounded-lg shadow-2xs border border-slate-100" />
+                  <div className="min-w-0">
+                    <span className="text-xs font-bold text-slate-800 block truncate">
                       {lang === 'bn' ? store.nameBn : store.name}
                     </span>
-                    <span className="text-[10px] text-slate-400">
+                    <span className="text-[10px] text-slate-400 block truncate">
                       {lang === 'bn' ? store.deliveryTime : store.deliveryTimeEn}
                     </span>
                   </div>
                 </div>
-                <span className="w-2 h-2 rounded-full" style={{ backgroundColor: store.accentHex }}></span>
+                <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: store.accentHex }}></span>
               </button>
             );
           })}

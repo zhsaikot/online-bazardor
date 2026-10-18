@@ -2,6 +2,7 @@ import React from 'react';
 import { Plus, Minus, Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
 import { STORES } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
+import StoreLogo from './StoreLogo';
 
 export default function ProductCard({ 
   product, 
@@ -97,8 +98,9 @@ export default function ProductCard({
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
                 title={lang === 'bn' ? `${lowestStore.name}-এ সরাসরি দেখুন` : `Open in ${lowestStore.name}`}
-                className="font-bold px-1.5 py-0.5 rounded bg-white text-emerald-800 hover:text-emerald-950 hover:bg-emerald-100/80 shadow-2xs truncate max-w-[120px] flex items-center gap-1 group/lowest transition"
+                className="font-bold px-1.5 py-0.5 rounded bg-white text-emerald-800 hover:text-emerald-950 hover:bg-emerald-100/80 shadow-2xs truncate max-w-[130px] flex items-center gap-1 group/lowest transition"
               >
+                <StoreLogo store={lowestStore} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs shrink-0" />
                 <span className="truncate">{lowestStore.name}</span>
                 <ExternalLink className="w-2.5 h-2.5 text-emerald-600 shrink-0 group-hover/lowest:translate-x-0.5 transition" />
               </a>
@@ -141,10 +143,7 @@ export default function ProductCard({
                 }`}
               >
                 <div className="flex items-center gap-1.5 min-w-0">
-                  <span 
-                    className="w-1.5 h-1.5 rounded-full shrink-0" 
-                    style={{ backgroundColor: store.accentHex }}
-                  ></span>
+                  <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs shrink-0" />
                   <span className="truncate group-hover/store:underline">{store.name}</span>
                 </div>
                 <div className="flex items-center gap-1 shrink-0 ml-1">

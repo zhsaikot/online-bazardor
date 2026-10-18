@@ -2,6 +2,7 @@ import React from 'react';
 import { X, Clock, Truck, CheckCircle2, ExternalLink } from 'lucide-react';
 import { STORES } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
+import StoreLogo from './StoreLogo';
 
 export default function ProductDetailModal({ product, onClose, onAdd, quantityInBasket = 0 }) {
   const { lang, t } = useLanguage();
@@ -94,10 +95,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                   >
                     <div className="flex items-center justify-between mb-2">
                       <div className="flex items-center gap-2">
-                        <span 
-                          className="w-3 h-3 rounded-full" 
-                          style={{ backgroundColor: store.accentHex }}
-                        ></span>
+                        <StoreLogo store={store} size="md" className="rounded-lg shadow-2xs border border-slate-100" />
                         <span className="font-bold text-sm text-slate-900">
                           {lang === 'bn' ? `${store.name} (${store.nameBn})` : store.name}
                         </span>
@@ -136,6 +134,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                             : 'bg-white hover:bg-slate-100 text-slate-700 border-slate-200 hover:border-slate-300'
                         }`}
                       >
+                        <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs" />
                         <span>
                           {lang === 'bn' 
                             ? `${store.name}-এ সরাসরি কিনুন` 
@@ -159,12 +158,13 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                 rel="noopener noreferrer"
                 className="w-full bg-slate-900 hover:bg-black text-white font-bold py-3 px-4 rounded-2xl transition flex items-center justify-center gap-2 text-xs shadow-xs"
               >
-                <ExternalLink className="w-4 h-4 text-emerald-400" />
+                <StoreLogo store={lowestStore} size="xs" showBorder={false} className="w-4 h-4 rounded-xs shrink-0" />
                 <span>
                   {lang === 'bn' 
                     ? `${lowestStore.name}-এ সর্বনিম্ন মূল্যে (৳${minPrice}) সরাসরি অর্ডার করুন` 
                     : `Order Directly at ৳${minPrice} on ${lowestStore.name}`}
                 </span>
+                <ExternalLink className="w-4 h-4 text-emerald-400" />
               </a>
             )}
 

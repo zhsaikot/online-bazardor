@@ -9,6 +9,7 @@ import { PAYMENT_OFFERS } from '../data/paymentOffers';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import confetti from 'canvas-confetti';
+import StoreLogo from './StoreLogo';
 
 export default function BagSlideOver({ 
   isOpen, 
@@ -182,8 +183,9 @@ export default function BagSlideOver({
                                   target="_blank"
                                   rel="noopener noreferrer"
                                   title={lang === 'bn' ? `${lowestStore.name}-এ সরাসরি দেখুন` : `Open in ${lowestStore.name}`}
-                                  className="text-[10px] font-bold text-emerald-800 hover:text-emerald-950 bg-white hover:bg-emerald-50 border border-slate-200 px-1.5 py-0.5 rounded-md flex items-center gap-0.5 shadow-2xs transition"
+                                  className="text-[10px] font-bold text-emerald-800 hover:text-emerald-950 bg-white hover:bg-emerald-50 border border-slate-200 px-1.5 py-0.5 rounded-md flex items-center gap-1 shadow-2xs transition"
                                 >
+                                  <StoreLogo store={lowestStore} size="xs" showBorder={false} className="w-3 h-3 rounded-xs shrink-0" />
                                   <span>{lowestStore.name} ৳{minPrice}</span>
                                   <ExternalLink className="w-2.5 h-2.5 text-emerald-600" />
                                 </a>
@@ -254,10 +256,18 @@ export default function BagSlideOver({
                       </span>
                     </div>
 
-                    <div className="flex items-baseline justify-between mb-3">
-                      <h4 className="font-black text-xl">
-                        {lang === 'bn' ? bestSingleStore.store.nameBn : bestSingleStore.store.name}
-                      </h4>
+                    <div className="flex items-center justify-between mb-3">
+                      <div className="flex items-center gap-2.5">
+                        <StoreLogo store={bestSingleStore.store} size="lg" className="rounded-xl shadow-md border-0" />
+                        <div>
+                          <h4 className="font-black text-xl leading-tight">
+                            {lang === 'bn' ? bestSingleStore.store.nameBn : bestSingleStore.store.name}
+                          </h4>
+                          <span className="text-[11px] text-emerald-100 font-medium">
+                            {bestSingleStore.store.deliveryTime}
+                          </span>
+                        </div>
+                      </div>
                       <div className="text-right">
                         <span className="text-2xl font-black">৳{bestSingleStore.netTotal}</span>
                       </div>
@@ -297,8 +307,9 @@ export default function BagSlideOver({
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={triggerConfetti}
-                      className="w-full bg-white text-emerald-800 hover:bg-emerald-50 active:scale-98 font-black py-3 rounded-2xl transition flex items-center justify-center gap-1.5 text-xs shadow-md"
+                      className="w-full bg-white text-emerald-800 hover:bg-emerald-50 active:scale-98 font-black py-3 rounded-2xl transition flex items-center justify-center gap-2 text-xs shadow-md"
                     >
+                      <StoreLogo store={bestSingleStore.store} size="xs" showBorder={false} className="w-4 h-4 rounded-xs shrink-0" />
                       <span>{bestSingleStore.store.name}-এ সরাসরি অর্ডার করুন</span>
                       <ExternalLink className="w-3.5 h-3.5" />
                     </a>
@@ -331,8 +342,9 @@ export default function BagSlideOver({
                           }
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[10px] font-bold bg-white text-amber-900 border border-amber-300 hover:bg-amber-100/70 px-2 py-1 rounded-lg flex items-center gap-1 shadow-2xs transition"
+                          className="text-[10px] font-bold bg-white text-amber-900 border border-amber-300 hover:bg-amber-100/70 px-2 py-1 rounded-lg flex items-center gap-1.5 shadow-2xs transition"
                         >
+                          <StoreLogo store={s.store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs shrink-0" />
                           <span>{s.store.name} (৳{s.subtotal})</span>
                           <ExternalLink className="w-2.5 h-2.5" />
                         </a>
@@ -353,13 +365,14 @@ export default function BagSlideOver({
                           href={
                             storeKey === 'chaldal' ? 'https://chaldal.com' :
                             storeKey === 'shwapno' ? 'https://www.shwapno.com' :
-                            storeKey === 'pandamart' ? 'https://www.foodpanda.com.bd' : 'https://www.meenaclick.com'
+                            storeKey === 'pandamart' ? 'https://www.foodpanda.com.bd/groceries' : 'https://meenabazaronline.com'
                           }
                           target="_blank"
                           rel="noopener noreferrer"
                           title={`${summary.store.name}-এর স্টোর পেজে যান`}
-                          className="font-semibold text-slate-800 hover:text-emerald-700 flex items-center gap-1 group transition"
+                          className="font-semibold text-slate-800 hover:text-emerald-700 flex items-center gap-2 group transition"
                         >
+                          <StoreLogo store={summary.store} size="sm" className="rounded-md shadow-2xs border border-slate-100" />
                           <span className="group-hover:underline">{summary.store.name}</span>
                           <ExternalLink className="w-2.5 h-2.5 text-slate-400 group-hover:text-emerald-600 transition" />
                         </a>

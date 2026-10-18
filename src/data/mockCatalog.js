@@ -17,7 +17,8 @@ export const STORES = {
     "deliveryTimeEn": "1-2 hrs",
     "rating": 4.6,
     "logoText": "Chaldal",
-    "accentHex": "#f97316"
+    "accentHex": "#f97316",
+    "logo": "/stores/chaldal.png"
   },
   "shwapno": {
     "id": "shwapno",
@@ -34,7 +35,8 @@ export const STORES = {
     "deliveryTimeEn": "Same Day",
     "rating": 4.5,
     "logoText": "Shwapno",
-    "accentHex": "#e11d48"
+    "accentHex": "#e11d48",
+    "logo": "/stores/shwapno.png"
   },
   "pandamart": {
     "id": "pandamart",
@@ -51,7 +53,8 @@ export const STORES = {
     "deliveryTimeEn": "25-35 mins",
     "rating": 4.4,
     "logoText": "pandamart",
-    "accentHex": "#db2777"
+    "accentHex": "#db2777",
+    "logo": "/stores/pandamart.png"
   },
   "meenaclick": {
     "id": "meenaclick",
@@ -68,7 +71,8 @@ export const STORES = {
     "deliveryTimeEn": "2-3 hrs",
     "rating": 4.3,
     "logoText": "MeenaBazar",
-    "accentHex": "#059669"
+    "accentHex": "#059669",
+    "logo": "/stores/meenaclick.png"
   }
 };
 

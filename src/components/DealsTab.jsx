@@ -3,6 +3,7 @@ import { Tag, Sparkles, Plus, CreditCard, ExternalLink } from 'lucide-react';
 import { PAYMENT_OFFERS } from '../data/paymentOffers';
 import { STORES } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
+import StoreLogo from './StoreLogo';
 
 export default function DealsTab({ onAddProduct, allProducts }) {
   const { lang, t } = useLanguage();
@@ -108,7 +109,10 @@ export default function DealsTab({ onAddProduct, allProducts }) {
                   <div className="flex items-baseline gap-1 mt-0.5">
                     <span className="text-xs font-black text-emerald-700">৳{prod.minPrice}</span>
                     <span className="text-[10px] text-slate-400 line-through">৳{prod.mrp}</span>
-                    <span className="text-[10px] text-slate-400 ml-1">({prod.storeName})</span>
+                  </div>
+                  <div className="flex items-center gap-1 mt-1">
+                    <StoreLogo store={prod.storeKey} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs shrink-0" />
+                    <span className="text-[10px] text-slate-500 font-semibold">{prod.storeName}</span>
                   </div>
                 </div>
               </div>
@@ -129,6 +133,7 @@ export default function DealsTab({ onAddProduct, allProducts }) {
                     className="bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs py-2 px-2 rounded-xl transition flex items-center justify-center gap-1 active:scale-95"
                     title={lang === 'bn' ? `${prod.storeName}-এ সরাসরি অফারটি দেখুন` : `Open in ${prod.storeName}`}
                   >
+                    <StoreLogo store={prod.storeKey} size="xs" showBorder={false} className="w-3 h-3 rounded-xs shrink-0" />
                     <span>{t.visitStore}</span>
                     <ExternalLink className="w-3 h-3 text-slate-500" />
                   </a>
