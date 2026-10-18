@@ -477,7 +477,7 @@ function AppContent() {
             {/* Main Responsive Grid: Filter Sidebar + Spacious Wide Products Area */}
             <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-start">
               {/* Desktop Left Filter Sidebar (Sticky on scroll) */}
-              <div className="hidden lg:block shrink-0 sticky top-20 self-start">
+              <div className="hidden lg:block shrink-0 sticky top-18 self-start">
                 <DesktopSidebar 
                   productList={productList}
                   selectedCategory={selectedCategory}
