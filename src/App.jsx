@@ -638,6 +638,7 @@ function AppContent() {
       <VisualSearchModal 
         isOpen={isVisualSearchOpen}
         onClose={() => setIsVisualSearchOpen(false)}
+        onAddToBasket={handleAddToBasket}
         onProductFound={(product) => {
           setProductList(prev => {
             if (!prev.some(p => p.id === product.id)) {
