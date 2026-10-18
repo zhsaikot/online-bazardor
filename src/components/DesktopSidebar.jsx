@@ -14,40 +14,15 @@ export default function DesktopSidebar({
   selectedStores,
   toggleStoreFilter,
   discountOnly,
-  setDiscountOnly,
-  activeTab = 'catalog',
-  setActiveTab
+  setDiscountOnly
 }) {
   const { lang, t } = useLanguage();
 
   return (
-    <aside className="w-64 shrink-0 space-y-3.5 sticky top-20 max-h-[calc(100vh-5.5rem)] overflow-y-auto pr-1 select-none no-scrollbar">
-      {/* Top View Switcher Tabs (বাজার দর | সেরা ডিল | দৈনিক দর) */}
-      {setActiveTab && (
-        <div className="bg-white dark:bg-zinc-900 rounded-3xl p-1.5 border border-zinc-200/70 dark:border-zinc-800 shadow-premium-card grid grid-cols-3 gap-1">
-          {[
-            { id: 'catalog', label: t.catalogTab },
-            { id: 'deals', label: t.dealsTab },
-            { id: 'daily', label: t.dailyRatesTab },
-          ].map(tab => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`py-2 px-1 text-center rounded-2xl text-[11px] font-bold transition-all duration-150 cursor-pointer ${
-                activeTab === tab.id
-                  ? 'bg-zinc-950 dark:bg-emerald-600 text-white shadow-premium-sm'
-                  : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-white hover:bg-zinc-100/70 dark:hover:bg-zinc-800/70'
-              }`}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
-      )}
-
+    <aside className="w-64 shrink-0 space-y-4 select-none">
       {/* Category Filter */}
-      <div className="bg-white dark:bg-zinc-900 rounded-3xl p-4.5 border border-zinc-200/70 dark:border-zinc-800 shadow-premium-card transition-colors">
-        <h3 className="text-xs font-bold text-zinc-900 dark:text-zinc-100 uppercase tracking-wider mb-2.5 flex items-center justify-between font-heading">
+      <div className="bg-white dark:bg-zinc-900 rounded-3xl p-5 border border-zinc-200/70 dark:border-zinc-800 shadow-premium-card transition-colors">
+        <h3 className="text-xs font-bold text-zinc-900 dark:text-zinc-100 uppercase tracking-wider mb-3 flex items-center justify-between font-heading">
           <span>{t.filterByCategory}</span>
           <span className="text-[10px] text-zinc-400 dark:text-zinc-400 font-semibold px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 border border-transparent dark:border-zinc-700">{CATEGORIES.length}</span>
         </h3>
@@ -81,8 +56,8 @@ export default function DesktopSidebar({
       </div>
 
       {/* Store Filter */}
-      <div className="bg-white dark:bg-zinc-900 rounded-3xl p-4.5 border border-zinc-200/70 dark:border-zinc-800 shadow-premium-card transition-colors">
-        <h3 className="text-xs font-bold text-zinc-900 dark:text-zinc-100 uppercase tracking-wider mb-2.5 font-heading">
+      <div className="bg-white dark:bg-zinc-900 rounded-3xl p-5 border border-zinc-200/70 dark:border-zinc-800 shadow-premium-card transition-colors">
+        <h3 className="text-xs font-bold text-zinc-900 dark:text-zinc-100 uppercase tracking-wider mb-3 font-heading">
           {t.filterByStore}
         </h3>
         <div className="space-y-1.5">
@@ -122,7 +97,7 @@ export default function DesktopSidebar({
       </div>
 
       {/* Quick Deals Toggle */}
-      <div className="bg-white dark:bg-zinc-900 rounded-3xl p-3.5 border border-zinc-200/70 dark:border-zinc-800 shadow-premium-card transition-colors">
+      <div className="bg-white dark:bg-zinc-900 rounded-3xl p-4 border border-zinc-200/70 dark:border-zinc-800 shadow-premium-card transition-colors">
         <button
           onClick={() => setDiscountOnly(!discountOnly)}
           className={`w-full flex items-center justify-between p-1.5 rounded-xl transition cursor-pointer ${
@@ -142,12 +117,12 @@ export default function DesktopSidebar({
       </div>
 
       {/* Trust & Methodology Card */}
-      <div className="bg-zinc-50/80 dark:bg-zinc-900/60 rounded-3xl p-3.5 border border-zinc-200/60 dark:border-zinc-800 text-zinc-600 dark:text-zinc-400 text-xs space-y-1.5 transition-colors">
+      <div className="bg-zinc-50/80 dark:bg-zinc-900/60 rounded-3xl p-4 border border-zinc-200/60 dark:border-zinc-800 text-zinc-600 dark:text-zinc-400 text-xs space-y-1.5 transition-colors">
         <div className="flex items-center gap-1.5 font-bold text-zinc-900 dark:text-zinc-200 text-[11px]">
           <ShieldCheck className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
           <span>{lang === 'bn' ? 'স্বচ্ছ মূল্য যাচাই' : 'Verified Pricing'}</span>
         </div>
-        <p className="text-[10px] leading-relaxed text-zinc-500 dark:text-zinc-400">
+        <p className="text-[11px] leading-relaxed text-zinc-500 dark:text-zinc-400">
           {lang === 'bn' 
             ? 'প্রতিটি স্টোরের মূল্য প্রতি ২ ঘণ্টায় স্বয়ংক্রিয়ভাবে হালনাগাদ করা হয়।' 
             : 'Store prices are indexed and validated every 2 hours.'}

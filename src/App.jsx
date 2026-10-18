@@ -321,7 +321,7 @@ function AppContent() {
   }, [productList, searchQuery, selectedCategory, selectedStores, discountOnly]);
 
   return (
-    <div className="min-h-screen bg-[#fafbfc] dark:bg-[#090d16] flex flex-col text-zinc-900 dark:text-zinc-100 selection:bg-emerald-600 selection:text-white overflow-x-hidden w-full max-w-full transition-colors duration-250">
+    <div className="min-h-screen bg-[#fafbfc] dark:bg-[#090d16] flex flex-col text-zinc-900 dark:text-zinc-100 selection:bg-emerald-600 selection:text-white w-full max-w-full transition-colors duration-250">
       {/* Top Header */}
       <Header 
         selectedLocation={selectedLocation}
@@ -486,8 +486,6 @@ function AppContent() {
                   toggleStoreFilter={toggleStoreFilter}
                   discountOnly={discountOnly}
                   setDiscountOnly={setDiscountOnly}
-                  activeTab={activeTab}
-                  setActiveTab={setActiveTab}
                 />
               </div>
 
