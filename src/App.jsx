@@ -624,27 +624,6 @@ function AppContent() {
                 )}
               </div>
             </div>
-
-            {/* Mobile Floating Sticky Quick Bag Bar */}
-            {basketCount > 0 && (
-              <div className="lg:hidden fixed bottom-16 left-0 right-0 z-30 px-3 max-w-md mx-auto pointer-events-none">
-                <button
-                  onClick={() => setIsBagOpen(true)}
-                  className="w-full bg-slate-900/95 backdrop-blur-md hover:bg-slate-900 text-white font-bold py-2.5 px-4 rounded-2xl shadow-xl transition flex items-center justify-between pointer-events-auto active:scale-98"
-                >
-                  <div className="flex items-center gap-2">
-                    <span className="w-5 h-5 rounded-full bg-emerald-500 text-white text-[11px] flex items-center justify-center font-black">
-                      {basketCount}
-                    </span>
-                    <span className="text-xs">{t.myBag}</span>
-                  </div>
-                  <div className="flex items-center gap-1 text-xs text-emerald-400">
-                    <span>{t.viewCompare}</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </div>
-                </button>
-              </div>
-            )}
           </div>
         )}
       </div>
