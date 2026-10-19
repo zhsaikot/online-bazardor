@@ -11,6 +11,7 @@ import { useTheme } from '../context/ThemeContext';
 import { STORES } from '../data/mockCatalog';
 import StoreLogo from './StoreLogo';
 import confetti from 'canvas-confetti';
+import { usePWA } from '../context/PWAContext';
 
 export default function ProfileSettingsModal({ 
   selectedLocation, 
@@ -29,6 +30,7 @@ export default function ProfileSettingsModal({
   } = useAuth();
   const { lang, toggleLanguage, t } = useLanguage();
   const { theme, setTheme, isDark } = useTheme();
+  const { isStandalone, promptInstall } = usePWA();
 
   const [activeTab, setActiveTab] = useState('profile'); // 'profile' | 'bags' | 'preferences' | 'security'
   const [editingName, setEditingName] = useState('');
@@ -419,6 +421,54 @@ export default function ProfileSettingsModal({
           {/* TAB 3: Preferences & Supermarkets */}
           {activeTab === 'preferences' && (
             <div className="space-y-6">
+              {/* PWA Native App Installation Card */}
+              <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-50 to-teal-50/50 dark:from-emerald-950/40 dark:to-teal-950/20 border border-emerald-200 dark:border-emerald-800/60 shadow-2xs">
+                <div className="flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <img 
+                      src="/icons/icon-192.png" 
+                      alt="BazarDor Icon" 
+                      className="w-10 h-10 rounded-xl shadow-xs border border-emerald-500/20 shrink-0 object-cover"
+                    />
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <h5 className="font-extrabold text-xs text-zinc-950 dark:text-zinc-50 truncate">
+                          {lang === 'bn' ? 'বাজারদর অফিসিয়াল অ্যাপ' : 'BazarDor Official App'}
+                        </h5>
+                        <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded-full ${
+                          isStandalone 
+                            ? 'bg-emerald-100 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-300' 
+                            : 'bg-zinc-200/80 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300'
+                        }`}>
+                          {isStandalone ? (lang === 'bn' ? 'ইনস্টলড' : 'Installed') : 'PWA'}
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-zinc-500 dark:text-zinc-400 mt-0.5 leading-tight">
+                        {isStandalone 
+                          ? (lang === 'bn' ? 'অ্যাপটি আপনার ডিভাইসে ফুল-স্ক্রিনে সক্রিয় আছে।' : 'Active in standalone full-screen mode.')
+                          : (lang === 'bn' ? 'ফোনের হোম স্ক্রিনে ইনস্টল করে ১-ট্যাপে বাজার দেখুন।' : 'Install on home screen for 1-tap fast access.')}
+                      </p>
+                    </div>
+                  </div>
+
+                  {!isStandalone ? (
+                    <button
+                      type="button"
+                      onClick={promptInstall}
+                      className="px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-xs active:scale-95 transition flex items-center gap-1.5 shrink-0 cursor-pointer"
+                    >
+                      <Download className="w-3.5 h-3.5" />
+                      <span>{lang === 'bn' ? 'ইনস্টল করুন' : 'Install'}</span>
+                    </button>
+                  ) : (
+                    <div className="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-xs font-bold shrink-0">
+                      <CheckCircle2 className="w-4 h-4" />
+                      <span>{lang === 'bn' ? 'অ্যাক্টিভ' : 'Active'}</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+
               {/* Default Location */}
               <div>
                 <label className="block text-xs font-bold text-zinc-700 dark:text-zinc-300 uppercase tracking-wider mb-2 flex items-center gap-1.5">

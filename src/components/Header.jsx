@@ -1,7 +1,8 @@
-import { ShoppingBag, MapPin, User, Globe, Search, LogOut, X, Sun, Moon, Settings } from 'lucide-react';
+import { ShoppingBag, MapPin, User, Globe, Search, LogOut, X, Sun, Moon, Settings, Download } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
+import { usePWA } from '../context/PWAContext';
 import BazarDorLogo from './BazarDorLogo';
 
 export default function Header({ 
@@ -18,6 +19,7 @@ export default function Header({
   const { lang, toggleLanguage, t } = useLanguage();
   const { user, openAuthModal, openProfileModal, logout } = useAuth();
   const { isDark, toggleTheme } = useTheme();
+  const { isStandalone, promptInstall } = usePWA();
 
   const locations = [
     'ঢাকা - ধানমন্ডি',
@@ -128,6 +130,18 @@ export default function Header({
             <span className="hidden sm:inline">{lang === 'bn' ? 'English' : 'বাংলা'}</span>
             <span className="sm:hidden">{lang === 'bn' ? 'EN' : 'বাং'}</span>
           </button>
+
+          {/* Desktop Install App Button (When not running in standalone mode) */}
+          {!isStandalone && (
+            <button
+              onClick={promptInstall}
+              className="hidden lg:flex items-center gap-1.5 bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/40 dark:hover:bg-emerald-950/70 text-emerald-800 dark:text-emerald-300 font-bold text-xs py-1.5 px-3 rounded-full border border-emerald-300/80 dark:border-emerald-800 transition active:scale-95 shrink-0 cursor-pointer shadow-2xs"
+              title={lang === 'bn' ? 'বাজারদর অ্যাপ ইনস্টল করুন' : 'Install BazarDor App'}
+            >
+              <Download className="w-3.5 h-3.5 stroke-[2.5]" />
+              <span>{lang === 'bn' ? 'অ্যাপ ইনস্টল' : 'Install App'}</span>
+            </button>
+          )}
 
           {/* Auth Profile / Login Button */}
           {user ? (

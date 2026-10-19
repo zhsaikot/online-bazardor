@@ -11,11 +11,13 @@ import DailyMarketTab from './components/DailyMarketTab';
 import AuthModal from './components/AuthModal';
 import ProfileSettingsModal from './components/ProfileSettingsModal';
 import FloatingVisualSearchButton from './components/FloatingVisualSearchButton';
+import InstallAppBanner from './components/InstallAppBanner';
 import Footer from './components/Footer';
 import { PRODUCTS, CATEGORIES, STORES } from './data/mockCatalog';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
+import { PWAProvider } from './context/PWAContext';
 import StoreLogo from './components/StoreLogo';
 import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles } from 'lucide-react';
 
@@ -687,6 +689,9 @@ function AppContent() {
       {/* Floating Bottom-Corner Visual Search Button (Highlight AI Lens) */}
       <FloatingVisualSearchButton onOpen={() => setIsVisualSearchOpen(true)} />
 
+      {/* PWA Mobile Install Banner & iOS Safari Guide */}
+      <InstallAppBanner />
+
       {/* Mobile Bottom Navigation (Hidden on Desktop) */}
       <BottomNav 
         activeTab={activeTab}
@@ -708,7 +713,9 @@ export default function App() {
     <ThemeProvider>
       <LanguageProvider>
         <AuthProvider>
-          <AppContent />
+          <PWAProvider>
+            <AppContent />
+          </PWAProvider>
         </AuthProvider>
       </LanguageProvider>
     </ThemeProvider>
