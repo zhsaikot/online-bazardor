@@ -3,7 +3,7 @@ import {
   X, User, Settings, ShoppingBag, Shield, Bell, MapPin, 
   Store, Moon, Sun, Globe, Check, Trash2, ArrowRight, 
   ExternalLink, LogOut, Sparkles, RefreshCw, Smartphone, 
-  Mail, CheckCircle2, ChevronRight, Download, AlertTriangle 
+  Mail, CheckCircle2, ChevronRight, Download, AlertTriangle, Receipt 
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useLanguage } from '../context/LanguageContext';
@@ -12,6 +12,7 @@ import { STORES } from '../data/mockCatalog';
 import StoreLogo from './StoreLogo';
 import confetti from 'canvas-confetti';
 import { usePWA } from '../context/PWAContext';
+import BazaarExpenseHistory from './BazaarExpenseHistory';
 
 export default function ProfileSettingsModal({ 
   selectedLocation, 
@@ -192,6 +193,7 @@ export default function ProfileSettingsModal({
         <div className="flex border-b border-zinc-200/80 dark:border-zinc-800 bg-zinc-50/80 dark:bg-zinc-900/90 px-3 sm:px-6 overflow-x-auto no-scrollbar">
           {[
             { id: 'profile', label: lang === 'bn' ? 'প্রোফাইল' : 'Profile', icon: User },
+            { id: 'expenses', label: lang === 'bn' ? 'বাজারের খতিয়ান' : 'Expense History', icon: Receipt },
             { id: 'bags', label: lang === 'bn' ? 'সংরক্ষিত ফর্দ' : 'Saved Bags', icon: ShoppingBag, count: user?.savedBags?.length || 0 },
             { id: 'preferences', label: lang === 'bn' ? 'পছন্দ ও স্টোর' : 'Preferences', icon: Settings },
             { id: 'security', label: lang === 'bn' ? 'ডেটা ও নিরাপত্তা' : 'Data & Security', icon: Shield },
@@ -329,6 +331,33 @@ export default function ProfileSettingsModal({
                   </div>
                 </div>
               </form>
+            </div>
+          )}
+
+          {/* TAB: Monthly Bazaar Expense History & Analytics */}
+          {activeTab === 'expenses' && (
+            <div className="space-y-4">
+              <div className="p-3.5 rounded-2xl bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-emerald-950/40 dark:to-teal-950/20 border border-emerald-200 dark:border-emerald-800/60">
+                <h4 className="font-heading font-extrabold text-sm text-zinc-950 dark:text-zinc-50">
+                  {lang === 'bn' ? 'বাজার খরচের খতিয়ান ও হিসাব' : 'Bazaar Expense Records'}
+                </h4>
+                <p className="text-[11px] text-zinc-500 dark:text-zinc-400 mt-0.5">
+                  {lang === 'bn' 
+                    ? 'আপনার প্রতি মাসের মোট বাজার খরচ, সাপ্তাহিক হিসাব এবং কাঁচাবাজারের কেনাকাটার রসিদ।' 
+                    : 'Track your monthly bazaar expenditure, weekly spending, and past trip receipts.'}
+                </p>
+              </div>
+
+              <BazaarExpenseHistory 
+                onRestoreTripToBag={(items) => {
+                  if (onRestoreBag) {
+                    onRestoreBag({ items });
+                    closeProfileModal();
+                    if (onOpenBag) onOpenBag();
+                  }
+                }}
+                onClose={closeProfileModal}
+              />
             </div>
           )}
 

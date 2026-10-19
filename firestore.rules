@@ -28,6 +28,27 @@ service cloud.firestore {
     //   - createdAt: timestamp or string (optional)
     //   - updatedAt: timestamp or string (optional)
     //
+    // Subcollection: users/{userId}/bazaarHistory
+    // Document ID: {historyId}
+    // Fields:
+    //   - id: string (required, 1..100 characters) - trip identifier
+    //   - date: string (required, 1..100 characters) - ISO date string
+    //   - displayDate: string (optional, 1..100 characters) - formatted date
+    //   - displayTime: string (optional, 1..50 characters)
+    //   - monthKey: string (required, 1..20 characters) - e.g. "2026-10"
+    //   - mode: string (required, 'offline' | 'online')
+    //   - totalAmount: number (required, >= 0 and <= 10000000) - total ৳ spent
+    //   - itemsCount: number (optional, >= 0 and <= 500)
+    //   - items: list (optional, max 200 items)
+    //   - storeName: string (optional, <= 100 characters)
+    //   - notes: string (optional, <= 500 characters)
+    //   - createdAt: timestamp or string (optional)
+    //   - updatedAt: timestamp or string (optional)
+    //
+    // Subcollection: users/{userId}/activeBag
+    // Document ID: {docId} (e.g. 'current')
+    // Fields: active bag item state synced per user
+    //
     // ===============================================================
 
     // ===============================================================
@@ -76,6 +97,28 @@ service cloud.firestore {
              (!('items' in data) || (data.items is list && data.items.size() <= 200));
     }
 
+    // Domain Validator for Bazaar Trip History item
+    function isValidBazaarTrip(data) {
+      return data.keys().hasOnly([
+               'id', 'date', 'displayDate', 'displayTime', 'monthKey',
+               'mode', 'totalAmount', 'itemsCount', 'items', 'storeName',
+               'notes', 'createdAt', 'updatedAt'
+             ]) &&
+             ('id' in data && data.id is string && data.id.size() > 0 && data.id.size() <= 100) &&
+             ('date' in data && data.date is string && data.date.size() > 0 && data.date.size() <= 100) &&
+             ('monthKey' in data && data.monthKey is string && data.monthKey.size() > 0 && data.monthKey.size() <= 20) &&
+             ('mode' in data && data.mode in ['offline', 'online']) &&
+             ('totalAmount' in data && data.totalAmount is number && data.totalAmount >= 0 && data.totalAmount <= 10000000) &&
+             (!('displayDate' in data) || data.displayDate == null || (data.displayDate is string && data.displayDate.size() <= 100)) &&
+             (!('displayTime' in data) || data.displayTime == null || (data.displayTime is string && data.displayTime.size() <= 50)) &&
+             (!('itemsCount' in data) || data.itemsCount == null || (data.itemsCount is number && data.itemsCount >= 0 && data.itemsCount <= 500)) &&
+             (!('items' in data) || data.items == null || (data.items is list && data.items.size() <= 200)) &&
+             (!('storeName' in data) || data.storeName == null || (data.storeName is string && data.storeName.size() <= 100)) &&
+             (!('notes' in data) || data.notes == null || (data.notes is string && data.notes.size() <= 500)) &&
+             (!('createdAt' in data) || data.createdAt == null || data.createdAt is timestamp || (data.createdAt is string && data.createdAt.size() <= 100)) &&
+             (!('updatedAt' in data) || data.updatedAt == null || data.updatedAt is timestamp || (data.updatedAt is string && data.updatedAt.size() <= 100));
+    }
+
     // ===============================================================
     // Rules
     // ===============================================================
@@ -99,6 +142,14 @@ service cloud.firestore {
       match /activeBag/{docId} {
         allow read: if isOwner(userId);
         allow create, update: if isOwner(userId);
+        allow delete: if isOwner(userId);
+      }
+
+      // User's Bazaar Trip History subcollection (expense tracking)
+      match /bazaarHistory/{historyId} {
+        allow read: if isOwner(userId);
+        allow create: if isOwner(userId) && isValidBazaarTrip(request.resource.data);
+        allow update: if isOwner(userId) && isValidBazaarTrip(request.resource.data);
         allow delete: if isOwner(userId);
       }
     }

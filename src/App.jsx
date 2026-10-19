@@ -18,6 +18,7 @@ import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
 import { PWAProvider } from './context/PWAContext';
+import { BazaarExpenseProvider } from './context/BazaarExpenseContext';
 import StoreLogo from './components/StoreLogo';
 import { Search, ShoppingBag, ArrowRight, X, RefreshCw, Sparkles } from 'lucide-react';
 
@@ -713,9 +714,11 @@ export default function App() {
     <ThemeProvider>
       <LanguageProvider>
         <AuthProvider>
-          <PWAProvider>
-            <AppContent />
-          </PWAProvider>
+          <BazaarExpenseProvider>
+            <PWAProvider>
+              <AppContent />
+            </PWAProvider>
+          </BazaarExpenseProvider>
         </AuthProvider>
       </LanguageProvider>
     </ThemeProvider>
