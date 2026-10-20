@@ -364,8 +364,6 @@ function AppContent() {
     <div className="min-h-screen bg-[#fafbfc] dark:bg-[#090d16] flex flex-col text-zinc-900 dark:text-zinc-100 selection:bg-emerald-600 selection:text-white w-full max-w-full transition-colors duration-250">
       {/* Top Header */}
       <Header 
-        selectedLocation={selectedLocation}
-        setSelectedLocation={setSelectedLocation}
         basketCount={basketCount}
         onOpenBag={() => setIsBagOpen(true)}
         searchQuery={searchQuery}
