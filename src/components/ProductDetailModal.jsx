@@ -210,26 +210,38 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                         </span>
                       </div>
                       
-                      {data.inStock ? (
-                        <a 
-                          href={getSanitizedStoreUrl(data.url, storeKey, product.cleanQuery)} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className={`text-xs font-bold flex items-center gap-1.5 px-3 py-1.5 rounded-xl border transition shadow-2xs active:scale-95 ${
-                            isLowest 
-                              ? 'bg-emerald-600 hover:bg-emerald-700 text-white border-emerald-600' 
-                              : 'bg-white dark:bg-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 border-zinc-200 dark:border-zinc-700 hover:border-zinc-300'
-                          }`}
-                        >
-                          <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs" />
-                          <span>
-                            {lang === 'bn' 
-                              ? `${store.name}-এ সরাসরি কিনুন` 
-                              : `Buy on ${store.name}`}
-                          </span>
-                          <ExternalLink className="w-3.5 h-3.5" />
-                        </a>
-                      ) : (
+                      {data.inStock ? (() => {
+                        const targetUrl = getSanitizedStoreUrl(data.url, storeKey, product.cleanQuery);
+                        const isDirectPage = targetUrl.includes('/product/') || (storeKey === 'chaldal' && !targetUrl.includes('/search/'));
+                        return (
+                          <a 
+                            href={targetUrl} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            title={isDirectPage 
+                              ? (lang === 'bn' ? 'সরাসরি নির্দিষ্ট পণ্যের পেজ' : 'Direct Product Page')
+                              : (lang === 'bn' ? `${store.name}-এর স্টোর পেজ` : `${store.name} Store Page`)}
+                            className={`text-xs font-bold flex items-center gap-1.5 px-3 py-1.5 rounded-xl border transition shadow-2xs active:scale-95 ${
+                              isLowest 
+                                ? 'bg-emerald-600 hover:bg-emerald-700 text-white border-emerald-600' 
+                                : 'bg-white dark:bg-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 border-zinc-200 dark:border-zinc-700 hover:border-zinc-300'
+                            }`}
+                          >
+                            <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs" />
+                            <span>
+                              {lang === 'bn' 
+                                ? (isDirectPage ? `${store.name} সরাসরি পেজ` : `${store.name}-এ কিনুন`)
+                                : (isDirectPage ? `${store.name} Direct` : `Buy on ${store.name}`)}
+                            </span>
+                            {isDirectPage && (
+                              <span className="text-[9px] font-black uppercase tracking-wider px-1 py-0.2 rounded bg-black/15 dark:bg-white/20">
+                                {lang === 'bn' ? 'ডিরেক্ট' : 'Direct'}
+                              </span>
+                            )}
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        );
+                      })() : (
                         <div className="text-[11px] font-semibold text-zinc-400 dark:text-zinc-500 bg-zinc-100 dark:bg-zinc-800/80 px-2.5 py-1.5 rounded-xl border border-zinc-200/60 dark:border-zinc-700/60 flex items-center gap-1.5 cursor-not-allowed select-none">
                           <StoreLogo store={store} size="xs" showBorder={false} className="w-3.5 h-3.5 rounded-xs opacity-50 grayscale" />
                           <span>{lang === 'bn' ? 'স্টকে নেই' : 'Unavailable'}</span>

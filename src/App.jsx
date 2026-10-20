@@ -74,6 +74,8 @@ function AppContent() {
 
   // Visual Product Search modal state (camera & gallery upload)
   const [isVisualSearchOpen, setIsVisualSearchOpen] = useState(false);
+  // Sort State (defaults to A to Z)
+  const [sortBy, setSortBy] = useState('name-asc');
 
   // Restore user's active bag from Firestore on login
   useEffect(() => {
@@ -293,10 +295,10 @@ function AppContent() {
     return basket.reduce((acc, curr) => acc + curr.quantity, 0);
   }, [basket]);
 
-  // Filtered Products
+  // Filtered & Sorted Products (Default: A to Z)
   const filteredProducts = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
-    return productList.filter(prod => {
+    const list = productList.filter(prod => {
       // Category filter
       const matchesCategory = selectedCategory === 'all' || prod.category === selectedCategory;
       if (!matchesCategory) return false;
@@ -316,13 +318,47 @@ function AppContent() {
 
       // Text query
       if (!q) return true;
-      const inNameBn = prod.nameBn.toLowerCase().includes(q);
-      const inNameEn = prod.nameEn.toLowerCase().includes(q);
+      const inNameBn = prod.nameBn?.toLowerCase().includes(q);
+      const inNameEn = prod.nameEn?.toLowerCase().includes(q);
       const inKeywords = prod.keywords?.some(k => k.toLowerCase().includes(q));
 
       return inNameBn || inNameEn || inKeywords;
     });
-  }, [productList, searchQuery, selectedCategory, selectedStores, discountOnly]);
+
+    // Alphabetical & Price Sorting
+    return list.sort((a, b) => {
+      if (sortBy === 'name-asc') {
+        const nameA = (lang === 'bn' ? a.nameBn : a.nameEn) || a.nameEn || '';
+        const nameB = (lang === 'bn' ? b.nameBn : b.nameEn) || b.nameEn || '';
+        return nameA.localeCompare(nameB, lang === 'bn' ? 'bn' : 'en', { sensitivity: 'base' });
+      }
+      if (sortBy === 'name-desc') {
+        const nameA = (lang === 'bn' ? a.nameBn : a.nameEn) || a.nameEn || '';
+        const nameB = (lang === 'bn' ? b.nameBn : b.nameEn) || b.nameEn || '';
+        return nameB.localeCompare(nameA, lang === 'bn' ? 'bn' : 'en', { sensitivity: 'base' });
+      }
+      if (sortBy === 'price-asc') {
+        const pricesA = Object.values(a.prices).filter(p => p.inStock).map(p => p.price);
+        const pricesB = Object.values(b.prices).filter(p => p.inStock).map(p => p.price);
+        const minA = pricesA.length > 0 ? Math.min(...pricesA) : (a.mrp || 999999);
+        const minB = pricesB.length > 0 ? Math.min(...pricesB) : (b.mrp || 999999);
+        return minA - minB;
+      }
+      if (sortBy === 'price-desc') {
+        const pricesA = Object.values(a.prices).filter(p => p.inStock).map(p => p.price);
+        const pricesB = Object.values(b.prices).filter(p => p.inStock).map(p => p.price);
+        const maxA = pricesA.length > 0 ? Math.max(...pricesA) : (a.mrp || 0);
+        const maxB = pricesB.length > 0 ? Math.max(...pricesB) : (b.mrp || 0);
+        return maxB - maxA;
+      }
+      if (sortBy === 'discount') {
+        const discA = a.mrp ? Math.max(0, ...Object.values(a.prices).filter(p => p.inStock).map(p => a.mrp - p.price)) : 0;
+        const discB = b.mrp ? Math.max(0, ...Object.values(b.prices).filter(p => p.inStock).map(p => b.mrp - p.price)) : 0;
+        return discB - discA;
+      }
+      return 0;
+    });
+  }, [productList, searchQuery, selectedCategory, selectedStores, discountOnly, sortBy, lang]);
 
   return (
     <div className="min-h-screen bg-[#fafbfc] dark:bg-[#090d16] flex flex-col text-zinc-900 dark:text-zinc-100 selection:bg-emerald-600 selection:text-white w-full max-w-full transition-colors duration-250">
@@ -545,7 +581,7 @@ function AppContent() {
 
                 {/* Search Bar Query Badge & Count */}
                 <div className="flex items-center justify-between text-xs text-slate-500 dark:text-zinc-400 font-medium px-1 flex-wrap gap-2">
-                  <div className="flex items-center gap-2">
+                                    <div className="flex items-center gap-2">
                     <span className="font-semibold text-slate-700 dark:text-zinc-300">
                       {filteredProducts.length} {lang === 'bn' ? 'টি পণ্য প্রদর্শিত' : 'products showing'}
                     </span>
@@ -554,6 +590,25 @@ function AppContent() {
                         "{searchQuery}"
                       </span>
                     )}
+                  </div>
+
+                  {/* Sort Control Dropdown (Default: A to Z) */}
+                  <div className="flex items-center gap-2 ml-auto">
+                    <span className="text-[11px] font-medium text-zinc-400 dark:text-zinc-500 hidden sm:inline">
+                      {lang === 'bn' ? 'সাজান:' : 'Sort by:'}
+                    </span>
+                    <select
+                      value={sortBy}
+                      onChange={(e) => setSortBy(e.target.value)}
+                      aria-label={lang === 'bn' ? 'পণ্য সাজান' : 'Sort products'}
+                      className="text-xs font-semibold bg-white dark:bg-zinc-800/90 text-zinc-700 dark:text-zinc-200 border border-zinc-200 dark:border-zinc-700 rounded-xl px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-emerald-500 cursor-pointer shadow-2xs transition"
+                    >
+                      <option value="name-asc">{lang === 'bn' ? '🔤 A to Z (নাম অনুযায়ী)' : '🔤 Name (A to Z)'}</option>
+                      <option value="name-desc">{lang === 'bn' ? '🔤 Z to A (নাম অনুযায়ী উল্টো)' : '🔤 Name (Z to A)'}</option>
+                      <option value="price-asc">{lang === 'bn' ? '💰 দাম: কম থেকে বেশি' : '💰 Price: Low to High'}</option>
+                      <option value="price-desc">{lang === 'bn' ? '💎 দাম: বেশি থেকে কম' : '💎 Price: High to Low'}</option>
+                      <option value="discount">{lang === 'bn' ? '🔥 সর্বোচ্চ ছাড়' : '🔥 Biggest Discount'}</option>
+                    </select>
                   </div>
                   {searchQuery && (
                     <div className="flex items-center gap-2">
