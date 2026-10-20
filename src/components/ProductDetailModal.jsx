@@ -1,5 +1,5 @@
-import React from 'react';
-import { X, Clock, Truck, CheckCircle2, ExternalLink } from 'lucide-react';
+import React, { useState } from 'react';
+import { X, Clock, Truck, CheckCircle2, ExternalLink, Pencil, Check } from 'lucide-react';
 import { STORES } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
 import StoreLogo from './StoreLogo';
@@ -8,19 +8,43 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
   const { lang, t } = useLanguage();
   if (!product) return null;
 
+  const [customPrices, setCustomPrices] = useState(() => {
+    try {
+      const saved = localStorage.getItem('bazardor_custom_store_prices');
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+  const [editingStoreKey, setEditingStoreKey] = useState(null);
+  const [editPriceVal, setEditPriceVal] = useState('');
+
+  const handleSavePrice = (storeKey) => {
+    const val = parseInt(editPriceVal, 10);
+    if (!isNaN(val) && val > 0) {
+      const updated = { ...customPrices, [`${product.id}_${storeKey}`]: val };
+      setCustomPrices(updated);
+      try {
+        localStorage.setItem('bazardor_custom_store_prices', JSON.stringify(updated));
+      } catch (e) {}
+    }
+    setEditingStoreKey(null);
+  };
+
   let minPrice = Infinity;
   let lowestStoreKey = null;
 
   Object.entries(product.prices).forEach(([storeKey, data]) => {
-    if (data.inStock && data.price < minPrice) {
-      minPrice = data.price;
+    const effPrice = customPrices[`${product.id}_${storeKey}`] ?? data.price;
+    if (data.inStock && effPrice < minPrice) {
+      minPrice = effPrice;
       lowestStoreKey = storeKey;
     }
   });
 
   const lowestStore = lowestStoreKey ? STORES[lowestStoreKey] : null;
   const inStockEntries = Object.entries(product.prices).filter(([_, d]) => d.inStock);
-  const allSamePrice = inStockEntries.length > 0 && inStockEntries.every(([_, d]) => d.price === minPrice);
+  const allSamePrice = inStockEntries.length > 0 && inStockEntries.every(([stKey, d]) => (customPrices[`${product.id}_${stKey}`] ?? d.price) === minPrice);
   const hasRealLowest = !allSamePrice;
 
   return (
@@ -118,9 +142,58 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                         )}
                       </div>
                       <div className="text-right">
-                        <span className={`text-base font-black font-heading ${isLowest ? 'text-emerald-700 dark:text-emerald-400' : 'text-zinc-950 dark:text-zinc-100'}`}>
-                          {data.inStock ? `৳${data.price}` : t.outOfStock}
-                        </span>
+                        {editingStoreKey === storeKey ? (
+                          <div className="flex items-center gap-1">
+                            <span className="text-xs font-bold text-zinc-500">৳</span>
+                            <input 
+                              type="number"
+                              autoFocus
+                              value={editPriceVal}
+                              onChange={(e) => setEditPriceVal(e.target.value)}
+                              className="w-16 h-7 text-xs font-black text-zinc-900 dark:text-zinc-100 bg-white dark:bg-zinc-800 border border-emerald-500 rounded-lg px-1.5 focus:outline-none"
+                              onKeyDown={(e) => e.key === 'Enter' && handleSavePrice(storeKey)}
+                            />
+                            <button 
+                              onClick={() => handleSavePrice(storeKey)}
+                              className="w-7 h-7 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg flex items-center justify-center transition cursor-pointer shadow-2xs"
+                              title={lang === 'bn' ? 'সংরক্ষণ' : 'Save'}
+                            >
+                              <Check className="w-3.5 h-3.5" />
+                            </button>
+                            <button 
+                              onClick={() => setEditingStoreKey(null)}
+                              className="w-7 h-7 bg-zinc-200 dark:bg-zinc-700 text-zinc-600 dark:text-zinc-300 rounded-lg flex items-center justify-center transition cursor-pointer"
+                              title={lang === 'bn' ? 'বাতিল' : 'Cancel'}
+                            >
+                              <X className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        ) : (
+                          <div>
+                            <div className="flex items-center gap-1.5 justify-end">
+                              <span className={`text-base font-black font-heading ${isLowest ? 'text-emerald-700 dark:text-emerald-400' : 'text-zinc-950 dark:text-zinc-100'}`}>
+                                {data.inStock ? `৳${customPrices[`${product.id}_${storeKey}`] ?? data.price}` : t.outOfStock}
+                              </span>
+                              {data.inStock && (
+                                <button
+                                  onClick={() => {
+                                    setEditingStoreKey(storeKey);
+                                    setEditPriceVal((customPrices[`${product.id}_${storeKey}`] ?? data.price).toString());
+                                  }}
+                                  className="p-1 rounded-md text-zinc-400 hover:text-emerald-600 hover:bg-emerald-50 dark:hover:bg-zinc-700 transition cursor-pointer"
+                                  title={lang === 'bn' ? 'রিয়েল দাম ঠিক নেই? এডিট করে আপডেট করুন' : 'Correct this store price'}
+                                >
+                                  <Pencil className="w-3 h-3" />
+                                </button>
+                              )}
+                            </div>
+                            {customPrices[`${product.id}_${storeKey}`] !== undefined && (
+                              <span className="text-[9px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.5 rounded border border-emerald-300/60 inline-block mt-0.5">
+                                {lang === 'bn' ? 'আপনার আপডেট করা দাম' : 'User adjusted'}
+                              </span>
+                            )}
+                          </div>
+                        )}
                       </div>
                     </div>
 
