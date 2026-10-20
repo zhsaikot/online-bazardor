@@ -153,6 +153,492 @@ export const CATEGORIES = [
 
 export const PRODUCTS = [
   {
+    "id": "prod-davidoff-cafe-rich-aroma-instant-coffee-100-gm",
+    "nameBn": "ডেভিডফ ক্যাফে রিচ অ্যারোমা ইনস্ট্যান্ট কফি ১০০ গ্রাম",
+    "nameEn": "Davidoff Café Rich Aroma Instant Coffee 100 gm",
+    "cleanQuery": "Davidoff Café Rich Aroma Instant Coffee 100 gm",
+    "category": "dairy-beverage",
+    "unit": "100 gm",
+    "image": "https://chocolateshopbd.com/wp-content/uploads/2021/10/Davidoff-Rich-Aroma1.png",
+    "mrp": 1150,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-20T09:51:35.533Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳70 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳80 ছাড়"
+      },
+      {
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+        "badge": "৳115 ছাড়"
+      },
+      {
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "৳185 ছাড়"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "৳70 ছাড়"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 1080,
+        "inStock": true,
+        "discountText": "৳70 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/search/Davidoff%20Rich%20Aroma%20Coffee",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 1070,
+        "inStock": true,
+        "discountText": "৳80 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "daraz": {
+        "price": 1035,
+        "inStock": true,
+        "discountText": "৳115 ছাড়",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "cartup": {
+        "price": 965,
+        "inStock": false,
+        "discountText": "৳185 ছাড়",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1080,
+        "inStock": true,
+        "discountText": "৳70 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ রেট",
+        "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Rich",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "prod-davidoff-cafe-espresso-57-intense-instant-coffee-100-gm",
+    "nameBn": "ডেভিডফ ক্যাফে এসপ্রেসো ৫৭ ইনটেন্স কফি ১০০ গ্রাম",
+    "nameEn": "Davidoff Café Espresso 57 Intense Instant Coffee 100 gm",
+    "cleanQuery": "Davidoff Café Espresso 57 Intense Instant Coffee 100 gm",
+    "category": "dairy-beverage",
+    "unit": "100 gm",
+    "image": "https://static-01.daraz.com.bd/p/d65150b10f58a4ce7f625e7236a94d45.jpg",
+    "mrp": 1250,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳70 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳85 ছাড়"
+      },
+      {
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+        "badge": "৳125 ছাড়"
+      },
+      {
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "৳200 ছাড়"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "৳70 ছাড়"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 1180,
+        "inStock": true,
+        "discountText": "৳70 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/search/Davidoff%20Espresso%2057%20Coffee",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 1165,
+        "inStock": true,
+        "discountText": "৳85 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Espresso%2057%20Intense%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "daraz": {
+        "price": 1125,
+        "inStock": true,
+        "discountText": "৳125 ছাড়",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Espresso%2057%20Intense%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "cartup": {
+        "price": 1050,
+        "inStock": false,
+        "discountText": "৳200 ছাড়",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Espresso%2057%20Intense%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1180,
+        "inStock": true,
+        "discountText": "৳70 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ রেট",
+        "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Espresso",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "prod-davidoff-cafe-fine-aroma-instant-coffee-100-gm",
+    "nameBn": "ডেভিডফ ক্যাফে ফাইন অ্যারোমা ইনস্ট্যান্ট কফি ১০০ গ্রাম",
+    "nameEn": "Davidoff Café Fine Aroma Instant Coffee 100 gm",
+    "cleanQuery": "Davidoff Café Fine Aroma Instant Coffee 100 gm",
+    "category": "dairy-beverage",
+    "unit": "100 gm",
+    "image": "https://chocolateshopbd.com/wp-content/uploads/2021/10/Davidoff-Fine-Aroma1.png",
+    "mrp": 1150,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳70 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳80 ছাড়"
+      },
+      {
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+        "badge": "৳115 ছাড়"
+      },
+      {
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "৳185 ছাড়"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "৳70 ছাড়"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 1080,
+        "inStock": true,
+        "discountText": "৳70 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/search/Davidoff%20Fine%20Aroma%20Coffee",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 1070,
+        "inStock": true,
+        "discountText": "৳80 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Fine%20Aroma%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "daraz": {
+        "price": 1035,
+        "inStock": true,
+        "discountText": "৳115 ছাড়",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Fine%20Aroma%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "cartup": {
+        "price": 965,
+        "inStock": false,
+        "discountText": "৳185 ছাড়",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Fine%20Aroma%20Instant%20Coffee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1080,
+        "inStock": true,
+        "discountText": "৳70 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ রেট",
+        "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Aroma",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "prod-davidoff-cafe-crema-intense-instant-coffee-90-gm",
+    "nameBn": "ডেভিডফ ক্যাফে ক্রিমা ইনটেন্স ইনস্ট্যান্ট কফি ৯০ গ্রাম",
+    "nameEn": "Davidoff Café Crema Intense Instant Coffee 90 gm",
+    "cleanQuery": "Davidoff Café Crema Intense Instant Coffee 90 gm",
+    "category": "dairy-beverage",
+    "unit": "90 gm",
+    "image": "https://chocolateshopbd.com/wp-content/uploads/2022/11/Davidoff-Crema-Intense-Coffee1.png",
+    "mrp": 1300,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳80 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳90 ছাড়"
+      },
+      {
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+        "badge": "৳130 ছাড়"
+      },
+      {
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "৳210 ছাড়"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "৳80 ছাড়"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 1220,
+        "inStock": true,
+        "discountText": "৳80 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/search/Davidoff%20Crema%20Intense%20Coffee",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 1210,
+        "inStock": true,
+        "discountText": "৳90 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Crema%20Intense%20Instant%20Coffee%2090%20gm",
+        "isVerifiedLive": true
+      },
+      "daraz": {
+        "price": 1170,
+        "inStock": true,
+        "discountText": "৳130 ছাড়",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Crema%20Intense%20Instant%20Coffee%2090%20gm",
+        "isVerifiedLive": true
+      },
+      "cartup": {
+        "price": 1090,
+        "inStock": false,
+        "discountText": "৳210 ছাড়",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Crema%20Intense%20Instant%20Coffee%2090%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1220,
+        "inStock": true,
+        "discountText": "৳80 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ রেট",
+        "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Crema",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "prod-davidoff-cafe-rich-aroma-instant-coffee-45-gm",
+    "nameBn": "ডেভিডফ ক্যাফে রিচ অ্যারোমা কফি ৪৫ গ্রাম",
+    "nameEn": "Davidoff Café Rich Aroma Instant Coffee 45 gm",
+    "cleanQuery": "Davidoff Café Rich Aroma Instant Coffee 45 gm",
+    "category": "dairy-beverage",
+    "unit": "45 gm",
+    "image": "https://chocolateshopbd.com/wp-content/uploads/2021/10/Davidoff-Rich-Aroma1.png",
+    "mrp": 650,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳55 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳45 ছাড়"
+      },
+      {
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+        "badge": "৳65 ছাড়"
+      },
+      {
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "৳105 ছাড়"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "৳55 ছাড়"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 595,
+        "inStock": true,
+        "discountText": "৳55 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/search/Davidoff%20Rich%20Aroma%20Coffee",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 605,
+        "inStock": true,
+        "discountText": "৳45 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "daraz": {
+        "price": 585,
+        "inStock": true,
+        "discountText": "৳65 ছাড়",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "cartup": {
+        "price": 545,
+        "inStock": false,
+        "discountText": "৳105 ছাড়",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 595,
+        "inStock": true,
+        "discountText": "৳55 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ রেট",
+        "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Rich",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
+    "id": "prod-davidoff-cafe-espresso-57-instant-coffee-45-gm",
+    "nameBn": "ডেভিডফ ক্যাফে এসপ্রেসো ৫৭ কফি ৪৫ গ্রাম",
+    "nameEn": "Davidoff Café Espresso 57 Instant Coffee 45 gm",
+    "cleanQuery": "Davidoff Café Espresso 57 Instant Coffee 45 gm",
+    "category": "dairy-beverage",
+    "unit": "45 gm",
+    "image": "https://chocolateshopbd.com/wp-content/uploads/2026/06/Davidoff-Espresso-57-45g1.png",
+    "mrp": 650,
+    "isLiveSynced": true,
+    "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+    "offers": [
+      {
+        "store": "chaldal",
+        "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+        "badge": "৳60 ছাড়"
+      },
+      {
+        "store": "shwapno",
+        "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+        "badge": "৳45 ছাড়"
+      },
+      {
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+        "badge": "৳65 ছাড়"
+      },
+      {
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "৳105 ছাড়"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "৳60 ছাড়"
+      }
+    ],
+    "prices": {
+      "chaldal": {
+        "price": 590,
+        "inStock": true,
+        "discountText": "৳60 ছাড়",
+        "offerText": "১ ঘণ্টায় ডেলিভারি",
+        "url": "https://chaldal.com/search/Davidoff%20Espresso%2057%20Coffee",
+        "isVerifiedLive": true
+      },
+      "shwapno": {
+        "price": 605,
+        "inStock": true,
+        "discountText": "৳45 ছাড়",
+        "offerText": "স্বপ্ন ক্লাব অফার",
+        "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Espresso%2057%20Instant%20Coffee%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "daraz": {
+        "price": 585,
+        "inStock": true,
+        "discountText": "৳65 ছাড়",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Espresso%2057%20Instant%20Coffee%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "cartup": {
+        "price": 545,
+        "inStock": false,
+        "discountText": "৳105 ছাড়",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Espresso%2057%20Instant%20Coffee%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 590,
+        "inStock": true,
+        "discountText": "৳60 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ রেট",
+        "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Espresso",
+        "isVerifiedLive": true
+      }
+    }
+  },
+  {
     "id": "prod-rupchanda-soyabean-oil-5-ltr-5",
     "nameBn": "রূপচাঁদা ফর্টিফাইড সয়াবিন তেল ৫ লিটার",
     "nameEn": "Rupchanda Fortified Soyabean Oil 5 ltr",

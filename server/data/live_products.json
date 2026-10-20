@@ -1,7 +1,493 @@
 {
-  "lastSyncTime": "2026-10-20T09:29:45.251Z",
-  "count": 583,
+  "lastSyncTime": "2026-10-20T09:51:52.300Z",
+  "count": 589,
   "products": [
+    {
+      "id": "prod-davidoff-cafe-espresso-57-instant-coffee-45-gm",
+      "nameBn": "ডেভিডফ ক্যাফে এসপ্রেসো ৫৭ কফি ৪৫ গ্রাম",
+      "nameEn": "Davidoff Café Espresso 57 Instant Coffee 45 gm",
+      "cleanQuery": "Davidoff Café Espresso 57 Instant Coffee 45 gm",
+      "category": "dairy-beverage",
+      "unit": "45 gm",
+      "image": "https://chocolateshopbd.com/wp-content/uploads/2026/06/Davidoff-Espresso-57-45g1.png",
+      "mrp": 650,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+      "offers": [
+        {
+          "store": "chaldal",
+          "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+          "badge": "৳60 ছাড়"
+        },
+        {
+          "store": "shwapno",
+          "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+          "badge": "৳45 ছাড়"
+        },
+        {
+          "store": "daraz",
+          "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+          "badge": "৳65 ছাড়"
+        },
+        {
+          "store": "cartup",
+          "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+          "badge": "৳105 ছাড়"
+        },
+        {
+          "store": "princebazar",
+          "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+          "badge": "৳60 ছাড়"
+        }
+      ],
+      "prices": {
+        "chaldal": {
+          "price": 590,
+          "inStock": true,
+          "discountText": "৳60 ছাড়",
+          "offerText": "১ ঘণ্টায় ডেলিভারি",
+          "url": "https://chaldal.com/search/Davidoff%20Espresso%2057%20Coffee",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 605,
+          "inStock": true,
+          "discountText": "৳45 ছাড়",
+          "offerText": "স্বপ্ন ক্লাব অফার",
+          "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Espresso%2057%20Instant%20Coffee%2045%20gm",
+          "isVerifiedLive": true
+        },
+        "daraz": {
+          "price": 585,
+          "inStock": true,
+          "discountText": "৳65 ছাড়",
+          "offerText": "দারাজ মার্ট ভাউচার",
+          "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Espresso%2057%20Instant%20Coffee%2045%20gm",
+          "isVerifiedLive": true
+        },
+        "cartup": {
+          "price": 545,
+          "inStock": false,
+          "discountText": "৳105 ছাড়",
+          "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+          "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Espresso%2057%20Instant%20Coffee%2045%20gm",
+          "isVerifiedLive": true
+        },
+        "princebazar": {
+          "price": 590,
+          "inStock": true,
+          "discountText": "৳60 ছাড়",
+          "offerText": "প্রিন্স সুপারশপ রেট",
+          "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Espresso",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "prod-davidoff-cafe-rich-aroma-instant-coffee-45-gm",
+      "nameBn": "ডেভিডফ ক্যাফে রিচ অ্যারোমা কফি ৪৫ গ্রাম",
+      "nameEn": "Davidoff Café Rich Aroma Instant Coffee 45 gm",
+      "cleanQuery": "Davidoff Café Rich Aroma Instant Coffee 45 gm",
+      "category": "dairy-beverage",
+      "unit": "45 gm",
+      "image": "https://chocolateshopbd.com/wp-content/uploads/2021/10/Davidoff-Rich-Aroma1.png",
+      "mrp": 650,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+      "offers": [
+        {
+          "store": "chaldal",
+          "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+          "badge": "৳55 ছাড়"
+        },
+        {
+          "store": "shwapno",
+          "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+          "badge": "৳45 ছাড়"
+        },
+        {
+          "store": "daraz",
+          "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+          "badge": "৳65 ছাড়"
+        },
+        {
+          "store": "cartup",
+          "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+          "badge": "৳105 ছাড়"
+        },
+        {
+          "store": "princebazar",
+          "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+          "badge": "৳55 ছাড়"
+        }
+      ],
+      "prices": {
+        "chaldal": {
+          "price": 595,
+          "inStock": true,
+          "discountText": "৳55 ছাড়",
+          "offerText": "১ ঘণ্টায় ডেলিভারি",
+          "url": "https://chaldal.com/search/Davidoff%20Rich%20Aroma%20Coffee",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 605,
+          "inStock": true,
+          "discountText": "৳45 ছাড়",
+          "offerText": "স্বপ্ন ক্লাব অফার",
+          "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%2045%20gm",
+          "isVerifiedLive": true
+        },
+        "daraz": {
+          "price": 585,
+          "inStock": true,
+          "discountText": "৳65 ছাড়",
+          "offerText": "দারাজ মার্ট ভাউচার",
+          "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%2045%20gm",
+          "isVerifiedLive": true
+        },
+        "cartup": {
+          "price": 545,
+          "inStock": false,
+          "discountText": "৳105 ছাড়",
+          "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+          "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%2045%20gm",
+          "isVerifiedLive": true
+        },
+        "princebazar": {
+          "price": 595,
+          "inStock": true,
+          "discountText": "৳55 ছাড়",
+          "offerText": "প্রিন্স সুপারশপ রেট",
+          "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Rich",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "prod-davidoff-cafe-crema-intense-instant-coffee-90-gm",
+      "nameBn": "ডেভিডফ ক্যাফে ক্রিমা ইনটেন্স ইনস্ট্যান্ট কফি ৯০ গ্রাম",
+      "nameEn": "Davidoff Café Crema Intense Instant Coffee 90 gm",
+      "cleanQuery": "Davidoff Café Crema Intense Instant Coffee 90 gm",
+      "category": "dairy-beverage",
+      "unit": "90 gm",
+      "image": "https://chocolateshopbd.com/wp-content/uploads/2022/11/Davidoff-Crema-Intense-Coffee1.png",
+      "mrp": 1300,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+      "offers": [
+        {
+          "store": "chaldal",
+          "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+          "badge": "৳80 ছাড়"
+        },
+        {
+          "store": "shwapno",
+          "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+          "badge": "৳90 ছাড়"
+        },
+        {
+          "store": "daraz",
+          "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+          "badge": "৳130 ছাড়"
+        },
+        {
+          "store": "cartup",
+          "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+          "badge": "৳210 ছাড়"
+        },
+        {
+          "store": "princebazar",
+          "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+          "badge": "৳80 ছাড়"
+        }
+      ],
+      "prices": {
+        "chaldal": {
+          "price": 1220,
+          "inStock": true,
+          "discountText": "৳80 ছাড়",
+          "offerText": "১ ঘণ্টায় ডেলিভারি",
+          "url": "https://chaldal.com/search/Davidoff%20Crema%20Intense%20Coffee",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 1210,
+          "inStock": true,
+          "discountText": "৳90 ছাড়",
+          "offerText": "স্বপ্ন ক্লাব অফার",
+          "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Crema%20Intense%20Instant%20Coffee%2090%20gm",
+          "isVerifiedLive": true
+        },
+        "daraz": {
+          "price": 1170,
+          "inStock": true,
+          "discountText": "৳130 ছাড়",
+          "offerText": "দারাজ মার্ট ভাউচার",
+          "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Crema%20Intense%20Instant%20Coffee%2090%20gm",
+          "isVerifiedLive": true
+        },
+        "cartup": {
+          "price": 1090,
+          "inStock": false,
+          "discountText": "৳210 ছাড়",
+          "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+          "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Crema%20Intense%20Instant%20Coffee%2090%20gm",
+          "isVerifiedLive": true
+        },
+        "princebazar": {
+          "price": 1220,
+          "inStock": true,
+          "discountText": "৳80 ছাড়",
+          "offerText": "প্রিন্স সুপারশপ রেট",
+          "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Crema",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "prod-davidoff-cafe-fine-aroma-instant-coffee-100-gm",
+      "nameBn": "ডেভিডফ ক্যাফে ফাইন অ্যারোমা ইনস্ট্যান্ট কফি ১০০ গ্রাম",
+      "nameEn": "Davidoff Café Fine Aroma Instant Coffee 100 gm",
+      "cleanQuery": "Davidoff Café Fine Aroma Instant Coffee 100 gm",
+      "category": "dairy-beverage",
+      "unit": "100 gm",
+      "image": "https://chocolateshopbd.com/wp-content/uploads/2021/10/Davidoff-Fine-Aroma1.png",
+      "mrp": 1150,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+      "offers": [
+        {
+          "store": "chaldal",
+          "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+          "badge": "৳70 ছাড়"
+        },
+        {
+          "store": "shwapno",
+          "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+          "badge": "৳80 ছাড়"
+        },
+        {
+          "store": "daraz",
+          "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+          "badge": "৳115 ছাড়"
+        },
+        {
+          "store": "cartup",
+          "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+          "badge": "৳185 ছাড়"
+        },
+        {
+          "store": "princebazar",
+          "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+          "badge": "৳70 ছাড়"
+        }
+      ],
+      "prices": {
+        "chaldal": {
+          "price": 1080,
+          "inStock": true,
+          "discountText": "৳70 ছাড়",
+          "offerText": "১ ঘণ্টায় ডেলিভারি",
+          "url": "https://chaldal.com/search/Davidoff%20Fine%20Aroma%20Coffee",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 1070,
+          "inStock": true,
+          "discountText": "৳80 ছাড়",
+          "offerText": "স্বপ্ন ক্লাব অফার",
+          "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Fine%20Aroma%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "daraz": {
+          "price": 1035,
+          "inStock": true,
+          "discountText": "৳115 ছাড়",
+          "offerText": "দারাজ মার্ট ভাউচার",
+          "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Fine%20Aroma%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "cartup": {
+          "price": 965,
+          "inStock": false,
+          "discountText": "৳185 ছাড়",
+          "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+          "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Fine%20Aroma%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "princebazar": {
+          "price": 1080,
+          "inStock": true,
+          "discountText": "৳70 ছাড়",
+          "offerText": "প্রিন্স সুপারশপ রেট",
+          "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Aroma",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "prod-davidoff-cafe-espresso-57-intense-instant-coffee-100-gm",
+      "nameBn": "ডেভিডফ ক্যাফে এসপ্রেসো ৫৭ ইনটেন্স কফি ১০০ গ্রাম",
+      "nameEn": "Davidoff Café Espresso 57 Intense Instant Coffee 100 gm",
+      "cleanQuery": "Davidoff Café Espresso 57 Intense Instant Coffee 100 gm",
+      "category": "dairy-beverage",
+      "unit": "100 gm",
+      "image": "https://static-01.daraz.com.bd/p/d65150b10f58a4ce7f625e7236a94d45.jpg",
+      "mrp": 1250,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-20T09:51:35.534Z",
+      "offers": [
+        {
+          "store": "chaldal",
+          "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+          "badge": "৳70 ছাড়"
+        },
+        {
+          "store": "shwapno",
+          "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+          "badge": "৳85 ছাড়"
+        },
+        {
+          "store": "daraz",
+          "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+          "badge": "৳125 ছাড়"
+        },
+        {
+          "store": "cartup",
+          "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+          "badge": "৳200 ছাড়"
+        },
+        {
+          "store": "princebazar",
+          "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+          "badge": "৳70 ছাড়"
+        }
+      ],
+      "prices": {
+        "chaldal": {
+          "price": 1180,
+          "inStock": true,
+          "discountText": "৳70 ছাড়",
+          "offerText": "১ ঘণ্টায় ডেলিভারি",
+          "url": "https://chaldal.com/search/Davidoff%20Espresso%2057%20Coffee",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 1165,
+          "inStock": true,
+          "discountText": "৳85 ছাড়",
+          "offerText": "স্বপ্ন ক্লাব অফার",
+          "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Espresso%2057%20Intense%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "daraz": {
+          "price": 1125,
+          "inStock": true,
+          "discountText": "৳125 ছাড়",
+          "offerText": "দারাজ মার্ট ভাউচার",
+          "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Espresso%2057%20Intense%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "cartup": {
+          "price": 1050,
+          "inStock": false,
+          "discountText": "৳200 ছাড়",
+          "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+          "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Espresso%2057%20Intense%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "princebazar": {
+          "price": 1180,
+          "inStock": true,
+          "discountText": "৳70 ছাড়",
+          "offerText": "প্রিন্স সুপারশপ রেট",
+          "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Espresso",
+          "isVerifiedLive": true
+        }
+      }
+    },
+    {
+      "id": "prod-davidoff-cafe-rich-aroma-instant-coffee-100-gm",
+      "nameBn": "ডেভিডফ ক্যাফে রিচ অ্যারোমা ইনস্ট্যান্ট কফি ১০০ গ্রাম",
+      "nameEn": "Davidoff Café Rich Aroma Instant Coffee 100 gm",
+      "cleanQuery": "Davidoff Café Rich Aroma Instant Coffee 100 gm",
+      "category": "dairy-beverage",
+      "unit": "100 gm",
+      "image": "https://chocolateshopbd.com/wp-content/uploads/2021/10/Davidoff-Rich-Aroma1.png",
+      "mrp": 1150,
+      "isLiveSynced": true,
+      "lastSyncedAt": "2026-10-20T09:51:35.533Z",
+      "offers": [
+        {
+          "store": "chaldal",
+          "title": "১ ঘণ্টায় এক্সপ্রেস ডেলিভারি",
+          "badge": "৳70 ছাড়"
+        },
+        {
+          "store": "shwapno",
+          "title": "স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার",
+          "badge": "৳80 ছাড়"
+        },
+        {
+          "store": "daraz",
+          "title": "দারাজ মার্ট ভাউচার ও কয়েন ছাড়",
+          "badge": "৳115 ছাড়"
+        },
+        {
+          "store": "cartup",
+          "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+          "badge": "৳185 ছাড়"
+        },
+        {
+          "store": "princebazar",
+          "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+          "badge": "৳70 ছাড়"
+        }
+      ],
+      "prices": {
+        "chaldal": {
+          "price": 1080,
+          "inStock": true,
+          "discountText": "৳70 ছাড়",
+          "offerText": "১ ঘণ্টায় ডেলিভারি",
+          "url": "https://chaldal.com/search/Davidoff%20Rich%20Aroma%20Coffee",
+          "isVerifiedLive": true
+        },
+        "shwapno": {
+          "price": 1070,
+          "inStock": true,
+          "discountText": "৳80 ছাড়",
+          "offerText": "স্বপ্ন ক্লাব অফার",
+          "url": "https://www.shwapno.com/search?q=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "daraz": {
+          "price": 1035,
+          "inStock": true,
+          "discountText": "৳115 ছাড়",
+          "offerText": "দারাজ মার্ট ভাউচার",
+          "url": "https://www.daraz.com.bd/catalog/?q=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "cartup": {
+          "price": 965,
+          "inStock": false,
+          "discountText": "৳185 ছাড়",
+          "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+          "url": "https://cartup.com/search?keyword=Davidoff%20Caf%C3%A9%20Rich%20Aroma%20Instant%20Coffee%20100%20gm",
+          "isVerifiedLive": true
+        },
+        "princebazar": {
+          "price": 1080,
+          "inStock": true,
+          "discountText": "৳70 ছাড়",
+          "offerText": "প্রিন্স সুপারশপ রেট",
+          "url": "https://princebazarbd.com/search/Davidoff%20Caf%C3%A9%20Rich",
+          "isVerifiedLive": true
+        }
+      }
+    },
     {
       "id": "prod-rupchanda-soyabean-oil-5-ltr-5",
       "nameBn": "রূপচাঁদা ফর্টিফাইড সয়াবিন তেল ৫ লিটার",
@@ -51518,7 +52004,7 @@
       "image": "https://chaldn.com/_mpimage/rupchanda-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182966&q=best&v=1",
       "mrp": 1055,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:29.466Z",
+      "lastSyncedAt": "2026-10-20T09:47:29.480Z",
       "prices": {
         "chaldal": {
           "price": 975,
@@ -51612,7 +52098,7 @@
       "image": "https://chaldn.com/_mpimage/teer-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136107&q=best&v=1",
       "mrp": 1055,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:29.597Z",
+      "lastSyncedAt": "2026-10-20T09:47:29.598Z",
       "prices": {
         "chaldal": {
           "price": 975,
@@ -51706,7 +52192,7 @@
       "image": "https://chaldn.com/_mpimage/fuchs-titan-super-gear-oil-sae-140-4-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D41785&q=best&v=1",
       "mrp": 1240,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:29.756Z",
+      "lastSyncedAt": "2026-10-20T09:47:29.770Z",
       "prices": {
         "chaldal": {
           "price": 1150,
@@ -51800,7 +52286,7 @@
       "image": "https://chaldn.com/_mpimage/radhuni-pure-mustard-oil-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132550&q=best&v=1",
       "mrp": 215,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:29.904Z",
+      "lastSyncedAt": "2026-10-20T09:47:29.908Z",
       "prices": {
         "chaldal": {
           "price": 200,
@@ -51894,7 +52380,7 @@
       "image": "https://chaldn.com/_mpimage/aarong-dairy-pure-ghee-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D26926&q=low&v=1",
       "mrp": 420,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:30.036Z",
+      "lastSyncedAt": "2026-10-20T09:47:30.026Z",
       "prices": {
         "chaldal": {
           "price": 390,
@@ -51988,7 +52474,7 @@
       "image": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
       "mrp": 475,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:30.178Z",
+      "lastSyncedAt": "2026-10-20T09:47:30.172Z",
       "prices": {
         "chaldal": {
           "price": 439,
@@ -52082,7 +52568,7 @@
       "image": "https://chaldn.com/_mpimage/nazirshail-rice-premium-half-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48083&q=best&v=1",
       "mrp": 479,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:30.328Z",
+      "lastSyncedAt": "2026-10-20T09:47:30.313Z",
       "prices": {
         "chaldal": {
           "price": 449,
@@ -52176,7 +52662,7 @@
       "image": "https://chaldn.com/_mpimage/chashi-aromatic-chinigura-rice-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126657&q=best&v=1",
       "mrp": 205,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:30.478Z",
+      "lastSyncedAt": "2026-10-20T09:47:30.462Z",
       "prices": {
         "chaldal": {
           "price": 190,
@@ -52270,7 +52756,7 @@
       "image": "https://chaldn.com/_mpimage/moshur-dal-deshi-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182384&q=best&v=1",
       "mrp": 179,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:30.611Z",
+      "lastSyncedAt": "2026-10-20T09:47:30.582Z",
       "prices": {
         "chaldal": {
           "price": 159,
@@ -52364,7 +52850,7 @@
       "image": "https://chaldn.com/_mpimage/chola-boot-chick-peas-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126716&q=best&v=1",
       "mrp": 120,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:30.736Z",
+      "lastSyncedAt": "2026-10-20T09:47:30.702Z",
       "prices": {
         "chaldal": {
           "price": 109,
@@ -52458,7 +52944,7 @@
       "image": "https://chaldn.com/_mpimage/teer-flour-atta-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101280&q=best&v=1",
       "mrp": 140,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:30.834Z",
+      "lastSyncedAt": "2026-10-20T09:47:30.833Z",
       "prices": {
         "chaldal": {
           "price": 130,
@@ -52552,7 +53038,7 @@
       "image": "https://chaldn.com/_mpimage/teer-white-flour-maida-2-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101278&q=best&v=1",
       "mrp": 150,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:30.912Z",
+      "lastSyncedAt": "2026-10-20T09:47:30.905Z",
       "prices": {
         "chaldal": {
           "price": 140,
@@ -52646,7 +53132,7 @@
       "image": "https://chaldn.com/_mpimage/fresh-suji-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D97221&q=best&v=1",
       "mrp": 50,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:31.061Z",
+      "lastSyncedAt": "2026-10-20T09:47:31.032Z",
       "prices": {
         "chaldal": {
           "price": 48,
@@ -52740,7 +53226,7 @@
       "image": "https://chaldn.com/_mpimage/deshi-peyaj-local-onion-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D52358&q=low&v=1",
       "mrp": 50,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:31.237Z",
+      "lastSyncedAt": "2026-10-20T09:47:31.191Z",
       "prices": {
         "chaldal": {
           "price": 39,
@@ -52834,7 +53320,7 @@
       "image": "https://chaldn.com/_mpimage/potato-regular-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164304&q=best&v=1",
       "mrp": 30,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:31.408Z",
+      "lastSyncedAt": "2026-10-20T09:47:31.315Z",
       "prices": {
         "chaldal": {
           "price": 29,
@@ -52928,7 +53414,7 @@
       "image": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1",
       "mrp": 109,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:31.504Z",
+      "lastSyncedAt": "2026-10-20T09:47:31.395Z",
       "prices": {
         "chaldal": {
           "price": 79,
@@ -53022,7 +53508,7 @@
       "image": "https://chaldn.com/_mpimage/deshi-ada-local-ginger-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163274&q=best&v=1",
       "mrp": 109,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:31.627Z",
+      "lastSyncedAt": "2026-10-20T09:47:31.529Z",
       "prices": {
         "chaldal": {
           "price": 85,
@@ -53116,7 +53602,7 @@
       "image": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28576&q=low&v=1",
       "mrp": 95,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:31.734Z",
+      "lastSyncedAt": "2026-10-20T09:47:31.661Z",
       "prices": {
         "chaldal": {
           "price": 89,
@@ -53210,7 +53696,7 @@
       "image": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
       "mrp": 105,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:31.847Z",
+      "lastSyncedAt": "2026-10-20T09:47:31.775Z",
       "prices": {
         "chaldal": {
           "price": 99,
@@ -53304,7 +53790,7 @@
       "image": "https://chaldn.com/_mpimage/lomba-lebu-long-lemon-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64362&q=low&v=1",
       "mrp": 39,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:31.954Z",
+      "lastSyncedAt": "2026-10-20T09:47:31.888Z",
       "prices": {
         "chaldal": {
           "price": 29,
@@ -53398,7 +53884,7 @@
       "image": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
       "mrp": 140,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:32.076Z",
+      "lastSyncedAt": "2026-10-20T09:47:32.005Z",
       "prices": {
         "chaldal": {
           "price": 135,
@@ -53492,7 +53978,7 @@
       "image": "https://chaldn.com/_mpimage/bengal-meat-whole-chicken-curry-cut-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74653&q=best&v=1",
       "mrp": 485,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:32.232Z",
+      "lastSyncedAt": "2026-10-20T09:47:32.174Z",
       "prices": {
         "chaldal": {
           "price": 465,
@@ -53586,7 +54072,7 @@
       "image": "https://chaldn.com/_mpimage/live-cock-chicken-processed-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165313&q=best&v=1&m=400",
       "mrp": 355,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:32.371Z",
+      "lastSyncedAt": "2026-10-20T09:47:32.312Z",
       "prices": {
         "chaldal": {
           "price": 319,
@@ -53680,7 +54166,7 @@
       "image": "https://chaldn.com/_mpimage/beef-bone-in-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73985&q=low&v=1",
       "mrp": 830,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:32.564Z",
+      "lastSyncedAt": "2026-10-20T09:47:32.510Z",
       "prices": {
         "chaldal": {
           "price": 799,
@@ -53774,7 +54260,7 @@
       "image": "https://chaldn.com/_mpimage/beef-boneless-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73564&q=low&v=1",
       "mrp": 645,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:32.675Z",
+      "lastSyncedAt": "2026-10-20T09:47:32.587Z",
       "prices": {
         "chaldal": {
           "price": 619,
@@ -53868,7 +54354,7 @@
       "image": "https://chaldn.com/_mpimage/whole-hilsha-fish-asto-ilish-50-gm-12-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164153&q=best&v=1",
       "mrp": 3535,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:32.794Z",
+      "lastSyncedAt": "2026-10-20T09:47:32.701Z",
       "prices": {
         "chaldal": {
           "price": 3399,
@@ -53962,7 +54448,7 @@
       "image": "https://chaldn.com/_mpimage/gura-chingri-shrimp-15-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103458&q=best&v=1",
       "mrp": 260,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:32.915Z",
+      "lastSyncedAt": "2026-10-20T09:47:32.811Z",
       "prices": {
         "chaldal": {
           "price": 249,
@@ -54056,7 +54542,7 @@
       "image": "https://chaldn.com/_mpimage/teer-sugar-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101003&q=best&v=1",
       "mrp": 120,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:33.048Z",
+      "lastSyncedAt": "2026-10-20T09:47:32.938Z",
       "prices": {
         "chaldal": {
           "price": 110,
@@ -54150,7 +54636,7 @@
       "image": "https://chaldn.com/_mpimage/aci-pure-salt-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D47100&q=best&v=1",
       "mrp": 45,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:33.168Z",
+      "lastSyncedAt": "2026-10-20T09:47:33.029Z",
       "prices": {
         "chaldal": {
           "price": 42,
@@ -54244,7 +54730,7 @@
       "image": "https://chaldn.com/_mpimage/radhuni-turmeric-holud-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132554&q=best&v=1",
       "mrp": 80,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:33.294Z",
+      "lastSyncedAt": "2026-10-20T09:47:33.157Z",
       "prices": {
         "chaldal": {
           "price": 75,
@@ -54338,7 +54824,7 @@
       "image": "https://chaldn.com/_mpimage/radhuni-chilli-morich-powder-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132510&q=best&v=1",
       "mrp": 150,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:33.425Z",
+      "lastSyncedAt": "2026-10-20T09:47:33.286Z",
       "prices": {
         "chaldal": {
           "price": 140,
@@ -54432,7 +54918,7 @@
       "image": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132521&q=best&v=1",
       "mrp": 175,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:33.565Z",
+      "lastSyncedAt": "2026-10-20T09:47:33.425Z",
       "prices": {
         "chaldal": {
           "price": 160,
@@ -54526,7 +55012,7 @@
       "image": "https://chaldn.com/_mpimage/radhuni-biryani-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109980&q=best&v=1",
       "mrp": 65,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:33.687Z",
+      "lastSyncedAt": "2026-10-20T09:47:33.553Z",
       "prices": {
         "chaldal": {
           "price": 60,
@@ -54620,7 +55106,7 @@
       "image": "https://chaldn.com/_mpimage/milk-vita-pasteurized-standardized-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177270&q=low&v=1",
       "mrp": 110,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:33.811Z",
+      "lastSyncedAt": "2026-10-20T09:47:33.695Z",
       "prices": {
         "chaldal": {
           "price": 100,
@@ -54714,7 +55200,7 @@
       "image": "https://chaldn.com/_mpimage/aarong-dairy-pasteurized-liquid-milk-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D119561&q=best&v=1",
       "mrp": 115,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:33.971Z",
+      "lastSyncedAt": "2026-10-20T09:47:33.889Z",
       "prices": {
         "chaldal": {
           "price": 105,
@@ -54808,7 +55294,7 @@
       "image": "https://chaldn.com/_mpimage/dano-daily-pushti-milk-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180158&q=best&v=1",
       "mrp": 430,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:34.107Z",
+      "lastSyncedAt": "2026-10-20T09:47:34.036Z",
       "prices": {
         "chaldal": {
           "price": 400,
@@ -54902,7 +55388,7 @@
       "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-bop-tea-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107244&q=best&v=1",
       "mrp": 260,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:34.232Z",
+      "lastSyncedAt": "2026-10-20T09:47:34.159Z",
       "prices": {
         "chaldal": {
           "price": 240,
@@ -54996,7 +55482,7 @@
       "image": "https://chaldn.com/_mpimage/nestle-nescafe-classic-instant-coffee-tin-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D94917&q=best&v=1",
       "mrp": 245,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:34.391Z",
+      "lastSyncedAt": "2026-10-20T09:47:34.301Z",
       "prices": {
         "chaldal": {
           "price": 225,
@@ -55090,7 +55576,7 @@
       "image": "https://chaldn.com/_mpimage/coca-cola-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D164611&q=best&v=1",
       "mrp": 85,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:34.467Z",
+      "lastSyncedAt": "2026-10-20T09:47:34.381Z",
       "prices": {
         "chaldal": {
           "price": 79,
@@ -55184,7 +55670,7 @@
       "image": "https://chaldn.com/_mpimage/mountain-dew-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163559&q=best&v=1&m=400",
       "mrp": 55,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:34.571Z",
+      "lastSyncedAt": "2026-10-20T09:47:34.475Z",
       "prices": {
         "chaldal": {
           "price": 50,
@@ -55278,7 +55764,7 @@
       "image": "https://chaldn.com/_mpimage/nestle-maggi-2-minute-masala-instant-noodles-8-pack?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D153591&q=best&v=1",
       "mrp": 195,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:34.734Z",
+      "lastSyncedAt": "2026-10-20T09:47:34.619Z",
       "prices": {
         "chaldal": {
           "price": 180,
@@ -55372,7 +55858,7 @@
       "image": "https://chaldn.com/_mpimage/olympic-lexus-vegetable-crackers-biscuits-216-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D115564&q=best&v=1",
       "mrp": 110,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:34.874Z",
+      "lastSyncedAt": "2026-10-20T09:47:34.761Z",
       "prices": {
         "chaldal": {
           "price": 100,
@@ -55466,7 +55952,7 @@
       "image": "https://chaldn.com/_mpimage/pran-special-toast-biscuit-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132330&q=best&v=1",
       "mrp": 65,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:34.965Z",
+      "lastSyncedAt": "2026-10-20T09:47:34.892Z",
       "prices": {
         "chaldal": {
           "price": 60,
@@ -55560,7 +56046,7 @@
       "image": "https://chaldn.com/_mpimage/bombay-sweets-chanachur-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D178781&q=best&v=1",
       "mrp": 55,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:35.094Z",
+      "lastSyncedAt": "2026-10-20T09:47:35.003Z",
       "prices": {
         "chaldal": {
           "price": 50,
@@ -55654,7 +56140,7 @@
       "image": "https://chaldn.com/_mpimage/dettol-bathing-soap-bar-cool-75-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127639&q=best&v=1",
       "mrp": 70,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:35.209Z",
+      "lastSyncedAt": "2026-10-20T09:47:35.112Z",
       "prices": {
         "chaldal": {
           "price": 65,
@@ -55748,7 +56234,7 @@
       "image": "https://chaldn.com/_mpimage/parachute-skinpure-lotion-deep-moisture-free-petroleum-jelly-100-ml-200-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D121438&q=best&v=1",
       "mrp": 400,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:35.316Z",
+      "lastSyncedAt": "2026-10-20T09:47:35.227Z",
       "prices": {
         "chaldal": {
           "price": 370,
@@ -55842,7 +56328,7 @@
       "image": "https://chaldn.com/_mpimage/closeup-toothpaste-menthol-fresh-145-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D166873&q=best&v=1",
       "mrp": 165,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:35.426Z",
+      "lastSyncedAt": "2026-10-20T09:47:35.356Z",
       "prices": {
         "chaldal": {
           "price": 155,
@@ -55936,7 +56422,7 @@
       "image": "https://chaldn.com/_mpimage/colgate-max-fresh-blue-gel-toothpaste-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127083&q=best&v=1",
       "mrp": 215,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:35.591Z",
+      "lastSyncedAt": "2026-10-20T09:47:35.517Z",
       "prices": {
         "chaldal": {
           "price": 200,
@@ -56030,7 +56516,7 @@
       "image": "https://chaldn.com/_mpimage/rin-advanced-detergent-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135407&q=best&v=1",
       "mrp": 210,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:35.748Z",
+      "lastSyncedAt": "2026-10-20T09:47:35.658Z",
       "prices": {
         "chaldal": {
           "price": 195,
@@ -56124,7 +56610,7 @@
       "image": "https://chaldn.com/_mpimage/harpic-liquid-toilet-cleaner-original-750-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169613&q=best&v=1",
       "mrp": 195,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:35.892Z",
+      "lastSyncedAt": "2026-10-20T09:47:35.807Z",
       "prices": {
         "chaldal": {
           "price": 180,
@@ -56218,7 +56704,7 @@
       "image": "https://chaldn.com/_mpimage/vim-dishwashing-liquid-free-container-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109537&q=best&v=1",
       "mrp": 120,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:36.013Z",
+      "lastSyncedAt": "2026-10-20T09:47:35.928Z",
       "prices": {
         "chaldal": {
           "price": 110,
@@ -56312,7 +56798,7 @@
       "image": "https://chaldn.com/_mpimage/aci-savlon-liquid-antiseptic-1000-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D181725&q=best&v=1",
       "mrp": 300,
       "isLiveSynced": true,
-      "lastSyncedAt": "2026-10-20T09:17:36.141Z",
+      "lastSyncedAt": "2026-10-20T09:47:36.063Z",
       "prices": {
         "chaldal": {
           "price": 280,
