@@ -395,7 +395,7 @@ export function formatProduct(hit, category) {
         inStock: availability.cartup,
         discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'লাইভ রেট',
         offerText: 'কার্টআপ সেম ডে ডেলিভারি',
-        url: `https://cartup.com/search?q=${encodedCleanQuery}`,
+        url: `https://cartup.com/search?keyword=${encodedCleanQuery}`,
         isVerifiedLive: true
       },
       princebazar: {

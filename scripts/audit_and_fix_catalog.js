@@ -111,7 +111,7 @@ export function auditAndFixProduct(prod, stats = { cartupUrlFixes: 0, princeAdde
 
   // 1. Audit and fix Cartup URL & Stock
   if (prod.prices?.cartup) {
-    prod.prices.cartup.url = `https://cartup.com/search?q=${nameQuery}`;
+    prod.prices.cartup.url = `https://cartup.com/search?keyword=${nameQuery}`;
     prod.prices.cartup.inStock = availability.cartup;
   }
 

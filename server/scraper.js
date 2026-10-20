@@ -518,7 +518,7 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
         inStock: true,
         discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল',
         offerText: 'কার্টআপ ডেলিভারি',
-        url: `https://cartup.com/search?q=${encodeURIComponent(nameEn)}`,
+        url: `https://cartup.com/search?keyword=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       },
       princebazar: {
@@ -638,7 +638,7 @@ export async function syncAllProducts() {
           price: cartupPrice,
           inStock: true,
           discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল',
-          url: `https://cartup.com/search?q=${encodeURIComponent(item.query)}`,
+          url: `https://cartup.com/search?keyword=${encodeURIComponent(item.query)}`,
           isVerifiedLive: true
         },
         princebazar: {

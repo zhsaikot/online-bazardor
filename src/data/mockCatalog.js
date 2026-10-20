@@ -220,7 +220,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rupchanda%20Soyabean%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Rupchanda%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -301,7 +301,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rupchanda%20Soyabean%20Oil%202%20ltr",
+        "url": "https://cartup.com/search?keyword=Rupchanda%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -382,7 +382,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rupchanda%20Soyabean%20Oil%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Rupchanda%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -463,7 +463,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
+        "url": "https://cartup.com/search?keyword=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -544,7 +544,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -625,7 +625,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -706,7 +706,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Alex%20Car%20Wash%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Alex%20Car%20Wash%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -787,7 +787,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Alex%20Car%20Shampoo%20%26%20Wax%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Alex%20Car%20Shampoo%20%26%20Wax%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -868,7 +868,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ujjwala%20Care%20Skin%20Lightening%20Body%20Oil%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Ujjwala%20Care%20Skin%20Lightening%20Body%20Oil%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -949,7 +949,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ujjwala%20Care%20Skin%20Lightening%20Body%20Oil%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Ujjwala%20Care%20Skin%20Lightening%20Body%20Oil%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1030,7 +1030,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Soyabean%20Oil%202%20ltr",
+        "url": "https://cartup.com/search?keyword=Teer%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1111,7 +1111,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Soyabean%20Oil%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Teer%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1192,7 +1192,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Canola%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Teer%20Canola%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1273,7 +1273,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Soyabean%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Teer%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1354,7 +1354,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Soyabean%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Fresh%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1435,7 +1435,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Soyabean%20Oil%202%20ltr",
+        "url": "https://cartup.com/search?keyword=Fresh%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1516,7 +1516,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Soyabean%20Oil%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Fresh%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1597,7 +1597,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1678,7 +1678,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1759,7 +1759,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
+        "url": "https://cartup.com/search?keyword=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1840,7 +1840,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳48 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
+        "url": "https://cartup.com/search?keyword=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -1921,7 +1921,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳51 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
+        "url": "https://cartup.com/search?keyword=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2002,7 +2002,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳51 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
+        "url": "https://cartup.com/search?keyword=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2083,7 +2083,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳30 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
+        "url": "https://cartup.com/search?keyword=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2164,7 +2164,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savlon%20Twinkle%20Baby%20Pant%20Diaper%20M%206-12%20kg%2040%20pcs",
+        "url": "https://cartup.com/search?keyword=Savlon%20Twinkle%20Baby%20Pant%20Diaper%20M%206-12%20kg%2040%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2245,7 +2245,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳51 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20L%209-14%20kg%20(Free%20Feeder%20100%20ml)%2034%20pcs",
+        "url": "https://cartup.com/search?keyword=Bashundhara%20Diapant%20L%209-14%20kg%20(Free%20Feeder%20100%20ml)%2034%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2326,7 +2326,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20Baby%20Diaper%20S%204-8%20kg%2042%20pcs",
+        "url": "https://cartup.com/search?keyword=Bashundhara%20Diapant%20Baby%20Diaper%20S%204-8%20kg%2042%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2407,7 +2407,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳72 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20Baby%20Diaper%20XXL%2014-25%20kg%2024%20pcs",
+        "url": "https://cartup.com/search?keyword=Bashundhara%20Diapant%20Baby%20Diaper%20XXL%2014-25%20kg%2024%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2488,7 +2488,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Mustard%20Oil%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Mustard%20Oil%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2569,7 +2569,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Mustard%20Oil%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Mustard%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2650,7 +2650,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Toyota%20Long%20Life%20Coolant%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Toyota%20Long%20Life%20Coolant%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2731,7 +2731,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Mustard%20Oil%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Fresh%20Mustard%20Oil%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2812,7 +2812,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Mustard%20Oil%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Fresh%20Mustard%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2893,7 +2893,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Ghee%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Ghee%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -2974,7 +2974,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Ghee%20450%20gm",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Ghee%20450%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3055,7 +3055,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Ghee%20900%20gm",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Ghee%20900%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3136,7 +3136,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Ghee%20200%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Ghee%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3217,7 +3217,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ghee%20Vita%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Ghee%20Vita%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3298,7 +3298,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Ghee%20100%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Ghee%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3379,7 +3379,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ghee%20Vita%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Ghee%20Vita%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3460,7 +3460,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vitacare%20Gawa%20Ghee%20()%20900%20ml",
+        "url": "https://cartup.com/search?keyword=Vitacare%20Gawa%20Ghee%20()%20900%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3541,7 +3541,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foodela%20Ghee%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Foodela%20Ghee%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3622,7 +3622,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foodela%20Ghee%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Foodela%20Ghee%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3703,7 +3703,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Red%20Cow%20Butter%20Oil%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Red%20Cow%20Butter%20Oil%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3784,7 +3784,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foodela%20Ghee%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Foodela%20Ghee%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3865,7 +3865,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Ghee%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Ghee%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -3946,7 +3946,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Ghee%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Ghee%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4027,7 +4027,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fortune%20Rice%20Bran%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Fortune%20Rice%20Bran%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4108,7 +4108,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4189,7 +4189,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anmol%20Dawat%20Offer",
+        "url": "https://cartup.com/search?keyword=Anmol%20Dawat%20Offer",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4270,7 +4270,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳14 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foodela%20Family%20Saver",
+        "url": "https://cartup.com/search?keyword=Foodela%20Family%20Saver",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4351,7 +4351,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4432,7 +4432,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4513,7 +4513,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳18 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4594,7 +4594,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4675,7 +4675,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳4 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Banglamoti%20Rice%20(Boiled)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Banglamoti%20Rice%20(Boiled)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4756,7 +4756,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zirashail%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Zirashail%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4837,7 +4837,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳102 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Giggles%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
+        "url": "https://cartup.com/search?keyword=Giggles%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4918,7 +4918,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳84 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
+        "url": "https://cartup.com/search?keyword=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -4999,7 +4999,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳198 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
+        "url": "https://cartup.com/search?keyword=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5080,7 +5080,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳206 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
+        "url": "https://cartup.com/search?keyword=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5161,7 +5161,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳90 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Avonee%20Pants%20Extra%20Large%20XXL%20(14-25KG)%2034%20pcs",
+        "url": "https://cartup.com/search?keyword=Avonee%20Pants%20Extra%20Large%20XXL%20(14-25KG)%2034%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5242,7 +5242,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳54 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
+        "url": "https://cartup.com/search?keyword=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5323,7 +5323,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Molfix%20Baby%20Diaper%20Pants%20Super%20Extra%20Large%2015%2B%20kg%2058%20pcs",
+        "url": "https://cartup.com/search?keyword=Molfix%20Baby%20Diaper%20Pants%20Super%20Extra%20Large%2015%2B%20kg%2058%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5404,7 +5404,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳15 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Comfort%20Baby%20Diaper%20Pant%20XXXL%20(20-30%20kg)%2024%20pcs",
+        "url": "https://cartup.com/search?keyword=Comfort%20Baby%20Diaper%20Pant%20XXXL%20(20-30%20kg)%2024%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5485,7 +5485,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nannys%20Baby%20Love%20Diaper%20Belt%204%20Maxi%208-18%20kg%20(Free%20Wipes%2072%20pcs)%2025%20pcs",
+        "url": "https://cartup.com/search?keyword=Nannys%20Baby%20Love%20Diaper%20Belt%204%20Maxi%208-18%20kg%20(Free%20Wipes%2072%20pcs)%2025%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5566,7 +5566,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pampers%20Baby%20Dry%208%20Jumbo%20Plus%20Belt%2017%2B%20kg%2052%20pcs",
+        "url": "https://cartup.com/search?keyword=Pampers%20Baby%20Dry%208%20Jumbo%20Plus%20Belt%2017%2B%20kg%2052%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5647,7 +5647,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Miniket%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Miniket%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5728,7 +5728,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Miniket%20Rice%2010%20kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Miniket%20Rice%2010%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5809,7 +5809,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Miniket%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5890,7 +5890,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Akij%20Essential%20Miniket%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=Akij%20Essential%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -5971,7 +5971,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Miniket%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=Pran%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6052,7 +6052,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shukran%20Miniket%20Rice%20(Boiled)%2010%20kg",
+        "url": "https://cartup.com/search?keyword=Shukran%20Miniket%20Rice%20(Boiled)%2010%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6133,7 +6133,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shukran%20Miniket%20Rice%20(Boiled)%205%20kg",
+        "url": "https://cartup.com/search?keyword=Shukran%20Miniket%20Rice%20(Boiled)%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6214,7 +6214,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Satej%20Miniket%20Rice%20()%205%20kg",
+        "url": "https://cartup.com/search?keyword=Satej%20Miniket%20Rice%20()%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6295,7 +6295,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nazirshail%20Rice%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Nazirshail%20Rice%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6376,7 +6376,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Nazirshail%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6457,7 +6457,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Nazirshail%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=Pran%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6538,7 +6538,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6619,7 +6619,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
+        "url": "https://cartup.com/search?keyword=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6700,7 +6700,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shukran%20Nazirshail%20Rice%20(Boiled)%205%20kg",
+        "url": "https://cartup.com/search?keyword=Shukran%20Nazirshail%20Rice%20(Boiled)%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6781,7 +6781,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nazirshail%20Rice%20Supreme%20(Steam)%205%20kg",
+        "url": "https://cartup.com/search?keyword=Nazirshail%20Rice%20Supreme%20(Steam)%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6862,7 +6862,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -6943,7 +6943,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
+        "url": "https://cartup.com/search?keyword=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7024,7 +7024,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7105,7 +7105,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
+        "url": "https://cartup.com/search?keyword=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7186,7 +7186,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rupchanda%20Chinigura%20Aromatic%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=Rupchanda%20Chinigura%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7267,7 +7267,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7348,7 +7348,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Aroma%20Aromatic%20Chinigura%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Aroma%20Aromatic%20Chinigura%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7429,7 +7429,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Acme%20Chinigura%20Aromatic%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=Acme%20Chinigura%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7510,7 +7510,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Chinigura%20Aromatic%20Rice%20(Free%20Fresh%20Beef%20Masala%2020%20gm)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Fresh%20Chinigura%20Aromatic%20Rice%20(Free%20Fresh%20Beef%20Masala%2020%20gm)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7591,7 +7591,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Chinigura%20Aromatic%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Chinigura%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7672,7 +7672,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Natural%20Kalijira%20Rice%202%20kg",
+        "url": "https://cartup.com/search?keyword=Aarong%20Natural%20Kalijira%20Rice%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7753,7 +7753,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Natural%20Kalijira%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=Aarong%20Natural%20Kalijira%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7834,7 +7834,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Khusboo%20Kalijira%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=Khusboo%20Kalijira%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7915,7 +7915,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Shugondhi%20Kataribhog%20Rice%205%20kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Shugondhi%20Kataribhog%20Rice%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -7996,7 +7996,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
+        "url": "https://cartup.com/search?keyword=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8077,7 +8077,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
+        "url": "https://cartup.com/search?keyword=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8158,7 +8158,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
+        "url": "https://cartup.com/search?keyword=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8239,7 +8239,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8320,7 +8320,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Aroma%20Basmati%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Aroma%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8401,7 +8401,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8482,7 +8482,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8563,7 +8563,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kaalar%20Basmati%20Rice%201%20kg",
+        "url": "https://cartup.com/search?keyword=Kaalar%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8644,7 +8644,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Qilla%20Excel%20Basmati%201%20kg",
+        "url": "https://cartup.com/search?keyword=Qilla%20Excel%20Basmati%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8725,7 +8725,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Paijam%20Rice%20(Boiled)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Paijam%20Rice%20(Boiled)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8806,7 +8806,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳18 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Paijam%20Rice%20(Boiled)%20%C2%B1%20200%20gm%2025%20kg",
+        "url": "https://cartup.com/search?keyword=Paijam%20Rice%20(Boiled)%20%C2%B1%20200%20gm%2025%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8887,7 +8887,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳12 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Paijam%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?keyword=Paijam%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -8968,7 +8968,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Moshur%20Dal%20(Deshi)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Moshur%20Dal%20(Deshi)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9049,7 +9049,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9130,7 +9130,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
+        "url": "https://cartup.com/search?keyword=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9211,7 +9211,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9292,7 +9292,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
+        "url": "https://cartup.com/search?keyword=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9373,7 +9373,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9454,7 +9454,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Moshur%20Dal%20(Imported)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Moshur%20Dal%20(Imported)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9535,7 +9535,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mug%20Dal%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Mug%20Dal%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9616,7 +9616,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳11 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Khichuri%20Essential%20Combo",
+        "url": "https://cartup.com/search?keyword=Khichuri%20Essential%20Combo",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9697,7 +9697,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9778,7 +9778,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Moshur%20Dal%20(Imported)%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Moshur%20Dal%20(Imported)%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9859,7 +9859,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Moshur%20Dal%20(Imported)%203%20kg",
+        "url": "https://cartup.com/search?keyword=Moshur%20Dal%20(Imported)%203%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -9940,7 +9940,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mashkolai%20Dal%20Peeled%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Mashkolai%20Dal%20Peeled%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10021,7 +10021,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mix%20Dal%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Mix%20Dal%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10102,7 +10102,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foodela%20Red%20Lentil%20(Moshur%20Dal)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Foodela%20Red%20Lentil%20(Moshur%20Dal)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10183,7 +10183,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Everest%20Chhole%20Masala%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Everest%20Chhole%20Masala%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10264,7 +10264,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Boot%20Dal%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Boot%20Dal%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10345,7 +10345,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10426,7 +10426,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kheshari%20Dal%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Kheshari%20Dal%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10507,7 +10507,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Khesari%20Dal%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Khesari%20Dal%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10588,7 +10588,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mashkalai%20Daler%20Bori%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Mashkalai%20Daler%20Bori%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10669,7 +10669,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anchor%20Boot%20Dal%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Anchor%20Boot%20Dal%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10750,7 +10750,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "url": "https://cartup.com/search?keyword=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10831,7 +10831,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "url": "https://cartup.com/search?keyword=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10912,7 +10912,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Flour%20(Atta)%202%20kg",
+        "url": "https://cartup.com/search?keyword=Teer%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -10993,7 +10993,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11074,7 +11074,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11155,7 +11155,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
+        "url": "https://cartup.com/search?keyword=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11236,7 +11236,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foodela%20Brown%20Atta%201%20kg",
+        "url": "https://cartup.com/search?keyword=Foodela%20Brown%20Atta%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11317,7 +11317,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vesoj%20Brown%20Atta%202%20kg",
+        "url": "https://cartup.com/search?keyword=Vesoj%20Brown%20Atta%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11398,7 +11398,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bashundhara%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Bashundhara%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11479,7 +11479,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Gerber%20Whole%20Wheat%20Cereal%20227%20gm",
+        "url": "https://cartup.com/search?keyword=Gerber%20Whole%20Wheat%20Cereal%20227%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11560,7 +11560,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
+        "url": "https://cartup.com/search?keyword=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11641,7 +11641,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11722,7 +11722,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11803,7 +11803,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11884,7 +11884,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -11965,7 +11965,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12046,7 +12046,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Kaun%20Rice%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Kaun%20Rice%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12127,7 +12127,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ligion%20Black%20Seed%20With%20Sesame%20Seed%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Ligion%20Black%20Seed%20With%20Sesame%20Seed%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12208,7 +12208,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Saffron%20(Jafran)%201%20gm",
+        "url": "https://cartup.com/search?keyword=Saffron%20(Jafran)%201%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12289,7 +12289,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dhaka%20Dough%20Black%20Cumin%20Oil%2080%20ml",
+        "url": "https://cartup.com/search?keyword=Dhaka%20Dough%20Black%20Cumin%20Oil%2080%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12370,7 +12370,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20White%20Flour%20(Maida)%202%20kg",
+        "url": "https://cartup.com/search?keyword=Teer%20White%20Flour%20(Maida)%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12451,7 +12451,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20White%20Flour%20(Maida)%2050%20kg",
+        "url": "https://cartup.com/search?keyword=Teer%20White%20Flour%20(Maida)%2050%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12532,7 +12532,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?keyword=Teer%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12613,7 +12613,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=White%20Flour%20(Maida)%201%20kg",
+        "url": "https://cartup.com/search?keyword=White%20Flour%20(Maida)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12694,7 +12694,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Red%20Lentil%20(Moshur)%20Dal%201%20kg",
+        "url": "https://cartup.com/search?keyword=Teer%20Red%20Lentil%20(Moshur)%20Dal%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12775,7 +12775,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Teer%20Semolina%20Suji%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Teer%20Semolina%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12856,7 +12856,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20White%20Flour%20(Maida)%202%20kg",
+        "url": "https://cartup.com/search?keyword=Fresh%20White%20Flour%20(Maida)%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -12937,7 +12937,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Suji%20500%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13018,7 +13018,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Suji%20250%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Suji%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13099,7 +13099,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Lachcha%20Semai%20150%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Lachcha%20Semai%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13180,7 +13180,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Vermicelli%20(Shemai)%20200%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Vermicelli%20(Shemai)%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13261,7 +13261,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13342,7 +13342,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rahul%20Semolina%20(Suji)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Rahul%20Semolina%20(Suji)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13423,7 +13423,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rahul%20Semolina%20(Suji)%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Rahul%20Semolina%20(Suji)%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13504,7 +13504,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pusti%20Suji%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Pusti%20Suji%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13585,7 +13585,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Muskan%20Suji%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Muskan%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13666,7 +13666,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Suji%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13747,7 +13747,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foodela%20Suji%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Foodela%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13828,7 +13828,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foodela%20Suji%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Foodela%20Suji%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13909,7 +13909,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -13990,7 +13990,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14071,7 +14071,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14152,7 +14152,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14233,7 +14233,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14314,7 +14314,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14395,7 +14395,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lal%20Shak%20(Red%20Spinach)%201%20bundle",
+        "url": "https://cartup.com/search?keyword=Lal%20Shak%20(Red%20Spinach)%201%20bundle",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14476,7 +14476,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14557,7 +14557,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14638,7 +14638,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14719,7 +14719,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Moshur%20Dal%20(Imported)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Moshur%20Dal%20(Imported)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14800,7 +14800,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14881,7 +14881,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -14962,7 +14962,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15043,7 +15043,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Komola%20(Orange)%20Imported%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Komola%20(Orange)%20Imported%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15124,7 +15124,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Potato%20(%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Potato%20(%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15205,7 +15205,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Potato%20(%C2%B1%2025%20gm)%20600%20gm",
+        "url": "https://cartup.com/search?keyword=Potato%20(%C2%B1%2025%20gm)%20600%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15286,7 +15286,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15367,7 +15367,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15448,7 +15448,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15529,7 +15529,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15610,7 +15610,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Cerelac%204%20Potato%20%26%20Chicken%20(12%20M%2B)%20350%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Cerelac%204%20Potato%20%26%20Chicken%20(12%20M%2B)%20350%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15691,7 +15691,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=A6%20Freedom%20Flow%20Sanitary%20Napkin%208%20pads",
+        "url": "https://cartup.com/search?keyword=A6%20Freedom%20Flow%20Sanitary%20Napkin%208%20pads",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15772,7 +15772,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Potato%20Cracker%2015%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Potato%20Cracker%2015%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15853,7 +15853,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Alooz%20Red%20Chilli%20Chatka%2020%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Alooz%20Red%20Chilli%20Chatka%2020%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -15934,7 +15934,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pringles%20Potato%20Chips%20Red%20%26%20Green%20Combo%20Offer%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Pringles%20Potato%20Chips%20Red%20%26%20Green%20Combo%20Offer%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16015,7 +16015,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳1 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16096,7 +16096,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16177,7 +16177,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16258,7 +16258,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
+        "url": "https://cartup.com/search?keyword=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16339,7 +16339,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳21 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mazzak%20Cashews%20Nuts%20Roasted%20with%20Garlic%20Butter%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Mazzak%20Cashews%20Nuts%20Roasted%20with%20Garlic%20Butter%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16420,7 +16420,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳21 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mazzak%20Badam%20Cashews%20Spicy%20BBQ%20Garlic%20Chicken%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Mazzak%20Badam%20Cashews%20Spicy%20BBQ%20Garlic%20Chicken%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16501,7 +16501,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fargo%20Garlic%20Nutri%20Pickle%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Fargo%20Garlic%20Nutri%20Pickle%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16582,7 +16582,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fargo%20Garlic%20Pickle%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Fargo%20Garlic%20Pickle%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16663,7 +16663,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dhaka%20Dough%20Deshi%20Garlic%20Pickle%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Dhaka%20Dough%20Deshi%20Garlic%20Pickle%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16744,7 +16744,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳7 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16825,7 +16825,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chicken%20Eggs%20(Deshi)%206%20pcs",
+        "url": "https://cartup.com/search?keyword=Chicken%20Eggs%20(Deshi)%206%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16906,7 +16906,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -16987,7 +16987,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳30 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
+        "url": "https://cartup.com/search?keyword=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17068,7 +17068,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "url": "https://cartup.com/search?keyword=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17149,7 +17149,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ada%20Kuchi%20(Imported%20Ginger)%20Processed%20%C2%B110%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ada%20Kuchi%20(Imported%20Ginger)%20Processed%20%C2%B110%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17230,7 +17230,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳33 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Happy%20Nappy%20Pant%20Diaper%20S%20(4-8%20kg)%2042%20pcs",
+        "url": "https://cartup.com/search?keyword=Fresh%20Happy%20Nappy%20Pant%20Diaper%20S%20(4-8%20kg)%2042%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17311,7 +17311,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳12 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17392,7 +17392,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Tomato%20Sauce%20340%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Tomato%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17473,7 +17473,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Tomato%20Sauce%201%20kg",
+        "url": "https://cartup.com/search?keyword=Pran%20Tomato%20Sauce%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17554,7 +17554,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17635,7 +17635,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
+        "url": "https://cartup.com/search?keyword=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17716,7 +17716,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17797,7 +17797,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17878,7 +17878,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beerenberg%20Hot%20Tomato%20Sauce%20300%20ml",
+        "url": "https://cartup.com/search?keyword=Beerenberg%20Hot%20Tomato%20Sauce%20300%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -17959,7 +17959,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chef%20Le%20Tomato%20Paste%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Chef%20Le%20Tomato%20Paste%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18040,7 +18040,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Tomato%20Ketchup%20340%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Tomato%20Ketchup%20340%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18121,7 +18121,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Saad%20Hot%20Tomato%20Sauce%20340%20gm",
+        "url": "https://cartup.com/search?keyword=Saad%20Hot%20Tomato%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18202,7 +18202,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18283,7 +18283,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18364,7 +18364,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
+        "url": "https://cartup.com/search?keyword=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18445,7 +18445,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Green%20Chilli%20Sauce%20340%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Green%20Chilli%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18526,7 +18526,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
+        "url": "https://cartup.com/search?keyword=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18607,7 +18607,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
+        "url": "https://cartup.com/search?keyword=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18688,7 +18688,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Malik%20Seeds%20Morich%20Beej%20(Bijlee)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Malik%20Seeds%20Morich%20Beej%20(Bijlee)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18769,7 +18769,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Weikfield%20Green%20Chilli%20Sauce%20265%20gm",
+        "url": "https://cartup.com/search?keyword=Weikfield%20Green%20Chilli%20Sauce%20265%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18850,7 +18850,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Thai%20Choice%20Green%20Chilli%20Sauce%20450%20ml",
+        "url": "https://cartup.com/search?keyword=Thai%20Choice%20Green%20Chilli%20Sauce%20450%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -18931,7 +18931,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Haldiram%20Green%20Chilli%20Pickle%20350%20gm",
+        "url": "https://cartup.com/search?keyword=Haldiram%20Green%20Chilli%20Pickle%20350%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19012,7 +19012,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
+        "url": "https://cartup.com/search?keyword=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19093,7 +19093,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19174,7 +19174,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳4 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19255,7 +19255,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19336,7 +19336,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19417,7 +19417,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19498,7 +19498,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tibet%20Rose%20%26%20Lemon%20Detergent%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Tibet%20Rose%20%26%20Lemon%20Detergent%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19579,7 +19579,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shada%20Nashpati%20%C2%B1%2050%20gm%20(Pear%20White)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Shada%20Nashpati%20%C2%B1%2050%20gm%20(Pear%20White)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19660,7 +19660,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Trix%20Dishwashing%20Liquid%20(Lemon)%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Trix%20Dishwashing%20Liquid%20(Lemon)%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19741,7 +19741,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Trix%20Dish%20Washing%20Bar%20Lemon%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Trix%20Dish%20Washing%20Bar%20Lemon%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19822,7 +19822,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19903,7 +19903,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -19984,7 +19984,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20065,7 +20065,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20146,7 +20146,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
+        "url": "https://cartup.com/search?keyword=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20227,7 +20227,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=YC%20Cucumber%20Whitening%20Facial%20Scrub%20175%20ml",
+        "url": "https://cartup.com/search?keyword=YC%20Cucumber%20Whitening%20Facial%20Scrub%20175%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20308,7 +20308,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Boots%20Cucumber%20Cleansing%20Lotion%20150%20ml",
+        "url": "https://cartup.com/search?keyword=Boots%20Cucumber%20Cleansing%20Lotion%20150%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20389,7 +20389,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Boots%20Cucumber%20Eye%20Make%20Up%20Remover%20Gel%20150%20ml",
+        "url": "https://cartup.com/search?keyword=Boots%20Cucumber%20Eye%20Make%20Up%20Remover%20Gel%20150%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20470,7 +20470,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Boots%20Cucumber%20Facial%20Wash%20150%20ml",
+        "url": "https://cartup.com/search?keyword=Boots%20Cucumber%20Facial%20Wash%20150%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20551,7 +20551,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
+        "url": "https://cartup.com/search?keyword=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20632,7 +20632,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
+        "url": "https://cartup.com/search?keyword=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20713,7 +20713,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20794,7 +20794,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Prosperity%20Carrot%20Noodles%20454%20gm",
+        "url": "https://cartup.com/search?keyword=Prosperity%20Carrot%20Noodles%20454%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20875,7 +20875,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -20956,7 +20956,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Drools%20Power%20Bites%20Carrot%20Flavour%20135%20gm",
+        "url": "https://cartup.com/search?keyword=Drools%20Power%20Bites%20Carrot%20Flavour%20135%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21037,7 +21037,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳12 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Whiskas%20Tasty%20Mix%20Chicken%20Tuna%20Carrot%20In%20Gravy%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Whiskas%20Tasty%20Mix%20Chicken%20Tuna%20Carrot%20In%20Gravy%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21118,7 +21118,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳32 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Whiskas%20Tasty%20Mix%20Tuna%20Kanikama%20Carrot%20In%20Gravy%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Whiskas%20Tasty%20Mix%20Tuna%20Kanikama%20Carrot%20In%20Gravy%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21199,7 +21199,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fulkopi%20(Cauliflower)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Fulkopi%20(Cauliflower)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21280,7 +21280,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fulkopi%20(Cauliflower)%20Processed%20%C2%B110%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Fulkopi%20(Cauliflower)%20Processed%20%C2%B110%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21361,7 +21361,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Badhakopi%20(Cabbage)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Badhakopi%20(Cabbage)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21442,7 +21442,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Badhakopi%20Pata%20(Chinese%20Cabbage%20Leaves)%20150%20gm%2B%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Badhakopi%20Pata%20(Chinese%20Cabbage%20Leaves)%20150%20gm%2B%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21523,7 +21523,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Watteh%20Greens%20Baby%20Cabbage%20Microgreen%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Watteh%20Greens%20Baby%20Cabbage%20Microgreen%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21604,7 +21604,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sobuj%20Gol%20Begun%20(Round%20Brinjals%20Green)%20%C2%B135%20gm%20700%20gm",
+        "url": "https://cartup.com/search?keyword=Sobuj%20Gol%20Begun%20(Round%20Brinjals%20Green)%20%C2%B135%20gm%20700%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21685,7 +21685,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lomba%20Kalo%20Begun%20(Long%20Brinjal%20Black)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Lomba%20Kalo%20Begun%20(Long%20Brinjal%20Black)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21766,7 +21766,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kalo%20Gol%20Begun%20(Round%20Brinjals%20Black)%20%C2%B135%20gm%20800%20gm",
+        "url": "https://cartup.com/search?keyword=Kalo%20Gol%20Begun%20(Round%20Brinjals%20Black)%20%C2%B135%20gm%20800%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21847,7 +21847,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Malik%20Seeds%20Begun%20Beej%20(Pritam)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Malik%20Seeds%20Begun%20Beej%20(Pritam)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -21928,7 +21928,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Malik%20Seeds%20Begun%20Beej%20(Lalita)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Malik%20Seeds%20Begun%20Beej%20(Lalita)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22009,7 +22009,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳8 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kacha%20Pepe%20(Green%20Papaya)%20%C2%B1%2070%20gm%201.4%20kg",
+        "url": "https://cartup.com/search?keyword=Kacha%20Pepe%20(Green%20Papaya)%20%C2%B1%2070%20gm%201.4%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22090,7 +22090,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kacha%20Pepe%20(Green%20Papaya)%20Processed%20%C2%B110%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Kacha%20Pepe%20(Green%20Papaya)%20Processed%20%C2%B110%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22171,7 +22171,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22252,7 +22252,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Green%20Capsicum%20%C2%B1%2015%20gm%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Green%20Capsicum%20%C2%B1%2015%20gm%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22333,7 +22333,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22414,7 +22414,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22495,7 +22495,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Daab%20(Green%20Coconut)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Daab%20(Green%20Coconut)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22576,7 +22576,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lau%20(%20Gourd)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Lau%20(%20Gourd)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22657,7 +22657,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Potol%20(Pointed%20Gourd)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Potol%20(Pointed%20Gourd)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22738,7 +22738,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chichinga%20(Snake%20Gourd)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Chichinga%20(Snake%20Gourd)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22819,7 +22819,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Korola%20(Bitter%20Gourd)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Korola%20(Bitter%20Gourd)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22900,7 +22900,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Uchche%20(Local%20Bitter%20Gourd)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Uchche%20(Local%20Bitter%20Gourd)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -22981,7 +22981,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dhundhul%20(Sponge%20Gourd)%20%C2%B120%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Dhundhul%20(Sponge%20Gourd)%20%C2%B120%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23062,7 +23062,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kakrol%20(Sweet%20Bitter%20Gourd)%20%C2%B125%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Kakrol%20(Sweet%20Bitter%20Gourd)%20%C2%B125%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23143,7 +23143,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Yeast%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Yeast%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23224,7 +23224,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coriander%20Leaves%20(Dhonia%20Pata)%20%C2%B1%2010%20gm%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Coriander%20Leaves%20(Dhonia%20Pata)%20%C2%B1%2010%20gm%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23305,7 +23305,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Long%20Coriander%20Leaves%20(Bilati%20Dhonia%20Pata)%20%C2%B1%2010%20gm%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Long%20Coriander%20Leaves%20(Bilati%20Dhonia%20Pata)%20%C2%B1%2010%20gm%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23386,7 +23386,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Thankuni%20Pata%20(Pennywort%20Leaves)%201%20bundle",
+        "url": "https://cartup.com/search?keyword=Thankuni%20Pata%20(Pennywort%20Leaves)%201%20bundle",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23467,7 +23467,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pudina%20Pata%20(Mint%20Leaves)%20%C2%B1%2010%20gm%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Pudina%20Pata%20(Mint%20Leaves)%20%C2%B1%2010%20gm%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23548,7 +23548,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23629,7 +23629,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lau%20Shak%20(Sweet%20Bitter%20Melon%20Leaves)%201%20bundle",
+        "url": "https://cartup.com/search?keyword=Lau%20Shak%20(Sweet%20Bitter%20Melon%20Leaves)%201%20bundle",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23710,7 +23710,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lettuce%20Leaves%20%C2%B1%2010%20gm%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Lettuce%20Leaves%20%C2%B1%2010%20gm%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23791,7 +23791,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23872,7 +23872,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mehendi%20Pata%20(Henna%20Leaves)%203%20bundles",
+        "url": "https://cartup.com/search?keyword=Mehendi%20Pata%20(Henna%20Leaves)%203%20bundles",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -23953,7 +23953,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coriander%20(Dhonia)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Coriander%20(Dhonia)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24034,7 +24034,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24115,7 +24115,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24196,7 +24196,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anaros%20(Pineapple)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Anaros%20(Pineapple)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24277,7 +24277,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳15 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bel%20(Wood%20Apple)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Bel%20(Wood%20Apple)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24358,7 +24358,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Green%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Green%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24439,7 +24439,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Goldmark%20Pineapple%20Cream%20Sandwich%20Biscuit%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Goldmark%20Pineapple%20Cream%20Sandwich%20Biscuit%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24520,7 +24520,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fuji%20Grinder%20Blue%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Fuji%20Grinder%20Blue%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24601,7 +24601,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fuji%20Grinder%20Red%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Fuji%20Grinder%20Red%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24682,7 +24682,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24763,7 +24763,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24844,7 +24844,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Banana%20Sobri%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Banana%20Sobri%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -24925,7 +24925,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25006,7 +25006,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25087,7 +25087,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Skin%20Cafe%20Banana%20Shampoo%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Skin%20Cafe%20Banana%20Shampoo%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25168,7 +25168,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Gerber%20Snack's%20Puffs%20Banana%2042%20gm",
+        "url": "https://cartup.com/search?keyword=Gerber%20Snack's%20Puffs%20Banana%2042%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25249,7 +25249,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Banana%20Cream%20Sandwich%20Biscuit%20110%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Banana%20Cream%20Sandwich%20Biscuit%20110%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25330,7 +25330,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Heinz%20Pear%20%26%20Banana%20(4%20months%2B)%20110%20gm",
+        "url": "https://cartup.com/search?keyword=Heinz%20Pear%20%26%20Banana%20(4%20months%2B)%20110%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25411,7 +25411,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Malta%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Malta%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25492,7 +25492,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
+        "url": "https://cartup.com/search?keyword=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25573,7 +25573,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25654,7 +25654,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25735,7 +25735,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Roshogolla%20600%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Roshogolla%20600%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25816,7 +25816,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Gulab%20Jamun%20600%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Gulab%20Jamun%20600%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25897,7 +25897,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -25978,7 +25978,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
+        "url": "https://cartup.com/search?keyword=Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26059,7 +26059,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ultra%20Sweet%20Curd%2075%20gm",
+        "url": "https://cartup.com/search?keyword=Ultra%20Sweet%20Curd%2075%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26140,7 +26140,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ultra%20Sweet%20Curd%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ultra%20Sweet%20Curd%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26221,7 +26221,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Sweetened%20Yogurt%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Sweetened%20Yogurt%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26302,7 +26302,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Low%20Fat%20Yogurt%20(Sour)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Low%20Fat%20Yogurt%20(Sour)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26383,7 +26383,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Sour%20Curd%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Pran%20Sour%20Curd%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26464,7 +26464,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Guava%20(%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Guava%20(%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26545,7 +26545,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunquick%20Pink%20Guava%20%26%20Strawberry-Drink%20Concentrate%20300%20ml",
+        "url": "https://cartup.com/search?keyword=Sunquick%20Pink%20Guava%20%26%20Strawberry-Drink%20Concentrate%20300%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26626,7 +26626,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunquick%20Pink%20Guava%20%26%20Strawberry%20Drink%20Concentrate%20700%20ml",
+        "url": "https://cartup.com/search?keyword=Sunquick%20Pink%20Guava%20%26%20Strawberry%20Drink%20Concentrate%20700%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26707,7 +26707,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nutrilife%20Guava%20Juice%20160%20ml",
+        "url": "https://cartup.com/search?keyword=Nutrilife%20Guava%20Juice%20160%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26788,7 +26788,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ahmed%20Guava%20Jelly%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ahmed%20Guava%20Jelly%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26869,7 +26869,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ahmed%20Sugar%20Free%20Guava%20Jelly%20375%20gm",
+        "url": "https://cartup.com/search?keyword=Ahmed%20Sugar%20Free%20Guava%20Jelly%20375%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -26950,7 +26950,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nutrilife%20Guava%20Juice%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Nutrilife%20Guava%20Juice%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27031,7 +27031,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ceres%20Guava%20Juice%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Ceres%20Guava%20Juice%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27112,7 +27112,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tipco%20Guava%20Juice%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Tipco%20Guava%20Juice%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27193,7 +27193,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳11 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27274,7 +27274,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27355,7 +27355,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳8 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27436,7 +27436,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27517,7 +27517,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27598,7 +27598,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27679,7 +27679,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27760,7 +27760,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27841,7 +27841,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bengal%20Meat%20Whole%20Chicken%20Curry%20Cut%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Bengal%20Meat%20Whole%20Chicken%20Curry%20Cut%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -27922,7 +27922,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28003,7 +28003,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "url": "https://cartup.com/search?keyword=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28084,7 +28084,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
+        "url": "https://cartup.com/search?keyword=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28165,7 +28165,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Quail%20Eggs%2020%20pcs",
+        "url": "https://cartup.com/search?keyword=Quail%20Eggs%2020%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28246,7 +28246,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chicken%20Eggs%20(Layer)%2012%20pcs",
+        "url": "https://cartup.com/search?keyword=Chicken%20Eggs%20(Layer)%2012%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28327,7 +28327,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chicken%20Eggs%20(Layer)%206%20pcs",
+        "url": "https://cartup.com/search?keyword=Chicken%20Eggs%20(Layer)%206%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28408,7 +28408,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Paragon%20Omega%203%2B%20Eggs%2012%20pcs",
+        "url": "https://cartup.com/search?keyword=Paragon%20Omega%203%2B%20Eggs%2012%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28489,7 +28489,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Paragon%20Brown%20Egg%2012%20pcs",
+        "url": "https://cartup.com/search?keyword=Paragon%20Brown%20Egg%2012%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28570,7 +28570,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chicken%20Eggs%20Layer%20(Super%20Egg)%2012%20pcs",
+        "url": "https://cartup.com/search?keyword=Chicken%20Eggs%20Layer%20(Super%20Egg)%2012%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28651,7 +28651,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2030%20gm%20600%20gm",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2030%20gm%20600%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28732,7 +28732,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20Off%20BBQ%20Cut%204%20pcs%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20BBQ%20Cut%204%20pcs%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28813,7 +28813,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201.4%20kg",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201.4%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28894,7 +28894,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2030%20gm%20600%20gm",
+        "url": "https://cartup.com/search?keyword=Broiler%20Chicken%20Skin%20On%20%C2%B1%2030%20gm%20600%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -28975,7 +28975,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Broiler%20Whole%20Chicken%20Leg%20Skin%20On%20(%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Broiler%20Whole%20Chicken%20Leg%20Skin%20On%20(%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29056,7 +29056,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29137,7 +29137,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Country%20Natural%20Beef%20Kolija%20Singara%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Country%20Natural%20Beef%20Kolija%20Singara%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29218,7 +29218,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bengal%20Meat%20Beef%20Kolija%20Singara%2012%20pcs%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Bengal%20Meat%20Beef%20Kolija%20Singara%2012%20pcs%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29299,7 +29299,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bengal%20Meat%20Beef%20Minute%20Steak%20360%20gm",
+        "url": "https://cartup.com/search?keyword=Bengal%20Meat%20Beef%20Minute%20Steak%20360%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29380,7 +29380,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Country%20Natural%20Beef%20Sausage%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Country%20Natural%20Beef%20Sausage%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29461,7 +29461,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tasty%20Tibet%20Beef%20Shami%20Kabab%208%20pcs%20210%20gm",
+        "url": "https://cartup.com/search?keyword=Tasty%20Tibet%20Beef%20Shami%20Kabab%208%20pcs%20210%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29542,7 +29542,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beef%20Bone%20In%20%C2%B1%2020%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Beef%20Bone%20In%20%C2%B1%2020%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29623,7 +29623,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beef%20Bone%20In%20(Net%20Weight%20%C2%B1%2025%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Beef%20Bone%20In%20(Net%20Weight%20%C2%B1%2025%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29704,7 +29704,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29785,7 +29785,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beef%20Brain%20(Mogoz)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Beef%20Brain%20(Mogoz)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29866,7 +29866,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golden%20Harvest%20Beef%20Shatkora%20Bhuna%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Golden%20Harvest%20Beef%20Shatkora%20Bhuna%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -29947,7 +29947,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Quality%20Beef%20Classic%20Sausage%20280%20gm",
+        "url": "https://cartup.com/search?keyword=Quality%20Beef%20Classic%20Sausage%20280%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30028,7 +30028,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bengal%20Meat%20Beef%20Keema%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Bengal%20Meat%20Beef%20Keema%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30109,7 +30109,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳21 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beef%20Liver%20(Kolija)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Beef%20Liver%20(Kolija)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30190,7 +30190,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
+        "url": "https://cartup.com/search?keyword=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30271,7 +30271,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳30 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mutton%20Paya%2010%20pcs",
+        "url": "https://cartup.com/search?keyword=Mutton%20Paya%2010%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30352,7 +30352,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳69 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mutton%20Brain%20(Mogoz)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Mutton%20Brain%20(Mogoz)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30433,7 +30433,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mutton%20Head%20Meat%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Mutton%20Head%20Meat%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30514,7 +30514,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳11 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mutton%20Bone%20in%20(Khashi)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Mutton%20Bone%20in%20(Khashi)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30595,7 +30595,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30676,7 +30676,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳15 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mutton%20Paya%205%20pcs",
+        "url": "https://cartup.com/search?keyword=Mutton%20Paya%205%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30757,7 +30757,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30838,7 +30838,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Quail%20Meat%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Quail%20Meat%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -30919,7 +30919,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳72 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31000,7 +31000,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=SDI%20Anti%20Cutter%20Knife%20Blade%20Small%2010%20pcs",
+        "url": "https://cartup.com/search?keyword=SDI%20Anti%20Cutter%20Knife%20Blade%20Small%2010%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31081,7 +31081,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deli%20Anti%20Cutter%20(Yellow)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Deli%20Anti%20Cutter%20(Yellow)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31162,7 +31162,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳15 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deli%20Anti%20Cutter%20(Blue)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Deli%20Anti%20Cutter%20(Blue)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31243,7 +31243,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deli%20Cutting%20Knife%20Silver%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Deli%20Cutting%20Knife%20Silver%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31324,7 +31324,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=RFL%20Good%20Luck%20Anti%20Cutter%20Eco%201%20pcs",
+        "url": "https://cartup.com/search?keyword=RFL%20Good%20Luck%20Anti%20Cutter%20Eco%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31405,7 +31405,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deli%20Anti%20Cutter%20(E2091)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Deli%20Anti%20Cutter%20(E2091)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31486,7 +31486,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳21 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deli%20Anti%20Cutter%20(E2041)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Deli%20Anti%20Cutter%20(E2041)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31567,7 +31567,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deli%20Cutter%20(E2056)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Deli%20Cutter%20(E2056)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31648,7 +31648,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳8 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deli%20Anti%20Cutter%20Knife%20Blade%20Small%2010%20pcs",
+        "url": "https://cartup.com/search?keyword=Deli%20Anti%20Cutter%20Knife%20Blade%20Small%2010%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31729,7 +31729,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deli%20Stainless%20Steel%20Multi%20Purpose%20Scissors%207%20Inch%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Deli%20Stainless%20Steel%20Multi%20Purpose%20Scissors%207%20Inch%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31810,7 +31810,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Catla%20Fish%20After%20Cutting%20%C2%B170%20gm%201.5%20kg",
+        "url": "https://cartup.com/search?keyword=Catla%20Fish%20After%20Cutting%20%C2%B170%20gm%201.5%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31891,7 +31891,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -31972,7 +31972,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "url": "https://cartup.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32053,7 +32053,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "url": "https://cartup.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32134,7 +32134,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32215,7 +32215,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32296,7 +32296,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32377,7 +32377,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kazi%20Farms%20Kitchen%20Kechki%20Dried%20Fish%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Kazi%20Farms%20Kitchen%20Kechki%20Dried%20Fish%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32458,7 +32458,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kazi%20Farms%20Kitchen%20Churi%20Dried%20Fish%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Kazi%20Farms%20Kitchen%20Churi%20Dried%20Fish%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32539,7 +32539,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32620,7 +32620,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳15 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Whole%20Hilsha%20Fish%20(Asto%20Ilish)%20%C2%B140%20gm%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Whole%20Hilsha%20Fish%20(Asto%20Ilish)%20%C2%B140%20gm%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32701,7 +32701,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳51 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Whole%20Hilsha%20Fish%20(Asto%20Ilish)%20%C2%B150%20gm%20600%20gm",
+        "url": "https://cartup.com/search?keyword=Whole%20Hilsha%20Fish%20(Asto%20Ilish)%20%C2%B150%20gm%20600%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32782,7 +32782,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pangas%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Pangas%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32863,7 +32863,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Globe%20Telapia%20Fish%20Processed%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Globe%20Telapia%20Fish%20Processed%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -32944,7 +32944,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Gura%20Chingri%20(Shrimp)%20%C2%B115%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Gura%20Chingri%20(Shrimp)%20%C2%B115%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33025,7 +33025,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Balachaw%20(Dry%20Prawn%20Chutney)%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Balachaw%20(Dry%20Prawn%20Chutney)%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33106,7 +33106,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳12 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33187,7 +33187,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳30 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bagda%20Chingri%20(Shrimp)%2025-30%20pcs%20%C2%B130%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Bagda%20Chingri%20(Shrimp)%2025-30%20pcs%20%C2%B130%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33268,7 +33268,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golda%20Chingri%20(Shrimp)%2018-22%20pcs%20%C2%B130%20gm%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Golda%20Chingri%20(Shrimp)%2018-22%20pcs%20%C2%B130%20gm%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33349,7 +33349,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shutkiz%20Chatgaiya%20Chingri%20Balachao%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Shutkiz%20Chatgaiya%20Chingri%20Balachao%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33430,7 +33430,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shutkiz%20Chatgaiya%20Chingri%20Balachao%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Shutkiz%20Chatgaiya%20Chingri%20Balachao%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33511,7 +33511,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Moochie%20With%20Prawn%20(Hairball%20Care)%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Moochie%20With%20Prawn%20(Hairball%20Care)%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33592,7 +33592,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmland%20Venture%20Bagda%20Chingri%20(Shrimp%20Whole)%2016-20%20pcs%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Farmland%20Venture%20Bagda%20Chingri%20(Shrimp%20Whole)%2016-20%20pcs%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33673,7 +33673,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kazi%20Farms%20Kitchen%20Spicy%20Chicken%20Nuggets%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Kazi%20Farms%20Kitchen%20Spicy%20Chicken%20Nuggets%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33754,7 +33754,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Sugar%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Sugar%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33835,7 +33835,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Starship%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?keyword=Starship%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33916,7 +33916,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Akij%20Essential%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?keyword=Akij%20Essential%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -33997,7 +33997,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Loose%20White%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?keyword=Loose%20White%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34078,7 +34078,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Sugar%20Sachet%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Sugar%20Sachet%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34159,7 +34159,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳18 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sis%20White%20Icing%20Sugar%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Sis%20White%20Icing%20Sugar%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34240,7 +34240,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "url": "https://cartup.com/search?keyword=Akij%20Essential%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34321,7 +34321,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34402,7 +34402,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=AJI-NO-MOTO%20Monosodium%20Glutamate%2040%20gm",
+        "url": "https://cartup.com/search?keyword=AJI-NO-MOTO%20Monosodium%20Glutamate%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34483,7 +34483,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Saad%20Bit%20Salt%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Saad%20Bit%20Salt%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34564,7 +34564,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=O'Natural%20Brown%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?keyword=O'Natural%20Brown%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34645,7 +34645,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34726,7 +34726,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
+        "url": "https://cartup.com/search?keyword=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34807,7 +34807,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?keyword=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34888,7 +34888,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -34969,7 +34969,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35050,7 +35050,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Iodized%20Salt%201%20kg",
+        "url": "https://cartup.com/search?keyword=Pran%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35131,7 +35131,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35212,7 +35212,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Saad%20Tasting%20Salt%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Saad%20Tasting%20Salt%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35293,7 +35293,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Bet%20Salt%2080%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Bet%20Salt%2080%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35374,7 +35374,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Himalayan%20Pink%20Salt%20110%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Himalayan%20Pink%20Salt%20110%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35455,7 +35455,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Super%20(Vacuum)%20Salt%201%20kg",
+        "url": "https://cartup.com/search?keyword=Fresh%20Super%20(Vacuum)%20Salt%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35536,7 +35536,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Super%20Salt%20750%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Super%20Salt%20750%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35617,7 +35617,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Molla%20Super%20Salt%201%20kg",
+        "url": "https://cartup.com/search?keyword=Molla%20Super%20Salt%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35698,7 +35698,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35779,7 +35779,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35860,7 +35860,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳7 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -35941,7 +35941,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36022,7 +36022,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36103,7 +36103,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36184,7 +36184,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36265,7 +36265,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36346,7 +36346,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Prome%20Orange%20Powder%20Drink%20()%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Prome%20Orange%20Powder%20Drink%20()%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36427,7 +36427,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Prome%20Mango%20Powder%20Drink%20()%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Prome%20Mango%20Powder%20Drink%20()%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36508,7 +36508,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36589,7 +36589,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36670,7 +36670,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36751,7 +36751,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Halim%20Meat%20(Beef)%20%C2%B1%2020%20gm%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Halim%20Meat%20(Beef)%20%C2%B1%2020%20gm%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36832,7 +36832,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Beef%20Head%20Meat%201%20kg",
+        "url": "https://cartup.com/search?keyword=Beef%20Head%20Meat%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36913,7 +36913,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Buffalo%20Meat%20(Mohisher%20Mangsho)%201%20kg",
+        "url": "https://cartup.com/search?keyword=Buffalo%20Meat%20(Mohisher%20Mangsho)%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -36994,7 +36994,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bengal%20Meat%20Beef%20Rib%20Eye%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Bengal%20Meat%20Beef%20Rib%20Eye%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37075,7 +37075,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳11 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "url": "https://cartup.com/search?keyword=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37156,7 +37156,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Biryani%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Biryani%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37237,7 +37237,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37318,7 +37318,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37399,7 +37399,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Garam%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Garam%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37480,7 +37480,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Chotpoti%20Masala%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Chotpoti%20Masala%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37561,7 +37561,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Roast%20Masala%2035%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Roast%20Masala%2035%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37642,7 +37642,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Garam%20Masala%2015%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Garam%20Masala%2015%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37723,7 +37723,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Tehari%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Tehari%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37804,7 +37804,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Chicken%20Masala%2020%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Chicken%20Masala%2020%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37885,7 +37885,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Kala%20Bhuna%20Masala%2080%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Kala%20Bhuna%20Masala%2080%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -37966,7 +37966,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Duck%20Curry%20Masala%2033%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Duck%20Curry%20Masala%2033%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38047,7 +38047,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Garam%20Masala%2050%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Garam%20Masala%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38128,7 +38128,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20()%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20()%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38209,7 +38209,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Green%20Cardamom%20(Sobuj%20Elachi)%20Whole%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Green%20Cardamom%20(Sobuj%20Elachi)%20Whole%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38290,7 +38290,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Green%20Cardamom%20(Sobuj%20Elachi)%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Green%20Cardamom%20(Sobuj%20Elachi)%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38371,7 +38371,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cardamom%20(Elachi)%20Whole%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Cardamom%20(Elachi)%20Whole%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38452,7 +38452,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cardamom%20(Elachi)%20Whole%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Cardamom%20(Elachi)%20Whole%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38533,7 +38533,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Black%20Cardamom%20(Kalo%20Elachi)%20Whole%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Black%20Cardamom%20(Kalo%20Elachi)%20Whole%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38614,7 +38614,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golden%20Grain%20Cardamom%20(Elachi)%20Whole%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Golden%20Grain%20Cardamom%20(Elachi)%20Whole%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38695,7 +38695,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Black%20Cardamom%20(Kalo%20Elachi)%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Black%20Cardamom%20(Kalo%20Elachi)%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38776,7 +38776,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zamzam%20Cardamom%20(Elachi)%20Powder%2030%20gm",
+        "url": "https://cartup.com/search?keyword=Zamzam%20Cardamom%20(Elachi)%20Powder%2030%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38857,7 +38857,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=My%20Organic%20BD%20Black%20Cardamom%20(Kalo%20Elachi)%20Whole%20100%20gm",
+        "url": "https://cartup.com/search?keyword=My%20Organic%20BD%20Black%20Cardamom%20(Kalo%20Elachi)%20Whole%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -38938,7 +38938,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Emon%20Cardamom%20(Elachi)%20Powder%2010%20gm",
+        "url": "https://cartup.com/search?keyword=Emon%20Cardamom%20(Elachi)%20Powder%2010%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39019,7 +39019,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cinnamon%20(Daruchini)%20Whole%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Cinnamon%20(Daruchini)%20Whole%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39100,7 +39100,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golden%20Grain%20Cinnamon%20(Daruchini)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Golden%20Grain%20Cinnamon%20(Daruchini)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39181,7 +39181,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rongdhonu%20Cinnamon%20Powder%20(Daruchini)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Rongdhonu%20Cinnamon%20Powder%20(Daruchini)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39262,7 +39262,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Cinnamon%20(Daruchini)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Cinnamon%20(Daruchini)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39343,7 +39343,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Cinnamon%20(Daruchini)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Cinnamon%20(Daruchini)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39424,7 +39424,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmroots%20Cinnamon%20(Daruchini)%20Whole%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Farmroots%20Cinnamon%20(Daruchini)%20Whole%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39505,7 +39505,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dilmah%20Ceylon%20Green%20Tea%20With%20Ceylon%20Cinnamon%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Dilmah%20Ceylon%20Green%20Tea%20With%20Ceylon%20Cinnamon%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39586,7 +39586,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Clove%20(Lobongo)%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Clove%20(Lobongo)%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39667,7 +39667,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golden%20Grain%20Clove%20(Lobongo)%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Golden%20Grain%20Clove%20(Lobongo)%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39748,7 +39748,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Cloves%20(Lobongo)%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Cloves%20(Lobongo)%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39829,7 +39829,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=My%20Organic%20BD%20Clove%20(Lobongo)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?keyword=My%20Organic%20BD%20Clove%20(Lobongo)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39910,7 +39910,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Clove%20(Lobongo)%20Powder%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Clove%20(Lobongo)%20Powder%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -39991,7 +39991,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Emon%20Cloves%20(Lobongo)%20Powder%2010%20gm",
+        "url": "https://cartup.com/search?keyword=Emon%20Cloves%20(Lobongo)%20Powder%2010%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40072,7 +40072,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Clove%20(Lobongo)%20Powder%2020%20gm",
+        "url": "https://cartup.com/search?keyword=Clove%20(Lobongo)%20Powder%2020%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40153,7 +40153,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Black%20Pepper%20(Gol%20Morich)%20Whole%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Black%20Pepper%20(Gol%20Morich)%20Whole%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40234,7 +40234,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golden%20Grain%20Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Golden%20Grain%20Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40315,7 +40315,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40396,7 +40396,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=My%20Organic%20BD%20Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm",
+        "url": "https://cartup.com/search?keyword=My%20Organic%20BD%20Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40477,7 +40477,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anchor%20Black%20Pepper%20(Gol%20Morich)%20Powder%2030%20gm",
+        "url": "https://cartup.com/search?keyword=Anchor%20Black%20Pepper%20(Gol%20Morich)%20Powder%2030%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40558,7 +40558,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Black%20Pepper%20(Gol%20Morich)%20Powder%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Black%20Pepper%20(Gol%20Morich)%20Powder%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40639,7 +40639,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ahmed%20Black%20Pepper%20(Gol%20Morich)%20Powder%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Ahmed%20Black%20Pepper%20(Gol%20Morich)%20Powder%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40720,7 +40720,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Black%20Pepper%20(Gol%20Morich)%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Black%20Pepper%20(Gol%20Morich)%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40801,7 +40801,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmroots%20Black%20Pepper%20(Gol%20Morich)%20Whole%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Farmroots%20Black%20Pepper%20(Gol%20Morich)%20Whole%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40882,7 +40882,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golden%20Grain%20Bay%20Leaf%20(Tejpata)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Golden%20Grain%20Bay%20Leaf%20(Tejpata)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -40963,7 +40963,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Bay%20Leaves%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Farmer's%20Gold%20Bay%20Leaves%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41044,7 +41044,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bay%20Leaf%20(Tejpata)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Bay%20Leaf%20(Tejpata)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41125,7 +41125,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Panch%20Phoron%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Panch%20Phoron%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41206,7 +41206,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Panch%20Phoron%20Powder%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Panch%20Phoron%20Powder%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41287,7 +41287,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Panch%20Phoran%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Panch%20Phoran%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41368,7 +41368,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Panchforan%2050%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Panchforan%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41449,7 +41449,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savory%20Panch%20Phoran%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Savory%20Panch%20Phoran%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41530,7 +41530,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Radhuni%20Mustard%20Oil%20(Free%20Panchforan%2050%20gm)%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Radhuni%20Mustard%20Oil%20(Free%20Panchforan%2050%20gm)%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41611,7 +41611,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golden%20Grain%20Mustard%20Seed%20(Yellow)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Golden%20Grain%20Mustard%20Seed%20(Yellow)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41692,7 +41692,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Golden%20Grain%20Mustard%20Seed%20(Red)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Golden%20Grain%20Mustard%20Seed%20(Red)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41773,7 +41773,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Mustard%20Seed%20(Red)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Mustard%20Seed%20(Red)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41854,7 +41854,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Mustard%20Seed%20(Yellow)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Mustard%20Seed%20(Yellow)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -41935,7 +41935,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zamzam%20Mustard%20Seed%20(Yellow)%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Zamzam%20Mustard%20Seed%20(Yellow)%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42016,7 +42016,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zamzam%20Mustard%20Seed%20(Red)%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Zamzam%20Mustard%20Seed%20(Red)%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42097,7 +42097,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mustard%20Seed%20(Yellow)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Mustard%20Seed%20(Yellow)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42178,7 +42178,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mustard%20Seed%20(Red)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Mustard%20Seed%20(Red)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42259,7 +42259,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42340,7 +42340,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42421,7 +42421,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42502,7 +42502,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
+        "url": "https://cartup.com/search?keyword=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42583,7 +42583,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42664,7 +42664,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42745,7 +42745,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42826,7 +42826,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42907,7 +42907,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Milk%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Marks%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -42988,7 +42988,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Active%20School%202%20in%201%20Chocolate%20Milk%20Powder%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Marks%20Active%20School%202%20in%201%20Chocolate%20Milk%20Powder%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43069,7 +43069,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43150,7 +43150,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43231,7 +43231,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Danish%20Condensed%20Filled%20Milk%20397%20gm",
+        "url": "https://cartup.com/search?keyword=Danish%20Condensed%20Filled%20Milk%20397%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43312,7 +43312,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Starship%20Condensed%20Milk%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Starship%20Condensed%20Milk%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43393,7 +43393,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Puck%20Sterilized%20Cream%20160%20gm",
+        "url": "https://cartup.com/search?keyword=Puck%20Sterilized%20Cream%20160%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43474,7 +43474,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=No%201.%20Condensed%20Milk%20400%20gm",
+        "url": "https://cartup.com/search?keyword=No%201.%20Condensed%20Milk%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43555,7 +43555,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Melody%20Cream%20With%20Vegetable%20Fat%20170%20gm",
+        "url": "https://cartup.com/search?keyword=Melody%20Cream%20With%20Vegetable%20Fat%20170%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43636,7 +43636,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Cream%20179%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Cream%20179%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43717,7 +43717,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anchor%20Cooking%20Cream%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Anchor%20Cooking%20Cream%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43798,7 +43798,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anchor%20Whipping%20Cream%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Anchor%20Whipping%20Cream%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43879,7 +43879,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Active%20School%20Milk%20Powder%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Marks%20Active%20School%20Milk%20Powder%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -43960,7 +43960,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Young%20Star%20(16-40%20years)%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Marks%20Young%20Star%20(16-40%20years)%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44041,7 +44041,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Starship%20Full%20Cream%20Milk%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Starship%20Full%20Cream%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44122,7 +44122,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dano%20Delight%20Full%20Cream%20Milk%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Dano%20Delight%20Full%20Cream%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44203,7 +44203,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dano%20Power%20Full%20Cream%20Milk%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Dano%20Power%20Full%20Cream%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44284,7 +44284,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Full%20Cream%20Milk%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Full%20Cream%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44365,7 +44365,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Goalini%20Full%20Cream%20Milk%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Goalini%20Full%20Cream%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44446,7 +44446,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44527,7 +44527,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44608,7 +44608,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44689,7 +44689,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "url": "https://cartup.com/search?keyword=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44770,7 +44770,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44851,7 +44851,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -44932,7 +44932,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45013,7 +45013,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45094,7 +45094,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20UHT%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20UHT%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45175,7 +45175,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20UHT%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Pran%20UHT%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45256,7 +45256,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20UHT%20Milk%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Pran%20UHT%20Milk%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45337,7 +45337,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20UHT%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Pran%20UHT%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45418,7 +45418,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farm%20Fresh%20Pasteurized%20Standardized%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Farm%20Fresh%20Pasteurized%20Standardized%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45499,7 +45499,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farm%20Fresh%20UHT%20Milk%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Farm%20Fresh%20UHT%20Milk%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45580,7 +45580,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farm%20Fresh%20Pasteurized%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Farm%20Fresh%20Pasteurized%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45661,7 +45661,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farm%20Fresh%20Elachi%20Flavoured%20UHT%20Milk%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Farm%20Fresh%20Elachi%20Flavoured%20UHT%20Milk%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45742,7 +45742,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farm%20Fresh%20UHT%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Farm%20Fresh%20UHT%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45823,7 +45823,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Active%20School%20Strawberry%20Ice%20Cream%20Flavour%20Milk%20Shake%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Marks%20Active%20School%20Strawberry%20Ice%20Cream%20Flavour%20Milk%20Shake%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45904,7 +45904,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Active%20School%20Belgian%20Chocolate%20Flavour%20Milk%20Shake%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Marks%20Active%20School%20Belgian%20Chocolate%20Flavour%20Milk%20Shake%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -45985,7 +45985,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Marks%20Active%20School%20Cookie%20%26%20Cream%20Flavour%20Milk%20Shake%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Marks%20Active%20School%20Cookie%20%26%20Cream%20Flavour%20Milk%20Shake%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46066,7 +46066,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Amul%20Butter%20Unsalted%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Amul%20Butter%20Unsalted%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46147,7 +46147,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Amul%20Butter%20Salted%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Amul%20Butter%20Salted%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46228,7 +46228,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lurpak%20Butter%20Salted%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Lurpak%20Butter%20Salted%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46309,7 +46309,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lurpak%20Butter%20Unsalted%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Lurpak%20Butter%20Unsalted%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46390,7 +46390,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Butter%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Butter%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46471,7 +46471,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anchor%20Unsalted%20Butter%20227%20gm",
+        "url": "https://cartup.com/search?keyword=Anchor%20Unsalted%20Butter%20227%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46552,7 +46552,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anchor%20Salted%20Butter%20227%20gm",
+        "url": "https://cartup.com/search?keyword=Anchor%20Salted%20Butter%20227%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46633,7 +46633,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lurpak%20Salted%20Spreadable%20Butter%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Lurpak%20Salted%20Spreadable%20Butter%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46714,7 +46714,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Milk%20Vita%20Butter%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Milk%20Vita%20Butter%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46795,7 +46795,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Butter%20(Fresco%20Container)%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Butter%20(Fresco%20Container)%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46876,7 +46876,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ultra%20Butter%20Pasteurized%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Ultra%20Butter%20Pasteurized%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -46957,7 +46957,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Amul%20Choco%20Buttery%20Spread%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Amul%20Choco%20Buttery%20Spread%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47038,7 +47038,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Amul%20Butter%20Blister%2010%20pcs",
+        "url": "https://cartup.com/search?keyword=Amul%20Butter%20Blister%2010%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47119,7 +47119,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vivo%20Ambient%20Whip%20Topping%20with%20Vegetable%20Fat%201100%20gm",
+        "url": "https://cartup.com/search?keyword=Vivo%20Ambient%20Whip%20Topping%20with%20Vegetable%20Fat%201100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47200,7 +47200,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Philadelphia%20Cream%20Cheese%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Philadelphia%20Cream%20Cheese%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47281,7 +47281,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Puck%20Cream%20Cheese%20Spread%20140%20gm",
+        "url": "https://cartup.com/search?keyword=Puck%20Cream%20Cheese%20Spread%20140%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47362,7 +47362,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Anchor%20White%20Cheddar%20Block%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Anchor%20White%20Cheddar%20Block%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47443,7 +47443,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47524,7 +47524,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47605,7 +47605,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Almarai%20Cream%20Cheese%20108%20gm",
+        "url": "https://cartup.com/search?keyword=Almarai%20Cream%20Cheese%20108%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47686,7 +47686,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ultra%20Mozzarella%20Cheese%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Ultra%20Mozzarella%20Cheese%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47767,7 +47767,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Arla%20Burger%20Slice%20Cheddar%20Cheese%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Arla%20Burger%20Slice%20Cheddar%20Cheese%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47848,7 +47848,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Almarai%20Halloumi%20Cheese%20225%20gm",
+        "url": "https://cartup.com/search?keyword=Almarai%20Halloumi%20Cheese%20225%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -47929,7 +47929,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Grand'Or%20Danish%20Blue%20Cheese%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Grand'Or%20Danish%20Blue%20Cheese%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48010,7 +48010,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shokti%2B%20Mishti%20Doi%2075%20gm",
+        "url": "https://cartup.com/search?keyword=Shokti%2B%20Mishti%20Doi%2075%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48091,7 +48091,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Milk%20Vita%20Sour%20Curd%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Milk%20Vita%20Sour%20Curd%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48172,7 +48172,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ultra%20Sour%20Curd%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ultra%20Sour%20Curd%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48253,7 +48253,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Sour%20Curd%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Aarong%20Dairy%20Sour%20Curd%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48334,7 +48334,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shokti%2B%20Butter%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Shokti%2B%20Butter%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48415,7 +48415,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Leaf%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20Leaf%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48496,7 +48496,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Leaf%20Tea%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20Leaf%20Tea%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48577,7 +48577,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Leaf%20Tea%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20Leaf%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48658,7 +48658,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Leaf%20Tea%20()%20350%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20Leaf%20Tea%20()%20350%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48739,7 +48739,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Leaf%20Tea%20(Free%20Ispahani%20Toast%20250%20gm)%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20Leaf%20Tea%20(Free%20Ispahani%20Toast%20250%20gm)%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48820,7 +48820,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48901,7 +48901,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Leaf%20Tea%20400%20gm%20(Free%20Ispahani%20Toast%20250%20gm)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20Leaf%20Tea%20400%20gm%20(Free%20Ispahani%20Toast%20250%20gm)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -48982,7 +48982,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Tea%2050%20pcs",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20Tea%2050%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49063,7 +49063,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Blender's%20Choice%20Green%20Tea%20(Loose%20Leaf)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Blender's%20Choice%20Green%20Tea%20(Loose%20Leaf)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49144,7 +49144,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20PD%20Tea%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Mirzapore%20PD%20Tea%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49225,7 +49225,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49306,7 +49306,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49387,7 +49387,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dr.%20H%26H%20Zeera%20Black%20Tea%2030%20pcs%2060%20gm",
+        "url": "https://cartup.com/search?keyword=Dr.%20H%26H%20Zeera%20Black%20Tea%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49468,7 +49468,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dr.%20H%26H%20Mint%20Black%20Tea%2030%20pcs%2060%20gm",
+        "url": "https://cartup.com/search?keyword=Dr.%20H%26H%20Mint%20Black%20Tea%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49549,7 +49549,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Black%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49630,7 +49630,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Halda%20Valley%20Black%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Halda%20Valley%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49711,7 +49711,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Halda%20Valley%20Golden%20Eyebrow%20Black%20Tea%2045%20gm",
+        "url": "https://cartup.com/search?keyword=Halda%20Valley%20Golden%20Eyebrow%20Black%20Tea%2045%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49792,7 +49792,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳14 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dr.%20H%26H%20Black%20Tea%20With%20Honey%20Tea%2030%20pcs%2060%20gm",
+        "url": "https://cartup.com/search?keyword=Dr.%20H%26H%20Black%20Tea%20With%20Honey%20Tea%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49873,7 +49873,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Halda%20Valley%20Golden%20Eyebrow%20Black%20Tea%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Halda%20Valley%20Golden%20Eyebrow%20Black%20Tea%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -49954,7 +49954,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Blender's%20Choice%20Black%20Tea%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Blender's%20Choice%20Black%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50035,7 +50035,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20Gold%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Finlay%20Gold%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50116,7 +50116,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Finlay%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50197,7 +50197,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20Masala%20Cha%20Tea%20Bags%2025%20pcs%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Finlay%20Masala%20Cha%20Tea%20Bags%2025%20pcs%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50278,7 +50278,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20Shinrai%20Japanese%20Green%20Tea%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Finlay%20Shinrai%20Japanese%20Green%20Tea%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50359,7 +50359,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20Gold%20Tea%2050%20pcs%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Finlay%20Gold%20Tea%2050%20pcs%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50440,7 +50440,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20Natural%20Green%20Tea%20Bags%2025%20pcs%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Finlay%20Natural%20Green%20Tea%20Bags%2025%20pcs%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50521,7 +50521,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tetley%20Green%20Tea%20and%2025%20pcs%2032.5%20gm",
+        "url": "https://cartup.com/search?keyword=Tetley%20Green%20Tea%20and%2025%20pcs%2032.5%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50602,7 +50602,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20Gold%20Tea%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Finlay%20Gold%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50683,7 +50683,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Finlay%20Tea%20(Free%20Container)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Finlay%20Tea%20(Free%20Container)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50764,7 +50764,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2045%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2045%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50845,7 +50845,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2090%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2090%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -50926,7 +50926,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20180%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20180%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51007,7 +51007,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2024%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2024%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51088,7 +51088,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20()%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20()%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51169,7 +51169,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51250,7 +51250,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Free%20Coffee%20Shaker)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Free%20Coffee%20Shaker)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51331,7 +51331,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bru%20Instant%20Coffee%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Bru%20Instant%20Coffee%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51412,7 +51412,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Coffee%203%20in%201%2015%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Coffee%203%20in%201%2015%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51493,7 +51493,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=AMA%20Coffee%203%20In%201%2015%20gm",
+        "url": "https://cartup.com/search?keyword=AMA%20Coffee%203%20In%201%2015%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51574,7 +51574,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51655,7 +51655,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51736,7 +51736,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳30 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Horlicks%20Hot%20Malty%20Goodness%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Horlicks%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51817,7 +51817,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Jet%20Classic%20Detergent%20Powder%20Paper%201%20kg",
+        "url": "https://cartup.com/search?keyword=Jet%20Classic%20Detergent%20Powder%20Paper%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51898,7 +51898,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pureit%20Classic%20Microfibre%20Mesh%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Pureit%20Classic%20Microfibre%20Mesh%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -51979,7 +51979,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pureit%20Classic%20Germ%20Kill%20Kit%201500%20ltr",
+        "url": "https://cartup.com/search?keyword=Pureit%20Classic%20Germ%20Kill%20Kit%201500%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52060,7 +52060,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Jet%20Classic%20Detergent%20Powder%20Paper%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Jet%20Classic%20Detergent%20Powder%20Paper%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52141,7 +52141,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%20Dairy%20Milk%20Chocolate%20Bar%2012%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%20Dairy%20Milk%20Chocolate%20Bar%2012%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52222,7 +52222,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%205%20Star%20Chocolate%20Bar%2021%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%205%20Star%20Chocolate%20Bar%2021%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52303,7 +52303,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%20Dairy%20Milk%20Chocolate%206.6%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%20Dairy%20Milk%20Chocolate%206.6%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52384,7 +52384,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%205%20Star%20Oreo%20Chocolate%20Bar%2042%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%205%20Star%20Oreo%20Chocolate%20Bar%2042%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52465,7 +52465,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%20Dairy%20Milk%20Crispello%20Chocolate%20Bar%2013%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%20Dairy%20Milk%20Crispello%20Chocolate%20Bar%2013%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52546,7 +52546,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%20Dairy%20Milk%20Silk%20Plain%20Chocolate%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%20Dairy%20Milk%20Silk%20Plain%20Chocolate%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52627,7 +52627,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Haque%20Nic%20Nac%20Chocolate%20Wafer%2018%20gm",
+        "url": "https://cartup.com/search?keyword=Haque%20Nic%20Nac%20Chocolate%20Wafer%2018%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52708,7 +52708,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%20Dairy%20Milk%20Silk%20Mousse%20Chocolate%20Bar%20116%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%20Dairy%20Milk%20Silk%20Mousse%20Chocolate%20Bar%20116%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52789,7 +52789,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%20Dairy%20Milk%20Silk%20Roast%20Almond%20Chocolate%20Bar%20143%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%20Dairy%20Milk%20Silk%20Roast%20Almond%20Chocolate%20Bar%20143%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52870,7 +52870,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bluebell%20Dark%20Compound%20Baking%20Chocolate%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Bluebell%20Dark%20Compound%20Baking%20Chocolate%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -52951,7 +52951,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20750%20gm",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20750%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53032,7 +53032,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53113,7 +53113,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53194,7 +53194,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%201.5%20kg",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%201.5%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53275,7 +53275,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%202%20kg",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53356,7 +53356,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53437,7 +53437,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53518,7 +53518,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Mango)%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Mango)%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53599,7 +53599,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Mango%20Instant%20Drink%20Powder%20(Free%20Juice%20Shaker%20)%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Dekko%20Fruit%20Funda%20Mango%20Instant%20Drink%20Powder%20(Free%20Juice%20Shaker%20)%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53680,7 +53680,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳7 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Mango%20Instant%20Drink%20Powder%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Dekko%20Fruit%20Funda%20Mango%20Instant%20Drink%20Powder%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53761,7 +53761,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fruitex%20Soft%20Drink%20Powder%20Mango%208%20gm%2036%20pcs",
+        "url": "https://cartup.com/search?keyword=Fruitex%20Soft%20Drink%20Powder%20Mango%208%20gm%2036%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53842,7 +53842,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shezan%20Mango%20Fruit%20Drinks%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Shezan%20Mango%20Fruit%20Drinks%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -53923,7 +53923,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shezan%20Smart%20Mango%20Drinks%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Shezan%20Smart%20Mango%20Drinks%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54004,7 +54004,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Frutika%20Mango%20Drinks%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Frutika%20Mango%20Drinks%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54085,7 +54085,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Frooto%20Mango%20Fruit%20Drink%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Pran%20Frooto%20Mango%20Fruit%20Drink%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54166,7 +54166,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Frutika%20Mango%20Juice%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Frutika%20Mango%20Juice%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54247,7 +54247,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Shezan%20Mango%20Fruit%20Drink%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Shezan%20Mango%20Fruit%20Drink%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54328,7 +54328,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Malee%20100%25%20Mango%20%26%20Mixed%20Fruit%20Juice%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Malee%20100%25%20Mango%20%26%20Mixed%20Fruit%20Juice%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54409,7 +54409,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.%20Shammi%20Mango%20Juice%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Mr.%20Shammi%20Mango%20Juice%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54490,7 +54490,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.%20Shammi%20Mango%20Juice%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Mr.%20Shammi%20Mango%20Juice%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54571,7 +54571,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nutrilife%20Mango%20Juice%20160%20ml",
+        "url": "https://cartup.com/search?keyword=Nutrilife%20Mango%20Juice%20160%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54652,7 +54652,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54733,7 +54733,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%201.75%20ltr",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%201.75%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54814,7 +54814,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%20Zero%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%20Zero%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54895,7 +54895,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%20Zero%20Sugar%20(Imported)%20320%20ml",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%20Zero%20Sugar%20(Imported)%20320%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -54976,7 +54976,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳1 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%20400%20ml",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%20400%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55057,7 +55057,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%20(Free%20Kinley%20Drinking%20Water%20500%20ml)%202.25%20ltr",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%20(Free%20Kinley%20Drinking%20Water%20500%20ml)%202.25%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55138,7 +55138,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%20(Free%20Glass)%201.75%20ltr",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%20(Free%20Glass)%201.75%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55219,7 +55219,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%20Diet%20No%20Sugar%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%20Diet%20No%20Sugar%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55300,7 +55300,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coca-Cola%20Zero%20Sugar%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Coca-Cola%20Zero%20Sugar%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55381,7 +55381,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sprite%20(Free%20Glass)%201.75%20ltr",
+        "url": "https://cartup.com/search?keyword=Sprite%20(Free%20Glass)%201.75%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55462,7 +55462,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳1 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sprite%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Sprite%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55543,7 +55543,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sprite%201.75%20ltr",
+        "url": "https://cartup.com/search?keyword=Sprite%201.75%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55624,7 +55624,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lifebuoy%20Handwash%20Total%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Lifebuoy%20Handwash%20Total%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55705,7 +55705,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=SmartCare%20Baby%20and%20Accessories%20Liquid%20Wash%20500%20ml",
+        "url": "https://cartup.com/search?keyword=SmartCare%20Baby%20and%20Accessories%20Liquid%20Wash%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55786,7 +55786,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kidlon%20%26%20Nipple%20Brush%20(Blue)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Kidlon%20%26%20Nipple%20Brush%20(Blue)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55867,7 +55867,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Orkide%20Olive%20Oil%20(Glass%20)%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Orkide%20Olive%20Oil%20(Glass%20)%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -55948,7 +55948,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=7%20up%201.25%20ltr",
+        "url": "https://cartup.com/search?keyword=7%20up%201.25%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56029,7 +56029,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=7%20Up%201.75%20ltr",
+        "url": "https://cartup.com/search?keyword=7%20Up%201.75%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56110,7 +56110,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=SmartCare%20PP%20Feeder%20M%20(3%2B%20Months)%20150%20ml",
+        "url": "https://cartup.com/search?keyword=SmartCare%20PP%20Feeder%20M%20(3%2B%20Months)%20150%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56191,7 +56191,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56272,7 +56272,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56353,7 +56353,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56434,7 +56434,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56515,7 +56515,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56596,7 +56596,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56677,7 +56677,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Maggi%20Masala%20Blast)%204",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Maggi%20Masala%20Blast)%204",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56758,7 +56758,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20(Free%202%20pcs)%20620%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20(Free%202%20pcs)%20620%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56839,7 +56839,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20(Free%201%20Pcs)%20310%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20(Free%201%20Pcs)%20310%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -56920,7 +56920,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20KitKat%20Chunky%2040%20gm)%2016",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20KitKat%20Chunky%2040%20gm)%2016",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57001,7 +57001,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
+        "url": "https://cartup.com/search?keyword=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57082,7 +57082,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?keyword=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57163,7 +57163,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
+        "url": "https://cartup.com/search?keyword=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57244,7 +57244,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20(%20Free)%20496%20gm",
+        "url": "https://cartup.com/search?keyword=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20(%20Free)%20496%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57325,7 +57325,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
+        "url": "https://cartup.com/search?keyword=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57406,7 +57406,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57487,7 +57487,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57568,7 +57568,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mr.%20Noodles%20Korean%20Super%20Spicy%20496%20gm",
+        "url": "https://cartup.com/search?keyword=Mr.%20Noodles%20Korean%20Super%20Spicy%20496%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57649,7 +57649,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
+        "url": "https://cartup.com/search?keyword=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57730,7 +57730,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20496%20gm",
+        "url": "https://cartup.com/search?keyword=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20496%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57811,7 +57811,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20)%208",
+        "url": "https://cartup.com/search?keyword=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20)%208",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57892,7 +57892,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Instant%20Noodles%20Masala%20Blast%208",
+        "url": "https://cartup.com/search?keyword=Fresh%20Instant%20Noodles%20Masala%20Blast%208",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -57973,7 +57973,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%201%20pcs)%208",
+        "url": "https://cartup.com/search?keyword=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%201%20pcs)%208",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58054,7 +58054,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Doodles%20Masala%20Noodles%20(Free%20Doodles%20)%208%20pcs",
+        "url": "https://cartup.com/search?keyword=Doodles%20Masala%20Noodles%20(Free%20Doodles%20)%208%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58135,7 +58135,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Doodles%20Masala%20Noodles%20(Free%20Doodles%20)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Doodles%20Masala%20Noodles%20(Free%20Doodles%20)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58216,7 +58216,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Egg%20Noodles%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Egg%20Noodles%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58297,7 +58297,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Egg%20%26%20Chicken%20Noodles%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Egg%20%26%20Chicken%20Noodles%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58378,7 +58378,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58459,7 +58459,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58540,7 +58540,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58621,7 +58621,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ifad%20Eggy%20Super%20Masala%20Instant%20Noodles%20(Free%20Plastic%20Jhuri%201%20pcs)%20720%20gm",
+        "url": "https://cartup.com/search?keyword=Ifad%20Eggy%20Super%20Masala%20Instant%20Noodles%20(Free%20Plastic%20Jhuri%201%20pcs)%20720%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58702,7 +58702,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ifad%20Eggy%20Instant%20Masala%20Noodles%20480%20gm%20(Free%20Smart%20Bowl)%208%20pcs",
+        "url": "https://cartup.com/search?keyword=Ifad%20Eggy%20Instant%20Masala%20Noodles%20480%20gm%20(Free%20Smart%20Bowl)%208%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58783,7 +58783,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kolson%20Egg%20Noodles%20120%20gm",
+        "url": "https://cartup.com/search?keyword=Kolson%20Egg%20Noodles%20120%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58864,7 +58864,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chopstick%20Instant%20Noodles%20Masala%20Delight%20496%20gm%208",
+        "url": "https://cartup.com/search?keyword=Chopstick%20Instant%20Noodles%20Masala%20Delight%20496%20gm%208",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -58945,7 +58945,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chopstick%20Instant%20Noodles%20Masala%20Delight%20744%20gm",
+        "url": "https://cartup.com/search?keyword=Chopstick%20Instant%20Noodles%20Masala%20Delight%20744%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59026,7 +59026,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chopstick%20Instant%20Noodles%20(Free%20Radhuni%20Masala)%20248%20gm",
+        "url": "https://cartup.com/search?keyword=Chopstick%20Instant%20Noodles%20(Free%20Radhuni%20Masala)%20248%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59107,7 +59107,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20(Free%20)%20496%20gm",
+        "url": "https://cartup.com/search?keyword=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20(Free%20)%20496%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59188,7 +59188,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chopstick%20Ramen%20Hot%20Chicken%20Instant%20Noodles%208%20640%20gm",
+        "url": "https://cartup.com/search?keyword=Chopstick%20Ramen%20Hot%20Chicken%20Instant%20Noodles%208%20640%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59269,7 +59269,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chopstick%20Ramen%20Hot%20Chicken%20Instant%20Noodles%202%20160%20gm",
+        "url": "https://cartup.com/search?keyword=Chopstick%20Ramen%20Hot%20Chicken%20Instant%20Noodles%202%20160%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59350,7 +59350,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
+        "url": "https://cartup.com/search?keyword=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59431,7 +59431,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59512,7 +59512,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cadbury%20Oreo%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
+        "url": "https://cartup.com/search?keyword=Cadbury%20Oreo%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59593,7 +59593,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
+        "url": "https://cartup.com/search?keyword=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59674,7 +59674,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20420%20gm",
+        "url": "https://cartup.com/search?keyword=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20420%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59755,7 +59755,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59836,7 +59836,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Munchy's%20Lexus%20Cheese%20Cream%20Sandwich%20Cracker%20Biscuit%20225%20gm",
+        "url": "https://cartup.com/search?keyword=Munchy's%20Lexus%20Cheese%20Cream%20Sandwich%20Cracker%20Biscuit%20225%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59917,7 +59917,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "url": "https://cartup.com/search?keyword=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -59998,7 +59998,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Olympic%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?keyword=Olympic%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60079,7 +60079,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "url": "https://cartup.com/search?keyword=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60160,7 +60160,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
+        "url": "https://cartup.com/search?keyword=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60241,7 +60241,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳1 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60322,7 +60322,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60403,7 +60403,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
+        "url": "https://cartup.com/search?keyword=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60484,7 +60484,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
+        "url": "https://cartup.com/search?keyword=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60565,7 +60565,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%20(Free%20Tiffin%201%20pcs)%201000%20gm",
+        "url": "https://cartup.com/search?keyword=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%20(Free%20Tiffin%201%20pcs)%201000%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60646,7 +60646,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Horlicks%20Drink%20Chocolate%20(Free%20Milk%20Powder%2050%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Horlicks%20Drink%20Chocolate%20(Free%20Milk%20Powder%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60727,7 +60727,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nutri%2B%20Juicee%2B%20Mango%20Soft%20Drink%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Nutri%2B%20Juicee%2B%20Mango%20Soft%20Drink%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60808,7 +60808,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nutri%2B%20Juicee%2B%20Mango%20Soft%20Drink%20Powder%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Nutri%2B%20Juicee%2B%20Mango%20Soft%20Drink%20Powder%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60889,7 +60889,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Special%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -60970,7 +60970,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61051,7 +61051,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61132,7 +61132,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61213,7 +61213,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=BelleAme%20Toast%20Biscuit%20250%20gm",
+        "url": "https://cartup.com/search?keyword=BelleAme%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61294,7 +61294,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?keyword=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61375,7 +61375,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ahmed%20Toast%20Biscuits%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Ahmed%20Toast%20Biscuits%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61456,7 +61456,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ispahani%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?keyword=Ispahani%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61537,7 +61537,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ifad%20Muri%20Toast%20Butter%20Rusk%20Biscuit%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Ifad%20Muri%20Toast%20Butter%20Rusk%20Biscuit%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61618,7 +61618,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20Potata%20Spicy%20Biscuit%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20Potata%20Spicy%20Biscuit%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61699,7 +61699,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pran%20All%20Time%20Sweet%20Toast%20Biscuit%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Pran%20All%20Time%20Sweet%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61780,7 +61780,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
+        "url": "https://cartup.com/search?keyword=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61861,7 +61861,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Haque%20Milk%20Chocolate%20Digestive%20Biscuit%20137%20gm",
+        "url": "https://cartup.com/search?keyword=Haque%20Milk%20Chocolate%20Digestive%20Biscuit%20137%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -61942,7 +61942,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Butter%20Cookies%20Biscuit%20750%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Butter%20Cookies%20Biscuit%20750%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62023,7 +62023,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Olympic%20Coconut%20Plus%20Biscuits%2042%20gm",
+        "url": "https://cartup.com/search?keyword=Olympic%20Coconut%20Plus%20Biscuits%2042%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62104,7 +62104,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tiffany%20Cream%20Coconut%20Flavoured%20Biscuit%2080%20gm",
+        "url": "https://cartup.com/search?keyword=Tiffany%20Cream%20Coconut%20Flavoured%20Biscuit%2080%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62185,7 +62185,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Coconut%20Milk%20Biscuit%20Standard%2024%2060%20gm",
+        "url": "https://cartup.com/search?keyword=Coconut%20Milk%20Biscuit%20Standard%2024%2060%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62266,7 +62266,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=CBL%20Munchee%20Chocolate%20Cream%20Wafer%20Biscuits%20(Buy%201%20Get%201%20Free)%2050%20gm",
+        "url": "https://cartup.com/search?keyword=CBL%20Munchee%20Chocolate%20Cream%20Wafer%20Biscuits%20(Buy%201%20Get%201%20Free)%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62347,7 +62347,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=CBL%20Munchee%20Chocolate%20Cream%20Wafer%20Biscuits%2050%20gm",
+        "url": "https://cartup.com/search?keyword=CBL%20Munchee%20Chocolate%20Cream%20Wafer%20Biscuits%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62428,7 +62428,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Britannia%20Bourbon%20Biscuit%20(Free%20Bounce%20Cream%20Biscuit%2034%20gm)%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Britannia%20Bourbon%20Biscuit%20(Free%20Bounce%20Cream%20Biscuit%2034%20gm)%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62509,7 +62509,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tiffany%20Cream%20Chocolate%20Flavoured%20Biscuit%2080%20gm",
+        "url": "https://cartup.com/search?keyword=Tiffany%20Cream%20Chocolate%20Flavoured%20Biscuit%2080%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62590,7 +62590,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tiffany%20Sugar%20Free%20Chocolate%20Cream%20Biscuit%20162%20gm",
+        "url": "https://cartup.com/search?keyword=Tiffany%20Sugar%20Free%20Chocolate%20Cream%20Biscuit%20162%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62671,7 +62671,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Cocola%20Champion%20Chocolate%20Cream%20Biscuit%2065%20gm",
+        "url": "https://cartup.com/search?keyword=Cocola%20Champion%20Chocolate%20Cream%20Biscuit%2065%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62752,7 +62752,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Ring%20Chips%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Ring%20Chips%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62833,7 +62833,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ekata%20Ring%20Papar%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Ekata%20Ring%20Papar%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62914,7 +62914,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Pasta%20Chips%20Ring%2022%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Pasta%20Chips%20Ring%2022%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -62995,7 +62995,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pringles%20Hot%20%26%20Spicy%20Potato%20Chips%20102%20gm",
+        "url": "https://cartup.com/search?keyword=Pringles%20Hot%20%26%20Spicy%20Potato%20Chips%20102%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63076,7 +63076,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pringles%20%2B%20Sour%20Cream%20%26%20Onion%20Potato%20Chips%20combo%2042%20gm%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Pringles%20%2B%20Sour%20Cream%20%26%20Onion%20Potato%20Chips%20combo%2042%20gm%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63157,7 +63157,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pringles%20Potato%20Chips%20134%20gm",
+        "url": "https://cartup.com/search?keyword=Pringles%20Potato%20Chips%20134%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63238,7 +63238,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pringles%20Cheddar%20Cheese%20Potato%20Chips%20158%20gm",
+        "url": "https://cartup.com/search?keyword=Pringles%20Cheddar%20Cheese%20Potato%20Chips%20158%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63319,7 +63319,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sun%20Chips%20Mix%20Masala%2020%20gm",
+        "url": "https://cartup.com/search?keyword=Sun%20Chips%20Mix%20Masala%2020%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63400,7 +63400,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ifad%20Eggy%20Stix%20Bar-B-Q%20Chips%2016%20gm",
+        "url": "https://cartup.com/search?keyword=Ifad%20Eggy%20Stix%20Bar-B-Q%20Chips%2016%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63481,7 +63481,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sun%20Chips%20Tomato%20Tango%2020%20gm",
+        "url": "https://cartup.com/search?keyword=Sun%20Chips%20Tomato%20Tango%2020%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63562,7 +63562,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kurkure%20Masala%20Munch%20Chips%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Kurkure%20Masala%20Munch%20Chips%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63643,7 +63643,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kurkure%20Masala%20Munch%20Chips%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Kurkure%20Masala%20Munch%20Chips%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63724,7 +63724,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Haldiram%20Murukku%20Masala%20Munch%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Haldiram%20Murukku%20Masala%20Munch%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63805,7 +63805,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lay's%20Classic%20Salted%20Potato%20Chips%2011.5%20gm",
+        "url": "https://cartup.com/search?keyword=Lay's%20Classic%20Salted%20Potato%20Chips%2011.5%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63886,7 +63886,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lay's%20Spanish%20Tomato%20Tango%20Potato%20Chips%2012%20gm",
+        "url": "https://cartup.com/search?keyword=Lay's%20Spanish%20Tomato%20Tango%20Potato%20Chips%2012%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -63967,7 +63967,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lay's%20Classic%20Salted%20Potato%20Chips%2015%20gm",
+        "url": "https://cartup.com/search?keyword=Lay's%20Classic%20Salted%20Potato%20Chips%2015%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64048,7 +64048,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lay's%20Spanish%20Tomato%20Tango%20Potato%20Chips%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Lay's%20Spanish%20Tomato%20Tango%20Potato%20Chips%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64129,7 +64129,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lay's%20Thai%20Style%20Spicy%20Chicken%20Potato%20Chips%2011.5%20gm",
+        "url": "https://cartup.com/search?keyword=Lay's%20Thai%20Style%20Spicy%20Chicken%20Potato%20Chips%2011.5%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64210,7 +64210,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Haque%20Potato%20Chips%2018%20gm",
+        "url": "https://cartup.com/search?keyword=Haque%20Potato%20Chips%2018%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64291,7 +64291,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Bbq%20Chanachur%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Bbq%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64372,7 +64372,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Bbq%20Chanachur%2022%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Bbq%20Chanachur%2022%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64453,7 +64453,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Bbq%20Chanachur%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Bbq%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64534,7 +64534,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Bbq%20Chanachur%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Bbq%20Chanachur%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64615,7 +64615,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Jhal%20Chanachur%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Jhal%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64696,7 +64696,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Jhal%20Chanachur%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Jhal%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64777,7 +64777,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Jhal%20Chanachur%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Jhal%20Chanachur%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64858,7 +64858,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20BBQ%20Sauce%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20BBQ%20Sauce%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -64939,7 +64939,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Mix%20Chanachur%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Mix%20Chanachur%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65020,7 +65020,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ruchi%20Mix%20Chanachur%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Ruchi%20Mix%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65101,7 +65101,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Bombay%20Naga%20Jhal%20Chanachur%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Bombay%20Naga%20Jhal%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65182,7 +65182,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Bombay%20Naga%20Jhal%20Chanachur%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Bombay%20Naga%20Jhal%20Chanachur%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65263,7 +65263,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACME%20Mustard%20Oil%20(Free%20Jhal%20Chanachur%2025%20gm)%20200%20ml",
+        "url": "https://cartup.com/search?keyword=ACME%20Mustard%20Oil%20(Free%20Jhal%20Chanachur%2025%20gm)%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65344,7 +65344,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Jhal%20Chanachur%20(Buy%201%20Get%20150%20gm%20Free)%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Jhal%20Chanachur%20(Buy%201%20Get%20150%20gm%20Free)%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65425,7 +65425,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Fresh%20Jhal%20Chanachur%20270%20gm",
+        "url": "https://cartup.com/search?keyword=Fresh%20Jhal%20Chanachur%20270%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65506,7 +65506,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Haldiram%20Jhal%20Chanachur%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Haldiram%20Jhal%20Chanachur%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65587,7 +65587,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Haldiram%20Chanachur%20Tok%20Jhal%20Misti%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Haldiram%20Chanachur%20Tok%20Jhal%20Misti%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65668,7 +65668,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ahmed%20Mixed%20Fruit%20Jelly%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ahmed%20Mixed%20Fruit%20Jelly%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65749,7 +65749,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foster%20Clark's%20Jelly%20Dessert%20Strawberry%2080%20gm",
+        "url": "https://cartup.com/search?keyword=Foster%20Clark's%20Jelly%20Dessert%20Strawberry%2080%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65830,7 +65830,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ahmed%20Mixed%20Fruit%20Jam%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ahmed%20Mixed%20Fruit%20Jam%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65911,7 +65911,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Happy%20Times%20Mixed%20Fruit%20Jam%20450%20gm",
+        "url": "https://cartup.com/search?keyword=Happy%20Times%20Mixed%20Fruit%20Jam%20450%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -65992,7 +65992,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Mixed%20Fruit%20Jam%20500%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Mixed%20Fruit%20Jam%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66073,7 +66073,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q='s%20Mixed%20Fruit%20Jam%20Conserve%20450%20gm",
+        "url": "https://cartup.com/search?keyword='s%20Mixed%20Fruit%20Jam%20Conserve%20450%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66154,7 +66154,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tova%20Jam%20Mixed%20Fruit%20450%20gm",
+        "url": "https://cartup.com/search?keyword=Tova%20Jam%20Mixed%20Fruit%20450%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66235,7 +66235,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ahmed%20Orange%20Jam%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Ahmed%20Orange%20Jam%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66316,7 +66316,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bonjour%20Forest%20Fruit%20Jam%20450%20gm",
+        "url": "https://cartup.com/search?keyword=Bonjour%20Forest%20Fruit%20Jam%20450%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66397,7 +66397,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kellogg's%20Corn%20Flakes%20Breakfast%20Cereal%20250%20gm",
+        "url": "https://cartup.com/search?keyword=Kellogg's%20Corn%20Flakes%20Breakfast%20Cereal%20250%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66478,7 +66478,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kellogg's%20Corn%20Flakes%20Real%20Almond%20Honey%20Cereal%201%20kg",
+        "url": "https://cartup.com/search?keyword=Kellogg's%20Corn%20Flakes%20Real%20Almond%20Honey%20Cereal%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66559,7 +66559,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kellogg's%20Corn%20Flakes%20Cereal%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Kellogg's%20Corn%20Flakes%20Cereal%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66640,7 +66640,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kellogg's%20Corn%20Flakes%20Real%20Almond%20Honey%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Kellogg's%20Corn%20Flakes%20Real%20Almond%20Honey%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66721,7 +66721,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kellogg's%20Corn%20Flakes%20Real%20Strawberry%20Puree%20Cereal%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Kellogg's%20Corn%20Flakes%20Real%20Strawberry%20Puree%20Cereal%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66802,7 +66802,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Cerelac%204%20Apple%20Corn%20Flakes%20(12%20M%2B)%20350%20gm",
+        "url": "https://cartup.com/search?keyword=Nestle%20Cerelac%204%20Apple%20Corn%20Flakes%20(12%20M%2B)%20350%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66883,7 +66883,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Corn%20Flour%20(Loose)%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Corn%20Flour%20(Loose)%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -66964,7 +66964,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Cheese%20Ball%20Cheezee%20Corn%20Snacks%2010%20gm",
+        "url": "https://cartup.com/search?keyword=Bombay%20Sweets%20Cheese%20Ball%20Cheezee%20Corn%20Snacks%2010%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67045,7 +67045,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nestle%20Maggi%20Healthy%20Soup%20Corn%20With%20Chicken%2025%20gm%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Nestle%20Maggi%20Healthy%20Soup%20Corn%20With%20Chicken%2025%20gm%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67126,7 +67126,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chef's%20Choice%20Sweet%20Corn%20Canned%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Chef's%20Choice%20Sweet%20Corn%20Canned%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67207,7 +67207,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳60 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Quaker%20White%20Oats%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Quaker%20White%20Oats%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67288,7 +67288,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Quaker%20Oats%20Poly%20450%20gm",
+        "url": "https://cartup.com/search?keyword=Quaker%20Oats%20Poly%20450%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67369,7 +67369,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=B.%20Tech%20Expert%20Goat%20Milk%20Whitening%20Body%20Lotion%20200%20ml",
+        "url": "https://cartup.com/search?keyword=B.%20Tech%20Expert%20Goat%20Milk%20Whitening%20Body%20Lotion%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67450,7 +67450,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Quaker%20Whole%20Oats%20700%20gm",
+        "url": "https://cartup.com/search?keyword=Quaker%20Whole%20Oats%20700%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67531,7 +67531,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Herman%20White%20Oats%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Herman%20White%20Oats%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67612,7 +67612,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Quaker%20Oats%20450%20gm",
+        "url": "https://cartup.com/search?keyword=Quaker%20Oats%20450%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67693,7 +67693,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Virginia%20White%20Oats%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Virginia%20White%20Oats%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67774,7 +67774,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Foster%20Clark's%20Tiara%20White%20Oats%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Foster%20Clark's%20Tiara%20White%20Oats%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67855,7 +67855,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Quaker%20Oats%20800%20gm",
+        "url": "https://cartup.com/search?keyword=Quaker%20Oats%20800%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -67936,7 +67936,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Surf%20Excel%20Washing%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Surf%20Excel%20Washing%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68017,7 +68017,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Surf%20Excel%20Washing%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Surf%20Excel%20Washing%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68098,7 +68098,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
+        "url": "https://cartup.com/search?keyword=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68179,7 +68179,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68260,7 +68260,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
+        "url": "https://cartup.com/search?keyword=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68341,7 +68341,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
+        "url": "https://cartup.com/search?keyword=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68422,7 +68422,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "url": "https://cartup.com/search?keyword=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68503,7 +68503,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Parachute%20Naturale%20Nourishing%20Care%20Shampoo%20(5.25%20ml%20X%2012%20pcs)%2063%20ml",
+        "url": "https://cartup.com/search?keyword=Parachute%20Naturale%20Nourishing%20Care%20Shampoo%20(5.25%20ml%20X%2012%20pcs)%2063%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68584,7 +68584,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
+        "url": "https://cartup.com/search?keyword=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68665,7 +68665,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rin%20Advanced%20Detergent%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Rin%20Advanced%20Detergent%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68746,7 +68746,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68827,7 +68827,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rin%20Advanced%20Detergent%20Powder%202%20kg",
+        "url": "https://cartup.com/search?keyword=Rin%20Advanced%20Detergent%20Powder%202%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68908,7 +68908,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -68989,7 +68989,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ligion%20Neem%20Face%20Wash%2050%20ml",
+        "url": "https://cartup.com/search?keyword=Ligion%20Neem%20Face%20Wash%2050%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69070,7 +69070,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69151,7 +69151,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Garnier%20Men%20Power%20White%20Double%20Action%20Face%20Wash%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Garnier%20Men%20Power%20White%20Double%20Action%20Face%20Wash%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69232,7 +69232,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Clean%20%26%20Clear%20Morning%20Energy%20Face%20Wash%20Apple%2050%20ml",
+        "url": "https://cartup.com/search?keyword=Clean%20%26%20Clear%20Morning%20Energy%20Face%20Wash%20Apple%2050%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69313,7 +69313,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pond's%20Face%20Wash%20Bright%20Beauty%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Pond's%20Face%20Wash%20Bright%20Beauty%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69394,7 +69394,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Himalaya%20Natural%20Glow%20Saffron%20Face%20Wash%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Himalaya%20Natural%20Glow%20Saffron%20Face%20Wash%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69475,7 +69475,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20750%20ml",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20750%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69556,7 +69556,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20(Free%20Mug)%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20(Free%20Mug)%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69637,7 +69637,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69718,7 +69718,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69799,7 +69799,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20750%20ml",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20750%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69880,7 +69880,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -69961,7 +69961,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70042,7 +70042,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20750%20ml%20(Combo%20)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20750%20ml%20(Combo%20)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70123,7 +70123,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%201%20ltr%20(Combo%20)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%201%20ltr%20(Combo%20)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70204,7 +70204,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Flushmatic%20Citrus%20In-Cistern%20Toilet%20Cleaner%20Blocks%2050%20gm%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Harpic%20Flushmatic%20Citrus%20In-Cistern%20Toilet%20Cleaner%20Blocks%2050%20gm%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70285,7 +70285,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
+        "url": "https://cartup.com/search?keyword=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70366,7 +70366,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
+        "url": "https://cartup.com/search?keyword=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70447,7 +70447,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Bathroom%20Cleaning%20Liquid%20Rose%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Harpic%20Bathroom%20Cleaning%20Liquid%20Rose%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70528,7 +70528,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Bathroom%20Cleaner%20Mega%20Refill%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Harpic%20Bathroom%20Cleaner%20Mega%20Refill%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70609,7 +70609,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Flushmatic%20Lavender%20In-Cistern%20Toilet%20Cleaner%20Blocks%2050%20gm%203%20pcs",
+        "url": "https://cartup.com/search?keyword=Harpic%20Flushmatic%20Lavender%20In-Cistern%20Toilet%20Cleaner%20Blocks%2050%20gm%203%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70690,7 +70690,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Liquid%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70771,7 +70771,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20950%20ml",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Liquid%20950%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70852,7 +70852,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20475%20ml",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Liquid%20475%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -70933,7 +70933,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwash%20Liquid%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwash%20Liquid%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71014,7 +71014,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20Combo",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Liquid%20Combo",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71095,7 +71095,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20dishwashing%20Liquid%20Spout%20250%20ml",
+        "url": "https://cartup.com/search?keyword=Vim%20dishwashing%20Liquid%20Spout%20250%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71176,7 +71176,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20(Free%20Container)%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Liquid%20(Free%20Container)%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71257,7 +71257,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Bar%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71338,7 +71338,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Bar%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71419,7 +71419,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71500,7 +71500,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71581,7 +71581,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Bar%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71662,7 +71662,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71743,7 +71743,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20(Free%20Surf%20Excel%20Washing%20Powder%2035%20gm)%20300%20gm",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Bar%20(Free%20Surf%20Excel%20Washing%20Powder%2035%20gm)%20300%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71824,7 +71824,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?keyword=Vim%20Dishwashing%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71905,7 +71905,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -71986,7 +71986,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72067,7 +72067,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72148,7 +72148,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72229,7 +72229,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72310,7 +72310,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72391,7 +72391,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%20500%20ml",
+        "url": "https://cartup.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72472,7 +72472,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Toilet%20Cleaner%20750%20ml%20%26%20Lizol%20Floor%20Cleaner%20500%20ml%20(Free%20Mug)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Harpic%20Toilet%20Cleaner%20750%20ml%20%26%20Lizol%20Floor%20Cleaner%20500%20ml%20(Free%20Mug)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72553,7 +72553,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Harpic%20Toilet%20Cleaner%20750%20ml%20%26%20Lizol%20Citrus%20Floor%20Cleaner%20500%20ml%20(Combo)",
+        "url": "https://cartup.com/search?keyword=Harpic%20Toilet%20Cleaner%20750%20ml%20%26%20Lizol%20Citrus%20Floor%20Cleaner%20500%20ml%20(Combo)",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72634,7 +72634,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20Cleaner%20Citrus%202%20ltr",
+        "url": "https://cartup.com/search?keyword=Lizol%20Disinfectant%20Surface%20Cleaner%20Citrus%202%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72715,7 +72715,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ProDentalB%20Dental%20Stain%20Remover%201%20pcs",
+        "url": "https://cartup.com/search?keyword=ProDentalB%20Dental%20Stain%20Remover%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72796,7 +72796,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dishwashing%20Stainless%20Steel%20Scrubber%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Dishwashing%20Stainless%20Steel%20Scrubber%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72877,7 +72877,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Wonder%20Stainless%20Steel%20Scrubber%201%20pcs",
+        "url": "https://cartup.com/search?keyword=ACI%20Wonder%20Stainless%20Steel%20Scrubber%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -72958,7 +72958,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Veet%20Hair%20Removal%20Cream%20(Free%20Dettol%20Soap%2027%20gm)%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Veet%20Hair%20Removal%20Cream%20(Free%20Dettol%20Soap%2027%20gm)%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73039,7 +73039,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Veet%20Hair%20Removal%20Cream%20(Free%20Dettol%20Soap%2075%20gm)%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Veet%20Hair%20Removal%20Cream%20(Free%20Dettol%20Soap%2075%20gm)%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73120,7 +73120,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Farmasi%20Make%20Up%20Remover%20Sensi%20Wipes%2020%20pcs",
+        "url": "https://cartup.com/search?keyword=Farmasi%20Make%20Up%20Remover%20Sensi%20Wipes%2020%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73201,7 +73201,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Organic%20Aloe%20Vera%20%26%20Rose%20Extracts%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Organic%20Aloe%20Vera%20%26%20Rose%20Extracts%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73282,7 +73282,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Veet%20Hair%20Removal%20Cream%20With%20Organic%20Aelo%20Vera%20and%20Rose%20Extract%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Veet%20Hair%20Removal%20Cream%20With%20Organic%20Aelo%20Vera%20and%20Rose%20Extract%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73363,7 +73363,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sparkbliss%20Kitchen%20%26%20Grease%20Remover%20450%20ml",
+        "url": "https://cartup.com/search?keyword=Sparkbliss%20Kitchen%20%26%20Grease%20Remover%20450%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73444,7 +73444,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Organic%20Aloe%20Vera%20%26%20Rose%20Extracts%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Organic%20Aloe%20Vera%20%26%20Rose%20Extracts%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73525,7 +73525,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Germ%20Defence%20Soap%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Dettol%20Germ%20Defence%20Soap%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73606,7 +73606,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Bathing%20Soap%20Bar%2027%20gm",
+        "url": "https://cartup.com/search?keyword=Dettol%20Bathing%20Soap%20Bar%2027%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73687,7 +73687,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%2075%20gm",
+        "url": "https://cartup.com/search?keyword=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%2075%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73768,7 +73768,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
+        "url": "https://cartup.com/search?keyword=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73849,7 +73849,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Bathing%20Soap%20(%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Dettol%20Bathing%20Soap%20(%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -73930,7 +73930,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%2075%20gm%20(Combo%20)%203%20pcs",
+        "url": "https://cartup.com/search?keyword=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%2075%20gm%20(Combo%20)%203%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74011,7 +74011,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm",
+        "url": "https://cartup.com/search?keyword=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74092,7 +74092,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm%20(Combo%20)%204%20pcs",
+        "url": "https://cartup.com/search?keyword=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm%20(Combo%20)%204%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74173,7 +74173,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm%20(Combo%20)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm%20(Combo%20)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74254,7 +74254,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Family%20(Cool%2C%20Skincare%20%26%20)%2075%20gm%203%20pcs",
+        "url": "https://cartup.com/search?keyword=Dettol%20Soap%20Bathing%20Bar%20Family%20(Cool%2C%20Skincare%20%26%20)%2075%20gm%203%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74335,7 +74335,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74416,7 +74416,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74497,7 +74497,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74578,7 +74578,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
+        "url": "https://cartup.com/search?keyword=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74659,7 +74659,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
+        "url": "https://cartup.com/search?keyword=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74740,7 +74740,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
+        "url": "https://cartup.com/search?keyword=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74821,7 +74821,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20300%20ml",
+        "url": "https://cartup.com/search?keyword=Savlon%20Disinfectant%20Spray%20300%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74902,7 +74902,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Antiseptic%20Liquid%2056%20ml",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Antiseptic%20Liquid%2056%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -74983,7 +74983,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Fresh%20Antiseptic%20Soap%20125%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Fresh%20Antiseptic%20Soap%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75064,7 +75064,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Mild%20Antiseptic%20Soap%20125%20gm",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Mild%20Antiseptic%20Soap%20125%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75145,7 +75145,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
+        "url": "https://cartup.com/search?keyword=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75226,7 +75226,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75307,7 +75307,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
+        "url": "https://cartup.com/search?keyword=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75388,7 +75388,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
+        "url": "https://cartup.com/search?keyword=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75469,7 +75469,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
+        "url": "https://cartup.com/search?keyword=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75550,7 +75550,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
+        "url": "https://cartup.com/search?keyword=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75631,7 +75631,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Strawberry%20Jelly%206%20ml",
+        "url": "https://cartup.com/search?keyword=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Strawberry%20Jelly%206%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75712,7 +75712,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
+        "url": "https://cartup.com/search?keyword=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75793,7 +75793,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Pink%20Popsicle%206%20ml",
+        "url": "https://cartup.com/search?keyword=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Pink%20Popsicle%206%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75874,7 +75874,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Mauve%20Cheesecake%206%20ml",
+        "url": "https://cartup.com/search?keyword=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Mauve%20Cheesecake%206%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -75955,7 +75955,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76036,7 +76036,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76117,7 +76117,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76198,7 +76198,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76279,7 +76279,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76360,7 +76360,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Godrej%20No.1%20Jasmine%20Soap%20Combo%20100%20gm%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Godrej%20No.1%20Jasmine%20Soap%20Combo%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76441,7 +76441,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Protect%20Health%20Soap%20100%20gm%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Protect%20Health%20Soap%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76522,7 +76522,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lifebuoy%20Soap%20Bar%20Total%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Lifebuoy%20Soap%20Bar%20Total%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76603,7 +76603,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Meril%20Milk%20%26%20Beli%20Soap%20Bar%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Meril%20Milk%20%26%20Beli%20Soap%20Bar%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76684,7 +76684,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
+        "url": "https://cartup.com/search?keyword=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76765,7 +76765,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
+        "url": "https://cartup.com/search?keyword=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76846,7 +76846,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -76927,7 +76927,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Ligion%20Ladies%20Uptan%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Ligion%20Ladies%20Uptan%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77008,7 +77008,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
+        "url": "https://cartup.com/search?keyword=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77089,7 +77089,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Woman's%20World%20Uptan%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Woman's%20World%20Uptan%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77170,7 +77170,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77251,7 +77251,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77332,7 +77332,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77413,7 +77413,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20)%20190%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20)%20190%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77494,7 +77494,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77575,7 +77575,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77656,7 +77656,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%201%20pcs)%20200%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%201%20pcs)%20200%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77737,7 +77737,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Sensitive%20Expert%20(Free%20Toothbrush)%20140%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Sensitive%20Expert%20(Free%20Toothbrush)%20140%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77818,7 +77818,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Sensitive%20Expert%20Fresh%20140%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Sensitive%20Expert%20Fresh%20140%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77899,7 +77899,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Sensitive%20Expert%20Gum%20Care%20140%20gm",
+        "url": "https://cartup.com/search?keyword=Pepsodent%20Toothpaste%20Sensitive%20Expert%20Gum%20Care%20140%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -77980,7 +77980,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Strong%20Teeth%20Toothpaste%20190%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Strong%20Teeth%20Toothpaste%20190%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78061,7 +78061,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Max%20Fresh%20Blue%20Gel%20Toothpaste%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Max%20Fresh%20Blue%20Gel%20Toothpaste%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78142,7 +78142,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Total%20Advance%20Health%20Toothpaste%2080%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Total%20Advance%20Health%20Toothpaste%2080%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78223,7 +78223,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Total%20Advance%20Health%20Toothpaste%20(Free%20Toothbrush)%20150%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Total%20Advance%20Health%20Toothpaste%20(Free%20Toothbrush)%20150%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78304,7 +78304,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Kids%206-9%20Years%20Toothpaste%2080%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Kids%206-9%20Years%20Toothpaste%2080%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78385,7 +78385,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Kids%20Toothpaste%20(3-5%20Years)%2080%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Kids%20Toothpaste%20(3-5%20Years)%2080%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78466,7 +78466,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Kids%20Toothpaste%20(0-2%20Years)%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Kids%20Toothpaste%20(0-2%20Years)%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78547,7 +78547,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Advanced%20White%20Toothpaste%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Colgate%20Advanced%20White%20Toothpaste%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78628,7 +78628,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Total%20Advance%20Health%20Toothpaste%20120%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Total%20Advance%20Health%20Toothpaste%20120%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78709,7 +78709,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Colgate%20Anticavity%20Active%20Salt%20Toothpaste%20190%20gm",
+        "url": "https://cartup.com/search?keyword=Colgate%20Anticavity%20Active%20Salt%20Toothpaste%20190%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78790,7 +78790,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78871,7 +78871,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -78952,7 +78952,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79033,7 +79033,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳27 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79114,7 +79114,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳12 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79195,7 +79195,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79276,7 +79276,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Sensitivity%20%26%20Gum%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Sensitivity%20%26%20Gum%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79357,7 +79357,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Complete%20Protection%2B%20Toothpaste%2070%20gm",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Complete%20Protection%2B%20Toothpaste%2070%20gm",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79438,7 +79438,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sensodyne%20Sensitivity%20%26%20Gum%20Toothbrush%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Sensodyne%20Sensitivity%20%26%20Gum%20Toothbrush%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79519,7 +79519,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Guerniss%20Moisturizing%20%26%20Repair%20Shampoo%20304%20ml",
+        "url": "https://cartup.com/search?keyword=Guerniss%20Moisturizing%20%26%20Repair%20Shampoo%20304%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79600,7 +79600,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79681,7 +79681,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79762,7 +79762,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
+        "url": "https://cartup.com/search?keyword=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79843,7 +79843,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
+        "url": "https://cartup.com/search?keyword=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -79924,7 +79924,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80005,7 +80005,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%2075%20ml)%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%2075%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80086,7 +80086,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dabur%20Vatika%20Black%20Shine%20Shampoo%20Sachet%206%20ml%20(Buy%2012%20Get%202%20Free)%2013%20pcs",
+        "url": "https://cartup.com/search?keyword=Dabur%20Vatika%20Black%20Shine%20Shampoo%20Sachet%206%20ml%20(Buy%2012%20Get%202%20Free)%2013%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80167,7 +80167,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dabur%20Vatika%20Hair%20Fall%20Control%20Shampoo%20(Free%20Black%20Shine%20Shampoo%2090%20ml)%20180%20ml",
+        "url": "https://cartup.com/search?keyword=Dabur%20Vatika%20Hair%20Fall%20Control%20Shampoo%20(Free%20Black%20Shine%20Shampoo%2090%20ml)%20180%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80248,7 +80248,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunsilk%20Lusciously%20Thick%20%26%20Long%20Shampoo%20(Free%20Scalp%20Massager)%20650%20ml",
+        "url": "https://cartup.com/search?keyword=Sunsilk%20Lusciously%20Thick%20%26%20Long%20Shampoo%20(Free%20Scalp%20Massager)%20650%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80329,7 +80329,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Volume%20375%20ml",
+        "url": "https://cartup.com/search?keyword=Sunsilk%20Shampoo%20Volume%20375%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80410,7 +80410,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80491,7 +80491,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80572,7 +80572,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80653,7 +80653,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳27 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80734,7 +80734,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80815,7 +80815,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80896,7 +80896,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%202%20in%201%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20%2B%20Conditioner%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%202%20in%201%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20%2B%20Conditioner%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -80977,7 +80977,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20650%20ml",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20650%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81058,7 +81058,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81139,7 +81139,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20180%20ml",
+        "url": "https://cartup.com/search?keyword=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20180%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81220,7 +81220,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Clear%20Shampoo%20Men%20Cool%20Sport%20Menthol%20Anti%20Dandruff%20330%20ml",
+        "url": "https://cartup.com/search?keyword=Clear%20Shampoo%20Men%20Cool%20Sport%20Menthol%20Anti%20Dandruff%20330%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81301,7 +81301,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Clear%20Shampoo%20Men%20Cool%20Sport%20Menthol%20Anti%20Dandruff%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Clear%20Shampoo%20Men%20Cool%20Sport%20Menthol%20Anti%20Dandruff%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81382,7 +81382,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Transforming%20Sports%20Car%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Transforming%20Sports%20Car%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81463,7 +81463,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sports%20Water%20Gun%20Blue%20Z6039D-3%20Toy%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Sports%20Water%20Gun%20Blue%20Z6039D-3%20Toy%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81544,7 +81544,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Smart%20Kit%20Tangram%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Smart%20Kit%20Tangram%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81625,7 +81625,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Smart%20Kit%20Focus%20Challenge%20(English%20Version)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Smart%20Kit%20Focus%20Challenge%20(English%20Version)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81706,7 +81706,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Smart%20Kit%20Focus%20Challenge%20(Bangla%20Version)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Smart%20Kit%20Focus%20Challenge%20(Bangla%20Version)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81787,7 +81787,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Deer%20Football%20(Size%205)%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Deer%20Football%20(Size%205)%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81868,7 +81868,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Bear%20Hug%20Me%20Soft%20Toy%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Bear%20Hug%20Me%20Soft%20Toy%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -81949,7 +81949,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Hello%20Kitty%20Big%20Love%20soft%20Toy%201%20pcs",
+        "url": "https://cartup.com/search?keyword=Hello%20Kitty%20Big%20Love%20soft%20Toy%201%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82030,7 +82030,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82111,7 +82111,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
+        "url": "https://cartup.com/search?keyword=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82192,7 +82192,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
+        "url": "https://cartup.com/search?keyword=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82273,7 +82273,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
+        "url": "https://cartup.com/search?keyword=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82354,7 +82354,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82435,7 +82435,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "url": "https://cartup.com/search?keyword=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82516,7 +82516,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Hair%20Intense%20Repair%207%20ml%206%20pcs",
+        "url": "https://cartup.com/search?keyword=Dove%20Shampoo%20Hair%20Intense%20Repair%207%20ml%206%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82597,7 +82597,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Livon%20Damage%20Repair%20Shampoo%20(Free%20Olive%20Oil%20100%20ml)%20300%20ml",
+        "url": "https://cartup.com/search?keyword=Livon%20Damage%20Repair%20Shampoo%20(Free%20Olive%20Oil%20100%20ml)%20300%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82678,7 +82678,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Tresemm%C3%A9%20Shampoo%20Ultimate%20Repair%20425%20ml",
+        "url": "https://cartup.com/search?keyword=Tresemm%C3%A9%20Shampoo%20Ultimate%20Repair%20425%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82759,7 +82759,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Parachute%20Naturale%20Damage%20Repair%20Shampoo%20160%20ml",
+        "url": "https://cartup.com/search?keyword=Parachute%20Naturale%20Damage%20Repair%20Shampoo%20160%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82840,7 +82840,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Maya%20True%20Herbs%20Herbal%20Coconut%20Oil%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Maya%20True%20Herbs%20Herbal%20Coconut%20Oil%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -82921,7 +82921,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Maya%20All%20Natural%20Scalp%20%26%20Hair%20Oil%20100%20ml%20(Free%20Magic%20Herbal%20Toothpaste%2050%20gm)",
+        "url": "https://cartup.com/search?keyword=Maya%20All%20Natural%20Scalp%20%26%20Hair%20Oil%20100%20ml%20(Free%20Magic%20Herbal%20Toothpaste%2050%20gm)",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83002,7 +83002,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Maya%20True%20Herbs%20Cooling%20Coconut%20Hair%20Oil%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Maya%20True%20Herbs%20Cooling%20Coconut%20Hair%20Oil%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83083,7 +83083,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Maya%20All%20Natural%20Scalp%20%26%20Hair%20Oil%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Maya%20All%20Natural%20Scalp%20%26%20Hair%20Oil%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83164,7 +83164,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Kd.H.Co%20Kesh%20Queen%20Anti%20Hairfall%20Hair%20Oil%20100%20ml",
+        "url": "https://cartup.com/search?keyword=Kd.H.Co%20Kesh%20Queen%20Anti%20Hairfall%20Hair%20Oil%20100%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83245,7 +83245,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Maya%20All%20Natural%20Cold-Pressed%20Olive%20Oil%20120%20ml",
+        "url": "https://cartup.com/search?keyword=Maya%20All%20Natural%20Cold-Pressed%20Olive%20Oil%20120%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83326,7 +83326,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=MERIL%20OLIVE%20OIL%20150ML",
+        "url": "https://cartup.com/search?keyword=MERIL%20OLIVE%20OIL%20150ML",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83407,7 +83407,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Maya%20All%20Natural%20Moroccan%20Argan%20Oil%2030%20ml",
+        "url": "https://cartup.com/search?keyword=Maya%20All%20Natural%20Moroccan%20Argan%20Oil%2030%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83488,7 +83488,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Maya%20All%20Natural%20Spanish%20Rosehip%20Seed%20Oil%2030%20ml",
+        "url": "https://cartup.com/search?keyword=Maya%20All%20Natural%20Spanish%20Rosehip%20Seed%20Oil%2030%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83569,7 +83569,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Skincare%20Liquid%20Refill%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Skincare%20Liquid%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83650,7 +83650,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20750%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20750%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83731,7 +83731,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Cool%20Liquid%20Pump%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Cool%20Liquid%20Pump%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83812,7 +83812,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Liquid%20Pump%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Liquid%20Pump%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83893,7 +83893,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20170%20ml%20Combo%20(Free%20Tiffin%20)%202%20pcs",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20170%20ml%20Combo%20(Free%20Tiffin%20)%202%20pcs",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -83974,7 +83974,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Aloe%20Vera%20Liquid%20Refill%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Aloe%20Vera%20Liquid%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84055,7 +84055,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Liquid%20Refill%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Liquid%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84136,7 +84136,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Re-Energize%20Liquid%205%20ltr",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Re-Energize%20Liquid%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84217,7 +84217,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84298,7 +84298,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Cool%20Liquid%20Refill%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Cool%20Liquid%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84379,7 +84379,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Herbal%20Lavender%20Handwash%201%20ltr",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Herbal%20Lavender%20Handwash%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84460,7 +84460,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Lavender%20Handwash%20Refill%20170%20ml",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Lavender%20Handwash%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84541,7 +84541,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Ocean%20Blue%20Handwash%201%20ltr",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Ocean%20Blue%20Handwash%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84622,7 +84622,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Herbal%20Iris%20Handwash%201%20ltr",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Herbal%20Iris%20Handwash%201%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84703,7 +84703,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Active%20Antiseptic%20Handwash%205%20ltr",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Active%20Antiseptic%20Handwash%205%20ltr",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84784,7 +84784,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Herbal%20Iris%20Handwash%20500%20ml",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Herbal%20Iris%20Handwash%20500%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84865,7 +84865,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Aloe%20Vera%20Antiseptic%20Handwash%201000%20ml",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Aloe%20Vera%20Antiseptic%20Handwash%201000%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -84946,7 +84946,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Savlon%20Handwash%20Lemon%20Burst%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Savlon%20Handwash%20Lemon%20Burst%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85027,7 +85027,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Lifebuoy%20Handwash%20Lemon%20Fresh%20Pump%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Lifebuoy%20Handwash%20Lemon%20Fresh%20Pump%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85108,7 +85108,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sepnil%20Sanitizing%20Hand%20Wash%20Marigold%20(Refill)%20170%20ml",
+        "url": "https://cartup.com/search?keyword=Sepnil%20Sanitizing%20Hand%20Wash%20Marigold%20(Refill)%20170%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85189,7 +85189,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Sepnil%20Instant%20Hand%20Sanitizer%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Sepnil%20Instant%20Hand%20Sanitizer%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85270,7 +85270,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Cool%20Liquid%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Cool%20Liquid%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85351,7 +85351,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=ACI%20Savlon%20Ocean%20Blue%20Handwash%20200%20ml",
+        "url": "https://cartup.com/search?keyword=ACI%20Savlon%20Ocean%20Blue%20Handwash%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85432,7 +85432,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Aloe%20Vera%20Liquid%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Aloe%20Vera%20Liquid%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85513,7 +85513,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Re-Energize%20(Free%20Sanitizer%2050%20ml)%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Re-Energize%20(Free%20Sanitizer%2050%20ml)%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85594,7 +85594,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
@@ -85675,7 +85675,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com/search?q=Dettol%20Handwash%20Skincare%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml",
+        "url": "https://cartup.com/search?keyword=Dettol%20Handwash%20Skincare%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml",
         "isVerifiedLive": true
       },
       "princebazar": {
