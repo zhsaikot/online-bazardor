@@ -839,15 +839,21 @@ export default function VisualSearchModal({
                             </div>
 
                             {/* Direct External Link */}
-                            <a
-                              href={storePriceData.url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="w-full py-1.5 px-2 rounded-xl bg-zinc-100 dark:bg-zinc-700/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 text-[11px] font-bold flex items-center justify-center gap-1 transition cursor-pointer"
-                            >
-                              <span>{lang === 'bn' ? `${store.nameBn}-এ দেখুন` : `View on ${store.name}`}</span>
-                              <ExternalLink className="w-3 h-3 text-zinc-400" />
-                            </a>
+                            {storePriceData.inStock ? (
+                              <a
+                                href={storePriceData.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-full py-1.5 px-2 rounded-xl bg-zinc-100 dark:bg-zinc-700/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 text-[11px] font-bold flex items-center justify-center gap-1 transition cursor-pointer"
+                              >
+                                <span>{lang === 'bn' ? `${store.nameBn}-এ দেখুন` : `View on ${store.name}`}</span>
+                                <ExternalLink className="w-3 h-3 text-zinc-400" />
+                              </a>
+                            ) : (
+                              <div className="w-full py-1.5 px-2 rounded-xl bg-zinc-100 dark:bg-zinc-800/80 text-zinc-400 dark:text-zinc-500 text-[11px] font-medium flex items-center justify-center gap-1 cursor-not-allowed select-none border border-zinc-200/50 dark:border-zinc-700/50">
+                                <span>{lang === 'bn' ? 'স্টকে নেই' : 'Unavailable'}</span>
+                              </div>
+                            )}
                           </div>
                         );
                       })}

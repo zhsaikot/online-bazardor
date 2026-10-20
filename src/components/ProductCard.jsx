@@ -122,18 +122,22 @@ export default function ProductCard({
         >
           <div className="flex items-center gap-1 min-w-0">
             <div className="flex -space-x-1 shrink-0">
-              {Object.values(STORES).map((st) => (
-                <StoreLogo 
-                  key={st.id} 
-                  store={st} 
-                  size="xs" 
-                  showBorder={true} 
-                  className="w-4 h-4 rounded-full border-white dark:border-zinc-800 shadow-2xs shrink-0 ring-1 ring-zinc-200 dark:ring-zinc-700" 
-                />
-              ))}
+              {inStockEntries.map(([stKey]) => {
+                const st = STORES[stKey];
+                if (!st) return null;
+                return (
+                  <StoreLogo 
+                    key={st.id} 
+                    store={st} 
+                    size="xs" 
+                    showBorder={true} 
+                    className="w-4 h-4 rounded-full border-white dark:border-zinc-800 shadow-2xs shrink-0 ring-1 ring-zinc-200 dark:ring-zinc-700" 
+                  />
+                );
+              })}
             </div>
             <span className="text-[10px] font-bold text-zinc-600 dark:text-zinc-300 truncate ml-1.5 group-hover/strip:text-emerald-800 dark:group-hover/strip:text-emerald-400">
-              {lang === 'bn' ? '৫ স্টোরের লাইভ রেট' : 'Compare 5 stores'}
+              {lang === 'bn' ? `${inStockEntries.length} স্টোরে লাইভ দর` : `${inStockEntries.length} stores available`}
             </span>
           </div>
           <div className="flex items-center gap-0.5 text-emerald-600 dark:text-emerald-400 text-[10px] font-bold shrink-0">

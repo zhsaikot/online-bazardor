@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { cleanProductSearchQuery, getStoreAvailability } from './fetchComprehensiveCatalog.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -100,19 +101,33 @@ const FULL_STORES = {
 };
 
 export function auditAndFixProduct(prod, stats = { cartupUrlFixes: 0, princeAdded: 0, priceFixed: 0 }) {
-  const nameQuery = encodeURIComponent((prod.nameEn || prod.nameBn || '').trim());
+  const cleanQuery = cleanProductSearchQuery(prod.nameEn, prod.nameBn);
+  const nameQuery = encodeURIComponent(cleanQuery);
   const mrp = prod.mrp || 100;
   const basePrice = prod.prices?.chaldal?.price || mrp;
+  const availability = getStoreAvailability(prod.nameEn, prod.category);
 
-  // 1. Audit and fix Cartup URL
+  prod.cleanQuery = cleanQuery;
+
+  // 1. Audit and fix Cartup URL & Stock
   if (prod.prices?.cartup) {
-    if (prod.prices.cartup.url?.includes('cartup.com.bd')) {
-      prod.prices.cartup.url = `https://cartup.com/search?q=${nameQuery}`;
-      stats.cartupUrlFixes++;
-    }
+    prod.prices.cartup.url = `https://cartup.com/search?q=${nameQuery}`;
+    prod.prices.cartup.inStock = availability.cartup;
   }
 
-  // 2. Audit and fix Prince Bazar
+  // 2. Audit and fix Shwapno URL & Stock
+  if (prod.prices?.shwapno) {
+    prod.prices.shwapno.url = `https://www.shwapno.com/search?q=${nameQuery}`;
+    prod.prices.shwapno.inStock = availability.shwapno;
+  }
+
+  // 3. Audit and fix Daraz URL & Stock
+  if (prod.prices?.daraz) {
+    prod.prices.daraz.url = `https://www.daraz.com.bd/catalog/?q=${nameQuery}`;
+    prod.prices.daraz.inStock = availability.daraz;
+  }
+
+  // 4. Audit and fix Prince Bazar
   if (!prod.prices?.princebazar) {
     const princeDiff = mrp > basePrice ? Math.max(0, Math.round((mrp - basePrice) * 0.45)) : 0;
     const princePrice = Math.max(basePrice, mrp - princeDiff);
@@ -120,7 +135,7 @@ export function auditAndFixProduct(prod, stats = { cartupUrlFixes: 0, princeAdde
     prod.prices = prod.prices || {};
     prod.prices.princebazar = {
       price: princePrice,
-      inStock: true,
+      inStock: availability.princebazar,
       discountText: mrp > princePrice ? `৳${mrp - princePrice} ছাড়` : 'প্রিন্স বাজার দর',
       offerText: 'প্রিন্স সুপারশপ অফার',
       url: `https://princebazarbd.com/?s=${nameQuery}&post_type=product`,
@@ -128,13 +143,11 @@ export function auditAndFixProduct(prod, stats = { cartupUrlFixes: 0, princeAdde
     };
     stats.princeAdded++;
   } else {
-    // Ensure princebazar url is correct WooCommerce format
-    if (!prod.prices.princebazar.url || prod.prices.princebazar.url.includes('/search?')) {
-      prod.prices.princebazar.url = `https://princebazarbd.com/?s=${nameQuery}&post_type=product`;
-    }
+    prod.prices.princebazar.url = `https://princebazarbd.com/?s=${nameQuery}&post_type=product`;
+    prod.prices.princebazar.inStock = availability.princebazar;
   }
 
-  // 3. Ensure Prince Bazar is in offers array
+  // 5. Ensure Prince Bazar is in offers array
   prod.offers = prod.offers || [];
   if (!prod.offers.some(o => o.store === 'princebazar')) {
     prod.offers.push({
@@ -144,7 +157,7 @@ export function auditAndFixProduct(prod, stats = { cartupUrlFixes: 0, princeAdde
     });
   }
 
-  // 4. Sanity check all store prices
+  // 6. Sanity check all store prices
   for (const storeKey of ['chaldal', 'shwapno', 'daraz', 'cartup', 'princebazar']) {
     const sData = prod.prices[storeKey];
     if (sData) {
@@ -152,11 +165,6 @@ export function auditAndFixProduct(prod, stats = { cartupUrlFixes: 0, princeAdde
         sData.price = mrp;
         stats.priceFixed++;
       }
-      // Ensure inStock boolean exists
-      if (typeof sData.inStock !== 'boolean') {
-        sData.inStock = true;
-      }
-      // Ensure verified flag
       sData.isVerifiedLive = true;
     }
   }
