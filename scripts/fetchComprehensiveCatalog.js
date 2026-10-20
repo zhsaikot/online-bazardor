@@ -170,11 +170,11 @@ function formatProduct(hit, category) {
   const shwapnoDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.6)) : 0;
   const shwapnoPrice = Math.max(price, mrp - shwapnoDiff);
 
-  const meenaDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.45)) : 0;
-  const meenaclickPrice = Math.max(price, mrp - meenaDiff);
+  const darazDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.5)) : 0;
+  const darazPrice = Math.max(price, mrp - darazDiff);
 
-  const pandaDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.25)) : 0;
-  const pandamartPrice = Math.max(price, mrp - pandaDiff);
+  const cartupDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.3)) : 0;
+  const cartupPrice = Math.max(price, mrp - cartupDiff);
 
   const chaldalUrl = slug 
     ? `https://chaldal.com/${slug}` 
@@ -193,8 +193,8 @@ function formatProduct(hit, category) {
     offers: [
       { store: 'chaldal', title: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি', badge: mrp > price ? `৳${mrp - price} ছাড়` : 'লাইভ রেট' },
       { store: 'shwapno', title: 'স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার', badge: mrp > shwapnoPrice ? `৳${mrp - shwapnoPrice} ছাড়` : 'ক্লাব পয়েন্ট' },
-      { store: 'meenaclick', title: 'অনলাইন অর্ডারে ভাউচার কোড', badge: '৫% ক্যাশব্যাক' },
-      { store: 'pandamart', title: '২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি', badge: 'Pandapro ডিল' }
+      { store: 'daraz', title: 'দারাজ মার্ট ভাউচার ও কয়েন ছাড়', badge: mrp > darazPrice ? `৳${mrp - darazPrice} ছাড়` : 'মার্ট ভাউচার' },
+      { store: 'cartup', title: 'কার্টআপ দ্রুত ডেলিভারি অফার', badge: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল' }
     ],
     prices: {
       chaldal: {
@@ -213,20 +213,20 @@ function formatProduct(hit, category) {
         url: `https://www.shwapno.com/search?q=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       },
-      pandamart: {
-        price: pandamartPrice,
+      daraz: {
+        price: darazPrice,
         inStock: true,
-        discountText: mrp > pandamartPrice ? `৳${mrp - pandamartPrice} ছাড়` : 'MRP',
-        offerText: '২৫ মিনিটে এক্সপ্রেস',
-        url: `https://www.foodpanda.com.bd/restaurants?search=${encodeURIComponent(nameEn)}`,
+        discountText: mrp > darazPrice ? `৳${mrp - darazPrice} ছাড়` : 'MRP',
+        offerText: 'দারাজ মার্ট ভাউচার',
+        url: `https://www.daraz.com.bd/catalog/?q=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       },
-      meenaclick: {
-        price: meenaclickPrice,
+      cartup: {
+        price: cartupPrice,
         inStock: true,
-        discountText: mrp > meenaclickPrice ? `৳${mrp - meenaclickPrice} ছাড়` : 'লাইভ রেট',
-        offerText: '৫% ক্যাশব্যাক ভাউচার',
-        url: `https://meenabazaronline.com/search?keyword=${encodeURIComponent(nameEn)}`,
+        discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'লাইভ রেট',
+        offerText: 'কার্টআপ সেম ডে ডেলিভারি',
+        url: `https://cartup.com.bd/search?q=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       }
     }

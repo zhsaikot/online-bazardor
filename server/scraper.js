@@ -442,13 +442,13 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
   const shwapnoDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.6)) : 0;
   const shwapnoPrice = Math.max(price, mrp - shwapnoDiff);
 
-  // Meena Click: Online special promotional pricing
-  const meenaDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.45)) : 0;
-  const meenaclickPrice = Math.max(price, mrp - meenaDiff);
+  // Daraz: Dynamic marketplace pricing with coins and voucher promotions
+  const darazDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.5)) : 0;
+  const darazPrice = Math.max(price, mrp - darazDiff);
 
-  // Pandamart: Quick 25-min convenience grocery pricing
-  const pandaDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.25)) : 0;
-  const pandamartPrice = Math.max(price, mrp - pandaDiff);
+  // Cartup: Fast online grocery delivery in Dhaka
+  const cartupDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.35)) : 0;
+  const cartupPrice = Math.max(price, mrp - cartupDiff);
 
   // Auto-detect canonical category matching the 8 official store tabs
   const text = (nameEn + ' ' + nameBn).toLowerCase();
@@ -484,8 +484,8 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
     offers: [
       { store: 'chaldal', title: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি', badge: mrp > price ? `৳${mrp - price} ছাড়` : 'লাইভ রেট' },
       { store: 'shwapno', title: 'স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার', badge: mrp > shwapnoPrice ? `৳${mrp - shwapnoPrice} ছাড়` : 'ক্লাব পয়েন্ট' },
-      { store: 'meenaclick', title: 'অনলাইন অর্ডারে ভাউচার কোড', badge: '৫% ক্যাশব্যাক' },
-      { store: 'pandamart', title: '২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি', badge: 'Pandapro ডিল' }
+      { store: 'daraz', title: 'দারাজ মার্ট ভাউচার ও ফ্রি শিপিং', badge: mrp > darazPrice ? `৳${mrp - darazPrice} ছাড়` : 'কয়েন ডিল' },
+      { store: 'cartup', title: 'কার্টআপ অনলাইন ডেলিভারি', badge: 'সুপার ডিল' }
     ],
     prices: {
       chaldal: {
@@ -504,20 +504,20 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
         url: `https://www.shwapno.com/search?q=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       },
-      pandamart: {
-        price: pandamartPrice,
+      daraz: {
+        price: darazPrice,
         inStock: true,
-        discountText: mrp > pandamartPrice ? `৳${mrp - pandamartPrice} ছাড়` : 'MRP',
-        offerText: '২৫ মিনিটে এক্সপ্রেস',
-        url: `https://www.foodpanda.com.bd/restaurants?search=${encodeURIComponent(nameEn)}`,
+        discountText: mrp > darazPrice ? `৳${mrp - darazPrice} ছাড়` : 'লাইভ রেট',
+        offerText: 'দারাজ মার্ট ভাউচার',
+        url: `https://www.daraz.com.bd/catalog/?q=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       },
-      meenaclick: {
-        price: meenaclickPrice,
+      cartup: {
+        price: cartupPrice,
         inStock: true,
-        discountText: mrp > meenaclickPrice ? `৳${mrp - meenaclickPrice} ছাড়` : 'লাইভ রেট',
-        offerText: '৫% ক্যাশব্যাক ভাউচার',
-        url: `https://meenabazaronline.com/search?keyword=${encodeURIComponent(nameEn)}`,
+        discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল',
+        offerText: 'কার্টআপ ডেলিভারি',
+        url: `https://cartup.com.bd/search?q=${encodeURIComponent(nameEn)}`,
         isVerifiedLive: true
       }
     }
@@ -589,8 +589,8 @@ export async function syncAllProducts() {
     // Calculated comparative store prices based on market realities
     const standardMarketPrice = mrp;
     const shwapnoPrice = standardMarketPrice;
-    const pandamartPrice = standardMarketPrice;
-    const meenaclickPrice = standardMarketPrice;
+    const darazPrice = standardMarketPrice;
+    const cartupPrice = standardMarketPrice;
 
     syncedList.push({
       id: item.id,
@@ -617,18 +617,18 @@ export async function syncAllProducts() {
           url: `https://www.shwapno.com/search?q=${encodeURIComponent(item.query)}`,
           isVerifiedLive: true
         },
-        pandamart: {
-          price: pandamartPrice,
+        daraz: {
+          price: darazPrice,
           inStock: true,
-          discountText: mrp > pandamartPrice ? `৳${mrp - pandamartPrice} ছাড়` : 'MRP',
-          url: `https://www.foodpanda.com.bd/restaurants?search=${encodeURIComponent(item.query)}`,
+          discountText: mrp > darazPrice ? `৳${mrp - darazPrice} ছাড়` : 'লাইভ রেট',
+          url: `https://www.daraz.com.bd/catalog/?q=${encodeURIComponent(item.query)}`,
           isVerifiedLive: true
         },
-        meenaclick: {
-          price: meenaclickPrice,
+        cartup: {
+          price: cartupPrice,
           inStock: true,
-          discountText: mrp > meenaclickPrice ? `৳${mrp - meenaclickPrice} ছাড়` : 'লাইভ রেট',
-          url: `https://meenabazaronline.com/search?keyword=${encodeURIComponent(item.query)}`,
+          discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল',
+          url: `https://cartup.com.bd/search?q=${encodeURIComponent(item.query)}`,
           isVerifiedLive: true
         }
       }

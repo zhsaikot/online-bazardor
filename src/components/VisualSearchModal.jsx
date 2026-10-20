@@ -390,14 +390,14 @@ export default function VisualSearchModal({
           offers: [
             { store: 'chaldal', title: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি', badge: 'লাইভ রেট' },
             { store: 'shwapno', title: 'স্বপ্ন ক্লাব কার্ড অফার', badge: 'ক্লাব ছাড়' },
-            { store: 'meenaclick', title: 'অনলাইন ভাউচার প্রোমো', badge: '৫% ক্যাশব্যাক' },
-            { store: 'pandamart', title: '২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি', badge: 'Pandapro ডিল' }
+            { store: 'daraz', title: 'দারাজ মার্ট ভাউচার ও ছাড়', badge: 'মার্ট ডিল' },
+            { store: 'cartup', title: 'কার্টআপ দ্রুত ডেলিভারি অফার', badge: 'সুপার ডিল' }
           ],
           prices: {
             chaldal: { price: 330, inStock: true, discountText: '৳২০ ছাড়', offerText: '১ ঘণ্টায় ডেলিভারি', url: `https://chaldal.com/search/${encodeURIComponent(q)}` },
             shwapno: { price: 335, inStock: true, discountText: '৳১৫ ছাড়', offerText: 'স্বপ্ন ক্লাব অফার', url: `https://www.shwapno.com/search?q=${encodeURIComponent(q)}` },
-            meenaclick: { price: 340, inStock: true, discountText: '৳১০ ছাড়', offerText: '৫% ক্যাশব্যাক ভাউচার', url: `https://meenabazaronline.com/search?keyword=${encodeURIComponent(q)}` },
-            pandamart: { price: 345, inStock: true, discountText: '৳৫ ছাড়', offerText: '২৫ মিনিটে ডেলিভারি', url: `https://www.foodpanda.com.bd/restaurants?search=${encodeURIComponent(q)}` }
+            daraz: { price: 340, inStock: true, discountText: '৳১০ ছাড়', offerText: 'দারাজ মার্ট অফার', url: `https://www.daraz.com.bd/catalog/?q=${encodeURIComponent(q)}` },
+            cartup: { price: 345, inStock: true, discountText: '৳৫ ছাড়', offerText: 'কার্টআপ ডেলিভারি', url: `https://cartup.com.bd/search?q=${encodeURIComponent(q)}` }
           }
         };
 
@@ -762,7 +762,7 @@ export default function VisualSearchModal({
                     </h5>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                      {['chaldal', 'shwapno', 'meenaclick', 'pandamart'].map((storeKey) => {
+                      {['chaldal', 'shwapno', 'daraz', 'cartup'].map((storeKey) => {
                         const store = STORES[storeKey];
                         const storePriceData = selectedProduct.prices?.[storeKey] || {
                           price: selectedProduct.mrp || 500,

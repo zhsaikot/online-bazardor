@@ -10,7 +10,7 @@ export default function ProductCard({
   onAdd, 
   onRemove, 
   onOpenDetails,
-  selectedStores = ['chaldal', 'shwapno', 'pandamart', 'meenaclick']
+  selectedStores = ['chaldal', 'shwapno', 'daraz', 'cartup']
 }) {
   const { lang, t } = useLanguage();
 

@@ -38,41 +38,41 @@ export const STORES = {
     "accentHex": "#e11d48",
     "logo": "/stores/shwapno.png?v=2"
   },
-  "pandamart": {
-    "id": "pandamart",
-    "name": "Pandamart",
-    "nameBn": "পান্ডামার্ট",
-    "color": "#D81B60",
-    "bgColor": "bg-pink-600",
-    "textColor": "text-pink-600",
-    "lightBg": "bg-pink-50",
-    "borderColor": "border-pink-200",
-    "baseDeliveryFee": 39,
-    "freeDeliveryThreshold": 800,
-    "deliveryTime": "২৫-৩৫ মিনিট",
-    "deliveryTimeEn": "25-35 mins",
-    "rating": 4.4,
-    "logoText": "pandamart",
-    "accentHex": "#db2777",
-    "logo": "/stores/pandamart.png?v=2"
-  },
-  "meenaclick": {
-    "id": "meenaclick",
-    "name": "Meena Bazar",
-    "nameBn": "মীনা বাজার",
-    "color": "#059669",
-    "bgColor": "bg-emerald-600",
-    "textColor": "text-emerald-600",
-    "lightBg": "bg-emerald-50",
-    "borderColor": "border-emerald-200",
-    "baseDeliveryFee": 45,
+  "daraz": {
+    "id": "daraz",
+    "name": "Daraz",
+    "nameBn": "দারাজ",
+    "color": "#F85606",
+    "bgColor": "bg-orange-600",
+    "textColor": "text-orange-600",
+    "lightBg": "bg-orange-50",
+    "borderColor": "border-orange-200",
+    "baseDeliveryFee": 55,
     "freeDeliveryThreshold": 1200,
-    "deliveryTime": "২-৩ ঘণ্টা",
-    "deliveryTimeEn": "2-3 hrs",
-    "rating": 4.3,
-    "logoText": "MeenaBazar",
-    "accentHex": "#059669",
-    "logo": "/stores/meenaclick.png?v=2"
+    "deliveryTime": "১-২ দিন",
+    "deliveryTimeEn": "1-2 days",
+    "rating": 4.5,
+    "logoText": "Daraz",
+    "accentHex": "#F85606",
+    "logo": "/stores/daraz.png"
+  },
+  "cartup": {
+    "id": "cartup",
+    "name": "Cartup",
+    "nameBn": "কার্টআপ",
+    "color": "#2563EB",
+    "bgColor": "bg-blue-600",
+    "textColor": "text-blue-600",
+    "lightBg": "bg-blue-50",
+    "borderColor": "border-blue-200",
+    "baseDeliveryFee": 40,
+    "freeDeliveryThreshold": 1000,
+    "deliveryTime": "সেম ডে / ১ দিন",
+    "deliveryTimeEn": "Same Day / 1 day",
+    "rating": 4.4,
+    "logoText": "Cartup",
+    "accentHex": "#2563EB",
+    "logo": "/stores/cartup.png"
   }
 };
 
@@ -156,14 +156,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -183,20 +183,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 975,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rupchanda%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rupchanda%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 975,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rupchanda%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -223,14 +223,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -250,20 +250,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 398,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rupchanda%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rupchanda%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 398,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rupchanda%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -290,14 +290,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -317,20 +317,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%20Pet%20Bottle%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 199,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rupchanda%20Fortified%20Soyabean%20Oil%20Pet%20Bottle%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rupchanda%20Fortified%20Soyabean%20Oil%20Pet%20Bottle%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 199,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rupchanda%20Fortified%20Soyabean%20Oil%20Pet%20Bottle%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%20Pet%20Bottle%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -357,14 +357,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -384,20 +384,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -424,14 +424,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -451,20 +451,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 2500,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 2500,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -491,14 +491,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -518,20 +518,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 689,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 689,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -558,14 +558,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -585,20 +585,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Teer%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 398,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Teer%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 398,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Teer%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Teer%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -625,14 +625,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -652,20 +652,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Teer%20Fortified%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 199,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Fortified%20Soyabean%20Oil%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Teer%20Fortified%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 199,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Teer%20Fortified%20Soyabean%20Oil%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Teer%20Fortified%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -692,14 +692,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -719,20 +719,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Teer%20Fortified%20Canola%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1060,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Fortified%20Canola%20Oil%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Teer%20Fortified%20Canola%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1060,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Teer%20Fortified%20Canola%20Oil%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Teer%20Fortified%20Canola%20Oil%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -759,14 +759,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -786,20 +786,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Teer%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 975,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Teer%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 975,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Teer%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Teer%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -826,14 +826,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -853,20 +853,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 975,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 975,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Fortified%20Soyabean%20Oil%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -893,14 +893,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -920,20 +920,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 398,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 398,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Fortified%20Soyabean%20Oil%202%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -960,14 +960,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -987,20 +987,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Fortified%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 199,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Fortified%20Soyabean%20Oil%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Fortified%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 199,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Fortified%20Soyabean%20Oil%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Fortified%20Soyabean%20Oil%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -1027,14 +1027,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1054,20 +1054,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -1094,14 +1094,14 @@ export const PRODUCTS = [
         "badge": "৳97 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1121,20 +1121,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 850,
         "inStock": true,
         "discountText": "৳40 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 818,
         "inStock": true,
         "discountText": "৳72 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -1161,14 +1161,14 @@ export const PRODUCTS = [
         "badge": "৳103 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1188,20 +1188,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 847,
         "inStock": true,
         "discountText": "৳43 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 813,
         "inStock": true,
         "discountText": "৳77 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -1228,14 +1228,14 @@ export const PRODUCTS = [
         "badge": "৳103 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1255,20 +1255,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 847,
         "inStock": true,
         "discountText": "৳43 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 813,
         "inStock": true,
         "discountText": "৳77 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -1295,14 +1295,14 @@ export const PRODUCTS = [
         "badge": "৳61 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1322,20 +1322,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 865,
         "inStock": true,
         "discountText": "৳25 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 845,
         "inStock": true,
         "discountText": "৳45 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -1362,14 +1362,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1389,20 +1389,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Pure%20Mustard%20Oil%20500%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Pure%20Mustard%20Oil%20500%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Pure%20Mustard%20Oil%20500%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Pure%20Mustard%20Oil%20500%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Pure%20Mustard%20Oil%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -1429,14 +1429,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1456,20 +1456,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Pure%20Mustard%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 380,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Pure%20Mustard%20Oil%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Pure%20Mustard%20Oil%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 380,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Pure%20Mustard%20Oil%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Pure%20Mustard%20Oil%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -1496,14 +1496,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1523,20 +1523,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 950,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 950,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -1563,14 +1563,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1590,20 +1590,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Alex%20Car%20Wash%20500%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 345,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Alex%20Car%20Wash%20500%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Alex%20Car%20Wash%20500%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 345,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Alex%20Car%20Wash%20500%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Alex%20Car%20Wash%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -1630,14 +1630,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1657,20 +1657,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -1697,14 +1697,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1724,20 +1724,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Pure%20Ghee%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 390,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Pure%20Ghee%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Dairy%20Pure%20Ghee%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 390,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Pure%20Ghee%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pure%20Ghee%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1764,14 +1764,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1791,20 +1791,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 825,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 825,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1831,14 +1831,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1858,20 +1858,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Pure%20Ghee%20900%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1735,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Pure%20Ghee%20900%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Dairy%20Pure%20Ghee%20900%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1735,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Pure%20Ghee%20900%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pure%20Ghee%20900%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1898,14 +1898,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1925,20 +1925,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Premium%20Ghee%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 375,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Premium%20Ghee%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Premium%20Ghee%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 375,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Premium%20Ghee%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Premium%20Ghee%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -1965,14 +1965,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -1992,20 +1992,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ghee%20Vita%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 650,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ghee%20Vita%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ghee%20Vita%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 650,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ghee%20Vita%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ghee%20Vita%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -2032,14 +2032,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2059,20 +2059,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Ghee%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 205,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Ghee%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Ghee%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 205,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Ghee%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Ghee%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -2099,14 +2099,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2126,20 +2126,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Red%20Cow%20Butter%20Oil%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 385,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Red%20Cow%20Butter%20Oil%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Red%20Cow%20Butter%20Oil%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 385,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Red%20Cow%20Butter%20Oil%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Red%20Cow%20Butter%20Oil%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -2166,14 +2166,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2193,20 +2193,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ghee%20Vita%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 400,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ghee%20Vita%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ghee%20Vita%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 400,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ghee%20Vita%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ghee%20Vita%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -2233,14 +2233,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2260,20 +2260,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vitacare%20Gawa%20Ghee%20(Tin)%20900%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1200,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vitacare%20Gawa%20Ghee%20(Tin)%20900%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vitacare%20Gawa%20Ghee%20(Tin)%20900%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vitacare%20Gawa%20Ghee%20(Tin)%20900%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vitacare%20Gawa%20Ghee%20(Tin)%20900%20ml",
         "isVerifiedLive": true
       }
     }
@@ -2300,14 +2300,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2327,20 +2327,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fortune%20Fortified%20Rice%20Bran%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1210,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fortune%20Fortified%20Rice%20Bran%20Oil%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fortune%20Fortified%20Rice%20Bran%20Oil%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1210,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fortune%20Fortified%20Rice%20Bran%20Oil%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fortune%20Fortified%20Rice%20Bran%20Oil%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -2367,14 +2367,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2394,20 +2394,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 8990,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 8990,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -2434,14 +2434,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2461,20 +2461,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Anmol%20Dawat%20Offer",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 368,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Anmol%20Dawat%20Offer",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Anmol%20Dawat%20Offer",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 368,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Anmol%20Dawat%20Offer",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Anmol%20Dawat%20Offer",
         "isVerifiedLive": true
       }
     }
@@ -2501,14 +2501,14 @@ export const PRODUCTS = [
         "badge": "৳29 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2528,20 +2528,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Foodela%20Family%20Saver%20Pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 385,
         "inStock": true,
         "discountText": "৳12 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Foodela%20Family%20Saver%20Pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Foodela%20Family%20Saver%20Pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 375,
         "inStock": true,
         "discountText": "৳22 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Foodela%20Family%20Saver%20Pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Foodela%20Family%20Saver%20Pack",
         "isVerifiedLive": true
       }
     }
@@ -2568,14 +2568,14 @@ export const PRODUCTS = [
         "badge": "৳30 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2595,20 +2595,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 366,
         "inStock": true,
         "discountText": "৳13 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 356,
         "inStock": true,
         "discountText": "৳23 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -2635,14 +2635,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2662,20 +2662,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 389,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 389,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -2702,14 +2702,14 @@ export const PRODUCTS = [
         "badge": "৳205 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2729,20 +2729,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Giggles%20Premium%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1715,
         "inStock": true,
         "discountText": "৳85 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Giggles%20Premium%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Giggles%20Premium%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1647,
         "inStock": true,
         "discountText": "৳153 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Giggles%20Premium%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Giggles%20Premium%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
         "isVerifiedLive": true
       }
     }
@@ -2769,14 +2769,14 @@ export const PRODUCTS = [
         "badge": "৳169 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2796,20 +2796,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1130,
         "inStock": true,
         "discountText": "৳70 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1074,
         "inStock": true,
         "discountText": "৳126 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -2836,14 +2836,14 @@ export const PRODUCTS = [
         "badge": "৳397 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2863,20 +2863,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 2155,
         "inStock": true,
         "discountText": "৳165 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 2023,
         "inStock": true,
         "discountText": "৳297 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -2903,14 +2903,14 @@ export const PRODUCTS = [
         "badge": "৳412 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2930,20 +2930,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 2473,
         "inStock": true,
         "discountText": "৳172 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 2336,
         "inStock": true,
         "discountText": "৳309 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -2970,14 +2970,14 @@ export const PRODUCTS = [
         "badge": "৳181 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -2997,20 +2997,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Avonee%20Pants%20Extra%20Large%C2%A0XXL%C2%A0(14-25KG)%C2%A034%C2%A0pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1125,
         "inStock": true,
         "discountText": "৳75 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Avonee%20Pants%20Extra%20Large%C2%A0XXL%C2%A0(14-25KG)%C2%A034%C2%A0pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Avonee%20Pants%20Extra%20Large%C2%A0XXL%C2%A0(14-25KG)%C2%A034%C2%A0pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1065,
         "inStock": true,
         "discountText": "৳135 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Avonee%20Pants%20Extra%20Large%C2%A0XXL%C2%A0(14-25KG)%C2%A034%C2%A0pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Avonee%20Pants%20Extra%20Large%C2%A0XXL%C2%A0(14-25KG)%C2%A034%C2%A0pcs",
         "isVerifiedLive": true
       }
     }
@@ -3037,14 +3037,14 @@ export const PRODUCTS = [
         "badge": "৳109 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3064,20 +3064,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 925,
         "inStock": true,
         "discountText": "৳45 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 889,
         "inStock": true,
         "discountText": "৳81 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -3104,14 +3104,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3131,20 +3131,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Miniket%20Rice%20Premium%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 439,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Miniket%20Rice%20Premium%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Miniket%20Rice%20Premium%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 439,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Miniket%20Rice%20Premium%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Miniket%20Rice%20Premium%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3171,14 +3171,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3198,20 +3198,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Miniket%20Rice%20Premium%2010%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 950,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Miniket%20Rice%20Premium%2010%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Miniket%20Rice%20Premium%2010%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 950,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Miniket%20Rice%20Premium%2010%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Miniket%20Rice%20Premium%2010%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3238,14 +3238,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3265,20 +3265,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Premium%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 480,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Premium%20Miniket%20Rice%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Premium%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 480,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Premium%20Miniket%20Rice%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Premium%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3305,14 +3305,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3332,20 +3332,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Akij%20Essential%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 450,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Akij%20Essential%20Miniket%20Rice%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Akij%20Essential%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 450,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Akij%20Essential%20Miniket%20Rice%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3372,14 +3372,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3399,20 +3399,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 470,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Miniket%20Rice%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 470,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Miniket%20Rice%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Miniket%20Rice%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3439,14 +3439,14 @@ export const PRODUCTS = [
         "badge": "৳18 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3466,20 +3466,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nazirshail%20Rice%20Premium%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 471,
         "inStock": true,
         "discountText": "৳8 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nazirshail%20Rice%20Premium%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nazirshail%20Rice%20Premium%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 465,
         "inStock": true,
         "discountText": "৳14 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nazirshail%20Rice%20Premium%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nazirshail%20Rice%20Premium%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3506,14 +3506,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3533,20 +3533,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 495,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Nazirshail%20Rice%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 495,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Nazirshail%20Rice%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3573,14 +3573,14 @@ export const PRODUCTS = [
         "badge": "৳36 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3600,20 +3600,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 444,
         "inStock": true,
         "discountText": "৳15 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 432,
         "inStock": true,
         "discountText": "৳27 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3640,14 +3640,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3667,20 +3667,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 480,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Nazirshail%20Rice%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 480,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Nazirshail%20Rice%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3707,14 +3707,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3734,20 +3734,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 535,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 535,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3774,14 +3774,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3801,20 +3801,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 990,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 990,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3841,14 +3841,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3868,20 +3868,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 190,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 190,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3908,14 +3908,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -3935,20 +3935,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 370,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 370,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -3975,14 +3975,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4002,20 +4002,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 190,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 190,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4042,14 +4042,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4069,20 +4069,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 370,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 370,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4109,14 +4109,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4136,20 +4136,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rupchanda%20Chinigura%20Premium%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 175,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rupchanda%20Chinigura%20Premium%20Aromatic%20Rice%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rupchanda%20Chinigura%20Premium%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 175,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rupchanda%20Chinigura%20Premium%20Aromatic%20Rice%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rupchanda%20Chinigura%20Premium%20Aromatic%20Rice%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4176,14 +4176,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4203,20 +4203,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 910,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 910,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4243,14 +4243,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4270,20 +4270,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 459,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 459,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4310,14 +4310,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4337,20 +4337,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Shugondhi%20Kataribhog%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 800,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Shugondhi%20Kataribhog%20Rice%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Shugondhi%20Kataribhog%20Rice%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 800,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Shugondhi%20Kataribhog%20Rice%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Shugondhi%20Kataribhog%20Rice%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4377,14 +4377,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4404,20 +4404,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 480,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 480,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4444,14 +4444,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4471,20 +4471,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 295,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 295,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4511,14 +4511,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4538,20 +4538,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 2625,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 2625,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4578,14 +4578,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4605,20 +4605,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 489,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 489,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4645,14 +4645,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4672,20 +4672,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Aroma%20Premium%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 480,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Aroma%20Premium%20Basmati%20Rice%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Aroma%20Premium%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 480,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Aroma%20Premium%20Basmati%20Rice%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Aroma%20Premium%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4712,14 +4712,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4739,20 +4739,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 595,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 595,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4779,14 +4779,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4806,20 +4806,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 355,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 355,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4846,14 +4846,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4873,20 +4873,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kaalar%20Premium%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 355,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kaalar%20Premium%20Basmati%20Rice%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kaalar%20Premium%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 355,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kaalar%20Premium%20Basmati%20Rice%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kaalar%20Premium%20Basmati%20Rice%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4913,14 +4913,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -4940,20 +4940,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Qilla%20Excel%20Basmati%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 385,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Qilla%20Excel%20Basmati%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Qilla%20Excel%20Basmati%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 385,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Qilla%20Excel%20Basmati%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Qilla%20Excel%20Basmati%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -4980,14 +4980,14 @@ export const PRODUCTS = [
         "badge": "৳12 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5007,20 +5007,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Moshur%20Dal%20(Deshi)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 174,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Moshur%20Dal%20(Deshi)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Moshur%20Dal%20(Deshi)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 170,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Moshur%20Dal%20(Deshi)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Moshur%20Dal%20(Deshi)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -5047,14 +5047,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5074,20 +5074,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 185,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 185,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -5114,14 +5114,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5141,20 +5141,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -5181,14 +5181,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5208,20 +5208,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -5248,14 +5248,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5275,20 +5275,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -5315,14 +5315,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5342,20 +5342,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 95,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 95,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -5382,14 +5382,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5409,20 +5409,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Moshur%20Dal%20(Imported)%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 55,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Moshur%20Dal%20(Imported)%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Moshur%20Dal%20(Imported)%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 55,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Moshur%20Dal%20(Imported)%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Moshur%20Dal%20(Imported)%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -5449,14 +5449,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5476,20 +5476,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mug%20Dal%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 45,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mug%20Dal%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mug%20Dal%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 45,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mug%20Dal%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mug%20Dal%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -5516,14 +5516,14 @@ export const PRODUCTS = [
         "badge": "৳21 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5543,20 +5543,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Khichuri%20Essential%C2%A0Combo",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 215,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Khichuri%20Essential%C2%A0Combo",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Khichuri%20Essential%C2%A0Combo",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 208,
         "inStock": true,
         "discountText": "৳16 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Khichuri%20Essential%C2%A0Combo",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Khichuri%20Essential%C2%A0Combo",
         "isVerifiedLive": true
       }
     }
@@ -5583,14 +5583,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5610,20 +5610,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 179,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 179,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -5650,14 +5650,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5677,20 +5677,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mashkolai%20Dal%20Peeled%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 95,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mashkolai%20Dal%20Peeled%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mashkolai%20Dal%20Peeled%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 95,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mashkolai%20Dal%20Peeled%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mashkolai%20Dal%20Peeled%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -5717,14 +5717,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5744,20 +5744,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Everest%20Chhole%20Masala%2050%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 125,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Everest%20Chhole%20Masala%2050%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Everest%20Chhole%20Masala%2050%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 125,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Everest%20Chhole%20Masala%2050%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Everest%20Chhole%20Masala%2050%20gm",
         "isVerifiedLive": true
       }
     }
@@ -5784,14 +5784,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5811,20 +5811,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Boot%20Dal%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 59,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Boot%20Dal%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Boot%20Dal%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 59,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Boot%20Dal%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Boot%20Dal%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -5851,14 +5851,14 @@ export const PRODUCTS = [
         "badge": "৳6 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5878,20 +5878,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 72,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 70,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -5918,14 +5918,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -5945,20 +5945,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -5985,14 +5985,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6012,20 +6012,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -6052,14 +6052,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6079,20 +6079,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Teer%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 130,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Flour%20(Atta)%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Teer%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 130,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Teer%20Flour%20(Atta)%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Teer%20Flour%20(Atta)%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -6119,14 +6119,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6146,20 +6146,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 70,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 70,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -6186,14 +6186,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6213,20 +6213,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -6253,14 +6253,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6280,20 +6280,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 70,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 70,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
         "isVerifiedLive": true
       }
     }
@@ -6320,14 +6320,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6347,20 +6347,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6387,14 +6387,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6414,20 +6414,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6454,14 +6454,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6481,20 +6481,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6521,14 +6521,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6548,20 +6548,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 210,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 210,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6588,14 +6588,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6615,20 +6615,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 90,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 90,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6655,14 +6655,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6682,20 +6682,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 450,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 450,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6722,14 +6722,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6749,20 +6749,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 48,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Suji%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 48,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Suji%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Suji%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6789,14 +6789,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6816,20 +6816,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Suji%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 25,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Suji%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Suji%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 25,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Suji%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Suji%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6856,14 +6856,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6883,20 +6883,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Lachcha%20Semai%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 55,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Lachcha%20Semai%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Lachcha%20Semai%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 55,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Lachcha%20Semai%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Lachcha%20Semai%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6923,14 +6923,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -6950,20 +6950,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Vermicelli%20(Shemai)%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 40,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Vermicelli%20(Shemai)%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Vermicelli%20(Shemai)%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 40,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Vermicelli%20(Shemai)%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Vermicelli%20(Shemai)%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -6990,14 +6990,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7017,20 +7017,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Teer%20Semolina%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 48,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Semolina%20Suji%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Teer%20Semolina%20Suji%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 48,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Teer%20Semolina%20Suji%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Teer%20Semolina%20Suji%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7057,14 +7057,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7084,20 +7084,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 72,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 72,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7124,14 +7124,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7151,20 +7151,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 770,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 770,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -7191,14 +7191,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7218,20 +7218,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 400,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 400,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7258,14 +7258,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7285,20 +7285,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 480,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 480,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7325,14 +7325,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7352,20 +7352,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 950,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 950,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -7392,14 +7392,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7419,20 +7419,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 425,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 425,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7459,14 +7459,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7486,20 +7486,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 360,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 360,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7526,14 +7526,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7553,20 +7553,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 950,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 950,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -7593,14 +7593,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7620,20 +7620,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 950,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 950,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -7660,14 +7660,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7687,20 +7687,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Danish%20Condensed%20Filled%20Milk%20397%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 105,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Condensed%20Filled%20Milk%20397%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Danish%20Condensed%20Filled%20Milk%20397%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 105,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Danish%20Condensed%20Filled%20Milk%20397%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Danish%20Condensed%20Filled%20Milk%20397%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7727,14 +7727,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7754,20 +7754,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Starship%20Condensed%20Milk%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 105,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Starship%20Condensed%20Milk%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Starship%20Condensed%20Milk%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 105,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Starship%20Condensed%20Milk%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Starship%20Condensed%20Milk%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7794,14 +7794,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7821,20 +7821,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Puck%20Sterilized%20Cream%20160%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 239,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Puck%20Sterilized%20Cream%20160%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Puck%20Sterilized%20Cream%20160%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 239,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Puck%20Sterilized%20Cream%20160%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Puck%20Sterilized%20Cream%20160%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7861,14 +7861,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7888,20 +7888,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=No%201.%20Condensed%20Milk%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 105,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=No%201.%20Condensed%20Milk%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=No%201.%20Condensed%20Milk%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 105,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=No%201.%20Condensed%20Milk%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=No%201.%20Condensed%20Milk%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7928,14 +7928,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -7955,20 +7955,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 360,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 360,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -7995,14 +7995,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8022,20 +8022,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 340,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 340,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -8062,14 +8062,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8089,20 +8089,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 105,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 105,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -8129,14 +8129,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8156,20 +8156,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -8196,14 +8196,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8223,20 +8223,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -8263,14 +8263,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8290,20 +8290,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 255,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 255,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -8330,14 +8330,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8357,20 +8357,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -8397,14 +8397,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8424,20 +8424,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -8464,14 +8464,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8491,20 +8491,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -8531,14 +8531,14 @@ export const PRODUCTS = [
         "badge": "৳22 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8558,20 +8558,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 346,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 339,
         "inStock": true,
         "discountText": "৳16 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -8598,14 +8598,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8625,20 +8625,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 359,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 359,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -8665,14 +8665,14 @@ export const PRODUCTS = [
         "badge": "৳16 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8692,20 +8692,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 338,
         "inStock": true,
         "discountText": "৳7 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 333,
         "inStock": true,
         "discountText": "৳12 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -8732,14 +8732,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8759,20 +8759,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 489,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 489,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
         "isVerifiedLive": true
       }
     }
@@ -8799,14 +8799,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8826,20 +8826,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 199,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 199,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -8866,14 +8866,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8893,20 +8893,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 635,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 635,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -8933,14 +8933,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -8960,20 +8960,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 135,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 135,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -9000,14 +9000,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9027,20 +9027,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 69,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 69,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -9067,14 +9067,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9094,20 +9094,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Amul%20Butter%20Unsalted%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 800,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Amul%20Butter%20Unsalted%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Amul%20Butter%20Unsalted%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 800,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Amul%20Butter%20Unsalted%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Amul%20Butter%20Unsalted%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9134,14 +9134,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9161,20 +9161,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Amul%20Butter%20Salted%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Amul%20Butter%20Salted%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Amul%20Butter%20Salted%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Amul%20Butter%20Salted%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Amul%20Butter%20Salted%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9201,14 +9201,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9228,20 +9228,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lurpak%20Butter%20Salted%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 635,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lurpak%20Butter%20Salted%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lurpak%20Butter%20Salted%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 635,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lurpak%20Butter%20Salted%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lurpak%20Butter%20Salted%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9268,14 +9268,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9295,20 +9295,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lurpak%20Butter%20Unsalted%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 880,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lurpak%20Butter%20Unsalted%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lurpak%20Butter%20Unsalted%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 880,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lurpak%20Butter%20Unsalted%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lurpak%20Butter%20Unsalted%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9335,14 +9335,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9362,20 +9362,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Butter%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 270,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Butter%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Dairy%20Butter%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 270,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Butter%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Butter%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9402,14 +9402,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9429,20 +9429,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Anchor%20Unsalted%20Butter%20227%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 500,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Anchor%20Unsalted%20Butter%20227%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Anchor%20Unsalted%20Butter%20227%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 500,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Anchor%20Unsalted%20Butter%20227%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Anchor%20Unsalted%20Butter%20227%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9469,14 +9469,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9496,20 +9496,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Philadelphia%20Cream%20Cheese%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 750,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Philadelphia%20Cream%20Cheese%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Philadelphia%20Cream%20Cheese%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 750,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Philadelphia%20Cream%20Cheese%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Philadelphia%20Cream%20Cheese%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9536,14 +9536,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9563,20 +9563,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Puck%20Cream%20Cheese%20Spread%20140%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 399,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Puck%20Cream%20Cheese%20Spread%20140%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Puck%20Cream%20Cheese%20Spread%20140%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 399,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Puck%20Cream%20Cheese%20Spread%20140%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Puck%20Cream%20Cheese%20Spread%20140%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9603,14 +9603,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9630,20 +9630,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Anchor%20White%20Cheddar%20Block%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 555,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Anchor%20White%20Cheddar%20Block%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Anchor%20White%20Cheddar%20Block%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 555,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Anchor%20White%20Cheddar%20Block%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Anchor%20White%20Cheddar%20Block%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9670,14 +9670,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9697,20 +9697,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1290,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1290,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9737,14 +9737,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9764,20 +9764,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 460,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 460,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9804,14 +9804,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9831,20 +9831,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Almarai%20Cream%20Cheese%20108%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 290,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Almarai%20Cream%20Cheese%20108%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Almarai%20Cream%20Cheese%20108%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 290,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Almarai%20Cream%20Cheese%20108%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Almarai%20Cream%20Cheese%20108%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9871,14 +9871,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9898,20 +9898,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Refined%20Sugar%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 55,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Refined%20Sugar%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Refined%20Sugar%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 55,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Refined%20Sugar%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Refined%20Sugar%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -9938,14 +9938,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -9965,20 +9965,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Starship%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Starship%20Refined%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Starship%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Starship%20Refined%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Starship%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -10005,14 +10005,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10032,20 +10032,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 135,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 135,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -10072,14 +10072,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10099,20 +10099,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Loose%20White%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 109,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Loose%20White%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Loose%20White%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 109,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Loose%20White%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Loose%20White%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -10139,14 +10139,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10166,20 +10166,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Sugar%20Sachet%20Box%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 55,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Sugar%20Sachet%20Box%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Sugar%20Sachet%20Box%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 55,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Sugar%20Sachet%20Box%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Sugar%20Sachet%20Box%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -10206,14 +10206,14 @@ export const PRODUCTS = [
         "badge": "৳37 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10233,20 +10233,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sis%20White%20Icing%20Sugar%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 405,
         "inStock": true,
         "discountText": "৳15 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sis%20White%20Icing%20Sugar%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sis%20White%20Icing%20Sugar%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 393,
         "inStock": true,
         "discountText": "৳27 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sis%20White%20Icing%20Sugar%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sis%20White%20Icing%20Sugar%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -10273,14 +10273,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10300,20 +10300,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=O'Natural%20Brown%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=O'Natural%20Brown%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=O'Natural%20Brown%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=O'Natural%20Brown%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=O'Natural%20Brown%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -10340,14 +10340,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10367,20 +10367,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -10407,14 +10407,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10434,20 +10434,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
         "isVerifiedLive": true
       }
     }
@@ -10474,14 +10474,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10501,20 +10501,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 479,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mitr%20Phol%20Natural%20Cane%20Brown%20%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mitr%20Phol%20Natural%20Cane%20Brown%20%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 479,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mitr%20Phol%20Natural%20Cane%20Brown%20%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -10541,14 +10541,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10568,20 +10568,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm%20",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 269,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm%20",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm%20",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 269,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm%20",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm%20",
         "isVerifiedLive": true
       }
     }
@@ -10608,14 +10608,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10635,20 +10635,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 38,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 38,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -10675,14 +10675,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10702,20 +10702,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 125,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 125,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -10742,14 +10742,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10769,20 +10769,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 42,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Iodized%20Salt%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 42,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Iodized%20Salt%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -10809,14 +10809,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10836,20 +10836,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 55,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 55,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -10876,14 +10876,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10903,20 +10903,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -10943,14 +10943,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -10970,20 +10970,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Saad%20Tasting%20Salt%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Saad%20Tasting%20Salt%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Saad%20Tasting%20Salt%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Saad%20Tasting%20Salt%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Saad%20Tasting%20Salt%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11010,14 +11010,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11037,20 +11037,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 42,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 42,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -11077,14 +11077,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11104,20 +11104,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Super%20Premium%20Salt%20Jar%20750%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 35,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Super%20Premium%20Salt%20Jar%20750%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Super%20Premium%20Salt%20Jar%20750%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 35,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Super%20Premium%20Salt%20Jar%20750%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Super%20Premium%20Salt%20Jar%20750%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11144,14 +11144,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11171,20 +11171,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Molla%20Super%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 42,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Molla%20Super%20Salt%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Molla%20Super%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 42,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Molla%20Super%20Salt%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Molla%20Super%20Salt%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -11211,14 +11211,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11238,20 +11238,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 280,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 280,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11278,14 +11278,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11305,20 +11305,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 280,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 280,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11345,14 +11345,14 @@ export const PRODUCTS = [
         "badge": "৳14 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11372,20 +11372,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 144,
         "inStock": true,
         "discountText": "৳6 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "৳10 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11412,14 +11412,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11439,20 +11439,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 425,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 425,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11479,14 +11479,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11506,20 +11506,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 80,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 80,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11546,14 +11546,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11573,20 +11573,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11613,14 +11613,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11640,20 +11640,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11680,14 +11680,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11707,20 +11707,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11747,14 +11747,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11774,20 +11774,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11814,14 +11814,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11841,20 +11841,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 85,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 85,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11881,14 +11881,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11908,20 +11908,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 310,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 310,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -11948,14 +11948,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -11975,20 +11975,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 880,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 880,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -12015,14 +12015,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12042,20 +12042,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 550,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 550,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -12082,14 +12082,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12109,20 +12109,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1099,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1099,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -12149,14 +12149,14 @@ export const PRODUCTS = [
         "badge": "৳7 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12176,20 +12176,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Quail%20Meat%202%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 157,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Quail%20Meat%202%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Quail%20Meat%202%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 155,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Quail%20Meat%202%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Quail%20Meat%202%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -12216,14 +12216,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12243,20 +12243,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mutton%20Head%20Meat%20Regular%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 639,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mutton%20Head%20Meat%20Regular%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mutton%20Head%20Meat%20Regular%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 639,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mutton%20Head%20Meat%20Regular%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mutton%20Head%20Meat%20Regular%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -12283,14 +12283,14 @@ export const PRODUCTS = [
         "badge": "৳144 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12310,20 +12310,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 979,
         "inStock": true,
         "discountText": "৳60 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 931,
         "inStock": true,
         "discountText": "৳108 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -12350,14 +12350,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12377,20 +12377,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 520,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 520,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12417,14 +12417,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12444,20 +12444,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 250,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 250,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12484,14 +12484,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12511,20 +12511,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 260,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 260,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12551,14 +12551,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12578,20 +12578,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 400,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 400,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12618,14 +12618,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12645,20 +12645,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 290,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 290,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12685,14 +12685,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12712,20 +12712,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 305,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 305,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12752,14 +12752,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12779,20 +12779,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Biryani%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Biryani%20Masala%2040%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Biryani%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Biryani%20Masala%2040%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Biryani%20Masala%2040%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12819,14 +12819,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12846,20 +12846,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 70,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 70,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12886,14 +12886,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12913,20 +12913,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 90,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 90,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
         "isVerifiedLive": true
       }
     }
@@ -12953,14 +12953,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -12980,20 +12980,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Garam%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 95,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Garam%20Masala%2040%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Garam%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 95,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Garam%20Masala%2040%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Garam%20Masala%2040%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13020,14 +13020,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13047,20 +13047,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Chotpoti%20Masala%2050%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Chotpoti%20Masala%2050%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Chotpoti%20Masala%2050%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Chotpoti%20Masala%2050%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Chotpoti%20Masala%2050%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13087,14 +13087,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13114,20 +13114,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Roast%20Masala%2035%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 65,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Roast%20Masala%2035%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Roast%20Masala%2035%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 65,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Roast%20Masala%2035%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Roast%20Masala%2035%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13154,14 +13154,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13181,20 +13181,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20(Jar)%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 290,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20(Jar)%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20(Jar)%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 290,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20(Jar)%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20(Jar)%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13221,14 +13221,14 @@ export const PRODUCTS = [
         "badge": "৳7 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13248,20 +13248,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 47,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 45,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -13288,14 +13288,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13315,20 +13315,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 85,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 85,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -13355,14 +13355,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13382,20 +13382,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 25,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 25,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13422,14 +13422,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13449,20 +13449,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 45,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 45,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13489,14 +13489,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13516,20 +13516,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 99,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 99,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13556,14 +13556,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13583,20 +13583,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Potato%20Regular%20(%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 29,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Potato%20Regular%20(%C2%B1%2050%20gm)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Potato%20Regular%20(%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 29,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Potato%20Regular%20(%C2%B1%2050%20gm)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Potato%20Regular%20(%C2%B1%2050%20gm)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -13623,14 +13623,14 @@ export const PRODUCTS = [
         "badge": "৳3 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13650,20 +13650,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Potato%20Regular%20(%C2%B1%2025%20gm)%20600%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 19,
         "inStock": true,
         "discountText": "৳1 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Potato%20Regular%20(%C2%B1%2025%20gm)%20600%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Potato%20Regular%20(%C2%B1%2025%20gm)%20600%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 18,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Potato%20Regular%20(%C2%B1%2025%20gm)%20600%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Potato%20Regular%20(%C2%B1%2025%20gm)%20600%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13690,14 +13690,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13717,20 +13717,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 29,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 29,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -13757,14 +13757,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13784,20 +13784,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 29,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 29,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -13824,14 +13824,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13851,20 +13851,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 59,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 59,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13891,14 +13891,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13918,20 +13918,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 29,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 29,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -13958,14 +13958,14 @@ export const PRODUCTS = [
         "badge": "৳18 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -13985,20 +13985,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 101,
         "inStock": true,
         "discountText": "৳8 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 95,
         "inStock": true,
         "discountText": "৳14 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14025,14 +14025,14 @@ export const PRODUCTS = [
         "badge": "৳2 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14052,20 +14052,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 58,
         "inStock": true,
         "discountText": "৳1 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 57,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14092,14 +14092,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14119,20 +14119,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 399,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 399,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -14159,14 +14159,14 @@ export const PRODUCTS = [
         "badge": "৳10 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14186,20 +14186,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 51,
         "inStock": true,
         "discountText": "৳4 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 48,
         "inStock": true,
         "discountText": "৳7 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14226,14 +14226,14 @@ export const PRODUCTS = [
         "badge": "৳4 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14253,20 +14253,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 33,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 32,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14293,14 +14293,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14320,20 +14320,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 20,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 20,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14360,14 +14360,14 @@ export const PRODUCTS = [
         "badge": "৳14 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14387,20 +14387,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 103,
         "inStock": true,
         "discountText": "৳6 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 98,
         "inStock": true,
         "discountText": "৳11 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14427,14 +14427,14 @@ export const PRODUCTS = [
         "badge": "৳18 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14454,20 +14454,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 111,
         "inStock": true,
         "discountText": "৳8 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 105,
         "inStock": true,
         "discountText": "৳14 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14494,14 +14494,14 @@ export const PRODUCTS = [
         "badge": "৳12 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14521,20 +14521,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 56,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14561,14 +14561,14 @@ export const PRODUCTS = [
         "badge": "৳6 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14588,20 +14588,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 52,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14628,14 +14628,14 @@ export const PRODUCTS = [
         "badge": "৳61 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14655,20 +14655,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 865,
         "inStock": true,
         "discountText": "৳25 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 845,
         "inStock": true,
         "discountText": "৳45 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -14695,14 +14695,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14722,20 +14722,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Tomato%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 125,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Tomato%20Sauce%20340%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Tomato%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 125,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Tomato%20Sauce%20340%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Tomato%20Sauce%20340%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14762,14 +14762,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14789,20 +14789,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Tomato%20Sauce%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 320,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Tomato%20Sauce%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Tomato%20Sauce%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 320,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Tomato%20Sauce%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Tomato%20Sauce%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -14829,14 +14829,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14856,20 +14856,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 125,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 125,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
         "isVerifiedLive": true
       }
     }
@@ -14896,14 +14896,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14923,20 +14923,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 30,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 30,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -14963,14 +14963,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -14990,20 +14990,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15030,14 +15030,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15057,20 +15057,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 80,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 80,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15097,14 +15097,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15124,20 +15124,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 89,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 89,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15164,14 +15164,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15191,20 +15191,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 39,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 39,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15231,14 +15231,14 @@ export const PRODUCTS = [
         "badge": "৳9 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15258,20 +15258,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 126,
         "inStock": true,
         "discountText": "৳4 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 123,
         "inStock": true,
         "discountText": "৳7 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15298,14 +15298,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15325,20 +15325,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Green%20Chilli%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 130,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Green%20Chilli%20Sauce%20340%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Green%20Chilli%20Sauce%20340%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 130,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Green%20Chilli%20Sauce%20340%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Green%20Chilli%20Sauce%20340%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15365,14 +15365,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15392,20 +15392,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15432,14 +15432,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15459,20 +15459,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15499,14 +15499,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15526,20 +15526,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 120,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 120,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -15566,14 +15566,14 @@ export const PRODUCTS = [
         "badge": "৳6 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15593,20 +15593,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 36,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 34,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -15633,14 +15633,14 @@ export const PRODUCTS = [
         "badge": "৳8 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15660,20 +15660,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 45,
         "inStock": true,
         "discountText": "৳4 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 43,
         "inStock": true,
         "discountText": "৳6 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -15700,14 +15700,14 @@ export const PRODUCTS = [
         "badge": "৳12 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15727,20 +15727,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 44,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 40,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -15767,14 +15767,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15794,20 +15794,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 70,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 70,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
         "isVerifiedLive": true
       }
     }
@@ -15834,14 +15834,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15861,20 +15861,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 40,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 40,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15901,14 +15901,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15928,20 +15928,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 39,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 39,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -15968,14 +15968,14 @@ export const PRODUCTS = [
         "badge": "৳6 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -15995,20 +15995,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 42,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 40,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16035,14 +16035,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16062,20 +16062,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16102,14 +16102,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16129,20 +16129,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16169,14 +16169,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16196,20 +16196,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -16236,14 +16236,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16263,20 +16263,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 650,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 650,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
         "isVerifiedLive": true
       }
     }
@@ -16303,14 +16303,14 @@ export const PRODUCTS = [
         "badge": "৳7 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16330,20 +16330,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 57,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 55,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16370,14 +16370,14 @@ export const PRODUCTS = [
         "badge": "৳13 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16397,20 +16397,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 115,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 111,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16437,14 +16437,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16464,20 +16464,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16504,14 +16504,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16531,20 +16531,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 425,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 425,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16571,14 +16571,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16598,20 +16598,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Prosperity%20Carrot%20Noodles%20454%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 390,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Prosperity%20Carrot%20Noodles%20454%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Prosperity%20Carrot%20Noodles%20454%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 390,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Prosperity%20Carrot%20Noodles%20454%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Prosperity%20Carrot%20Noodles%20454%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16638,14 +16638,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16665,20 +16665,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 105,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 105,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16705,14 +16705,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16732,20 +16732,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 209,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 209,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16772,14 +16772,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16799,20 +16799,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 10,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 10,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
         "isVerifiedLive": true
       }
     }
@@ -16839,14 +16839,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16866,20 +16866,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 479,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 479,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -16906,14 +16906,14 @@ export const PRODUCTS = [
         "badge": "৳4 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -16933,20 +16933,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Anaros%20(Pineapple)%201%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 83,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Anaros%20(Pineapple)%201%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Anaros%20(Pineapple)%201%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 82,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Anaros%20(Pineapple)%201%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Anaros%20(Pineapple)%201%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -16973,14 +16973,14 @@ export const PRODUCTS = [
         "badge": "৳31 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17000,20 +17000,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bel%20(Wood%20Apple)%201%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 187,
         "inStock": true,
         "discountText": "৳13 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bel%20(Wood%20Apple)%201%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bel%20(Wood%20Apple)%201%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 177,
         "inStock": true,
         "discountText": "৳23 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bel%20(Wood%20Apple)%201%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bel%20(Wood%20Apple)%201%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -17040,14 +17040,14 @@ export const PRODUCTS = [
         "badge": "৳3 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17067,20 +17067,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 59,
         "inStock": true,
         "discountText": "৳1 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 58,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -17107,14 +17107,14 @@ export const PRODUCTS = [
         "badge": "৳10 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17134,20 +17134,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 41,
         "inStock": true,
         "discountText": "৳4 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 38,
         "inStock": true,
         "discountText": "৳7 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -17174,14 +17174,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17201,20 +17201,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Banana%20Sobri%204%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 55,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Banana%20Sobri%204%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Banana%20Sobri%204%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 55,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Banana%20Sobri%204%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Banana%20Sobri%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -17241,14 +17241,14 @@ export const PRODUCTS = [
         "badge": "৳6 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17268,20 +17268,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 62,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -17308,14 +17308,14 @@ export const PRODUCTS = [
         "badge": "৳12 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17335,20 +17335,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 56,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -17375,14 +17375,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17402,20 +17402,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 35,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 35,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -17442,14 +17442,14 @@ export const PRODUCTS = [
         "badge": "৳4 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17469,20 +17469,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Moshur%20Dal%20(Imported)%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 113,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Moshur%20Dal%20(Imported)%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Moshur%20Dal%20(Imported)%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 112,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Moshur%20Dal%20(Imported)%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Moshur%20Dal%20(Imported)%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -17509,14 +17509,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17536,20 +17536,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Malta%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 319,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Malta%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Malta%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 319,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Malta%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Malta%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -17576,14 +17576,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17603,20 +17603,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 159,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 159,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -17643,14 +17643,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17670,20 +17670,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 270,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 270,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
         "isVerifiedLive": true
       }
     }
@@ -17710,14 +17710,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17737,20 +17737,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 289,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 289,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -17777,14 +17777,14 @@ export const PRODUCTS = [
         "badge": "৳6 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17804,20 +17804,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 56,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 54,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -17844,14 +17844,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17871,20 +17871,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20pack",
         "isVerifiedLive": true
       }
     }
@@ -17911,14 +17911,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -17938,20 +17938,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016%20pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 340,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016%20pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016%20pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 340,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016%20pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016%20pack",
         "isVerifiedLive": true
       }
     }
@@ -17978,14 +17978,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18005,20 +18005,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 95,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 95,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20pack",
         "isVerifiedLive": true
       }
     }
@@ -18045,14 +18045,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18072,20 +18072,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012%20pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 265,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012%20pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012%20pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 265,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012%20pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012%20pack",
         "isVerifiedLive": true
       }
     }
@@ -18112,14 +18112,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18139,20 +18139,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012%20pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 265,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012%20pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012%20pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 265,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012%20pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012%20pack",
         "isVerifiedLive": true
       }
     }
@@ -18179,14 +18179,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18206,20 +18206,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012%20Pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 265,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012%20Pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012%20Pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 265,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012%20Pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012%20Pack",
         "isVerifiedLive": true
       }
     }
@@ -18246,14 +18246,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18273,20 +18273,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 170,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 170,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
         "isVerifiedLive": true
       }
     }
@@ -18313,14 +18313,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18340,20 +18340,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 35,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 35,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
         "isVerifiedLive": true
       }
     }
@@ -18380,14 +18380,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18407,20 +18407,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 90,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 90,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
         "isVerifiedLive": true
       }
     }
@@ -18447,14 +18447,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18474,20 +18474,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20%20(Box%20Free)%C2%A0496%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 145,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20%20(Box%20Free)%C2%A0496%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20%20(Box%20Free)%C2%A0496%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 145,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20%20(Box%20Free)%C2%A0496%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20%20(Box%20Free)%C2%A0496%20gm",
         "isVerifiedLive": true
       }
     }
@@ -18514,14 +18514,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18541,20 +18541,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 145,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 145,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
         "isVerifiedLive": true
       }
     }
@@ -18581,14 +18581,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18608,20 +18608,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 25,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 25,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -18648,14 +18648,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18675,20 +18675,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 95,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 95,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
         "isVerifiedLive": true
       }
     }
@@ -18715,14 +18715,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18742,20 +18742,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20Pack%20496%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 175,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20Pack%20496%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20Pack%20496%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 175,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20Pack%20496%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20Pack%20496%20gm",
         "isVerifiedLive": true
       }
     }
@@ -18782,14 +18782,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18809,20 +18809,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pack",
         "isVerifiedLive": true
       }
     }
@@ -18849,14 +18849,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18876,20 +18876,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Instant%20Noodles%20Masala%20Blast%208%20pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 165,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Instant%20Noodles%20Masala%20Blast%208%20pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Instant%20Noodles%20Masala%20Blast%208%20pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 165,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Instant%20Noodles%20Masala%20Blast%208%20pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Instant%20Noodles%20Masala%20Blast%208%20pack",
         "isVerifiedLive": true
       }
     }
@@ -18916,14 +18916,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -18943,20 +18943,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box%201%20pcs)%208%20pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box%201%20pcs)%208%20pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box%201%20pcs)%208%20pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box%201%20pcs)%208%20pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box%201%20pcs)%208%20pack",
         "isVerifiedLive": true
       }
     }
@@ -18983,14 +18983,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19010,20 +19010,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Doodles%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Doodles%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Doodles%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Doodles%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Doodles%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -19050,14 +19050,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19077,20 +19077,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cocola%20Egg%20Noodles%20125%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 20,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cocola%20Egg%20Noodles%20125%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cocola%20Egg%20Noodles%20125%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 20,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cocola%20Egg%20Noodles%20125%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cocola%20Egg%20Noodles%20125%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19117,14 +19117,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19144,20 +19144,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 25,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 25,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19184,14 +19184,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19211,20 +19211,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cocola%20Egg%20%20%26%20Chicken%20Noodles%20Box%20300%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 45,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cocola%20Egg%20%20%26%20Chicken%20Noodles%20Box%20300%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cocola%20Egg%20%20%26%20Chicken%20Noodles%20Box%20300%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 45,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cocola%20Egg%20%20%26%20Chicken%20Noodles%20Box%20300%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cocola%20Egg%20%20%26%20Chicken%20Noodles%20Box%20300%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19251,14 +19251,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19278,20 +19278,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19318,14 +19318,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19345,20 +19345,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 25,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 25,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19385,14 +19385,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19412,20 +19412,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19452,14 +19452,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19479,20 +19479,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 116,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 116,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19519,14 +19519,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19546,20 +19546,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 270,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 270,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19586,14 +19586,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19613,20 +19613,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 230,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 230,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19653,14 +19653,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19680,20 +19680,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%C2%A0Mirzapore%20Best%20Leaf%20Tea%20(Jar)%20350%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 220,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%C2%A0Mirzapore%20Best%20Leaf%20Tea%20(Jar)%20350%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%C2%A0Mirzapore%20Best%20Leaf%20Tea%20(Jar)%20350%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 220,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%C2%A0Mirzapore%20Best%20Leaf%20Tea%20(Jar)%20350%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%C2%A0Mirzapore%20Best%20Leaf%20Tea%20(Jar)%20350%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19720,14 +19720,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19747,20 +19747,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20(Free%20Ispahani%20Premium%20Toast%20250%20gm)%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 210,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20(Free%20Ispahani%20Premium%20Toast%20250%20gm)%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20(Free%20Ispahani%20Premium%20Toast%20250%20gm)%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 210,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20(Free%20Ispahani%20Premium%20Toast%20250%20gm)%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20(Free%20Ispahani%20Premium%20Toast%20250%20gm)%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19787,14 +19787,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19814,20 +19814,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 420,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 420,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -19854,14 +19854,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19881,20 +19881,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 130,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 130,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19921,14 +19921,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -19948,20 +19948,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 250,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 250,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -19988,14 +19988,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20015,20 +20015,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dr.%20H%26H%20Zeera%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 175,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dr.%20H%26H%20Zeera%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dr.%20H%26H%20Zeera%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 175,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dr.%20H%26H%20Zeera%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dr.%20H%26H%20Zeera%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20055,14 +20055,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20082,20 +20082,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dr.%20H%26H%20Mint%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 175,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dr.%20H%26H%20Mint%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dr.%20H%26H%20Mint%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 175,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dr.%20H%26H%20Mint%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dr.%20H%26H%20Mint%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20122,14 +20122,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20149,20 +20149,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Premium%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 120,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Premium%20Black%20Tea%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Premium%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 120,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Premium%20Black%20Tea%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Premium%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20189,14 +20189,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20216,20 +20216,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Halda%20Valley%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 175,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Halda%20Valley%20Black%20Tea%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Halda%20Valley%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 175,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Halda%20Valley%20Black%20Tea%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Halda%20Valley%20Black%20Tea%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20256,14 +20256,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20283,20 +20283,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 275,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 275,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20323,14 +20323,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20350,20 +20350,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 475,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 475,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20390,14 +20390,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20417,20 +20417,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%20180%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 970,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%20180%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%20180%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 970,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%20180%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%20180%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20457,14 +20457,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20484,20 +20484,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2024%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 195,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2024%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2024%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 195,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2024%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2024%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20524,14 +20524,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20551,20 +20551,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Tin)%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 225,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Tin)%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Tin)%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 225,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Tin)%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Tin)%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20591,14 +20591,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20618,20 +20618,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Pouch%20Pack%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 950,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Pouch%20Pack%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Pouch%20Pack%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 950,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Pouch%20Pack%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Pouch%20Pack%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20658,14 +20658,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20685,20 +20685,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 375,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 375,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20725,14 +20725,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20752,20 +20752,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20792,14 +20792,14 @@ export const PRODUCTS = [
         "badge": "৳7 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20819,20 +20819,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cadbury%20Oreo%20Original%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 177,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cadbury%20Oreo%20Original%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cadbury%20Oreo%20Original%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 175,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cadbury%20Oreo%20Original%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cadbury%20Oreo%20Original%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20859,14 +20859,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20886,20 +20886,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 120,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 120,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20926,14 +20926,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -20953,20 +20953,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20pack%20420%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20pack%20420%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20pack%20420%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20pack%20420%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20pack%20420%20gm",
         "isVerifiedLive": true
       }
     }
@@ -20993,14 +20993,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21020,20 +21020,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 10,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 10,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21060,14 +21060,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21087,20 +21087,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21127,14 +21127,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21154,20 +21154,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21194,14 +21194,14 @@ export const PRODUCTS = [
         "badge": "৳2 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21221,20 +21221,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 58,
         "inStock": true,
         "discountText": "৳1 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 57,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21261,14 +21261,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21288,20 +21288,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 89,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 89,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21328,14 +21328,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21355,20 +21355,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 15,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 15,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21395,14 +21395,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21422,20 +21422,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21462,14 +21462,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21489,20 +21489,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 900,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 900,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21529,14 +21529,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21556,20 +21556,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 950,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 950,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21596,14 +21596,14 @@ export const PRODUCTS = [
         "badge": "৳60 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21623,20 +21623,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Horlicks%20Original%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1054,
         "inStock": true,
         "discountText": "৳25 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Horlicks%20Original%20Hot%20Malty%20Goodness%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Horlicks%20Original%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1034,
         "inStock": true,
         "discountText": "৳45 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Horlicks%20Original%20Hot%20Malty%20Goodness%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Horlicks%20Original%20Hot%20Malty%20Goodness%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21663,14 +21663,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21690,20 +21690,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 20,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 20,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21730,14 +21730,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21757,20 +21757,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21797,14 +21797,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21824,20 +21824,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 65,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 65,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21864,14 +21864,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21891,20 +21891,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 90,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 90,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21931,14 +21931,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -21958,20 +21958,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       }
     }
@@ -21998,14 +21998,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22025,20 +22025,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=BelleAme%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=BelleAme%20Toast%20Biscuit%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=BelleAme%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=BelleAme%20Toast%20Biscuit%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=BelleAme%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22065,14 +22065,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22092,20 +22092,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22132,14 +22132,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22159,20 +22159,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 20,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 20,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22199,14 +22199,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22226,20 +22226,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22266,14 +22266,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22293,20 +22293,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bombay%20Sweets%20Premium%20Roshogolla%20600%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 240,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bombay%20Sweets%20Premium%20Roshogolla%20600%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bombay%20Sweets%20Premium%20Roshogolla%20600%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 240,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bombay%20Sweets%20Premium%20Roshogolla%20600%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Premium%20Roshogolla%20600%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22333,14 +22333,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22360,20 +22360,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bombay%20Sweets%20Premium%20Gulab%20Jamun%20600%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 240,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bombay%20Sweets%20Premium%20Gulab%20Jamun%20600%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bombay%20Sweets%20Premium%20Gulab%20Jamun%20600%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 240,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bombay%20Sweets%20Premium%20Gulab%20Jamun%20600%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Premium%20Gulab%20Jamun%20600%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22400,14 +22400,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22427,20 +22427,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22467,14 +22467,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22494,20 +22494,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Premium%20Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 295,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Premium%20Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Premium%20Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 295,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Premium%20Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Premium%20Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22534,14 +22534,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22561,20 +22561,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 425,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 425,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22601,14 +22601,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22628,20 +22628,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22668,14 +22668,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22695,20 +22695,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20Jar%20750%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 780,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20Jar%20750%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20Jar%20750%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 780,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20Jar%20750%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20Jar%20750%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22735,14 +22735,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22762,20 +22762,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 950,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 950,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -22802,14 +22802,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22829,20 +22829,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 480,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 480,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -22869,14 +22869,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22896,20 +22896,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Jet%20Classic%20Detergent%20Powder%20Paper%20Pack%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 300,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Jet%20Classic%20Detergent%20Powder%20Paper%20Pack%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Jet%20Classic%20Detergent%20Powder%20Paper%20Pack%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 300,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Jet%20Classic%20Detergent%20Powder%20Paper%20Pack%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Jet%20Classic%20Detergent%20Powder%20Paper%20Pack%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -22936,14 +22936,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -22963,20 +22963,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Surf%20Excel%20Washing%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 120,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Surf%20Excel%20Washing%20Powder%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Surf%20Excel%20Washing%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 120,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Surf%20Excel%20Washing%20Powder%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Surf%20Excel%20Washing%20Powder%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -23003,14 +23003,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23030,20 +23030,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Surf%20Excel%20Washing%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 235,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Surf%20Excel%20Washing%20Powder%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Surf%20Excel%20Washing%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 235,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Surf%20Excel%20Washing%20Powder%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Surf%20Excel%20Washing%20Powder%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -23070,14 +23070,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23097,20 +23097,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 155,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 155,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -23137,14 +23137,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23164,20 +23164,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 80,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 80,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -23204,14 +23204,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23231,20 +23231,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 260,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 260,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -23271,14 +23271,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23298,20 +23298,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 280,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 280,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -23338,14 +23338,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23365,20 +23365,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 220,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 220,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -23405,14 +23405,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23432,20 +23432,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rin%20Advanced%20Detergent%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 195,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rin%20Advanced%20Detergent%20Powder%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rin%20Advanced%20Detergent%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 195,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rin%20Advanced%20Detergent%20Powder%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rin%20Advanced%20Detergent%20Powder%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -23472,14 +23472,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23499,20 +23499,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -23539,14 +23539,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23566,20 +23566,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rin%20Advanced%20Detergent%20Powder%202%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 370,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rin%20Advanced%20Detergent%20Powder%202%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rin%20Advanced%20Detergent%20Powder%202%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 370,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rin%20Advanced%20Detergent%20Powder%202%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rin%20Advanced%20Detergent%20Powder%202%20kg",
         "isVerifiedLive": true
       }
     }
@@ -23606,14 +23606,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23633,20 +23633,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 220,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 220,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
         "isVerifiedLive": true
       }
     }
@@ -23673,14 +23673,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23700,20 +23700,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ligion%20Neem%20Face%20Wash%2050%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ligion%20Neem%20Face%20Wash%2050%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ligion%20Neem%20Face%20Wash%2050%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ligion%20Neem%20Face%20Wash%2050%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ligion%20Neem%20Face%20Wash%2050%20ml",
         "isVerifiedLive": true
       }
     }
@@ -23740,14 +23740,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23767,20 +23767,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 265,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 265,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
         "isVerifiedLive": true
       }
     }
@@ -23807,14 +23807,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23834,20 +23834,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20Original%20750%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20Original%20750%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20Original%20750%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20Original%20750%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20Original%20750%20ml",
         "isVerifiedLive": true
       }
     }
@@ -23874,14 +23874,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23901,20 +23901,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20(Free%20Mug)%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 235,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20(Free%20Mug)%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20(Free%20Mug)%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 235,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20(Free%20Mug)%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20(Free%20Mug)%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -23941,14 +23941,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -23968,20 +23968,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 235,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Harpic%20Liquid%20Toilet%20Cleaner%20Original%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 235,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20Original%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -24008,14 +24008,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24035,20 +24035,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20500%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 135,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20500%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20500%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 135,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20500%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -24075,14 +24075,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24102,20 +24102,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20750%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20750%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20750%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20750%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20750%20ml",
         "isVerifiedLive": true
       }
     }
@@ -24142,14 +24142,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24169,20 +24169,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 185,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 185,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
         "isVerifiedLive": true
       }
     }
@@ -24209,14 +24209,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24236,20 +24236,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 105,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 105,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -24276,14 +24276,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24303,20 +24303,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 210,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 210,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -24343,14 +24343,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24370,20 +24370,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwashing%20Liquid%20Pouch%20200%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwashing%20Liquid%20Pouch%20200%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwashing%20Liquid%20Pouch%20200%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwashing%20Liquid%20Pouch%20200%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Liquid%20Pouch%20200%20ml",
         "isVerifiedLive": true
       }
     }
@@ -24410,14 +24410,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24437,20 +24437,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwashing%20Liquid%20950%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 240,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwashing%20Liquid%20950%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwashing%20Liquid%20950%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 240,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwashing%20Liquid%20950%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Liquid%20950%20ml",
         "isVerifiedLive": true
       }
     }
@@ -24477,14 +24477,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24504,20 +24504,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwashing%20Liquid%20475%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 130,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwashing%20Liquid%20475%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwashing%20Liquid%20475%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 130,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwashing%20Liquid%20475%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Liquid%20475%20ml",
         "isVerifiedLive": true
       }
     }
@@ -24544,14 +24544,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24571,20 +24571,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwash%20Liquid%20100%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 25,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwash%20Liquid%20100%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwash%20Liquid%20100%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 25,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwash%20Liquid%20100%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwash%20Liquid%20100%20ml",
         "isVerifiedLive": true
       }
     }
@@ -24611,14 +24611,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24638,20 +24638,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwashing%20Liquid%20Combo%20Pack",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 390,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwashing%20Liquid%20Combo%20Pack",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwashing%20Liquid%20Combo%20Pack",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 390,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwashing%20Liquid%20Combo%20Pack",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Liquid%20Combo%20Pack",
         "isVerifiedLive": true
       }
     }
@@ -24678,14 +24678,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24705,20 +24705,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwashing%20Bar%20300%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 40,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwashing%20Bar%20300%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwashing%20Bar%20300%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 40,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwashing%20Bar%20300%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Bar%20300%20gm",
         "isVerifiedLive": true
       }
     }
@@ -24745,14 +24745,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24772,20 +24772,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwashing%20Bar%20125%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 15,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwashing%20Bar%20125%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwashing%20Bar%20125%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 15,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwashing%20Bar%20125%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Bar%20125%20gm",
         "isVerifiedLive": true
       }
     }
@@ -24812,14 +24812,14 @@ export const PRODUCTS = [
         "badge": "৳7 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24839,20 +24839,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 37,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 35,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
         "isVerifiedLive": true
       }
     }
@@ -24879,14 +24879,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24906,20 +24906,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 35,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 35,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
         "isVerifiedLive": true
       }
     }
@@ -24946,14 +24946,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -24973,20 +24973,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Vim%20Dishwashing%20Bar%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 12,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Vim%20Dishwashing%20Bar%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Vim%20Dishwashing%20Bar%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 12,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Vim%20Dishwashing%20Bar%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Bar%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -25013,14 +25013,14 @@ export const PRODUCTS = [
         "badge": "৳2 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25040,20 +25040,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 14,
         "inStock": true,
         "discountText": "৳1 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 13,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -25080,14 +25080,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25107,20 +25107,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 300,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 300,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -25147,14 +25147,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25174,20 +25174,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -25214,14 +25214,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25241,20 +25241,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -25281,14 +25281,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25308,20 +25308,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 300,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 300,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -25348,14 +25348,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25375,20 +25375,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1250,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1250,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -25415,14 +25415,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25442,20 +25442,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1250,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1250,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -25482,14 +25482,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25509,20 +25509,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dettol%20Original%20Germ%20Defence%20Soap%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 80,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dettol%20Original%20Germ%20Defence%20Soap%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dettol%20Original%20Germ%20Defence%20Soap%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 80,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dettol%20Original%20Germ%20Defence%20Soap%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dettol%20Original%20Germ%20Defence%20Soap%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -25549,14 +25549,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25576,20 +25576,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dettol%20Bathing%20Soap%20Bar%20Original%2027%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 15,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dettol%20Bathing%20Soap%20Bar%20Original%2027%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dettol%20Bathing%20Soap%20Bar%20Original%2027%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 15,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dettol%20Bathing%20Soap%20Bar%20Original%2027%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dettol%20Bathing%20Soap%20Bar%20Original%2027%20gm",
         "isVerifiedLive": true
       }
     }
@@ -25616,14 +25616,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25643,20 +25643,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 65,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 65,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm",
         "isVerifiedLive": true
       }
     }
@@ -25683,14 +25683,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25710,20 +25710,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 40,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 40,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
         "isVerifiedLive": true
       }
     }
@@ -25750,14 +25750,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25777,20 +25777,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dettol%20Bathing%20Soap%20(Original%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 260,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dettol%20Bathing%20Soap%20(Original%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dettol%20Bathing%20Soap%20(Original%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 260,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dettol%20Bathing%20Soap%20(Original%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dettol%20Bathing%20Soap%20(Original%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -25817,14 +25817,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25844,20 +25844,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm%20(Combo%20Pack)%203%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 195,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm%20(Combo%20Pack)%203%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm%20(Combo%20Pack)%203%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 195,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm%20(Combo%20Pack)%203%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm%20(Combo%20Pack)%203%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -25884,14 +25884,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25911,20 +25911,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 80,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 80,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
         "isVerifiedLive": true
       }
     }
@@ -25951,14 +25951,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -25978,20 +25978,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 280,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 280,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
         "isVerifiedLive": true
       }
     }
@@ -26018,14 +26018,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26045,20 +26045,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 170,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 170,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -26085,14 +26085,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26112,20 +26112,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
         "isVerifiedLive": true
       }
     }
@@ -26152,14 +26152,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26179,20 +26179,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
         "isVerifiedLive": true
       }
     }
@@ -26219,14 +26219,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26246,20 +26246,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
         "isVerifiedLive": true
       }
     }
@@ -26286,14 +26286,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26313,20 +26313,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 750,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 750,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
         "isVerifiedLive": true
       }
     }
@@ -26353,14 +26353,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26380,20 +26380,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 550,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 550,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -26420,14 +26420,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26447,20 +26447,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1470,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1470,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
         "isVerifiedLive": true
       }
     }
@@ -26487,14 +26487,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26514,20 +26514,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1480,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1480,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
         "isVerifiedLive": true
       }
     }
@@ -26554,14 +26554,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26581,20 +26581,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1480,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1480,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
         "isVerifiedLive": true
       }
     }
@@ -26621,14 +26621,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26648,20 +26648,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1250,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1250,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
         "isVerifiedLive": true
       }
     }
@@ -26688,14 +26688,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26715,20 +26715,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20Pack)%202%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20Pack)%202%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20Pack)%202%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20Pack)%202%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20Pack)%202%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -26755,14 +26755,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26782,20 +26782,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20Pack)%202%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20Pack)%202%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20Pack)%202%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20Pack)%202%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20Pack)%202%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -26822,14 +26822,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26849,20 +26849,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 94,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 94,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -26889,14 +26889,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26916,20 +26916,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 210,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 210,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -26956,14 +26956,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -26983,20 +26983,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 210,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 210,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -27023,14 +27023,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27050,20 +27050,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Godrej%20No.1%20Jasmine%20Soap%20Combo%20Pack%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 84,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Godrej%20No.1%20Jasmine%20Soap%20Combo%20Pack%20100%20gm%202%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Godrej%20No.1%20Jasmine%20Soap%20Combo%20Pack%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 84,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Godrej%20No.1%20Jasmine%20Soap%20Combo%20Pack%20100%20gm%202%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Godrej%20No.1%20Jasmine%20Soap%20Combo%20Pack%20100%20gm%202%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -27090,14 +27090,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27117,20 +27117,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 390,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 390,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
         "isVerifiedLive": true
       }
     }
@@ -27157,14 +27157,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27184,20 +27184,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27224,14 +27224,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27251,20 +27251,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 220,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 220,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -27291,14 +27291,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27318,20 +27318,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 390,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 390,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
         "isVerifiedLive": true
       }
     }
@@ -27358,14 +27358,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27385,20 +27385,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ligion%20Ladies%20Uptan%2070%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 70,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ligion%20Ladies%20Uptan%2070%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ligion%20Ladies%20Uptan%2070%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 70,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ligion%20Ladies%20Uptan%2070%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ligion%20Ladies%20Uptan%2070%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27425,14 +27425,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27452,20 +27452,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1000,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1000,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
         "isVerifiedLive": true
       }
     }
@@ -27492,14 +27492,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27519,20 +27519,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Woman's%20World%20Uptan%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Woman's%20World%20Uptan%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Woman's%20World%20Uptan%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Woman's%20World%20Uptan%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Woman's%20World%20Uptan%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27559,14 +27559,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27586,20 +27586,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 170,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 170,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27626,14 +27626,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27653,20 +27653,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 125,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 125,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27693,14 +27693,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27720,20 +27720,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 95,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 95,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27760,14 +27760,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27787,20 +27787,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20Box)%20190%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20Box)%20190%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20Box)%20190%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20Box)%20190%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20Box)%20190%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27827,14 +27827,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27854,20 +27854,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27894,14 +27894,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27921,20 +27921,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -27961,14 +27961,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -27988,20 +27988,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 475,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 475,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -28028,14 +28028,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28055,20 +28055,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 819,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 819,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
         "isVerifiedLive": true
       }
     }
@@ -28095,14 +28095,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28122,20 +28122,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 360,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 360,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
         "isVerifiedLive": true
       }
     }
@@ -28162,14 +28162,14 @@ export const PRODUCTS = [
         "badge": "৳55 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28189,20 +28189,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 417,
         "inStock": true,
         "discountText": "৳23 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 399,
         "inStock": true,
         "discountText": "৳41 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -28229,14 +28229,14 @@ export const PRODUCTS = [
         "badge": "৳25 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28256,20 +28256,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 210,
         "inStock": true,
         "discountText": "৳10 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 202,
         "inStock": true,
         "discountText": "৳18 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -28296,14 +28296,14 @@ export const PRODUCTS = [
         "badge": "৳3 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28323,20 +28323,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 59,
         "inStock": true,
         "discountText": "৳1 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 58,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
         "isVerifiedLive": true
       }
     }
@@ -28363,14 +28363,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28390,20 +28390,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 350,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 350,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
         "isVerifiedLive": true
       }
     }
@@ -28430,14 +28430,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28457,20 +28457,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
         "isVerifiedLive": true
       }
     }
@@ -28497,14 +28497,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28524,20 +28524,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 550,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 550,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
         "isVerifiedLive": true
       }
     }
@@ -28564,14 +28564,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28591,20 +28591,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 589,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 589,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
         "isVerifiedLive": true
       }
     }
@@ -28631,14 +28631,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28658,20 +28658,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
         "isVerifiedLive": true
       }
     }
@@ -28698,14 +28698,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28725,20 +28725,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%20Pouch%20Pack%2075%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 400,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%20Pouch%20Pack%2075%20ml)%20340%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%20Pouch%20Pack%2075%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 400,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%20Pouch%20Pack%2075%20ml)%20340%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%20Pouch%20Pack%2075%20ml)%20340%20ml",
         "isVerifiedLive": true
       }
     }
@@ -28765,14 +28765,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28792,20 +28792,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 990,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 990,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       }
     }
@@ -28832,14 +28832,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28859,20 +28859,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 990,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 990,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       }
     }
@@ -28899,14 +28899,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28926,20 +28926,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 1800,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 1800,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -28966,14 +28966,14 @@ export const PRODUCTS = [
         "badge": "৳55 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -28993,20 +28993,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 2867,
         "inStock": true,
         "discountText": "৳23 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 2849,
         "inStock": true,
         "discountText": "৳41 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -29033,14 +29033,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29060,20 +29060,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 530,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 530,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
         "isVerifiedLive": true
       }
     }
@@ -29100,14 +29100,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29127,20 +29127,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 990,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 990,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
         "isVerifiedLive": true
       }
     }
@@ -29167,14 +29167,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29194,20 +29194,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
         "isVerifiedLive": true
       }
     }
@@ -29234,14 +29234,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29261,20 +29261,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 440,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 440,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
         "isVerifiedLive": true
       }
     }
@@ -29301,14 +29301,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29328,20 +29328,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 740,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 740,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
         "isVerifiedLive": true
       }
     }
@@ -29368,14 +29368,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29395,20 +29395,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 670,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 670,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
         "isVerifiedLive": true
       }
     }
@@ -29435,14 +29435,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29462,20 +29462,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 450,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 450,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
         "isVerifiedLive": true
       }
     }
@@ -29502,14 +29502,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29529,20 +29529,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 470,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 470,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
         "isVerifiedLive": true
       }
     }
@@ -29569,14 +29569,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29596,20 +29596,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 135,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 135,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -29636,14 +29636,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29663,20 +29663,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20(Layer)%2012%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 145,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20(Layer)%2012%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chicken%20Eggs%20(Layer)%2012%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 145,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20(Layer)%2012%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20(Layer)%2012%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -29703,14 +29703,14 @@ export const PRODUCTS = [
         "badge": "৳4 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29730,20 +29730,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20(Deshi)%206%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 123,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20(Deshi)%206%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chicken%20Eggs%20(Deshi)%206%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 122,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20(Deshi)%206%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20(Deshi)%206%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -29770,14 +29770,14 @@ export const PRODUCTS = [
         "badge": "৳4 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29797,20 +29797,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Quail%20Eggs%2020%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 93,
         "inStock": true,
         "discountText": "৳2 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Quail%20Eggs%2020%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Quail%20Eggs%2020%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 92,
         "inStock": true,
         "discountText": "৳3 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Quail%20Eggs%2020%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Quail%20Eggs%2020%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -29837,14 +29837,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29864,20 +29864,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 115,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 115,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -29904,14 +29904,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29931,20 +29931,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Chicken%20Eggs%20(Layer)%206%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 75,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Chicken%20Eggs%20(Layer)%206%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Chicken%20Eggs%20(Layer)%206%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 75,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Chicken%20Eggs%20(Layer)%206%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20(Layer)%206%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -29971,14 +29971,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -29998,20 +29998,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 359,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 359,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -30038,14 +30038,14 @@ export const PRODUCTS = [
         "badge": "৳16 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30065,20 +30065,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 338,
         "inStock": true,
         "discountText": "৳7 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 333,
         "inStock": true,
         "discountText": "৳12 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -30105,14 +30105,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30132,20 +30132,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 489,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 489,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
         "isVerifiedLive": true
       }
     }
@@ -30172,14 +30172,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30199,20 +30199,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 499,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 499,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -30239,14 +30239,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30266,20 +30266,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 589,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 589,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -30306,14 +30306,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30333,20 +30333,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 319,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 319,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -30373,14 +30373,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30400,20 +30400,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 619,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 619,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -30440,14 +30440,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30467,20 +30467,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 799,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 799,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -30507,14 +30507,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30534,20 +30534,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Quality%20Hunter%20Beef%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 320,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Quality%20Hunter%20Beef%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Quality%20Hunter%20Beef%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 320,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Quality%20Hunter%20Beef%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Quality%20Hunter%20Beef%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -30574,14 +30574,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30601,20 +30601,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Quality%20Beef%20Salami%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 320,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Quality%20Beef%20Salami%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Quality%20Beef%20Salami%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 320,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Quality%20Beef%20Salami%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Quality%20Beef%20Salami%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -30641,14 +30641,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30668,20 +30668,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Quality%20Beef%20Pepperoni%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 320,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Quality%20Beef%20Pepperoni%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Quality%20Beef%20Pepperoni%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 320,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Quality%20Beef%20Pepperoni%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Quality%20Beef%20Pepperoni%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -30708,14 +30708,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30735,20 +30735,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Quality%20Beef%20Mortadella%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 230,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Quality%20Beef%20Mortadella%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Quality%20Beef%20Mortadella%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 230,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Quality%20Beef%20Mortadella%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Quality%20Beef%20Mortadella%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -30775,14 +30775,14 @@ export const PRODUCTS = [
         "badge": "৳22 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30802,20 +30802,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 466,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 459,
         "inStock": true,
         "discountText": "৳16 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -30842,14 +30842,14 @@ export const PRODUCTS = [
         "badge": "৳24 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30869,20 +30869,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 249,
         "inStock": true,
         "discountText": "৳10 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 241,
         "inStock": true,
         "discountText": "৳18 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -30909,14 +30909,14 @@ export const PRODUCTS = [
         "badge": "৳10 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -30936,20 +30936,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 211,
         "inStock": true,
         "discountText": "৳4 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 208,
         "inStock": true,
         "discountText": "৳7 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -30976,14 +30976,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31003,20 +31003,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=PQS%20Chapila%20Fish%20Processed%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 165,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=PQS%20Chapila%20Fish%20Processed%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=PQS%20Chapila%20Fish%20Processed%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 165,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=PQS%20Chapila%20Fish%20Processed%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=PQS%20Chapila%20Fish%20Processed%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31043,14 +31043,14 @@ export const PRODUCTS = [
         "badge": "৳12 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31070,20 +31070,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 184,
         "inStock": true,
         "discountText": "৳5 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "৳9 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31110,14 +31110,14 @@ export const PRODUCTS = [
         "badge": "৳16 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31137,20 +31137,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 388,
         "inStock": true,
         "discountText": "৳7 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 383,
         "inStock": true,
         "discountText": "৳12 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -31177,14 +31177,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31204,20 +31204,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 520,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 520,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31244,14 +31244,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31271,20 +31271,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 250,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 250,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31311,14 +31311,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31338,20 +31338,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 260,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 260,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31378,14 +31378,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31405,20 +31405,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 400,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 400,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31445,14 +31445,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31472,20 +31472,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 290,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 290,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31512,14 +31512,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31539,20 +31539,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 305,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 305,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31579,14 +31579,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31606,20 +31606,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 15,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 15,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31646,14 +31646,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31673,20 +31673,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 10,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 10,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31713,14 +31713,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31740,20 +31740,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31780,14 +31780,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31807,20 +31807,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 30,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 30,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31847,14 +31847,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31874,20 +31874,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31914,14 +31914,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -31941,20 +31941,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
         "isVerifiedLive": true
       }
     }
@@ -31981,14 +31981,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32008,20 +32008,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 200,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 200,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32048,14 +32048,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32075,20 +32075,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32115,14 +32115,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32142,20 +32142,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 10,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 10,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32182,14 +32182,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32209,20 +32209,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 70,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 70,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32249,14 +32249,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32276,20 +32276,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32316,14 +32316,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32343,20 +32343,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32383,14 +32383,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32410,20 +32410,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32450,14 +32450,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32477,20 +32477,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ahmed%20Toast%20Biscuits%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ahmed%20Toast%20Biscuits%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ahmed%20Toast%20Biscuits%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ahmed%20Toast%20Biscuits%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ahmed%20Toast%20Biscuits%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32517,14 +32517,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32544,20 +32544,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ahmed%20Sweet%20Toast%20250%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 65,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ahmed%20Sweet%20Toast%20250%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ahmed%20Sweet%20Toast%20250%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 65,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ahmed%20Sweet%20Toast%20250%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ahmed%20Sweet%20Toast%20250%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32584,14 +32584,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32611,20 +32611,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ruchi%20Jhal%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Jhal%20Chanachur%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ruchi%20Jhal%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Jhal%20Chanachur%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ruchi%20Jhal%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32651,14 +32651,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32678,20 +32678,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ruchi%20Bbq%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Bbq%20Chanachur%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ruchi%20Bbq%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Bbq%20Chanachur%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ruchi%20Bbq%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32718,14 +32718,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32745,20 +32745,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bombay%20Sweets%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bombay%20Sweets%20Chanachur%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bombay%20Sweets%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bombay%20Sweets%20Chanachur%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32785,14 +32785,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32812,20 +32812,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ruchi%20Bbq%20Chanachur%2022%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 10,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Bbq%20Chanachur%2022%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ruchi%20Bbq%20Chanachur%2022%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 10,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Bbq%20Chanachur%2022%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ruchi%20Bbq%20Chanachur%2022%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32852,14 +32852,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32879,20 +32879,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bombay%20Sweets%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 150,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bombay%20Sweets%20Chanachur%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bombay%20Sweets%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 150,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bombay%20Sweets%20Chanachur%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Chanachur%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32919,14 +32919,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -32946,20 +32946,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ruchi%20Jhal%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ruchi%20Jhal%20Chanachur%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ruchi%20Jhal%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ruchi%20Jhal%20Chanachur%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ruchi%20Jhal%20Chanachur%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -32986,14 +32986,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33013,20 +33013,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 60,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 60,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -33053,14 +33053,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33080,20 +33080,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 80,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 80,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33120,14 +33120,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33147,20 +33147,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 180,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 180,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33187,14 +33187,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33214,20 +33214,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 240,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 240,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33254,14 +33254,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33281,20 +33281,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 240,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 240,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33321,14 +33321,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33348,20 +33348,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 10,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 10,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33388,14 +33388,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33415,20 +33415,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
         "isVerifiedLive": true
       }
     }
@@ -33455,14 +33455,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33482,20 +33482,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 116,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 116,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33522,14 +33522,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33549,20 +33549,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 270,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 270,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33589,14 +33589,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33616,20 +33616,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 230,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 230,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33656,14 +33656,14 @@ export const PRODUCTS = [
         "badge": "৳49 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33683,20 +33683,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Tata%20Tea%20Premium%20400%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 210,
         "inStock": true,
         "discountText": "৳20 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Tata%20Tea%20Premium%20400%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Tata%20Tea%20Premium%20400%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 194,
         "inStock": true,
         "discountText": "৳36 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Tata%20Tea%20Premium%20400%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Tata%20Tea%20Premium%20400%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33723,14 +33723,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33750,20 +33750,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Coffee%203%20in%201%2015%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 10,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Coffee%203%20in%201%2015%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Coffee%203%20in%201%2015%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 10,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Coffee%203%20in%201%2015%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Coffee%203%20in%201%2015%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33790,14 +33790,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33817,20 +33817,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=AMA%20Coffee%203%20In%201%2015%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 10,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=AMA%20Coffee%203%20In%201%2015%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=AMA%20Coffee%203%20In%201%2015%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 10,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=AMA%20Coffee%203%20In%201%2015%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=AMA%20Coffee%203%20In%201%2015%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33857,14 +33857,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33884,20 +33884,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 275,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 275,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33924,14 +33924,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -33951,20 +33951,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 475,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 475,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
         "isVerifiedLive": true
       }
     }
@@ -33991,14 +33991,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34018,20 +34018,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 380,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 380,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
         "isVerifiedLive": true
       }
     }
@@ -34058,14 +34058,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34085,20 +34085,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Coffee%20Cappuccino%2015%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 15,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Coffee%20Cappuccino%2015%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Coffee%20Cappuccino%2015%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 15,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Coffee%20Cappuccino%2015%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Coffee%20Cappuccino%2015%20gm",
         "isVerifiedLive": true
       }
     }
@@ -34125,14 +34125,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34152,20 +34152,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 105,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 105,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -34192,14 +34192,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34219,20 +34219,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -34259,14 +34259,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34286,20 +34286,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 140,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 140,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -34326,14 +34326,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34353,20 +34353,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 50,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 50,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
         "isVerifiedLive": true
       }
     }
@@ -34393,14 +34393,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34420,20 +34420,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 100,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 100,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -34460,14 +34460,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34487,20 +34487,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 255,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 255,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
         "isVerifiedLive": true
       }
     }
@@ -34527,14 +34527,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34554,20 +34554,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 145,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 145,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -34594,14 +34594,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34621,20 +34621,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 75,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 75,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -34661,14 +34661,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34688,20 +34688,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 75,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 75,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -34728,14 +34728,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34755,20 +34755,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Garam%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 95,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Garam%20Masala%2040%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Garam%20Masala%2040%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 95,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Garam%20Masala%2040%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Garam%20Masala%2040%20gm",
         "isVerifiedLive": true
       }
     }
@@ -34795,14 +34795,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34822,20 +34822,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -34862,14 +34862,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34889,20 +34889,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 160,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 160,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
         "isVerifiedLive": true
       }
     }
@@ -34929,14 +34929,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -34956,20 +34956,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 42,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Salt%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 42,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Salt%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Salt%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -34996,14 +34996,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35023,20 +35023,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 38,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 38,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -35063,14 +35063,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35090,20 +35090,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 42,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 42,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -35130,14 +35130,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35157,20 +35157,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=ACI%20Pure%20Salt%20500%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 22,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=ACI%20Pure%20Salt%20500%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=ACI%20Pure%20Salt%20500%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 22,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=ACI%20Pure%20Salt%20500%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Salt%20500%20gm",
         "isVerifiedLive": true
       }
     }
@@ -35197,14 +35197,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35224,20 +35224,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 15,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 15,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
         "isVerifiedLive": true
       }
     }
@@ -35264,14 +35264,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35291,20 +35291,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 20,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 20,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
         "isVerifiedLive": true
       }
     }
@@ -35331,14 +35331,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35358,20 +35358,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Fresh%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Fresh%20Refined%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Fresh%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Fresh%20Refined%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Fresh%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -35398,14 +35398,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35425,20 +35425,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Teer%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Teer%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Teer%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Teer%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Teer%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -35465,14 +35465,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35492,20 +35492,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Starship%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 110,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Starship%20Refined%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Starship%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 110,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Starship%20Refined%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Starship%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }
@@ -35532,14 +35532,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35559,20 +35559,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Coca-Cola%20Zero%20Sugar%20250%20ml",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 20,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Coca-Cola%20Zero%20Sugar%20250%20ml",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Coca-Cola%20Zero%20Sugar%20250%20ml",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 20,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Coca-Cola%20Zero%20Sugar%20250%20ml",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Coca-Cola%20Zero%20Sugar%20250%20ml",
         "isVerifiedLive": true
       }
     }
@@ -35599,14 +35599,14 @@ export const PRODUCTS = [
         "badge": "৳10 ছাড়"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35626,20 +35626,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 51,
         "inStock": true,
         "discountText": "৳4 ছাড়",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 48,
         "inStock": true,
         "discountText": "৳7 ছাড়",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
         "isVerifiedLive": true
       }
     }
@@ -35666,14 +35666,14 @@ export const PRODUCTS = [
         "badge": "ক্লাব পয়েন্ট"
       },
       {
-        "store": "meenaclick",
-        "title": "অনলাইন অর্ডারে ভাউচার কোড",
-        "badge": "৫% ক্যাশব্যাক"
+        "store": "cartup",
+        "title": "কার্টআপ দ্রুত ডেলিভারি অফার",
+        "badge": "সুপার ডিল"
       },
       {
-        "store": "pandamart",
-        "title": "২৫ মিনিটে এক্সপ্রেস হোম ডেলিভারি",
-        "badge": "Pandapro ডিল"
+        "store": "daraz",
+        "title": "দারাজ মার্ট ভাউচার ও ছাড়",
+        "badge": "মার্ট ডিল"
       }
     ],
     "prices": {
@@ -35693,20 +35693,20 @@ export const PRODUCTS = [
         "url": "https://www.shwapno.com/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "pandamart": {
+      "daraz": {
         "price": 135,
         "inStock": true,
         "discountText": "MRP",
-        "offerText": "২৫ মিনিটে এক্সপ্রেস",
-        "url": "https://www.foodpanda.com.bd/restaurants?search=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "offerText": "দারাজ মার্ট ভাউচার",
+        "url": "https://www.daraz.com.bd/catalog/?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       },
-      "meenaclick": {
+      "cartup": {
         "price": 135,
         "inStock": true,
         "discountText": "লাইভ রেট",
-        "offerText": "৫% ক্যাশব্যাক ভাউচার",
-        "url": "https://meenabazaronline.com/search?keyword=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "offerText": "কার্টআপ সেম ডে ডেলিভারি",
+        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
         "isVerifiedLive": true
       }
     }

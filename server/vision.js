@@ -446,7 +446,7 @@ export async function identifyProductFromImage({ imageBase64, filename, sampleHi
       // Strip data:image/...;base64, prefix if present
       const cleanBase64 = imageBase64.replace(/^data:image\/[a-z]+;base64,/, '');
       
-      const prompt = `You are a grocery product recognition expert for Bangladesh supermarkets (Chaldal, Shwapno, Pandamart, Meena Bazar).
+      const prompt = `You are a grocery product recognition expert for Bangladesh supermarkets (Chaldal, Shwapno, Daraz, Cartup).
 Examine this product packaging image carefully.
 Identify the exact product name, brand, volume/weight (e.g. Teer Fortified Soyabean Oil 5 Ltr, Aarong Pure Ghee 200gm, Dano Milk Powder 1kg, Maggi Masala Noodles).
 Return ONLY a valid JSON object in this exact format, with no markdown code blocks or extra text:
