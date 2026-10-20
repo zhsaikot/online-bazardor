@@ -107,8 +107,58 @@ const cartupSvg = `
 </svg>
 `;
 
+// 3. Prince Bazar Official Vector SVG
+// Signature Royal Purple #6D28D9 & Golden Amber #F59E0B, iconic Prince Crown + bold "PRINCE BAZAR"
+const princeBazarSvg = `
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#FFFFFF"/>
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="#6D28D9"/>
+  
+  <!-- Subtle Gradient Glow Circle -->
+  <circle cx="256" cy="195" r="130" fill="#7C3AED"/>
+  
+  <!-- Stylized Royal Prince Crown in Amber Gold -->
+  <g transform="translate(136, 95)">
+    <!-- Crown Base Band -->
+    <rect x="35" y="160" width="170" height="22" rx="6" fill="#F59E0B"/>
+    <circle cx="65" cy="171" r="5" fill="#FFFFFF"/>
+    <circle cx="120" cy="171" r="5" fill="#FFFFFF"/>
+    <circle cx="175" cy="171" r="5" fill="#FFFFFF"/>
+    
+    <!-- Crown Peaks -->
+    <path d="M35 158 L35 75 L75 125 L120 40 L165 125 L205 75 L205 158 Z" fill="#FBBF24"/>
+    <path d="M75 125 L120 40 L165 125 Z" fill="#F59E0B" opacity="0.6"/>
+    
+    <!-- Jewels on Peak Tips -->
+    <circle cx="35" cy="72" r="10" fill="#FDE68A"/>
+    <circle cx="120" cy="38" r="14" fill="#FFFFFF"/>
+    <circle cx="205" cy="72" r="10" fill="#FDE68A"/>
+  </g>
+  
+  <!-- Prince Bazar Title -->
+  <text x="256" y="380" 
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+        font-size="64" 
+        font-weight="900" 
+        letter-spacing="1" 
+        fill="#FFFFFF" 
+        text-anchor="middle">
+    PRINCE
+  </text>
+  <text x="256" y="435" 
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" 
+        font-size="44" 
+        font-weight="800" 
+        letter-spacing="5" 
+        fill="#FBBF24" 
+        text-anchor="middle">
+    BAZAR
+  </text>
+</svg>
+`;
+
 async function generate() {
-  console.log('Generating crisp store logos for Daraz & Cartup...');
+  console.log('Generating crisp store logos for Daraz, Cartup & Prince Bazar...');
   
   const darazBuffer = Buffer.from(darazSvg);
   await sharp(darazBuffer)
@@ -123,6 +173,13 @@ async function generate() {
     .png({ quality: 100 })
     .toFile(path.join(outDir, 'cartup.png'));
   console.log('✓ Created public/stores/cartup.png (512x512)');
+
+  const princeBuffer = Buffer.from(princeBazarSvg);
+  await sharp(princeBuffer)
+    .resize(512, 512)
+    .png({ quality: 100 })
+    .toFile(path.join(outDir, 'princebazar.png'));
+  console.log('✓ Created public/stores/princebazar.png (512x512)');
 }
 
 generate().catch(err => {

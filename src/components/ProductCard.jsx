@@ -10,7 +10,7 @@ export default function ProductCard({
   onAdd, 
   onRemove, 
   onOpenDetails,
-  selectedStores = ['chaldal', 'shwapno', 'daraz', 'cartup']
+  selectedStores = ['chaldal', 'shwapno', 'daraz', 'cartup', 'princebazar']
 }) {
   const { lang, t } = useLanguage();
 
@@ -133,7 +133,7 @@ export default function ProductCard({
               ))}
             </div>
             <span className="text-[10px] font-bold text-zinc-600 dark:text-zinc-300 truncate ml-1.5 group-hover/strip:text-emerald-800 dark:group-hover/strip:text-emerald-400">
-              {lang === 'bn' ? '৪ স্টোরের লাইভ রেট' : 'Compare 4 stores'}
+              {lang === 'bn' ? '৫ স্টোরের লাইভ রেট' : 'Compare 5 stores'}
             </span>
           </div>
           <div className="flex items-center gap-0.5 text-emerald-600 dark:text-emerald-400 text-[10px] font-bold shrink-0">

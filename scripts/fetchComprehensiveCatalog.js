@@ -176,6 +176,9 @@ function formatProduct(hit, category) {
   const cartupDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.3)) : 0;
   const cartupPrice = Math.max(price, mrp - cartupDiff);
 
+  const princeDiff = mrp > price ? Math.max(0, Math.round((mrp - price) * 0.4)) : 0;
+  const princebazarPrice = Math.max(price, mrp - princeDiff);
+
   const chaldalUrl = slug 
     ? `https://chaldal.com/${slug}` 
     : `https://chaldal.com/search/${encodeURIComponent(nameEn)}`;
@@ -194,7 +197,8 @@ function formatProduct(hit, category) {
       { store: 'chaldal', title: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি', badge: mrp > price ? `৳${mrp - price} ছাড়` : 'লাইভ রেট' },
       { store: 'shwapno', title: 'স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার', badge: mrp > shwapnoPrice ? `৳${mrp - shwapnoPrice} ছাড়` : 'ক্লাব পয়েন্ট' },
       { store: 'daraz', title: 'দারাজ মার্ট ভাউচার ও কয়েন ছাড়', badge: mrp > darazPrice ? `৳${mrp - darazPrice} ছাড়` : 'মার্ট ভাউচার' },
-      { store: 'cartup', title: 'কার্টআপ দ্রুত ডেলিভারি অফার', badge: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল' }
+      { store: 'cartup', title: 'কার্টআপ দ্রুত ডেলিভারি অফার', badge: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল' },
+      { store: 'princebazar', title: 'প্রিন্স বাজার আউটলেট ও অনলাইন ডিল', badge: mrp > princebazarPrice ? `৳${mrp - princebazarPrice} ছাড়` : 'সেরা দর' }
     ],
     prices: {
       chaldal: {
@@ -226,7 +230,15 @@ function formatProduct(hit, category) {
         inStock: true,
         discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'লাইভ রেট',
         offerText: 'কার্টআপ সেম ডে ডেলিভারি',
-        url: `https://cartup.com.bd/search?q=${encodeURIComponent(nameEn)}`,
+        url: `https://cartup.com/search?q=${encodeURIComponent(nameEn)}`,
+        isVerifiedLive: true
+      },
+      princebazar: {
+        price: princebazarPrice,
+        inStock: true,
+        discountText: mrp > princebazarPrice ? `৳${mrp - princebazarPrice} ছাড়` : 'প্রিন্স দর',
+        offerText: 'প্রিন্স সুপারশপ রেট',
+        url: `https://princebazarbd.com/?s=${encodeURIComponent(nameEn)}&post_type=product`,
         isVerifiedLive: true
       }
     }

@@ -872,7 +872,9 @@ export default function BagSlideOver({
                               href={
                                 bestSingleStore.store.id === 'chaldal' ? 'https://chaldal.com' :
                                 bestSingleStore.store.id === 'shwapno' ? 'https://www.shwapno.com' :
-                                bestSingleStore.store.id === 'daraz' ? 'https://www.daraz.com.bd/groceries/' : 'https://cartup.com.bd'
+                                bestSingleStore.store.id === 'daraz' ? 'https://www.daraz.com.bd/groceries/' :
+                                bestSingleStore.store.id === 'cartup' ? 'https://cartup.com' :
+                                'https://princebazarbd.com'
                               }
                               target="_blank"
                               rel="noopener noreferrer"

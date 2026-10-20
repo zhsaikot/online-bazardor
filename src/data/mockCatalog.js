@@ -73,6 +73,24 @@ export const STORES = {
     "logoText": "Cartup",
     "accentHex": "#2563EB",
     "logo": "/stores/cartup.png"
+  },
+  "princebazar": {
+    "id": "princebazar",
+    "name": "Prince Bazar",
+    "nameBn": "প্রিন্স বাজার",
+    "color": "#6D28D9",
+    "bgColor": "bg-purple-600",
+    "textColor": "text-purple-600",
+    "lightBg": "bg-purple-50",
+    "borderColor": "border-purple-200",
+    "baseDeliveryFee": 50,
+    "freeDeliveryThreshold": 1200,
+    "deliveryTime": "১-২ দিন",
+    "deliveryTimeEn": "1-2 days",
+    "rating": 4.5,
+    "logoText": "PrinceBazar",
+    "accentHex": "#6D28D9",
+    "logo": "/stores/princebazar.png"
   }
 };
 
@@ -164,6 +182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -196,7 +219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 975,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rupchanda%20Fortified%20Soyabean%20Oil%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -231,6 +262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -263,7 +299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "url": "https://cartup.com/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 398,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rupchanda%20Fortified%20Soyabean%20Oil%202%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -298,6 +342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -330,7 +379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%20Pet%20Bottle%201%20ltr",
+        "url": "https://cartup.com/search?q=Rupchanda%20Fortified%20Soyabean%20Oil%20Pet%20Bottle%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 199,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rupchanda%20Fortified%20Soyabean%20Oil%20Pet%20Bottle%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -365,6 +422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -397,7 +459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
+        "url": "https://cartup.com/search?q=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -432,6 +502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -464,7 +539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
+        "url": "https://cartup.com/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 2500,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -499,6 +582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -531,7 +619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
+        "url": "https://cartup.com/search?q=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 689,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -566,6 +662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -598,7 +699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Teer%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "url": "https://cartup.com/search?q=Teer%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 398,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Teer%20Fortified%20Soyabean%20Oil%202%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -633,6 +742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -665,7 +779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Teer%20Fortified%20Soyabean%20Oil%201%20ltr",
+        "url": "https://cartup.com/search?q=Teer%20Fortified%20Soyabean%20Oil%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 199,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Teer%20Fortified%20Soyabean%20Oil%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -700,6 +822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -732,7 +859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Teer%20Fortified%20Canola%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?q=Teer%20Fortified%20Canola%20Oil%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1060,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Teer%20Fortified%20Canola%20Oil%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -767,6 +902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -799,7 +939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Teer%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?q=Teer%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 975,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Teer%20Fortified%20Soyabean%20Oil%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -834,6 +982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -866,7 +1019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?q=Fresh%20Fortified%20Soyabean%20Oil%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 975,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Fortified%20Soyabean%20Oil%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -901,6 +1062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -933,7 +1099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "url": "https://cartup.com/search?q=Fresh%20Fortified%20Soyabean%20Oil%202%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 398,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Fortified%20Soyabean%20Oil%202%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -968,6 +1142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1000,7 +1179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Fortified%20Soyabean%20Oil%201%20ltr",
+        "url": "https://cartup.com/search?q=Fresh%20Fortified%20Soyabean%20Oil%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 199,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Fortified%20Soyabean%20Oil%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1035,6 +1222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1067,7 +1259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
+        "url": "https://cartup.com/search?q=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1102,6 +1302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1134,7 +1339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳72 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
+        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 818,
+        "inStock": true,
+        "discountText": "৳72 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1169,6 +1382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1201,7 +1419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳77 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
+        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 813,
+        "inStock": true,
+        "discountText": "৳77 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1236,6 +1462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1268,7 +1499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳77 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
+        "url": "https://cartup.com/search?q=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 813,
+        "inStock": true,
+        "discountText": "৳77 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1303,6 +1542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1335,7 +1579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
+        "url": "https://cartup.com/search?q=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 845,
+        "inStock": true,
+        "discountText": "৳45 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1370,6 +1622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1402,7 +1659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Pure%20Mustard%20Oil%20500%20ml",
+        "url": "https://cartup.com/search?q=Radhuni%20Pure%20Mustard%20Oil%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Pure%20Mustard%20Oil%20500%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1437,6 +1702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1469,7 +1739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Pure%20Mustard%20Oil%201%20ltr",
+        "url": "https://cartup.com/search?q=Radhuni%20Pure%20Mustard%20Oil%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 380,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Pure%20Mustard%20Oil%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1504,6 +1782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1536,7 +1819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
+        "url": "https://cartup.com/search?q=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 950,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1571,6 +1862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1603,7 +1899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Alex%20Car%20Wash%20500%20ml",
+        "url": "https://cartup.com/search?q=Alex%20Car%20Wash%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 345,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Alex%20Car%20Wash%20500%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1638,6 +1942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1670,7 +1979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
+        "url": "https://cartup.com/search?q=Almax%20Radiator%20Coolant%20(Green)%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Almax%20Radiator%20Coolant%20(Green)%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1705,6 +2022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1737,7 +2059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pure%20Ghee%20200%20gm",
+        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Pure%20Ghee%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 390,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Pure%20Ghee%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1772,6 +2102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1804,7 +2139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
+        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Pure%20Ghee%20450%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 825,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Pure%20Ghee%20450%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1839,6 +2182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1871,7 +2219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pure%20Ghee%20900%20gm",
+        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Pure%20Ghee%20900%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1735,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Pure%20Ghee%20900%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1906,6 +2262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -1938,7 +2299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Premium%20Ghee%20200%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Premium%20Ghee%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 375,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Premium%20Ghee%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -1973,6 +2342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2005,7 +2379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ghee%20Vita%20400%20gm",
+        "url": "https://cartup.com/search?q=Ghee%20Vita%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 650,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ghee%20Vita%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2040,6 +2422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2072,7 +2459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Ghee%20100%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Ghee%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 205,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Ghee%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2107,6 +2502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2139,7 +2539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Red%20Cow%20Butter%20Oil%20200%20gm",
+        "url": "https://cartup.com/search?q=Red%20Cow%20Butter%20Oil%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 385,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Red%20Cow%20Butter%20Oil%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2174,6 +2582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2206,7 +2619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ghee%20Vita%20250%20gm",
+        "url": "https://cartup.com/search?q=Ghee%20Vita%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ghee%20Vita%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2241,6 +2662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2273,7 +2699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vitacare%20Gawa%20Ghee%20(Tin)%20900%20ml",
+        "url": "https://cartup.com/search?q=Vitacare%20Gawa%20Ghee%20(Tin)%20900%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1200,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vitacare%20Gawa%20Ghee%20(Tin)%20900%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2308,6 +2742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2340,7 +2779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fortune%20Fortified%20Rice%20Bran%20Oil%205%20ltr",
+        "url": "https://cartup.com/search?q=Fortune%20Fortified%20Rice%20Bran%20Oil%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1210,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fortune%20Fortified%20Rice%20Bran%20Oil%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2375,6 +2822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2407,7 +2859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
+        "url": "https://cartup.com/search?q=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 8990,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2442,6 +2902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2474,7 +2939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Anmol%20Dawat%20Offer",
+        "url": "https://cartup.com/search?q=Anmol%20Dawat%20Offer",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 368,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Anmol%20Dawat%20Offer&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2509,6 +2982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2541,7 +3019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳22 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Foodela%20Family%20Saver%20Pack",
+        "url": "https://cartup.com/search?q=Foodela%20Family%20Saver%20Pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 375,
+        "inStock": true,
+        "discountText": "৳22 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Foodela%20Family%20Saver%20Pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2576,6 +3062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2608,7 +3099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳23 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?q=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 356,
+        "inStock": true,
+        "discountText": "৳23 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2643,6 +3142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2675,7 +3179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?q=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 389,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2710,6 +3222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2742,7 +3259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳153 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Giggles%20Premium%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
+        "url": "https://cartup.com/search?q=Giggles%20Premium%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1647,
+        "inStock": true,
+        "discountText": "৳153 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Giggles%20Premium%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2777,6 +3302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2809,7 +3339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳126 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
+        "url": "https://cartup.com/search?q=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1074,
+        "inStock": true,
+        "discountText": "৳126 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2844,6 +3382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2876,7 +3419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳297 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
+        "url": "https://cartup.com/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 2023,
+        "inStock": true,
+        "discountText": "৳297 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2911,6 +3462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -2943,7 +3499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳309 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
+        "url": "https://cartup.com/search?q=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 2336,
+        "inStock": true,
+        "discountText": "৳309 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -2978,6 +3542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3010,7 +3579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳135 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Avonee%20Pants%20Extra%20Large%C2%A0XXL%C2%A0(14-25KG)%C2%A034%C2%A0pcs",
+        "url": "https://cartup.com/search?q=Avonee%20Pants%20Extra%20Large%C2%A0XXL%C2%A0(14-25KG)%C2%A034%C2%A0pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1065,
+        "inStock": true,
+        "discountText": "৳135 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Avonee%20Pants%20Extra%20Large%C2%A0XXL%C2%A0(14-25KG)%C2%A034%C2%A0pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3045,6 +3622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3077,7 +3659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳81 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
+        "url": "https://cartup.com/search?q=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 889,
+        "inStock": true,
+        "discountText": "৳81 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3112,6 +3702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3144,7 +3739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Miniket%20Rice%20Premium%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?q=Miniket%20Rice%20Premium%20(Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 439,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Miniket%20Rice%20Premium%20(Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3179,6 +3782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3211,7 +3819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Miniket%20Rice%20Premium%2010%20kg",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Miniket%20Rice%20Premium%2010%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 950,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Miniket%20Rice%20Premium%2010%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3246,6 +3862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3278,7 +3899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Premium%20Miniket%20Rice%205%20kg",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Premium%20Miniket%20Rice%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 480,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Premium%20Miniket%20Rice%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3313,6 +3942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3345,7 +3979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Miniket%20Rice%205%20kg",
+        "url": "https://cartup.com/search?q=Akij%20Essential%20Miniket%20Rice%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 450,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Akij%20Essential%20Miniket%20Rice%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3380,6 +4022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3412,7 +4059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Miniket%20Rice%205%20kg",
+        "url": "https://cartup.com/search?q=Pran%20Miniket%20Rice%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 470,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Miniket%20Rice%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3447,6 +4102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3479,7 +4139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳14 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nazirshail%20Rice%20Premium%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?q=Nazirshail%20Rice%20Premium%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 465,
+        "inStock": true,
+        "discountText": "৳14 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nazirshail%20Rice%20Premium%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3514,6 +4182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3546,7 +4219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Nazirshail%20Rice%205%20kg",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Nazirshail%20Rice%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 495,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Nazirshail%20Rice%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3581,6 +4262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3613,7 +4299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳27 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?q=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 432,
+        "inStock": true,
+        "discountText": "৳27 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3648,6 +4342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3680,7 +4379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Nazirshail%20Rice%205%20kg",
+        "url": "https://cartup.com/search?q=Pran%20Nazirshail%20Rice%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 480,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Nazirshail%20Rice%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3715,6 +4422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3747,7 +4459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
+        "url": "https://cartup.com/search?q=Aarong%20Natural%20Nazirshail%20Rice%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 535,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Natural%20Nazirshail%20Rice%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3782,6 +4502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3814,7 +4539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
+        "url": "https://cartup.com/search?q=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 990,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3849,6 +4582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3881,7 +4619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
+        "url": "https://cartup.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 190,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3916,6 +4662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -3948,7 +4699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
+        "url": "https://cartup.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 370,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -3983,6 +4742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4015,7 +4779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
+        "url": "https://cartup.com/search?q=Pran%20Chinigura%20Aromatic%20Rice%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 190,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Chinigura%20Aromatic%20Rice%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4050,6 +4822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4082,7 +4859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
+        "url": "https://cartup.com/search?q=Pran%20Chinigura%20Aromatic%20Rice%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 370,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Chinigura%20Aromatic%20Rice%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4117,6 +4902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4149,7 +4939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rupchanda%20Chinigura%20Premium%20Aromatic%20Rice%201%20kg",
+        "url": "https://cartup.com/search?q=Rupchanda%20Chinigura%20Premium%20Aromatic%20Rice%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 175,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rupchanda%20Chinigura%20Premium%20Aromatic%20Rice%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4184,6 +4982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4216,7 +5019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
+        "url": "https://cartup.com/search?q=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 910,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4251,6 +5062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4283,7 +5099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?q=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 459,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4318,6 +5142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4350,7 +5179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Shugondhi%20Kataribhog%20Rice%205%20kg",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Shugondhi%20Kataribhog%20Rice%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 800,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Shugondhi%20Kataribhog%20Rice%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4385,6 +5222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4417,7 +5259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
+        "url": "https://cartup.com/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 480,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4452,6 +5302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4484,7 +5339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
+        "url": "https://cartup.com/search?q=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 295,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4519,6 +5382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4551,7 +5419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
+        "url": "https://cartup.com/search?q=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 2625,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4586,6 +5462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4618,7 +5499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "url": "https://cartup.com/search?q=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 489,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4653,6 +5542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4685,7 +5579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Aroma%20Premium%20Basmati%20Rice%201%20kg",
+        "url": "https://cartup.com/search?q=ACI%20Aroma%20Premium%20Basmati%20Rice%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 480,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Aroma%20Premium%20Basmati%20Rice%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4720,6 +5622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4752,7 +5659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
+        "url": "https://cartup.com/search?q=Mehran%20Basmati%20Kernel%20Rice%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 595,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mehran%20Basmati%20Kernel%20Rice%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4787,6 +5702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4819,7 +5739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
+        "url": "https://cartup.com/search?q=Kaalar%20Sella%20Basmati%20Rice%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 355,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kaalar%20Sella%20Basmati%20Rice%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4854,6 +5782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4886,7 +5819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kaalar%20Premium%20Basmati%20Rice%201%20kg",
+        "url": "https://cartup.com/search?q=Kaalar%20Premium%20Basmati%20Rice%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 355,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kaalar%20Premium%20Basmati%20Rice%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4921,6 +5862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -4953,7 +5899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Qilla%20Excel%20Basmati%201%20kg",
+        "url": "https://cartup.com/search?q=Qilla%20Excel%20Basmati%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 385,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Qilla%20Excel%20Basmati%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -4988,6 +5942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5020,7 +5979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Moshur%20Dal%20(Deshi)%201%20kg",
+        "url": "https://cartup.com/search?q=Moshur%20Dal%20(Deshi)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 170,
+        "inStock": true,
+        "discountText": "৳9 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Moshur%20Dal%20(Deshi)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5055,6 +6022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5087,7 +6059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
+        "url": "https://cartup.com/search?q=Pran%20Moshur%20Dal%20(Deshi)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 185,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Moshur%20Dal%20(Deshi)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5122,6 +6102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5154,7 +6139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
+        "url": "https://cartup.com/search?q=Pusti%20Deshi%20Moshur%20Dal%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pusti%20Deshi%20Moshur%20Dal%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5189,6 +6182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5221,7 +6219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
+        "url": "https://cartup.com/search?q=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5256,6 +6262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5288,7 +6299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
+        "url": "https://cartup.com/search?q=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5323,6 +6342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5355,7 +6379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
+        "url": "https://cartup.com/search?q=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5390,6 +6422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5422,7 +6459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Moshur%20Dal%20(Imported)%20500%20gm",
+        "url": "https://cartup.com/search?q=Moshur%20Dal%20(Imported)%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 55,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Moshur%20Dal%20(Imported)%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5457,6 +6502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5489,7 +6539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mug%20Dal%20250%20gm",
+        "url": "https://cartup.com/search?q=Mug%20Dal%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 45,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mug%20Dal%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5524,6 +6582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5556,7 +6619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Khichuri%20Essential%C2%A0Combo",
+        "url": "https://cartup.com/search?q=Khichuri%20Essential%C2%A0Combo",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 208,
+        "inStock": true,
+        "discountText": "৳16 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Khichuri%20Essential%C2%A0Combo&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5591,6 +6662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5623,7 +6699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
+        "url": "https://cartup.com/search?q=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 179,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5658,6 +6742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5690,7 +6779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mashkolai%20Dal%20Peeled%20500%20gm",
+        "url": "https://cartup.com/search?q=Mashkolai%20Dal%20Peeled%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mashkolai%20Dal%20Peeled%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5725,6 +6822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5757,7 +6859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Everest%20Chhole%20Masala%2050%20gm",
+        "url": "https://cartup.com/search?q=Everest%20Chhole%20Masala%2050%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 125,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Everest%20Chhole%20Masala%2050%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5792,6 +6902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5824,7 +6939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Boot%20Dal%20500%20gm",
+        "url": "https://cartup.com/search?q=Boot%20Dal%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 59,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Boot%20Dal%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5859,6 +6982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5891,7 +7019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
+        "url": "https://cartup.com/search?q=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5926,6 +7062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -5958,7 +7099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "url": "https://cartup.com/search?q=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -5993,6 +7142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6025,7 +7179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "url": "https://cartup.com/search?q=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6060,6 +7222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6092,7 +7259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Teer%20Flour%20(Atta)%202%20kg",
+        "url": "https://cartup.com/search?q=Teer%20Flour%20(Atta)%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 130,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Teer%20Flour%20(Atta)%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6127,6 +7302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6159,7 +7339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
+        "url": "https://cartup.com/search?q=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6194,6 +7382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6226,7 +7419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
+        "url": "https://cartup.com/search?q=ACI%20Nutrilife%20Brown%20Atta%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Nutrilife%20Brown%20Atta%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6261,6 +7462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6293,7 +7499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
+        "url": "https://cartup.com/search?q=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6328,6 +7542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6360,7 +7579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
+        "url": "https://cartup.com/search?q=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6395,6 +7622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6427,7 +7659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6462,6 +7702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6494,7 +7739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6529,6 +7782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6561,7 +7819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Eternal%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 210,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Eternal%20Powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6596,6 +7862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6628,7 +7899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Triphala%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 90,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Triphala%20Powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6663,6 +7942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6695,7 +7979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Protein%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 450,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Protein%20Powder%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6730,6 +8022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6762,7 +8059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Suji%20500%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Suji%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 48,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Suji%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6797,6 +8102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6829,7 +8139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Suji%20250%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Suji%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 25,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Suji%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6864,6 +8182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6896,7 +8219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Lachcha%20Semai%20150%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Lachcha%20Semai%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 55,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Lachcha%20Semai%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6931,6 +8262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -6963,7 +8299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Vermicelli%20(Shemai)%20200%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Vermicelli%20(Shemai)%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 40,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Vermicelli%20(Shemai)%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -6998,6 +8342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7030,7 +8379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Teer%20Semolina%20Suji%20500%20gm",
+        "url": "https://cartup.com/search?q=Teer%20Semolina%20Suji%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 48,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Teer%20Semolina%20Suji%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7065,6 +8422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7097,7 +8459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
+        "url": "https://cartup.com/search?q=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 72,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7132,6 +8502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7164,7 +8539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
+        "url": "https://cartup.com/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 770,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7199,6 +8582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7231,7 +8619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?q=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7266,6 +8662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7298,7 +8699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
+        "url": "https://cartup.com/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 480,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7333,6 +8742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7365,7 +8779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
+        "url": "https://cartup.com/search?q=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 950,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7400,6 +8822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7432,7 +8859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
+        "url": "https://cartup.com/search?q=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 425,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7467,6 +8902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7499,7 +8939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
+        "url": "https://cartup.com/search?q=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 360,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7534,6 +8982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7566,7 +9019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "url": "https://cartup.com/search?q=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 950,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7601,6 +9062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7633,7 +9099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "url": "https://cartup.com/search?q=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 950,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7668,6 +9142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7700,7 +9179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Danish%20Condensed%20Filled%20Milk%20397%20gm",
+        "url": "https://cartup.com/search?q=Danish%20Condensed%20Filled%20Milk%20397%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Danish%20Condensed%20Filled%20Milk%20397%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7735,6 +9222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7767,7 +9259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Starship%20Condensed%20Milk%20400%20gm",
+        "url": "https://cartup.com/search?q=Starship%20Condensed%20Milk%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Starship%20Condensed%20Milk%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7802,6 +9302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7834,7 +9339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Puck%20Sterilized%20Cream%20160%20gm",
+        "url": "https://cartup.com/search?q=Puck%20Sterilized%20Cream%20160%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 239,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Puck%20Sterilized%20Cream%20160%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7869,6 +9382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7901,7 +9419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=No%201.%20Condensed%20Milk%20400%20gm",
+        "url": "https://cartup.com/search?q=No%201.%20Condensed%20Milk%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=No%201.%20Condensed%20Milk%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -7936,6 +9462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -7968,7 +9499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "url": "https://cartup.com/search?q=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 360,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8003,6 +9542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8035,7 +9579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "url": "https://cartup.com/search?q=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 340,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8070,6 +9622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8102,7 +9659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8137,6 +9702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8169,7 +9739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8204,6 +9782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8236,7 +9819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8271,6 +9862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8303,7 +9899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "url": "https://cartup.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 255,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8338,6 +9942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8370,7 +9979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8405,6 +10022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8437,7 +10059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8472,6 +10102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8504,7 +10139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8539,6 +10182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8571,7 +10219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 339,
+        "inStock": true,
+        "discountText": "৳16 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8606,6 +10262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8638,7 +10299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 359,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8673,6 +10342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8705,7 +10379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳12 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 333,
+        "inStock": true,
+        "discountText": "৳12 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8740,6 +10422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8772,7 +10459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 489,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8807,6 +10502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8839,7 +10539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 199,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8874,6 +10582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8906,7 +10619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 635,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -8941,6 +10662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -8973,7 +10699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "url": "https://cartup.com/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20Layer%20(White)%2012%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9008,6 +10742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9040,7 +10779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
+        "url": "https://cartup.com/search?q=Chicken%20Eggs%20Layer%20(White)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 69,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20Layer%20(White)%206%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9075,6 +10822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9107,7 +10859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Amul%20Butter%20Unsalted%20500%20gm",
+        "url": "https://cartup.com/search?q=Amul%20Butter%20Unsalted%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 800,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Amul%20Butter%20Unsalted%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9142,6 +10902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9174,7 +10939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Amul%20Butter%20Salted%20100%20gm",
+        "url": "https://cartup.com/search?q=Amul%20Butter%20Salted%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Amul%20Butter%20Salted%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9209,6 +10982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9241,7 +11019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lurpak%20Butter%20Salted%20200%20gm",
+        "url": "https://cartup.com/search?q=Lurpak%20Butter%20Salted%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 635,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lurpak%20Butter%20Salted%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9276,6 +11062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9308,7 +11099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lurpak%20Butter%20Unsalted%20200%20gm",
+        "url": "https://cartup.com/search?q=Lurpak%20Butter%20Unsalted%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 880,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lurpak%20Butter%20Unsalted%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9343,6 +11142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9375,7 +11179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Butter%20200%20gm",
+        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Butter%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 270,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Butter%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9410,6 +11222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9442,7 +11259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Anchor%20Unsalted%20Butter%20227%20gm",
+        "url": "https://cartup.com/search?q=Anchor%20Unsalted%20Butter%20227%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 500,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Anchor%20Unsalted%20Butter%20227%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9477,6 +11302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9509,7 +11339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Philadelphia%20Cream%20Cheese%20250%20gm",
+        "url": "https://cartup.com/search?q=Philadelphia%20Cream%20Cheese%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 750,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Philadelphia%20Cream%20Cheese%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9544,6 +11382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9576,7 +11419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Puck%20Cream%20Cheese%20Spread%20140%20gm",
+        "url": "https://cartup.com/search?q=Puck%20Cream%20Cheese%20Spread%20140%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 399,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Puck%20Cream%20Cheese%20Spread%20140%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9611,6 +11462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9643,7 +11499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Anchor%20White%20Cheddar%20Block%20250%20gm",
+        "url": "https://cartup.com/search?q=Anchor%20White%20Cheddar%20Block%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 555,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Anchor%20White%20Cheddar%20Block%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9678,6 +11542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9710,7 +11579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
+        "url": "https://cartup.com/search?q=Almarai%20spreadable%20Cream%20Cheese%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1290,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Almarai%20spreadable%20Cream%20Cheese%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9745,6 +11622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9777,7 +11659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
+        "url": "https://cartup.com/search?q=Arla%20Sandwich%20Slice%20Cheese%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 460,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Arla%20Sandwich%20Slice%20Cheese%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9812,6 +11702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9844,7 +11739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Almarai%20Cream%20Cheese%20108%20gm",
+        "url": "https://cartup.com/search?q=Almarai%20Cream%20Cheese%20108%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 290,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Almarai%20Cream%20Cheese%20108%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9879,6 +11782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9911,7 +11819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Refined%20Sugar%20500%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Refined%20Sugar%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 55,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Refined%20Sugar%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -9946,6 +11862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -9978,7 +11899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Starship%20Refined%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=Starship%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Starship%20Refined%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10013,6 +11942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10045,7 +11979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Akij%20Essential%20Refined%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10080,6 +12022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10112,7 +12059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Loose%20White%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=Loose%20White%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 109,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Loose%20White%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10147,6 +12102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10179,7 +12139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Sugar%20Sachet%20Box%20250%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Sugar%20Sachet%20Box%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 55,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Sugar%20Sachet%20Box%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10214,6 +12182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10246,7 +12219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳27 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sis%20White%20Icing%20Sugar%20500%20gm",
+        "url": "https://cartup.com/search?q=Sis%20White%20Icing%20Sugar%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 393,
+        "inStock": true,
+        "discountText": "৳27 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sis%20White%20Icing%20Sugar%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10281,6 +12262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10313,7 +12299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=O'Natural%20Brown%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=O'Natural%20Brown%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=O'Natural%20Brown%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10348,6 +12342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10380,7 +12379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
+        "url": "https://cartup.com/search?q=Savory%20Molasses%20Brown%20Sugar%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Savory%20Molasses%20Brown%20Sugar%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10415,6 +12422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10447,7 +12459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
+        "url": "https://cartup.com/search?q=Savory%20Molasses%20Brown%20Sugar%20454%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Savory%20Molasses%20Brown%20Sugar%20454%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10482,6 +12502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10514,7 +12539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 479,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mitr%20Phol%20Natural%20Cane%20Brown%20%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10549,6 +12582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10581,7 +12619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm%20",
+        "url": "https://cartup.com/search?q=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 269,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10616,6 +12662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10648,7 +12699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "url": "https://cartup.com/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 38,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Akij%20Essential%20Iodized%20Salt%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10683,6 +12742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10715,7 +12779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 125,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10750,6 +12822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10782,7 +12859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Iodized%20Salt%201%20kg",
+        "url": "https://cartup.com/search?q=Pran%20Iodized%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Iodized%20Salt%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10817,6 +12902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10849,7 +12939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
+        "url": "https://cartup.com/search?q=Rock%20Salt%20(Bit%20Lobon)%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 55,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rock%20Salt%20(Bit%20Lobon)%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10884,6 +12982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10916,7 +13019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
+        "url": "https://cartup.com/search?q=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -10951,6 +13062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -10983,7 +13099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Saad%20Tasting%20Salt%20100%20gm",
+        "url": "https://cartup.com/search?q=Saad%20Tasting%20Salt%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Saad%20Tasting%20Salt%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11018,6 +13142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11050,7 +13179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "url": "https://cartup.com/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11085,6 +13222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11117,7 +13259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Super%20Premium%20Salt%20Jar%20750%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Super%20Premium%20Salt%20Jar%20750%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 35,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Super%20Premium%20Salt%20Jar%20750%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11152,6 +13302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11184,7 +13339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Molla%20Super%20Salt%201%20kg",
+        "url": "https://cartup.com/search?q=Molla%20Super%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Molla%20Super%20Salt%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11219,6 +13382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11251,7 +13419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 280,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11286,6 +13462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11318,7 +13499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 280,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11353,6 +13542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11385,7 +13579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
+        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "৳10 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11420,6 +13622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11452,7 +13659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "url": "https://cartup.com/search?q=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 425,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11487,6 +13702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11519,7 +13739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
+        "url": "https://cartup.com/search?q=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11554,6 +13782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11586,7 +13819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
+        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11621,6 +13862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11653,7 +13899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11688,6 +13942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11720,7 +13979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11755,6 +14022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11787,7 +14059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11822,6 +14102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11854,7 +14139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 85,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11889,6 +14182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11921,7 +14219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 310,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -11956,6 +14262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -11988,7 +14299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 880,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12023,6 +14342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12055,7 +14379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
+        "url": "https://cartup.com/search?q=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 550,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12090,6 +14422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12122,7 +14459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?q=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1099,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12157,6 +14502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12189,7 +14539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Quail%20Meat%202%20pcs",
+        "url": "https://cartup.com/search?q=Quail%20Meat%202%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 155,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Quail%20Meat%202%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12224,6 +14582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12256,7 +14619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mutton%20Head%20Meat%20Regular%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?q=Mutton%20Head%20Meat%20Regular%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 639,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mutton%20Head%20Meat%20Regular%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12291,6 +14662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12323,7 +14699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳108 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?q=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 931,
+        "inStock": true,
+        "discountText": "৳108 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12358,6 +14742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12390,7 +14779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 520,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12425,6 +14822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12457,7 +14859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 250,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12492,6 +14902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12524,7 +14939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 260,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12559,6 +14982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12591,7 +15019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12626,6 +15062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12658,7 +15099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "url": "https://cartup.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 290,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12693,6 +15142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12725,7 +15179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "url": "https://cartup.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 305,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12760,6 +15222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12792,7 +15259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Biryani%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Biryani%20Masala%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Biryani%20Masala%2040%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12827,6 +15302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12859,7 +15339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12894,6 +15382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12926,7 +15419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 90,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -12961,6 +15462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -12993,7 +15499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Garam%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Garam%20Masala%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Garam%20Masala%2040%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13028,6 +15542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13060,7 +15579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Chotpoti%20Masala%2050%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Chotpoti%20Masala%2050%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Chotpoti%20Masala%2050%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13095,6 +15622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13127,7 +15659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Roast%20Masala%2035%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Roast%20Masala%2035%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 65,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Roast%20Masala%2035%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13162,6 +15702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13194,7 +15739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20(Jar)%20500%20gm",
+        "url": "https://cartup.com/search?q=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20(Jar)%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 290,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20(Jar)%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13229,6 +15782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13261,7 +15819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 45,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13296,6 +15862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13328,7 +15899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 85,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13363,6 +15942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13395,7 +15979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 25,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13430,6 +16022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13462,7 +16059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 45,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13497,6 +16102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13529,7 +16139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 99,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13564,6 +16182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13596,7 +16219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Potato%20Regular%20(%C2%B1%2050%20gm)%201%20kg",
+        "url": "https://cartup.com/search?q=Potato%20Regular%20(%C2%B1%2050%20gm)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 29,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Potato%20Regular%20(%C2%B1%2050%20gm)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13631,6 +16262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13663,7 +16299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Potato%20Regular%20(%C2%B1%2025%20gm)%20600%20gm",
+        "url": "https://cartup.com/search?q=Potato%20Regular%20(%C2%B1%2025%20gm)%20600%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 18,
+        "inStock": true,
+        "discountText": "৳2 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Potato%20Regular%20(%C2%B1%2025%20gm)%20600%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13698,6 +16342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13730,7 +16379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 29,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13765,6 +16422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13797,7 +16459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 29,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13832,6 +16502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13864,7 +16539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 59,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13899,6 +16582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13931,7 +16619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 29,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -13966,6 +16662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -13998,7 +16699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳14 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "৳14 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14033,6 +16742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14065,7 +16779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 57,
+        "inStock": true,
+        "discountText": "৳2 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14100,6 +16822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14132,7 +16859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 399,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14167,6 +16902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14199,7 +16939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳7 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
+        "url": "https://cartup.com/search?q=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 48,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14234,6 +16982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14266,7 +17019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
+        "url": "https://cartup.com/search?q=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 32,
+        "inStock": true,
+        "discountText": "৳3 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14301,6 +17062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14333,7 +17099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
+        "url": "https://cartup.com/search?q=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14368,6 +17142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14400,7 +17179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 98,
+        "inStock": true,
+        "discountText": "৳11 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14435,6 +17222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14467,7 +17259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳14 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "৳14 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14502,6 +17302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14534,7 +17339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "url": "https://cartup.com/search?q=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 56,
+        "inStock": true,
+        "discountText": "৳9 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14569,6 +17382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14601,7 +17419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "url": "https://cartup.com/search?q=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14636,6 +17462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14668,7 +17499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
+        "url": "https://cartup.com/search?q=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 845,
+        "inStock": true,
+        "discountText": "৳45 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14703,6 +17542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14735,7 +17579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Tomato%20Sauce%20340%20gm",
+        "url": "https://cartup.com/search?q=Pran%20Tomato%20Sauce%20340%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 125,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Tomato%20Sauce%20340%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14770,6 +17622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14802,7 +17659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Tomato%20Sauce%201%20kg",
+        "url": "https://cartup.com/search?q=Pran%20Tomato%20Sauce%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Tomato%20Sauce%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14837,6 +17702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14869,7 +17739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
+        "url": "https://cartup.com/search?q=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 125,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14904,6 +17782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -14936,7 +17819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
+        "url": "https://cartup.com/search?q=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 30,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -14971,6 +17862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15003,7 +17899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
+        "url": "https://cartup.com/search?q=Saad%20Hot%20Tomato%20Sauce%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Saad%20Hot%20Tomato%20Sauce%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15038,6 +17942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15070,7 +17979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
+        "url": "https://cartup.com/search?q=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15105,6 +18022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15137,7 +18059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
+        "url": "https://cartup.com/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 89,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15172,6 +18102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15204,7 +18139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
+        "url": "https://cartup.com/search?q=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 39,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15239,6 +18182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15271,7 +18219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳7 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
+        "url": "https://cartup.com/search?q=Ahmed%20Green%20Chilli%20Sauce%20340%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 123,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ahmed%20Green%20Chilli%20Sauce%20340%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15306,6 +18262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15338,7 +18299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Green%20Chilli%20Sauce%20340%20gm",
+        "url": "https://cartup.com/search?q=Pran%20Green%20Chilli%20Sauce%20340%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 130,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Green%20Chilli%20Sauce%20340%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15373,6 +18342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15405,7 +18379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
+        "url": "https://cartup.com/search?q=Ching's%20Green%20Chilli%20Sauce%20680%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ching's%20Green%20Chilli%20Sauce%20680%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15440,6 +18422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15472,7 +18459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
+        "url": "https://cartup.com/search?q=Ching's%20Green%20Chilli%20Sauce%20190%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ching's%20Green%20Chilli%20Sauce%20190%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15507,6 +18502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15539,7 +18539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
+        "url": "https://cartup.com/search?q=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 120,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15574,6 +18582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15606,7 +18619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
+        "url": "https://cartup.com/search?q=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 34,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15641,6 +18662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15673,7 +18699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
+        "url": "https://cartup.com/search?q=Gol%20Lebu%20(Round%20Lemon)%204%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 43,
+        "inStock": true,
+        "discountText": "৳6 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Gol%20Lebu%20(Round%20Lemon)%204%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15708,6 +18742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15740,7 +18779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
+        "url": "https://cartup.com/search?q=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 40,
+        "inStock": true,
+        "discountText": "৳9 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15775,6 +18822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15807,7 +18859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
+        "url": "https://cartup.com/search?q=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15842,6 +18902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15874,7 +18939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
+        "url": "https://cartup.com/search?q=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 40,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15909,6 +18982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -15941,7 +19019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 39,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -15976,6 +19062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16008,7 +19099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 40,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16043,6 +19142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16075,7 +19179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
+        "url": "https://cartup.com/search?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16110,6 +19222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16142,7 +19259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
+        "url": "https://cartup.com/search?q=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Veet%20Pure%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16177,6 +19302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16209,7 +19339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
+        "url": "https://cartup.com/search?q=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16244,6 +19382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16276,7 +19419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
+        "url": "https://cartup.com/search?q=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 650,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16311,6 +19462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16343,7 +19499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 55,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16378,6 +19542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16410,7 +19579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
+        "url": "https://cartup.com/search?q=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 111,
+        "inStock": true,
+        "discountText": "৳9 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16445,6 +19622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16477,7 +19659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
+        "url": "https://cartup.com/search?q=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16512,6 +19702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16544,7 +19739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 425,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16579,6 +19782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16611,7 +19819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Prosperity%20Carrot%20Noodles%20454%20gm",
+        "url": "https://cartup.com/search?q=Prosperity%20Carrot%20Noodles%20454%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 390,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Prosperity%20Carrot%20Noodles%20454%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16646,6 +19862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16678,7 +19899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16713,6 +19942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16745,7 +19979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "url": "https://cartup.com/search?q=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 209,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16780,6 +20022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16812,7 +20059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16847,6 +20102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16879,7 +20139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 479,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16914,6 +20182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -16946,7 +20219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Anaros%20(Pineapple)%201%20pcs",
+        "url": "https://cartup.com/search?q=Anaros%20(Pineapple)%201%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 82,
+        "inStock": true,
+        "discountText": "৳3 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Anaros%20(Pineapple)%201%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -16981,6 +20262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17013,7 +20299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳23 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bel%20(Wood%20Apple)%201%20pcs",
+        "url": "https://cartup.com/search?q=Bel%20(Wood%20Apple)%201%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 177,
+        "inStock": true,
+        "discountText": "৳23 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bel%20(Wood%20Apple)%201%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17048,6 +20342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17080,7 +20379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
+        "url": "https://cartup.com/search?q=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 58,
+        "inStock": true,
+        "discountText": "৳2 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17115,6 +20422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17147,7 +20459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳7 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
+        "url": "https://cartup.com/search?q=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 38,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17182,6 +20502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17214,7 +20539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Banana%20Sobri%204%20pcs",
+        "url": "https://cartup.com/search?q=Banana%20Sobri%204%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 55,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Banana%20Sobri%204%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17249,6 +20582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17281,7 +20619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
+        "url": "https://cartup.com/search?q=Kacha%20Kola%20(Banana%20Green)%204%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kacha%20Kola%20(Banana%20Green)%204%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17316,6 +20662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17348,7 +20699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
+        "url": "https://cartup.com/search?q=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 56,
+        "inStock": true,
+        "discountText": "৳9 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17383,6 +20742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17415,7 +20779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
+        "url": "https://cartup.com/search?q=Banana%20Stem%20(Kolar%20Thor)%201%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 35,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Banana%20Stem%20(Kolar%20Thor)%201%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17450,6 +20822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17482,7 +20859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Moshur%20Dal%20(Imported)%201%20kg",
+        "url": "https://cartup.com/search?q=Moshur%20Dal%20(Imported)%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 112,
+        "inStock": true,
+        "discountText": "৳3 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Moshur%20Dal%20(Imported)%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17517,6 +20902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17549,7 +20939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Malta%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Malta%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 319,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Malta%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17584,6 +20982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17616,7 +21019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
+        "url": "https://cartup.com/search?q=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 159,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17651,6 +21062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17683,7 +21099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
+        "url": "https://cartup.com/search?q=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 270,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17718,6 +21142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17750,7 +21179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "url": "https://cartup.com/search?q=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 289,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17785,6 +21222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17817,7 +21259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 54,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17852,6 +21302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17884,7 +21339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20pack",
+        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17919,6 +21382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -17951,7 +21419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016%20pack",
+        "url": "https://cartup.com/search?q=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016%20pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 340,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016%20pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -17986,6 +21462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18018,7 +21499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20pack",
+        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18053,6 +21542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18085,7 +21579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012%20pack",
+        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012%20pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 265,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012%20pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18120,6 +21622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18152,7 +21659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012%20pack",
+        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012%20pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 265,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012%20pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18187,6 +21702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18219,7 +21739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012%20Pack",
+        "url": "https://cartup.com/search?q=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012%20Pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 265,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012%20Pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18254,6 +21782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18286,7 +21819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
+        "url": "https://cartup.com/search?q=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 170,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18321,6 +21862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18353,7 +21899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?q=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 35,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18388,6 +21942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18420,7 +21979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
+        "url": "https://cartup.com/search?q=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 90,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18455,6 +22022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18487,7 +22059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20%20(Box%20Free)%C2%A0496%20gm",
+        "url": "https://cartup.com/search?q=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20%20(Box%20Free)%C2%A0496%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20%20(Box%20Free)%C2%A0496%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18522,6 +22102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18554,7 +22139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
+        "url": "https://cartup.com/search?q=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18589,6 +22182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18621,7 +22219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
+        "url": "https://cartup.com/search?q=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 25,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18656,6 +22262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18688,7 +22299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
+        "url": "https://cartup.com/search?q=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18723,6 +22342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18755,7 +22379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20Pack%20496%20gm",
+        "url": "https://cartup.com/search?q=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20Pack%20496%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 175,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20Pack%20496%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18790,6 +22422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18822,7 +22459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pack",
+        "url": "https://cartup.com/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18857,6 +22502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18889,7 +22539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Instant%20Noodles%20Masala%20Blast%208%20pack",
+        "url": "https://cartup.com/search?q=Fresh%20Instant%20Noodles%20Masala%20Blast%208%20pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 165,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Instant%20Noodles%20Masala%20Blast%208%20pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18924,6 +22582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -18956,7 +22619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box%201%20pcs)%208%20pack",
+        "url": "https://cartup.com/search?q=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box%201%20pcs)%208%20pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20Box%201%20pcs)%208%20pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -18991,6 +22662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19023,7 +22699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Doodles%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pcs",
+        "url": "https://cartup.com/search?q=Doodles%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Doodles%20Masala%20Noodles%20(Free%20Doodles%20Box)%208%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19058,6 +22742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19090,7 +22779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cocola%20Egg%20Noodles%20125%20gm",
+        "url": "https://cartup.com/search?q=Cocola%20Egg%20Noodles%20125%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cocola%20Egg%20Noodles%20125%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19125,6 +22822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19157,7 +22859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
+        "url": "https://cartup.com/search?q=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 25,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19192,6 +22902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19224,7 +22939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cocola%20Egg%20%20%26%20Chicken%20Noodles%20Box%20300%20gm",
+        "url": "https://cartup.com/search?q=Cocola%20Egg%20%20%26%20Chicken%20Noodles%20Box%20300%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 45,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cocola%20Egg%20%20%26%20Chicken%20Noodles%20Box%20300%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19259,6 +22982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19291,7 +23019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
+        "url": "https://cartup.com/search?q=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19326,6 +23062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19358,7 +23099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
+        "url": "https://cartup.com/search?q=Cocola%20Chicken%20Masala%20Noodles%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 25,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cocola%20Chicken%20Masala%20Noodles%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19393,6 +23142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19425,7 +23179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
+        "url": "https://cartup.com/search?q=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19460,6 +23222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19492,7 +23259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 116,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19527,6 +23302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19559,7 +23339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 270,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19594,6 +23382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19626,7 +23419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19661,6 +23462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19693,7 +23499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%C2%A0Mirzapore%20Best%20Leaf%20Tea%20(Jar)%20350%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%C2%A0Mirzapore%20Best%20Leaf%20Tea%20(Jar)%20350%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 220,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%C2%A0Mirzapore%20Best%20Leaf%20Tea%20(Jar)%20350%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19728,6 +23542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19760,7 +23579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20(Free%20Ispahani%20Premium%20Toast%20250%20gm)%20400%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20(Free%20Ispahani%20Premium%20Toast%20250%20gm)%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 210,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20(Free%20Ispahani%20Premium%20Toast%20250%20gm)%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19795,6 +23622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19827,7 +23659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 420,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19862,6 +23702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19894,7 +23739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 130,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19929,6 +23782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -19961,7 +23819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
+        "url": "https://cartup.com/search?q=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 250,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -19996,6 +23862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20028,7 +23899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dr.%20H%26H%20Zeera%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
+        "url": "https://cartup.com/search?q=Dr.%20H%26H%20Zeera%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 175,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dr.%20H%26H%20Zeera%20Black%20Tea%20Bag%2030%20pcs%2060%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20063,6 +23942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20095,7 +23979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dr.%20H%26H%20Mint%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
+        "url": "https://cartup.com/search?q=Dr.%20H%26H%20Mint%20Black%20Tea%20Bag%2030%20pcs%2060%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 175,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dr.%20H%26H%20Mint%20Black%20Tea%20Bag%2030%20pcs%2060%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20130,6 +24022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20162,7 +24059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Premium%20Black%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Premium%20Black%20Tea%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 120,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Premium%20Black%20Tea%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20197,6 +24102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20229,7 +24139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Halda%20Valley%20Black%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?q=Halda%20Valley%20Black%20Tea%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 175,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Halda%20Valley%20Black%20Tea%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20264,6 +24182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20296,7 +24219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 275,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20331,6 +24262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20363,7 +24299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 475,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20398,6 +24342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20430,7 +24379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%20180%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%20180%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 970,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%20180%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20465,6 +24422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20497,7 +24459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2024%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2024%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 195,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2024%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20532,6 +24502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20564,7 +24539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Tin)%20100%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Tin)%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 225,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Tin)%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20599,6 +24582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20631,7 +24619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Pouch%20Pack%20200%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Pouch%20Pack%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 950,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Pouch%20Pack%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20666,6 +24662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20698,7 +24699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
+        "url": "https://cartup.com/search?q=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 375,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20733,6 +24742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20765,7 +24779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
+        "url": "https://cartup.com/search?q=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20800,6 +24822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20832,7 +24859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cadbury%20Oreo%20Original%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
+        "url": "https://cartup.com/search?q=Cadbury%20Oreo%20Original%20Sandwich%20Cream%20Biscuit%20108.55%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 175,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cadbury%20Oreo%20Original%20Sandwich%20Cream%20Biscuit%20108.55%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20867,6 +24902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20899,7 +24939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
+        "url": "https://cartup.com/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 120,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -20934,6 +24982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -20966,7 +25019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20pack%20420%20gm",
+        "url": "https://cartup.com/search?q=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20pack%20420%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20pack%20420%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21001,6 +25062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21033,7 +25099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21068,6 +25142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21100,7 +25179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21135,6 +25222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21167,7 +25259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
+        "url": "https://cartup.com/search?q=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21202,6 +25302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21234,7 +25339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?q=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 57,
+        "inStock": true,
+        "discountText": "৳2 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21269,6 +25382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21301,7 +25419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
+        "url": "https://cartup.com/search?q=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 89,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21336,6 +25462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21368,7 +25499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Energy%20Plus%20Biscuits%2062%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21403,6 +25542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21435,7 +25579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Energy%20Plus%20Biscuits%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Energy%20Plus%20Biscuits%20185%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21470,6 +25622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21502,7 +25659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
+        "url": "https://cartup.com/search?q=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 900,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21537,6 +25702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21569,7 +25739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
+        "url": "https://cartup.com/search?q=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 950,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21604,6 +25782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21636,7 +25819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Horlicks%20Original%20Hot%20Malty%20Goodness%20500%20gm",
+        "url": "https://cartup.com/search?q=Horlicks%20Original%20Hot%20Malty%20Goodness%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1034,
+        "inStock": true,
+        "discountText": "৳45 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Horlicks%20Original%20Hot%20Malty%20Goodness%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21671,6 +25862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21703,7 +25899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
+        "url": "https://cartup.com/search?q=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21738,6 +25942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21770,7 +25979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "url": "https://cartup.com/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Special%20Toast%20Biscuit%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21805,6 +26022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21837,7 +26059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
+        "url": "https://cartup.com/search?q=Fun%20Sweet%20Toast%20Biscuit%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 65,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fun%20Sweet%20Toast%20Biscuit%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21872,6 +26102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21904,7 +26139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 90,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -21939,6 +26182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -21971,7 +26219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?q=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22006,6 +26262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22038,7 +26299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=BelleAme%20Toast%20Biscuit%20250%20gm",
+        "url": "https://cartup.com/search?q=BelleAme%20Toast%20Biscuit%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=BelleAme%20Toast%20Biscuit%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22073,6 +26342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22105,7 +26379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22140,6 +26422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22172,7 +26459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
+        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Potato%20Crackers%2028%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Potato%20Crackers%2028%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22207,6 +26502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22239,7 +26539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
+        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22274,6 +26582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22306,7 +26619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Premium%20Roshogolla%20600%20gm",
+        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Premium%20Roshogolla%20600%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Premium%20Roshogolla%20600%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22341,6 +26662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22373,7 +26699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Premium%20Gulab%20Jamun%20600%20gm",
+        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Premium%20Gulab%20Jamun%20600%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Premium%20Gulab%20Jamun%20600%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22408,6 +26742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22440,7 +26779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
+        "url": "https://cartup.com/search?q=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22475,6 +26822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22507,7 +26859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Premium%20Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
+        "url": "https://cartup.com/search?q=Premium%20Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 295,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Premium%20Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22542,6 +26902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22574,7 +26939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 425,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22609,6 +26982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22641,7 +27019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
+        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22676,6 +27062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22708,7 +27099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20Jar%20750%20gm",
+        "url": "https://cartup.com/search?q=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20Jar%20750%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 780,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20Jar%20750%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22743,6 +27142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22775,7 +27179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
+        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 950,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22810,6 +27222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22842,7 +27259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?q=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 480,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22877,6 +27302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22909,7 +27339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Jet%20Classic%20Detergent%20Powder%20Paper%20Pack%201%20kg",
+        "url": "https://cartup.com/search?q=Jet%20Classic%20Detergent%20Powder%20Paper%20Pack%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 300,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Jet%20Classic%20Detergent%20Powder%20Paper%20Pack%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -22944,6 +27382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -22976,7 +27419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Surf%20Excel%20Washing%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?q=Surf%20Excel%20Washing%20Powder%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 120,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Surf%20Excel%20Washing%20Powder%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23011,6 +27462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23043,7 +27499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Surf%20Excel%20Washing%20Powder%201%20kg",
+        "url": "https://cartup.com/search?q=Surf%20Excel%20Washing%20Powder%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 235,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Surf%20Excel%20Washing%20Powder%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23078,6 +27542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23110,7 +27579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
+        "url": "https://cartup.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 155,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23145,6 +27622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23177,7 +27659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
+        "url": "https://cartup.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23212,6 +27702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23244,7 +27739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
+        "url": "https://cartup.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 260,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23279,6 +27782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23311,7 +27819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
+        "url": "https://cartup.com/search?q=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 280,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23346,6 +27862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23378,7 +27899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "url": "https://cartup.com/search?q=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 220,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23413,6 +27942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23445,7 +27979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rin%20Advanced%20Detergent%20Powder%201%20kg",
+        "url": "https://cartup.com/search?q=Rin%20Advanced%20Detergent%20Powder%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 195,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rin%20Advanced%20Detergent%20Powder%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23480,6 +28022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23512,7 +28059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
+        "url": "https://cartup.com/search?q=Rin%20Advanced%20Detergent%20Powder%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rin%20Advanced%20Detergent%20Powder%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23547,6 +28102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23579,7 +28139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rin%20Advanced%20Detergent%20Powder%202%20kg",
+        "url": "https://cartup.com/search?q=Rin%20Advanced%20Detergent%20Powder%202%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 370,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rin%20Advanced%20Detergent%20Powder%202%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23614,6 +28182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23646,7 +28219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
+        "url": "https://cartup.com/search?q=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 220,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23681,6 +28262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23713,7 +28299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ligion%20Neem%20Face%20Wash%2050%20ml",
+        "url": "https://cartup.com/search?q=Ligion%20Neem%20Face%20Wash%2050%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ligion%20Neem%20Face%20Wash%2050%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23748,6 +28342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23780,7 +28379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
+        "url": "https://cartup.com/search?q=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 265,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23815,6 +28422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23847,7 +28459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20Original%20750%20ml",
+        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20Original%20750%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20Original%20750%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23882,6 +28502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23914,7 +28539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20(Free%20Mug)%201%20ltr",
+        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20(Free%20Mug)%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 235,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20(Free%20Mug)%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -23949,6 +28582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -23981,7 +28619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%201%20ltr",
+        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 235,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20Original%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24016,6 +28662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24048,7 +28699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20500%20ml",
+        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20500%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24083,6 +28742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24115,7 +28779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20750%20ml",
+        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20750%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20Original%20750%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24150,6 +28822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24182,7 +28859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
+        "url": "https://cartup.com/search?q=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 185,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24217,6 +28902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24249,7 +28939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
+        "url": "https://cartup.com/search?q=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24284,6 +28982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24316,7 +29019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
+        "url": "https://cartup.com/search?q=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 210,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24351,6 +29062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24383,7 +29099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Liquid%20Pouch%20200%20ml",
+        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20Pouch%20200%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20Pouch%20200%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24418,6 +29142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24450,7 +29179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Liquid%20950%20ml",
+        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20950%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20950%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24485,6 +29222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24517,7 +29259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Liquid%20475%20ml",
+        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20475%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 130,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20475%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24552,6 +29302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24584,7 +29339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwash%20Liquid%20100%20ml",
+        "url": "https://cartup.com/search?q=Vim%20Dishwash%20Liquid%20100%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 25,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwash%20Liquid%20100%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24619,6 +29382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24651,7 +29419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Liquid%20Combo%20Pack",
+        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Liquid%20Combo%20Pack",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 390,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20Combo%20Pack&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24686,6 +29462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24718,7 +29499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Bar%20300%20gm",
+        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20300%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 40,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20300%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24753,6 +29542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24785,7 +29579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Bar%20125%20gm",
+        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20125%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20125%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24820,6 +29622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24852,7 +29659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
+        "url": "https://cartup.com/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 35,
+        "inStock": true,
+        "discountText": "৳5 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24887,6 +29702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24919,7 +29739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
+        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 35,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -24954,6 +29782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -24986,7 +29819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Vim%20Dishwashing%20Bar%20100%20gm",
+        "url": "https://cartup.com/search?q=Vim%20Dishwashing%20Bar%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 12,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25021,6 +29862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25053,7 +29899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
+        "url": "https://cartup.com/search?q=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 13,
+        "inStock": true,
+        "discountText": "৳2 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25088,6 +29942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25120,7 +29979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
+        "url": "https://cartup.com/search?q=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 300,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25155,6 +30022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25187,7 +30059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
+        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25222,6 +30102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25254,7 +30139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
+        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25289,6 +30182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25321,7 +30219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
+        "url": "https://cartup.com/search?q=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 300,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25356,6 +30262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25388,7 +30299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
+        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1250,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25423,6 +30342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25455,7 +30379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
+        "url": "https://cartup.com/search?q=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1250,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25490,6 +30422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25522,7 +30459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dettol%20Original%20Germ%20Defence%20Soap%20100%20gm",
+        "url": "https://cartup.com/search?q=Dettol%20Original%20Germ%20Defence%20Soap%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dettol%20Original%20Germ%20Defence%20Soap%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25557,6 +30502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25589,7 +30539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dettol%20Bathing%20Soap%20Bar%20Original%2027%20gm",
+        "url": "https://cartup.com/search?q=Dettol%20Bathing%20Soap%20Bar%20Original%2027%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dettol%20Bathing%20Soap%20Bar%20Original%2027%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25624,6 +30582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25656,7 +30619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm",
+        "url": "https://cartup.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 65,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25691,6 +30662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25723,7 +30699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
+        "url": "https://cartup.com/search?q=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 40,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25758,6 +30742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25790,7 +30779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dettol%20Bathing%20Soap%20(Original%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
+        "url": "https://cartup.com/search?q=Dettol%20Bathing%20Soap%20(Original%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 260,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dettol%20Bathing%20Soap%20(Original%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25825,6 +30822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25857,7 +30859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm%20(Combo%20Pack)%203%20pcs",
+        "url": "https://cartup.com/search?q=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm%20(Combo%20Pack)%203%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 195,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Bathing%20Bar%20Original%20Germ%20Defence%2075%20gm%20(Combo%20Pack)%203%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25892,6 +30902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25924,7 +30939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
+        "url": "https://cartup.com/search?q=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -25959,6 +30982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -25991,7 +31019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
+        "url": "https://cartup.com/search?q=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 280,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26026,6 +31062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26058,7 +31099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
+        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 170,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26093,6 +31142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26125,7 +31179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
+        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26160,6 +31222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26192,7 +31259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
+        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26227,6 +31302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26259,7 +31339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
+        "url": "https://cartup.com/search?q=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26294,6 +31382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26326,7 +31419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
+        "url": "https://cartup.com/search?q=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 750,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26361,6 +31462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26393,7 +31499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
+        "url": "https://cartup.com/search?q=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 550,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26428,6 +31542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26460,7 +31579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
+        "url": "https://cartup.com/search?q=Guerniss%20Anti%20Melasma%20Toner%20150%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1470,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Guerniss%20Anti%20Melasma%20Toner%20150%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26495,6 +31622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26527,7 +31659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
+        "url": "https://cartup.com/search?q=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1480,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26562,6 +31702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26594,7 +31739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
+        "url": "https://cartup.com/search?q=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1480,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26629,6 +31782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26661,7 +31819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
+        "url": "https://cartup.com/search?q=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1250,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26696,6 +31862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26728,7 +31899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20Pack)%202%20pcs",
+        "url": "https://cartup.com/search?q=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20Pack)%202%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20Pack)%202%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26763,6 +31942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26795,7 +31979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20Pack)%202%20pcs",
+        "url": "https://cartup.com/search?q=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20Pack)%202%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20Pack)%202%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26830,6 +32022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26862,7 +32059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
+        "url": "https://cartup.com/search?q=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 94,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26897,6 +32102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26929,7 +32139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
+        "url": "https://cartup.com/search?q=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 210,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -26964,6 +32182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -26996,7 +32219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
+        "url": "https://cartup.com/search?q=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 210,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27031,6 +32262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27063,7 +32299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Godrej%20No.1%20Jasmine%20Soap%20Combo%20Pack%20100%20gm%202%20pcs",
+        "url": "https://cartup.com/search?q=Godrej%20No.1%20Jasmine%20Soap%20Combo%20Pack%20100%20gm%202%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 84,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Godrej%20No.1%20Jasmine%20Soap%20Combo%20Pack%20100%20gm%202%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27098,6 +32342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27130,7 +32379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
+        "url": "https://cartup.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 390,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27165,6 +32422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27197,7 +32459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
+        "url": "https://cartup.com/search?q=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27232,6 +32502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27264,7 +32539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
+        "url": "https://cartup.com/search?q=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 220,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27299,6 +32582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27331,7 +32619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
+        "url": "https://cartup.com/search?q=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 390,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27366,6 +32662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27398,7 +32699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ligion%20Ladies%20Uptan%2070%20gm",
+        "url": "https://cartup.com/search?q=Ligion%20Ladies%20Uptan%2070%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ligion%20Ladies%20Uptan%2070%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27433,6 +32742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27465,7 +32779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
+        "url": "https://cartup.com/search?q=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1000,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27500,6 +32822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27532,7 +32859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Woman's%20World%20Uptan%20150%20gm",
+        "url": "https://cartup.com/search?q=Woman's%20World%20Uptan%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Woman's%20World%20Uptan%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27567,6 +32902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27599,7 +32939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
+        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 170,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27634,6 +32982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27666,7 +33019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
+        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 125,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27701,6 +33062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27733,7 +33099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
+        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27768,6 +33142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27800,7 +33179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20Box)%20190%20gm",
+        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20Box)%20190%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20Box)%20190%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27835,6 +33222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27867,7 +33259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
+        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27902,6 +33302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -27934,7 +33339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
+        "url": "https://cartup.com/search?q=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -27969,6 +33382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28001,7 +33419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
+        "url": "https://cartup.com/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 475,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28036,6 +33462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28068,7 +33499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
+        "url": "https://cartup.com/search?q=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 819,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28103,6 +33542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28135,7 +33579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
+        "url": "https://cartup.com/search?q=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 360,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28170,6 +33622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28202,7 +33659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳41 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "url": "https://cartup.com/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 399,
+        "inStock": true,
+        "discountText": "৳41 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28237,6 +33702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28269,7 +33739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳18 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
+        "url": "https://cartup.com/search?q=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 202,
+        "inStock": true,
+        "discountText": "৳18 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28304,6 +33782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28336,7 +33819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
+        "url": "https://cartup.com/search?q=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 58,
+        "inStock": true,
+        "discountText": "৳2 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28371,6 +33862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28403,7 +33899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
+        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 350,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28438,6 +33942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28470,7 +33979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
+        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28505,6 +34022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28537,7 +34059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
+        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 550,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28572,6 +34102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28604,7 +34139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
+        "url": "https://cartup.com/search?q=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 589,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28639,6 +34182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28671,7 +34219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
+        "url": "https://cartup.com/search?q=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28706,6 +34262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28738,7 +34299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%20Pouch%20Pack%2075%20ml)%20340%20ml",
+        "url": "https://cartup.com/search?q=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%20Pouch%20Pack%2075%20ml)%20340%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%20Pouch%20Pack%2075%20ml)%20340%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28773,6 +34342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28805,7 +34379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 990,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28840,6 +34422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28872,7 +34459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 990,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28907,6 +34502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -28939,7 +34539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 1800,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -28974,6 +34582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29006,7 +34619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳41 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 2849,
+        "inStock": true,
+        "discountText": "৳41 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29041,6 +34662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29073,7 +34699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
+        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 530,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29108,6 +34742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29140,7 +34779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "url": "https://cartup.com/search?q=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 990,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29175,6 +34822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29207,7 +34859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
+        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Intense%20Repair%20170%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Intense%20Repair%20170%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29242,6 +34902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29274,7 +34939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
+        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Intense%20Repair%20330%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 440,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Intense%20Repair%20330%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29309,6 +34982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29341,7 +35019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
+        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Intense%20Repair%20650%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 740,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Intense%20Repair%20650%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29376,6 +35062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29408,7 +35099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
+        "url": "https://cartup.com/search?q=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 670,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29443,6 +35142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29475,7 +35179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "url": "https://cartup.com/search?q=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 450,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29510,6 +35222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29542,7 +35259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "url": "https://cartup.com/search?q=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 470,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29577,6 +35302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29609,7 +35339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "url": "https://cartup.com/search?q=Chicken%20Eggs%20Layer%20(White)%2012%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20Layer%20(White)%2012%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29644,6 +35382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29676,7 +35419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20(Layer)%2012%20pcs",
+        "url": "https://cartup.com/search?q=Chicken%20Eggs%20(Layer)%2012%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20(Layer)%2012%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29711,6 +35462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29743,7 +35499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20(Deshi)%206%20pcs",
+        "url": "https://cartup.com/search?q=Chicken%20Eggs%20(Deshi)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 122,
+        "inStock": true,
+        "discountText": "৳3 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20(Deshi)%206%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29778,6 +35542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29810,7 +35579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Quail%20Eggs%2020%20pcs",
+        "url": "https://cartup.com/search?q=Quail%20Eggs%2020%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 92,
+        "inStock": true,
+        "discountText": "৳3 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Quail%20Eggs%2020%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29845,6 +35622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29877,7 +35659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
+        "url": "https://cartup.com/search?q=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 115,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Duck%20Eggs%20(Hasher%20Dim)%206%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29912,6 +35702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -29944,7 +35739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Chicken%20Eggs%20(Layer)%206%20pcs",
+        "url": "https://cartup.com/search?q=Chicken%20Eggs%20(Layer)%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20(Layer)%206%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -29979,6 +35782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30011,7 +35819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 359,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30046,6 +35862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30078,7 +35899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳12 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 333,
+        "inStock": true,
+        "discountText": "৳12 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30113,6 +35942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30145,7 +35979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 489,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30180,6 +36022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30212,7 +36059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 499,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30247,6 +36102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30279,7 +36139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 589,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30314,6 +36182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30346,7 +36219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 319,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30381,6 +36262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30413,7 +36299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 619,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30448,6 +36342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30480,7 +36379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 799,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30515,6 +36422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30547,7 +36459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Quality%20Hunter%20Beef%20200%20gm",
+        "url": "https://cartup.com/search?q=Quality%20Hunter%20Beef%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Quality%20Hunter%20Beef%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30582,6 +36502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30614,7 +36539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Quality%20Beef%20Salami%20200%20gm",
+        "url": "https://cartup.com/search?q=Quality%20Beef%20Salami%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Quality%20Beef%20Salami%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30649,6 +36582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30681,7 +36619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Quality%20Beef%20Pepperoni%20200%20gm",
+        "url": "https://cartup.com/search?q=Quality%20Beef%20Pepperoni%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 320,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Quality%20Beef%20Pepperoni%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30716,6 +36662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30748,7 +36699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Quality%20Beef%20Mortadella%20200%20gm",
+        "url": "https://cartup.com/search?q=Quality%20Beef%20Mortadella%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Quality%20Beef%20Mortadella%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30783,6 +36742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30815,7 +36779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 459,
+        "inStock": true,
+        "discountText": "৳16 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30850,6 +36822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30882,7 +36859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳18 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
+        "url": "https://cartup.com/search?q=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 241,
+        "inStock": true,
+        "discountText": "৳18 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30917,6 +36902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -30949,7 +36939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳7 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
+        "url": "https://cartup.com/search?q=Pabda%20Fish%20%C2%B130%20gm%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 208,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pabda%20Fish%20%C2%B130%20gm%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -30984,6 +36982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31016,7 +37019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=PQS%20Chapila%20Fish%20Processed%20250%20gm",
+        "url": "https://cartup.com/search?q=PQS%20Chapila%20Fish%20Processed%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 165,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=PQS%20Chapila%20Fish%20Processed%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31051,6 +37062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31083,7 +37099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
+        "url": "https://cartup.com/search?q=Kaski%20Fish%20%C2%B115%20gm%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "৳9 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Kaski%20Fish%20%C2%B115%20gm%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31118,6 +37142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31150,7 +37179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳12 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
+        "url": "https://cartup.com/search?q=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 383,
+        "inStock": true,
+        "discountText": "৳12 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Koi%20Fish%20Processed%20%C2%B150%20gm%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31185,6 +37222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31217,7 +37259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?q=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 520,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31252,6 +37302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31284,7 +37339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 250,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31319,6 +37382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31351,7 +37419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 260,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31386,6 +37462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31418,7 +37499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "url": "https://cartup.com/search?q=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 400,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31453,6 +37542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31485,7 +37579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "url": "https://cartup.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 290,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31520,6 +37622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31552,7 +37659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "url": "https://cartup.com/search?q=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 305,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31587,6 +37702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31619,7 +37739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Energy%20Plus%20Biscuits%2062%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Energy%20Plus%20Biscuits%2062%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31654,6 +37782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31686,7 +37819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31721,6 +37862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31753,7 +37899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Dry%20Cake%20Biscuit%20290%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Dry%20Cake%20Biscuit%20290%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31788,6 +37942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31820,7 +37979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
+        "url": "https://cartup.com/search?q=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 30,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31855,6 +38022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31887,7 +38059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Premium%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Premium%20Toast%20Biscuit%20185%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31922,6 +38102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -31954,7 +38139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Fantasy%20Chocolate%20Filled%20Cookies%20Biscuit%20175%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -31989,6 +38182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32021,7 +38219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 200,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Butter%20Cookies%20Biscuit%20Jar%20750%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32056,6 +38262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32088,7 +38299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32123,6 +38342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32155,7 +38379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
+        "url": "https://cartup.com/search?q=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Haque%20Mr.%20Cookie%20Butter%20Coconut%20Biscuit%2035%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32190,6 +38422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32222,7 +38459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 70,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Chocolate%20Chip%20Cookies%20Biscuit%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32257,6 +38502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32289,7 +38539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "url": "https://cartup.com/search?q=Pran%20Special%20Toast%20Biscuit%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Special%20Toast%20Biscuit%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32324,6 +38582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32356,7 +38619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Premium%20Toast%20Biscuit%20185%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32391,6 +38662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32423,7 +38699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "url": "https://cartup.com/search?q=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32458,6 +38742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32490,7 +38779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ahmed%20Toast%20Biscuits%20250%20gm",
+        "url": "https://cartup.com/search?q=Ahmed%20Toast%20Biscuits%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ahmed%20Toast%20Biscuits%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32525,6 +38822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32557,7 +38859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ahmed%20Sweet%20Toast%20250%20gm",
+        "url": "https://cartup.com/search?q=Ahmed%20Sweet%20Toast%20250%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 65,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ahmed%20Sweet%20Toast%20250%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32592,6 +38902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32624,7 +38939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ruchi%20Jhal%20Chanachur%20500%20gm",
+        "url": "https://cartup.com/search?q=Ruchi%20Jhal%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ruchi%20Jhal%20Chanachur%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32659,6 +38982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32691,7 +39019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ruchi%20Bbq%20Chanachur%20500%20gm",
+        "url": "https://cartup.com/search?q=Ruchi%20Bbq%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ruchi%20Bbq%20Chanachur%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32726,6 +39062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32758,7 +39099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Chanachur%20150%20gm",
+        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Chanachur%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Chanachur%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32793,6 +39142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32825,7 +39179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ruchi%20Bbq%20Chanachur%2022%20gm",
+        "url": "https://cartup.com/search?q=Ruchi%20Bbq%20Chanachur%2022%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ruchi%20Bbq%20Chanachur%2022%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32860,6 +39222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32892,7 +39259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bombay%20Sweets%20Chanachur%20500%20gm",
+        "url": "https://cartup.com/search?q=Bombay%20Sweets%20Chanachur%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 150,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Chanachur%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32927,6 +39302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -32959,7 +39339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ruchi%20Jhal%20Chanachur%20150%20gm",
+        "url": "https://cartup.com/search?q=Ruchi%20Jhal%20Chanachur%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ruchi%20Jhal%20Chanachur%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -32994,6 +39382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33026,7 +39419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
+        "url": "https://cartup.com/search?q=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 60,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Wonder%20Muffin%20Cake%2016%20gm%206%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33061,6 +39462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33093,7 +39499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
+        "url": "https://cartup.com/search?q=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 80,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dan%20Cake%20Vanilla%20Plain%20Cake%20150%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33128,6 +39542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33160,7 +39579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
+        "url": "https://cartup.com/search?q=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 180,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dan%20Cake%20Fruit%20Cake%20Sliced%20300%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33195,6 +39622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33227,7 +39659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
+        "url": "https://cartup.com/search?q=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33262,6 +39702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33294,7 +39739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
+        "url": "https://cartup.com/search?q=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 240,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Dan%20Cake%20Vanilla%20Muffin%2012%20pack%20360%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33329,6 +39782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33361,7 +39819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
+        "url": "https://cartup.com/search?q=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Seylon%20Instant%20Milk%20Tea%203%20in%201%2015%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33396,6 +39862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33428,7 +39899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Tea%20Bag%2050%20pcs&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33463,6 +39942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33495,7 +39979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 116,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33530,6 +40022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33562,7 +40059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 270,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33597,6 +40102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33629,7 +40139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "url": "https://cartup.com/search?q=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 230,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Best%20Leaf%20Tea%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33664,6 +40182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33696,7 +40219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳36 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Tata%20Tea%20Premium%20400%20gm",
+        "url": "https://cartup.com/search?q=Tata%20Tea%20Premium%20400%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 194,
+        "inStock": true,
+        "discountText": "৳36 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Tata%20Tea%20Premium%20400%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33731,6 +40262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33763,7 +40299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Coffee%203%20in%201%2015%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Coffee%203%20in%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Coffee%203%20in%201%2015%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33798,6 +40342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33830,7 +40379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=AMA%20Coffee%203%20In%201%2015%20gm",
+        "url": "https://cartup.com/search?q=AMA%20Coffee%203%20In%201%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 10,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=AMA%20Coffee%203%20In%201%2015%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33865,6 +40422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33897,7 +40459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 275,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2045%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33932,6 +40502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -33964,7 +40539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 475,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20Jar%2090%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -33999,6 +40582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34031,7 +40619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
+        "url": "https://cartup.com/search?q=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 380,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Nestle%20Coffee%20Mate%20Coffee%20Creamer%20Box%20450%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34066,6 +40662,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34098,7 +40699,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Coffee%20Cappuccino%2015%20gm",
+        "url": "https://cartup.com/search?q=Fresh%20Coffee%20Cappuccino%2015%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Coffee%20Cappuccino%2015%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34133,6 +40742,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34165,7 +40779,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?q=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 105,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34200,6 +40822,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34232,7 +40859,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?q=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34267,6 +40902,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34299,7 +40939,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 140,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34334,6 +40982,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34366,7 +41019,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "url": "https://cartup.com/search?q=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 50,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34401,6 +41062,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34433,7 +41099,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
+        "url": "https://cartup.com/search?q=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 100,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34468,6 +41142,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34500,7 +41179,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "url": "https://cartup.com/search?q=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 255,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34535,6 +41222,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34567,7 +41259,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 145,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Turmeric%20(Holud)%20Powder%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34602,6 +41302,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34634,7 +41339,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Turmeric%20(Holud)%20Powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34669,6 +41382,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34701,7 +41419,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 75,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Chilli%20(Morich)%20Powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34736,6 +41462,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34768,7 +41499,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Garam%20Masala%2040%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Garam%20Masala%2040%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 95,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Garam%20Masala%2040%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34803,6 +41542,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34835,7 +41579,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34870,6 +41622,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34902,7 +41659,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "url": "https://cartup.com/search?q=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 160,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -34937,6 +41702,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -34969,7 +41739,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Salt%201%20kg",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Salt%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35004,6 +41782,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35036,7 +41819,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "url": "https://cartup.com/search?q=Akij%20Essential%20Iodized%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 38,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Akij%20Essential%20Iodized%20Salt%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35071,6 +41862,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35103,7 +41899,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "url": "https://cartup.com/search?q=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 42,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Super%20Premium%20(Vacuum)%20Salt%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35138,6 +41942,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35170,7 +41979,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=ACI%20Pure%20Salt%20500%20gm",
+        "url": "https://cartup.com/search?q=ACI%20Pure%20Salt%20500%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 22,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=ACI%20Pure%20Salt%20500%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35205,6 +42022,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35237,7 +42059,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
+        "url": "https://cartup.com/search?q=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 15,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Olympic%20Tip%20Crispy%20Salted%20Biscuits%2060%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35272,6 +42102,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35304,7 +42139,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
+        "url": "https://cartup.com/search?q=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Bangas%20Grand%20Choice%20Salted%20Biscuit%2070%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35339,6 +42182,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35371,7 +42219,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Fresh%20Refined%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=Fresh%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Fresh%20Refined%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35406,6 +42262,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35438,7 +42299,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Teer%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=Teer%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Teer%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35473,6 +42342,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35505,7 +42379,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Starship%20Refined%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=Starship%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 110,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Starship%20Refined%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35540,6 +42422,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35572,7 +42459,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Coca-Cola%20Zero%20Sugar%20250%20ml",
+        "url": "https://cartup.com/search?q=Coca-Cola%20Zero%20Sugar%20250%20ml",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 20,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Coca-Cola%20Zero%20Sugar%20250%20ml&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35607,6 +42502,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35639,7 +42539,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳7 ছাড়",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
+        "url": "https://cartup.com/search?q=Sugar%20Candy%20(Tal%20Misri)%20200%20gm",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 48,
+        "inStock": true,
+        "discountText": "৳7 ছাড়",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Sugar%20Candy%20(Tal%20Misri)%20200%20gm&post_type=product",
         "isVerifiedLive": true
       }
     }
@@ -35674,6 +42582,11 @@ export const PRODUCTS = [
         "store": "daraz",
         "title": "দারাজ মার্ট ভাউচার ও ছাড়",
         "badge": "মার্ট ডিল"
+      },
+      {
+        "store": "princebazar",
+        "title": "প্রিন্স বাজার আউটলেট ও অনলাইন ডিল",
+        "badge": "সেরা বাজার দর"
       }
     ],
     "prices": {
@@ -35706,7 +42619,15 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "লাইভ রেট",
         "offerText": "কার্টআপ সেম ডে ডেলিভারি",
-        "url": "https://cartup.com.bd/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "url": "https://cartup.com/search?q=Akij%20Essential%20Refined%20Sugar%201%20kg",
+        "isVerifiedLive": true
+      },
+      "princebazar": {
+        "price": 135,
+        "inStock": true,
+        "discountText": "প্রিন্স বাজার দর",
+        "offerText": "প্রিন্স সুপারশপ অফার",
+        "url": "https://princebazarbd.com/?s=Akij%20Essential%20Refined%20Sugar%201%20kg&post_type=product",
         "isVerifiedLive": true
       }
     }

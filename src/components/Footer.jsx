@@ -35,7 +35,8 @@ export default function Footer() {
               <li><a href="https://chaldal.com" target="_blank" rel="noreferrer" className="hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1 transition">চালডাল (Chaldal) <ExternalLink className="w-3 h-3 text-slate-400 dark:text-zinc-500" /></a></li>
               <li><a href="https://shwapno.com" target="_blank" rel="noreferrer" className="hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1 transition">স্বপ্ন (Shwapno) <ExternalLink className="w-3 h-3 text-slate-400 dark:text-zinc-500" /></a></li>
               <li><a href="https://www.daraz.com.bd/groceries/" target="_blank" rel="noreferrer" className="hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1 transition">দারাজ মার্ট (Daraz Mart) <ExternalLink className="w-3 h-3 text-slate-400 dark:text-zinc-500" /></a></li>
-              <li><a href="https://cartup.com.bd" target="_blank" rel="noreferrer" className="hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1 transition">কার্টআপ (Cartup) <ExternalLink className="w-3 h-3 text-slate-400 dark:text-zinc-500" /></a></li>
+              <li><a href="https://cartup.com" target="_blank" rel="noreferrer" className="hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1 transition">কার্টআপ (Cartup) <ExternalLink className="w-3 h-3 text-slate-400 dark:text-zinc-500" /></a></li>
+              <li><a href="https://princebazarbd.com" target="_blank" rel="noreferrer" className="hover:text-emerald-700 dark:hover:text-emerald-400 flex items-center gap-1 transition">প্রিন্স বাজার (Prince Bazar) <ExternalLink className="w-3 h-3 text-slate-400 dark:text-zinc-500" /></a></li>
             </ul>
           </div>
 

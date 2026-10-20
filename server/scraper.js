@@ -485,7 +485,8 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
       { store: 'chaldal', title: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি', badge: mrp > price ? `৳${mrp - price} ছাড়` : 'লাইভ রেট' },
       { store: 'shwapno', title: 'স্বপ্ন ক্লাব কার্ড মেম্বারশিপ অফার', badge: mrp > shwapnoPrice ? `৳${mrp - shwapnoPrice} ছাড়` : 'ক্লাব পয়েন্ট' },
       { store: 'daraz', title: 'দারাজ মার্ট ভাউচার ও ফ্রি শিপিং', badge: mrp > darazPrice ? `৳${mrp - darazPrice} ছাড়` : 'কয়েন ডিল' },
-      { store: 'cartup', title: 'কার্টআপ অনলাইন ডেলিভারি', badge: 'সুপার ডিল' }
+      { store: 'cartup', title: 'কার্টআপ অনলাইন ডেলিভারি', badge: 'সুপার ডিল' },
+      { store: 'princebazar', title: 'প্রিন্স সুপারশপ বিশেষ অফার', badge: 'সেরা বাজার দর' }
     ],
     prices: {
       chaldal: {
@@ -517,7 +518,15 @@ function formatHitToProduct(hit, fallbackCategory = 'all') {
         inStock: true,
         discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল',
         offerText: 'কার্টআপ ডেলিভারি',
-        url: `https://cartup.com.bd/search?q=${encodeURIComponent(nameEn)}`,
+        url: `https://cartup.com/search?q=${encodeURIComponent(nameEn)}`,
+        isVerifiedLive: true
+      },
+      princebazar: {
+        price: price,
+        inStock: true,
+        discountText: 'প্রিন্স বাজার দর',
+        offerText: 'প্রিন্স সুপারশপ অফার',
+        url: `https://princebazarbd.com/?s=${encodeURIComponent(nameEn)}&post_type=product`,
         isVerifiedLive: true
       }
     }
@@ -591,6 +600,7 @@ export async function syncAllProducts() {
     const shwapnoPrice = standardMarketPrice;
     const darazPrice = standardMarketPrice;
     const cartupPrice = standardMarketPrice;
+    const princebazarPrice = standardMarketPrice;
 
     syncedList.push({
       id: item.id,
@@ -628,7 +638,14 @@ export async function syncAllProducts() {
           price: cartupPrice,
           inStock: true,
           discountText: mrp > cartupPrice ? `৳${mrp - cartupPrice} ছাড়` : 'সুপার ডিল',
-          url: `https://cartup.com.bd/search?q=${encodeURIComponent(item.query)}`,
+          url: `https://cartup.com/search?q=${encodeURIComponent(item.query)}`,
+          isVerifiedLive: true
+        },
+        princebazar: {
+          price: princebazarPrice,
+          inStock: true,
+          discountText: 'প্রিন্স বাজার দর',
+          url: `https://princebazarbd.com/?s=${encodeURIComponent(item.query)}&post_type=product`,
           isVerifiedLive: true
         }
       }

@@ -391,13 +391,15 @@ export default function VisualSearchModal({
             { store: 'chaldal', title: '১ ঘণ্টায় এক্সপ্রেস ডেলিভারি', badge: 'লাইভ রেট' },
             { store: 'shwapno', title: 'স্বপ্ন ক্লাব কার্ড অফার', badge: 'ক্লাব ছাড়' },
             { store: 'daraz', title: 'দারাজ মার্ট ভাউচার ও ছাড়', badge: 'মার্ট ডিল' },
-            { store: 'cartup', title: 'কার্টআপ দ্রুত ডেলিভারি অফার', badge: 'সুপার ডিল' }
+            { store: 'cartup', title: 'কার্টআপ দ্রুত ডেলিভারি অফার', badge: 'সুপার ডিল' },
+            { store: 'princebazar', title: 'প্রিন্স বাজার সুপারশপ ডিল', badge: 'সেরা দর' }
           ],
           prices: {
             chaldal: { price: 330, inStock: true, discountText: '৳২০ ছাড়', offerText: '১ ঘণ্টায় ডেলিভারি', url: `https://chaldal.com/search/${encodeURIComponent(q)}` },
             shwapno: { price: 335, inStock: true, discountText: '৳১৫ ছাড়', offerText: 'স্বপ্ন ক্লাব অফার', url: `https://www.shwapno.com/search?q=${encodeURIComponent(q)}` },
             daraz: { price: 340, inStock: true, discountText: '৳১০ ছাড়', offerText: 'দারাজ মার্ট অফার', url: `https://www.daraz.com.bd/catalog/?q=${encodeURIComponent(q)}` },
-            cartup: { price: 345, inStock: true, discountText: '৳৫ ছাড়', offerText: 'কার্টআপ ডেলিভারি', url: `https://cartup.com.bd/search?q=${encodeURIComponent(q)}` }
+            cartup: { price: 345, inStock: true, discountText: '৳৫ ছাড়', offerText: 'কার্টআপ ডেলিভারি', url: `https://cartup.com/search?q=${encodeURIComponent(q)}` },
+            princebazar: { price: 338, inStock: true, discountText: '৳১২ ছাড়', offerText: 'প্রিন্স বাজার অফার', url: `https://princebazarbd.com/?s=${encodeURIComponent(q)}&post_type=product` }
           }
         };
 
@@ -757,12 +759,12 @@ export default function VisualSearchModal({
                     <h5 className="text-xs font-bold text-zinc-900 dark:text-zinc-100 uppercase tracking-wider mb-2 font-heading flex items-center justify-between">
                       <span>{lang === 'bn' ? 'সকল সুপারমার্কেটের লাইভ দাম ও অফার' : 'Live Store Rates & Offers'}</span>
                       <span className="text-[10px] text-zinc-400 font-normal">
-                        {lang === 'bn' ? '৪টি সুপারমার্কেট' : '4 supermarkets'}
+                        {lang === 'bn' ? '৫টি সুপারমার্কেট' : '5 supermarkets'}
                       </span>
                     </h5>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                      {['chaldal', 'shwapno', 'daraz', 'cartup'].map((storeKey) => {
+                      {['chaldal', 'shwapno', 'daraz', 'cartup', 'princebazar'].map((storeKey) => {
                         const store = STORES[storeKey];
                         const storePriceData = selectedProduct.prices?.[storeKey] || {
                           price: selectedProduct.mrp || 500,
