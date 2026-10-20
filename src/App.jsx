@@ -11,6 +11,7 @@ import DailyMarketTab from './components/DailyMarketTab';
 import AuthModal from './components/AuthModal';
 import ProfileSettingsModal from './components/ProfileSettingsModal';
 import FloatingVisualSearchButton from './components/FloatingVisualSearchButton';
+import ScrollToTop from './components/ScrollToTop';
 import InstallAppBanner from './components/InstallAppBanner';
 import Footer from './components/Footer';
 import { PRODUCTS, CATEGORIES, STORES } from './data/mockCatalog';
@@ -686,6 +687,9 @@ function AppContent() {
           handleSearchOnline(query);
         }}
       />
+
+      {/* Floating Scroll to Top Button (Triggers at > 10% scroll) */}
+      <ScrollToTop />
 
       {/* Floating Bottom-Corner Visual Search Button (Highlight AI Lens) */}
       <FloatingVisualSearchButton onOpen={() => setIsVisualSearchOpen(true)} />

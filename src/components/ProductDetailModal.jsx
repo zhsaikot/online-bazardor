@@ -3,6 +3,7 @@ import { X, Clock, Truck, CheckCircle2, ExternalLink, Pencil, Check } from 'luci
 import { STORES } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
 import StoreLogo from './StoreLogo';
+import { getSanitizedStoreUrl } from '../utils/urlHelper';
 
 export default function ProductDetailModal({ product, onClose, onAdd, quantityInBasket = 0 }) {
   const { lang, t } = useLanguage();
@@ -211,7 +212,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
                       
                       {data.inStock ? (
                         <a 
-                          href={data.url} 
+                          href={getSanitizedStoreUrl(data.url, storeKey, product.cleanQuery)} 
                           target="_blank" 
                           rel="noopener noreferrer"
                           className={`text-xs font-bold flex items-center gap-1.5 px-3 py-1.5 rounded-xl border transition shadow-2xs active:scale-95 ${
@@ -245,7 +246,7 @@ export default function ProductDetailModal({ product, onClose, onAdd, quantityIn
           <div className="pt-2 space-y-2">
             {lowestStore && product.prices[lowestStoreKey]?.inStock && (
               <a
-                href={product.prices[lowestStoreKey]?.url}
+                href={getSanitizedStoreUrl(product.prices[lowestStoreKey]?.url, lowestStoreKey, product.cleanQuery)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-zinc-950 dark:bg-zinc-800 hover:bg-black dark:hover:bg-zinc-700 text-white font-bold py-3 px-4 rounded-2xl transition flex items-center justify-center gap-2 text-xs shadow-premium-sm border border-transparent dark:border-zinc-700"

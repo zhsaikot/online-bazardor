@@ -228,7 +228,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rupchanda%20Soyabean%20Oil%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Rupchanda%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -309,7 +309,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳32 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rupchanda%20Soyabean%20Oil%202%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Rupchanda%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -390,7 +390,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rupchanda%20Soyabean%20Oil%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Rupchanda%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -471,7 +471,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳90 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fuchs%20Titan%20Super%20Gear%20Oil%20SAE%20140%204%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Fuchs%20Titan%20Gear",
         "isVerifiedLive": true
       }
     }
@@ -552,7 +552,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳200 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Multi%20Grade%20Engine",
         "isVerifiedLive": true
       }
     }
@@ -633,7 +633,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳56 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Super%20V%20Multi%20Grade%20Engine%20Oil%2020W-50%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Multi%20Grade%20Engine",
         "isVerifiedLive": true
       }
     }
@@ -714,7 +714,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Alex%20Car%20Wash%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Alex%20Car%20Wash",
         "isVerifiedLive": true
       }
     }
@@ -795,7 +795,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Alex%20Car%20Shampoo%20%26%20Wax%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Alex%20Car%20Shampoo",
         "isVerifiedLive": true
       }
     }
@@ -876,7 +876,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ujjwala%20Care%20Skin%20Lightening%20Body%20Oil%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Ujjwala%20Care%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -957,7 +957,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ujjwala%20Care%20Skin%20Lightening%20Body%20Oil%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Ujjwala%20Care%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -1038,7 +1038,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳32 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Soyabean%20Oil%202%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -1119,7 +1119,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Soyabean%20Oil%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -1200,7 +1200,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳85 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Canola%20Oil%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Canola%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -1281,7 +1281,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Soyabean%20Oil%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -1362,7 +1362,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Soyabean%20Oil%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -1443,7 +1443,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳32 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Soyabean%20Oil%202%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -1524,7 +1524,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Soyabean%20Oil%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Soyabean%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -1605,7 +1605,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Paato%20Car%20%26%20Bike%20Foam%20Wash%20Shampoo%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Paato%20Car%20Bike",
         "isVerifiedLive": true
       }
     }
@@ -1686,7 +1686,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Almax%20Radiator%20Coolant%20(Green)%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Almax%20Radiator%20Coolant",
         "isVerifiedLive": true
       }
     }
@@ -1767,7 +1767,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bashundhara%20Baby%20Wipes%20(Sky%20Blue)%20120%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bashundhara%20Baby%20Wipes",
         "isVerifiedLive": true
       }
     }
@@ -1848,7 +1848,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳161 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20S%204-8%20kg%20(Free%20Feeder%2090%20ml)%2042%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bashundhara%20Diapant",
         "isVerifiedLive": true
       }
     }
@@ -1929,7 +1929,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳171 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20XXL%2014-25%20kg%20(Free%20Feeder%20250%20ml)%2024%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bashundhara%20Diapant%20XXL",
         "isVerifiedLive": true
       }
     }
@@ -2010,7 +2010,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳171 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20M%207-12%20kg%20(Free%20Feeder%20100%20ml)%2040%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bashundhara%20Diapant",
         "isVerifiedLive": true
       }
     }
@@ -2091,7 +2091,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳101 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=SMC%20Smile%20Baby%20Diaper%20Pants%20M%20(7-12%20kg)%2040%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/SMC%20Smile%20Baby",
         "isVerifiedLive": true
       }
     }
@@ -2172,7 +2172,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savlon%20Twinkle%20Baby%20Pant%20Diaper%20M%206-12%20kg%2040%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Savlon%20Twinkle%20Baby",
         "isVerifiedLive": true
       }
     }
@@ -2253,7 +2253,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳171 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20L%209-14%20kg%20(Free%20Feeder%20100%20ml)%2034%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bashundhara%20Diapant",
         "isVerifiedLive": true
       }
     }
@@ -2334,7 +2334,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳201 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20Baby%20Diaper%20S%204-8%20kg%2042%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bashundhara%20Diapant%20Baby",
         "isVerifiedLive": true
       }
     }
@@ -2415,7 +2415,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳241 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bashundhara%20Diapant%20Baby%20Diaper%20XXL%2014-25%20kg%2024%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bashundhara%20Diapant%20Baby",
         "isVerifiedLive": true
       }
     }
@@ -2496,7 +2496,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Mustard%20Oil%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Mustard%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -2577,7 +2577,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Mustard%20Oil%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Mustard%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -2658,7 +2658,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳61 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Toyota%20Long%20Life%20Coolant%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Toyota%20Long%20Life",
         "isVerifiedLive": true
       }
     }
@@ -2739,7 +2739,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Mustard%20Oil%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Mustard%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -2820,7 +2820,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Mustard%20Oil%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Mustard%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -2901,7 +2901,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Ghee%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -2982,7 +2982,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳65 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Ghee%20450%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3063,7 +3063,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳140 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Ghee%20900%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3144,7 +3144,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Ghee%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3225,7 +3225,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ghee%20Vita%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ghee%20Vita",
         "isVerifiedLive": true
       }
     }
@@ -3306,7 +3306,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Ghee%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3387,7 +3387,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ghee%20Vita%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ghee%20Vita",
         "isVerifiedLive": true
       }
     }
@@ -3468,7 +3468,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳95 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vitacare%20Gawa%20Ghee%20()%20900%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Vitacare%20Gawa%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3549,7 +3549,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳65 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foodela%20Ghee%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Foodela%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3630,7 +3630,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foodela%20Ghee%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Foodela%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3711,7 +3711,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Red%20Cow%20Butter%20Oil%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Red%20Cow%20Butter",
         "isVerifiedLive": true
       }
     }
@@ -3792,7 +3792,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foodela%20Ghee%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Foodela%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3873,7 +3873,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Ghee%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -3954,7 +3954,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Ghee%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Ghee",
         "isVerifiedLive": true
       }
     }
@@ -4035,7 +4035,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳95 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fortune%20Rice%20Bran%20Oil%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Fortune%20Rice%20Bran",
         "isVerifiedLive": true
       }
     }
@@ -4116,7 +4116,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳720 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Olio%20Orolio%20Extra%20Virgin%20Olive%20Oil%20(Free%20Kisaan%20Chinigura%20Aromatic%20Rice%201%20kg)%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Olio%20Orolio%20Extra",
         "isVerifiedLive": true
       }
     }
@@ -4197,7 +4197,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳27 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anmol%20Dawat%20Offer&post_type=product",
+        "url": "https://princebazarbd.com/search/Anmol%20Dawat%20Offer",
         "isVerifiedLive": true
       }
     }
@@ -4278,7 +4278,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳48 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foodela%20Family%20Saver&post_type=product",
+        "url": "https://princebazarbd.com/search/Foodela%20Family%20Saver",
         "isVerifiedLive": true
       }
     }
@@ -4359,7 +4359,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Athash%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Athash%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -4440,7 +4440,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳31 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Miniket%20Rice%20Standard%20(Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Miniket%20Rice%20Standard",
         "isVerifiedLive": true
       }
     }
@@ -4521,7 +4521,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nazirshail%20Rice%20Standard%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Nazirshail%20Rice%20Standard",
         "isVerifiedLive": true
       }
     }
@@ -4602,7 +4602,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳36 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Katari%20Boiled%20Rice%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Katari%20Boiled%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -4683,7 +4683,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳14 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Banglamoti%20Rice%20(Boiled)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Banglamoti%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -4764,7 +4764,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳70 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zirashail%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Zirashail%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -4845,7 +4845,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳341 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Giggles%20Baby%20Diaper%20Belt%206%20Extra%20Large%20(15-30%20kg)%2032%20pc&post_type=product",
+        "url": "https://princebazarbd.com/search/Giggles%20Baby%20Diaper",
         "isVerifiedLive": true
       }
     }
@@ -4926,7 +4926,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳281 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Giggles%20Baby%20Diaper%20Pants%206%20Extra%20Large%2015%2B%20kg%2020%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Giggles%20Baby%20Diaper",
         "isVerifiedLive": true
       }
     }
@@ -5007,7 +5007,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳661 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=MamyPoko%20Pants%20Extra%20Absorb%20Diapers%20Pant%20XXL%20(15-25)%20kg%2036%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/MamyPoko%20Pants%20Extra",
         "isVerifiedLive": true
       }
     }
@@ -5088,7 +5088,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳686 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Huggies%20Dry%20Pants%20Baby%20Diaper%20Pant%20XXL%20(15-25%20kg)%2032%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Huggies%20Dry%20Pants",
         "isVerifiedLive": true
       }
     }
@@ -5169,7 +5169,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳301 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Avonee%20Pants%20Extra%20Large%20XXL%20(14-25KG)%2034%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Avonee%20Pants%20Extra",
         "isVerifiedLive": true
       }
     }
@@ -5250,7 +5250,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳181 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=MamyPoko%20Pants%20Extra%20Absorb%20Diaper%20XL%2012-17%20kg%2020%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/MamyPoko%20Pants%20Extra",
         "isVerifiedLive": true
       }
     }
@@ -5331,7 +5331,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳280 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Molfix%20Baby%20Diaper%20Pants%20Super%20Extra%20Large%2015%2B%20kg%2058%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Molfix%20Baby%20Diaper",
         "isVerifiedLive": true
       }
     }
@@ -5412,7 +5412,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳51 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Comfort%20Baby%20Diaper%20Pant%20XXXL%20(20-30%20kg)%2024%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Comfort%20Baby%20Diaper",
         "isVerifiedLive": true
       }
     }
@@ -5493,7 +5493,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nannys%20Baby%20Love%20Diaper%20Belt%204%20Maxi%208-18%20kg%20(Free%20Wipes%2072%20pcs)%2025%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Nannys%20Baby%20Love",
         "isVerifiedLive": true
       }
     }
@@ -5574,7 +5574,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳361 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pampers%20Baby%20Dry%208%20Jumbo%20Plus%20Belt%2017%2B%20kg%2052%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Pampers%20Baby%20Dry",
         "isVerifiedLive": true
       }
     }
@@ -5655,7 +5655,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳36 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Miniket%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Miniket%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -5736,7 +5736,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Miniket%20Rice%2010%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Miniket%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -5817,7 +5817,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Miniket%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Miniket%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -5898,7 +5898,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Akij%20Essential%20Miniket%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Akij%20Essential%20Miniket",
         "isVerifiedLive": true
       }
     }
@@ -5979,7 +5979,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Miniket%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Miniket%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6060,7 +6060,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳65 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shukran%20Miniket%20Rice%20(Boiled)%2010%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Shukran%20Miniket%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6141,7 +6141,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shukran%20Miniket%20Rice%20(Boiled)%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Shukran%20Miniket%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6222,7 +6222,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Satej%20Miniket%20Rice%20()%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Satej%20Miniket%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6303,7 +6303,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nazirshail%20Rice%20(Half%20Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Nazirshail%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6384,7 +6384,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Nazirshail%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Nazirshail%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6465,7 +6465,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Nazirshail%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Nazirshail%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6546,7 +6546,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Natural%20Nazirshail%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Nazirshail%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6627,7 +6627,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shukran%20Nazirshail%20Rice%20(Boiled)%2010%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Shukran%20Nazirshail%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6708,7 +6708,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shukran%20Nazirshail%20Rice%20(Boiled)%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Shukran%20Nazirshail%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -6789,7 +6789,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳32 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nazirshail%20Rice%20Supreme%20(Steam)%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Nazirshail%20Rice%20Supreme",
         "isVerifiedLive": true
       }
     }
@@ -6870,7 +6870,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chashi%20Aromatic%20Chinigura%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Chashi%20Aromatic%20Chinigura",
         "isVerifiedLive": true
       }
     }
@@ -6951,7 +6951,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chashi%20Aromatic%20Chinigura%20Rice%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Chashi%20Aromatic%20Chinigura",
         "isVerifiedLive": true
       }
     }
@@ -7032,7 +7032,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Chinigura%20Aromatic%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Chinigura%20Aromatic",
         "isVerifiedLive": true
       }
     }
@@ -7113,7 +7113,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Chinigura%20Aromatic%20Rice%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Chinigura%20Aromatic",
         "isVerifiedLive": true
       }
     }
@@ -7194,7 +7194,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rupchanda%20Chinigura%20Aromatic%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Rupchanda%20Chinigura%20Aromatic",
         "isVerifiedLive": true
       }
     }
@@ -7275,7 +7275,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chashi%20Aromatic%20Chinigura%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Chashi%20Aromatic%20Chinigura",
         "isVerifiedLive": true
       }
     }
@@ -7356,7 +7356,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Aroma%20Aromatic%20Chinigura%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Aroma%20Aromatic",
         "isVerifiedLive": true
       }
     }
@@ -7437,7 +7437,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Acme%20Chinigura%20Aromatic%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Acme%20Chinigura%20Aromatic",
         "isVerifiedLive": true
       }
     }
@@ -7518,7 +7518,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Chinigura%20Aromatic%20Rice%20(Free%20Fresh%20Beef%20Masala%2020%20gm)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Chinigura%20Aromatic",
         "isVerifiedLive": true
       }
     }
@@ -7599,7 +7599,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Chinigura%20Aromatic%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Chinigura%20Aromatic",
         "isVerifiedLive": true
       }
     }
@@ -7680,7 +7680,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳28 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Natural%20Kalijira%20Rice%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Kalijira%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -7761,7 +7761,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Natural%20Kalijira%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Kalijira%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -7842,7 +7842,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Khusboo%20Kalijira%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Khusboo%20Kalijira%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -7923,7 +7923,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳65 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Shugondhi%20Kataribhog%20Rice%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Shugondhi%20Kataribhog",
         "isVerifiedLive": true
       }
     }
@@ -8004,7 +8004,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20White%20Fibre",
         "isVerifiedLive": true
       }
     }
@@ -8085,7 +8085,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20White%20Fibre%20Rice%20(Katari%20Nazir)%203%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20White%20Fibre",
         "isVerifiedLive": true
       }
     }
@@ -8166,7 +8166,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳210 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fargo%20Whole%20Grain%20Katari%20Nazir%20Rice%20%C2%B1%20200%20gm%2025%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Fargo%20Whole%20Grain",
         "isVerifiedLive": true
       }
     }
@@ -8247,7 +8247,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳41 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Katari%20Atop%20Rice%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Katari%20Atop%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -8328,7 +8328,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Aroma%20Basmati%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Aroma%20Basmati",
         "isVerifiedLive": true
       }
     }
@@ -8409,7 +8409,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mehran%20Basmati%20Kernel%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Mehran%20Basmati%20Kernel",
         "isVerifiedLive": true
       }
     }
@@ -8490,7 +8490,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kaalar%20Sella%20Basmati%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Kaalar%20Sella%20Basmati",
         "isVerifiedLive": true
       }
     }
@@ -8571,7 +8571,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kaalar%20Basmati%20Rice%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Kaalar%20Basmati%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -8652,7 +8652,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Qilla%20Excel%20Basmati%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Qilla%20Excel%20Basmati",
         "isVerifiedLive": true
       }
     }
@@ -8733,7 +8733,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Paijam%20Rice%20(Boiled)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Paijam%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -8814,7 +8814,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳84 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Paijam%20Rice%20(Boiled)%20%C2%B1%20200%20gm%2025%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Paijam%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -8895,7 +8895,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Paijam%20Rice%20(Boiled)%20%C2%B1%2050%20gm%205%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Paijam%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -8976,7 +8976,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Moshur%20Dal%20(Deshi)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Moshur%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -9057,7 +9057,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Moshur%20Dal%20(Deshi)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Moshur%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -9138,7 +9138,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pusti%20Deshi%20Moshur%20Dal%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pusti%20Deshi%20Moshur",
         "isVerifiedLive": true
       }
     }
@@ -9219,7 +9219,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunshine%20Deshi%20Moshur%20Dal%20(Red%20Lentil)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunshine%20Deshi%20Moshur",
         "isVerifiedLive": true
       }
     }
@@ -9300,7 +9300,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shukran%20Classic%20Deshi%20Moshur%20Dal%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Shukran%20Deshi%20Moshur",
         "isVerifiedLive": true
       }
     }
@@ -9381,7 +9381,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Moshur%20Dal%20(Deshi)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Moshur%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -9462,7 +9462,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Moshur%20Dal%20(Imported)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Moshur%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -9543,7 +9543,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mug%20Dal%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mug%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -9624,7 +9624,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Khichuri%20Essential%20Combo&post_type=product",
+        "url": "https://princebazarbd.com/search/Khichuri%20Essential",
         "isVerifiedLive": true
       }
     }
@@ -9705,7 +9705,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kangaroo%20Lentil%20(Moshur%20Dal)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Kangaroo%20Lentil",
         "isVerifiedLive": true
       }
     }
@@ -9786,7 +9786,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Moshur%20Dal%20(Imported)%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Moshur%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -9867,7 +9867,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳33 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Moshur%20Dal%20(Imported)%203%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Moshur%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -9948,7 +9948,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mashkolai%20Dal%20Peeled%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mashkolai%20Dal%20Peeled",
         "isVerifiedLive": true
       }
     }
@@ -10029,7 +10029,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mix%20Dal%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mix%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -10110,7 +10110,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foodela%20Red%20Lentil%20(Moshur%20Dal)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Foodela%20Red%20Lentil",
         "isVerifiedLive": true
       }
     }
@@ -10191,7 +10191,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Everest%20Chhole%20Masala%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Everest%20Chhole%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -10272,7 +10272,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Boot%20Dal%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Boot%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -10353,7 +10353,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Khosha%20Chara%20Chola%20Boot%20(Peeled%20Chick%20Pea)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Khosha%20Chara%20Chola",
         "isVerifiedLive": true
       }
     }
@@ -10434,7 +10434,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kheshari%20Dal%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kheshari%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -10515,7 +10515,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Khesari%20Dal%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Khesari",
         "isVerifiedLive": true
       }
     }
@@ -10596,7 +10596,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mashkalai%20Daler%20Bori%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mashkalai%20Daler%20Bori",
         "isVerifiedLive": true
       }
     }
@@ -10677,7 +10677,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anchor%20Boot%20Dal%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Anchor%20Boot%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -10758,7 +10758,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Whole%20Wheat%20Flour%20(Atta)%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Whole%20Wheat",
         "isVerifiedLive": true
       }
     }
@@ -10839,7 +10839,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Whole%20Wheat%20Flour%20(Atta)%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Whole%20Wheat",
         "isVerifiedLive": true
       }
     }
@@ -10920,7 +10920,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Flour%20(Atta)%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Flour",
         "isVerifiedLive": true
       }
     }
@@ -11001,7 +11001,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shaad%20Brown%20Flour%20(Lal%20Atta)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Shaad%20Brown%20Flour",
         "isVerifiedLive": true
       }
     }
@@ -11082,7 +11082,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Nutrilife%20Brown%20Atta%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Nutrilife%20Brown",
         "isVerifiedLive": true
       }
     }
@@ -11163,7 +11163,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Nutrilife%20Brown%20Flour%20(Atta)%201%20Kg&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Nutrilife%20Brown",
         "isVerifiedLive": true
       }
     }
@@ -11244,7 +11244,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foodela%20Brown%20Atta%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Foodela%20Brown%20Atta",
         "isVerifiedLive": true
       }
     }
@@ -11325,7 +11325,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vesoj%20Brown%20Atta%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Vesoj%20Brown%20Atta",
         "isVerifiedLive": true
       }
     }
@@ -11406,7 +11406,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bashundhara%20Brown%20Flour%20(Lal%20Atta)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Bashundhara%20Brown%20Flour",
         "isVerifiedLive": true
       }
     }
@@ -11487,7 +11487,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Gerber%20Whole%20Wheat%20Cereal%20227%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Gerber%20Whole%20Wheat",
         "isVerifiedLive": true
       }
     }
@@ -11568,7 +11568,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kashmir%20Originals%20Saffron%20(Zafran)%200.5%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kashmir%20Originals%20Saffron",
         "isVerifiedLive": true
       }
     }
@@ -11649,7 +11649,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Raw%20Turmeric%20powder%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Raw",
         "isVerifiedLive": true
       }
     }
@@ -11730,7 +11730,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Oshwagandha%20powder%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Oshwagandha",
         "isVerifiedLive": true
       }
     }
@@ -11811,7 +11811,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Eternal%20Powder%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Eternal",
         "isVerifiedLive": true
       }
     }
@@ -11892,7 +11892,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Triphala%20Powder%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Triphala",
         "isVerifiedLive": true
       }
     }
@@ -11973,7 +11973,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Protein%20Powder%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Protein",
         "isVerifiedLive": true
       }
     }
@@ -12054,7 +12054,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Kaun%20Rice%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Kaun",
         "isVerifiedLive": true
       }
     }
@@ -12135,7 +12135,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ligion%20Black%20Seed%20With%20Sesame%20Seed%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ligion%20Black%20Seed",
         "isVerifiedLive": true
       }
     }
@@ -12216,7 +12216,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳26 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Saffron%20(Jafran)%201%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Saffron",
         "isVerifiedLive": true
       }
     }
@@ -12297,7 +12297,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dhaka%20Dough%20Black%20Cumin%20Oil%2080%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dhaka%20Dough%20Black",
         "isVerifiedLive": true
       }
     }
@@ -12378,7 +12378,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20White%20Flour%20(Maida)%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20White%20Flour",
         "isVerifiedLive": true
       }
     }
@@ -12459,7 +12459,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳176 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20White%20Flour%20(Maida)%2050%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20White%20Flour",
         "isVerifiedLive": true
       }
     }
@@ -12540,7 +12540,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Sugar%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Sugar",
         "isVerifiedLive": true
       }
     }
@@ -12621,7 +12621,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=White%20Flour%20(Maida)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/White%20Flour",
         "isVerifiedLive": true
       }
     }
@@ -12702,7 +12702,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Red%20Lentil%20(Moshur)%20Dal%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Red%20Lentil",
         "isVerifiedLive": true
       }
     }
@@ -12783,7 +12783,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Teer%20Semolina%20Suji%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Teer%20Semolina%20Suji",
         "isVerifiedLive": true
       }
     }
@@ -12864,7 +12864,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20White%20Flour%20(Maida)%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20White%20Flour",
         "isVerifiedLive": true
       }
     }
@@ -12945,7 +12945,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Suji%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Suji",
         "isVerifiedLive": true
       }
     }
@@ -13026,7 +13026,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Suji%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Suji",
         "isVerifiedLive": true
       }
     }
@@ -13107,7 +13107,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Lachcha%20Semai%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Lachcha%20Semai",
         "isVerifiedLive": true
       }
     }
@@ -13188,7 +13188,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Vermicelli%20(Shemai)%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Vermicelli",
         "isVerifiedLive": true
       }
     }
@@ -13269,7 +13269,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳8 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rahul%20Rosted%20Semolina%20(Vaja%20Suji)%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Rahul%20Rosted%20Semolina",
         "isVerifiedLive": true
       }
     }
@@ -13350,7 +13350,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rahul%20Semolina%20(Suji)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Rahul%20Semolina",
         "isVerifiedLive": true
       }
     }
@@ -13431,7 +13431,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rahul%20Semolina%20(Suji)%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Rahul%20Semolina",
         "isVerifiedLive": true
       }
     }
@@ -13512,7 +13512,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pusti%20Suji%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pusti%20Suji",
         "isVerifiedLive": true
       }
     }
@@ -13593,7 +13593,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Muskan%20Suji%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Muskan%20Suji",
         "isVerifiedLive": true
       }
     }
@@ -13674,7 +13674,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Suji%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Suji",
         "isVerifiedLive": true
       }
     }
@@ -13755,7 +13755,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foodela%20Suji%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Foodela%20Suji",
         "isVerifiedLive": true
       }
     }
@@ -13836,7 +13836,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foodela%20Suji%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Foodela%20Suji",
         "isVerifiedLive": true
       }
     }
@@ -13917,7 +13917,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Peyaj",
         "isVerifiedLive": true
       }
     }
@@ -13998,7 +13998,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Lal%20Peyaj",
         "isVerifiedLive": true
       }
     }
@@ -14079,7 +14079,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Peyaj%20(Local%20Onion)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Peyaj",
         "isVerifiedLive": true
       }
     }
@@ -14160,7 +14160,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lal%20Peyaj%20(Onion%20Red)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lal%20Peyaj",
         "isVerifiedLive": true
       }
     }
@@ -14241,7 +14241,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Red%20Tomato%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Red%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -14322,7 +14322,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lal%20Alu%20(Red%20Potato%20Cardinal)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Lal%20Alu",
         "isVerifiedLive": true
       }
     }
@@ -14403,7 +14403,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lal%20Shak%20(Red%20Spinach)%201%20bundle&post_type=product",
+        "url": "https://princebazarbd.com/search/Lal%20Shak%20bundle",
         "isVerifiedLive": true
       }
     }
@@ -14484,7 +14484,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Gajor%20(Local%20Carrot)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Gajor",
         "isVerifiedLive": true
       }
     }
@@ -14565,7 +14565,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Shosha%20(Local%20Cucumber)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Shosha",
         "isVerifiedLive": true
       }
     }
@@ -14646,7 +14646,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Roshun",
         "isVerifiedLive": true
       }
     }
@@ -14727,7 +14727,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Moshur%20Dal%20(Imported)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Moshur%20Dal",
         "isVerifiedLive": true
       }
     }
@@ -14808,7 +14808,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ada",
         "isVerifiedLive": true
       }
     }
@@ -14889,7 +14889,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Roshun%20(Garlic%20Imported)%20%C2%B1%2025%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Roshun",
         "isVerifiedLive": true
       }
     }
@@ -14970,7 +14970,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ada%20(Imported%20Ginger)%20%C2%B1%2025%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ada",
         "isVerifiedLive": true
       }
     }
@@ -15051,7 +15051,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Komola%20(Orange)%20Imported%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Komola%20Imported",
         "isVerifiedLive": true
       }
     }
@@ -15132,7 +15132,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Potato%20(%C2%B1%2050%20gm)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Potato%20Regular",
         "isVerifiedLive": true
       }
     }
@@ -15213,7 +15213,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Potato%20(%C2%B1%2025%20gm)%20600%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Potato%20Regular",
         "isVerifiedLive": true
       }
     }
@@ -15294,7 +15294,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Boro%20Alu%20(Big%20Diamond%20Potato)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Boro%20Alu",
         "isVerifiedLive": true
       }
     }
@@ -15375,7 +15375,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Misti%20Alu%20(Sweet%20Potato)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Misti%20Alu",
         "isVerifiedLive": true
       }
     }
@@ -15456,7 +15456,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lal%20Alu%20(Red%20Potato)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lal%20Alu",
         "isVerifiedLive": true
       }
     }
@@ -15537,7 +15537,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Potato%20Crackers%2028%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Potato",
         "isVerifiedLive": true
       }
     }
@@ -15618,7 +15618,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Cerelac%204%20Potato%20%26%20Chicken%20(12%20M%2B)%20350%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Cerelac%20Potato",
         "isVerifiedLive": true
       }
     }
@@ -15699,7 +15699,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=A6%20Freedom%20Flow%20Sanitary%20Napkin%208%20pads&post_type=product",
+        "url": "https://princebazarbd.com/search/A6%20Freedom%20Regular",
         "isVerifiedLive": true
       }
     }
@@ -15780,7 +15780,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Potato%20Cracker%2015%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Potato%20Cracker",
         "isVerifiedLive": true
       }
     }
@@ -15861,7 +15861,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Alooz%20Red%20Chilli%20Chatka%2020%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Alooz",
         "isVerifiedLive": true
       }
     }
@@ -15942,7 +15942,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pringles%20Potato%20Chips%20Red%20%26%20Green%20Combo%20Offer%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Pringles%20Potato%20Chips",
         "isVerifiedLive": true
       }
     }
@@ -16023,7 +16023,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳4 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Roshun",
         "isVerifiedLive": true
       }
     }
@@ -16104,7 +16104,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=China%20Fuji%20Apple%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/China%20Fuji%20Apple",
         "isVerifiedLive": true
       }
     }
@@ -16185,7 +16185,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Roshun%20(Garlic%20Local)%20%C2%B125%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Roshun",
         "isVerifiedLive": true
       }
     }
@@ -16266,7 +16266,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sun%20Chips%20Garlic%20%26%20Chilli%2020%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sun%20Chips%20Garlic",
         "isVerifiedLive": true
       }
     }
@@ -16347,7 +16347,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳71 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mazzak%20Cashews%20Nuts%20Roasted%20with%20Garlic%20Butter%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mazzak%20Cashews%20Nuts",
         "isVerifiedLive": true
       }
     }
@@ -16428,7 +16428,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳71 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mazzak%20Badam%20Cashews%20Spicy%20BBQ%20Garlic%20Chicken%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mazzak%20Badam%20Cashews",
         "isVerifiedLive": true
       }
     }
@@ -16509,7 +16509,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fargo%20Garlic%20Nutri%20Pickle%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fargo%20Garlic%20Nutri",
         "isVerifiedLive": true
       }
     }
@@ -16590,7 +16590,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fargo%20Garlic%20Pickle%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fargo%20Garlic%20Pickle",
         "isVerifiedLive": true
       }
     }
@@ -16671,7 +16671,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dhaka%20Dough%20Deshi%20Garlic%20Pickle%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dhaka%20Dough%20Deshi",
         "isVerifiedLive": true
       }
     }
@@ -16752,7 +16752,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳24 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Ada",
         "isVerifiedLive": true
       }
     }
@@ -16833,7 +16833,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20(Deshi)%206%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Chicken%20Eggs",
         "isVerifiedLive": true
       }
     }
@@ -16914,7 +16914,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Ada%20(Local%20Ginger)%20%C2%B1%2025%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Ada",
         "isVerifiedLive": true
       }
     }
@@ -16995,7 +16995,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳101 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%2034%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Happy%20Nappy",
         "isVerifiedLive": true
       }
     }
@@ -17076,7 +17076,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=China%20Fuji%20Apple%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/China%20Fuji%20Apple",
         "isVerifiedLive": true
       }
     }
@@ -17157,7 +17157,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ada%20Kuchi%20(Imported%20Ginger)%20Processed%20%C2%B110%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ada%20Kuchi%20Processed",
         "isVerifiedLive": true
       }
     }
@@ -17238,7 +17238,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳111 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Happy%20Nappy%20Pant%20Diaper%20S%20(4-8%20kg)%2042%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Happy%20Nappy",
         "isVerifiedLive": true
       }
     }
@@ -17319,7 +17319,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳41 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Happy%20Nappy%20Pant%20Diaper%20L%20(9-14%20kg)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Happy%20Nappy",
         "isVerifiedLive": true
       }
     }
@@ -17400,7 +17400,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Tomato%20Sauce%20340%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Tomato%20Sauce",
         "isVerifiedLive": true
       }
     }
@@ -17481,7 +17481,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Tomato%20Sauce%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Tomato%20Sauce",
         "isVerifiedLive": true
       }
     }
@@ -17562,7 +17562,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Hot%20Tomato%20Sauce%20350%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Hot%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -17643,7 +17643,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Hot%20Tomato%20Sauce%20Mini%208%20gm%2010%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Hot%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -17724,7 +17724,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Saad%20Hot%20Tomato%20Sauce%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Saad%20Hot%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -17805,7 +17805,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Hot%20Tomato%20Sauce%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Hot%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -17886,7 +17886,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beerenberg%20Hot%20Tomato%20Sauce%20300%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Beerenberg%20Hot%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -17967,7 +17967,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳4 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chef%20Le%20Tomato%20Paste%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chef%20Le%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -18048,7 +18048,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Tomato%20Ketchup%20340%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Tomato%20Ketchup",
         "isVerifiedLive": true
       }
     }
@@ -18129,7 +18129,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Saad%20Hot%20Tomato%20Sauce%20340%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Saad%20Hot%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -18210,7 +18210,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kacha%20Morich%20(Green%20Chilli)%20%C2%B112%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kacha%20Morich",
         "isVerifiedLive": true
       }
     }
@@ -18291,7 +18291,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kacha%20Morich%20(Green%20Chilli)%20%C2%B1%2012%20gm%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kacha%20Morich",
         "isVerifiedLive": true
       }
     }
@@ -18372,7 +18372,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ahmed%20Green%20Chilli%20Sauce%20340%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ahmed%20Green%20Chilli",
         "isVerifiedLive": true
       }
     }
@@ -18453,7 +18453,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Green%20Chilli%20Sauce%20340%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Green%20Chilli",
         "isVerifiedLive": true
       }
     }
@@ -18534,7 +18534,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ching's%20Green%20Chilli%20Sauce%20680%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ching's%20Green%20Chilli",
         "isVerifiedLive": true
       }
     }
@@ -18615,7 +18615,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ching's%20Green%20Chilli%20Sauce%20190%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ching's%20Green%20Chilli",
         "isVerifiedLive": true
       }
     }
@@ -18696,7 +18696,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Malik%20Seeds%20Morich%20Beej%20(Bijlee)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Malik%20Seeds%20Morich",
         "isVerifiedLive": true
       }
     }
@@ -18777,7 +18777,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Weikfield%20Green%20Chilli%20Sauce%20265%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Weikfield%20Green%20Chilli",
         "isVerifiedLive": true
       }
     }
@@ -18858,7 +18858,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Thai%20Choice%20Green%20Chilli%20Sauce%20450%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Thai%20Choice%20Green",
         "isVerifiedLive": true
       }
     }
@@ -18939,7 +18939,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Haldiram%20Green%20Chilli%20Pickle%20350%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Haldiram%20Green%20Chilli",
         "isVerifiedLive": true
       }
     }
@@ -19020,7 +19020,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tulsi%20Pati%20Lemon%20%26%20Ginger%20Tea%2045%20gm%2030%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Tulsi%20Pati%20Lemon",
         "isVerifiedLive": true
       }
     }
@@ -19101,7 +19101,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lomba%20Lebu%20(Long%20Lemon)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Lomba%20Lebu",
         "isVerifiedLive": true
       }
     }
@@ -19182,7 +19182,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳14 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Gol%20Lebu%20(Round%20Lemon)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Gol%20Lebu",
         "isVerifiedLive": true
       }
     }
@@ -19263,7 +19263,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kagozi%20Lebu%20(Kagozi%20Lemon)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Kagozi%20Lebu",
         "isVerifiedLive": true
       }
     }
@@ -19344,7 +19344,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Trix%20Dishwashing%20Liquid%20Lemon%20Refill%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Trix%20Dishwashing%20Lemon",
         "isVerifiedLive": true
       }
     }
@@ -19425,7 +19425,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Trix%20Dish%20Washing%20Bar%20Lemon%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Trix%20Dish%20Washing",
         "isVerifiedLive": true
       }
     }
@@ -19506,7 +19506,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tibet%20Rose%20%26%20Lemon%20Detergent%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tibet%20Rose%20Lemon",
         "isVerifiedLive": true
       }
     }
@@ -19587,7 +19587,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shada%20Nashpati%20%C2%B1%2050%20gm%20(Pear%20White)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Shada%20Nashpati",
         "isVerifiedLive": true
       }
     }
@@ -19668,7 +19668,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Trix%20Dishwashing%20Liquid%20(Lemon)%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Trix%20Dishwashing",
         "isVerifiedLive": true
       }
     }
@@ -19749,7 +19749,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Trix%20Dish%20Washing%20Bar%20Lemon%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Trix%20Dish%20Washing",
         "isVerifiedLive": true
       }
     }
@@ -19830,7 +19830,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shosha%20(Cucumber)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Shosha",
         "isVerifiedLive": true
       }
     }
@@ -19911,7 +19911,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Veet%20Hair%20Removal",
         "isVerifiedLive": true
       }
     }
@@ -19992,7 +19992,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Cucumber%20Extract%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Veet%20Hair%20Removal",
         "isVerifiedLive": true
       }
     }
@@ -20073,7 +20073,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Malik%20Seeds%20Shosha%20Beej%20(Moynamoti)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Malik%20Seeds%20Shosha",
         "isVerifiedLive": true
       }
     }
@@ -20154,7 +20154,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=YC%20Cucumber%20Peel%20of%20Mask%20120%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/YC%20Cucumber%20Peel",
         "isVerifiedLive": true
       }
     }
@@ -20235,7 +20235,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=YC%20Cucumber%20Whitening%20Facial%20Scrub%20175%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/YC%20Cucumber%20Whitening",
         "isVerifiedLive": true
       }
     }
@@ -20316,7 +20316,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Boots%20Cucumber%20Cleansing%20Lotion%20150%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Boots%20Cucumber%20Cleansing",
         "isVerifiedLive": true
       }
     }
@@ -20397,7 +20397,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Boots%20Cucumber%20Eye%20Make%20Up%20Remover%20Gel%20150%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Boots%20Cucumber%20Eye",
         "isVerifiedLive": true
       }
     }
@@ -20478,7 +20478,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Boots%20Cucumber%20Facial%20Wash%20150%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Boots%20Cucumber%20Facial",
         "isVerifiedLive": true
       }
     }
@@ -20559,7 +20559,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Gajor%20(Imported%20Carrot)%20%C2%B1%2030%20gm%20600%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Gajor",
         "isVerifiedLive": true
       }
     }
@@ -20640,7 +20640,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Heinz%20Carrot%20%26%20Sweet%20Potato%20(4-6%20months)%20110%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Heinz%20Carrot%20Sweet",
         "isVerifiedLive": true
       }
     }
@@ -20721,7 +20721,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Cerelac%202%20Rice%20Carrot%20with%20Chicken%20(8%20months%2B)%20350%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Cerelac%20Rice",
         "isVerifiedLive": true
       }
     }
@@ -20802,7 +20802,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Prosperity%20Carrot%20Noodles%20454%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Prosperity%20Carrot%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -20883,7 +20883,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deshi%20Gajor%20(Local%20Carrot)%20Processed%20%C2%B110%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Deshi%20Gajor%20Processed",
         "isVerifiedLive": true
       }
     }
@@ -20964,7 +20964,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Drools%20Power%20Bites%20Carrot%20Flavour%20135%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Drools%20Power%20Bites",
         "isVerifiedLive": true
       }
     }
@@ -21045,7 +21045,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳41 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Whiskas%20Tasty%20Mix%20Chicken%20Tuna%20Carrot%20In%20Gravy%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Whiskas%20Tasty%20Mix",
         "isVerifiedLive": true
       }
     }
@@ -21126,7 +21126,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳106 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Whiskas%20Tasty%20Mix%20Tuna%20Kanikama%20Carrot%20In%20Gravy%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Whiskas%20Tasty%20Mix",
         "isVerifiedLive": true
       }
     }
@@ -21207,7 +21207,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fulkopi%20(Cauliflower)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Fulkopi",
         "isVerifiedLive": true
       }
     }
@@ -21288,7 +21288,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fulkopi%20(Cauliflower)%20Processed%20%C2%B110%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fulkopi%20Processed",
         "isVerifiedLive": true
       }
     }
@@ -21369,7 +21369,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Badhakopi%20(Cabbage)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Badhakopi",
         "isVerifiedLive": true
       }
     }
@@ -21450,7 +21450,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Badhakopi%20Pata%20(Chinese%20Cabbage%20Leaves)%20150%20gm%2B%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Badhakopi%20Pata",
         "isVerifiedLive": true
       }
     }
@@ -21531,7 +21531,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Watteh%20Greens%20Baby%20Cabbage%20Microgreen%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Watteh%20Greens%20Baby",
         "isVerifiedLive": true
       }
     }
@@ -21612,7 +21612,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sobuj%20Gol%20Begun%20(Round%20Brinjals%20Green)%20%C2%B135%20gm%20700%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sobuj%20Gol%20Begun",
         "isVerifiedLive": true
       }
     }
@@ -21693,7 +21693,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lomba%20Kalo%20Begun%20(Long%20Brinjal%20Black)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lomba%20Kalo%20Begun",
         "isVerifiedLive": true
       }
     }
@@ -21774,7 +21774,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kalo%20Gol%20Begun%20(Round%20Brinjals%20Black)%20%C2%B135%20gm%20800%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kalo%20Gol%20Begun",
         "isVerifiedLive": true
       }
     }
@@ -21855,7 +21855,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Malik%20Seeds%20Begun%20Beej%20(Pritam)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Malik%20Seeds%20Begun",
         "isVerifiedLive": true
       }
     }
@@ -21936,7 +21936,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Malik%20Seeds%20Begun%20Beej%20(Lalita)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Malik%20Seeds%20Begun",
         "isVerifiedLive": true
       }
     }
@@ -22017,7 +22017,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳26 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kacha%20Pepe%20(Green%20Papaya)%20%C2%B1%2070%20gm%201.4%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Kacha%20Pepe",
         "isVerifiedLive": true
       }
     }
@@ -22098,7 +22098,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kacha%20Pepe%20(Green%20Papaya)%20Processed%20%C2%B110%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kacha%20Pepe%20Processed",
         "isVerifiedLive": true
       }
     }
@@ -22179,7 +22179,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kacha%20Aam%20(Green%20Mango)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Kacha%20Aam",
         "isVerifiedLive": true
       }
     }
@@ -22260,7 +22260,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Green%20Capsicum%20%C2%B1%2015%20gm%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Green%20Capsicum",
         "isVerifiedLive": true
       }
     }
@@ -22341,7 +22341,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kacha%20Kola%20(Banana%20Green)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Kacha%20Kola",
         "isVerifiedLive": true
       }
     }
@@ -22422,7 +22422,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sobuj%20Angur%20(Green%20Grapes)%20%C2%B1%2012%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sobuj%20Angur",
         "isVerifiedLive": true
       }
     }
@@ -22503,7 +22503,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Daab%20(Green%20Coconut)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Daab",
         "isVerifiedLive": true
       }
     }
@@ -22584,7 +22584,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lau%20(%20Gourd)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Lau",
         "isVerifiedLive": true
       }
     }
@@ -22665,7 +22665,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Potol%20(Pointed%20Gourd)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Potol",
         "isVerifiedLive": true
       }
     }
@@ -22746,7 +22746,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chichinga%20(Snake%20Gourd)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chichinga",
         "isVerifiedLive": true
       }
     }
@@ -22827,7 +22827,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Korola%20(Bitter%20Gourd)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Korola",
         "isVerifiedLive": true
       }
     }
@@ -22908,7 +22908,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Uchche%20(Local%20Bitter%20Gourd)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Uchche",
         "isVerifiedLive": true
       }
     }
@@ -22989,7 +22989,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dhundhul%20(Sponge%20Gourd)%20%C2%B120%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dhundhul",
         "isVerifiedLive": true
       }
     }
@@ -23070,7 +23070,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kakrol%20(Sweet%20Bitter%20Gourd)%20%C2%B125%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kakrol",
         "isVerifiedLive": true
       }
     }
@@ -23151,7 +23151,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Yeast%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Yeast",
         "isVerifiedLive": true
       }
     }
@@ -23232,7 +23232,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coriander%20Leaves%20(Dhonia%20Pata)%20%C2%B1%2010%20gm%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Coriander%20Leaves",
         "isVerifiedLive": true
       }
     }
@@ -23313,7 +23313,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Long%20Coriander%20Leaves%20(Bilati%20Dhonia%20Pata)%20%C2%B1%2010%20gm%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Long%20Coriander%20Leaves",
         "isVerifiedLive": true
       }
     }
@@ -23394,7 +23394,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Thankuni%20Pata%20(Pennywort%20Leaves)%201%20bundle&post_type=product",
+        "url": "https://princebazarbd.com/search/Thankuni%20Pata%20bundle",
         "isVerifiedLive": true
       }
     }
@@ -23475,7 +23475,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pudina%20Pata%20(Mint%20Leaves)%20%C2%B1%2010%20gm%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pudina%20Pata",
         "isVerifiedLive": true
       }
     }
@@ -23556,7 +23556,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Coriander%20(Dhonia)%20Powder%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Coriander%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -23637,7 +23637,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lau%20Shak%20(Sweet%20Bitter%20Melon%20Leaves)%201%20bundle&post_type=product",
+        "url": "https://princebazarbd.com/search/Lau%20Shak%20bundle",
         "isVerifiedLive": true
       }
     }
@@ -23718,7 +23718,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lettuce%20Leaves%20%C2%B1%2010%20gm%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lettuce%20Leaves",
         "isVerifiedLive": true
       }
     }
@@ -23799,7 +23799,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Coriander%20(Dhonia)%20Powder%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Coriander%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -23880,7 +23880,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mehendi%20Pata%20(Henna%20Leaves)%203%20bundles&post_type=product",
+        "url": "https://princebazarbd.com/search/Mehendi%20Pata%20bundles",
         "isVerifiedLive": true
       }
     }
@@ -23961,7 +23961,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coriander%20(Dhonia)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Coriander",
         "isVerifiedLive": true
       }
     }
@@ -24042,7 +24042,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Olympic%20Pineapple%20Cream%20Biscuits%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Olympic%20Pineapple%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -24123,7 +24123,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Gala%20Apple%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Gala%20Apple",
         "isVerifiedLive": true
       }
     }
@@ -24204,7 +24204,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anaros%20(Pineapple)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Anaros",
         "isVerifiedLive": true
       }
     }
@@ -24285,7 +24285,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳51 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bel%20(Wood%20Apple)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bel",
         "isVerifiedLive": true
       }
     }
@@ -24366,7 +24366,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Green%20Apple%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Green%20Apple",
         "isVerifiedLive": true
       }
     }
@@ -24447,7 +24447,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Goldmark%20Pineapple%20Cream%20Sandwich%20Biscuit%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Goldmark%20Pineapple%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -24528,7 +24528,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fuji%20Grinder%20Blue%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Fuji%20Grinder%20Blue",
         "isVerifiedLive": true
       }
     }
@@ -24609,7 +24609,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fuji%20Grinder%20Red%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Fuji%20Grinder%20Red",
         "isVerifiedLive": true
       }
     }
@@ -24690,7 +24690,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shagor%20Kola%20(Banana%20Sagor)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Shagor%20Kola",
         "isVerifiedLive": true
       }
     }
@@ -24771,7 +24771,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Banana%20Chompa%20(Ready%20To%20Eat)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Banana%20Chompa",
         "isVerifiedLive": true
       }
     }
@@ -24852,7 +24852,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Banana%20Sobri%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Banana%20Sobri",
         "isVerifiedLive": true
       }
     }
@@ -24933,7 +24933,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Banana%20Flower%20(Kolar%20Mocha)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Banana%20Flower",
         "isVerifiedLive": true
       }
     }
@@ -25014,7 +25014,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Banana%20Stem%20(Kolar%20Thor)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Banana%20Stem",
         "isVerifiedLive": true
       }
     }
@@ -25095,7 +25095,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Skin%20Cafe%20Banana%20Shampoo%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Skin%20Cafe%20Banana",
         "isVerifiedLive": true
       }
     }
@@ -25176,7 +25176,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Gerber%20Snack's%20Puffs%20Banana%2042%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Gerber%20Snack's%20Puffs",
         "isVerifiedLive": true
       }
     }
@@ -25257,7 +25257,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Banana%20Cream%20Sandwich%20Biscuit%20110%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Banana%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -25338,7 +25338,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Heinz%20Pear%20%26%20Banana%20(4%20months%2B)%20110%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Heinz%20Pear%20Banana",
         "isVerifiedLive": true
       }
     }
@@ -25419,7 +25419,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Malta%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Malta",
         "isVerifiedLive": true
       }
     }
@@ -25500,7 +25500,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Basil%20Seed%20Drink%20(White%20Grape)%20290%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Basil%20Seed%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -25581,7 +25581,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sobuj%20Angur%20(Green%20Grapes)%20Slice%20For%20Juice%20(Frozen)%20%C2%B1%2010%20gm%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sobuj%20Angur%20Slice",
         "isVerifiedLive": true
       }
     }
@@ -25662,7 +25662,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Sweetened%20Yogurt%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Sweetened%20Yogurt",
         "isVerifiedLive": true
       }
     }
@@ -25743,7 +25743,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Roshogolla%20600%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Roshogolla",
         "isVerifiedLive": true
       }
     }
@@ -25824,7 +25824,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Gulab%20Jamun%20600%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Gulab",
         "isVerifiedLive": true
       }
     }
@@ -25905,7 +25905,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20Sweetened%20Yogurt%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farm%20Fresh%20Sweetened",
         "isVerifiedLive": true
       }
     }
@@ -25986,7 +25986,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sweet%20(Sherpur-Bogura)%20Yogurt%20%C2%B1%20100%20gm%20600%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sweet%20Yogurt",
         "isVerifiedLive": true
       }
     }
@@ -26067,7 +26067,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ultra%20Sweet%20Curd%2075%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ultra%20Sweet%20Curd",
         "isVerifiedLive": true
       }
     }
@@ -26148,7 +26148,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ultra%20Sweet%20Curd%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ultra%20Sweet%20Curd",
         "isVerifiedLive": true
       }
     }
@@ -26229,7 +26229,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Sweetened%20Yogurt%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Sweetened%20Yogurt",
         "isVerifiedLive": true
       }
     }
@@ -26310,7 +26310,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Low%20Fat%20Yogurt%20(Sour)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Low%20Fat",
         "isVerifiedLive": true
       }
     }
@@ -26391,7 +26391,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Sour%20Curd%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Sour%20Curd",
         "isVerifiedLive": true
       }
     }
@@ -26472,7 +26472,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Guava%20(%C2%B1%2050%20gm)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Guava",
         "isVerifiedLive": true
       }
     }
@@ -26553,7 +26553,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunquick%20Pink%20Guava%20%26%20Strawberry-Drink%20Concentrate%20300%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunquick%20Pink%20Guava",
         "isVerifiedLive": true
       }
     }
@@ -26634,7 +26634,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunquick%20Pink%20Guava%20%26%20Strawberry%20Drink%20Concentrate%20700%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunquick%20Pink%20Guava",
         "isVerifiedLive": true
       }
     }
@@ -26715,7 +26715,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nutrilife%20Guava%20Juice%20160%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Nutrilife%20Guava%20Juice",
         "isVerifiedLive": true
       }
     }
@@ -26796,7 +26796,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ahmed%20Guava%20Jelly%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ahmed%20Guava%20Jelly",
         "isVerifiedLive": true
       }
     }
@@ -26877,7 +26877,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ahmed%20Sugar%20Free%20Guava%20Jelly%20375%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ahmed%20Sugar%20Free",
         "isVerifiedLive": true
       }
     }
@@ -26958,7 +26958,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nutrilife%20Guava%20Juice%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Nutrilife%20Guava%20Juice",
         "isVerifiedLive": true
       }
     }
@@ -27039,7 +27039,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ceres%20Guava%20Juice%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Ceres%20Guava%20Juice",
         "isVerifiedLive": true
       }
     }
@@ -27120,7 +27120,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tipco%20Guava%20Juice%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Tipco%20Guava%20Juice",
         "isVerifiedLive": true
       }
     }
@@ -27201,7 +27201,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳36 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Live%20Cock%20Chicken%20(Processed)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Live%20Cock%20Chicken",
         "isVerifiedLive": true
       }
     }
@@ -27282,7 +27282,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -27363,7 +27363,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳26 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -27444,7 +27444,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2050%20gm%201.4%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -27525,7 +27525,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chicken%20Liver%20(Kolija)%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chicken%20Liver",
         "isVerifiedLive": true
       }
     }
@@ -27606,7 +27606,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Chicken%20Thigh%20Keema%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Bengal%20Meat%20Chicken",
         "isVerifiedLive": true
       }
     }
@@ -27687,7 +27687,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳26 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Breast",
         "isVerifiedLive": true
       }
     }
@@ -27768,7 +27768,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Thigh%20Boneless%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Thigh",
         "isVerifiedLive": true
       }
     }
@@ -27849,7 +27849,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Whole%20Chicken%20Curry%20Cut%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Bengal%20Meat%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -27930,7 +27930,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Breast%20Boneless%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Breast",
         "isVerifiedLive": true
       }
     }
@@ -28011,7 +28011,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20Layer%20(White)%2012%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Chicken%20Eggs%20Layer",
         "isVerifiedLive": true
       }
     }
@@ -28092,7 +28092,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20Layer%20(White)%206%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Chicken%20Eggs%20Layer",
         "isVerifiedLive": true
       }
     }
@@ -28173,7 +28173,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Quail%20Eggs%2020%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Quail%20Eggs",
         "isVerifiedLive": true
       }
     }
@@ -28254,7 +28254,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20(Layer)%2012%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Chicken%20Eggs",
         "isVerifiedLive": true
       }
     }
@@ -28335,7 +28335,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20(Layer)%206%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Chicken%20Eggs",
         "isVerifiedLive": true
       }
     }
@@ -28416,7 +28416,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Paragon%20Omega%203%2B%20Eggs%2012%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Paragon%20Omega%20Eggs",
         "isVerifiedLive": true
       }
     }
@@ -28497,7 +28497,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Paragon%20Brown%20Egg%2012%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Paragon%20Brown%20Egg",
         "isVerifiedLive": true
       }
     }
@@ -28578,7 +28578,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chicken%20Eggs%20Layer%20(Super%20Egg)%2012%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Chicken%20Eggs%20Layer",
         "isVerifiedLive": true
       }
     }
@@ -28659,7 +28659,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20Off%20%C2%B1%2030%20gm%20600%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -28740,7 +28740,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20Off%20BBQ%20Cut%204%20pcs%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -28821,7 +28821,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20On%20%C2%B1%2050%20gm%201.4%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -28902,7 +28902,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Chicken%20Skin%20On%20%C2%B1%2030%20gm%20600%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Chicken%20Skin",
         "isVerifiedLive": true
       }
     }
@@ -28983,7 +28983,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Broiler%20Whole%20Chicken%20Leg%20Skin%20On%20(%C2%B1%2050%20gm)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Broiler%20Whole%20Chicken",
         "isVerifiedLive": true
       }
     }
@@ -29064,7 +29064,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳31 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Beef%20Bone%20In",
         "isVerifiedLive": true
       }
     }
@@ -29145,7 +29145,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Country%20Natural%20Beef%20Kolija%20Singara%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Country%20Beef%20Kolija",
         "isVerifiedLive": true
       }
     }
@@ -29226,7 +29226,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Beef%20Kolija%20Singara%2012%20pcs%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bengal%20Meat%20Beef",
         "isVerifiedLive": true
       }
     }
@@ -29307,7 +29307,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Beef%20Minute%20Steak%20360%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bengal%20Meat%20Beef",
         "isVerifiedLive": true
       }
     }
@@ -29388,7 +29388,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Country%20Natural%20Beef%20Sausage%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Country%20Beef%20Sausage",
         "isVerifiedLive": true
       }
     }
@@ -29469,7 +29469,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tasty%20Tibet%20Beef%20Shami%20Kabab%208%20pcs%20210%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tasty%20Tibet%20Beef",
         "isVerifiedLive": true
       }
     }
@@ -29550,7 +29550,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beef%20Bone%20In%20%C2%B1%2020%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Beef%20Bone%20In",
         "isVerifiedLive": true
       }
     }
@@ -29631,7 +29631,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beef%20Bone%20In%20(Net%20Weight%20%C2%B1%2025%20gm)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Beef%20Bone%20In",
         "isVerifiedLive": true
       }
     }
@@ -29712,7 +29712,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳26 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beef%20Boneless%20%C2%B1%2025%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Beef%20Boneless",
         "isVerifiedLive": true
       }
     }
@@ -29793,7 +29793,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beef%20Brain%20(Mogoz)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Beef%20Brain",
         "isVerifiedLive": true
       }
     }
@@ -29874,7 +29874,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golden%20Harvest%20Beef%20Shatkora%20Bhuna%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golden%20Harvest%20Beef",
         "isVerifiedLive": true
       }
     }
@@ -29955,7 +29955,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Quality%20Beef%20Classic%20Sausage%20280%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Quality%20Beef%20Sausage",
         "isVerifiedLive": true
       }
     }
@@ -30036,7 +30036,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Beef%20Keema%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Bengal%20Meat%20Beef",
         "isVerifiedLive": true
       }
     }
@@ -30117,7 +30117,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳70 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beef%20Liver%20(Kolija)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Beef%20Liver",
         "isVerifiedLive": true
       }
     }
@@ -30198,7 +30198,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Beef%20Head%20Meat%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Bengal%20Meat%20Beef",
         "isVerifiedLive": true
       }
     }
@@ -30279,7 +30279,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳100 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mutton%20Paya%2010%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Mutton%20Paya",
         "isVerifiedLive": true
       }
     }
@@ -30360,7 +30360,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳230 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mutton%20Brain%20(Mogoz)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Mutton%20Brain",
         "isVerifiedLive": true
       }
     }
@@ -30441,7 +30441,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳26 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mutton%20Head%20Meat%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Mutton%20Head%20Meat",
         "isVerifiedLive": true
       }
     }
@@ -30522,7 +30522,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳36 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mutton%20Bone%20in%20(Khashi)%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Mutton%20Bone%20in",
         "isVerifiedLive": true
       }
     }
@@ -30603,7 +30603,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Beef%20Bone%20In%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Bengal%20Meat%20Beef",
         "isVerifiedLive": true
       }
     }
@@ -30684,7 +30684,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mutton%20Paya%205%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Mutton%20Paya",
         "isVerifiedLive": true
       }
     }
@@ -30765,7 +30765,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳46 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Raaj%20Hash%20(Swan)%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Raaj%20Hash%20Meat",
         "isVerifiedLive": true
       }
     }
@@ -30846,7 +30846,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Quail%20Meat%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Quail%20Meat",
         "isVerifiedLive": true
       }
     }
@@ -30927,7 +30927,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳240 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beijing%20Duck%20Meat%20After%20Cutting%20(Net%20Weight%20%C2%B1%2050%20gm)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Beijing%20Duck%20Meat",
         "isVerifiedLive": true
       }
     }
@@ -31008,7 +31008,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=SDI%20Anti%20Cutter%20Knife%20Blade%20Small%2010%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/SDI%20Anti%20Cutter",
         "isVerifiedLive": true
       }
     }
@@ -31089,7 +31089,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deli%20Anti%20Cutter%20(Yellow)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deli%20Anti%20Cutter",
         "isVerifiedLive": true
       }
     }
@@ -31170,7 +31170,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳51 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deli%20Anti%20Cutter%20(Blue)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deli%20Anti%20Cutter",
         "isVerifiedLive": true
       }
     }
@@ -31251,7 +31251,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deli%20Cutting%20Knife%20Silver%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deli%20Cutting%20Knife",
         "isVerifiedLive": true
       }
     }
@@ -31332,7 +31332,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=RFL%20Good%20Luck%20Anti%20Cutter%20Eco%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/RFL%20Good%20Luck",
         "isVerifiedLive": true
       }
     }
@@ -31413,7 +31413,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deli%20Anti%20Cutter%20(E2091)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deli%20Anti%20Cutter",
         "isVerifiedLive": true
       }
     }
@@ -31494,7 +31494,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳71 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deli%20Anti%20Cutter%20(E2041)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deli%20Anti%20Cutter",
         "isVerifiedLive": true
       }
     }
@@ -31575,7 +31575,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳7 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deli%20Cutter%20(E2056)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deli%20Cutter",
         "isVerifiedLive": true
       }
     }
@@ -31656,7 +31656,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deli%20Anti%20Cutter%20Knife%20Blade%20Small%2010%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deli%20Anti%20Cutter",
         "isVerifiedLive": true
       }
     }
@@ -31737,7 +31737,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deli%20Stainless%20Steel%20Multi%20Purpose%20Scissors%207%20Inch%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deli%20Stainless%20Steel",
         "isVerifiedLive": true
       }
     }
@@ -31818,7 +31818,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳31 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Catla%20Fish%20After%20Cutting%20%C2%B170%20gm%201.5%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Catla%20Fish%20After",
         "isVerifiedLive": true
       }
     }
@@ -31899,7 +31899,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shutkiz%20Dry%20Fish%20Bharta%20Mix%20Powder%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Shutkiz%20Dry%20Fish",
         "isVerifiedLive": true
       }
     }
@@ -31980,7 +31980,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Kachki%20Chutney%20%C2%B1%205%20gm%2075%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Try%20Dry%20Fish",
         "isVerifiedLive": true
       }
     }
@@ -32061,7 +32061,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Loitta%20Chutney%20%C2%B1%205%20gm%2075%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Try%20Dry%20Fish",
         "isVerifiedLive": true
       }
     }
@@ -32142,7 +32142,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Try%20Dry%20Fish%20Balachao%20Dry%20Prawn%20Chutney%20%C2%B1%2010%20gm%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Try%20Dry%20Fish",
         "isVerifiedLive": true
       }
     }
@@ -32223,7 +32223,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fargo%20Safe%20Dry%20Fish%20(Chingri%20Shutki)%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fargo%20Safe%20Dry",
         "isVerifiedLive": true
       }
     }
@@ -32304,7 +32304,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fargo%20Safe%20Dry%20Fish%20(Churi%20Shutki)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fargo%20Safe%20Dry",
         "isVerifiedLive": true
       }
     }
@@ -32385,7 +32385,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kazi%20Farms%20Kitchen%20Kechki%20Dried%20Fish%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kazi%20Farms%20Kitchen",
         "isVerifiedLive": true
       }
     }
@@ -32466,7 +32466,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kazi%20Farms%20Kitchen%20Churi%20Dried%20Fish%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kazi%20Farms%20Kitchen",
         "isVerifiedLive": true
       }
     }
@@ -32547,7 +32547,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pabda%20Fish%20%C2%B130%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pabda%20Fish",
         "isVerifiedLive": true
       }
     }
@@ -32628,7 +32628,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Whole%20Hilsha%20Fish%20(Asto%20Ilish)%20%C2%B140%20gm%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Whole%20Hilsha%20Fish",
         "isVerifiedLive": true
       }
     }
@@ -32709,7 +32709,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳170 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Whole%20Hilsha%20Fish%20(Asto%20Ilish)%20%C2%B150%20gm%20600%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Whole%20Hilsha%20Fish",
         "isVerifiedLive": true
       }
     }
@@ -32790,7 +32790,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pangas%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pangas%20Fish%20After",
         "isVerifiedLive": true
       }
     }
@@ -32871,7 +32871,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Globe%20Telapia%20Fish%20Processed%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Globe%20Telapia%20Fish",
         "isVerifiedLive": true
       }
     }
@@ -32952,7 +32952,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Gura%20Chingri%20(Shrimp)%20%C2%B115%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Gura%20Chingri",
         "isVerifiedLive": true
       }
     }
@@ -33033,7 +33033,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Balachaw%20(Dry%20Prawn%20Chutney)%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Balachaw",
         "isVerifiedLive": true
       }
     }
@@ -33114,7 +33114,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Horina%20Chingri%20(Shrimp)%2090-100%20pcs%20%C2%B115%20gm%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Horina%20Chingri%2090",
         "isVerifiedLive": true
       }
     }
@@ -33195,7 +33195,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳100 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bagda%20Chingri%20(Shrimp)%2025-30%20pcs%20%C2%B130%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bagda%20Chingri%2025",
         "isVerifiedLive": true
       }
     }
@@ -33276,7 +33276,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳26 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golda%20Chingri%20(Shrimp)%2018-22%20pcs%20%C2%B130%20gm%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golda%20Chingri%2018",
         "isVerifiedLive": true
       }
     }
@@ -33357,7 +33357,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shutkiz%20Chatgaiya%20Chingri%20Balachao%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Shutkiz%20Chatgaiya%20Chingri",
         "isVerifiedLive": true
       }
     }
@@ -33438,7 +33438,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shutkiz%20Chatgaiya%20Chingri%20Balachao%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Shutkiz%20Chatgaiya%20Chingri",
         "isVerifiedLive": true
       }
     }
@@ -33519,7 +33519,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Moochie%20With%20Prawn%20(Hairball%20Care)%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Moochie%20With%20Prawn",
         "isVerifiedLive": true
       }
     }
@@ -33600,7 +33600,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmland%20Venture%20Bagda%20Chingri%20(Shrimp%20Whole)%2016-20%20pcs%20%C2%B1%2050%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmland%20Venture%20Bagda",
         "isVerifiedLive": true
       }
     }
@@ -33681,7 +33681,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kazi%20Farms%20Kitchen%20Spicy%20Chicken%20Nuggets%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kazi%20Farms%20Kitchen",
         "isVerifiedLive": true
       }
     }
@@ -33762,7 +33762,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Sugar%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Refined%20Sugar",
         "isVerifiedLive": true
       }
     }
@@ -33843,7 +33843,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Starship%20Sugar%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Starship%20Refined%20Sugar",
         "isVerifiedLive": true
       }
     }
@@ -33924,7 +33924,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Akij%20Essential%20Sugar%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Akij%20Essential%20Refined",
         "isVerifiedLive": true
       }
     }
@@ -34005,7 +34005,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Loose%20White%20Sugar%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Loose%20White%20Sugar",
         "isVerifiedLive": true
       }
     }
@@ -34086,7 +34086,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Sugar%20Sachet%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Sugar%20Sachet",
         "isVerifiedLive": true
       }
     }
@@ -34167,7 +34167,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳61 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sis%20White%20Icing%20Sugar%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sis%20White%20Icing",
         "isVerifiedLive": true
       }
     }
@@ -34248,7 +34248,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Akij%20Essential%20Iodized%20Salt%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Akij%20Essential%20Iodized",
         "isVerifiedLive": true
       }
     }
@@ -34329,7 +34329,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rock%20Salt%20(Bit%20Lobon)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Rock%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -34410,7 +34410,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=AJI-NO-MOTO%20Monosodium%20Glutamate%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/AJI%20NO%20MOTO",
         "isVerifiedLive": true
       }
     }
@@ -34491,7 +34491,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Saad%20Bit%20Salt%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Saad%20Bit%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -34572,7 +34572,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=O'Natural%20Brown%20Sugar%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/O'%20Brown%20Sugar",
         "isVerifiedLive": true
       }
     }
@@ -34653,7 +34653,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savory%20Molasses%20Brown%20Sugar%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Savory%20Molasses%20Brown",
         "isVerifiedLive": true
       }
     }
@@ -34734,7 +34734,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savory%20Molasses%20Brown%20Sugar%20454%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Savory%20Molasses%20Brown",
         "isVerifiedLive": true
       }
     }
@@ -34815,7 +34815,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳36 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Mitr%20Phol%20Cane",
         "isVerifiedLive": true
       }
     }
@@ -34896,7 +34896,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mitr%20Phol%20Natural%20Cane%20Brown%20Sugar%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mitr%20Phol%20Cane",
         "isVerifiedLive": true
       }
     }
@@ -34977,7 +34977,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Sprinkle%20Salt%20%26%20Pepper%20Mix%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Sprinkle%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -35058,7 +35058,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Iodized%20Salt%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Iodized%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -35139,7 +35139,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Himalayan%20Pink%20Salt%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Himalayan",
         "isVerifiedLive": true
       }
     }
@@ -35220,7 +35220,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Saad%20Tasting%20Salt%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Saad%20Tasting%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -35301,7 +35301,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Bet%20Salt%2080%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Bet%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -35382,7 +35382,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Himalayan%20Pink%20Salt%20110%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Himalayan%20Pink",
         "isVerifiedLive": true
       }
     }
@@ -35463,7 +35463,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Super%20(Vacuum)%20Salt%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -35544,7 +35544,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Super%20Salt%20750%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -35625,7 +35625,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Molla%20Super%20Salt%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Molla%20Salt",
         "isVerifiedLive": true
       }
     }
@@ -35706,7 +35706,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Orange%20(Free%20Mango%20Drink%20Powder%20125%20gm)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dekko%20Fruit%20Funda",
         "isVerifiedLive": true
       }
     }
@@ -35787,7 +35787,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20Mango%20(Free%20Orange%20Drink%20Powder%20125%20gm)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dekko%20Fruit%20Funda",
         "isVerifiedLive": true
       }
     }
@@ -35868,7 +35868,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳23 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dekko%20Fruit%20Funda",
         "isVerifiedLive": true
       }
     }
@@ -35949,7 +35949,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Mango%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -36030,7 +36030,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Orange)%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dekko%20Fruit%20Funda",
         "isVerifiedLive": true
       }
     }
@@ -36111,7 +36111,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%2075%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -36192,7 +36192,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -36273,7 +36273,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%20BIB%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -36354,7 +36354,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Prome%20Orange%20Powder%20Drink%20()%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Prome%20Orange%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -36435,7 +36435,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Prome%20Mango%20Powder%20Drink%20()%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Prome%20Mango%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -36516,7 +36516,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Cumin%20(Jira)%20Powder%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Cumin%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -36597,7 +36597,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Cumin%20(Jira)%20Powder%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Cumin%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -36678,7 +36678,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Cumin%20(Jira)%20Powder%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Cumin%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -36759,7 +36759,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳14 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Halim%20Meat%20(Beef)%20%C2%B1%2020%20gm%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Halim%20Meat",
         "isVerifiedLive": true
       }
     }
@@ -36840,7 +36840,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳46 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Beef%20Head%20Meat%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Beef%20Head%20Meat",
         "isVerifiedLive": true
       }
     }
@@ -36921,7 +36921,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳71 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Buffalo%20Meat%20(Mohisher%20Mangsho)%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Buffalo%20Meat",
         "isVerifiedLive": true
       }
     }
@@ -37002,7 +37002,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bengal%20Meat%20Beef%20Rib%20Eye%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bengal%20Meat%20Beef",
         "isVerifiedLive": true
       }
     }
@@ -37083,7 +37083,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳36 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rui%20Fish%20After%20Cutting%20%C2%B150%20gm%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Rui%20Fish%20After",
         "isVerifiedLive": true
       }
     }
@@ -37164,7 +37164,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Biryani%20Masala%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Biryani%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -37245,7 +37245,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Kachchi%20Biryani%20Masala%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Kachchi%20Biryani",
         "isVerifiedLive": true
       }
     }
@@ -37326,7 +37326,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Hyderabadi%20Biryani%20Masala%2045%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Hyderabadi%20Biryani",
         "isVerifiedLive": true
       }
     }
@@ -37407,7 +37407,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Garam%20Masala%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Garam%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -37488,7 +37488,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Chotpoti%20Masala%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Chotpoti%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -37569,7 +37569,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Roast%20Masala%2035%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Roast%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -37650,7 +37650,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Garam%20Masala%2015%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Garam%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -37731,7 +37731,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Tehari%20Masala%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Tehari%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -37812,7 +37812,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Chicken%20Masala%2020%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Chicken%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -37893,7 +37893,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Kala%20Bhuna%20Masala%2080%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Kala%20Bhuna",
         "isVerifiedLive": true
       }
     }
@@ -37974,7 +37974,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Duck%20Curry%20Masala%2033%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Duck%20Curry",
         "isVerifiedLive": true
       }
     }
@@ -38055,7 +38055,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Garam%20Masala%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Garam%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -38136,7 +38136,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Orange%20Plus%20Soft%20Drink%20Powder%20()%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Orange%20Plus",
         "isVerifiedLive": true
       }
     }
@@ -38217,7 +38217,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Green%20Cardamom%20(Sobuj%20Elachi)%20Whole%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Green%20Cardamom%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -38298,7 +38298,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Green%20Cardamom%20(Sobuj%20Elachi)%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Green%20Cardamom",
         "isVerifiedLive": true
       }
     }
@@ -38379,7 +38379,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cardamom%20(Elachi)%20Whole%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cardamom%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -38460,7 +38460,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cardamom%20(Elachi)%20Whole%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cardamom%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -38541,7 +38541,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Black%20Cardamom%20(Kalo%20Elachi)%20Whole%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Black%20Cardamom%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -38622,7 +38622,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golden%20Grain%20Cardamom%20(Elachi)%20Whole%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golden%20Grain%20Cardamom",
         "isVerifiedLive": true
       }
     }
@@ -38703,7 +38703,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Black%20Cardamom%20(Kalo%20Elachi)%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Black%20Cardamom",
         "isVerifiedLive": true
       }
     }
@@ -38784,7 +38784,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zamzam%20Cardamom%20(Elachi)%20Powder%2030%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Zamzam%20Cardamom%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -38865,7 +38865,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=My%20Organic%20BD%20Black%20Cardamom%20(Kalo%20Elachi)%20Whole%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/My%20Organic%20BD",
         "isVerifiedLive": true
       }
     }
@@ -38946,7 +38946,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Emon%20Cardamom%20(Elachi)%20Powder%2010%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Emon%20Cardamom%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -39027,7 +39027,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cinnamon%20(Daruchini)%20Whole%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cinnamon%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -39108,7 +39108,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golden%20Grain%20Cinnamon%20(Daruchini)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golden%20Grain%20Cinnamon",
         "isVerifiedLive": true
       }
     }
@@ -39189,7 +39189,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rongdhonu%20Cinnamon%20Powder%20(Daruchini)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Rongdhonu%20Cinnamon%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -39270,7 +39270,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Cinnamon%20(Daruchini)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Cinnamon",
         "isVerifiedLive": true
       }
     }
@@ -39351,7 +39351,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Cinnamon%20(Daruchini)%20Powder%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Cinnamon",
         "isVerifiedLive": true
       }
     }
@@ -39432,7 +39432,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmroots%20Cinnamon%20(Daruchini)%20Whole%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmroots%20Cinnamon%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -39513,7 +39513,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳55 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dilmah%20Ceylon%20Green%20Tea%20With%20Ceylon%20Cinnamon%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dilmah%20Ceylon%20Green",
         "isVerifiedLive": true
       }
     }
@@ -39594,7 +39594,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Clove%20(Lobongo)%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Clove",
         "isVerifiedLive": true
       }
     }
@@ -39675,7 +39675,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golden%20Grain%20Clove%20(Lobongo)%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golden%20Grain%20Clove",
         "isVerifiedLive": true
       }
     }
@@ -39756,7 +39756,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Cloves%20(Lobongo)%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Cloves",
         "isVerifiedLive": true
       }
     }
@@ -39837,7 +39837,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=My%20Organic%20BD%20Clove%20(Lobongo)%20Powder%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/My%20Organic%20BD",
         "isVerifiedLive": true
       }
     }
@@ -39918,7 +39918,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Clove%20(Lobongo)%20Powder%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Clove%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -39999,7 +39999,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Emon%20Cloves%20(Lobongo)%20Powder%2010%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Emon%20Cloves%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -40080,7 +40080,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Clove%20(Lobongo)%20Powder%2020%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Clove%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -40161,7 +40161,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Black%20Pepper%20(Gol%20Morich)%20Whole%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Black%20Pepper%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -40242,7 +40242,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golden%20Grain%20Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golden%20Grain%20Black",
         "isVerifiedLive": true
       }
     }
@@ -40323,7 +40323,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Black%20Pepper%20Whole",
         "isVerifiedLive": true
       }
     }
@@ -40404,7 +40404,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=My%20Organic%20BD%20Black%20Pepper%20(Gol%20Morich)%20Whole%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/My%20Organic%20BD",
         "isVerifiedLive": true
       }
     }
@@ -40485,7 +40485,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anchor%20Black%20Pepper%20(Gol%20Morich)%20Powder%2030%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Anchor%20Black%20Pepper",
         "isVerifiedLive": true
       }
     }
@@ -40566,7 +40566,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Black%20Pepper%20(Gol%20Morich)%20Powder%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Black%20Pepper%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -40647,7 +40647,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ahmed%20Black%20Pepper%20(Gol%20Morich)%20Powder%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ahmed%20Black%20Pepper",
         "isVerifiedLive": true
       }
     }
@@ -40728,7 +40728,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Black%20Pepper%20(Gol%20Morich)%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Black%20Pepper",
         "isVerifiedLive": true
       }
     }
@@ -40809,7 +40809,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmroots%20Black%20Pepper%20(Gol%20Morich)%20Whole%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmroots%20Black%20Pepper",
         "isVerifiedLive": true
       }
     }
@@ -40890,7 +40890,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golden%20Grain%20Bay%20Leaf%20(Tejpata)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golden%20Grain%20Bay",
         "isVerifiedLive": true
       }
     }
@@ -40971,7 +40971,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmer's%20Gold%20Bay%20Leaves%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmer's%20Gold%20Bay",
         "isVerifiedLive": true
       }
     }
@@ -41052,7 +41052,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bay%20Leaf%20(Tejpata)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bay%20Leaf",
         "isVerifiedLive": true
       }
     }
@@ -41133,7 +41133,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Panch%20Phoron%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Panch%20Phoron",
         "isVerifiedLive": true
       }
     }
@@ -41214,7 +41214,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Panch%20Phoron%20Powder%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Panch%20Phoron",
         "isVerifiedLive": true
       }
     }
@@ -41295,7 +41295,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Panch%20Phoran%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Panch%20Phoran",
         "isVerifiedLive": true
       }
     }
@@ -41376,7 +41376,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Panchforan%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Panchforan",
         "isVerifiedLive": true
       }
     }
@@ -41457,7 +41457,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savory%20Panch%20Phoran%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Savory%20Panch%20Phoran",
         "isVerifiedLive": true
       }
     }
@@ -41538,7 +41538,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Radhuni%20Mustard%20Oil%20(Free%20Panchforan%2050%20gm)%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Radhuni%20Mustard%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -41619,7 +41619,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golden%20Grain%20Mustard%20Seed%20(Yellow)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golden%20Grain%20Mustard",
         "isVerifiedLive": true
       }
     }
@@ -41700,7 +41700,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Golden%20Grain%20Mustard%20Seed%20(Red)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Golden%20Grain%20Mustard",
         "isVerifiedLive": true
       }
     }
@@ -41781,7 +41781,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Mustard%20Seed%20(Red)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Mustard%20Seed",
         "isVerifiedLive": true
       }
     }
@@ -41862,7 +41862,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Mustard%20Seed%20(Yellow)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Mustard%20Seed",
         "isVerifiedLive": true
       }
     }
@@ -41943,7 +41943,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zamzam%20Mustard%20Seed%20(Yellow)%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Zamzam%20Mustard%20Seed",
         "isVerifiedLive": true
       }
     }
@@ -42024,7 +42024,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zamzam%20Mustard%20Seed%20(Red)%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Zamzam%20Mustard%20Seed",
         "isVerifiedLive": true
       }
     }
@@ -42105,7 +42105,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mustard%20Seed%20(Yellow)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mustard%20Seed",
         "isVerifiedLive": true
       }
     }
@@ -42186,7 +42186,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mustard%20Seed%20(Red)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mustard%20Seed",
         "isVerifiedLive": true
       }
     }
@@ -42267,7 +42267,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dano%20Daily%20Pushti%20Milk%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Dano%20Daily%20Pushti",
         "isVerifiedLive": true
       }
     }
@@ -42348,7 +42348,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dano%20Daily%20Pushti%20Milk%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dano%20Daily%20Pushti",
         "isVerifiedLive": true
       }
     }
@@ -42429,7 +42429,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Full%20Cream%20Milk%20Powder%20Poly%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Full%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -42510,7 +42510,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Full%20Cream%20Milk%20Powder%20Poly%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Full%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -42591,7 +42591,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Gold%20High%20Calcium%20Non%20Fat%20Milk%20Powder%2040%20Y%2B%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Gold%20High",
         "isVerifiedLive": true
       }
     }
@@ -42672,7 +42672,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Gold%20High%20Calcium%20Milk%20Powder%2040Y%2B%20(Free%20Glass)%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Gold%20High",
         "isVerifiedLive": true
       }
     }
@@ -42753,7 +42753,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Diet%20Low%20Fat%20Milk%20Powder%20(Free%20Glass)%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Diet%20Low",
         "isVerifiedLive": true
       }
     }
@@ -42834,7 +42834,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Active%20School%20Milk%20Powder%20(Free%20Glass)%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Active%20School",
         "isVerifiedLive": true
       }
     }
@@ -42915,7 +42915,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳105 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Milk%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Milk%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -42996,7 +42996,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Active%20School%202%20in%201%20Chocolate%20Milk%20Powder%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Active%20School",
         "isVerifiedLive": true
       }
     }
@@ -43077,7 +43077,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dano%20Power%20Full%20Cream%20Milk%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Dano%20Power%20Full",
         "isVerifiedLive": true
       }
     }
@@ -43158,7 +43158,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Instant%20Full%20Cream%20Milk%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Full%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -43239,7 +43239,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Danish%20Condensed%20Filled%20Milk%20397%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Danish%20Condensed%20Filled",
         "isVerifiedLive": true
       }
     }
@@ -43320,7 +43320,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Starship%20Condensed%20Milk%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Starship%20Condensed%20Milk",
         "isVerifiedLive": true
       }
     }
@@ -43401,7 +43401,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳21 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Puck%20Sterilized%20Cream%20160%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Puck%20Sterilized%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -43482,7 +43482,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=No%201.%20Condensed%20Milk%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/No%20Condensed%20Milk",
         "isVerifiedLive": true
       }
     }
@@ -43563,7 +43563,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Melody%20Cream%20With%20Vegetable%20Fat%20170%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Melody%20Cream%20With",
         "isVerifiedLive": true
       }
     }
@@ -43644,7 +43644,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Cream%20179%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -43725,7 +43725,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anchor%20Cooking%20Cream%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Anchor%20Cooking%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -43806,7 +43806,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anchor%20Whipping%20Cream%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Anchor%20Whipping%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -43887,7 +43887,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Active%20School%20Milk%20Powder%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Active%20School",
         "isVerifiedLive": true
       }
     }
@@ -43968,7 +43968,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Young%20Star%20(16-40%20years)%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Young%20Star",
         "isVerifiedLive": true
       }
     }
@@ -44049,7 +44049,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Starship%20Full%20Cream%20Milk%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Starship%20Full%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -44130,7 +44130,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dano%20Delight%20Full%20Cream%20Milk%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dano%20Delight%20Full",
         "isVerifiedLive": true
       }
     }
@@ -44211,7 +44211,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dano%20Power%20Full%20Cream%20Milk%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dano%20Power%20Full",
         "isVerifiedLive": true
       }
     }
@@ -44292,7 +44292,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Full%20Cream%20Milk%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Full%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -44373,7 +44373,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Goalini%20Full%20Cream%20Milk%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Goalini%20Full%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -44454,7 +44454,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Pasteurized%20Liquid%20Milk%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Pasteurized%20Milk",
         "isVerifiedLive": true
       }
     }
@@ -44535,7 +44535,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Pasteurized%20Full",
         "isVerifiedLive": true
       }
     }
@@ -44616,7 +44616,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Danish%20Ayran%20Pasteurized",
         "isVerifiedLive": true
       }
     }
@@ -44697,7 +44697,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Danish%20Ayran%20Pasteurized%20Full%20Cream%20Liquid%20Milk%202%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Danish%20Ayran%20Pasteurized",
         "isVerifiedLive": true
       }
     }
@@ -44778,7 +44778,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Pasteurized%20Low%20Fat%20Milk%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Pasteurized%20Low",
         "isVerifiedLive": true
       }
     }
@@ -44859,7 +44859,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Milk%20Vita%20Pasteurized%20Standardized%20Milk%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Milk%20Vita%20Pasteurized",
         "isVerifiedLive": true
       }
     }
@@ -44940,7 +44940,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Milk%20Vita%20Pasteurized%20Standardized%20Milk%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Milk%20Vita%20Pasteurized",
         "isVerifiedLive": true
       }
     }
@@ -45021,7 +45021,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20Pasteurized%20Full%20Cream%20Milk%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Farm%20Fresh%20Pasteurized",
         "isVerifiedLive": true
       }
     }
@@ -45102,7 +45102,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20UHT%20Milk%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20UHT%20Milk",
         "isVerifiedLive": true
       }
     }
@@ -45183,7 +45183,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20UHT%20Milk%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20UHT%20Milk",
         "isVerifiedLive": true
       }
     }
@@ -45264,7 +45264,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20UHT%20Milk%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20UHT%20Milk",
         "isVerifiedLive": true
       }
     }
@@ -45345,7 +45345,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20UHT%20Milk%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20UHT%20Milk",
         "isVerifiedLive": true
       }
     }
@@ -45426,7 +45426,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20Pasteurized%20Standardized%20Milk%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Farm%20Fresh%20Pasteurized",
         "isVerifiedLive": true
       }
     }
@@ -45507,7 +45507,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20UHT%20Milk%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Farm%20Fresh%20UHT",
         "isVerifiedLive": true
       }
     }
@@ -45588,7 +45588,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20Pasteurized%20Milk%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Farm%20Fresh%20Pasteurized",
         "isVerifiedLive": true
       }
     }
@@ -45669,7 +45669,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20Elachi%20Flavoured%20UHT%20Milk%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Farm%20Fresh%20Elachi",
         "isVerifiedLive": true
       }
     }
@@ -45750,7 +45750,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farm%20Fresh%20UHT%20Milk%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Farm%20Fresh%20UHT",
         "isVerifiedLive": true
       }
     }
@@ -45831,7 +45831,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Active%20School%20Strawberry%20Ice%20Cream%20Flavour%20Milk%20Shake%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Active%20School",
         "isVerifiedLive": true
       }
     }
@@ -45912,7 +45912,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Active%20School%20Belgian%20Chocolate%20Flavour%20Milk%20Shake%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Active%20School",
         "isVerifiedLive": true
       }
     }
@@ -45993,7 +45993,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Marks%20Active%20School%20Cookie%20%26%20Cream%20Flavour%20Milk%20Shake%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Marks%20Active%20School",
         "isVerifiedLive": true
       }
     }
@@ -46074,7 +46074,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳65 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Amul%20Butter%20Unsalted%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Amul%20Butter%20Unsalted",
         "isVerifiedLive": true
       }
     }
@@ -46155,7 +46155,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Amul%20Butter%20Salted%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Amul%20Butter%20Salted",
         "isVerifiedLive": true
       }
     }
@@ -46236,7 +46236,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lurpak%20Butter%20Salted%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lurpak%20Butter%20Salted",
         "isVerifiedLive": true
       }
     }
@@ -46317,7 +46317,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳70 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lurpak%20Butter%20Unsalted%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lurpak%20Butter%20Unsalted",
         "isVerifiedLive": true
       }
     }
@@ -46398,7 +46398,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Butter%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Butter",
         "isVerifiedLive": true
       }
     }
@@ -46479,7 +46479,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anchor%20Unsalted%20Butter%20227%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Anchor%20Unsalted%20Butter",
         "isVerifiedLive": true
       }
     }
@@ -46560,7 +46560,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anchor%20Salted%20Butter%20227%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Anchor%20Salted%20Butter",
         "isVerifiedLive": true
       }
     }
@@ -46641,7 +46641,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lurpak%20Salted%20Spreadable%20Butter%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lurpak%20Salted%20Spreadable",
         "isVerifiedLive": true
       }
     }
@@ -46722,7 +46722,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Milk%20Vita%20Butter%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Milk%20Vita%20Butter",
         "isVerifiedLive": true
       }
     }
@@ -46803,7 +46803,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Butter%20(Fresco%20Container)%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Butter",
         "isVerifiedLive": true
       }
     }
@@ -46884,7 +46884,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ultra%20Butter%20Pasteurized%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ultra%20Butter%20Pasteurized",
         "isVerifiedLive": true
       }
     }
@@ -46965,7 +46965,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳31 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Amul%20Choco%20Buttery%20Spread%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Amul%20Choco%20Buttery",
         "isVerifiedLive": true
       }
     }
@@ -47046,7 +47046,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Amul%20Butter%20Blister%2010%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Amul%20Butter%20Blister",
         "isVerifiedLive": true
       }
     }
@@ -47127,7 +47127,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳59 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vivo%20Ambient%20Whip%20Topping%20with%20Vegetable%20Fat%201100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Vivo%20Ambient%20Whip",
         "isVerifiedLive": true
       }
     }
@@ -47208,7 +47208,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Philadelphia%20Cream%20Cheese%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Philadelphia%20Cream%20Cheese",
         "isVerifiedLive": true
       }
     }
@@ -47289,7 +47289,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳31 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Puck%20Cream%20Cheese%20Spread%20140%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Puck%20Cream%20Cheese",
         "isVerifiedLive": true
       }
     }
@@ -47370,7 +47370,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Anchor%20White%20Cheddar%20Block%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Anchor%20White%20Cheddar",
         "isVerifiedLive": true
       }
     }
@@ -47451,7 +47451,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳105 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Almarai%20spreadable%20Cream%20Cheese%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Almarai%20spreadable%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -47532,7 +47532,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Arla%20Sandwich%20Slice%20Cheese%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Arla%20Sandwich%20Slice",
         "isVerifiedLive": true
       }
     }
@@ -47613,7 +47613,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Almarai%20Cream%20Cheese%20108%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Almarai%20Cream%20Cheese",
         "isVerifiedLive": true
       }
     }
@@ -47694,7 +47694,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ultra%20Mozzarella%20Cheese%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ultra%20Mozzarella%20Cheese",
         "isVerifiedLive": true
       }
     }
@@ -47775,7 +47775,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Arla%20Burger%20Slice%20Cheddar%20Cheese%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Arla%20Burger%20Slice",
         "isVerifiedLive": true
       }
     }
@@ -47856,7 +47856,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳61 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Almarai%20Halloumi%20Cheese%20225%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Almarai%20Halloumi%20Cheese",
         "isVerifiedLive": true
       }
     }
@@ -47937,7 +47937,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Grand'Or%20Danish%20Blue%20Cheese%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Grand'Or%20Danish%20Blue",
         "isVerifiedLive": true
       }
     }
@@ -48018,7 +48018,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shokti%2B%20Mishti%20Doi%2075%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Shokti%20Mishti%20Doi",
         "isVerifiedLive": true
       }
     }
@@ -48099,7 +48099,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Milk%20Vita%20Sour%20Curd%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Milk%20Vita%20Sour",
         "isVerifiedLive": true
       }
     }
@@ -48180,7 +48180,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ultra%20Sour%20Curd%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ultra%20Sour%20Curd",
         "isVerifiedLive": true
       }
     }
@@ -48261,7 +48261,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Aarong%20Dairy%20Sour%20Curd%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Aarong%20Sour%20Curd",
         "isVerifiedLive": true
       }
     }
@@ -48342,7 +48342,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shokti%2B%20Butter%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Shokti%20Butter",
         "isVerifiedLive": true
       }
     }
@@ -48423,7 +48423,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳9 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Leaf%20Tea%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20Leaf",
         "isVerifiedLive": true
       }
     }
@@ -48504,7 +48504,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Leaf%20Tea%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20Leaf",
         "isVerifiedLive": true
       }
     }
@@ -48585,7 +48585,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Leaf%20Tea%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20Leaf",
         "isVerifiedLive": true
       }
     }
@@ -48666,7 +48666,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Leaf%20Tea%20()%20350%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20Leaf",
         "isVerifiedLive": true
       }
     }
@@ -48747,7 +48747,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Leaf%20Tea%20(Free%20Ispahani%20Toast%20250%20gm)%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20Leaf",
         "isVerifiedLive": true
       }
     }
@@ -48828,7 +48828,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Leaf%20Tea%20Combo%20400%20gm%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20Leaf",
         "isVerifiedLive": true
       }
     }
@@ -48909,7 +48909,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Leaf%20Tea%20400%20gm%20(Free%20Ispahani%20Toast%20250%20gm)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20Leaf",
         "isVerifiedLive": true
       }
     }
@@ -48990,7 +48990,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20Tea%2050%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -49071,7 +49071,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Blender's%20Choice%20Green%20Tea%20(Loose%20Leaf)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Blender's%20Choice",
         "isVerifiedLive": true
       }
     }
@@ -49152,7 +49152,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳18 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Mirzapore%20PD%20Tea%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Mirzapore%20PD",
         "isVerifiedLive": true
       }
     }
@@ -49233,7 +49233,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Brooke%20Bond%20Taaza%20Black%20Tea%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Brooke%20Bond%20Taaza",
         "isVerifiedLive": true
       }
     }
@@ -49314,7 +49314,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Brooke%20Bond%20Taaza%20Black%20Tea%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Brooke%20Bond%20Taaza",
         "isVerifiedLive": true
       }
     }
@@ -49395,7 +49395,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dr.%20H%26H%20Zeera%20Black%20Tea%2030%20pcs%2060%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dr%20Zeera%20Black",
         "isVerifiedLive": true
       }
     }
@@ -49476,7 +49476,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dr.%20H%26H%20Mint%20Black%20Tea%2030%20pcs%2060%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dr%20Mint%20Black",
         "isVerifiedLive": true
       }
     }
@@ -49557,7 +49557,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Black%20Tea%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Black%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -49638,7 +49638,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Halda%20Valley%20Black%20Tea%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Halda%20Valley%20Black",
         "isVerifiedLive": true
       }
     }
@@ -49719,7 +49719,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Halda%20Valley%20Golden%20Eyebrow%20Black%20Tea%2045%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Halda%20Valley%20Golden",
         "isVerifiedLive": true
       }
     }
@@ -49800,7 +49800,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳46 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dr.%20H%26H%20Black%20Tea%20With%20Honey%20Tea%2030%20pcs%2060%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dr%20Black%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -49881,7 +49881,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Halda%20Valley%20Golden%20Eyebrow%20Black%20Tea%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Halda%20Valley%20Golden",
         "isVerifiedLive": true
       }
     }
@@ -49962,7 +49962,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Blender's%20Choice%20Black%20Tea%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Blender's%20Choice",
         "isVerifiedLive": true
       }
     }
@@ -50043,7 +50043,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20Gold%20Tea%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20Gold%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -50124,7 +50124,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20Tea%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -50205,7 +50205,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20Masala%20Cha%20Tea%20Bags%2025%20pcs%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20Masala%20Cha",
         "isVerifiedLive": true
       }
     }
@@ -50286,7 +50286,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20Shinrai%20Japanese%20Green%20Tea%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20Shinrai%20Japanese",
         "isVerifiedLive": true
       }
     }
@@ -50367,7 +50367,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20Gold%20Tea%2050%20pcs%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20Gold%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -50448,7 +50448,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20Natural%20Green%20Tea%20Bags%2025%20pcs%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20Green%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -50529,7 +50529,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tetley%20Green%20Tea%20and%2025%20pcs%2032.5%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tetley%20Green%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -50610,7 +50610,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20Gold%20Tea%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20Gold%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -50691,7 +50691,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Finlay%20Tea%20(Free%20Container)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Finlay%20Tea",
         "isVerifiedLive": true
       }
     }
@@ -50772,7 +50772,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2045%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Nescafe%20Coffee",
         "isVerifiedLive": true
       }
     }
@@ -50853,7 +50853,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2090%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Nescafe%20Coffee",
         "isVerifiedLive": true
       }
     }
@@ -50934,7 +50934,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20180%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Nescafe%20Coffee",
         "isVerifiedLive": true
       }
     }
@@ -51015,7 +51015,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%2024%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Nescafe%20Coffee",
         "isVerifiedLive": true
       }
     }
@@ -51096,7 +51096,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20()%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Nescafe%20Coffee",
         "isVerifiedLive": true
       }
     }
@@ -51177,7 +51177,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Nescafe%20Coffee",
         "isVerifiedLive": true
       }
     }
@@ -51258,7 +51258,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Nescafe%20Classic%20Instant%20Coffee%20(Free%20Coffee%20Shaker)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Nescafe%20Coffee",
         "isVerifiedLive": true
       }
     }
@@ -51339,7 +51339,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳120 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bru%20Instant%20Coffee%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bru%20Coffee",
         "isVerifiedLive": true
       }
     }
@@ -51420,7 +51420,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Coffee%203%20in%201%2015%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Coffee%20in",
         "isVerifiedLive": true
       }
     }
@@ -51501,7 +51501,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=AMA%20Coffee%203%20In%201%2015%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/AMA%20Coffee%20In",
         "isVerifiedLive": true
       }
     }
@@ -51582,7 +51582,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳70 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Horlicks%20Instant%20Hot%20Malty%20Goodness%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Horlicks%20Hot%20Malty",
         "isVerifiedLive": true
       }
     }
@@ -51663,7 +51663,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Horlicks%20Chocolate%20Hot%20Malty%20Goodness%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Horlicks%20Chocolate%20Hot",
         "isVerifiedLive": true
       }
     }
@@ -51744,7 +51744,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳100 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Horlicks%20Hot%20Malty%20Goodness%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Horlicks%20Hot%20Malty",
         "isVerifiedLive": true
       }
     }
@@ -51825,7 +51825,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Jet%20Classic%20Detergent%20Powder%20Paper%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Jet%20Detergent%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -51906,7 +51906,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pureit%20Classic%20Microfibre%20Mesh%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Pureit%20Microfibre%20Mesh",
         "isVerifiedLive": true
       }
     }
@@ -51987,7 +51987,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳65 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pureit%20Classic%20Germ%20Kill%20Kit%201500%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Pureit%20Germ%20Kill",
         "isVerifiedLive": true
       }
     }
@@ -52068,7 +52068,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Jet%20Classic%20Detergent%20Powder%20Paper%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Jet%20Detergent%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -52149,7 +52149,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%20Dairy%20Milk%20Chocolate%20Bar%2012%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Milk%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -52230,7 +52230,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%205%20Star%20Chocolate%20Bar%2021%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Star%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -52311,7 +52311,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%20Dairy%20Milk%20Chocolate%206.6%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Milk%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -52392,7 +52392,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%205%20Star%20Oreo%20Chocolate%20Bar%2042%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Star%20Oreo",
         "isVerifiedLive": true
       }
     }
@@ -52473,7 +52473,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%20Dairy%20Milk%20Crispello%20Chocolate%20Bar%2013%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Milk%20Crispello",
         "isVerifiedLive": true
       }
     }
@@ -52554,7 +52554,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%20Dairy%20Milk%20Silk%20Plain%20Chocolate%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Milk%20Silk",
         "isVerifiedLive": true
       }
     }
@@ -52635,7 +52635,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Haque%20Nic%20Nac%20Chocolate%20Wafer%2018%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Haque%20Nic%20Nac",
         "isVerifiedLive": true
       }
     }
@@ -52716,7 +52716,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%20Dairy%20Milk%20Silk%20Mousse%20Chocolate%20Bar%20116%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Milk%20Silk",
         "isVerifiedLive": true
       }
     }
@@ -52797,7 +52797,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%20Dairy%20Milk%20Silk%20Roast%20Almond%20Chocolate%20Bar%20143%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Milk%20Silk",
         "isVerifiedLive": true
       }
     }
@@ -52878,7 +52878,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bluebell%20Dark%20Compound%20Baking%20Chocolate%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bluebell%20Dark%20Compound",
         "isVerifiedLive": true
       }
     }
@@ -52959,7 +52959,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%20750%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Flavoured",
         "isVerifiedLive": true
       }
     }
@@ -53040,7 +53040,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳75 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -53121,7 +53121,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -53202,7 +53202,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Instant%20Drink%20Powder%201.5%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -53283,7 +53283,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳150 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Flavoured",
         "isVerifiedLive": true
       }
     }
@@ -53364,7 +53364,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Orange%20Flavoured%20Instant%20Drink%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Orange%20Flavoured",
         "isVerifiedLive": true
       }
     }
@@ -53445,7 +53445,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tang%20Mango%20Instant%20Drink%20Powder%20BIB%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tang%20Mango%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -53526,7 +53526,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Soft%20Drink%20Powder%20(Mango)%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dekko%20Fruit%20Funda",
         "isVerifiedLive": true
       }
     }
@@ -53607,7 +53607,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Mango%20Instant%20Drink%20Powder%20(Free%20Juice%20Shaker%20)%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dekko%20Fruit%20Funda",
         "isVerifiedLive": true
       }
     }
@@ -53688,7 +53688,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳23 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dekko%20Fruit%20Funda%20Mango%20Instant%20Drink%20Powder%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dekko%20Fruit%20Funda",
         "isVerifiedLive": true
       }
     }
@@ -53769,7 +53769,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fruitex%20Soft%20Drink%20Powder%20Mango%208%20gm%2036%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Fruitex%20Soft%20Drink",
         "isVerifiedLive": true
       }
     }
@@ -53850,7 +53850,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shezan%20Mango%20Fruit%20Drinks%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Shezan%20Mango%20Fruit",
         "isVerifiedLive": true
       }
     }
@@ -53931,7 +53931,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shezan%20Smart%20Mango%20Drinks%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Shezan%20Smart%20Mango",
         "isVerifiedLive": true
       }
     }
@@ -54012,7 +54012,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Frutika%20Mango%20Drinks%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Frutika%20Mango%20Drinks",
         "isVerifiedLive": true
       }
     }
@@ -54093,7 +54093,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Frooto%20Mango%20Fruit%20Drink%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Frooto%20Mango",
         "isVerifiedLive": true
       }
     }
@@ -54174,7 +54174,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Frutika%20Mango%20Juice%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Frutika%20Mango%20Juice",
         "isVerifiedLive": true
       }
     }
@@ -54255,7 +54255,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Shezan%20Mango%20Fruit%20Drink%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Shezan%20Mango%20Fruit",
         "isVerifiedLive": true
       }
     }
@@ -54336,7 +54336,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Malee%20100%25%20Mango%20%26%20Mixed%20Fruit%20Juice%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Malee%20100%25%20Mango",
         "isVerifiedLive": true
       }
     }
@@ -54417,7 +54417,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.%20Shammi%20Mango%20Juice%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Shammi%20Mango",
         "isVerifiedLive": true
       }
     }
@@ -54498,7 +54498,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.%20Shammi%20Mango%20Juice%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Shammi%20Mango",
         "isVerifiedLive": true
       }
     }
@@ -54579,7 +54579,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nutrilife%20Mango%20Juice%20160%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Nutrilife%20Mango%20Juice",
         "isVerifiedLive": true
       }
     }
@@ -54660,7 +54660,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola",
         "isVerifiedLive": true
       }
     }
@@ -54741,7 +54741,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%201.75%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola",
         "isVerifiedLive": true
       }
     }
@@ -54822,7 +54822,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%20Zero%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola%20Zero",
         "isVerifiedLive": true
       }
     }
@@ -54903,7 +54903,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%20Zero%20Sugar%20(Imported)%20320%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola%20Zero",
         "isVerifiedLive": true
       }
     }
@@ -54984,7 +54984,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%20400%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola",
         "isVerifiedLive": true
       }
     }
@@ -55065,7 +55065,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%20(Free%20Kinley%20Drinking%20Water%20500%20ml)%202.25%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola",
         "isVerifiedLive": true
       }
     }
@@ -55146,7 +55146,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%20(Free%20Glass)%201.75%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola",
         "isVerifiedLive": true
       }
     }
@@ -55227,7 +55227,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%20Diet%20No%20Sugar%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola%20Diet",
         "isVerifiedLive": true
       }
     }
@@ -55308,7 +55308,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coca-Cola%20Zero%20Sugar%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Coca%20Cola%20Zero",
         "isVerifiedLive": true
       }
     }
@@ -55389,7 +55389,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sprite%20(Free%20Glass)%201.75%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Sprite",
         "isVerifiedLive": true
       }
     }
@@ -55470,7 +55470,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳2 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sprite%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sprite",
         "isVerifiedLive": true
       }
     }
@@ -55551,7 +55551,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sprite%201.75%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Sprite",
         "isVerifiedLive": true
       }
     }
@@ -55632,7 +55632,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lifebuoy%20Handwash%20Total%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Lifebuoy%20Handwash%20Total",
         "isVerifiedLive": true
       }
     }
@@ -55713,7 +55713,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=SmartCare%20Baby%20and%20Accessories%20Liquid%20Wash%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/SmartCare%20Baby%20and",
         "isVerifiedLive": true
       }
     }
@@ -55794,7 +55794,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kidlon%20%26%20Nipple%20Brush%20(Blue)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Kidlon%20Nipple%20Brush",
         "isVerifiedLive": true
       }
     }
@@ -55875,7 +55875,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Orkide%20Olive%20Oil%20(Glass%20)%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Orkide%20Olive%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -55956,7 +55956,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=7%20up%201.25%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/up",
         "isVerifiedLive": true
       }
     }
@@ -56037,7 +56037,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=7%20Up%201.75%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Up",
         "isVerifiedLive": true
       }
     }
@@ -56118,7 +56118,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=SmartCare%20PP%20Feeder%20M%20(3%2B%20Months)%20150%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/SmartCare%20PP%20Feeder",
         "isVerifiedLive": true
       }
     }
@@ -56199,7 +56199,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -56280,7 +56280,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202%20Minute%20Masala%20Instant%20Noodles%2016&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Minute",
         "isVerifiedLive": true
       }
     }
@@ -56361,7 +56361,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -56442,7 +56442,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%2012&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -56523,7 +56523,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Noodles%20Masala%2012&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -56604,7 +56604,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Surprise%20Gift)%2012&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -56685,7 +56685,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20Maggi%20Masala%20Blast)%204&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -56766,7 +56766,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%208%20(Free%202%20pcs)%20620%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -56847,7 +56847,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%204%20(Free%201%20Pcs)%20310%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -56928,7 +56928,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%202-Minute%20Masala%20Instant%20Noodles%20(Free%20KitKat%20Chunky%2040%20gm)%2016&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -57009,7 +57009,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.Noodles%20Magic%20Masala%20Easy%20Instant%20496%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Noodles%20Magic",
         "isVerifiedLive": true
       }
     }
@@ -57090,7 +57090,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.%20Noodles%20Cup%20Noodles%20Magic%20Masala%2040%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Noodles%20Cup",
         "isVerifiedLive": true
       }
     }
@@ -57171,7 +57171,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.Noodles%20Instant%20Magic%20Masala%20248%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Noodles%20Magic",
         "isVerifiedLive": true
       }
     }
@@ -57252,7 +57252,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.%20Noodles%20Magic%20Masala%20Easy%20Instant%20(%20Free)%20496%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Noodles%20Magic",
         "isVerifiedLive": true
       }
     }
@@ -57333,7 +57333,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.%20Noodles%20Magic%20Easy%20Instant%20Noodles%20(Free%20Mr.%20Noodles%2062%20gm)%20496%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Noodles%20Magic",
         "isVerifiedLive": true
       }
     }
@@ -57414,7 +57414,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.Noodles%20Masala%20Flavour%20Egg%20Stick%20Noodles%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Noodles%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -57495,7 +57495,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Egg%20%26%20Chicken%20Masala%20Noodles%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Egg%20Chicken",
         "isVerifiedLive": true
       }
     }
@@ -57576,7 +57576,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mr.%20Noodles%20Korean%20Super%20Spicy%20496%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mr%20Noodles%20Korean",
         "isVerifiedLive": true
       }
     }
@@ -57657,7 +57657,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20248%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chopstick%20Yummy%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -57738,7 +57738,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chopstick%20Deshi%20Masala%20Instant%20Noodles%208%20496%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chopstick%20Deshi%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -57819,7 +57819,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%20)%208&post_type=product",
+        "url": "https://princebazarbd.com/search/Doodles%20Masala%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -57900,7 +57900,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Instant%20Noodles%20Masala%20Blast%208&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Noodles%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -57981,7 +57981,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Doodles%20Instant%20Masala%20Noodles%20(Free%20Doodles%201%20pcs)%208&post_type=product",
+        "url": "https://princebazarbd.com/search/Doodles%20Masala%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -58062,7 +58062,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Doodles%20Masala%20Noodles%20(Free%20Doodles%20)%208%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Doodles%20Masala%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -58143,7 +58143,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Doodles%20Masala%20Noodles%20(Free%20Doodles%20)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Doodles%20Masala%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -58224,7 +58224,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Egg%20Noodles%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Egg%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -58305,7 +58305,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Egg%20%26%20Chicken%20Noodles%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Egg%20Chicken",
         "isVerifiedLive": true
       }
     }
@@ -58386,7 +58386,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Bowl%20Noodles%20Egg%20%26%20Chicken%2060%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Bowl%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -58467,7 +58467,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Chicken%20Masala%20Noodles%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Chicken%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -58548,7 +58548,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Bowl%20Noodles%20Beef%20Bhuna%20With%20Vegetable%2060%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Bowl%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -58629,7 +58629,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ifad%20Eggy%20Super%20Masala%20Instant%20Noodles%20(Free%20Plastic%20Jhuri%201%20pcs)%20720%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ifad%20Eggy%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -58710,7 +58710,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ifad%20Eggy%20Instant%20Masala%20Noodles%20480%20gm%20(Free%20Smart%20Bowl)%208%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Ifad%20Eggy%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -58791,7 +58791,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kolson%20Egg%20Noodles%20120%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kolson%20Egg%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -58872,7 +58872,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chopstick%20Instant%20Noodles%20Masala%20Delight%20496%20gm%208&post_type=product",
+        "url": "https://princebazarbd.com/search/Chopstick%20Noodles%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -58953,7 +58953,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chopstick%20Instant%20Noodles%20Masala%20Delight%20744%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chopstick%20Noodles%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -59034,7 +59034,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chopstick%20Instant%20Noodles%20(Free%20Radhuni%20Masala)%20248%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chopstick%20Noodles",
         "isVerifiedLive": true
       }
     }
@@ -59115,7 +59115,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chopstick%20Yummy%20Masala%20Instant%20Noodles%20(Free%20)%20496%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chopstick%20Yummy%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -59196,7 +59196,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chopstick%20Ramen%20Hot%20Chicken%20Instant%20Noodles%208%20640%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chopstick%20Ramen%20Hot",
         "isVerifiedLive": true
       }
     }
@@ -59277,7 +59277,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chopstick%20Ramen%20Hot%20Chicken%20Instant%20Noodles%202%20160%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chopstick%20Ramen%20Hot",
         "isVerifiedLive": true
       }
     }
@@ -59358,7 +59358,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Munchy's%20Lexus%20Salted%20Chocolate%20Cream%20Sandwich%20Biscuits%20190%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Munchy's%20Lexus%20Salted",
         "isVerifiedLive": true
       }
     }
@@ -59439,7 +59439,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%20Oreo%20Choco%20Cream%20Sandwich%20Biscuit%20120%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Oreo%20Choco",
         "isVerifiedLive": true
       }
     }
@@ -59520,7 +59520,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cadbury%20Oreo%20Sandwich%20Cream%20Biscuit%20108.55%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cadbury%20Oreo%20Sandwich",
         "isVerifiedLive": true
       }
     }
@@ -59601,7 +59601,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%20320%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Danish%20Doreo%20Black",
         "isVerifiedLive": true
       }
     }
@@ -59682,7 +59682,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Danish%20Doreo%20Black%20Chocolate%20Sandwich%20Biscuit%2012%20420%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Danish%20Doreo%20Black",
         "isVerifiedLive": true
       }
     }
@@ -59763,7 +59763,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Fun%20Fill%20Sandwich%20Chocolate%20Cream%20Biscuit%2034%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Fun%20Fill",
         "isVerifiedLive": true
       }
     }
@@ -59844,7 +59844,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Munchy's%20Lexus%20Cheese%20Cream%20Sandwich%20Cracker%20Biscuit%20225%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Munchy's%20Lexus%20Cheese",
         "isVerifiedLive": true
       }
     }
@@ -59925,7 +59925,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Olympic%20Energy%20Plus%20Biscuits%2062%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Olympic%20Energy%20Plus",
         "isVerifiedLive": true
       }
     }
@@ -60006,7 +60006,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Olympic%20Toast%20Biscuit%20185%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Olympic%20Toast%20Biscuit",
         "isVerifiedLive": true
       }
     }
@@ -60087,7 +60087,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Olympic%20Lexus%20Vegetable%20Crackers%20Biscuits%20216%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Olympic%20Lexus%20Vegetable",
         "isVerifiedLive": true
       }
     }
@@ -60168,7 +60168,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Danish%20Lexus%20Vegetable%20Cracker%20Biscuit%20180%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Danish%20Lexus%20Vegetable",
         "isVerifiedLive": true
       }
     }
@@ -60249,7 +60249,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳4 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mix%20Vegetables%20(%C2%B1%2050%20gm)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mix%20Vegetables",
         "isVerifiedLive": true
       }
     }
@@ -60330,7 +60330,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Mixed%20Vegetables%20For%20Fried%20Rice%20(%C2%B1%2050%20gm)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Mixed%20Vegetables%20For",
         "isVerifiedLive": true
       }
     }
@@ -60411,7 +60411,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Olympic%20Energy%20Plus%20Biscuits%20185%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Olympic%20Energy%20Plus",
         "isVerifiedLive": true
       }
     }
@@ -60492,7 +60492,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%2015%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Standard%20Horlicks%20Health",
         "isVerifiedLive": true
       }
     }
@@ -60573,7 +60573,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Standard%20Horlicks%20Health%20And%20Nutrition%20Drink%20(Free%20Tiffin%201%20pcs)%201000%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Standard%20Horlicks%20Health",
         "isVerifiedLive": true
       }
     }
@@ -60654,7 +60654,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Horlicks%20Drink%20Chocolate%20(Free%20Milk%20Powder%2050%20gm)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Horlicks%20Drink%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -60735,7 +60735,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nutri%2B%20Juicee%2B%20Mango%20Soft%20Drink%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nutri%20Juicee%20Mango",
         "isVerifiedLive": true
       }
     }
@@ -60816,7 +60816,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nutri%2B%20Juicee%2B%20Mango%20Soft%20Drink%20Powder%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nutri%20Juicee%20Mango",
         "isVerifiedLive": true
       }
     }
@@ -60897,7 +60897,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Special%20Toast%20Biscuit%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Toast%20Biscuit",
         "isVerifiedLive": true
       }
     }
@@ -60978,7 +60978,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fun%20Sweet%20Toast%20Biscuit%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fun%20Sweet%20Toast",
         "isVerifiedLive": true
       }
     }
@@ -61059,7 +61059,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Fun%20Tiny%20Toast%20Biscuit%20Chatpata%20Masala%20180%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Fun%20Tiny",
         "isVerifiedLive": true
       }
     }
@@ -61140,7 +61140,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Anarkali%20Butter%20Toast%20Biscuit%20185%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Anarkali%20Butter",
         "isVerifiedLive": true
       }
     }
@@ -61221,7 +61221,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=BelleAme%20Toast%20Biscuit%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/BelleAme%20Toast%20Biscuit",
         "isVerifiedLive": true
       }
     }
@@ -61302,7 +61302,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Funtastic%20Plain%20Toast%20Biscuit%20185%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Funtastic%20Plain%20Toast",
         "isVerifiedLive": true
       }
     }
@@ -61383,7 +61383,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ahmed%20Toast%20Biscuits%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ahmed%20Toast%20Biscuits",
         "isVerifiedLive": true
       }
     }
@@ -61464,7 +61464,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ispahani%20Toast%20Biscuit%20185%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ispahani%20Toast%20Biscuit",
         "isVerifiedLive": true
       }
     }
@@ -61545,7 +61545,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ifad%20Muri%20Toast%20Butter%20Rusk%20Biscuit%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ifad%20Muri%20Toast",
         "isVerifiedLive": true
       }
     }
@@ -61626,7 +61626,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20Potata%20Spicy%20Biscuit%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20Potata%20Spicy",
         "isVerifiedLive": true
       }
     }
@@ -61707,7 +61707,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pran%20All%20Time%20Sweet%20Toast%20Biscuit%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pran%20All%20Time",
         "isVerifiedLive": true
       }
     }
@@ -61788,7 +61788,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bisk%20Club%20Shero%20Cream%20Biscuit%2085%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bisk%20Club%20Shero",
         "isVerifiedLive": true
       }
     }
@@ -61869,7 +61869,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Haque%20Milk%20Chocolate%20Digestive%20Biscuit%20137%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Haque%20Milk%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -61950,7 +61950,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Butter%20Cookies%20Biscuit%20750%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Butter%20Cookies",
         "isVerifiedLive": true
       }
     }
@@ -62031,7 +62031,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Olympic%20Coconut%20Plus%20Biscuits%2042%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Olympic%20Coconut%20Plus",
         "isVerifiedLive": true
       }
     }
@@ -62112,7 +62112,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tiffany%20Cream%20Coconut%20Flavoured%20Biscuit%2080%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tiffany%20Cream%20Coconut",
         "isVerifiedLive": true
       }
     }
@@ -62193,7 +62193,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Coconut%20Milk%20Biscuit%20Standard%2024%2060%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Coconut%20Milk%20Biscuit",
         "isVerifiedLive": true
       }
     }
@@ -62274,7 +62274,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=CBL%20Munchee%20Chocolate%20Cream%20Wafer%20Biscuits%20(Buy%201%20Get%201%20Free)%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/CBL%20Munchee%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -62355,7 +62355,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=CBL%20Munchee%20Chocolate%20Cream%20Wafer%20Biscuits%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/CBL%20Munchee%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -62436,7 +62436,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Britannia%20Bourbon%20Biscuit%20(Free%20Bounce%20Cream%20Biscuit%2034%20gm)%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Britannia%20Bourbon%20Biscuit",
         "isVerifiedLive": true
       }
     }
@@ -62517,7 +62517,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tiffany%20Cream%20Chocolate%20Flavoured%20Biscuit%2080%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tiffany%20Cream%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -62598,7 +62598,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tiffany%20Sugar%20Free%20Chocolate%20Cream%20Biscuit%20162%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tiffany%20Sugar%20Free",
         "isVerifiedLive": true
       }
     }
@@ -62679,7 +62679,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Cocola%20Champion%20Chocolate%20Cream%20Biscuit%2065%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Cocola%20Champion%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -62760,7 +62760,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Ring%20Chips%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Ring",
         "isVerifiedLive": true
       }
     }
@@ -62841,7 +62841,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ekata%20Ring%20Papar%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ekata%20Ring%20Papar",
         "isVerifiedLive": true
       }
     }
@@ -62922,7 +62922,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Pasta%20Chips%20Ring%2022%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Pasta",
         "isVerifiedLive": true
       }
     }
@@ -63003,7 +63003,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pringles%20Hot%20%26%20Spicy%20Potato%20Chips%20102%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pringles%20Hot%20Spicy",
         "isVerifiedLive": true
       }
     }
@@ -63084,7 +63084,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pringles%20%2B%20Sour%20Cream%20%26%20Onion%20Potato%20Chips%20combo%2042%20gm%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Pringles%20Sour%20Cream",
         "isVerifiedLive": true
       }
     }
@@ -63165,7 +63165,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pringles%20Potato%20Chips%20134%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pringles%20Potato%20Chips",
         "isVerifiedLive": true
       }
     }
@@ -63246,7 +63246,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pringles%20Cheddar%20Cheese%20Potato%20Chips%20158%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pringles%20Cheddar%20Cheese",
         "isVerifiedLive": true
       }
     }
@@ -63327,7 +63327,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sun%20Chips%20Mix%20Masala%2020%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sun%20Chips%20Mix",
         "isVerifiedLive": true
       }
     }
@@ -63408,7 +63408,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ifad%20Eggy%20Stix%20Bar-B-Q%20Chips%2016%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ifad%20Eggy%20Stix",
         "isVerifiedLive": true
       }
     }
@@ -63489,7 +63489,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sun%20Chips%20Tomato%20Tango%2020%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sun%20Chips%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -63570,7 +63570,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kurkure%20Masala%20Munch%20Chips%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kurkure%20Masala%20Munch",
         "isVerifiedLive": true
       }
     }
@@ -63651,7 +63651,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kurkure%20Masala%20Munch%20Chips%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kurkure%20Masala%20Munch",
         "isVerifiedLive": true
       }
     }
@@ -63732,7 +63732,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Haldiram%20Murukku%20Masala%20Munch%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Haldiram%20Murukku%20Masala",
         "isVerifiedLive": true
       }
     }
@@ -63813,7 +63813,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lay's%20Classic%20Salted%20Potato%20Chips%2011.5%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lay's%20Salted%20Potato",
         "isVerifiedLive": true
       }
     }
@@ -63894,7 +63894,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lay's%20Spanish%20Tomato%20Tango%20Potato%20Chips%2012%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lay's%20Spanish%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -63975,7 +63975,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lay's%20Classic%20Salted%20Potato%20Chips%2015%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lay's%20Salted%20Potato",
         "isVerifiedLive": true
       }
     }
@@ -64056,7 +64056,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lay's%20Spanish%20Tomato%20Tango%20Potato%20Chips%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lay's%20Spanish%20Tomato",
         "isVerifiedLive": true
       }
     }
@@ -64137,7 +64137,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lay's%20Thai%20Style%20Spicy%20Chicken%20Potato%20Chips%2011.5%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lay's%20Thai%20Style",
         "isVerifiedLive": true
       }
     }
@@ -64218,7 +64218,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Haque%20Potato%20Chips%2018%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Haque%20Potato%20Chips",
         "isVerifiedLive": true
       }
     }
@@ -64299,7 +64299,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Bbq%20Chanachur%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Bbq%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -64380,7 +64380,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Bbq%20Chanachur%2022%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Bbq%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -64461,7 +64461,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Bbq%20Chanachur%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Bbq%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -64542,7 +64542,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Bbq%20Chanachur%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Bbq%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -64623,7 +64623,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Jhal%20Chanachur%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Jhal%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -64704,7 +64704,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Jhal%20Chanachur%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Jhal%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -64785,7 +64785,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Jhal%20Chanachur%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Jhal%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -64866,7 +64866,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20BBQ%20Sauce%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20BBQ%20Sauce",
         "isVerifiedLive": true
       }
     }
@@ -64947,7 +64947,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Mix%20Chanachur%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Mix%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -65028,7 +65028,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ruchi%20Mix%20Chanachur%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ruchi%20Mix%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -65109,7 +65109,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Bombay%20Naga%20Jhal%20Chanachur%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Bombay",
         "isVerifiedLive": true
       }
     }
@@ -65190,7 +65190,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Bombay%20Naga%20Jhal%20Chanachur%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Bombay",
         "isVerifiedLive": true
       }
     }
@@ -65271,7 +65271,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACME%20Mustard%20Oil%20(Free%20Jhal%20Chanachur%2025%20gm)%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/ACME%20Mustard%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -65352,7 +65352,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Jhal%20Chanachur%20(Buy%201%20Get%20150%20gm%20Free)%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Jhal%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -65433,7 +65433,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Fresh%20Jhal%20Chanachur%20270%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Fresh%20Jhal%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -65514,7 +65514,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Haldiram%20Jhal%20Chanachur%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Haldiram%20Jhal%20Chanachur",
         "isVerifiedLive": true
       }
     }
@@ -65595,7 +65595,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Haldiram%20Chanachur%20Tok%20Jhal%20Misti%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Haldiram%20Chanachur%20Tok",
         "isVerifiedLive": true
       }
     }
@@ -65676,7 +65676,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ahmed%20Mixed%20Fruit%20Jelly%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ahmed%20Mixed%20Fruit",
         "isVerifiedLive": true
       }
     }
@@ -65757,7 +65757,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foster%20Clark's%20Jelly%20Dessert%20Strawberry%2080%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Foster%20Clark's%20Jelly",
         "isVerifiedLive": true
       }
     }
@@ -65838,7 +65838,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ahmed%20Mixed%20Fruit%20Jam%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ahmed%20Mixed%20Fruit",
         "isVerifiedLive": true
       }
     }
@@ -65919,7 +65919,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Happy%20Times%20Mixed%20Fruit%20Jam%20450%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Happy%20Times%20Mixed",
         "isVerifiedLive": true
       }
     }
@@ -66000,7 +66000,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Mixed%20Fruit%20Jam%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Mixed%20Fruit",
         "isVerifiedLive": true
       }
     }
@@ -66081,7 +66081,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳52 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s='s%20Mixed%20Fruit%20Jam%20Conserve%20450%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/'s%20Mixed%20Fruit",
         "isVerifiedLive": true
       }
     }
@@ -66162,7 +66162,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳36 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tova%20Jam%20Mixed%20Fruit%20450%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Tova%20Jam%20Mixed",
         "isVerifiedLive": true
       }
     }
@@ -66243,7 +66243,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ahmed%20Orange%20Jam%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ahmed%20Orange%20Jam",
         "isVerifiedLive": true
       }
     }
@@ -66324,7 +66324,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳46 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bonjour%20Forest%20Fruit%20Jam%20450%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bonjour%20Forest%20Fruit",
         "isVerifiedLive": true
       }
     }
@@ -66405,7 +66405,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kellogg's%20Corn%20Flakes%20Breakfast%20Cereal%20250%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kellogg's%20Corn%20Flakes",
         "isVerifiedLive": true
       }
     }
@@ -66486,7 +66486,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳130 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kellogg's%20Corn%20Flakes%20Real%20Almond%20Honey%20Cereal%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Kellogg's%20Corn%20Flakes",
         "isVerifiedLive": true
       }
     }
@@ -66567,7 +66567,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kellogg's%20Corn%20Flakes%20Cereal%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kellogg's%20Corn%20Flakes",
         "isVerifiedLive": true
       }
     }
@@ -66648,7 +66648,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kellogg's%20Corn%20Flakes%20Real%20Almond%20Honey%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kellogg's%20Corn%20Flakes",
         "isVerifiedLive": true
       }
     }
@@ -66729,7 +66729,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kellogg's%20Corn%20Flakes%20Real%20Strawberry%20Puree%20Cereal%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Kellogg's%20Corn%20Flakes",
         "isVerifiedLive": true
       }
     }
@@ -66810,7 +66810,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Cerelac%204%20Apple%20Corn%20Flakes%20(12%20M%2B)%20350%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Cerelac%20Apple",
         "isVerifiedLive": true
       }
     }
@@ -66891,7 +66891,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Corn%20Flour%20(Loose)%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Corn%20Flour",
         "isVerifiedLive": true
       }
     }
@@ -66972,7 +66972,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bombay%20Sweets%20Cheese%20Ball%20Cheezee%20Corn%20Snacks%2010%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Bombay%20Sweets%20Cheese",
         "isVerifiedLive": true
       }
     }
@@ -67053,7 +67053,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nestle%20Maggi%20Healthy%20Soup%20Corn%20With%20Chicken%2025%20gm%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Nestle%20Maggi%20Healthy",
         "isVerifiedLive": true
       }
     }
@@ -67134,7 +67134,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chef's%20Choice%20Sweet%20Corn%20Canned%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chef's%20Choice%20Sweet",
         "isVerifiedLive": true
       }
     }
@@ -67215,7 +67215,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳200 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Quaker%20White%20Oats%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Quaker%20White%20Oats",
         "isVerifiedLive": true
       }
     }
@@ -67296,7 +67296,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Quaker%20Oats%20Poly%20450%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Quaker%20Oats",
         "isVerifiedLive": true
       }
     }
@@ -67377,7 +67377,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=B.%20Tech%20Expert%20Goat%20Milk%20Whitening%20Body%20Lotion%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Tech%20Expert%20Goat",
         "isVerifiedLive": true
       }
     }
@@ -67458,7 +67458,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Quaker%20Whole%20Oats%20700%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Quaker%20Whole%20Oats",
         "isVerifiedLive": true
       }
     }
@@ -67539,7 +67539,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Herman%20White%20Oats%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Herman%20White%20Oats",
         "isVerifiedLive": true
       }
     }
@@ -67620,7 +67620,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Quaker%20Oats%20450%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Quaker%20Oats",
         "isVerifiedLive": true
       }
     }
@@ -67701,7 +67701,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Virginia%20White%20Oats%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Virginia%20White%20Oats",
         "isVerifiedLive": true
       }
     }
@@ -67782,7 +67782,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Foster%20Clark's%20Tiara%20White%20Oats%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Foster%20Clark's%20Tiara",
         "isVerifiedLive": true
       }
     }
@@ -67863,7 +67863,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Quaker%20Oats%20800%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Quaker%20Oats",
         "isVerifiedLive": true
       }
     }
@@ -67944,7 +67944,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Surf%20Excel%20Washing%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Surf%20Excel%20Washing",
         "isVerifiedLive": true
       }
     }
@@ -68025,7 +68025,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Surf%20Excel%20Washing%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Surf%20Excel%20Washing",
         "isVerifiedLive": true
       }
     }
@@ -68106,7 +68106,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Wheel%20Washing%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -68187,7 +68187,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Wheel%20Washing%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -68268,7 +68268,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%20(Free%20Laundry%20Bar%2075%20gm%20%26%2023%20gm)%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Wheel%20Washing%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -68349,7 +68349,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Wheel%20Washing%20Powder%202%20in%201%20Clean%20%26%20Fresh%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Wheel%20Washing%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -68430,7 +68430,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ariel%20Complete%20Detergent%20Washing%20Powder%20500%20gm%20(Buy%202%20Get%201%20Free)%203%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Ariel%20Complete%20Detergent",
         "isVerifiedLive": true
       }
     }
@@ -68511,7 +68511,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Parachute%20Naturale%20Nourishing%20Care%20Shampoo%20(5.25%20ml%20X%2012%20pcs)%2063%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Parachute%20Naturale%20Nourishing",
         "isVerifiedLive": true
       }
     }
@@ -68592,7 +68592,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dan%20Cake%20Chocolate%20Muffin%2012%20packs%20360%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dan%20Cake%20Chocolate",
         "isVerifiedLive": true
       }
     }
@@ -68673,7 +68673,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rin%20Advanced%20Detergent%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Rin%20Advanced%20Detergent",
         "isVerifiedLive": true
       }
     }
@@ -68754,7 +68754,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rin%20Advanced%20Detergent%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Rin%20Advanced%20Detergent",
         "isVerifiedLive": true
       }
     }
@@ -68835,7 +68835,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rin%20Advanced%20Detergent%20Powder%202%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Rin%20Advanced%20Detergent",
         "isVerifiedLive": true
       }
     }
@@ -68916,7 +68916,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Natura%20Clear%20%26%20Glow%20Face%20Wash%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Natura%20Clear%20Glow",
         "isVerifiedLive": true
       }
     }
@@ -68997,7 +68997,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ligion%20Neem%20Face%20Wash%2050%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Ligion%20Neem%20Face",
         "isVerifiedLive": true
       }
     }
@@ -69078,7 +69078,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Clariss%20Lemon%20Face%20Wash%20(Oil%20Control)%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Clariss%20Lemon%20Face",
         "isVerifiedLive": true
       }
     }
@@ -69159,7 +69159,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Garnier%20Men%20Power%20White%20Double%20Action%20Face%20Wash%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Garnier%20Men%20Power",
         "isVerifiedLive": true
       }
     }
@@ -69240,7 +69240,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Clean%20%26%20Clear%20Morning%20Energy%20Face%20Wash%20Apple%2050%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Clean%20Clear%20Morning",
         "isVerifiedLive": true
       }
     }
@@ -69321,7 +69321,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pond's%20Face%20Wash%20Bright%20Beauty%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pond's%20Face%20Wash",
         "isVerifiedLive": true
       }
     }
@@ -69402,7 +69402,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Himalaya%20Natural%20Glow%20Saffron%20Face%20Wash%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Himalaya%20Glow%20Saffron",
         "isVerifiedLive": true
       }
     }
@@ -69483,7 +69483,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20Power%20Plus%20750%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -69564,7 +69564,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20(Free%20Mug)%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -69645,7 +69645,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -69726,7 +69726,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -69807,7 +69807,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20750%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -69888,7 +69888,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20(Jasmine)%20750%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -69969,7 +69969,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -70050,7 +70050,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%20750%20ml%20(Combo%20)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -70131,7 +70131,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Liquid%20Toilet%20Cleaner%201%20ltr%20(Combo%20)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -70212,7 +70212,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Flushmatic%20Citrus%20In-Cistern%20Toilet%20Cleaner%20Blocks%2050%20gm%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Flushmatic%20Citrus",
         "isVerifiedLive": true
       }
     }
@@ -70293,7 +70293,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20All-In-One%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%20400%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20All%20In",
         "isVerifiedLive": true
       }
     }
@@ -70374,7 +70374,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20All-in-1%20Toilet%20%26%20Bathroom%20Cleaning%20Powder%201%20kg&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20All%20in",
         "isVerifiedLive": true
       }
     }
@@ -70455,7 +70455,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Bathroom%20Cleaning%20Liquid%20Rose%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Bathroom%20Cleaning",
         "isVerifiedLive": true
       }
     }
@@ -70536,7 +70536,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳90 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Bathroom%20Cleaner%20Mega%20Refill%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Bathroom%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -70617,7 +70617,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Flushmatic%20Lavender%20In-Cistern%20Toilet%20Cleaner%20Blocks%2050%20gm%203%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Flushmatic%20Lavender",
         "isVerifiedLive": true
       }
     }
@@ -70698,7 +70698,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing",
         "isVerifiedLive": true
       }
     }
@@ -70779,7 +70779,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20950%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing",
         "isVerifiedLive": true
       }
     }
@@ -70860,7 +70860,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20475%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing",
         "isVerifiedLive": true
       }
     }
@@ -70941,7 +70941,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwash%20Liquid%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwash",
         "isVerifiedLive": true
       }
     }
@@ -71022,7 +71022,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20Combo&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing%20Pack",
         "isVerifiedLive": true
       }
     }
@@ -71103,7 +71103,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20dishwashing%20Liquid%20Spout%20250%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20dishwashing%20Spout",
         "isVerifiedLive": true
       }
     }
@@ -71184,7 +71184,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Liquid%20(Free%20Container)%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing",
         "isVerifiedLive": true
       }
     }
@@ -71265,7 +71265,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing%20Bar",
         "isVerifiedLive": true
       }
     }
@@ -71346,7 +71346,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing%20Bar",
         "isVerifiedLive": true
       }
     }
@@ -71427,7 +71427,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳11 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chaldal%20Basic%20Dishwashing%20Bar%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chaldal%20Basic%20Dishwashing",
         "isVerifiedLive": true
       }
     }
@@ -71508,7 +71508,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20(Free%20Vim%20Liquid%205%20ml%203%20pcs)%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing%20Bar",
         "isVerifiedLive": true
       }
     }
@@ -71589,7 +71589,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳3 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing%20Bar",
         "isVerifiedLive": true
       }
     }
@@ -71670,7 +71670,7 @@ export const PRODUCTS = [
         "inStock": false,
         "discountText": "৳4 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Chaldal%20Basic%20Dishwashing%20Bar%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Chaldal%20Basic%20Dishwashing",
         "isVerifiedLive": true
       }
     }
@@ -71751,7 +71751,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Bar%20(Free%20Surf%20Excel%20Washing%20Powder%2035%20gm)%20300%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing%20Bar",
         "isVerifiedLive": true
       }
     }
@@ -71832,7 +71832,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Vim%20Dishwashing%20Powder%20500%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Vim%20Dishwashing%20Powder",
         "isVerifiedLive": true
       }
     }
@@ -71913,7 +71913,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lizol%20Floor%20Cleaner%20Citrus%20Disinfectant%20Surface%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Lizol%20Floor%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -71994,7 +71994,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Lizol%20Disinfectant%20Surface",
         "isVerifiedLive": true
       }
     }
@@ -72075,7 +72075,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Lavender%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Lizol%20Disinfectant%20Surface",
         "isVerifiedLive": true
       }
     }
@@ -72156,7 +72156,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lizol%20Floor%20Cleaner%20Floral%20Disinfectant%20Surface%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Lizol%20Floor%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -72237,7 +72237,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳100 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Citrus%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Lizol%20Disinfectant%20Surface",
         "isVerifiedLive": true
       }
     }
@@ -72318,7 +72318,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳100 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Lizol%20Disinfectant%20Surface",
         "isVerifiedLive": true
       }
     }
@@ -72399,7 +72399,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20%26%20Floor%20Cleaner%20Floral%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Lizol%20Disinfectant%20Surface",
         "isVerifiedLive": true
       }
     }
@@ -72480,7 +72480,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Toilet%20Cleaner%20750%20ml%20%26%20Lizol%20Floor%20Cleaner%20500%20ml%20(Free%20Mug)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -72561,7 +72561,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Harpic%20Toilet%20Cleaner%20750%20ml%20%26%20Lizol%20Citrus%20Floor%20Cleaner%20500%20ml%20(Combo)&post_type=product",
+        "url": "https://princebazarbd.com/search/Harpic%20Toilet%20Cleaner",
         "isVerifiedLive": true
       }
     }
@@ -72642,7 +72642,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lizol%20Disinfectant%20Surface%20Cleaner%20Citrus%202%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Lizol%20Disinfectant%20Surface",
         "isVerifiedLive": true
       }
     }
@@ -72723,7 +72723,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ProDentalB%20Dental%20Stain%20Remover%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/ProDentalB%20Dental%20Stain",
         "isVerifiedLive": true
       }
     }
@@ -72804,7 +72804,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dishwashing%20Stainless%20Steel%20Scrubber%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dishwashing%20Stainless%20Steel",
         "isVerifiedLive": true
       }
     }
@@ -72885,7 +72885,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Wonder%20Stainless%20Steel%20Scrubber%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Wonder%20Stainless",
         "isVerifiedLive": true
       }
     }
@@ -72966,7 +72966,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Veet%20Hair%20Removal%20Cream%20(Free%20Dettol%20Soap%2027%20gm)%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Veet%20Hair%20Removal",
         "isVerifiedLive": true
       }
     }
@@ -73047,7 +73047,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Veet%20Hair%20Removal%20Cream%20(Free%20Dettol%20Soap%2075%20gm)%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Veet%20Hair%20Removal",
         "isVerifiedLive": true
       }
     }
@@ -73128,7 +73128,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Farmasi%20Make%20Up%20Remover%20Sensi%20Wipes%2020%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Farmasi%20Make%20Up",
         "isVerifiedLive": true
       }
     }
@@ -73209,7 +73209,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Organic%20Aloe%20Vera%20%26%20Rose%20Extracts%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Veet%20Hair%20Removal",
         "isVerifiedLive": true
       }
     }
@@ -73290,7 +73290,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Veet%20Hair%20Removal%20Cream%20With%20Organic%20Aelo%20Vera%20and%20Rose%20Extract%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Veet%20Hair%20Removal",
         "isVerifiedLive": true
       }
     }
@@ -73371,7 +73371,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sparkbliss%20Kitchen%20%26%20Grease%20Remover%20450%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sparkbliss%20Kitchen%20Grease",
         "isVerifiedLive": true
       }
     }
@@ -73452,7 +73452,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Veet%20Hair%20Removal%20Cream%20Normal%20Skin%20With%20Organic%20Aloe%20Vera%20%26%20Rose%20Extracts%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Veet%20Hair%20Removal",
         "isVerifiedLive": true
       }
     }
@@ -73533,7 +73533,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Germ%20Defence%20Soap%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Germ%20Defence",
         "isVerifiedLive": true
       }
     }
@@ -73614,7 +73614,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "প্রিন্স দর",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Bathing%20Soap%20Bar%2027%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Bathing%20Soap",
         "isVerifiedLive": true
       }
     }
@@ -73695,7 +73695,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%2075%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Soap%20Bathing",
         "isVerifiedLive": true
       }
     }
@@ -73776,7 +73776,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Skincare%202X%20Moisturizers%20With%20Argan%20Oil%2050%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Soap%20Skincare",
         "isVerifiedLive": true
       }
     }
@@ -73857,7 +73857,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Bathing%20Soap%20(%2C%20Skincare%2C%20Cool%20%26%20Fresh)%2075%20gm%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Bathing%20Soap",
         "isVerifiedLive": true
       }
     }
@@ -73938,7 +73938,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%2075%20gm%20(Combo%20)%203%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Soap%20Bathing",
         "isVerifiedLive": true
       }
     }
@@ -74019,7 +74019,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Soap%20Bathing",
         "isVerifiedLive": true
       }
     }
@@ -74100,7 +74100,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm%20(Combo%20)%204%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Soap%20Bathing",
         "isVerifiedLive": true
       }
     }
@@ -74181,7 +74181,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Bathing%20Bar%20Germ%20Defence%20125%20gm%20(Combo%20)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Soap%20Bathing",
         "isVerifiedLive": true
       }
     }
@@ -74262,7 +74262,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Soap%20Bathing%20Bar%20Family%20(Cool%2C%20Skincare%20%26%20)%2075%20gm%203%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Soap%20Bathing",
         "isVerifiedLive": true
       }
     }
@@ -74343,7 +74343,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Ocean%20Blue%20Antiseptic%20Handwash%20Refill%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Ocean",
         "isVerifiedLive": true
       }
     }
@@ -74424,7 +74424,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Liquid%20Antiseptic%201000%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Antiseptic",
         "isVerifiedLive": true
       }
     }
@@ -74505,7 +74505,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20125%20ml%20(Buy%201%20Get%201%20Free)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Savlon%20Disinfectant%20Spray",
         "isVerifiedLive": true
       }
     }
@@ -74586,7 +74586,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20(Savlon%20Disinfectant%20Spray%20125%20ml%20Free)%20300%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Savlon%20Disinfectant%20Spray",
         "isVerifiedLive": true
       }
     }
@@ -74667,7 +74667,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20Fresh%20300%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Savlon%20Disinfectant%20Spray",
         "isVerifiedLive": true
       }
     }
@@ -74748,7 +74748,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20(Free%20Pen%20Hand%20Sanitizer)%20300%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Savlon%20Disinfectant%20Spray",
         "isVerifiedLive": true
       }
     }
@@ -74829,7 +74829,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savlon%20Disinfectant%20Spray%20300%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Savlon%20Disinfectant%20Spray",
         "isVerifiedLive": true
       }
     }
@@ -74910,7 +74910,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Antiseptic%20Liquid%2056%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Antiseptic",
         "isVerifiedLive": true
       }
     }
@@ -74991,7 +74991,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Fresh%20Antiseptic%20Soap%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Fresh",
         "isVerifiedLive": true
       }
     }
@@ -75072,7 +75072,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Mild%20Antiseptic%20Soap%20125%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Mild",
         "isVerifiedLive": true
       }
     }
@@ -75153,7 +75153,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Nirvana%20Color%20Face%20Palette%20Windy%20Monsoon&post_type=product",
+        "url": "https://princebazarbd.com/search/Nirvana%20Color%20Face",
         "isVerifiedLive": true
       }
     }
@@ -75234,7 +75234,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Guerniss%20Lasting%20Matte%20Waterproof%20Kajol%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Guerniss%20Lasting%20Matte",
         "isVerifiedLive": true
       }
     }
@@ -75315,7 +75315,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳120 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Guerniss%20Anti%20Melasma%20Toner%20150%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Guerniss%20Anti%20Melasma",
         "isVerifiedLive": true
       }
     }
@@ -75396,7 +75396,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳120 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Remedies%20Guerniss%20Hyaluronic%20Serum%20N90%2030%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Remedies%20Guerniss%20Hyaluronic",
         "isVerifiedLive": true
       }
     }
@@ -75477,7 +75477,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳120 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Guerniss%20Anti%20Melasma%20Whitening%20Serum%2030%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Guerniss%20Anti%20Melasma",
         "isVerifiedLive": true
       }
     }
@@ -75558,7 +75558,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳100 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pierre%20Cardin%20Natural%20Look%20Foundation%2030%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Pierre%20Cardin%20Look",
         "isVerifiedLive": true
       }
     }
@@ -75639,7 +75639,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Strawberry%20Jelly%206%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Zayn%20Myza%20Breathable",
         "isVerifiedLive": true
       }
     }
@@ -75720,7 +75720,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Red%20Velvet%206%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Zayn%20Myza%20Breathable",
         "isVerifiedLive": true
       }
     }
@@ -75801,7 +75801,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Pink%20Popsicle%206%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Zayn%20Myza%20Breathable",
         "isVerifiedLive": true
       }
     }
@@ -75882,7 +75882,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Mauve%20Cheesecake%206%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Zayn%20Myza%20Breathable",
         "isVerifiedLive": true
       }
     }
@@ -75963,7 +75963,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lifebuoy%20Multivitamin%20Total%20Soap%20Bar%20100%20gm%20(Combo%20)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Lifebuoy%20Multivitamin%20Total",
         "isVerifiedLive": true
       }
     }
@@ -76044,7 +76044,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lifebuoy%20Soap%20Bar%20Lemon%20Fresh%20100%20gm%20(Combo%20)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Lifebuoy%20Soap%20Bar",
         "isVerifiedLive": true
       }
     }
@@ -76125,7 +76125,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lifebuoy%20Soap%20Bar%20Mild%20Care%20100%20gm%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Lifebuoy%20Soap%20Bar",
         "isVerifiedLive": true
       }
     }
@@ -76206,7 +76206,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Soap%20Fresh%20100%20gm%203%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Soap",
         "isVerifiedLive": true
       }
     }
@@ -76287,7 +76287,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Soap%20Mild%20100%20gm%203%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Soap",
         "isVerifiedLive": true
       }
     }
@@ -76368,7 +76368,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳6 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Godrej%20No.1%20Jasmine%20Soap%20Combo%20100%20gm%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Godrej%20No%20Jasmine",
         "isVerifiedLive": true
       }
     }
@@ -76449,7 +76449,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Protect%20Health%20Soap%20100%20gm%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Protect%20Health%20Soap",
         "isVerifiedLive": true
       }
     }
@@ -76530,7 +76530,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lifebuoy%20Soap%20Bar%20Total%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Lifebuoy%20Soap%20Bar",
         "isVerifiedLive": true
       }
     }
@@ -76611,7 +76611,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Meril%20Milk%20%26%20Beli%20Soap%20Bar%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Meril%20Milk%20Beli",
         "isVerifiedLive": true
       }
     }
@@ -76692,7 +76692,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Zayn%20%26%20Myza%20Breathable%20Nail%20Enamel%20Coffee%20Cream%206%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Zayn%20Myza%20Breathable",
         "isVerifiedLive": true
       }
     }
@@ -76773,7 +76773,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Rajkonna%20Red%20Sandalwood%20Powder%2025%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Rajkonna%20Red%20Sandalwood",
         "isVerifiedLive": true
       }
     }
@@ -76854,7 +76854,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Groome%20Makeup%20Blender%20Sponge%20(Pink)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Groome%20Makeup%20Blender",
         "isVerifiedLive": true
       }
     }
@@ -76935,7 +76935,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Ligion%20Ladies%20Uptan%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Ligion%20Ladies%20Uptan",
         "isVerifiedLive": true
       }
     }
@@ -77016,7 +77016,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Flormar%20Carnation%20Red%20Lipstick%20(Free%20Flormar%20Kajal)%204.5%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Flormar%20Carnation%20Red",
         "isVerifiedLive": true
       }
     }
@@ -77097,7 +77097,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Woman's%20World%20Uptan%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Woman's%20World%20Uptan",
         "isVerifiedLive": true
       }
     }
@@ -77178,7 +77178,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20190%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Germi",
         "isVerifiedLive": true
       }
     }
@@ -77259,7 +77259,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20140%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Germi",
         "isVerifiedLive": true
       }
     }
@@ -77340,7 +77340,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%2085%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Germi",
         "isVerifiedLive": true
       }
     }
@@ -77421,7 +77421,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%2B%20(Free%20Tiffin%20)%20190%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Germi",
         "isVerifiedLive": true
       }
     }
@@ -77502,7 +77502,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush)%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Germi",
         "isVerifiedLive": true
       }
     }
@@ -77583,7 +77583,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%20Triple%20clean%201%20pcs)%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Germi",
         "isVerifiedLive": true
       }
     }
@@ -77664,7 +77664,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Germi%20Check%20%2B%20(Free%20Toothbrush%201%20pcs)%20200%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Germi",
         "isVerifiedLive": true
       }
     }
@@ -77745,7 +77745,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Sensitive%20Expert%20(Free%20Toothbrush)%20140%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Sensitive",
         "isVerifiedLive": true
       }
     }
@@ -77826,7 +77826,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Sensitive%20Expert%20Fresh%20140%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Sensitive",
         "isVerifiedLive": true
       }
     }
@@ -77907,7 +77907,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Pepsodent%20Toothpaste%20Sensitive%20Expert%20Gum%20Care%20140%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Pepsodent%20Toothpaste%20Sensitive",
         "isVerifiedLive": true
       }
     }
@@ -77988,7 +77988,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Strong%20Teeth%20Toothpaste%20190%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Strong%20Teeth",
         "isVerifiedLive": true
       }
     }
@@ -78069,7 +78069,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Max%20Fresh%20Blue%20Gel%20Toothpaste%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Max%20Fresh",
         "isVerifiedLive": true
       }
     }
@@ -78150,7 +78150,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Total%20Advance%20Health%20Toothpaste%2080%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Total%20Advance",
         "isVerifiedLive": true
       }
     }
@@ -78231,7 +78231,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Total%20Advance%20Health%20Toothpaste%20(Free%20Toothbrush)%20150%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Total%20Advance",
         "isVerifiedLive": true
       }
     }
@@ -78312,7 +78312,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Kids%206-9%20Years%20Toothpaste%2080%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Kids%20Years",
         "isVerifiedLive": true
       }
     }
@@ -78393,7 +78393,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Kids%20Toothpaste%20(3-5%20Years)%2080%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Kids%20Toothpaste",
         "isVerifiedLive": true
       }
     }
@@ -78474,7 +78474,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Kids%20Toothpaste%20(0-2%20Years)%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Kids%20Toothpaste",
         "isVerifiedLive": true
       }
     }
@@ -78555,7 +78555,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Advanced%20White%20Toothpaste%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Advanced%20White",
         "isVerifiedLive": true
       }
     }
@@ -78636,7 +78636,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳25 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Total%20Advance%20Health%20Toothpaste%20120%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Total%20Advance",
         "isVerifiedLive": true
       }
     }
@@ -78717,7 +78717,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Colgate%20Anticavity%20Active%20Salt%20Toothpaste%20190%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Colgate%20Anticavity%20Active",
         "isVerifiedLive": true
       }
     }
@@ -78798,7 +78798,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%20100%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Repair%20Protect",
         "isVerifiedLive": true
       }
     }
@@ -78879,7 +78879,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳66 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Repair%20%26%20Protect%20Toothpaste%2075%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Repair%20Protect",
         "isVerifiedLive": true
       }
     }
@@ -78960,7 +78960,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Repair%20and%20Protect%20Toothpaste%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Repair%20and",
         "isVerifiedLive": true
       }
     }
@@ -79041,7 +79041,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳91 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Complete%20Protection%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Complete%20Protection",
         "isVerifiedLive": true
       }
     }
@@ -79122,7 +79122,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳41 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Complete%20Protection%20Toothbrush%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Complete%20Protection",
         "isVerifiedLive": true
       }
     }
@@ -79203,7 +79203,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Daily%20Protection%20Toothpaste%2020%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Daily%20Protection",
         "isVerifiedLive": true
       }
     }
@@ -79284,7 +79284,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Sensitivity%20%26%20Gum%20Toothbrush%20(Buy%202%20Get%201%20Free)%203%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Sensitivity%20Gum",
         "isVerifiedLive": true
       }
     }
@@ -79365,7 +79365,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Complete%20Protection%2B%20Toothpaste%2070%20gm&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Complete%20Protection",
         "isVerifiedLive": true
       }
     }
@@ -79446,7 +79446,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳31 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sensodyne%20Sensitivity%20%26%20Gum%20Toothbrush%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Sensodyne%20Sensitivity%20Gum",
         "isVerifiedLive": true
       }
     }
@@ -79527,7 +79527,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳90 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Guerniss%20Moisturizing%20%26%20Repair%20Shampoo%20304%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Guerniss%20Moisturizing%20Repair",
         "isVerifiedLive": true
       }
     }
@@ -79608,7 +79608,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunsilk%20Shampoo%20Stunning",
         "isVerifiedLive": true
       }
     }
@@ -79689,7 +79689,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunsilk%20Shampoo%20Stunning",
         "isVerifiedLive": true
       }
     }
@@ -79770,7 +79770,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳45 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20450%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunsilk%20Shampoo%20Stunning",
         "isVerifiedLive": true
       }
     }
@@ -79851,7 +79851,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳46 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunsilk%20Black%20Shine%20Shampoo%20320%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunsilk%20Black%20Shine",
         "isVerifiedLive": true
       }
     }
@@ -79932,7 +79932,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunsilk%20Black%20Shine%20Shampoo%20(Free%20Shampoo%2075%20ml)%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunsilk%20Black%20Shine",
         "isVerifiedLive": true
       }
     }
@@ -80013,7 +80013,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Stunning%20Black%20Shine%20(%20Free%20Sunsilk%20Shampoo%2075%20ml)%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunsilk%20Shampoo%20Stunning",
         "isVerifiedLive": true
       }
     }
@@ -80094,7 +80094,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dabur%20Vatika%20Black%20Shine%20Shampoo%20Sachet%206%20ml%20(Buy%2012%20Get%202%20Free)%2013%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dabur%20Vatika%20Black",
         "isVerifiedLive": true
       }
     }
@@ -80175,7 +80175,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dabur%20Vatika%20Hair%20Fall%20Control%20Shampoo%20(Free%20Black%20Shine%20Shampoo%2090%20ml)%20180%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dabur%20Vatika%20Hair",
         "isVerifiedLive": true
       }
     }
@@ -80256,7 +80256,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳55 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunsilk%20Lusciously%20Thick%20%26%20Long%20Shampoo%20(Free%20Scalp%20Massager)%20650%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunsilk%20Lusciously%20Thick",
         "isVerifiedLive": true
       }
     }
@@ -80337,7 +80337,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sunsilk%20Shampoo%20Volume%20375%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sunsilk%20Shampoo%20Volume",
         "isVerifiedLive": true
       }
     }
@@ -80418,7 +80418,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Menthol",
         "isVerifiedLive": true
       }
     }
@@ -80499,7 +80499,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Smooth",
         "isVerifiedLive": true
       }
     }
@@ -80580,7 +80580,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳145 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Menthol",
         "isVerifiedLive": true
       }
     }
@@ -80661,7 +80661,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳145 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Smooth%20%26%20Silky%20Anti%20Dandruff%20Shampoo%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Smooth",
         "isVerifiedLive": true
       }
     }
@@ -80742,7 +80742,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20180%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Menthol",
         "isVerifiedLive": true
       }
     }
@@ -80823,7 +80823,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳80 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Silky%20Black%20Anti%20Dandruff%20Shampoo%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Silky",
         "isVerifiedLive": true
       }
     }
@@ -80904,7 +80904,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳95 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%202%20in%201%20Cool%20Menthol%20Anti%20Dandruff%20Shampoo%20%2B%20Conditioner%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20in",
         "isVerifiedLive": true
       }
     }
@@ -80985,7 +80985,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳175 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20650%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Neem",
         "isVerifiedLive": true
       }
     }
@@ -81066,7 +81066,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳95 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Neem",
         "isVerifiedLive": true
       }
     }
@@ -81147,7 +81147,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Head%20%26%20Shoulders%20Neem%20Anti%20Dandruff%20Shampoo%20180%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Head%20Shoulders%20Neem",
         "isVerifiedLive": true
       }
     }
@@ -81228,7 +81228,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Clear%20Shampoo%20Men%20Cool%20Sport%20Menthol%20Anti%20Dandruff%20330%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Clear%20Shampoo%20Men",
         "isVerifiedLive": true
       }
     }
@@ -81309,7 +81309,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Clear%20Shampoo%20Men%20Cool%20Sport%20Menthol%20Anti%20Dandruff%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Clear%20Shampoo%20Men",
         "isVerifiedLive": true
       }
     }
@@ -81390,7 +81390,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳51 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Transforming%20Sports%20Car%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Transforming%20Sports%20Car",
         "isVerifiedLive": true
       }
     }
@@ -81471,7 +81471,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sports%20Water%20Gun%20Blue%20Z6039D-3%20Toy%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Sports%20Water%20Gun",
         "isVerifiedLive": true
       }
     }
@@ -81552,7 +81552,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Smart%20Kit%20Tangram%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Smart%20Kit%20Tangram",
         "isVerifiedLive": true
       }
     }
@@ -81633,7 +81633,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳70 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Smart%20Kit%20Focus%20Challenge%20(English%20Version)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Smart%20Kit%20Focus",
         "isVerifiedLive": true
       }
     }
@@ -81714,7 +81714,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳70 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Smart%20Kit%20Focus%20Challenge%20(Bangla%20Version)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Smart%20Kit%20Focus",
         "isVerifiedLive": true
       }
     }
@@ -81795,7 +81795,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳71 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Deer%20Football%20(Size%205)%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Deer%20Football",
         "isVerifiedLive": true
       }
     }
@@ -81876,7 +81876,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳110 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Bear%20Hug%20Me%20Soft%20Toy%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Bear%20Hug%20Me",
         "isVerifiedLive": true
       }
     }
@@ -81957,7 +81957,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳85 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Hello%20Kitty%20Big%20Love%20soft%20Toy%201%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Hello%20Kitty%20Big",
         "isVerifiedLive": true
       }
     }
@@ -82038,7 +82038,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Intense%20Repair%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dove%20Shampoo%20Intense",
         "isVerifiedLive": true
       }
     }
@@ -82119,7 +82119,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Intense%20Repair%20330%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dove%20Shampoo%20Intense",
         "isVerifiedLive": true
       }
     }
@@ -82200,7 +82200,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳60 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Intense%20Repair%20650%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dove%20Shampoo%20Intense",
         "isVerifiedLive": true
       }
     }
@@ -82281,7 +82281,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳55 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dove%20Intense%20Repair%20Shampoo%20(Free%20Hair%20Styling%20Kit)%20650%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dove%20Intense%20Repair",
         "isVerifiedLive": true
       }
     }
@@ -82362,7 +82362,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳35 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dove%20Nourishing%20Oil%20Care%20Shampoo%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dove%20Nourishing%20Oil",
         "isVerifiedLive": true
       }
     }
@@ -82443,7 +82443,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Healthy%20Grow%20(Free%20Dove%20Intense%20Repair%20Conditioner%2050%20ml)%20340%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dove%20Shampoo%20Healthy",
         "isVerifiedLive": true
       }
     }
@@ -82524,7 +82524,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳1 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dove%20Shampoo%20Hair%20Intense%20Repair%207%20ml%206%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dove%20Shampoo%20Hair",
         "isVerifiedLive": true
       }
     }
@@ -82605,7 +82605,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳40 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Livon%20Damage%20Repair%20Shampoo%20(Free%20Olive%20Oil%20100%20ml)%20300%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Livon%20Damage%20Repair",
         "isVerifiedLive": true
       }
     }
@@ -82686,7 +82686,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳125 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Tresemm%C3%A9%20Shampoo%20Ultimate%20Repair%20425%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Tresemm%C3%A9%20Shampoo%20Ultimate",
         "isVerifiedLive": true
       }
     }
@@ -82767,7 +82767,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Parachute%20Naturale%20Damage%20Repair%20Shampoo%20160%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Parachute%20Naturale%20Damage",
         "isVerifiedLive": true
       }
     }
@@ -82848,7 +82848,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Maya%20True%20Herbs%20Herbal%20Coconut%20Oil%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Maya%20True%20Herbs",
         "isVerifiedLive": true
       }
     }
@@ -82929,7 +82929,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Maya%20All%20Natural%20Scalp%20%26%20Hair%20Oil%20100%20ml%20(Free%20Magic%20Herbal%20Toothpaste%2050%20gm)&post_type=product",
+        "url": "https://princebazarbd.com/search/Maya%20All%20Scalp",
         "isVerifiedLive": true
       }
     }
@@ -83010,7 +83010,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Maya%20True%20Herbs%20Cooling%20Coconut%20Hair%20Oil%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Maya%20True%20Herbs",
         "isVerifiedLive": true
       }
     }
@@ -83091,7 +83091,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Maya%20All%20Natural%20Scalp%20%26%20Hair%20Oil%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Maya%20All%20Scalp",
         "isVerifiedLive": true
       }
     }
@@ -83172,7 +83172,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳16 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Kd.H.Co%20Kesh%20Queen%20Anti%20Hairfall%20Hair%20Oil%20100%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Kd%20Co%20Kesh",
         "isVerifiedLive": true
       }
     }
@@ -83253,7 +83253,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳50 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Maya%20All%20Natural%20Cold-Pressed%20Olive%20Oil%20120%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Maya%20All%20Cold",
         "isVerifiedLive": true
       }
     }
@@ -83334,7 +83334,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=MERIL%20OLIVE%20OIL%20150ML&post_type=product",
+        "url": "https://princebazarbd.com/search/MERIL%20OLIVE%20OIL",
         "isVerifiedLive": true
       }
     }
@@ -83415,7 +83415,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳70 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Maya%20All%20Natural%20Moroccan%20Argan%20Oil%2030%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Maya%20All%20Moroccan",
         "isVerifiedLive": true
       }
     }
@@ -83496,7 +83496,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳70 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Maya%20All%20Natural%20Spanish%20Rosehip%20Seed%20Oil%2030%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Maya%20All%20Spanish",
         "isVerifiedLive": true
       }
     }
@@ -83577,7 +83577,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Skincare%20Liquid%20Refill%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Skincare",
         "isVerifiedLive": true
       }
     }
@@ -83658,7 +83658,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20750%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Re",
         "isVerifiedLive": true
       }
     }
@@ -83739,7 +83739,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Cool%20Liquid%20Pump%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash",
         "isVerifiedLive": true
       }
     }
@@ -83820,7 +83820,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Liquid%20Pump%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash",
         "isVerifiedLive": true
       }
     }
@@ -83901,7 +83901,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20170%20ml%20Combo%20(Free%20Tiffin%20)%202%20pcs&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Re",
         "isVerifiedLive": true
       }
     }
@@ -83982,7 +83982,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Aloe%20Vera%20Liquid%20Refill%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Aloe",
         "isVerifiedLive": true
       }
     }
@@ -84063,7 +84063,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Liquid%20Refill%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash",
         "isVerifiedLive": true
       }
     }
@@ -84144,7 +84144,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳110 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Re-Energize%20Liquid%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Re",
         "isVerifiedLive": true
       }
     }
@@ -84225,7 +84225,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Re-Energize%20Liquid%20Refill%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Re",
         "isVerifiedLive": true
       }
     }
@@ -84306,7 +84306,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Cool%20Liquid%20Refill%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash",
         "isVerifiedLive": true
       }
     }
@@ -84387,7 +84387,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Herbal%20Lavender%20Handwash%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Herbal",
         "isVerifiedLive": true
       }
     }
@@ -84468,7 +84468,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Lavender%20Handwash%20Refill%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Lavender",
         "isVerifiedLive": true
       }
     }
@@ -84549,7 +84549,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Ocean%20Blue%20Handwash%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Ocean",
         "isVerifiedLive": true
       }
     }
@@ -84630,7 +84630,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Herbal%20Iris%20Handwash%201%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Herbal",
         "isVerifiedLive": true
       }
     }
@@ -84711,7 +84711,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳110 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Active%20Antiseptic%20Handwash%205%20ltr&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Active",
         "isVerifiedLive": true
       }
     }
@@ -84792,7 +84792,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳15 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Herbal%20Iris%20Handwash%20500%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Herbal",
         "isVerifiedLive": true
       }
     }
@@ -84873,7 +84873,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳30 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Aloe%20Vera%20Antiseptic%20Handwash%201000%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Aloe",
         "isVerifiedLive": true
       }
     }
@@ -84954,7 +84954,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Savlon%20Handwash%20Lemon%20Burst%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Savlon%20Handwash%20Lemon",
         "isVerifiedLive": true
       }
     }
@@ -85035,7 +85035,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Lifebuoy%20Handwash%20Lemon%20Fresh%20Pump%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Lifebuoy%20Handwash%20Lemon",
         "isVerifiedLive": true
       }
     }
@@ -85116,7 +85116,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳5 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sepnil%20Sanitizing%20Hand%20Wash%20Marigold%20(Refill)%20170%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sepnil%20Sanitizing%20Hand",
         "isVerifiedLive": true
       }
     }
@@ -85197,7 +85197,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳20 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Sepnil%20Instant%20Hand%20Sanitizer%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Sepnil%20Hand%20Sanitizer",
         "isVerifiedLive": true
       }
     }
@@ -85278,7 +85278,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Cool%20Liquid%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash",
         "isVerifiedLive": true
       }
     }
@@ -85359,7 +85359,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=ACI%20Savlon%20Ocean%20Blue%20Handwash%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/ACI%20Savlon%20Ocean",
         "isVerifiedLive": true
       }
     }
@@ -85440,7 +85440,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Aloe%20Vera%20Liquid%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Aloe",
         "isVerifiedLive": true
       }
     }
@@ -85521,7 +85521,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Re-Energize%20(Free%20Sanitizer%2050%20ml)%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Re",
         "isVerifiedLive": true
       }
     }
@@ -85602,7 +85602,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash",
         "isVerifiedLive": true
       }
     }
@@ -85683,7 +85683,7 @@ export const PRODUCTS = [
         "inStock": true,
         "discountText": "৳10 ছাড়",
         "offerText": "প্রিন্স সুপারশপ রেট",
-        "url": "https://princebazarbd.com/?s=Dettol%20Handwash%20Skincare%20Pump%20(Free%20Dettol%20Hand%20Sanitizer%2050%20ml)%20200%20ml&post_type=product",
+        "url": "https://princebazarbd.com/search/Dettol%20Handwash%20Skincare",
         "isVerifiedLive": true
       }
     }

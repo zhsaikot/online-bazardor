@@ -3,6 +3,7 @@ import { Plus, Minus, ChevronRight, ExternalLink } from 'lucide-react';
 import { STORES } from '../data/mockCatalog';
 import { useLanguage } from '../context/LanguageContext';
 import StoreLogo from './StoreLogo';
+import { getSanitizedStoreUrl } from '../utils/urlHelper';
 
 export default function ProductCard({ 
   product, 
@@ -95,7 +96,7 @@ export default function ProductCard({
             <span className="text-zinc-500 dark:text-zinc-400 text-[10px] font-medium">{t.bestStore}:</span>
             {hasRealLowest && lowestStore ? (
               <a
-                href={product.prices[lowestStoreKey]?.url}
+                href={getSanitizedStoreUrl(product.prices[lowestStoreKey]?.url, lowestStoreKey, product.cleanQuery)}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}

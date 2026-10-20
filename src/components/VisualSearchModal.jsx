@@ -399,7 +399,7 @@ export default function VisualSearchModal({
             shwapno: { price: 335, inStock: true, discountText: '৳১৫ ছাড়', offerText: 'স্বপ্ন ক্লাব অফার', url: `https://www.shwapno.com/search?q=${encodeURIComponent(q)}` },
             daraz: { price: 340, inStock: true, discountText: '৳১০ ছাড়', offerText: 'দারাজ মার্ট অফার', url: `https://www.daraz.com.bd/catalog/?q=${encodeURIComponent(q)}` },
             cartup: { price: 345, inStock: true, discountText: '৳৫ ছাড়', offerText: 'কার্টআপ ডেলিভারি', url: `https://cartup.com/search?keyword=${encodeURIComponent(q)}` },
-            princebazar: { price: 338, inStock: true, discountText: '৳১২ ছাড়', offerText: 'প্রিন্স বাজার অফার', url: `https://princebazarbd.com/?s=${encodeURIComponent(q)}&post_type=product` }
+            princebazar: { price: 338, inStock: true, discountText: '৳১২ ছাড়', offerText: 'প্রিন্স বাজার অফার', url: `https://princebazarbd.com/search/${encodeURIComponent(q.replace(/\([^)]*\)/g, '').trim())}` }
           }
         };
 

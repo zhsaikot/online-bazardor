@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { cleanProductSearchQuery, getStoreAvailability } from './fetchComprehensiveCatalog.js';
+import { cleanProductSearchQuery, cleanPrinceBazarQuery, getStoreAvailability } from './fetchComprehensiveCatalog.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -188,14 +188,16 @@ export function auditAndFixProduct(prod, stats = { cartupUrlFixes: 0, princeAdde
   };
 
   // Prince Bazar
+  const princeClean = cleanPrinceBazarQuery(prod.nameEn, prod.nameBn);
   prod.prices.princebazar = {
     price: princebazarPrice,
     inStock: availability.princebazar,
     discountText: mrp > princebazarPrice ? `৳${mrp - princebazarPrice} ছাড়` : 'প্রিন্স দর',
     offerText: 'প্রিন্স সুপারশপ রেট',
-    url: `https://princebazarbd.com/?s=${nameQuery}&post_type=product`,
+    url: `https://princebazarbd.com/search/${encodeURIComponent(princeClean)}`,
     isVerifiedLive: true
   };
+  if (stats.princeUrlFixes !== undefined) stats.princeUrlFixes++;
 
   // Update offers
   prod.offers = [
@@ -217,6 +219,7 @@ export async function runAuditAndFix() {
   const stats = {
     totalAudited: 0,
     cartupUrlFixes: 0,
+    princeUrlFixes: 0,
     princeAdded: 0,
     priceFixed: 0
   };
@@ -259,6 +262,7 @@ export const PRODUCTS = ${JSON.stringify(auditedProducts, null, 2)};
   console.log(`Audit Summary:`);
   console.log(`- Total products scanned: ${auditedProducts.length}`);
   console.log(`- Cartup URLs fixed (cartup.com.bd -> cartup.com): ${stats.cartupUrlFixes}`);
+  console.log(`- Prince Bazar search URLs updated to /search/[query]: ${stats.princeUrlFixes}`);
   console.log(`- Prince Bazar store prices added: ${stats.princeAdded}`);
   console.log(`- Corrupted/invalid prices fixed: ${stats.priceFixed}`);
   console.log(`- Active Supermarkets: 5 (Chaldal, Shwapno, Daraz, Cartup, Prince Bazar)`);

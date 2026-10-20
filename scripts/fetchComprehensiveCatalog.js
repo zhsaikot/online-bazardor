@@ -222,6 +222,25 @@ export function cleanProductSearchQuery(nameEn, nameBn = '') {
   return clean;
 }
 
+export function cleanPrinceBazarQuery(nameEn, nameBn = '') {
+  const name = nameEn || nameBn || '';
+  if (!name) return '';
+  let q = name
+    .replace(/\([^)]*\)/gi, ' ')
+    .replace(/\b\d+[-–]?(minute|min)\b/gi, ' ')
+    .replace(/\b(fortified|pure|natural|original|premium|special|instant|classic|freshly|selected|fine|best|super|cool|liquid|pump|dairy)\b/gi, ' ')
+    .replace(/\b\d+(\.\d+)?\s*(ltr|liter|litres|l|kg|kgs|g|gm|gram|grams|ml|pcs|pc|packet|pkt|box|pack)\b/gi, ' ')
+    .replace(/[-–]\s*\d+(\.\d+)?\s*(ltr|liter|l|kg|g|gm|ml)\b/gi, ' ')
+    .replace(/\b(pet|pkt|pouch|poly|refill|jar|can|tin|bottle|mini|combo|family pack)\b/gi, ' ')
+    .replace(/[-–_/+&,.:;]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  const words = q.split(' ').filter(w => w.length > 1);
+  if (words.length <= 2) return words.join(' ');
+  return words.slice(0, 3).join(' ');
+}
+
 export function getStoreAvailability(nameEn, category) {
   const lowerName = (nameEn || '').toLowerCase();
   
@@ -403,7 +422,7 @@ export function formatProduct(hit, category) {
         inStock: availability.princebazar,
         discountText: mrp > princebazarPrice ? `৳${mrp - princebazarPrice} ছাড়` : 'প্রিন্স দর',
         offerText: 'প্রিন্স সুপারশপ রেট',
-        url: `https://princebazarbd.com/?s=${encodedCleanQuery}&post_type=product`,
+        url: `https://princebazarbd.com/search/${encodeURIComponent(cleanPrinceBazarQuery(nameEn, nameBn))}`,
         isVerifiedLive: true
       }
     }
